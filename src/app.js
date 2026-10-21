@@ -49,6 +49,8 @@
     var m;
     if ((m = r.match(/^partido-([a-z0-9]+)/))) return siteUrl() + '/partido/' + m[1] + '/';
     if ((m = r.match(/^tema-([a-z]+)/))) return siteUrl() + '/tema/' + m[1] + '/';
+    if (r === 'importa') return siteUrl() + '/datos/';
+    if ((m = r.match(/^importa-([a-z0-9-]+)$/))) return siteUrl() + '/datos/' + m[1] + '/';
     return siteUrl() + '/' + r + '/';
   }
   function partyPath(r) {
@@ -119,6 +121,7 @@
     if (opts.live) opts.live();
   }
   var shareCtx = null;
+  var titledOnce = false;
   function drawTextImage(text, url) {
     var c = document.createElement('canvas'); c.width = 1080; c.height = 1350; var x = c.getContext('2d');
     var F = '"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif';
@@ -210,6 +213,8 @@
       if (!p) return 'inicio';
       if ((m = p.match(/^\/partido\/([a-z0-9]+)$/))) return 'partido-' + m[1];
       if ((m = p.match(/^\/tema\/([a-z]+)$/))) return 'tema-' + m[1];
+      if (p === '/datos' || p === '/importa') return 'importa';
+      if ((m = p.match(/^\/datos\/([a-z0-9-]+)$/))) return 'importa-' + m[1];
       return p.replace(/^\//, '');
     }
     return (location.hash || '').replace(/^#/, '') || (window.__ROUTE__ || 'inicio');
@@ -275,7 +280,7 @@
       }
     } catch (e) { console.error(e); html = empty('Algo ha fallado al cargar esta pantalla. Vuelve al inicio e inténtalo de nuevo.'); }
     $('#topTitle').innerHTML = title ? esc(title) : brandWord();
-    document.title = (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
+    if (MODE === 'site' && !titledOnce) titledOnce = true; else document.title = (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
     v.classList.remove('push', 'pop', 'fade');
     void v.offsetWidth;
     v.innerHTML = html;
@@ -410,7 +415,7 @@
     var st = partyStats(p);
     var crits = p.criticas || {}; var nc = (crits.economica || []).length + (crits.social || []).length + (crits.cultural || []).length + (crits.derecho || []).length;
     var head = '<section class="phead" style="--pc:' + esc(p.color) + ';--pcfg:' + contrast(p.color) + '">' +
-      '<div class="phead-top">' + avatar(p, 'lg') + '<div class="phead-id"><h1>' + esc(p.nombre) + '</h1><p>' + esc([p.candidato].filter(Boolean).join(' · ')) + '</p></div></div>' +
+      '<div class="phead-top">' + avatar(p, 'lg') + '<div class="phead-id"><h1>' + esc(p.nombre) + '</h1><p>' + esc(['Programa electoral 2026', p.candidato].filter(Boolean).join(' · ')) + '</p></div></div>' +
       (p.resumen ? '<p class="phead-sum">' + esc(p.resumen) + '</p>' : '') +
       (p.autodefinicion && p.autodefinicion.texto ? '<p class="selfdef"><span>Se define como</span> «' + esc(p.autodefinicion.texto) + '» ' + src(p.autodefinicion.fuente, 'Fuente') + '</p>' : '') +
       (p.ches && p.ches.lrgen != null ? '<div class="ches"><span class="ches-l">Izquierda</span><span class="ches-t"><i style="left:' + (p.ches.lrgen * 10).toFixed(1) + '%"></i></span><span class="ches-l">Derecha</span><small>Posición según expertos: ' + fmt(p.ches.lrgen, 1) + ' sobre 10 · ' + src(p.ches.fuente, 'Chapel Hill Expert Survey ' + (p.ches.anio || '')) + '</small></div>' : '') +
@@ -513,7 +518,7 @@
   }
   function cmpSave() { store.set('cmp2', { sel: cmp.sel, area: cmp.area }); }
   function cmpHead(mode) {
-    return '<section class="block first"><h1 class="h1">Comparar</h1>' +
+    return '<section class="block first"><h1 class="h1">' + (mode === 'todos' ? esc(areaName(cmp.area)) + ': qué propone cada partido' : 'Comparar partidos') + '</h1>' +
       '<div class="seg cmp-mode" role="tablist">' +
       '<a role="tab" class="seg-btn' + (mode === 'cmp' ? ' on' : '') + '" href="' + partyPath('comparar') + '" data-nav="comparar">Frente a frente</a>' +
       '<a role="tab" class="seg-btn' + (mode === 'todos' ? ' on' : '') + '" href="' + partyPath('tema-' + cmp.area) + '" data-nav="tema-' + cmp.area + '">Todos los partidos</a></div>' +
