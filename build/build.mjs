@@ -22,7 +22,7 @@ const AREAS = [
   ['sanidad', 'Sanidad'], ['educacion', 'Educación'], ['deuda', 'Deuda y cuentas públicas'], ['demografia', 'Familia y demografía'],
   ['energia', 'Energía y clima'], ['inmigracion', 'Inmigración'], ['instituciones', 'Justicia, instituciones y corrupción'],
   ['territorio', 'Modelo territorial'], ['igualdad', 'Igualdad y derechos sociales'], ['seguridad', 'Seguridad y defensa'],
-  ['exterior', 'Europa y exterior'], ['rural', 'Campo y mundo rural'], ['tecnologia', 'Ciencia, tecnología e innovación'], ['cultura', 'Cultura, lengua e identidad'],
+  ['exterior', 'Europa, soberanía y exterior'], ['rural', 'Campo y mundo rural'], ['tecnologia', 'Ciencia, tecnología e innovación'], ['cultura', 'Cultura, lengua e identidad'],
 ];
 const parties = [];
 const extraIds = fs.readdirSync(path.join(ROOT, 'data/parties')).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''))

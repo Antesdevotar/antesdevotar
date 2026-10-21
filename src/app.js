@@ -220,7 +220,7 @@
     $('#tabbar').innerHTML = tabs;
     $('#railNav').innerHTML = TABS.filter(function (t) { return t.id !== 'test' || (D.test && D.test.afirmaciones); }).map(function (t) {
       return '<a href="' + partyPath(t.id) + '" data-nav="' + t.id + '" class="rail-link' + (rt.tabId === t.id ? ' on' : '') + '">' + icon(t.icon, 20) + '<span>' + esc(t.label) + '</span></a>';
-    }).join('') + '<a href="' + partyPath('partidos') + '" data-nav="partidos" class="rail-link sub' + (rt.view === 'partidos' || rt.view === 'partido' ? ' on' : '') + '">' + icon('parties', 20) + '<span>Todos los partidos</span></a><a href="' + partyPath('metodologia') + '" data-nav="metodologia" class="rail-link' + (rt.view === 'metodologia' ? ' on' : '') + '">' + icon('info', 20) + '<span>Metodología y fuentes</span></a>';
+    }).join('') + '<a href="' + partyPath('partidos') + '" data-nav="partidos" class="rail-link sub' + (rt.view === 'partidos' || rt.view === 'partido' ? ' on' : '') + '">' + icon('parties', 20) + '<span>Todos los partidos</span></a><a href="' + partyPath('metodologia') + '" data-nav="metodologia" class="rail-link' + (rt.view === 'metodologia' ? ' on' : '') + '">' + icon('info', 20) + '<span>Metodología y contacto</span></a>';
     $('#railFoot').innerHTML = '<div class="countdown-mini"><b>' + daysLeft() + '</b><span>días para votar<br>29 de noviembre</span></div>';
     $('#backBtn').hidden = rt.depth === 0;
   }
@@ -348,7 +348,7 @@
   }
   function footer() {
     return '<footer class="foot"><p>' + esc((D.meta && D.meta.nombre) || 'Antes de Votar') + ' es una herramienta independiente y no partidista. Aplicamos los mismos criterios a todos los partidos y enlazamos cada dato a su fuente.</p>' +
-      '<a href="' + partyPath('metodologia') + '" data-nav="metodologia">Metodología y fuentes</a><span>Actualizado el ' + esc(fdate(D.generado)) + '</span></footer>';
+      '<a href="' + partyPath('metodologia') + '" data-nav="metodologia">Metodología, aviso y contacto</a><span>Actualizado el ' + esc(fdate(D.generado)) + '</span></footer>';
   }
 
   function viewPartidos() {
@@ -902,6 +902,8 @@
       ['Independencia', 'Esta herramienta no está vinculada a ningún partido. Si detectas un error o un sesgo, avísanos: corregimos y lo indicamos.']
     ];
     return '<section class="block first"><h1 class="h1">Metodología y fuentes</h1>' + m.map(function (x) { return '<article class="meth"><h2>' + esc(x[0]) + '</h2><p>' + esc(x[1]) + '</p></article>'; }).join('') +
+      '<article class="meth"><h2>Aviso</h2><p>Antes de Votar es un proyecto independiente. No está vinculado a ningún partido, candidatura, administración ni medio de comunicación, y no recibe financiación de ninguno de ellos. Su contenido es informativo y no es una recomendación de voto. Las propuestas son resúmenes: en caso de duda, prevalece el documento original del partido, enlazado en cada una. Las críticas recogen análisis publicados por terceros, con su fuente. Los nombres, siglas y colores de los partidos pertenecen a sus titulares y se usan solo para identificarlos. Puede haber errores: si encuentras uno, avísanos.</p></article>' +
+      '<article class="meth" id="contacto"><h2>Contacto y correcciones</h2><p>Si ves un error, una fuente que no respalda lo que se dice o quieres pedir una rectificación, escríbenos. Revisamos todos los avisos y corregimos lo antes posible.</p>' + (D.meta && D.meta.form_url ? '<a class="btn" href="' + esc(D.meta.form_url) + '" target="_blank" rel="noopener">Avisar de un error</a>' : '<p class="fine">El formulario de contacto estará disponible próximamente.</p>') + '</article>' +
       '<article class="meth"><h2>Encuestas</h2><p>' + esc(D.encuestas.metodo) + '</p>' + (D.encuestas.fuentes || []).map(function (f) { return src(f); }).join(' ') + '</article></section>' + footer();
   }
 
