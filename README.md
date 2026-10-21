@@ -1,6 +1,6 @@
 # Antes de Votar
 
-App electoral no partidista para las elecciones generales del 29 de noviembre de 2026: todas las propuestas de cada partido resumidas y sin interpretar, sus críticas (económicas, sociales y culturales), sus declaraciones falsas verificadas, la trampa de la deuda pública explicada con simulador y lo que de verdad importa frente al ruido.
+App electoral no partidista para las elecciones generales del 29 de noviembre de 2026: las propuestas de cada partido resumidas y sin interpretar, críticas con fuente (económicas, sociales, culturales y de Estado de derecho), un test de afinidad, la deuda pública explicada con un simulador y los problemas que más afectan a la calidad de vida, con datos.
 
 ## Estructura
 - `data/` — todo el contenido en JSON (un fichero por partido, encuestas, deuda, importa, test). Reglas editoriales en `data/SCHEMA.md`.
