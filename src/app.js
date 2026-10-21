@@ -531,12 +531,20 @@
 
   // ----- Test -----
   var T = { i: 0, ans: null, w: null, done: false };
-  function tload() { if (T.ans) return; T.ans = store.get('tans', {}); T.w = store.get('tw', {}); var q = D.test.afirmaciones; T.i = 0; while (T.i < q.length && T.ans[q[T.i].id] !== undefined) T.i++; T.done = T.i >= q.length; }
-  function tsave() { store.set('tans', T.ans); store.set('tw', T.w); }
+  function tload() { if (T.ans) return; T.ans = store.get('tans', {}); T.w = store.get('tw2', null); if (!T.w) { var old = store.get('tw', {}); T.w = {}; Object.keys(old).forEach(function (k) { T.w[k] = 'mucho'; }); } var q = D.test.afirmaciones; T.i = 0; while (T.i < q.length && T.ans[q[T.i].id] !== undefined) T.i++; T.done = T.i >= q.length; }
+  function tsave() { store.set('tans', T.ans); store.set('tw2', T.w); }
   function viewTest() {
     if (!D.test || !D.test.afirmaciones || !D.test.afirmaciones.length) return empty('El test se está preparando.');
     tload();
     return '<section class="block first test">' + (T.done ? testResult() : testQ()) + '</section>' + footer();
+  }
+  var T_PESO = { poco: 0.5, mucho: 2 };
+  function impRow(a) {
+    var cur = T.w[a.id] || '';
+    return '<div class="timp" role="radiogroup" aria-label="Cuánto te importa este tema"><span class="timp-l">¿Cuánto te importa?</span><div class="timp-seg">' +
+      [['poco', 'Poco'], ['', 'Normal'], ['mucho', 'Mucho']].map(function (o) {
+        return '<button type="button" role="radio" aria-checked="' + (cur === o[0]) + '" class="timp-b' + (cur === o[0] ? ' on' : '') + '" data-imp="' + o[0] + '">' + o[1] + '</button>';
+      }).join('') + '</div></div>';
   }
   function testQ() {
     var q = D.test.afirmaciones, a = q[T.i], n = q.length;
@@ -544,12 +552,12 @@
     return '<div class="tq-top"><div class="tq-bar"><i style="width:' + (T.i / n * 100).toFixed(1) + '%"></i></div><span>' + (T.i + 1) + ' de ' + n + '</span></div>' +
       (T.i === 0 && !answered ? '<p class="tq-intro">' + esc(D.test.intro) + ' <b>' + esc(D.test.aviso) + '</b></p>' : '') +
       '<article class="tq" id="tq"><span class="tq-area">' + esc(areaName(a.area)) + '</span><h1 class="tq-text">' + esc(a.texto) + '</h1>' + (a.contexto ? '<p class="tq-ctx">' + esc(a.contexto) + '</p>' : '') + '</article>' +
+      impRow(a) +
       '<div class="tq-actions">' +
       '<button type="button" class="tbtn yes" data-ans="1">De acuerdo</button>' +
       '<button type="button" class="tbtn mid" data-ans="0">Neutral</button>' +
       '<button type="button" class="tbtn no" data-ans="-1">En desacuerdo</button>' +
       '<div class="tq-sub"><button type="button" class="linkbtn" data-tprev' + (T.i === 0 ? ' disabled' : '') + '>' + icon('prev', 16) + ' Anterior</button>' +
-      '<label class="tw" for="tW"><input type="checkbox" id="tW"' + (T.w[a.id] ? ' checked' : '') + '> Me importa mucho (×2)</label>' +
       '<button type="button" class="linkbtn" data-ans="skip">Saltar</button></div></div>' +
       (answered ? '<p class="fine">Tus respuestas se guardan solo en este dispositivo. <button type="button" class="linkbtn inline" data-trestart>Borrar mis respuestas</button></p>' : '<p class="fine">Tus respuestas se quedan en este dispositivo y no se envían a ningún servidor.</p>');
   }
@@ -560,7 +568,7 @@
     D.partidos.forEach(function (p) { res[p.id] = { p: p, s: 0, m: 0, n: 0, cov: tcov(p.id) }; });
     q.forEach(function (a) {
       var u = T.ans[a.id]; if (u === undefined || u === 'skip') return;
-      var w = T.w[a.id] ? 2 : 1;
+      var w = T_PESO[T.w[a.id]] || 1;
       Object.keys(res).forEach(function (pid) {
         var pos = (a.posiciones || {})[pid], r = res[pid];
         r.m += w;
@@ -603,13 +611,12 @@
       if (!pos || pos.valor == null) return '<li class="nd"><p>' + esc(a.texto) + '</p><span>Sin posición documentada</span></li>';
       var match = u === pos.valor ? 'ok' : Math.abs(u - pos.valor) === 2 ? 'ko' : 'half';
       var refs = (pos.ref || []).map(function (id) { return idx[id]; }).filter(Boolean);
-      return '<li class="' + match + '"><p>' + esc(a.texto) + '</p><span>Tú: ' + lab[String(u)] + ' · ' + esc(p.siglas) + ': ' + lab[String(pos.valor)] + '</span>' + (pos.nota ? '<em>' + esc(pos.nota) + '</em>' : '') + (pos.contradiccion ? '<em><b>Dice y vota distinto:</b> ' + esc(pos.contradiccion) + '</em>' : '') + (pos.fuente && pos.fuente.url ? src(pos.fuente) : '') + refs.map(function (x) { return x.fuente ? src(x.fuente) : ''; }).join('') + '</li>';
+      return '<li class="' + match + '"><p>' + esc(a.texto) + '</p><span>Tú: ' + lab[String(u)] + (T.w[a.id] ? ' (te importa ' + T.w[a.id] + ')' : '') + ' · ' + esc(p.siglas) + ': ' + lab[String(pos.valor)] + '</span>' + (pos.nota ? '<em>' + esc(pos.nota) + '</em>' : '') + (pos.contradiccion ? '<em><b>Dice y vota distinto:</b> ' + esc(pos.contradiccion) + '</em>' : '') + (pos.fuente && pos.fuente.url ? src(pos.fuente) : '') + refs.map(function (x) { return x.fuente ? src(x.fuente) : ''; }).join('') + '</li>';
     }).join('') + '</ul>';
   }
   function tanswer(v) {
     var q = D.test.afirmaciones, a = q[T.i];
     T.ans[a.id] = v === 'skip' ? 'skip' : +v;
-    var w = $('#tW'); if (w) { if (w.checked) T.w[a.id] = 1; else delete T.w[a.id]; }
     tsave();
     try { if (navigator.vibrate) navigator.vibrate(8); } catch (e) {}
     T.i++; if (T.i >= q.length) T.done = true;
@@ -961,6 +968,7 @@
     if ((t = e.target.closest('[data-cmp-del]'))) { cmp.sel.splice(+t.getAttribute('data-cmp-del'), 1); cmpSave(); $('#cmpOut').innerHTML = cmpOut(); return; }
     if ((t = e.target.closest('#cmpAdd'))) { var nx = D.partidos.filter(function (p) { return cmp.sel.indexOf(p.id) < 0; })[0]; if (nx) { cmp.sel.push(nx.id); cmpSave(); $('#cmpOut').innerHTML = cmpOut(); var ls = $$('[data-cmp-idx]'); if (ls.length) ls[ls.length - 1].focus(); } return; }
     if ((t = e.target.closest('[data-cmp-area]'))) { cmp.area = t.getAttribute('data-cmp-area'); cmpSave(); $$('[data-cmp-area]').forEach(function (b) { b.classList.toggle('on', b === t); }); $('#cmpOut').innerHTML = cmpOut(); t.scrollIntoView({ inline: 'center', block: 'nearest' }); return; }
+    if ((t = e.target.closest('[data-imp]'))) { var qa = D.test.afirmaciones[T.i], v = t.getAttribute('data-imp'); if (v) T.w[qa.id] = v; else delete T.w[qa.id]; tsave(); Array.prototype.forEach.call(document.querySelectorAll('.timp-b'), function (b) { var on = b === t; b.classList.toggle('on', on); b.setAttribute('aria-checked', on); }); return; }
     if ((t = e.target.closest('[data-ans]'))) { tanswer(t.getAttribute('data-ans')); return; }
     if ((t = e.target.closest('[data-tprev]'))) { if (T.i > 0) { T.i--; $('.block.test').innerHTML = testQ(); } return; }
     if ((t = e.target.closest('[data-trestart]'))) { T.ans = {}; T.w = {}; T.i = 0; T.done = false; tsave(); $('.block.test').innerHTML = testQ(); return; }

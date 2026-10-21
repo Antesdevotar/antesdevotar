@@ -644,3 +644,9 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .tres-low{margin-top:18px}
 .tres-low>summary{cursor:pointer;font:750 15px var(--f-display);padding:8px 0;color:var(--ink-2)}
 .tres-low .tr{opacity:.85}
+.timp{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}
+.timp-l{font-size:13.5px;font-weight:650;color:var(--ink-2)}
+.timp-seg{display:grid;grid-template-columns:repeat(3,auto);gap:3px;padding:3px;border-radius:12px;background:var(--surface-2)}
+.timp-b{height:34px;padding:0 11px;border:0;border-radius:9px;background:transparent;font:650 13.5px var(--f-body);color:var(--ink-2)}
+.timp-b.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.timp-b[data-imp="mucho"].on{background:var(--ink);color:var(--bg)}
