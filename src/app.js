@@ -591,7 +591,7 @@
       if (!pos || pos.valor == null) return '<li class="nd"><p>' + esc(a.texto) + '</p><span>Sin posición documentada</span></li>';
       var match = u === pos.valor ? 'ok' : Math.abs(u - pos.valor) === 2 ? 'ko' : 'half';
       var refs = (pos.ref || []).map(function (id) { return idx[id]; }).filter(Boolean);
-      return '<li class="' + match + '"><p>' + esc(a.texto) + '</p><span>Tú: ' + lab[String(u)] + ' · ' + esc(p.siglas) + ': ' + lab[String(pos.valor)] + '</span>' + (pos.nota ? '<em>' + esc(pos.nota) + '</em>' : '') + refs.map(function (x) { return x.fuente ? src(x.fuente) : ''; }).join('') + '</li>';
+      return '<li class="' + match + '"><p>' + esc(a.texto) + '</p><span>Tú: ' + lab[String(u)] + ' · ' + esc(p.siglas) + ': ' + lab[String(pos.valor)] + '</span>' + (pos.nota ? '<em>' + esc(pos.nota) + '</em>' : '') + (pos.contradiccion ? '<em><b>Dice y vota distinto:</b> ' + esc(pos.contradiccion) + '</em>' : '') + (pos.fuente && pos.fuente.url ? src(pos.fuente) : '') + refs.map(function (x) { return x.fuente ? src(x.fuente) : ''; }).join('') + '</li>';
     }).join('') + '</ul>';
   }
   function tanswer(v) {

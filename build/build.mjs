@@ -166,7 +166,7 @@ emit('importa', {
   jsonld: orgLd,
   seoBody: `<h1>${esc(DATA.importa?.titular || 'Lo que importa')}</h1><p>${esc(DATA.importa?.manifiesto || '')}</p>`,
 });
-if (DATA.test) emit('test', { route: 'test', title: `¿Con qué partido coincides? Test electoral 29N | ${NAME}`, description: 'Responde a 24 afirmaciones y descubre en qué coincides con cada partido, según sus propuestas reales y con fuente.', jsonld: orgLd, seoBody: '<h1>¿Con qué partido coincides?</h1>' });
+if (DATA.test) emit('test', { route: 'test', title: `¿Con qué partido coincides? Test electoral 29N | ${NAME}`, description: 'Responde a 30 afirmaciones y descubre en qué coincides con cada partido, según lo que ha votado, hecho o propuesto, con fuente.', jsonld: orgLd, seoBody: '<h1>¿Con qué partido coincides?</h1>' });
 emit('partidos', { route: 'partidos', title: `Todos los partidos del 29N | ${NAME}`, description: 'Los partidos que se presentan a las elecciones generales del 29 de noviembre de 2026, ordenados por intención de voto.', jsonld: orgLd, seoBody: `<h1>Partidos</h1>${list(parties.map((p) => p.nombre))}` });
 emit('comparar', { route: 'comparar', title: `Comparar partidos tema a tema | ${NAME}`, description: 'Compara las propuestas de dos partidos en vivienda, empleo, pensiones y cualquier otro tema.', jsonld: orgLd, seoBody: '<h1>Comparar partidos</h1>' });
 emit('metodologia', { route: 'metodologia', title: `Metodología y fuentes | ${NAME}`, description: 'Cómo resumimos los programas y cómo seleccionamos las críticas.', jsonld: orgLd, seoBody: '<h1>Metodología</h1>' });
