@@ -638,3 +638,9 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .slider label{margin-bottom:4px;align-items:center}
 .slider label span{display:inline-flex;align-items:center}
 .sl-hoy::after{content:none!important}.sl-hoy{background:var(--ink-2);height:12px;top:-3px}
+.tres-lead{margin:12px 0 0;padding:12px 14px;border-radius:var(--r-m);background:var(--surface-2);font-size:14.5px;line-height:1.45}
+.tr.top{border-color:color-mix(in srgb,var(--pc) 45%,var(--line))}
+.tr-main b .tag{margin-left:6px;vertical-align:1px}
+.tres-low{margin-top:18px}
+.tres-low>summary{cursor:pointer;font:750 15px var(--f-display);padding:8px 0;color:var(--ink-2)}
+.tres-low .tr{opacity:.85}

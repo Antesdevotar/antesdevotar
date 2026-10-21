@@ -553,31 +553,43 @@
       '<button type="button" class="linkbtn" data-ans="skip">Saltar</button></div></div>' +
       (answered ? '<p class="fine">Tus respuestas se guardan solo en este dispositivo. <button type="button" class="linkbtn inline" data-trestart>Borrar mis respuestas</button></p>' : '<p class="fine">Tus respuestas se quedan en este dispositivo y no se envían a ningún servidor.</p>');
   }
+  var T_MIN = 15, T_EMPATE = 5;
+  function tcov(pid) { return D.test.afirmaciones.filter(function (a) { var x = (a.posiciones || {})[pid]; return x && x.valor != null; }).length; }
   function scores() {
     var q = D.test.afirmaciones, res = {};
-    D.partidos.forEach(function (p) { res[p.id] = { p: p, s: 0, m: 0, n: 0 }; });
+    D.partidos.forEach(function (p) { res[p.id] = { p: p, s: 0, m: 0, n: 0, cov: tcov(p.id) }; });
     q.forEach(function (a) {
       var u = T.ans[a.id]; if (u === undefined || u === 'skip') return;
       var w = T.w[a.id] ? 2 : 1;
-      Object.keys(a.posiciones || {}).forEach(function (pid) {
-        var pos = a.posiciones[pid], r = res[pid]; if (!r || !pos || pos.valor == null) return;
-        r.s += w * (1 - Math.abs(u - pos.valor) / 2); r.m += w; r.n++;
+      Object.keys(res).forEach(function (pid) {
+        var pos = (a.posiciones || {})[pid], r = res[pid];
+        r.m += w;
+        if (!pos || pos.valor == null) { r.s += w * 0.5; return; }
+        r.s += w * (1 - Math.abs(u - pos.valor) / 2); r.n++;
       });
     });
-    return Object.keys(res).map(function (k) { var r = res[k]; r.pct = r.m ? Math.round(r.s / r.m * 100) : null; return r; })
-      .sort(function (A, B) { var a = A.n >= 5 ? 1 : 0, b = B.n >= 5 ? 1 : 0; if (a !== b) return b - a; return (B.pct == null ? -1 : B.pct) - (A.pct == null ? -1 : A.pct); });
+    return Object.keys(res).map(function (k) { var r = res[k]; r.ok = r.cov >= T_MIN; r.pct = r.m ? Math.round(r.s / r.m * 100) : null; return r; })
+      .sort(function (A, B) { if (A.ok !== B.ok) return A.ok ? -1 : 1; if (!A.ok) return B.cov - A.cov; return (B.pct == null ? -1 : B.pct) - (A.pct == null ? -1 : A.pct); });
   }
   function testResult() {
     var sc = scores(), q = D.test.afirmaciones;
     var nAns = q.filter(function (a) { var u = T.ans[a.id]; return u !== undefined && u !== 'skip'; }).length;
     if (!nAns) return '<div class="empty"><p>Has saltado todas las afirmaciones. Responde al menos una para ver tus coincidencias.</p><button class="btn" type="button" data-trestart>Empezar de nuevo</button></div>';
-    return '<h1 class="h1">Tus coincidencias</h1><p class="lede small">' + esc(D.test.aviso) + ' Has respondido ' + nAns + ' de ' + q.length + '.</p>' +
-      '<div class="tres">' + sc.map(function (r, k) {
-        var p = r.p;
-        var head = (k > 0 && sc[k - 1].n >= 5 && r.n < 5) ? '<h2 class="tres-sub">Con pocos datos para comparar</h2><p class="fine" style="margin-top:0">Menos de 5 respuestas comparables: el porcentaje es poco fiable.</p>' : '';
-        var row = '<details class="tr" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tr-main"><b>' + esc(p.nombre) + '</b><span class="prow-bar"><i style="width:' + (r.pct || 0) + '%"></i></span><small>' + (r.n ? 'Basado en ' + r.n + ' respuestas con posición documentada' : 'Sin posiciones documentadas en lo que has respondido') + '</small></span><span class="tr-pct">' + (r.pct == null ? '–' : r.pct + '%') + '</span></summary>' + trDetail(p) + '</details>';
-        return head + row;
-      }).join('') + '</div>' +
+    var ok = sc.filter(function (r) { return r.ok; }), low = sc.filter(function (r) { return !r.ok; });
+    var top = ok.length ? ok[0].pct : 0;
+    var tied = ok.filter(function (r) { return top - r.pct <= T_EMPATE; });
+    var lead = tied.length > 1
+      ? '<p class="tres-lead"><b>Empate entre ' + tied.map(function (r) { return esc(r.p.siglas); }).join(', ') + '.</b> Están a ' + T_EMPATE + ' puntos o menos: con estas respuestas el test no puede separarlos.</p>'
+      : (ok.length ? '<p class="tres-lead">El más cercano es <b>' + esc(ok[0].p.siglas) + '</b>' + (ok[1] ? ', con ' + (top - ok[1].pct) + ' puntos de ventaja sobre el siguiente' : '') + '.</p>' : '');
+    var row = function (r, k) {
+      var p = r.p, tie = r.ok && top - r.pct <= T_EMPATE && tied.length > 1;
+      return '<details class="tr' + (r.ok && k < 3 ? ' top' : '') + '" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tr-main"><b>' + esc(p.nombre) + (tie ? ' <span class="tag">Empate</span>' : '') + '</b>' +
+        (r.ok ? '<span class="prow-bar"><i style="width:' + (r.pct || 0) + '%"></i></span><small>Posición documentada en ' + r.n + ' de tus ' + nAns + ' respuestas</small>' : '<small>Posición documentada en ' + r.cov + ' de ' + q.length + ' afirmaciones</small>') +
+        '</span><span class="tr-pct">' + (r.ok ? r.pct + '%' : '') + '</span></summary>' + trDetail(p) + '</details>';
+    };
+    return '<h1 class="h1">Tus coincidencias</h1><p class="lede small">' + esc(D.test.aviso) + ' Has respondido ' + nAns + ' de ' + q.length + '.</p>' + lead +
+      '<div class="tres">' + ok.map(row).join('') + '</div>' +
+      (low.length ? '<details class="tres-low"><summary>Partidos con datos insuficientes (' + low.length + ')</summary><p class="fine">Tienen posición verificable en menos de ' + T_MIN + ' afirmaciones, así que no entran en la clasificación: un porcentaje calculado con tan pocos datos engañaría. Puedes ver en qué coincides en las que sí tienen.</p><div class="tres">' + low.map(row).join('') + '</div></details>' : '') +
       '<div class="tres-actions"><button class="btn" type="button" id="testShare">' + icon('share', 17) + ' Compartir resultado</button><button class="btn ghost" type="button" data-trestart>Borrar mis respuestas y repetir</button></div>' +
       '<p class="fine">Tus respuestas se guardan solo en este dispositivo, no se envían a ningún servidor y nadie más puede verlas. Puedes borrarlas cuando quieras.</p>' +
       '<p class="fine">' + esc(D.test.metodo || '') + '</p>';
@@ -952,7 +964,7 @@
     if ((t = e.target.closest('[data-ans]'))) { tanswer(t.getAttribute('data-ans')); return; }
     if ((t = e.target.closest('[data-tprev]'))) { if (T.i > 0) { T.i--; $('.block.test').innerHTML = testQ(); } return; }
     if ((t = e.target.closest('[data-trestart]'))) { T.ans = {}; T.w = {}; T.i = 0; T.done = false; tsave(); $('.block.test').innerHTML = testQ(); return; }
-    if ((t = e.target.closest('#testShare'))) { var sc = scores().filter(function (r) { return r.pct != null && r.n >= 5; }).slice(0, 3); share('Mis coincidencias con los partidos para el 29N: ' + sc.map(function (r) { return r.p.siglas + ' ' + r.pct + '%'; }).join(', ') + '. ¿Y tú?', siteUrl() + '/test/', '<div class="scard"><p class="scard-k" style="font:800 22px var(--f-display)">¿Con quién coincido?</p>' + sc.map(function (r) { return '<div class="scard-row" style="--pc:' + esc(r.p.color) + '">' + avatar(r.p) + '<span class="prow-bar"><i style="width:' + r.pct + '%"></i></span><b>' + r.pct + '%</b></div>'; }).join('') + '<div class="scard-foot"><span>Hazlo tú antes del 29N</span><b>Antes de Votar</b></div>' + stamp() + '</div>'); return; }
+    if ((t = e.target.closest('#testShare'))) { var sc = scores().filter(function (r) { return r.ok; }).slice(0, 3); share('Mis coincidencias con los partidos para el 29N: ' + sc.map(function (r) { return r.p.siglas + ' ' + r.pct + '%'; }).join(', ') + '. ¿Y tú?', siteUrl() + '/test/', '<div class="scard"><p class="scard-k" style="font:800 22px var(--f-display)">¿Con quién coincido?</p>' + sc.map(function (r) { return '<div class="scard-row" style="--pc:' + esc(r.p.color) + '">' + avatar(r.p) + '<span class="prow-bar"><i style="width:' + r.pct + '%"></i></span><b>' + r.pct + '%</b></div>'; }).join('') + '<div class="scard-foot"><span>Hazlo tú antes del 29N</span><b>Antes de Votar</b></div>' + stamp() + '</div>'); return; }
     if ((t = e.target.closest('#cmpShare'))) { var ps = cmp.sel.map(P); share(ps.map(function (p) { return p.siglas; }).join(' vs ') + ' en ' + areaName(cmp.area).toLowerCase() + ': ' + (ps.length > 1 ? 'compara sus propuestas' : 'mira sus propuestas') + ' antes del 29N', siteUrl() + '/tema/' + cmp.area + '/', cmpCard(ps)); return; }
     if ((t = e.target.closest('[data-share-prop]'))) {
       var parts = t.getAttribute('data-share-prop').split('|'), pp = P(parts[0]), x = pp.propuestas.filter(function (y) { return y.id === parts[1]; })[0];

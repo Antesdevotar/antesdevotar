@@ -49,9 +49,11 @@ Cada partido tiene críticas en cuatro dimensiones: **económica**, **social**, 
 
 ## 5. Test «¿Con quién coincides?»
 
-- Las afirmaciones se eligen porque separan a los partidos. La mitad están redactadas de modo que «de acuerdo» es la respuesta típica de la izquierda y la otra mitad de la derecha. También hay afirmaciones sobre el modelo territorial y sobre el papel del Estado en la economía.
-- La posición de cada partido (de acuerdo, matizada o en desacuerdo) se asigna solo a partir de sus propuestas recopiladas, y cada una enlaza a la propuesta que la justifica. Si no hay propuesta, el partido queda sin posición en esa afirmación.
-- **Cálculo:** coincidir suma 1 punto, estar a un paso suma 0,5 y la posición opuesta suma 0. El porcentaje es la media sobre las afirmaciones en las que el usuario y el partido tienen posición. Las afirmaciones marcadas como importantes cuentan doble. Los partidos con menos de 5 respuestas comparables aparecen aparte.
+- **Selección.** Los temas salen de cruzar lo que más preocupa a los españoles según el CIS con las grandes líneas de división del sistema de partidos (económica, valores, territorial, soberanía e integración europea, inmigración, instituciones, exterior y defensa). Aproximadamente la mitad de las afirmaciones están redactadas de modo que «de acuerdo» es la respuesta típica de la izquierda y la otra mitad de la derecha. Se descartan las afirmaciones con posición documentada de menos de 5 partidos.
+- **Posiciones.** Se asignan por este orden: lo votado en el Congreso o el Parlamento Europeo o lo hecho gobernando; después el programa; después las declaraciones. Si lo que dice y lo que vota no coinciden, cuenta lo votado y se muestra la contradicción. Cada posición enlaza a su fuente.
+- **Cálculo.** Coincidir suma 1 punto, estar a un paso suma 0,5 y la posición opuesta suma 0. Si un partido no tiene posición verificable en una afirmación, cuenta 0,5 (desconocida), para que tener pocos datos no dé ventaja. Las afirmaciones marcadas como importantes cuentan doble.
+- **Clasificación.** Solo entran los partidos con posición en al menos 15 afirmaciones; los demás aparecen aparte, sin porcentaje. Si varios partidos quedan a 5 puntos o menos del primero, se muestran como empate.
+- **Validación.** Antes de publicar se comprueba con votantes simulados que el test devuelve el partido correcto entre los más cercanos, y con personas reales que saben a quién votan.
 - **Privacidad:** las respuestas se calculan en el navegador del usuario y no se envían a ningún servidor.
 
 ## 6. Deuda pública
