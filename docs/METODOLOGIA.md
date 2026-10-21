@@ -46,7 +46,6 @@ Cada partido tiene críticas en cuatro dimensiones: **económica**, **social**, 
 
   Si un partido no tiene hallazgos, se indica. Si la doctrina respalda una propuesta, se recoge como *aval*.
 - **Conductas.** Solo se recogen conductas con sentencia firme o resolución de un tribunal. Las investigaciones abiertas no se valoran.
-- **Datos falsos.** La aplicación no mantiene una sección de declaraciones falsas; de eso se ocupan los verificadores profesionales. Si una propuesta se apoya en un dato que un verificador reconocido o un dato oficial demuestran falso, se recoge como crítica de esa propuesta, con su fuente.
 
 ## 5. Test «¿Con quién coincides?»
 
@@ -59,7 +58,7 @@ Cada partido tiene críticas en cuatro dimensiones: **económica**, **social**, 
 
 - Las cifras proceden del Banco de España, la IGAE, Eurostat, la AIReF y el Tesoro. Cada una enlaza a su fuente.
 - **Contador de intereses:** reparte el gasto anual en intereses (IGAE, último año cerrado) entre los segundos del año.
-- **Simulador:** aplica la ecuación estándar de la dinámica de la deuda: `deuda(t+1) = deuda(t) × (1 + interés) / (1 + crecimiento nominal) − saldo primario`, con todo expresado en porcentaje del PIB.
+- **Simulador:** aplica la ecuación estándar de la dinámica de la deuda: `deuda(t+1) = deuda(t) × (1 + interés) / (1 + crecimiento nominal) − saldo primario`, con todo expresado en porcentaje del PIB. La deuda de partida es el último dato oficial y no se puede modificar. El interés medio converge en 8 años desde el que paga hoy el Estado hasta el elegido; el crecimiento parte del previsto para este año y converge en 3. El aumento del gasto por envejecimiento resta 2 puntos de PIB al saldo primario de forma progresiva hasta 2050, calibrado para reproducir la proyección de la AIReF (123% del PIB en 2050). El usuario puede añadir un ajuste anual (recorte de gasto o subida de impuestos).
   - Parte de los últimos datos oficiales disponibles.
   - Calcula el saldo primario necesario para estabilizar la deuda, y para reducirla al 60% del PIB en 20 años.
   - Es un cálculo simplificado y no incluye el efecto de un ajuste fiscal sobre el crecimiento.

@@ -622,14 +622,15 @@
       '<div class="trap-text" aria-live="polite"><span class="trap-step" id="trapN"></span><h3 id="trapT"></h3><p id="trapP"></p></div>' +
       '<div class="trap-ctl"><button class="iconbtn" type="button" id="trapPrev" aria-label="Paso anterior">' + icon('prev', 20) + '</button><div class="dots" id="trapDots"></div><button class="btn" type="button" id="trapNext">Siguiente ' + icon('next', 16) + '</button></div></div></section>';
     if (d.por_que_nadie_la_baja) html += '<section class="block"><div class="block-head"><h2>Por qué casi nadie la baja</h2></div><ul class="whyl">' + d.por_que_nadie_la_baja.map(li).join('') + '</ul></section>';
-    html += '<section class="block sim"><div class="block-head"><h2>Pruébalo tú</h2></div><p class="intro-note">Parte de los últimos datos oficiales. Mueve los valores y mira cómo cambia la deuda en 30 años, y cuánto habría que recortar o cuánto margen hay.</p>' +
+    html += '<section class="block sim"><div class="block-head"><h2>Pruébalo tú</h2></div>' +
+      '<div class="sim-now"><div><b>' + fmt(SIM.d0, 1) + '%</b><span>deuda sobre el PIB hoy</span></div><div><b>2,4%</b><span>déficit hoy (unos 40.000 M€), casi todo intereses</span></div></div>' +
+      '<p class="intro-note">La línea parte de la previsión oficial de la AIReF: la deuda baja un poco hasta 2030 y vuelve a subir después por el envejecimiento. Cambia los supuestos y mira qué pasa en 30 años.</p>' +
       '<div class="sim-grid"><div class="sim-ctl">' +
-      slider('sD', 'Deuda', '% del PIB', sp.deuda_inicial_pib || 102, 40, 200, 0.1, fmt(sp.deuda_inicial_pib, 1) + '%, Banco de España, julio 2026') +
-      slider('sR', 'Interés medio que paga el Estado', '%', sp.tipo_interes_medio || 2.3, 0, 8, 0.1, fmt(sp.tipo_interes_medio, 1) + '%, IGAE y Tesoro, 2025') +
-      slider('sG', 'Crecimiento de la economía (nominal)', '%', sp.crecimiento_nominal || 4, -4, 8, 0.1, fmt(sp.crecimiento_nominal, 1) + '%, previsión AIReF 2026') +
-      slider('sB', 'Ingresos menos gastos, sin intereses', '% del PIB', sp.saldo_primario != null ? sp.saldo_primario : -0.5, -6, 4, 0.1, fmt(sp.saldo_primario, 1) + '%, IGAE, 2025') +
-      '<button type="button" class="btn wide" data-preset="hoy">Volver a la situación actual</button>' +
-      '<div class="presets"><span class="fine" style="margin:0">Escenarios:</span><button type="button" class="chip" data-preset="tipos">Suben los tipos</button><button type="button" class="chip" data-preset="crisis">Recesión</button><button type="button" class="chip" data-preset="ajuste">Ajuste</button></div>' +
+      slider('sR', 'Interés medio que pagará el Estado', '%', SIM.r, 0.5, 8, 0.1, 'hoy paga un 2,4% de media; el bono a 10 años está en torno al 3,5%') +
+      slider('sG', 'Crecimiento de la economía (en euros, por año)', '%', SIM.g, 0, 7, 0.1, '1,3% real + 2% de inflación, supuesto de largo plazo') +
+      slider('sA', 'Recorte de gasto o subida de impuestos, cada año', 'p. del PIB', 0, -2, 5, 0.1, '1 punto ≈ 17.500 M€ al año') +
+      '<button type="button" class="btn wide" data-preset="hoy">Volver a la previsión actual</button>' +
+      '<div class="presets"><span class="fine" style="margin:0">Escenarios:</span><button type="button" class="chip" data-preset="tipos">Suben los tipos</button><button type="button" class="chip" data-preset="crisis">Crecimiento bajo</button><button type="button" class="chip" data-preset="ajuste">Ajuste de 1,5 puntos</button></div>' +
       '</div><div class="sim-out"><svg id="simSvg" viewBox="0 0 340 210" role="img" aria-label="Proyección de la deuda en porcentaje del PIB"></svg><p class="sim-verdict" id="simVerdict"></p><div class="sim-need" id="simNeed"></div></div></div></section>';
     html += '<section class="block"><details class="dparties"><summary><h2>Qué proponen los partidos</h2><span class="cnt">' + D.partidos.filter(function (p) { return p.tier !== 'otros'; }).length + '</span></summary><p class="intro-note">Sus propuestas sobre deuda y déficit, tal cual. Si un partido no tiene ninguna, también se indica.</p><div class="plist">' + D.partidos.filter(function (p) { return p.tier !== 'otros'; }).map(function (p) {
       var it = p.propuestas.filter(function (x) { return x.area === 'deuda'; });
@@ -649,7 +650,7 @@
     var pos = ((val - min) / (max - min) * 100).toFixed(2);
     return '<div class="slider"><label for="' + id + '"><span>' + esc(label) + '</span><output id="' + id + 'o">' + fmt(val, 1) + ' ' + esc(unit) + '</output></label>' +
       '<div class="sl-track"><input type="range" id="' + id + '" min="' + min + '" max="' + max + '" step="' + step + '" value="' + val + '" data-unit="' + esc(unit) + '" data-hoy="' + val + '"><i class="sl-hoy" style="left:calc(' + pos + '% + ' + (8 - 16 * pos / 100).toFixed(1) + 'px)" aria-hidden="true"></i></div>' +
-      '<div class="sl-meta"><span class="sl-delta" id="' + id + 'd"></span>' + (note ? '<span class="sl-src">Hoy: ' + esc(note) + '</span>' : '') + '</div></div>';
+      '<div class="sl-meta"><span class="sl-delta" id="' + id + 'd"></span>' + (note ? '<span class="sl-src">' + esc(note) + '</span>' : '') + '</div></div>';
   }
   function findInterest(d) {
     var c = (d.cifras_clave || []).filter(function (x) { return /inter[eé]s/i.test(x.etiqueta || ''); })[0];
@@ -757,49 +758,56 @@
     $('#trapPrev').disabled = i === 0;
     $('#trapNext').innerHTML = i === n - 1 ? 'Volver a empezar' : 'Siguiente ' + icon('next', 16);
   }
+  // Modelo: deuda(t+1) = deuda(t)·(1+i)/(1+g) − saldo primario. El interés converge desde el 2,4% actual en 8 años;
+  // el crecimiento parte del 4,8% previsto y converge en 3 años; el envejecimiento resta 2 puntos de saldo primario hasta 2050
+  // (calibrado para reproducir la proyección de la AIReF: 123% del PIB en 2050).
+  var SIM = { d0: 99.9, r0: 2.4, g0: 4.8, r: 3.5, g: 3.3, envejecimiento: 2.0, anio0: 2026, PIB: 1744e9 / 0.999 };
+  function simPath(r, g, aj, years) {
+    var d = SIM.d0, out = [d];
+    for (var t = 1; t <= (years || 30); t++) {
+      var rt = SIM.r0 + (r - SIM.r0) * Math.min(1, t / 8), gt = SIM.g0 + (g - SIM.g0) * Math.min(1, (t - 1) / 3);
+      var pb = -SIM.envejecimiento * Math.min(1, t / 24) + aj;
+      d = d * (1 + rt / 100) / (1 + gt / 100) - pb; if (d < 0) d = 0; if (d > 400) d = 400; out.push(d);
+    }
+    return out;
+  }
+  function solveAj(r, g, test) { var lo = -3, hi = 10; for (var k = 0; k < 40; k++) { var m = (lo + hi) / 2; if (test(simPath(r, g, m))) hi = m; else lo = m; } return hi; }
   function simulate() {
-    var g = function (id) { var el = $('#' + id); return el ? parseFloat(el.value) : 0; };
-    var d0 = g('sD'), r = g('sR') / 100, gr = g('sG') / 100, pb = g('sB');
-    var pts = [], d = d0;
-    var capped = false;
-    for (var y = 0; y <= 30; y++) { pts.push(d); d = d * (1 + r) / (1 + gr) - pb; if (d < 0) d = 0; if (d > 400) { d = 400; capped = true; } }
+    var gv = function (id) { var el = $('#' + id); return el ? parseFloat(el.value) : 0; };
+    var r = gv('sR'), g = gv('sG'), aj = gv('sA');
+    var pts = simPath(r, g, aj), base = simPath(SIM.r, SIM.g, 0);
+    var same = Math.abs(r - SIM.r) < 1e-9 && Math.abs(g - SIM.g) < 1e-9 && Math.abs(aj) < 1e-9;
     var svg = $('#simSvg'); if (!svg) return;
     var W = 340, H = 210, L = 34, B = 24, T = 12, R = 10;
-    var ymax = Math.max(140, Math.ceil(Math.max.apply(null, pts) / 20) * 20);
-    var X = function (i) { return L + (W - L - R) * i / 30; }, Y = function (v) { return T + (H - T - B) * (1 - v / ymax); };
+    var ymax = Math.max(160, Math.ceil(Math.max.apply(null, pts.concat(base)) / 20) * 20);
+    var X = function (i) { return L + (W - L - R) * i / 30; }, Y = function (v) { return T + (H - T - B) * (1 - Math.min(v, ymax) / ymax); };
     var grid = '';
     for (var v = 0; v <= ymax; v += ymax > 200 ? 50 : 20) grid += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" class="grid"/><text x="' + (L - 5) + '" y="' + (Y(v) + 3) + '" text-anchor="end" class="axl">' + v + '%</text>';
-    [0, 10, 20, 30].forEach(function (yy) { grid += '<text x="' + X(yy) + '" y="' + (H - 6) + '" text-anchor="' + (yy === 30 ? 'end' : yy === 0 ? 'start' : 'middle') + '" class="axl">' + (yy === 0 ? 'hoy' : '+' + yy + ' años') + '</text>'; });
+    [0, 10, 20, 30].forEach(function (yy) { grid += '<text x="' + X(yy) + '" y="' + (H - 6) + '" text-anchor="' + (yy === 30 ? 'end' : yy === 0 ? 'start' : 'middle') + '" class="axl">' + (SIM.anio0 + yy) + '</text>'; });
     grid += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(60) + '" y2="' + Y(60) + '" class="ref60"/><text x="' + (W - R) + '" y="' + (Y(60) - 4) + '" text-anchor="end" class="axl">60% Maastricht</text>';
-    var hoyV = function (id) { var el = $('#' + id); return el ? parseFloat(el.getAttribute('data-hoy')) : 0; };
-    var bd = hoyV('sD'), br = hoyV('sR') / 100, bg = hoyV('sG') / 100, bb = hoyV('sB'), bpts = [], same = Math.abs(bd - d0) < 1e-9 && Math.abs(br - r) < 1e-9 && Math.abs(bg - gr) < 1e-9 && Math.abs(bb - pb) < 1e-9;
-    for (var yb = 0; yb <= 30; yb++) { bpts.push(bd); bd = Math.min(400, Math.max(0, bd * (1 + br) / (1 + bg) - bb)); }
-    var line = pts.map(function (p, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(p).toFixed(1); }).join(' ');
-    var bline = same ? '' : '<path d="' + bpts.map(function (p, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(Math.min(p, ymax)).toFixed(1); }).join(' ') + '" class="sim-base"/><text x="' + (X(30) - 4) + '" y="' + (Y(Math.min(bpts[30], ymax)) + 12) + '" text-anchor="end" class="axl halo">situación actual</text>';
-    var area = line + ' L' + X(30) + ' ' + Y(0) + ' L' + X(0) + ' ' + Y(0) + ' Z';
-    var end = pts[30];
-    var cls = end > d0 + 5 ? 'up' : end < d0 - 5 ? 'down' : 'flat';
-    svg.innerHTML = grid + bline + '<path d="' + area + '" class="sim-area ' + cls + '"/><path d="' + line + '" class="sim-line ' + cls + '"/><circle cx="' + X(30) + '" cy="' + Y(end) + '" r="4" class="sim-dot ' + cls + '"/><text x="' + (X(30) - 6) + '" y="' + (Y(end) - 8) + '" text-anchor="end" class="sim-end">' + fmt(end, 0) + '%</text>';
-    var rg = (r - gr) * 100;
-    var pbNeeded = d0 * (r - gr) / (1 + gr);
-    var txt = cls === 'up' ? 'Con estos supuestos la deuda pasa del ' + fmt(d0, 0) + '% al ' + fmt(end, 0) + '% del PIB en 30 años. ' : cls === 'down' ? 'Con estos supuestos la deuda baja del ' + fmt(d0, 0) + '% al ' + fmt(end, 0) + '% del PIB en 30 años. ' : 'Con estos supuestos la deuda se mantiene en torno al ' + fmt(end, 0) + '% del PIB. ';
-    // detalle en 'Qué haría falta'
-    if (capped) txt += ' La deuda supera el 400% del PIB: en la práctica, antes llegaría una crisis de deuda.';
+    var mk = function (arr) { return arr.map(function (p, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(p).toFixed(1); }).join(' '); };
+    var line = mk(pts), end = pts[30];
+    var cls = end > SIM.d0 + 5 ? 'up' : end < SIM.d0 - 5 ? 'down' : 'flat';
+    var bline = same ? '' : '<path d="' + mk(base) + '" class="sim-base"/><text x="' + (X(30) - 4) + '" y="' + (Y(base[30]) + 12) + '" text-anchor="end" class="axl halo">previsión actual</text>';
+    svg.innerHTML = grid + bline + '<path d="' + line + ' L' + X(30) + ' ' + Y(0) + ' L' + X(0) + ' ' + Y(0) + ' Z" class="sim-area ' + cls + '"/><path d="' + line + '" class="sim-line ' + cls + '"/><circle cx="' + X(30) + '" cy="' + Y(end) + '" r="4" class="sim-dot ' + cls + '"/><text x="' + (X(30) - 6) + '" y="' + (Y(end) - 8) + '" text-anchor="end" class="sim-end">' + fmt(end, 0) + '%</text>';
+    var txt = 'Con estos supuestos, la deuda pasa del ' + fmt(SIM.d0, 0) + '% del PIB hoy al ' + fmt(pts[24], 0) + '% en 2050 y al ' + fmt(end, 0) + '% en ' + (SIM.anio0 + 30) + '.';
+    if (end >= 400) txt += ' Supera el 400% del PIB: en la práctica, antes llegaría una crisis de deuda.';
     $('#simVerdict').textContent = txt;
-    // Qué haría falta
-    var PIB = 1744e9 / 0.999, q = (1 + r) / (1 + gr), S20 = 0; for (var k = 0; k < 20; k++) S20 += Math.pow(q, k);
-    var need = [
-      { t: 'Para que la deuda no suba', pb: d0 * (r - gr) / (1 + gr) },
-      { t: 'Para bajarla al 60% en 20 años', pb: (d0 * Math.pow(q, 20) - 60) / S20 }
+    var eur = function (pp) { var x = Math.abs(pp) / 100 * SIM.PIB / 1e9; return fmt(x, 0) + ' mil millones € al año'; };
+    var needs = [
+      { t: 'Para que la deuda no suba en 30 años', aj: solveAj(r, g, function (p) { return Math.max.apply(null, p.slice(1)) <= SIM.d0; }) },
+      { t: 'Para bajarla al 60% en 20 años', aj: solveAj(r, g, function (p) { return p[20] <= 60; }) }
     ];
-    var eur = function (pp) { var v = Math.abs(pp) / 100 * PIB / 1e9; return v >= 1 ? fmt(v, 0) + ' mil millones €' : fmt(v * 1000, 0) + ' millones €'; };
-    $('#simNeed').innerHTML = '<h3>Qué haría falta</h3>' + need.map(function (n) {
-      var gap = n.pb - pb;
-      var cut = gap > 0.05, room = gap < -0.05;
-      return '<div class="need ' + (cut ? 'cut' : room ? 'room' : 'ok') + '"><span>' + esc(n.t) + '</span><b>' + (cut ? 'Recortar gasto o subir ingresos: ' + fmt(gap, 1) + ' puntos del PIB' : room ? 'Margen: ' + fmt(-gap, 1) + ' puntos del PIB' : 'Se cumple con estos valores') + '</b>' + (cut || room ? '<small>≈ ' + eur(gap) + ' al año' + (cut ? '' : ' para gastar más o bajar impuestos') + '</small>' : '') + '</div>';
-    }).join('') + '<p class="fine" style="margin-top:2px">Cálculo simplificado con un PIB de unos ' + fmt(PIB / 1e12, 2) + ' billones de euros. No incluye el efecto del ajuste sobre el crecimiento.</p>';
-    $$('.slider input').forEach(function (el) { var dl = $('#' + el.id + 'd'); if (!dl) return; var dv = parseFloat(el.value) - parseFloat(el.getAttribute('data-hoy')); dl.textContent = Math.abs(dv) < 0.05 ? 'Situación actual' : (dv > 0 ? '+' : '−') + fmt(Math.abs(dv), 1) + ' respecto a hoy'; dl.classList.toggle('chg', Math.abs(dv) >= 0.05); });
-    $$('.slider input').forEach(function (el) { var o = $('#' + el.id + 'o'); if (o) o.textContent = fmt(parseFloat(el.value), 1) + ' ' + el.getAttribute('data-unit'); });
+    $('#simNeed').innerHTML = '<h3>Qué haría falta</h3>' + needs.map(function (n) {
+      var gap = n.aj - aj, cut = gap > 0.05, room = gap < -0.05;
+      return '<div class="need ' + (cut ? 'cut' : room ? 'room' : 'ok') + '"><span>' + esc(n.t) + '</span><b>' + (cut ? 'Recortar gasto o subir impuestos ' + fmt(gap, 1) + ' puntos del PIB más' : room ? 'Se cumple, con margen de ' + fmt(-gap, 1) + ' puntos' : 'Se cumple con estos valores') + '</b>' + (cut || room ? '<small>≈ ' + eur(gap) + '</small>' : '') + '</div>';
+    }).join('') + '<p class="fine" style="margin-top:2px">Modelo simplificado: el envejecimiento está calibrado con la previsión de la AIReF y no incluye el efecto de un ajuste sobre el crecimiento.</p>';
+    $$('.slider input').forEach(function (el) {
+      var o = $('#' + el.id + 'o'); if (o) o.textContent = fmt(parseFloat(el.value), 1) + ' ' + el.getAttribute('data-unit');
+      var dl = $('#' + el.id + 'd'); if (!dl) return; var dv = parseFloat(el.value) - parseFloat(el.getAttribute('data-hoy'));
+      dl.textContent = Math.abs(dv) < 0.05 ? 'Previsión actual' : (dv > 0 ? '+' : '−') + fmt(Math.abs(dv), 1) + ' respecto a la previsión'; dl.classList.toggle('chg', Math.abs(dv) >= 0.05);
+    });
+    var sa = $('#sAo'); if (sa) { var x = aj / 100 * SIM.PIB / 1e9; sa.textContent = (aj > 0 ? '+' : '') + fmt(aj, 1) + ' p. (' + (aj < 0 ? 'más gasto: ' : '') + fmt(Math.abs(x), 0) + ' mil M€)'; }
   }
   var tickerT;
   function startTicker() {
@@ -869,7 +877,6 @@
       ['Propuestas', 'Resumimos cada propuesta en una frase y quitamos la paja, pero no la interpretamos ni la valoramos. Usamos el programa para el 29N cuando el partido lo ha publicado; si no, el de las generales de 2023 junto con declaraciones y actuaciones públicas recientes, siempre con fecha y fuente. Cuando se publiquen los nuevos programas, se actualizarán.'],
       ['Críticas', 'Recogemos los contras económicos, sociales y culturales que señalan instituciones y expertos de distinto signo (AIReF, Banco de España, Fedea, Funcas, OCDE, FMI, Comisión Europea, académicos). Buscamos la mejor versión de cada crítica y aplicamos el mismo criterio a todos los partidos.'],
       ['Neutralidad no es punto medio', 'Nuestra neutralidad es de método: los mismos criterios, públicos y explícitos, para todos. No igualamos resultados. Si una propuesta choca con los derechos fundamentales, con el Estado de derecho o con la evidencia disponible, lo decimos con claridad, sea del partido que sea. Repartir las culpas a partes iguales cuando la realidad no es igual también sería un sesgo. Nuestras referencias son la Constitución y el Tribunal Constitucional, el Convenio Europeo de Derechos Humanos, la Comisión de Venecia, los indicadores de calidad democrática y el consenso de las instituciones económicas.'],
-      ['Declaraciones falsas', 'No mantenemos una sección de declaraciones falsas: de eso se ocupan los verificadores profesionales. Si una propuesta se apoya en un dato que una verificación reconocida o un dato oficial demuestran falso, lo recogemos como una crítica más de esa propuesta, con su fuente.'],
       ['Orden de los partidos y encuestas', 'Los ordenamos por la media de las últimas encuestas publicadas, cuyas fuentes y fichas técnicas se enlazan abajo. Los escaños son una estimación. Del 24 al 29 de noviembre, por la veda de encuestas (art. 69.7 LOREG), se retiran los sondeos y los partidos se ordenan por los escaños obtenidos en 2023.'],
       ['Privacidad', 'No usamos cookies. Las respuestas del test se calculan y se guardan solo en tu navegador; no se envían a ningún servidor y puedes borrarlas en cualquier momento. La analítica de visitas es anónima y no usa cookies.'],
       ['Independencia', 'Esta herramienta no está vinculada a ningún partido. Si detectas un error o un sesgo, avísanos: corregimos y lo indicamos.']
@@ -948,10 +955,9 @@
     if ((t = e.target.closest('#trapPrev'))) { trap.i = Math.max(0, trap.i - 1); drawTrap(); return; }
     if ((t = e.target.closest('[data-preset]'))) {
       var sp = (D.deuda.mecanica && D.deuda.mecanica.parametros_simulador) || {};
-      var hv = function (id) { return parseFloat($('#' + id).getAttribute('data-hoy')); };
-      var base = { sD: hv('sD'), sR: hv('sR'), sG: hv('sG'), sB: hv('sB') };
+      var base = { sR: SIM.r, sG: SIM.g, sA: 0 };
       var pr = t.getAttribute('data-preset');
-      var v = { hoy: base, tipos: Object.assign({}, base, { sR: base.sR + 2.5 }), crisis: Object.assign({}, base, { sG: 0.5, sB: base.sB - 3 }), ajuste: Object.assign({}, base, { sB: 1.5 }) }[pr];
+      var v = { hoy: base, tipos: { sR: 5.0, sG: SIM.g, sA: 0 }, crisis: { sR: SIM.r, sG: 2.0, sA: 0 }, ajuste: { sR: SIM.r, sG: SIM.g, sA: 1.5 } }[pr];
       Object.keys(v).forEach(function (k) { $('#' + k).value = v[k]; });
       $$('[data-preset]').forEach(function (b) { b.classList.toggle('on', b === t); });
       simulate(); return;
