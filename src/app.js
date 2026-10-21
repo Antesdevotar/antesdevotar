@@ -110,13 +110,44 @@
       '<a class="share-btn" target="_blank" rel="noopener" href="https://t.me/share/url?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(text) + '"><b>Telegram</b></a>' +
       '<a class="share-btn" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url) + '"><b>X</b></a>' +
       '<a class="share-btn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '"><b>Facebook</b></a>' +
+      '<button type="button" class="share-btn ig" id="igShare"><b>Instagram</b></button>' +
       '</div>' + (canNative || (MODE === 'site' && opts.image) ? '<div class="share-more">' + (canNative ? '<button type="button" class="btn ghost" id="nativeShare">Más opciones</button>' : '') + (MODE === 'site' && opts.image ? '<button type="button" class="btn ghost" id="imgShare">Compartir imagen</button>' : '') + '</div>' : '') +
       '<div class="copyrow"><input id="shareUrl" readonly value="' + esc(url) + '" aria-label="Enlace"><button class="btn" type="button" data-copy="' + esc(full) + '">Copiar</button></div>';
     shareCtx = { text: text, url: url, image: opts.image || null };
+    if (!shareCtx.image) shareCtx.image = function () { return drawTextImage(text, url); };
     openSheet(html, 'share');
     if (opts.live) opts.live();
   }
   var shareCtx = null;
+  function drawTextImage(text, url) {
+    var c = document.createElement('canvas'); c.width = 1080; c.height = 1350; var x = c.getContext('2d');
+    var F = '"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif';
+    x.fillStyle = '#3E4C59'; x.fillRect(0, 0, 1080, 1350);
+    x.fillStyle = '#FFE14D'; x.fillRect(80, 120, 120, 14);
+    var size = text.length > 160 ? 52 : text.length > 90 ? 64 : 78;
+    x.fillStyle = '#fff'; x.font = '800 ' + size + 'px ' + F;
+    var words = text.split(/\s+/), line = '', y = 260, lh = size * 1.22;
+    words.forEach(function (w) { var t = line ? line + ' ' + w : w; if (x.measureText(t).width > 920 && line) { x.fillText(line, 80, y); y += lh; line = w; } else line = t; });
+    if (line) x.fillText(line, 80, y);
+    x.fillStyle = '#FFE14D'; x.font = '800 54px ' + F; x.fillText('Antes de Votar', 80, 1180);
+    x.fillStyle = 'rgba(255,255,255,.85)'; x.font = '600 40px ' + F; x.fillText(url.replace(/^https?:\/\//, '').replace(/\/$/, ''), 80, 1250);
+    return c;
+  }
+  function igShare() {
+    var ctx = shareCtx; if (!ctx) return;
+    if (MODE !== 'site') { copy(ctx.url, 'Enlace copiado. Pégalo en tu historia de Instagram con el sticker «Enlace».'); return; }
+    var cv; try { cv = ctx.image(); } catch (e) { cv = drawTextImage(ctx.text, ctx.url); }
+    cv.toBlob(function (blob) {
+      var file = new File([blob], 'antes-de-votar.png', { type: 'image/png' });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        copy(ctx.url, 'Enlace copiado: elige Instagram y pégalo con el sticker «Enlace»');
+        navigator.share({ files: [file] }).catch(function () {});
+      } else {
+        var aEl = document.createElement('a'); aEl.href = URL.createObjectURL(blob); aEl.download = 'antes-de-votar.png'; document.body.appendChild(aEl); aEl.click(); aEl.remove();
+        copy(ctx.url, 'Imagen descargada y enlace copiado. Súbela a Instagram y pega el enlace.');
+      }
+    }, 'image/png');
+  }
   function stamp() { return '<div class="scard-stamp">' + esc(siteUrl().replace(/^https?:\/\//, '')) + ' · ' + esc(new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' })) + '</div>'; }
   function debtNow() { var a = findInterest(D.deuda) || 0; return a / (365 * 86400) * (Date.now() - debtT0) / 1000; }
   var debtT0 = Date.now();
@@ -537,12 +568,25 @@
   function viewTest() {
     if (!D.test || !D.test.afirmaciones || !D.test.afirmaciones.length) return empty('El test se está preparando.');
     tload();
-    return '<section class="block first test">' + (T.done ? testResult() : testQ()) + '</section>' + footer();
+    return '<section class="block first test">' + tbody() + '</section>' + footer();
+  }
+  function tbody() { return T.done ? testResult() : (!T.go && T.i === 0 && !Object.keys(T.ans).length ? testStart() : testQ()); }
+  function testStart() {
+    var n = D.test.afirmaciones.length;
+    return '<div class="dhero thero"><span class="kicker">Test · ' + n + ' afirmaciones · unos 5 minutos</span>' +
+      '<h1 class="display">¿Con qué partido coincides?</h1>' +
+      '<p class="lede">Di si estás de acuerdo con ' + n + ' afirmaciones y compáralas con lo que cada partido ha votado, hecho o propuesto.</p>' +
+      '<button type="button" class="percap tgo" data-tgo><span>Empieza ahora</span><b>Hacer el test</b><small>Puedes saltar las que no tengas claras</small></button></div>' +
+      '<ul class="tfacts">' +
+      '<li><b>Primero lo que votan</b><span>Cada posición sale de votaciones, programas o declaraciones, con su fuente.</span></li>' +
+      '<li><b>Tú decides qué pesa</b><span>Marca cuánto te importa cada tema: cuenta la mitad, igual o el doble.</span></li>' +
+      '<li><b>Nada sale de tu móvil</b><span>Las respuestas se calculan y se guardan solo en este dispositivo.</span></li></ul>' +
+      '<p class="fine">' + esc(D.test.aviso) + '</p>';
   }
   var T_PESO = { poco: 0.5, mucho: 2 };
   function impRow(a) {
     var cur = T.w[a.id] || '';
-    return '<div class="timp" role="radiogroup" aria-label="Cuánto te importa este tema"><span class="timp-l">¿Cuánto te importa?</span><div class="timp-seg">' +
+    return '<div class="timp" role="radiogroup" aria-label="Cuánto te importa este tema"><span class="timp-l">Me importa</span><div class="timp-seg">' +
       [['poco', 'Poco'], ['', 'Normal'], ['mucho', 'Mucho']].map(function (o) {
         return '<button type="button" role="radio" aria-checked="' + (cur === o[0]) + '" class="timp-b' + (cur === o[0] ? ' on' : '') + '" data-imp="' + o[0] + '">' + o[1] + '</button>';
       }).join('') + '</div></div>';
@@ -550,18 +594,17 @@
   function testQ() {
     var q = D.test.afirmaciones, a = q[T.i], n = q.length;
     var answered = Object.keys(T.ans).length;
-    return '<div class="tq-top"><div class="tq-bar"><i style="width:' + (T.i / n * 100).toFixed(1) + '%"></i></div><span>' + (T.i + 1) + ' de ' + n + '</span></div>' +
-      (T.i === 0 && !answered ? '<p class="tq-intro">' + esc(D.test.intro) + ' <b>' + esc(D.test.aviso) + '</b></p>' : '') +
-      '<article class="tq" id="tq"><span class="tq-area">' + esc(areaName(a.area)) + '</span><h1 class="tq-text">' + esc(a.texto) + '</h1>' + (a.contexto ? '<p class="tq-ctx">' + esc(a.contexto) + '</p>' : '') + '</article>' +
-      impRow(a) +
+    var cur = T.ans[a.id];
+    var on = function (v) { return cur !== undefined && String(cur) === v ? ' sel' : ''; };
+    return '<div class="tq-top"><button type="button" class="iconbtn tq-prev" data-tprev aria-label="Anterior"' + (T.i === 0 ? ' disabled' : '') + '>' + icon('prev', 18) + '</button><div class="tq-bar"><i style="width:' + (T.i / n * 100).toFixed(1) + '%"></i></div><span>' + (T.i + 1) + '/' + n + '</span></div>' +
+      '<article class="tq" id="tq"><span class="tq-area">' + esc(areaName(a.area)) + '</span><h1 class="tq-text">' + esc(a.texto) + '</h1>' + (a.contexto ? '<p class="tq-ctx">' + esc(a.contexto) + '</p>' : '') + impRow(a) + '</article>' +
       '<div class="tq-actions">' +
-      '<button type="button" class="tbtn yes" data-ans="1">De acuerdo</button>' +
-      '<button type="button" class="tbtn mid" data-ans="0">A medias</button>' +
-      '<button type="button" class="tbtn no" data-ans="-1">En desacuerdo</button>' +
-      '<button type="button" class="tbtn skip" data-ans="skip">No lo sé / sin opinión<small>No cuenta para ningún partido</small></button>' +
-      '<div class="tq-sub"><button type="button" class="linkbtn" data-tprev' + (T.i === 0 ? ' disabled' : '') + '>' + icon('prev', 16) + ' Anterior</button>' +
-      '</div></div>' +
-      (answered ? '<p class="fine">Tus respuestas se guardan solo en este dispositivo. <button type="button" class="linkbtn inline" data-trestart>Borrar mis respuestas</button></p>' : '<p class="fine">Tus respuestas se quedan en este dispositivo y no se envían a ningún servidor.</p>');
+      '<button type="button" class="tbtn yes' + on('1') + '" data-ans="1">De acuerdo</button>' +
+      '<button type="button" class="tbtn mid' + on('0') + '" data-ans="0">A medias</button>' +
+      '<button type="button" class="tbtn no' + on('-1') + '" data-ans="-1">En desacuerdo</button>' +
+      '<button type="button" class="tbtn skip' + on('skip') + '" data-ans="skip">No lo sé · no cuenta para ningún partido</button>' +
+      '</div>' +
+      (answered ? '<p class="fine tq-fine">Se guarda solo en este dispositivo · <button type="button" class="linkbtn inline" data-trestart>Empezar de cero</button></p>' : '');
   }
   var T_MIN = 15, T_EMPATE = 5;
   function tcov(pid) { return D.test.afirmaciones.filter(function (a) { var x = (a.posiciones || {})[pid]; return x && x.valor != null; }).length; }
@@ -581,28 +624,75 @@
     return Object.keys(res).map(function (k) { var r = res[k]; r.ok = r.cov >= T_MIN; r.pct = r.m ? Math.round(r.s / r.m * 100) : null; return r; })
       .sort(function (A, B) { if (A.ok !== B.ok) return A.ok ? -1 : 1; if (!A.ok) return B.cov - A.cov; return (B.pct == null ? -1 : B.pct) - (A.pct == null ? -1 : A.pct); });
   }
-  function testResult() {
+  function tresState() {
     var sc = scores(), q = D.test.afirmaciones;
     var nAns = q.filter(function (a) { var u = T.ans[a.id]; return u !== undefined && u !== 'skip'; }).length;
-    if (!nAns) return '<div class="empty"><p>No has dado tu opinión en ninguna afirmación. Responde al menos una para ver tus coincidencias.</p><button class="btn" type="button" data-trestart>Empezar de nuevo</button></div>';
     var ok = sc.filter(function (r) { return r.ok; }), low = sc.filter(function (r) { return !r.ok; });
     var top = ok.length ? ok[0].pct : 0;
     var tied = ok.filter(function (r) { return top - r.pct <= T_EMPATE; });
-    var lead = tied.length > 1
-      ? '<p class="tres-lead"><b>Empate entre ' + tied.map(function (r) { return esc(r.p.siglas); }).join(', ') + '.</b> Están a ' + T_EMPATE + ' puntos o menos: con estas respuestas el test no puede separarlos.</p>'
-      : (ok.length ? '<p class="tres-lead">El más cercano es <b>' + esc(ok[0].p.siglas) + '</b>' + (ok[1] ? ', con ' + (top - ok[1].pct) + ' puntos de ventaja sobre el siguiente' : '') + '.</p>' : '');
-    var row = function (r, k) {
-      var p = r.p, tie = r.ok && top - r.pct <= T_EMPATE && tied.length > 1;
-      return '<details class="tr' + (r.ok && k < 3 ? ' top' : '') + '" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tr-main"><b>' + esc(p.nombre) + (tie ? ' <span class="tag">Empate</span>' : '') + '</b>' +
-        (r.ok ? '<span class="prow-bar"><i style="width:' + (r.pct || 0) + '%"></i></span><small>Posición documentada en ' + r.n + ' de tus ' + nAns + ' respuestas</small>' : '<small>Posición documentada en ' + r.cov + ' de ' + q.length + ' afirmaciones</small>') +
-        '</span><span class="tr-pct">' + (r.ok ? r.pct + '%' : '') + '</span></summary>' + trDetail(p) + '</details>';
+    return { sc: sc, q: q, nAns: nAns, ok: ok, low: low, top: top, tied: tied };
+  }
+  function joinY(arr) { return arr.length < 2 ? arr.join('') : arr.slice(0, -1).join(', ') + ' y ' + arr[arr.length - 1]; }
+  function testResult() {
+    var R = tresState(), q = R.q, ok = R.ok, low = R.low, top = R.top, tied = R.tied, nAns = R.nAns;
+    if (!nAns) return '<div class="empty"><p>No has dado tu opinión en ninguna afirmación. Responde al menos una para ver tus coincidencias.</p><button class="btn" type="button" data-trestart>Empezar de nuevo</button></div>';
+    var isTie = tied.length > 1;
+    var heads = (isTie ? tied.slice(0, 4) : ok.slice(0, 1));
+    var hero = '<div class="dhero thero res"><span class="kicker">Tu resultado · ' + nAns + ' respuestas</span>' +
+      '<h1 class="display">' + (isTie ? 'Empate entre ' + esc(joinY(tied.slice(0, 4).map(function (r) { return r.p.siglas; }))) : 'Coincides más con ' + esc(ok[0].p.siglas)) + '</h1>' +
+      '<div class="thero-top">' + heads.map(function (r) { return '<div>' + avatar(r.p) + '<b>' + r.pct + '%</b></div>'; }).join('') + '</div>' +
+      '<p class="lede">' + (isTie ? 'Están a ' + T_EMPATE + ' puntos o menos: con tus respuestas no se pueden separar.' : (ok[1] ? 'Le saca ' + (top - ok[1].pct) + ' puntos a ' + esc(ok[1].p.siglas) + '.' : '')) + ' Esto no te dice a quién votar.</p>' +
+      '<button type="button" class="percap" id="testShare"><span>¿Y tus amigos?</span><b>Compartir resultado</b><small>Con imagen para WhatsApp o Instagram</small></button></div>';
+    var row = function (r) {
+      var p = r.p;
+      return '<details class="tr" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tr-main"><b>' + esc(p.nombre) + '</b>' +
+        (r.ok ? '<span class="prow-bar"><i style="width:' + (r.pct || 0) + '%"></i></span>' : '<small>Posición en ' + r.cov + ' de ' + q.length + ' afirmaciones</small>') +
+        '</span><span class="tr-pct">' + (r.ok ? r.pct + '%' : '') + '</span></summary>' +
+        (r.ok ? '<p class="fine trd-note">Posición documentada en ' + r.n + ' de tus ' + nAns + ' respuestas.</p>' : '') + trDetail(p) + '</details>';
     };
-    return '<h1 class="h1">Tus coincidencias</h1><p class="lede small">' + esc(D.test.aviso) + ' Has respondido ' + nAns + ' de ' + q.length + '.</p>' + lead +
+    return hero +
+      '<div class="block-head tres-head"><h2>Todos los partidos</h2></div><p class="fine" style="margin:0 0 8px">Toca uno para ver en qué coincidís y en qué no, con sus fuentes.</p>' +
       '<div class="tres">' + ok.map(row).join('') + '</div>' +
-      (low.length ? '<details class="tres-low"><summary>Partidos con datos insuficientes (' + low.length + ')</summary><p class="fine">Tienen posición verificable en menos de ' + T_MIN + ' afirmaciones, así que no entran en la clasificación: un porcentaje calculado con tan pocos datos engañaría. Puedes ver en qué coincides en las que sí tienen.</p><div class="tres">' + low.map(row).join('') + '</div></details>' : '') +
-      '<div class="tres-actions"><button class="btn" type="button" id="testShare">' + icon('share', 17) + ' Compartir resultado</button><button class="btn ghost" type="button" data-trestart>Borrar mis respuestas y repetir</button></div>' +
-      '<p class="fine">Tus respuestas se guardan solo en este dispositivo, no se envían a ningún servidor y nadie más puede verlas. Puedes borrarlas cuando quieras.</p>' +
-      '<p class="fine">' + esc(D.test.metodo || '') + '</p>';
+      (low.length ? '<details class="tres-low"><summary>Con pocos datos para comparar (' + low.length + ')</summary><p class="fine">Tienen posición verificable en menos de ' + T_MIN + ' afirmaciones. Un porcentaje con tan pocos datos engañaría, así que no entran en la clasificación.</p><div class="tres">' + low.map(row).join('') + '</div></details>' : '') +
+      '<div class="tres-actions"><button class="btn ghost" type="button" data-trestart>Repetir el test</button></div>' +
+      '<details class="tres-low tres-how"><summary>Cómo se calcula</summary><p class="fine">' + esc(D.test.metodo || '') + '</p><p class="fine">Tus respuestas se guardan solo en este dispositivo y no se envían a ningún servidor.</p></details>';
+  }
+  function testShareData() {
+    var R = tresState();
+    if (!T.done || !R.nAns) return { text: '¿Con qué partido coincides de verdad? ' + D.test.afirmaciones.length + ' afirmaciones comparadas con lo que cada partido ha votado. Hazlo antes del 29N:', card: '<div class="scard debt"><p class="scard-k">Test · Antes de Votar</p><p class="sd-big">¿Con qué partido coincides?</p><p class="sd-sub">' + D.test.afirmaciones.length + ' afirmaciones comparadas con lo que cada partido ha votado, hecho o propuesto.</p><div class="sd-cap"><span>Unos 5 minutos</span><b>Haz el test</b></div><div class="scard-foot"><span>Antes del 29N</span><b>Antes de Votar</b></div>' + stamp() + '</div>', top: [] };
+    var top = R.ok.slice(0, 3);
+    var isTie = R.tied.length > 1;
+    var text = (isTie ? 'Me sale empate entre ' + joinY(R.tied.slice(0, 4).map(function (r) { return r.p.siglas; })) : 'Coincido más con ' + R.ok[0].p.siglas) + ': ' + top.map(function (r) { return r.p.siglas + ' ' + r.pct + '%'; }).join(', ') + '. ¿Y tú?';
+    var card = '<div class="scard debt"><p class="scard-k">¿Con quién coincido?</p><p class="sd-big tsc-h">' + esc(isTie ? 'Empate' : R.ok[0].p.siglas) + '</p>' +
+      top.map(function (r) { return '<div class="scard-row" style="--pc:' + esc(r.p.color) + '">' + avatar(r.p) + '<span class="prow-bar"><i style="width:' + r.pct + '%"></i></span><b>' + r.pct + '%</b></div>'; }).join('') +
+      '<div class="sd-cap"><span>' + D.test.afirmaciones.length + ' afirmaciones · 5 minutos</span><b>Haz el test</b></div><div class="scard-foot"><span>Antes del 29N</span><b>Antes de Votar</b></div>' + stamp() + '</div>';
+    return { text: text, card: card, top: top, tie: isTie };
+  }
+  function shareTest() { var d = testShareData(); share(d.text, siteUrl() + '/test/', d.card, { image: function () { return drawTestImage(d); } }); }
+  function drawTestImage(d) {
+    var c = document.createElement('canvas'); c.width = 1080; c.height = 1350; var x = c.getContext('2d');
+    var F = '"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif';
+    var rr = function (X, Y, W, H, r) { x.beginPath(); if (x.roundRect) x.roundRect(X, Y, W, H, r); else x.rect(X, Y, W, H); };
+    x.fillStyle = '#3E4C59'; x.fillRect(0, 0, 1080, 1350);
+    x.fillStyle = 'rgba(255,255,255,.8)'; x.font = '600 42px ' + F; x.fillText(d.top.length ? '¿Con quién coincido?' : 'Test · Antes de Votar', 80, 140);
+    x.fillStyle = '#fff'; x.font = '800 ' + (d.top.length ? 120 : 96) + 'px ' + F;
+    x.fillText(d.top.length ? (d.tie ? 'Empate' : d.top[0].p.siglas) : '¿Con qué partido', 80, 280);
+    if (!d.top.length) x.fillText('coincides?', 80, 390);
+    var y = 380;
+    d.top.forEach(function (r) {
+      x.fillStyle = r.p.color || '#888'; rr(80, y, 130, 130, 26); x.fill();
+      x.fillStyle = contrast(r.p.color); x.font = '800 40px ' + F; x.textAlign = 'center'; x.fillText((r.p.siglas || '').replace(/\s.*/, '').slice(0, 5), 145, y + 80); x.textAlign = 'left';
+      x.fillStyle = 'rgba(255,255,255,.18)'; rr(250, y + 50, 520, 30, 15); x.fill();
+      x.fillStyle = r.p.color || '#FFE14D'; rr(250, y + 50, Math.max(30, 520 * r.pct / 100), 30, 15); x.fill();
+      x.fillStyle = '#fff'; x.font = '800 84px ' + F; x.fillText(r.pct + '%', 800, y + 95);
+      y += 170;
+    });
+    var by = 960;
+    x.fillStyle = '#FFE14D'; rr(80, by, 920, 220, 32); x.fill();
+    x.fillStyle = '#191C22'; x.font = '600 40px ' + F; x.fillText(D.test.afirmaciones.length + ' afirmaciones · unos 5 minutos', 120, by + 80);
+    x.font = '800 96px ' + F; x.fillText('Haz el test', 120, by + 180);
+    x.fillStyle = '#fff'; x.font = '700 42px ' + F; x.fillText(siteUrl().replace(/^https?:\/\//, '') + '/test', 80, 1270);
+    return c;
   }
   function trDetail(p) {
     var idx = {}; p.propuestas.forEach(function (x) { idx[x.id] = x; });
@@ -622,7 +712,7 @@
     tsave();
     try { if (navigator.vibrate) navigator.vibrate(8); } catch (e) {}
     T.i++; if (T.i >= q.length) T.done = true;
-    var box = $('.block.test'); box.innerHTML = T.done ? testResult() : testQ();
+    var box = $('.block.test'); box.innerHTML = tbody();
     if (!reduced) { box.classList.remove('swap'); void box.offsetWidth; box.classList.add('swap'); }
     $('#view').scrollTop = 0;
   }
@@ -980,24 +1070,26 @@
     if ((t = e.target.closest('[data-cmp-area]'))) { cmp.area = t.getAttribute('data-cmp-area'); cmpSave(); $$('[data-cmp-area]').forEach(function (b) { b.classList.toggle('on', b === t); }); $('#cmpOut').innerHTML = cmpOut(); t.scrollIntoView({ inline: 'center', block: 'nearest' }); return; }
     if ((t = e.target.closest('[data-imp]'))) { var qa = D.test.afirmaciones[T.i], v = t.getAttribute('data-imp'); if (v) T.w[qa.id] = v; else delete T.w[qa.id]; tsave(); Array.prototype.forEach.call(document.querySelectorAll('.timp-b'), function (b) { var on = b === t; b.classList.toggle('on', on); b.setAttribute('aria-checked', on); }); return; }
     if ((t = e.target.closest('[data-ans]'))) { tanswer(t.getAttribute('data-ans')); return; }
-    if ((t = e.target.closest('[data-tprev]'))) { if (T.i > 0) { T.i--; $('.block.test').innerHTML = testQ(); } return; }
-    if ((t = e.target.closest('[data-trestart]'))) { T.ans = {}; T.w = {}; T.i = 0; T.done = false; tsave(); $('.block.test').innerHTML = testQ(); return; }
-    if ((t = e.target.closest('#testShare'))) { var sc = scores().filter(function (r) { return r.ok; }).slice(0, 3); share('Mis coincidencias con los partidos para el 29N: ' + sc.map(function (r) { return r.p.siglas + ' ' + r.pct + '%'; }).join(', ') + '. ¿Y tú?', siteUrl() + '/test/', '<div class="scard"><p class="scard-k" style="font:800 22px var(--f-display)">¿Con quién coincido?</p>' + sc.map(function (r) { return '<div class="scard-row" style="--pc:' + esc(r.p.color) + '">' + avatar(r.p) + '<span class="prow-bar"><i style="width:' + r.pct + '%"></i></span><b>' + r.pct + '%</b></div>'; }).join('') + '<div class="scard-foot"><span>Hazlo tú antes del 29N</span><b>Antes de Votar</b></div>' + stamp() + '</div>'); return; }
+    if ((t = e.target.closest('[data-tgo]'))) { T.go = true; $('.block.test').innerHTML = tbody(); $('#view').scrollTop = 0; return; }
+    if ((t = e.target.closest('[data-tprev]'))) { if (T.i > 0) { T.i--; T.done = false; $('.block.test').innerHTML = testQ(); } return; }
+    if ((t = e.target.closest('[data-trestart]'))) { T.ans = {}; T.w = {}; T.i = 0; T.done = false; T.go = true; tsave(); $('.block.test').innerHTML = tbody(); $('#view').scrollTop = 0; return; }
+    if ((t = e.target.closest('#testShare'))) { shareTest(); return; }
     if ((t = e.target.closest('#cmpShare'))) { var ps = cmp.sel.map(P); share(ps.map(function (p) { return p.siglas; }).join(' vs ') + ' en ' + areaName(cmp.area).toLowerCase() + ': ' + (ps.length > 1 ? 'compara sus propuestas' : 'mira sus propuestas') + ' antes del 29N', siteUrl() + '/tema/' + cmp.area + '/', cmpCard(ps)); return; }
     if ((t = e.target.closest('[data-share-prop]'))) {
       var parts = t.getAttribute('data-share-prop').split('|'), pp = P(parts[0]), x = pp.propuestas.filter(function (y) { return y.id === parts[1]; })[0];
       share('Propuesta de ' + pp.siglas + ': «' + x.texto + '»', siteUrl() + '/partido/' + pp.id + '/', propCard(pp, x)); return;
     }
-    if ((t = e.target.closest('#shareTop'))) { if (parse(current).view === 'deuda') { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; } share(shareText(), routeUrl(current)); return; }
+    if ((t = e.target.closest('#shareTop'))) { if (parse(current).view === 'test' && D.test) { tload(); shareTest(); return; } if (parse(current).view === 'deuda') { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; } share(shareText(), routeUrl(current)); return; }
     if ((t = e.target.closest('#shareCap'))) { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; }
     if ((t = e.target.closest('#shareCapOld'))) { var cc = D.deuda.cifras_clave.filter(function (x) { return /habitante/i.test(x.etiqueta); })[0]; share('A cada persona en España le tocan ' + cc.valor + ' € de deuda pública. Así funciona:', siteUrl() + '/deuda/', '<div class="scard"><p class="scard-k" style="font:700 15px var(--f-body)">Te tocan</p><p class="scard-q" style="font-size:56px;line-height:1">' + esc(cc.valor) + ' €</p><p>de deuda pública por habitante. ' + esc(cc.fuente || '') + '</p><div class="scard-foot"><span>La deuda pública, explicada</span><b>Antes de Votar</b></div></div>'); return; }
     if ((t = e.target.closest('#shareDebt'))) { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; }
+    if ((t = e.target.closest('#igShare'))) { igShare(); return; }
     if ((t = e.target.closest('#nativeShare'))) { try { navigator.share({ title: 'Antes de Votar', text: shareCtx.text, url: shareCtx.url }).catch(function () {}); } catch (err) {} return; }
     if ((t = e.target.closest('#imgShare'))) {
       var cv = shareCtx.image(); cv.toBlob(function (blob) {
-        var file = new File([blob], 'deuda-espana.png', { type: 'image/png' });
+        var file = new File([blob], 'antes-de-votar.png', { type: 'image/png' });
         if (navigator.canShare && navigator.canShare({ files: [file] })) { navigator.share({ files: [file], text: shareCtx.text + ' ' + shareCtx.url }).catch(function () {}); }
-        else { var aEl = document.createElement('a'); aEl.href = URL.createObjectURL(blob); aEl.download = 'deuda-espana.png'; document.body.appendChild(aEl); aEl.click(); aEl.remove(); toast('Imagen descargada'); }
+        else { var aEl = document.createElement('a'); aEl.href = URL.createObjectURL(blob); aEl.download = 'antes-de-votar.png'; document.body.appendChild(aEl); aEl.click(); aEl.remove(); toast('Imagen descargada'); }
       }, 'image/png'); return;
     }
     if ((t = e.target.closest('[data-copy]'))) { copy(t.getAttribute('data-copy')); return; }
