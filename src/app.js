@@ -637,7 +637,7 @@
     if (d.te_afecta) html += '<section class="block"><div class="block-head"><h2>En qué te afecta</h2></div><div class="afecta">' + d.te_afecta.map(function (x) {
       return '<article class="af"><b>' + esc(x.valor) + '</b><h3>' + esc(x.titulo) + '</h3><p>' + esc(x.texto) + '</p>' + (x.url ? src({ nombre: x.fuente, url: x.url }) : '') + '</article>';
     }).join('') + '</div></section>';
-    html += '<section class="block trap"><div class="block-head"><h2>Cómo funciona la trampa</h2></div>' +
+    html += '<section class="block trap"><div class="block-head"><h2>Cómo funciona</h2></div>' +
       '<div class="trap-stage"><svg id="trapSvg" viewBox="0 0 360 220" role="img" aria-label="Animación: cómo crece la deuda"></svg>' +
       '<div class="trap-text" aria-live="polite"><span class="trap-step" id="trapN"></span><h3 id="trapT"></h3><p id="trapP"></p></div>' +
       '<div class="trap-ctl"><button class="iconbtn" type="button" id="trapPrev" aria-label="Paso anterior">' + icon('prev', 20) + '</button><div class="dots" id="trapDots"></div><button class="btn" type="button" id="trapNext">Siguiente ' + icon('next', 16) + '</button></div></div></section>';
@@ -701,7 +701,7 @@
     { titulo: 'Los intereses se pagan con más deuda', texto: 'Si gasta más de lo que ingresa, no le llega para los intereses: pide prestado otra vez para pagarlos.' },
     { titulo: 'Intereses sobre intereses', texto: 'Al año siguiente paga intereses también por lo que pidió para pagar intereses. La parte clara de cada barra crece sola.' },
     { titulo: 'El crecimiento puede salvarte… o no', texto: 'Si la economía crece más rápido que el tipo de interés, la deuda pesa menos con el tiempo. Si crece menos, la bola se acelera.' },
-    { titulo: 'Cada vez cuesta más salir', texto: 'Cuanto más tarde se corrige, mayor es el ajuste necesario. Por eso esperar sale caro: es una trampa que se hace grande sola.' }
+    { titulo: 'Cada vez cuesta más salir', texto: 'Cuanto más tarde se corrige, mayor es el ajuste necesario. Por eso esperar sale caro.' }
   ];
   function trapSteps() { var m = D.deuda && D.deuda.mecanica; var p = m && (m.pasos_cortos || m.pasos); return p && p.length >= 3 ? p : TRAP_DEFAULT; }
   function drawTrap() {
@@ -1022,7 +1022,7 @@
     var rt = parse(current);
     if (rt.view === 'partido') { var p = P(rt.id); return 'Todas las propuestas de ' + p.siglas + ' para el 29N, con sus críticas y fuentes:'; }
     if (rt.view === 'tema') return 'Qué propone cada partido sobre ' + areaName(rt.id).toLowerCase() + ' para el 29N:';
-    if (rt.view === 'deuda') return 'La trampa de la deuda pública, explicada para todos:';
+    if (rt.view === 'deuda') return 'La deuda pública, explicada con datos:';
     if (rt.view === 'importa') return 'Lo que de verdad importa en estas elecciones, con datos:';
     if (rt.view === 'test') return '¿Con qué partido coincides más? Test con las propuestas reales de cada uno, con fuente:';
     return 'Antes de votar el 29N, lee lo que proponen todos los partidos. Sin interpretar y con fuentes:';

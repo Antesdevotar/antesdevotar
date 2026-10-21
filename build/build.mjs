@@ -154,10 +154,10 @@ for (const [a, n] of AREAS) {
 }
 emit('deuda', {
   route: 'deuda',
-  title: `La trampa de la deuda pública en España explicada | ${NAME}`,
-  description: 'Por qué la deuda pública crece sola, por qué a los partidos no les sale a cuenta reducirla y qué propone cada uno. Con simulador interactivo.',
+  title: `La deuda pública de España explicada | ${NAME}`,
+  description: 'Cuánto debe España, cuánto pagamos en intereses, qué haría falta para reducir la deuda y qué propone cada partido. Con simulador.',
   jsonld: orgLd,
-  seoBody: `<h1>${esc(DATA.deuda?.titular || 'La trampa de la deuda')}</h1><p>${esc(DATA.deuda?.entradilla || '')}</p>`,
+  seoBody: `<h1>${esc(DATA.deuda?.titular_corto || 'La deuda pública')}</h1><p>${esc(DATA.deuda?.entradilla_corta || DATA.deuda?.entradilla || '')}</p>`,
 });
 emit('importa', {
   route: 'importa',
