@@ -555,10 +555,11 @@
       impRow(a) +
       '<div class="tq-actions">' +
       '<button type="button" class="tbtn yes" data-ans="1">De acuerdo</button>' +
-      '<button type="button" class="tbtn mid" data-ans="0">Neutral</button>' +
+      '<button type="button" class="tbtn mid" data-ans="0">A medias</button>' +
       '<button type="button" class="tbtn no" data-ans="-1">En desacuerdo</button>' +
+      '<button type="button" class="tbtn skip" data-ans="skip">No lo sé / sin opinión<small>No cuenta para ningún partido</small></button>' +
       '<div class="tq-sub"><button type="button" class="linkbtn" data-tprev' + (T.i === 0 ? ' disabled' : '') + '>' + icon('prev', 16) + ' Anterior</button>' +
-      '<button type="button" class="linkbtn" data-ans="skip">Saltar</button></div></div>' +
+      '</div></div>' +
       (answered ? '<p class="fine">Tus respuestas se guardan solo en este dispositivo. <button type="button" class="linkbtn inline" data-trestart>Borrar mis respuestas</button></p>' : '<p class="fine">Tus respuestas se quedan en este dispositivo y no se envían a ningún servidor.</p>');
   }
   var T_MIN = 15, T_EMPATE = 5;
@@ -582,7 +583,7 @@
   function testResult() {
     var sc = scores(), q = D.test.afirmaciones;
     var nAns = q.filter(function (a) { var u = T.ans[a.id]; return u !== undefined && u !== 'skip'; }).length;
-    if (!nAns) return '<div class="empty"><p>Has saltado todas las afirmaciones. Responde al menos una para ver tus coincidencias.</p><button class="btn" type="button" data-trestart>Empezar de nuevo</button></div>';
+    if (!nAns) return '<div class="empty"><p>No has dado tu opinión en ninguna afirmación. Responde al menos una para ver tus coincidencias.</p><button class="btn" type="button" data-trestart>Empezar de nuevo</button></div>';
     var ok = sc.filter(function (r) { return r.ok; }), low = sc.filter(function (r) { return !r.ok; });
     var top = ok.length ? ok[0].pct : 0;
     var tied = ok.filter(function (r) { return top - r.pct <= T_EMPATE; });
@@ -604,7 +605,7 @@
   }
   function trDetail(p) {
     var idx = {}; p.propuestas.forEach(function (x) { idx[x.id] = x; });
-    var lab = { '1': 'De acuerdo', '0': 'Neutral', '-1': 'En desacuerdo' };
+    var lab = { '1': 'De acuerdo', '0': 'A medias', '-1': 'En desacuerdo' };
     return '<ul class="trd">' + D.test.afirmaciones.map(function (a) {
       var u = T.ans[a.id], pos = (a.posiciones || {})[p.id];
       if (u === undefined || u === 'skip') return '';
