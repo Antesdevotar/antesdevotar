@@ -1,0 +1,1320 @@
+{
+ "id": "pp",
+ "nombre": "Partido Popular",
+ "siglas": "PP",
+ "candidato": "Alberto Núñez Feijóo",
+ "ideologia": "Centroderecha liberal-conservador",
+ "ambito": "Estatal",
+ "color": "#1D84CE",
+ "web": "https://www.pp.es",
+ "escanos_2023": 137,
+ "resumen": "Partido de centroderecha presidido por Alberto Núñez Feijóo, primera fuerza en escaños en 2023 y en las encuestas para el 29N. Según su «Contrato con España» y sus planes sectoriales, sus prioridades son bajar impuestos, construir un millón de viviendas, ordenar la inmigración, revalorizar las pensiones con el IPC y reformar las instituciones, empezando por el CGPJ.",
+ "fuentes_programa": [
+  {
+   "titulo": "«Contrato con España» (compromisos de Feijóo para el 29N)",
+   "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Plan de choque económico (IVA, IRPF, autónomos)",
+   "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+   "fecha": "2026-09"
+  },
+  {
+   "titulo": "Propuestas de vivienda de Feijóo",
+   "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Plan Nacional de Inmigración del PP",
+   "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+   "fecha": "2025-10"
+  },
+  {
+   "titulo": "Ponencia política del XXI Congreso Nacional del PP",
+   "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+   "fecha": "2025-06"
+  },
+  {
+   "titulo": "Programa electoral Generales 2023 (resumen oficial)",
+   "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+   "fecha": "2023-07"
+  },
+  {
+   "titulo": "Resumen de posiciones del PP para el 29N (PoliticaElectoral.com)",
+   "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "pp-eco-01",
+   "area": "economia",
+   "texto": "Rebajar los impuestos y revisar una a una las que cifra en más de cien subidas fiscales aprobadas en los últimos años.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Que.es",
+    "url": "https://www.que.es/2026/10/19/contrato-con-espana-feijoo-impuestos/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-eco-02",
+   "area": "economia",
+   "texto": "IVA del 0% para alimentos básicos: leche, quesos, aceite, huevos, frutas, verduras, carne, pescado y conservas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-eco-03",
+   "area": "economia",
+   "texto": "Bajar el IVA de la electricidad y el gas del 21% al 10%.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-04",
+   "area": "economia",
+   "texto": "Deflactar la tarifa del IRPF para compensar el efecto de la inflación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-05",
+   "area": "economia",
+   "texto": "Eximir del IVA a los autónomos que facturen menos de 85.000 € al año.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo, Teleprensa/Europa Press",
+    "url": "https://www.teleprensa.com/nacional-3/economia/feijoo-propone-iva-todos-alimentos-duplicar-desgravaciones-fiscales-hijo/202609241733302515978.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-06",
+   "area": "economia",
+   "texto": "Por cada nueva norma, derogar tres; cerrar un inventario de trámites estatales innecesarios y ampliar el silencio administrativo positivo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo, Teleprensa/Europa Press",
+    "url": "https://www.teleprensa.com/nacional-3/economia/feijoo-propone-iva-todos-alimentos-duplicar-desgravaciones-fiscales-hijo/202609241733302515978.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-07",
+   "area": "economia",
+   "texto": "Rebajar la tarifa del IRPF a las rentas inferiores a 40.000 € anuales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-08",
+   "area": "economia",
+   "texto": "Suprimir el Impuesto Temporal de Solidaridad de las Grandes Fortunas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, El Cronista",
+    "url": "https://www.cronista.com/espana/economia-finanzas/elecciones-generales-2023-una-por-una-todas-las-medidas-economicas-que-proponen-los-principales-partidos/",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-eco-09",
+   "area": "economia",
+   "texto": "Plan de 300.000 M€ en infraestructuras mediante colaboración público-privada.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-emp-01",
+   "area": "empleo",
+   "texto": "Subir el salario medio usando la productividad como palanca principal.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-emp-02",
+   "area": "empleo",
+   "texto": "Autónomos: tarifa cero para nuevos, pasar de cuatro declaraciones trimestrales a una o dos y un año sin cotizar al contratar al primer empleado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-emp-03",
+   "area": "empleo",
+   "texto": "Medidas contra el absentismo laboral, incluida la capacidad de las mutuas para dar el alta en determinadas bajas y más inspectores médicos del INSS.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-emp-04",
+   "area": "empleo",
+   "texto": "Reducir a la mitad en una legislatura la brecha de participación de las mujeres en el mercado laboral.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-01",
+   "area": "vivienda",
+   "texto": "Construir al menos un millón de viviendas nuevas en cuatro años (unas 250.000 al año), con prioridad para los jóvenes en alquiler y compra.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-viv-02",
+   "area": "vivienda",
+   "texto": "Poner a la venta todo el suelo público disponible, con viviendas hasta un 30% por debajo del precio de mercado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de vivienda de Feijóo, Infobae",
+    "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-03",
+   "area": "vivienda",
+   "texto": "Licencias por silencio administrativo positivo si el ayuntamiento no responde en 90 días.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de vivienda de Feijóo, Infobae",
+    "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-04",
+   "area": "vivienda",
+   "texto": "Reducir a cuatro años la tramitación del planeamiento urbanístico y aprobar una nueva Ley del Suelo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de vivienda de Feijóo, Infobae",
+    "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-05",
+   "area": "vivienda",
+   "texto": "Aval público de hasta el 100% del precio para que los jóvenes compren su primera vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de vivienda de Feijóo, Infobae",
+    "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-viv-06",
+   "area": "vivienda",
+   "texto": "Bajar el IVA de la vivienda nueva del 10% al 4% y reducir el impuesto de transmisiones patrimoniales en la compra.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de vivienda de Feijóo, Infobae",
+    "url": "https://www.infobae.com/espana/2026/10/05/feijoo-anuncia-sus-propuestas-en-vivienda-de-construir-250000-casas-al-ano-a-rebajar-el-iva-al-4-para-jovenes/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-07",
+   "area": "vivienda",
+   "texto": "Ayuda económica a la emancipación juvenil, que el partido presenta como «la mayor de la historia».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Que.es",
+    "url": "https://www.que.es/2026/10/19/contrato-con-espana-feijoo-impuestos/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-08",
+   "area": "vivienda",
+   "texto": "Eliminar la declaración de zonas tensionadas y sus topes al precio del alquiler.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-viv-09",
+   "area": "vivienda",
+   "texto": "Ley para desalojar en un plazo de 48 horas a quienes ocupen ilegalmente una vivienda («okupas»).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Radio Líder",
+    "url": "https://radiolider.com/feijoo-contrato-espana-elecciones-29-noviembre/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-pen-01",
+   "area": "pensiones",
+   "texto": "Revalorizar todas las pensiones cada año según el IPC.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-pen-02",
+   "area": "pensiones",
+   "texto": "Ley para garantizar la actualización de las pensiones aunque se prorroguen los Presupuestos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Proposición de ley del PP sobre pensiones, El Independiente",
+    "url": "https://www.elindependiente.com/espana/2025/11/07/el-pp-propone-una-ley-para-garantizar-la-revalorizacion-de-las-pensiones-aunque-no-haya-presupuestos-y-el-gobierno-responde-que-ya-existe/amp/",
+    "fecha": "2025-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-pen-03",
+   "area": "pensiones",
+   "texto": "Garantizar un sistema público de pensiones sostenible para los jóvenes dentro del Pacto de Toledo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Radio Líder",
+    "url": "https://radiolider.com/feijoo-contrato-espana-elecciones-29-noviembre/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-01",
+   "area": "sanidad",
+   "texto": "Incorporar más médicos al sistema público y mejorar sus condiciones laborales y retributivas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-02",
+   "area": "sanidad",
+   "texto": "Aumentar las plantillas en torno a un 15% para cubrir el déficit de unos 4.500 especialistas en Atención Primaria.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Carta abierta de Feijóo a los médicos (marzo 2026), vía PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-03",
+   "area": "sanidad",
+   "texto": "Nuevo modelo de planificación de profesionales en los primeros 100 días y oferta MIR creciente, con prioridad para Familia y Pediatría.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-04",
+   "area": "sanidad",
+   "texto": "Guardias médicas mejor pagadas y más cortas, y equiparación progresiva del pago de las horas extra.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-05",
+   "area": "sanidad",
+   "texto": "Salud mental: 10.000 profesionales más y un plan nacional de prevención del suicidio.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-06",
+   "area": "sanidad",
+   "texto": "Crear una Agencia Estatal de Salud Pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-san-07",
+   "area": "sanidad",
+   "texto": "Tarjeta sanitaria única y válida en toda España e historia clínica electrónica común.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-edu-01",
+   "area": "educacion",
+   "texto": "Sustituir la LOMLOE por una nueva ley educativa pactada y derogar los currículos vigentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-edu-02",
+   "area": "educacion",
+   "texto": "Retirar pantallas y dispositivos individuales de las aulas, al menos hasta Secundaria.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-edu-03",
+   "area": "educacion",
+   "texto": "Cerrar en diez años la brecha con la media de la OCDE en matemáticas y comprensión lectora.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-edu-04",
+   "area": "educacion",
+   "texto": "Prueba de acceso a la universidad (EBAU) común en toda España.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-edu-05",
+   "area": "educacion",
+   "texto": "Educación más exigente y refuerzo de la autoridad del profesorado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Radio Líder",
+    "url": "https://radiolider.com/feijoo-contrato-espana-elecciones-29-noviembre/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-deu-01",
+   "area": "deuda",
+   "texto": "Reducir el número de ministerios, altos cargos y asesores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-deu-02",
+   "area": "deuda",
+   "texto": "Auditar el gasto público «euro a euro».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Que.es",
+    "url": "https://www.que.es/2026/10/19/contrato-con-espana-feijoo-impuestos/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-deu-03",
+   "area": "deuda",
+   "texto": "Presentar Presupuestos cada año y convocar elecciones si un Gobierno acumula más de una prórroga.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Última Hora",
+    "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/19/2732043/feijoo-firma-contrato-espana-palabra-cumplira-promesas-recoge-voy-fallar.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-01",
+   "area": "inmigracion",
+   "texto": "Visado por puntos que valore formación, experiencia, idioma e integración, con contrato en origen o visado temporal para buscar empleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-inm-02",
+   "area": "inmigracion",
+   "texto": "Cuotas anuales por país y sector, solo para países que colaboren en repatriaciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-03",
+   "area": "inmigracion",
+   "texto": "Fin de las regularizaciones generalizadas y prohibirlas por ley.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-04",
+   "area": "inmigracion",
+   "texto": "Arraigo y reagrupación familiar con carácter excepcional y requisitos económicos más exigentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-05",
+   "area": "inmigracion",
+   "texto": "Ayudas no urgentes solo con residencia legal acreditada; el padrón, solo para fines estadísticos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-06",
+   "area": "empleo",
+   "texto": "Vincular el Ingreso Mínimo Vital a la búsqueda activa de empleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-07",
+   "area": "inmigracion",
+   "texto": "Expulsión ante condenas por delitos graves o reincidencia, pérdida automática de la residencia y más tiempo máximo en los CIE.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-08",
+   "area": "inmigracion",
+   "texto": "Exigir nivel B2 de español y una prueba reforzada de conocimientos para obtener la nacionalidad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-09",
+   "area": "inmigracion",
+   "texto": "Pruebas de edad a menores no acompañados en 72 horas y nuevo delito de fraude de edad o nacionalidad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan Nacional de Inmigración del PP",
+    "url": "https://www.pp.es/storage/2025/10/Plan-Nacional-de-Inmigracion-del-Partido-Popular.pdf",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-inm-10",
+   "area": "inmigracion",
+   "texto": "Nueva Ley de Extranjería para devolver de inmediato a quien entre de forma irregular.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ene-01",
+   "area": "energia",
+   "texto": "Cancelar el calendario de cierre de las centrales nucleares y garantizar que sigan operando más allá de 2030.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Posición del PP sobre la prórroga de Almaraz, Moncloa.com",
+    "url": "https://www.moncloa.com/2026/08/14/pp-prorroga-almaraz-3415416/",
+    "fecha": "2026-08"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-ene-02",
+   "area": "energia",
+   "texto": "Suprimir el impuesto a la generación eléctrica.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ene-03",
+   "area": "energia",
+   "texto": "Plan de choque para desbloquear el acceso a la red eléctrica de instalaciones paradas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo, Teleprensa/Europa Press",
+    "url": "https://www.teleprensa.com/nacional-3/economia/feijoo-propone-iva-todos-alimentos-duplicar-desgravaciones-fiscales-hijo/202609241733302515978.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ene-04",
+   "area": "energia",
+   "texto": "Plan Nacional del Agua pactado con las CCAA: 100.000 M€ hasta 2035 en infraestructuras hídricas contra inundaciones y sequías.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ene-05",
+   "area": "energia",
+   "texto": "Agilizar los permisos para instalaciones renovables.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ter-01",
+   "area": "territorio",
+   "texto": "Nuevo sistema de financiación autonómica acordado en el Consejo de Política Fiscal y Financiera, con la AIReF y sin acuerdos bilaterales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ter-02",
+   "area": "territorio",
+   "texto": "Derecho de veto del Senado en leyes que afecten a las comunidades y comparecencia mensual del presidente en el Senado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ter-03",
+   "area": "territorio",
+   "texto": "Plan para recuperar el ferrocarril como servicio de referencia nacional.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España» de Feijóo, El Español",
+    "url": "https://www.elespanol.com/espana/politica/20261019/compromisos-feijoo-contrato-espana-garantizar-pensiones-ordenar-inmigracion/1003744426020_0.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-01",
+   "area": "instituciones",
+   "texto": "Que los jueces elijan a los jueces del Consejo General del Poder Judicial.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Que.es",
+    "url": "https://www.que.es/2026/10/19/contrato-con-espana-feijoo-impuestos/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-ins-02",
+   "area": "instituciones",
+   "texto": "Cinco años sin cargo político para entrar en el CGPJ o el Constitucional; dos años de espera para que jueces y fiscales que hayan sido políticos vuelvan a juzgar.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-03",
+   "area": "instituciones",
+   "texto": "Impedir que el Tribunal Constitucional actúe como tribunal de casación del Supremo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-04",
+   "area": "instituciones",
+   "texto": "Cese automático del fiscal general del Estado si es procesado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-05",
+   "area": "instituciones",
+   "texto": "Prohibir indultos por terrorismo, corrupción, delitos contra la integridad territorial o contra menores; indultar a un cargo político exigiría dos tercios del Congreso.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-06",
+   "area": "instituciones",
+   "texto": "Derogar la Ley de Amnistía.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-07",
+   "area": "instituciones",
+   "texto": "Recuperar el delito de sedición y tipificar la convocatoria de referéndum ilegal.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ins-08",
+   "area": "instituciones",
+   "texto": "Exigir responsabilidad política a los cargos por la corrupción de sus subordinados.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Última Hora",
+    "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/19/2732043/feijoo-firma-contrato-espana-palabra-cumplira-promesas-recoge-voy-fallar.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-igu-01",
+   "area": "igualdad",
+   "texto": "Penas más duras por violencia machista y prisión permanente revisable para reincidentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-igu-02",
+   "area": "igualdad",
+   "texto": "Ley contra la violencia vicaria, reforma de los delitos sexuales y refuerzo contra la trata.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-igu-03",
+   "area": "igualdad",
+   "texto": "Derogar la Ley Trans y retrasar cualquier tratamiento de cambio de sexo en menores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-igu-04",
+   "area": "igualdad",
+   "texto": "Que el sexo biológico determine las categorías en las competiciones deportivas femeninas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-01",
+   "area": "seguridad",
+   "texto": "Más recursos económicos y materiales para Policía Nacional y Guardia Civil.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Que.es",
+    "url": "https://www.que.es/2026/10/19/contrato-con-espana-feijoo-impuestos/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-02",
+   "area": "seguridad",
+   "texto": "Ley contra la multirreincidencia que trate el hurto continuado como robo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-03",
+   "area": "seguridad",
+   "texto": "Recuperar el OCON-Sur, medios no letales contra narcolanchas y estudiar llevar el crimen organizado grave a la Audiencia Nacional.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-04",
+   "area": "seguridad",
+   "texto": "Desplegar el Ejército en la frontera si Marruecos no frena la presión migratoria.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-05",
+   "area": "seguridad",
+   "texto": "Elevar las Fuerzas Armadas hasta 140.000 efectivos en dos legislaturas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-seg-06",
+   "area": "seguridad",
+   "texto": "Cumplir los compromisos de inversión en defensa con la OTAN con el aval del Congreso, sin fijar porcentaje del PIB.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ext-01",
+   "area": "exterior",
+   "texto": "Informar a las Cortes de los compromisos con Marruecos, Venezuela y China.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ext-02",
+   "area": "exterior",
+   "texto": "Defender la soberanía sobre Gibraltar; cualquier acuerdo deberá pasar por las Cortes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ext-03",
+   "area": "exterior",
+   "texto": "Apoyar el acuerdo UE-Mercosur y un tratado de libre comercio con Estados Unidos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-ext-04",
+   "area": "exterior",
+   "texto": "Solución de dos Estados para Israel y Palestina, negociada sin Hamás.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-rur-01",
+   "area": "rural",
+   "texto": "Reducir el gasto en fertilizantes y combustible de agricultores, ganaderos y pescadores hasta el máximo que permita la UE.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-rur-02",
+   "area": "rural",
+   "texto": "Ley de desarrollo rural y fiscalidad específica para el medio rural como proyecto piloto.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-cul-01",
+   "area": "cultura",
+   "texto": "Garantizar la enseñanza en castellano en toda España, junto a las lenguas cooficiales en sus territorios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "«Contrato con España», Última Hora",
+    "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/19/2732043/feijoo-firma-contrato-espana-palabra-cumplira-promesas-recoge-voy-fallar.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-cul-02",
+   "area": "cultura",
+   "texto": "Usar solo el español en el Congreso y reservar las lenguas cooficiales para el Senado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-cul-03",
+   "area": "cultura",
+   "texto": "Derogar la Ley de Memoria Democrática.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-cul-04",
+   "area": "cultura",
+   "texto": "Defender la tauromaquia como expresión cultural.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia política del XXI Congreso del PP, El Debate",
+    "url": "https://www.eldebate.com/espana/20250617/claves-ponencia-politica-pp-despolitizar-constitucional-prohibir-indultos-corruptos_308311.html",
+    "fecha": "2025-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-tec-01",
+   "area": "tecnologia",
+   "texto": "Robotización de la Administración y refuerzo de la ciberseguridad.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PP 2023, resumen de 50 medidas",
+    "url": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-tec-02",
+   "area": "tecnologia",
+   "texto": "Proteger a los menores del acceso a las redes sociales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-dem-01",
+   "area": "demografia",
+   "texto": "Duplicar el mínimo por descendientes en el IRPF: de 2.400 a 4.800 € el primer hijo, de 2.700 a 5.400 € el segundo, de 4.000 a 8.000 € el tercero y de 4.500 a 9.000 € los siguientes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pp-dem-02",
+   "area": "demografia",
+   "texto": "Duplicar el incremento por hijo menor de tres años, de 2.800 a 5.600 €.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan de choque económico de Feijóo (Alovera), El Español",
+    "url": "https://www.elespanol.com/espana/politica/20260924/feijoo-propone-iva-alimentos-basicos-sanchismo-convertido-espana-pais-invivible/1003744395555_0.html",
+    "fecha": "2026-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-dem-03",
+   "area": "demografia",
+   "texto": "Escuela de 0 a 3 años gratuita y ayudas para el cuidado de los hijos en casa.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-dem-04",
+   "area": "demografia",
+   "texto": "Ayudas para la congelación de óvulos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pp-dem-05",
+   "area": "demografia",
+   "texto": "Bonificar las cotizaciones durante los permisos por nacimiento.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PP para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Rebajas de IVA generalizadas y poco focalizadas",
+    "texto": "Un estudio de Fedea sobre la rebaja del IVA de alimentos concluye que, en euros, la mitad del ahorro fiscal va al 40% de hogares con más renta y su efecto redistributivo es pequeño. Otro análisis de Fedea sobre las rebajas fiscales energéticas recomienda sustituirlas por transferencias directas a hogares vulnerables, porque no focalizan la ayuda y distorsionan la señal de precios.",
+    "sobre": [
+     "pp-eco-02",
+     "pp-eco-03"
+    ],
+    "fuente": {
+     "nombre": "Fedea (López Laborda, Marín y Onrubia, 2023; Judith Arnal, 2026)",
+     "url": "https://fedea.net/efectos-recaudatorios-y-distributivos-de-la-reduccion-de-los-tipos-del-iva-a-determinados-productos-de-alimentacion/"
+    }
+   },
+   {
+    "titulo": "Bajadas de impuestos sin cuantificar ni financiar",
+    "texto": "El PP no ha cifrado el coste de sus rebajas (IVA, IRPF, vivienda, autónomos) ni cómo se compensarían. Funcas prevé un déficit del 2,5–2,9% del PIB entre 2026 y 2028, deuda cercana al 98% y un aumento de unos 20.000 M€ en el pago de intereses hasta 2031, lo que reduce el margen para recortar ingresos.",
+    "sobre": [
+     "pp-eco-01",
+     "pp-eco-02",
+     "pp-eco-03",
+     "pp-eco-04",
+     "pp-eco-05",
+     "pp-eco-07",
+     "pp-eco-08",
+     "pp-viv-06"
+    ],
+    "fuente": {
+     "nombre": "Funcas, Previsiones económicas para España 2026-2028 (octubre 2026)",
+     "url": "https://www.funcas.es/textointegro/previsiones-economicas-para-espana-2026-2028-octubre-2026/"
+    }
+   },
+   {
+    "titulo": "Ayudas a la compra con oferta rígida",
+    "texto": "Avales del 100%, IVA del 4% y menos ITP aumentan la capacidad de compra; si la oferta no responde a corto plazo, parte de la ayuda puede trasladarse al precio. Funcas advierte de que las ayudas a la demanda dan alivio inmediato a costa de distorsiones a largo plazo, y el Banco de España describe una oferta muy rígida.",
+    "sobre": [
+     "pp-viv-05",
+     "pp-viv-06",
+     "pp-viv-07"
+    ],
+    "fuente": {
+     "nombre": "Funcas, «Housing affordability in Europe: lessons for Spain»; Banco de España, Informe Anual 2023 cap. 4",
+     "url": "https://www.funcas.es/areas-de-investigacion/area-de-economia/mercado-de-la-vivienda/"
+    }
+   },
+   {
+    "titulo": "Objetivo de construcción por encima de la capacidad actual",
+    "texto": "El Banco de España sitúa las viviendas terminadas en unas 90.000 al año desde 2021. Pasar a 250.000 anuales exigiría casi triplicar la producción, con un sector que ya arrastra escasez de suelo finalista, de mano de obra y de plazos administrativos ágiles.",
+    "sobre": [
+     "pp-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2023, cap. 4 (mercado de la vivienda)",
+     "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+    }
+   },
+   {
+    "titulo": "Pensiones al IPC sin medidas de gasto concretas",
+    "texto": "Fedea proyecta que, con la reforma de 2021-23 y la revalorización con el IPC, el gasto en pensiones superará el 18% del PIB hacia 2050 y recomienda contener el gasto también en las revalorizaciones. El PP garantiza el IPC sin explicar con qué ingresos o ajustes cubriría ese gasto, a la vez que promete bajar impuestos.",
+    "sobre": [
+     "pp-pen-01",
+     "pp-pen-02",
+     "pp-pen-03"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «Los efectos de la reforma de pensiones de 2021-23» (Sánchez, De la Fuente y García, 2025)",
+     "url": "https://fedea.net/el-impacto-de-la-reforma-de-pensiones-de-2021-23/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Retirar los topes al alquiler deja sin protección a corto plazo",
+    "texto": "Las medidas de oferta del PP tardarían años en notarse, y eliminar las zonas tensionadas quita la protección de precios a los inquilinos actuales. Según Fedea, los hogares de alquiler dedican de media el 33,5% de su renta a la vivienda, y el quintil de menos ingresos el 36,2%.",
+    "sobre": [
+     "pp-viv-08"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «Esfuerzo residencial y desigualdad económica» (Fernando Pinto, 2026)",
+     "url": "https://fedea.net/esfuerzo-residencial-y-desigualdad-economica/"
+    }
+   },
+   {
+    "titulo": "Deducciones por hijo que no llegan a los hogares más pobres",
+    "texto": "Duplicar el mínimo por descendientes solo beneficia a quien tiene cuota de IRPF suficiente. Fedea calcula que el 28,3% de los menores vive bajo el umbral de pobreza, con más riesgo en hogares jóvenes y monoparentales, y recomienda completar las ayudas universales con medidas focalizadas.",
+    "sobre": [
+     "pp-dem-01",
+     "pp-dem-02"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «Hijos, ciclo vital y pobreza en España: 2008–2025» (Conde-Ruiz y Garay, 2026)",
+     "url": "https://fedea.net/hijos-ciclo-vital-y-pobreza-en-espana-2008-2025/"
+    }
+   },
+   {
+    "titulo": "Restricciones migratorias y necesidades del mercado laboral",
+    "texto": "Ligar las cuotas a la cooperación del país de origen, prohibir regularizaciones y dejar las ayudas no urgentes solo para residentes legales puede dejar en la irregularidad a personas que ya trabajan en España. Fedea estima que entre 2000 y 2019 la inmigración compensó cerca del 60% del deterioro demográfico y que en 2020-2024 sumó empleo.",
+    "sobre": [
+     "pp-inm-02",
+     "pp-inm-03",
+     "pp-inm-04",
+     "pp-inm-05"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «Inmigración, envejecimiento y dividendo demográfico» (Conde-Ruiz, González y Díaz-Salazar, 2026)",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   },
+   {
+    "titulo": "Altas médicas por las mutuas",
+    "texto": "Los sindicatos rechazan que las mutuas, entidades privadas colaboradoras de la Seguridad Social, puedan dar altas en bajas comunes. Hoy esa decisión corresponde al médico del servicio público de salud, y temen que se primen criterios de coste sobre los clínicos.",
+    "sobre": [
+     "pp-emp-03"
+    ],
+    "fuente": {
+     "nombre": "PoliticaElectoral.com (posición sindical recogida)",
+     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Derogar la Ley de Memoria Democrática",
+    "texto": "En 2024, tres relatores de la ONU escribieron al Gobierno para criticar las «leyes de concordia» que gobiernos autonómicos del PP con Vox impulsaron para sustituir esa ley, y recordaron el deber del Estado con las víctimas de desapariciones forzadas. Derogar la norma estatal plantearía un conflicto parecido con esos estándares internacionales.",
+    "sobre": [
+     "pp-cul-03"
+    ],
+    "fuente": {
+     "nombre": "Relatores especiales de la ONU (abril 2024), resumen en Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Democratic_Memory_Law"
+    }
+   },
+   {
+    "titulo": "Lenguas cooficiales y modelo educativo",
+    "texto": "Los partidos de ámbito autonómico y los gobiernos con lengua propia sostienen que quitar las lenguas cooficiales del Congreso y garantizar la escolarización en castellano en todas las etapas pone en riesgo los modelos de inmersión o normalización lingüística. Para ellos, estos modelos protegen lenguas en minoría dentro del marco del artículo 3 de la Constitución.",
+    "sobre": [
+     "pp-cul-01",
+     "pp-cul-02"
+    ]
+   },
+   {
+    "titulo": "Derogar la Ley Trans y restringir tratamientos a menores",
+    "texto": "Las organizaciones LGTBI sostienen que derogar la Ley Trans y retrasar los tratamientos a menores supone un retroceso en derechos reconocidos en 2023. A su juicio, la decisión clínica debe tomarse caso a caso y no fijarse por ley.",
+    "sobre": [
+     "pp-igu-03",
+     "pp-igu-04"
+    ]
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

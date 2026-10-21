@@ -1,0 +1,576 @@
+{
+ "id": "pacma",
+ "nombre": "Partido Animalista Con el Medio Ambiente",
+ "siglas": "PACMA",
+ "concurre": true,
+ "candidato": "Asier Esparza (elegido aspirante a la presidencia del Gobierno, según Demócrata)",
+ "ideologia": "Animalista",
+ "ambito": "Estatal",
+ "color": "#7AB929",
+ "color_aproximado": true,
+ "web": "https://pacma.es",
+ "escanos_2023": 0,
+ "resumen": "Partido animalista fundado en 2003 que nunca ha obtenido escaño en el Congreso; para el 29N está recogiendo las firmas que exige la ley para poder presentarse. Prioriza la protección legal de todos los animales, la prohibición de la tauromaquia y la caza, y medidas climáticas sobre la ganadería.",
+ "fuentes_programa": [
+  {
+   "nombre": "Programa electoral Generales 2023 (23J)",
+   "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+   "fecha": "2023-07"
+  },
+  {
+   "nombre": "Web de PACMA: «Firma para que PACMA se pueda presentar a las elecciones»",
+   "url": "https://pacma.es/",
+   "fecha": "2026-10-21"
+  },
+  {
+   "nombre": "Demócrata: PACMA elige al donostiarra Asier Esparza como aspirante a la presidencia del Gobierno",
+   "url": "https://www.democrata.es/politica/pacma-elige-al-donostiarra-asier-esparza-como-aspirante-a-la-presidencia-del-gobierno/",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "Web de PACMA (banner de recogida de firmas)",
+  "url": "https://pacma.es/",
+  "fecha": "2026-10-21"
+ },
+ "circunscripciones": [
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Europeas 2024",
+  "porcentaje": 0.77,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Wikipedia, Partido Animalista con el Medio Ambiente (134.425 votos)",
+   "url": "https://es.wikipedia.org/wiki/Partido_Animalista_con_el_Medio_Ambiente"
+  }
+ },
+ "propuestas": [
+  {
+   "id": "pacma-ins-01",
+   "area": "instituciones",
+   "texto": "Aprobar una ley general de protección que ampare a todos los animales sin exclusiones (la «Ley Cero»).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 10",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-ins-02",
+   "area": "instituciones",
+   "texto": "Suprimir la multa como alternativa a la prisión en el maltrato animal y elevar a más de cinco años la pena del tipo agravado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 25",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-ins-03",
+   "area": "instituciones",
+   "texto": "Inhabilitación máxima para tener animales a quien sea condenado por maltrato.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 25",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-04",
+   "area": "instituciones",
+   "texto": "Crear una Fiscalía especializada en protección animal y unidades especializadas en las Fuerzas y Cuerpos de Seguridad del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 25-26",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-05",
+   "area": "instituciones",
+   "texto": "Crear una Dirección General de Bienestar Animal dependiente del ministerio de Medio Ambiente.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 19",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-06",
+   "area": "instituciones",
+   "texto": "Prohibir la compraventa y la exhibición comercial de animales de compañía, de modo que solo puedan adoptarse.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 11",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-07",
+   "area": "instituciones",
+   "texto": "Esterilización obligatoria también para perros, con campañas públicas subvencionadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 12",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-08",
+   "area": "instituciones",
+   "texto": "«Sacrificio cero» en los centros de recogida y acogida de animales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 12",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-09",
+   "area": "instituciones",
+   "texto": "Gestionar las colonias felinas con el método CER (captura, esterilización y retorno) obligatorio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 13",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-10",
+   "area": "instituciones",
+   "texto": "Reconocimiento legal de los santuarios de animales y declaración de utilidad pública de las protectoras que lo soliciten, con ayudas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 19",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ins-11",
+   "area": "instituciones",
+   "texto": "Protocolos obligatorios de evacuación y rescate de animales en catástrofes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 20",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-cul-01",
+   "area": "cultura",
+   "texto": "Prohibir la tauromaquia y derogar la Ley 18/2013 que la declara patrimonio cultural.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 15",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-cul-02",
+   "area": "cultura",
+   "texto": "Retirar las subvenciones públicas a los espectáculos con animales y prohibir su retransmisión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 15",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-cul-03",
+   "area": "cultura",
+   "texto": "Prohibir los espectáculos con animales (circos, espectáculos acuáticos y similares).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 14",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-cul-04",
+   "area": "cultura",
+   "texto": "Prohibir la cautividad con fines de entretenimiento y reconvertir los zoológicos en centros de rescate.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 13-14",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-01",
+   "area": "rural",
+   "texto": "Prohibir la caza y el uso de animales como instrumentos de caza; mientras, limitar los cotos y prohibir la munición de plomo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 16-17",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-rur-02",
+   "area": "rural",
+   "texto": "Catalogar al lobo como especie en peligro de extinción y hacer censos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 18",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-03",
+   "area": "rural",
+   "texto": "Prohibir las granjas peleteras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 18",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-04",
+   "area": "rural",
+   "texto": "Prohibir la alimentación forzosa y la venta de foie gras, y las amputaciones no curativas en explotaciones ganaderas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 27-28",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-05",
+   "area": "rural",
+   "texto": "Prohibir el sacrificio halal y kosher sin aturdimiento previo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 28",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-06",
+   "area": "rural",
+   "texto": "Oponerse a nuevas piscifactorías intensivas y cerrar las existentes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 29",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-07",
+   "area": "rural",
+   "texto": "Limitar el tamaño y el número de animales de las explotaciones ganaderas y avícolas («no a las macrogranjas»).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 35-37",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-08",
+   "area": "rural",
+   "texto": "Prohibir el glifosato y otros herbicidas y plaguicidas peligrosos y fomentar la agricultura ecológica.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 36-38",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-09",
+   "area": "rural",
+   "texto": "Control reproductivo de la fauna silvestre solo con métodos no letales y red suficiente de centros de recuperación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 20-21",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-eco-01",
+   "area": "economia",
+   "texto": "Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 30",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-eco-02",
+   "area": "economia",
+   "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar daños.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 35",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pacma-eco-03",
+   "area": "economia",
+   "texto": "Impuesto climático a las explotaciones ganaderas y avícolas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 37",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-eco-04",
+   "area": "economia",
+   "texto": "Retirar las subvenciones a la ganadería y destinarlas a la agricultura y a los alimentos vegetales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 36-39",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-tec-01",
+   "area": "tecnologia",
+   "texto": "Avanzar hacia la prohibición de la experimentación con animales, con una estrategia nacional de métodos alternativos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 29-30",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-tec-02",
+   "area": "tecnologia",
+   "texto": "Prohibir los ingredientes de origen animal en cosméticos y productos de higiene.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 29",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ene-01",
+   "area": "energia",
+   "texto": "Modelo energético basado en renovables y contratación pública solo de energía renovable.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 32-33",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ene-02",
+   "area": "energia",
+   "texto": "Ley de movilidad sostenible que priorice el transporte público, la bicicleta y el peatón.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 34",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-ene-03",
+   "area": "energia",
+   "texto": "Sistema de depósito, devolución y retorno de envases con objetivos de recuperación del 80-90%.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 40",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-edu-01",
+   "area": "educacion",
+   "texto": "Incluir el respeto y la protección animal en el currículo y sustituir las visitas a «granjas escuela» por visitas a refugios y santuarios.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 26-27",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-san-01",
+   "area": "sanidad",
+   "texto": "Permitir el acceso de animales de compañía a hospitales, en zonas habilitadas, y regular su acceso al transporte público y residencias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Generales 2023 (23J), p. 21-22",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pacma-rur-10",
+   "area": "rural",
+   "texto": "Incluir a los perros de caza en la Ley de Bienestar Animal.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Web de PACMA (campañas activas)",
+    "url": "https://pacma.es/",
+    "fecha": "2026-10-21"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste del sector ganadero y del medio rural",
+    "texto": "Retirar las ayudas a la ganadería, gravar sus emisiones y limitar el tamaño de las explotaciones afectaría a un sector con mucho peso en el empleo de zonas despobladas. El programa no cuantifica el impacto en rentas agrarias ni prevé una transición para los ganaderos.",
+    "sobre": [
+     "pacma-eco-02",
+     "pacma-eco-03",
+     "pacma-eco-04",
+     "pacma-rur-07"
+    ],
+    "fuente": {
+     "nombre": "Argumento de impacto sectorial y territorial; el programa no aporta memoria económica"
+    }
+   },
+   {
+    "titulo": "IVA superreducido y recaudación",
+    "texto": "Bajar el IVA veterinario del 21% al 4% tiene un coste recaudatorio y la evidencia sobre rebajas de IVA indica que una parte puede no trasladarse al precio final. Además, el tipo del 4% está reservado por la normativa europea a bienes y servicios de primera necesidad tasados.",
+    "sobre": [
+     "pacma-eco-01"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2006/112/CE del IVA (anexo III) y estudios sobre traslación de rebajas de IVA"
+    }
+   },
+   {
+    "titulo": "Cosmética y mercado único",
+    "texto": "Prohibir en España los ingredientes de origen animal en cosméticos chocaría con un mercado armonizado por el Reglamento (CE) 1223/2009, lo que limitaría su alcance a la producción nacional y podría desplazar la actividad a otros países.",
+    "sobre": [
+     "pacma-tec-02"
+    ],
+    "fuente": {
+     "nombre": "Reglamento (CE) 1223/2009 sobre productos cosméticos",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32009R1223"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Experimentación animal y medicina",
+    "texto": "La investigación biomédica y la normativa de autorización de medicamentos aún exigen ensayos con animales en muchos casos. Avanzar hacia su prohibición sin alternativas validadas podría retrasar tratamientos; la Directiva 2010/63/UE apuesta por reducir y sustituir, no por prohibir.",
+    "sobre": [
+     "pacma-tec-01"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2010/63/UE relativa a la protección de los animales utilizados para fines científicos",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32010L0063"
+    }
+   },
+   {
+    "titulo": "Gestión de fauna y daños agrarios",
+    "texto": "Prohibir la caza y limitar el control de fauna a métodos no letales deja sin herramientas inmediatas frente a la sobrepoblación de especies como el jabalí, ligada a daños agrícolas y accidentes de tráfico; los métodos anticonceptivos tienen eficacia limitada a gran escala.",
+    "sobre": [
+     "pacma-rur-01",
+     "pacma-rur-09"
+    ],
+    "fuente": {
+     "nombre": "Argumento de gestión cinegética y de fauna silvestre"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Tradiciones con arraigo",
+    "texto": "La prohibición de la tauromaquia, la caza y los festejos con animales choca con prácticas de fuerte arraigo cultural en muchos territorios, y la eliminación de su protección como patrimonio cultural suscitaría un rechazo amplio en parte del medio rural.",
+    "sobre": [
+     "pacma-cul-01",
+     "pacma-rur-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento cultural; Ley 18/2013 de la tauromaquia como patrimonio cultural",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11938"
+    }
+   },
+   {
+    "titulo": "Sacrificio ritual y minorías religiosas",
+    "texto": "Exigir siempre aturdimiento afecta a prácticas de las comunidades judía y musulmana; aunque los tribunales europeos lo han avalado (ver derecho), las organizaciones religiosas lo consideran una restricción de su culto.",
+    "sobre": [
+     "pacma-rur-05"
+    ],
+    "fuente": {
+     "nombre": "TEDH, Executief van de Moslims van België c. Bélgica (2024), comunicado",
+     "url": "https://www.echr.coe.int/w/judgment-concerning-belgium-3"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos graves. Solo una duda menor: prohibir que se retransmitan espectáculos que siguen siendo legales afecta a la libertad de información. Su propuesta más polémica en derechos, exigir aturdimiento en el sacrificio ritual, ha sido avalada por el TJUE y el TEDH.",
+  "criticas": [
+   {
+    "titulo": "Prohibir la retransmisión de espectáculos con animales",
+    "texto": "Vetar la emisión de un espectáculo lícito es una restricción por su contenido de la libertad de información, que solo cabe por ley y con una justificación proporcionada. El programa no la aporta. Si el espectáculo pasara a estar prohibido, el problema desaparecería.",
+    "gravedad": "baja",
+    "criterio": "Art. 20.1.d y 20.4 CE; CEDH, art. 10",
+    "sobre": [
+     "pacma-cul-02"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 20",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "avales": [
+   {
+    "titulo": "Aturdimiento obligatorio también en el sacrificio ritual",
+    "texto": "El TJUE declaró compatible con la libertad religiosa una norma flamenca que exige aturdimiento previo, incluso reversible, en el sacrificio ritual, y el TEDH concluyó en 2024 que esa prohibición no vulnera el art. 9 del Convenio.",
+    "criterio": "TJUE (Gran Sala), C-336/19, 17-12-2020; TEDH, Executief van de Moslims van België y otros c. Bélgica, 13-2-2024",
+    "sobre": [
+     "pacma-rur-05"
+    ],
+    "fuente": {
+     "nombre": "TEDH, comunicado de la sentencia (2024)",
+     "url": "https://www.echr.coe.int/w/judgment-concerning-belgium-3"
+    }
+   }
+  ]
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

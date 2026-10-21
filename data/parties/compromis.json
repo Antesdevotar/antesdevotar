@@ -1,0 +1,487 @@
+{
+ "id": "compromis",
+ "nombre": "Compromís: Front Valencià",
+ "siglas": "COMPROMÍS",
+ "concurre": true,
+ "candidato": "Àgueda Micó (Valencia); María Teresa Pérez, de Podem (Alicante); Castellón, de Compromís (por confirmar)",
+ "ideologia": "Nacionalista valenciano de izquierda verde",
+ "ambito": "Comunitat Valenciana",
+ "color": "#F18E00",
+ "web": "https://compromis.net",
+ "escanos_2023": 2,
+ "resumen": "Coalición de Més-Compromís, Iniciativa, Verds Equo, Podemos, EUPV, ERPV y Recortes Cero en las tres provincias valencianas, donde sustituye en la papeleta a Podemos y al Frente Amplio; Compromís es la fuerza principal y en 2023 obtuvo dos escaños dentro de Sumar. Prioriza la financiación autonómica, un grupo valenciano propio en el Congreso, la vivienda y los servicios públicos. Las propuestas son de Compromís, no de Podemos ni de Sumar.",
+ "fuentes_programa": [
+  {
+   "nombre": "Compromís, resumen del programa autonómico 2023",
+   "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+   "fecha": "2023-05"
+  },
+  {
+   "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+   "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+   "fecha": "2023-07-07"
+  },
+  {
+   "nombre": "Vozpópuli, 18-6-2024: Compromís y la financiación singular de Cataluña",
+   "url": "https://www.vozpopuli.com/espana/politica/compromis-retirara-apoyo-sanchez-si-reconoce-financiacion-singular-cataluna.html",
+   "fecha": "2024-06-18"
+  },
+  {
+   "nombre": "Nació Digital, 18-10-2026: Compromís-Front Valencià, malgrat tot, unitat",
+   "url": "https://naciodigital.cat/politica/compromis-front-valencia-a-pesar-de-tot-unitat.html",
+   "fecha": "2026-10-18"
+  },
+  {
+   "nombre": "Moncloa.com, 18-10-2026: lista unitaria de la izquierda valenciana",
+   "url": "https://www.moncloa.com/2026/10/18/lista-unitaria-izquierda-valenciana-29n-3450922/",
+   "fecha": "2026-10-18"
+  },
+  {
+   "nombre": "Alicante Plaza, 16-10-2026: EUPV acepta la oferta de Compromís",
+   "url": "https://alicanteplaza.es/alicanteplaza/comunitat-valenciana/reconciliacion-in-extremis-en-la-izquierda-eupv-acepta-la-ultima-oferta-de-compromis-e-iran-en-coalicion",
+   "fecha": "2026-10-16"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "Demócrata: nueve coaliciones se inscriben en la JEC para las generales",
+  "url": "https://www.democrata.es/politica/nueve-coaliciones-se-inscriben-en-la-jec-para-las-generales-dos-al-congreso-tres-al-senado-y-cuatro-autonomicas/",
+  "fecha": "2026-10-17"
+ },
+ "circunscripciones": [
+  "Alicante",
+  "Castellón",
+  "Valencia"
+ ],
+ "referencia_voto": {
+  "eleccion": "Autonómicas Comunitat Valenciana 2023",
+  "porcentaje": 14.51,
+  "ambito": "Comunitat Valenciana",
+  "fuente": {
+   "nombre": "Wikipedia, 2023 Valencian regional election (Compromís, 357.989 votos)",
+   "url": "https://en.wikipedia.org/wiki/2023_Valencian_regional_election"
+  },
+  "nota": "En las generales de 2023 Compromís concurrió dentro de Sumar. En las autonómicas de 2023 Podemos-EUPV sacó el 3,57%."
+ },
+ "propuestas": [
+  {
+   "id": "compromis-ter-01",
+   "area": "territorio",
+   "texto": "Nuevo modelo de financiación autonómica y, mientras llega, un fondo de nivelación que sitúe a la Comunitat Valenciana en la media estatal.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-deu-01",
+   "area": "deuda",
+   "texto": "Reconocer y compensar la deuda generada por la «infrafinanciación» valenciana.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-ter-02",
+   "area": "territorio",
+   "texto": "No apoyar una financiación singular para Cataluña si no se aborda también la infrafinanciación valenciana.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Vozpópuli, 18-6-2024: Compromís y la financiación singular de Cataluña",
+    "url": "https://www.vozpopuli.com/espana/politica/compromis-retirara-apoyo-sanchez-si-reconoce-financiacion-singular-cataluna.html",
+    "fecha": "2024-06-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-ins-01",
+   "area": "instituciones",
+   "texto": "Formar un grupo parlamentario valenciano propio en el Congreso, sin depender de partidos estatales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Moncloa.com, 18-10-2026: lista unitaria de la izquierda valenciana",
+    "url": "https://www.moncloa.com/2026/10/18/lista-unitaria-izquierda-valenciana-29n-3450922/",
+    "fecha": "2026-10-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-ter-03",
+   "area": "territorio",
+   "texto": "Transferir a la Generalitat la gestión de los trenes de Cercanías.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-san-01",
+   "area": "sanidad",
+   "texto": "Reclamar al Estado 800 millones de euros para la atención primaria valenciana.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   }
+  },
+  {
+   "id": "compromis-dem-01",
+   "area": "demografia",
+   "texto": "Que el Estado financie el 50% del gasto en dependencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   }
+  },
+  {
+   "id": "compromis-ter-04",
+   "area": "territorio",
+   "texto": "Recuperar el Derecho Civil Valenciano para que las Corts puedan legislar sobre él, y reformar el Estatut para ampliar el autogobierno.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-ene-01",
+   "area": "energia",
+   "texto": "Comunidades energéticas locales y autoconsumo, con participación municipal en la planificación de las macroplantas solares.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   }
+  },
+  {
+   "id": "compromis-ene-02",
+   "area": "energia",
+   "texto": "Empresa pública de energía renovable y un plan de 100.000 viviendas con autoconsumo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-ene-03",
+   "area": "energia",
+   "texto": "Nueva declaración de impacto ambiental para la ampliación del Puerto de València, cuya paralización defiende.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-rur-01",
+   "area": "rural",
+   "texto": "Buscar alternativas de agua de calidad a los trasvases a 10-15 años, apoyando mientras tanto a los regantes del sur.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "València Plaza, 7-7-2023: entrevista a Àgueda Micó (acuerdo Compromís-Sumar para el 23J)",
+    "url": "https://valenciaplaza.com/desayuno-electoral-agueda-mico",
+    "fecha": "2023-07-07"
+   }
+  },
+  {
+   "id": "compromis-viv-01",
+   "area": "vivienda",
+   "texto": "Regular por ley los precios del alquiler.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-viv-02",
+   "area": "vivienda",
+   "texto": "Que las viviendas de la Sareb en la Comunitat pasen a ser vivienda pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-viv-03",
+   "area": "vivienda",
+   "texto": "Construir 5.000 viviendas de alquiler social con los ayuntamientos y un Fondo Valenciano de Vivienda Pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-emp-01",
+   "area": "empleo",
+   "texto": "Reducir progresivamente la jornada laboral a 32 horas semanales sin rebaja salarial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "compromis-emp-02",
+   "area": "empleo",
+   "texto": "Que las empresas repartan un mínimo de sus beneficios entre la plantilla.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-san-02",
+   "area": "sanidad",
+   "texto": "Pasar a gestión pública los hospitales y servicios sanitarios privatizados, incluido el transporte sanitario.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-san-03",
+   "area": "sanidad",
+   "texto": "Cita en el centro de salud en un máximo de tres días y 18 psicólogos por 100.000 habitantes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-san-04",
+   "area": "sanidad",
+   "texto": "Crear una farmacéutica pública para medicamentos hospitalarios y de enfermedades raras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-edu-01",
+   "area": "educacion",
+   "texto": "Educación gratuita desde el primer año de vida, y comedores escolares públicos gratuitos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-igu-01",
+   "area": "igualdad",
+   "texto": "Permisos por nacimiento o adopción de seis meses por progenitor y de doce meses en familias monoparentales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-igu-02",
+   "area": "igualdad",
+   "texto": "Garantizar la interrupción voluntaria del embarazo en los centros sanitarios públicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-eco-01",
+   "area": "economia",
+   "texto": "Tasa turística y nuevos impuestos a las empresas más contaminantes y a aviones y embarcaciones privadas; rebajas fiscales en municipios en despoblación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-eco-02",
+   "area": "economia",
+   "texto": "Convertir el Instituto Valenciano de Finanzas en una banca pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-ins-02",
+   "area": "instituciones",
+   "texto": "Prohibir los contratos públicos con grupos empresariales que operen en paraísos fiscales y proteger a los empleados públicos que denuncien irregularidades.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-ins-03",
+   "area": "instituciones",
+   "texto": "Suprimir las diputaciones provinciales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-cul-01",
+   "area": "cultura",
+   "texto": "Plan de promoción del valenciano para equipararlo al castellano y plataforma de vídeo a la carta en valenciano.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "compromis-eco-03",
+   "area": "economia",
+   "texto": "Limitar la llegada de grandes cruceros a los destinos más saturados y una nueva ley de turismo sostenible.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Compromís, resumen del programa autonómico 2023 (28M)",
+    "url": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+    "fecha": "2023-05"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Fondo de nivelación sin financiación definida",
+    "texto": "Fedea confirma que la Comunitat Valenciana es la peor financiada por habitante ajustado. Pero un fondo que la eleve a la media sin bajar a nadie exige más recursos del Estado, en un contexto de déficit y de una deuda por encima del 100% del PIB, y la propuesta no dice de dónde saldrían.",
+    "sobre": [
+     "compromis-ter-01",
+     "compromis-deu-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Liquidación 2024 del sistema de financiación autonómica (2026)",
+     "url": "https://fedea.net/la-liquidacion-de-2024-del-sistema-de-financiacion-de-las-comunidades-autonomas-de-regimen-comun/"
+    }
+   },
+   {
+    "titulo": "Jornada de 32 horas y reparto de beneficios",
+    "texto": "Reducir la jornada a 32 horas sin rebaja salarial elevaría el coste laboral por hora un 25% en las empresas que no puedan compensarlo con productividad, algo especialmente difícil para pymes de servicios. Imponer un reparto mínimo de beneficios interfiere en la libertad de empresa.",
+    "sobre": [
+     "compromis-emp-01",
+     "compromis-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de costes laborales"
+    }
+   },
+   {
+    "titulo": "Topes al alquiler y oferta",
+    "texto": "La regulación por ley de los precios del alquiler puede contener rentas a corto plazo, pero la evidencia comparada apunta a una reducción de la oferta y a un desplazamiento hacia el alquiler de temporada si no se acompaña de más vivienda pública.",
+    "sobre": [
+     "compromis-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2024, capítulo de vivienda"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Revertir concesiones sanitarias",
+    "texto": "Pasar a gestión pública los hospitales privatizados tiene costes de rescate y de integración de plantillas. La reversión del Hospital de La Ribera (2018) se defendió como un ahorro, aunque sus resultados se siguen discutiendo.",
+    "sobre": [
+     "compromis-san-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de gestión sanitaria; reversión del Hospital de La Ribera (2018)"
+    }
+   },
+   {
+    "titulo": "Promesas autonómicas en una campaña estatal",
+    "texto": "Buena parte de sus compromisos (comedores, ratios, plazas de centros de día) son competencia de la Generalitat y no dependen del Congreso, lo que puede confundir sobre lo que su grupo podría lograr en Madrid.",
+    "sobre": [
+     "compromis-edu-01",
+     "compromis-san-03"
+    ],
+    "fuente": {
+     "nombre": "Reparto competencial, Estatut d'Autonomia de la Comunitat Valenciana"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Coalición heterogénea",
+    "texto": "Juntar a Compromís, Podemos, EUPV y ERPV con posiciones distintas sobre la relación con el PSOE, el modelo territorial y la OTAN puede complicar un voto coherente del futuro grupo parlamentario.",
+    "sobre": [
+     "compromis-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Nació Digital, 18-10-2026",
+     "url": "https://naciodigital.cat/politica/compromis-front-valencia-a-pesar-de-tot-unitat.html"
+    }
+   },
+   {
+    "titulo": "Lengua y equiparación",
+    "texto": "El plan para equiparar el valenciano con el castellano es un objetivo compartido por amplios sectores, pero choca con quienes, sobre todo en el sur de Alicante, rechazan medidas que perciban como obligatorias; el conflicto lingüístico sigue presente en la Comunitat.",
+    "sobre": [
+     "compromis-cul-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento sobre el debate lingüístico valenciano"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos relevantes. Sus propuestas de autogobierno pasan por reformar el Estatut, una vía legítima, y no hay medidas que choquen con derechos fundamentales ni con los estándares europeos.",
+  "criticas": [],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

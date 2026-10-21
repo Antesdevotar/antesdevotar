@@ -1,0 +1,993 @@
+{
+ "id": "frenteobrero",
+ "nombre": "Frente Obrero",
+ "siglas": "FO",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Roberto Vaquero (presidente del partido; cabeza de lista por Madrid)",
+ "ideologia": "Izquierda radical nacional-soberanista (marxista-leninista, restrictiva en inmigración y conservadora en valores)",
+ "ambito": "Estatal",
+ "color": "#C1121F",
+ "color_aproximado": true,
+ "web": "https://frenteobrero.es/",
+ "escanos_2023": 0,
+ "resumen": "Organización fundada en 2018 que se define como «patriota y revolucionaria» y une un discurso obrerista con la defensa de la soberanía nacional, con el lema «Patria, orden y lucha obrera». Su programa prioriza la salida de la UE y la OTAN, la nacionalización de sectores estratégicos, el control de la inmigración y la «remigración» y la oposición a lo que llama «islamización».",
+ "fuentes_programa": [
+  {
+   "titulo": "Programa «Un programa para recuperar España» (PDF)",
+   "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Resumen del programa en la web del partido",
+   "url": "https://frenteobrero.es/nuestro-programa-2/",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Cinco propuestas de vivienda (El Diario de Madrid)",
+   "url": "https://www.eldiariodemadrid.es/articulo/politica/frente-obrero-cinco-propuestas-crisis-vivienda-espana/20261009090026143780.html",
+   "fecha": "2026-10-09"
+  },
+  {
+   "titulo": "Anuncio de candidatura y lema (El Diario de Madrid)",
+   "url": "https://www.eldiariodemadrid.es/articulo/politica/frente-obrero-elecciones-generales-29-noviembre-roberto-vaquero-patria-orden-lucha-obrera/20261005162058143376.html",
+   "fecha": "2026-10-05"
+  }
+ ],
+ "programa_2026_publicado": true,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "El Confidencial Digital",
+  "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+  "fecha": "2026-10-18"
+ },
+ "circunscripciones": [
+  "Madrid",
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.19,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Resultados oficiales recopilados en Wikipedia, «2023 Spanish general election»",
+   "url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+  },
+  "nota": "46.274 votos al Congreso. En las europeas de 2024 obtuvo 66.039 votos (0,38 %)."
+ },
+ "propuestas": [
+  {
+   "id": "frenteobrero-emp-01",
+   "area": "empleo",
+   "texto": "Subidas salariales generales ligadas al coste de la vida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-emp-02",
+   "area": "empleo",
+   "texto": "Representación obligatoria de los trabajadores en todas las empresas de 10 o más empleados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-emp-03",
+   "area": "empleo",
+   "texto": "Endurecer las sanciones por contratar a extranjeros en situación irregular, en especial en el campo, y derogar las normas de contratación colectiva en sectores precarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-emp-04",
+   "area": "empleo",
+   "texto": "Restringir los contratos temporales y fijos discontinuos y prohibir las empresas de trabajo temporal (ETT).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-emp-05",
+   "area": "empleo",
+   "texto": "Derogar las reformas laborales que abaratan el despido y dan prioridad al convenio de empresa sobre el sectorial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-emp-06",
+   "area": "empleo",
+   "texto": "Derogar de inmediato el Real Decreto-ley 17/1977, que regula y limita el derecho de huelga.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-emp-07",
+   "area": "empleo",
+   "texto": "Eximir de cotizar a los autónomos que ingresen menos del SMI, bajar sus cuotas, cubrir al 100 % su baja por enfermedad y acabar con los «falsos autónomos».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ext-01",
+   "area": "exterior",
+   "texto": "Salir de la Unión Europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-ext-02",
+   "area": "exterior",
+   "texto": "Salir de inmediato de la OTAN y reforzar el ejército.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ext-03",
+   "area": "exterior",
+   "texto": "Expulsar todas las bases militares extranjeras, empezando por la presencia británica en Gibraltar, y recuperar su control.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ext-04",
+   "area": "exterior",
+   "texto": "Reconocer una «deuda histórica» con el pueblo saharaui y apoyar su autodeterminación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-eco-01",
+   "area": "economia",
+   "texto": "Nacionalizar los sectores estratégicos de la economía, con una fuerte intervención del Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-eco-02",
+   "area": "economia",
+   "texto": "Reindustrializar el país priorizando industrias estratégicas y recursos nacionales, y reducir la dependencia de la UE y del turismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-eco-03",
+   "area": "economia",
+   "texto": "Bajar el IRPF a las rentas bajas y subirlo a las altas, con más tramos y tipos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-eco-04",
+   "area": "economia",
+   "texto": "Reducir el peso del IVA y llevar progresivamente los bienes básicos al tipo superreducido.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-eco-05",
+   "area": "economia",
+   "texto": "Multas y, si es necesario, expropiación a las empresas que cometan fraude fiscal o tributen en el extranjero.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-eco-06",
+   "area": "economia",
+   "texto": "Subir sociedades y patrimonio a las grandes empresas, centralizar sucesiones y patrimonio y eliminar sucesiones a rentas bajas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ene-01",
+   "area": "energia",
+   "texto": "Poner fin a la «transición ecológica» y frenar el cierre de centrales con plena capacidad productiva.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ene-02",
+   "area": "energia",
+   "texto": "Apostar por la energía nuclear: modernizar y ampliar el parque y explotar el uranio nacional; renovables como complemento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ene-03",
+   "area": "energia",
+   "texto": "Regular de inmediato los precios de la electricidad y los carburantes, incluidos sus impuestos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-edu-01",
+   "area": "educacion",
+   "texto": "Educación gratuita en todos los niveles (la universitaria para rentas bajas) y comedores escolares gratuitos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-edu-02",
+   "area": "educacion",
+   "texto": "Eliminar las subvenciones a los colegios privados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-edu-03",
+   "area": "educacion",
+   "texto": "Sacar de la escuela pública el islam y las «teorías anticientíficas».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-edu-04",
+   "area": "educacion",
+   "texto": "Restringir a los menores de 16 años el acceso a ciertas tecnologías y regular el uso de la inteligencia artificial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-cul-01",
+   "area": "cultura",
+   "texto": "Defender la cultura española frente a la «sustitución cultural», fomentar la producción propia y frenar la cultura extranjera dominante.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-cul-02",
+   "area": "cultura",
+   "texto": "Retirar progresivamente la publicidad de apuestas, alcohol y pornografía o prostitución.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-igu-01",
+   "area": "igualdad",
+   "texto": "Derogar la Ley Trans y las leyes de discriminación positiva, abolir las cuotas de género y suprimir el Ministerio de Igualdad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-igu-02",
+   "area": "igualdad",
+   "texto": "Prohibir y perseguir la gestación subrogada, también la contratada en el extranjero.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-dem-01",
+   "area": "demografia",
+   "texto": "Planes de natalidad con ventajas fiscales y ayudas a familias numerosas, con el objetivo de más de 2 hijos por mujer.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-dem-02",
+   "area": "demografia",
+   "texto": "Guarderías públicas gratuitas y permisos de maternidad y paternidad más largos, con flexibilidad obligatoria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-rur-01",
+   "area": "rural",
+   "texto": "Romper con la PAC y con los tratados comerciales internacionales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-rur-02",
+   "area": "rural",
+   "texto": "Expropiar tierras sin uso de grandes propietarios para repartirlas entre agricultores y cooperativas y prohibir parques solares en suelo cultivable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-rur-03",
+   "area": "rural",
+   "texto": "Planes hidrológicos de reparto del agua y fin de la demolición de presas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ins-01",
+   "area": "instituciones",
+   "texto": "Derogar las normas que «atacan las libertades» por persecución ideológica y establecer control del Estado sobre las grandes plataformas digitales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-san-01",
+   "area": "sanidad",
+   "texto": "Centralizar el sistema nacional de salud, acabar con externalizaciones y privatizaciones y ofrecer dentista, fisioterapia y oftalmología gratuitos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-viv-01",
+   "area": "vivienda",
+   "texto": "Construir vivienda pública de calidad a precios asequibles.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Diario de Madrid (prensa), 9-10-2026",
+    "url": "https://www.eldiariodemadrid.es/articulo/politica/frente-obrero-cinco-propuestas-crisis-vivienda-espana/20261009090026143780.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-viv-02",
+   "area": "vivienda",
+   "texto": "Frenar los desahucios de familias trabajadoras vulnerables hasta que tengan alternativa y garantizar la dación en pago.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Diario de Madrid (prensa), 9-10-2026",
+    "url": "https://www.eldiariodemadrid.es/articulo/politica/frente-obrero-cinco-propuestas-crisis-vivienda-espana/20261009090026143780.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "frenteobrero-viv-03",
+   "area": "vivienda",
+   "texto": "Tolerancia cero con las «mafias okupas», los narcopisos y los «inquiokupas».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-viv-04",
+   "area": "vivienda",
+   "texto": "Orientar el acceso a la vivienda pública hacia los «españoles autóctonos».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-viv-05",
+   "area": "vivienda",
+   "texto": "Combatir la especulación de bancos y fondos y frenar la gentrificación y los pisos turísticos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-pen-01",
+   "area": "pensiones",
+   "texto": "Revertir el aumento de la edad de jubilación y fijarla según el tipo de trabajo; subir las pensiones mínimas y no contributivas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-01",
+   "area": "inmigracion",
+   "texto": "«Control absoluto» de las fronteras terrestres y marítimas y «lucha obstinada» contra las mafias de la inmigración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-inm-02",
+   "area": "inmigracion",
+   "texto": "Expulsión inmediata de los inmigrantes en situación irregular y de los que delinquen de forma reiterada; sin regularización para quien intentó entrar ilegalmente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "frenteobrero-inm-03",
+   "area": "inmigracion",
+   "texto": "Revisar los permisos de residencia concedidos recientemente a quienes entraron de forma ilegal; «no a la regularización masiva, sí a la remigración».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Español (prensa), 8-2-2026",
+    "url": "https://www.elespanol.com/espana/politica/20260208/frente-obrero-manifiesta-ferraz-regularizacion-inmigrantes-traicion-izquierda-trabajadores/1003744121535_0.html",
+    "fecha": "2026-02-08"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-04",
+   "area": "inmigracion",
+   "texto": "Suspender la concesión de nacionalidad hasta revisar las otorgadas en los últimos veinte años y primar el ius sanguinis.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-05",
+   "area": "inmigracion",
+   "texto": "Retirar la nacionalidad a los nacionalizados que cometan un delito grave.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-06",
+   "area": "inmigracion",
+   "texto": "Prohibir el hiyab en lugares y puestos de trabajo públicos, no subvencionar actividades islámicas y ayudar a las mujeres que quieran dejar la vestimenta islámica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-07",
+   "area": "inmigracion",
+   "texto": "Expulsar a los «radicales islámicos» y a las «estructuras religiosas que actúan como lobby» de países extranjeros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-08",
+   "area": "inmigracion",
+   "texto": "Que «remigren» a su país los inmigrantes que «atenten contra los derechos de las mujeres o contra nuestra cultura».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-09",
+   "area": "inmigracion",
+   "texto": "Acuerdos con países cercanos para centros de clasificación y deportación, y CIE o centros «más efectivos» para deportar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-10",
+   "area": "inmigracion",
+   "texto": "Restringir el asilo a quien «realmente» lo cumpla, sin libertad de movimiento durante la tramitación y con expulsión de los rechazados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-11",
+   "area": "inmigracion",
+   "texto": "Preferir inmigrantes «de contexto europeo o hispanoamericano» y suprimir las prestaciones económicas a inmigrantes que no trabajen.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-inm-12",
+   "area": "inmigracion",
+   "texto": "Sancionar a las organizaciones, en especial las ONG, que «promuevan acciones para evitar la legalidad».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ter-01",
+   "area": "territorio",
+   "texto": "Igualar las competencias y el régimen fiscal de todas las comunidades y recentralizar sanidad, educación y emergencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ter-02",
+   "area": "territorio",
+   "texto": "Suprimir las policías autonómicas e integrarlas en la Policía Nacional; promover la fusión de municipios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ins-02",
+   "area": "instituciones",
+   "texto": "Abrir un «proceso constituyente» para «acabar con el régimen actual»; se declara partidario de una «República encaminada al socialismo».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ins-03",
+   "area": "instituciones",
+   "texto": "Prohibir los indultos por corrupción política y endurecer sus penas, también para los partidos como personas jurídicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-ins-04",
+   "area": "instituciones",
+   "texto": "Que los altos cargos judiciales salgan de la carrera judicial y acabar con los nombramientos del Gobierno en órganos judiciales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-seg-01",
+   "area": "seguridad",
+   "texto": "«Depuración» de los mandos policiales y militares «al servicio de la partitocracia» y «de la reacción más rancia».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-seg-02",
+   "area": "seguridad",
+   "texto": "Derecho de sindicación para la Guardia Civil y libertad de reunión, sindicación y afiliación política para los militares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-seg-03",
+   "area": "seguridad",
+   "texto": "No enviar soldados a misiones en el extranjero que no respondan a intereses españoles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "frenteobrero-seg-04",
+   "area": "seguridad",
+   "texto": "Penas de prisión largas contra las mafias del narcotráfico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Frente Obrero, programa «Un programa para recuperar España» (PDF)",
+    "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+    "fecha": "2026-10"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste de salir de la UE y de la PAC",
+    "texto": "La experiencia británica sugiere costes elevados: la Oficina de Responsabilidad Presupuestaria del Reino Unido estima que el acuerdo comercial posterior al Brexit reduce a largo plazo la productividad un 4 % y el comercio en torno a un 15 %. Romper además con la PAC dejaría al campo español sin las ayudas europeas que hoy recibe, sin una alternativa cuantificada.",
+    "sobre": [
+     "frenteobrero-ext-01",
+     "frenteobrero-rur-01"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   },
+   {
+    "titulo": "Nacionalizaciones sin coste ni financiación",
+    "texto": "Nacionalizar sectores estratégicos o expropiar tierras exige indemnizar a sus propietarios (art. 33.3 CE), con un coste que el programa no cifra. Lo combina con bajadas de IVA e IRPF a las rentas bajas y con más gasto social, sin una memoria económica que muestre cómo cuadran las cuentas.",
+    "sobre": [
+     "frenteobrero-eco-01",
+     "frenteobrero-rur-02",
+     "frenteobrero-eco-04"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Revertir la edad de jubilación",
+    "texto": "Los análisis actuariales sobre el sistema de pensiones señalan un desequilibrio creciente por el envejecimiento. Volver a una edad de jubilación más temprana y subir las pensiones mínimas aumentaría el gasto sin que el programa identifique ingresos equivalentes.",
+    "sobre": [
+     "frenteobrero-pen-01"
+    ],
+    "fuente": {
+     "nombre": "Devesa et al., Fedea (2025), Una visión actuarial del sistema de pensiones",
+     "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
+    }
+   },
+   {
+    "titulo": "Menos inmigración en una población que envejece",
+    "texto": "Fedea estima que la inmigración compensó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019. Expulsar a los inmigrantes en situación irregular, cerrar regularizaciones y restringir llegadas reduciría la población activa justo cuando el programa promete más gasto en pensiones.",
+    "sobre": [
+     "frenteobrero-inm-02",
+     "frenteobrero-inm-03",
+     "frenteobrero-inm-11"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026)",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Vivienda pública para «españoles autóctonos»",
+    "texto": "Reservar la vivienda pública a los «autóctonos» dejaría fuera no solo a residentes extranjeros con derecho a igualdad de trato, sino también a españoles por naturalización. Afectaría a hogares con trabajo y cotizaciones que hoy acceden a ella por renta y necesidad.",
+    "sobre": [
+     "frenteobrero-viv-04"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2003/109/CE (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0109"
+    }
+   },
+   {
+    "titulo": "Frenar desahucios sin alternativa",
+    "texto": "Suspender los desahucios hasta que haya alternativa protege a los hogares vulnerables a corto plazo, pero sin vivienda social suficiente puede reducir la oferta de alquiler y endurecer los requisitos para los futuros inquilinos, según la evidencia que recoge Fedea.",
+    "sobre": [
+     "frenteobrero-viv-02"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Proteger al inquilino de hoy puede excluir al de mañana",
+     "url": "https://fedea.net/proteger-al-inquilino-de-hoy-puede-excluir-al-de-manana/"
+    }
+   },
+   {
+    "titulo": "Fin de la «transición ecológica»",
+    "texto": "Abandonar la transición ecológica choca con los compromisos de reducción de emisiones que España ha asumido en el marco europeo (PNIEC 2023-2030). Los efectos del cambio climático, como olas de calor y sequías, recaen sobre todo en los hogares con menos recursos y en el campo.",
+    "sobre": [
+     "frenteobrero-ene-01"
+    ],
+    "fuente": {
+     "nombre": "Plan Nacional Integrado de Energía y Clima 2023-2030 (MITECO)",
+     "url": "https://www.miteco.gob.es/es/energia/estrategia-normativa/pniec-23-30.html"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Señalamiento de una minoría religiosa",
+    "texto": "El programa trata el islam como un problema colectivo («islamización», «sustitución cultural») y propone medidas que afectan a todos los musulmanes, muchos de ellos españoles: retirar su enseñanza religiosa, no subvencionar actividades islámicas y prohibir el hiyab en espacios públicos. El TEDH distingue entre la neutralidad exigible a los funcionarios y la libertad de los ciudadanos en la calle.",
+    "sobre": [
+     "frenteobrero-edu-03",
+     "frenteobrero-inm-06",
+     "frenteobrero-cul-01"
+    ],
+    "fuente": {
+     "nombre": "TEDH, ficha temática «Religious symbols and clothing»",
+     "url": "https://www.echr.coe.int/documents/d/echr/fs_religious_symbols_eng"
+    }
+   },
+   {
+    "titulo": "Control estatal de las plataformas digitales",
+    "texto": "Pedir que el Estado controle las grandes plataformas para que no «privilegien» discursos sitúa al Gobierno como árbitro de los contenidos, en lugar de autoridades independientes como prevé la normativa europea sobre medios y servicios digitales.",
+    "sobre": [
+     "frenteobrero-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Reglamento (UE) 2024/1083 (EMFA) (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj"
+    }
+   },
+   {
+    "titulo": "Salida de la OTAN",
+    "texto": "Salir de la OTAN dejaría a España fuera del sistema de defensa colectiva en un contexto de guerra en Ucrania. Las encuestas del Real Instituto Elcano muestran un apoyo mayoritario de los españoles a la pertenencia a la Alianza.",
+    "sobre": [
+     "frenteobrero-ext-02"
+    ],
+    "fuente": {
+     "nombre": "Real Instituto Elcano, Barómetro",
+     "url": "https://www.realinstitutoelcano.org/barometro/"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Choque frontal con derechos fundamentales en dos puntos: la expulsión inmediata de todas las personas en situación irregular junto a la «remigración», y la vivienda pública reservada a «españoles autóctonos», que discrimina por origen incluso a españoles. Hay además preocupaciones serias en nacionalidad, libertad religiosa, asilo y neutralidad ideológica de policía y ejército. Su «proceso constituyente» es legítimo si sigue el art. 168 CE (STC 42/2014), aunque el propio programa admite que sus medidas migratorias exigirían una nueva Constitución.",
+  "criticas": [
+   {
+    "titulo": "Expulsión inmediata de todos los irregulares y «remigración»",
+    "texto": "Expulsar «de forma inmediata» a todas las personas en situación irregular, revisar regularizaciones ya concedidas y hacer «remigrar» a quien atente «contra nuestra cultura» no permite el examen individual que exigen la prohibición de expulsiones colectivas y el principio de no devolución. La Directiva de retorno obliga además a valorar cada caso, el interés del menor y los vínculos familiares. Es el mismo test aplicado a Vox y SALF.",
+    "gravedad": "alta",
+    "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa c. Italia (Gran Sala, 2012); Carta UE, art. 19; Directiva 2008/115/CE, arts. 5 y 12",
+    "sobre": [
+     "frenteobrero-inm-02",
+     "frenteobrero-inm-03",
+     "frenteobrero-inm-08"
+    ],
+    "fuente": {
+     "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+     "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+    }
+   },
+   {
+    "titulo": "Vivienda pública para «españoles autóctonos»",
+    "texto": "Es una preferencia por origen, no solo por nacionalidad: excluiría también a españoles naturalizados, lo que supone discriminación por origen étnico o nacional. La Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en vivienda, y el TJUE considera discriminatorio incluso un requisito de diez años de residencia. Es el mismo test que a la «prioridad nacional» de Vox, con el agravante del criterio de origen.",
+    "gravedad": "alta",
+    "criterio": "Arts. 14 CE; Directiva 2000/43/CE; Directiva 2003/109/CE, art. 11; TJUE, Kamberaj (C-571/10) y C-112/22 (2024)",
+    "sobre": [
+     "frenteobrero-viv-04"
+    ],
+    "fuente": {
+     "nombre": "TJUE, comunicado sobre los asuntos C-112/22 y C-223/22",
+     "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-07/cp240115en.pdf"
+    }
+   },
+   {
+    "titulo": "Suspender y revisar nacionalidades, y retirarla por delitos",
+    "texto": "La nacionalidad concedida solo puede perderse por las causas tasadas del Código Civil (por ejemplo, falsedad en la solicitud), y revisar en bloque las concedidas en veinte años choca con la seguridad jurídica. Retirarla a los nacionalizados por delitos graves crea dos clases de españoles ante el castigo y, según el TJUE, exige un examen de proporcionalidad caso por caso porque supone perder la ciudadanía europea.",
+    "gravedad": "media",
+    "criterio": "Arts. 9.3, 11 y 14 CE; Código Civil, art. 25; TJUE, Rottmann (C-135/08) y Tjebbes (C-221/17)",
+    "sobre": [
+     "frenteobrero-inm-04",
+     "frenteobrero-inm-05"
+    ],
+    "fuente": {
+     "nombre": "TJUE, Rottmann (C-135/08, 2010) (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:62008CJ0135"
+    }
+   },
+   {
+    "titulo": "Hiyab, enseñanza islámica y «estructuras religiosas»",
+    "texto": "El TEDH admite exigir neutralidad religiosa a los empleados públicos (Ebrahimian c. Francia, 2015), pero consideró contrario a la libertad religiosa castigar a ciudadanos por su vestimenta en la calle (Ahmet Arslan c. Turquía, 2010). Retirar solo la enseñanza islámica choca con el Acuerdo de 1992, que la garantiza en la escuela pública, y con la igualdad entre confesiones. Expulsar «estructuras religiosas» exige resolución judicial y conductas concretas.",
+    "gravedad": "media",
+    "criterio": "Arts. 14, 16 y 22.4 CE; CEDH, art. 9; Ley 26/1992, art. 10",
+    "sobre": [
+     "frenteobrero-inm-06",
+     "frenteobrero-inm-07",
+     "frenteobrero-edu-03"
+    ],
+    "fuente": {
+     "nombre": "TEDH, ficha temática «Religious symbols and clothing»",
+     "url": "https://www.echr.coe.int/documents/d/echr/fs_religious_symbols_eng"
+    }
+   },
+   {
+    "titulo": "Asilo sin libertad de movimiento",
+    "texto": "Mantener privados de libertad a todos los solicitantes de asilo mientras se tramita su caso choca con la norma europea, que solo permite el internamiento por motivos tasados, tras una valoración individual y como último recurso.",
+    "gravedad": "media",
+    "criterio": "Carta UE, arts. 6 y 18; Directiva 2013/33/UE, art. 8; CEDH, art. 5",
+    "sobre": [
+     "frenteobrero-inm-10"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2013/33/UE sobre acogida de solicitantes de protección internacional (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32013L0033"
+    }
+   },
+   {
+    "titulo": "«Depuración» ideológica de mandos policiales y militares",
+    "texto": "Apartar a mandos por estar «al servicio de la reacción» introduce un criterio ideológico en la función pública. La Constitución exige mérito, capacidad e imparcialidad y prohíbe la discriminación por opinión. Depurar mandos corruptos, en cambio, ya es posible por la vía disciplinaria y penal.",
+    "gravedad": "media",
+    "criterio": "Arts. 14, 16, 23.2 y 103.3 CE",
+    "sobre": [
+     "frenteobrero-seg-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Control estatal de plataformas y sanciones a ONG",
+    "texto": "Encomendar al Estado que controle qué discursos se «privilegian» en las plataformas y sancionar a organizaciones que «promuevan acciones para evitar la legalidad», con criterios tan abiertos, plantea dudas de libertad de expresión y de asociación.",
+    "gravedad": "baja",
+    "criterio": "Arts. 20 y 22 CE; Reglamento (UE) 2024/1083 (EMFA)",
+    "sobre": [
+     "frenteobrero-ins-01",
+     "frenteobrero-inm-12"
+    ],
+    "fuente": {
+     "nombre": "Reglamento (UE) 2024/1083 (EMFA) (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "mentiras": [
+  {
+   "id": "frenteobrero-m-01",
+   "afirmacion": "Los musulmanes que viven en España «obtienen la nacionalidad en un año».",
+   "autor": "Frente Obrero (programa publicado en su web)",
+   "fecha": "2026-10",
+   "contexto": "Apartado «Contra la islamización» del resumen de programa en frenteobrero.es",
+   "veredicto": "Engañoso",
+   "realidad": "El Código Civil exige como regla general diez años de residencia legal (dos para iberoamericanos, andorranos, filipinos, ecuatoguineanos, portugueses y sefardíes; cinco para refugiados). Un año solo se aplica a supuestos concretos, como haber nacido en España o estar casado con un español, sin relación con la religión.",
+   "tipo": "dato-oficial",
+   "verificador": "BOE, Código Civil, art. 22",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763"
+  }
+ ],
+ "actualizado": "2026-10-21"
+}

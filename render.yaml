@@ -1,0 +1,13 @@
+services:
+  - type: web
+    runtime: static
+    name: antes-de-votar
+    buildCommand: node build/build.mjs
+    staticPublishPath: dist/site
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /data.json
+        name: Cache-Control
+        value: public, max-age=300

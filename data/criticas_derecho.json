@@ -1,0 +1,698 @@
+{
+ "criterios": "Esta dimensión comprueba si lo que cada partido propone, o lo que ha hecho en el gobierno o en el parlamento, choca con la Constitución y la doctrina del Tribunal Constitucional, con la Carta de Derechos Fundamentales de la UE y el TJUE, o con el Convenio Europeo de Derechos Humanos y el TEDH, o con los estándares de la Comisión de Venecia, el GRECO, el Informe sobre el Estado de Derecho de la Comisión Europea y los órganos de la ONU. La gravedad es alta si la medida vulneraría derechos fundamentales o el núcleo del orden constitucional según doctrina consolidada, media si hay un riesgo serio señalado por esos órganos o tensión con doctrina reiterada, y baja si hay dudas jurídicas razonables o problemas de calidad institucional. Se aplica el mismo test a todos: si no hay hallazgos se dice, si una propuesta está avalada por la doctrina se recoge como aval, y las investigaciones sin sentencia no se valoran.",
+ "escala_gravedad": {
+  "alta": "Vulneraría derechos fundamentales o el núcleo del orden constitucional o europeo según doctrina consolidada.",
+  "media": "Riesgo serio señalado por órganos de referencia o tensión con doctrina reiterada.",
+  "baja": "Dudas jurídicas razonables o preocupaciones de calidad institucional."
+ },
+ "partidos": {
+  "pp": {
+   "valoracion": "Preocupaciones serias en derechos de las personas migrantes (devoluciones inmediatas y acceso a servicios) y en memoria democrática, y un historial de bloqueo del CGPJ durante cinco años. Su propuesta actual para el CGPJ, en cambio, coincide con el estándar europeo.",
+   "criticas": [
+    {
+     "titulo": "Cinco años de bloqueo del CGPJ (2018-2024)",
+     "texto": "El CGPJ funcionó en funciones desde diciembre de 2018 hasta la renovación pactada en junio de 2024, y la negativa del PP a acordar su renovación fue determinante. Los Informes sobre el Estado de Derecho de la Comisión Europea recomendaron año tras año renovarlo con prioridad y, después, reformar el sistema de elección. Su propuesta actual (pp-ins-01) sí se alinea con el estándar europeo (ver avales).",
+     "gravedad": "media",
+     "criterio": "Art. 122.3 CE; Informe sobre el Estado de Derecho, capítulo España (2020-2024)",
+     "sobre": [
+      "pp-ins-01"
+     ],
+     "fuente": {
+      "nombre": "Comisión Europea, Informe sobre el Estado de Derecho 2022 (EUobserver)",
+      "url": "https://euobserver.com/rule-of-law/156045"
+     }
+    },
+    {
+     "titulo": "Devolución «inmediata» de quien entre de forma irregular",
+     "texto": "Una devolución inmediata y generalizada choca con la prohibición de expulsiones colectivas y con el principio de no devolución si no hay examen individual. El TC solo admite el rechazo en frontera en Ceuta y Melilla si hay acceso real a vías legales de protección, se respeta la no devolución y se atiende a las personas vulnerables, y el TEDH exige lo mismo.",
+     "gravedad": "media",
+     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, N.D. y N.T. c. España (Gran Sala, 2020); STC 172/2020; Carta UE, art. 19",
+     "sobre": [
+      "pp-inm-10"
+     ],
+     "fuente": {
+      "nombre": "STC 172/2020 sobre el rechazo en frontera (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/08/01/tc-rechazo-frontera-guardia-civil-ceuta-3409133/"
+     }
+    },
+    {
+     "titulo": "Acceso a ayudas: arraigo de diez años y padrón solo estadístico",
+     "texto": "Los pactos autonómicos PP-Vox de 2026 (Extremadura, Aragón) exigen diez años de empadronamiento para comprar vivienda pública, y el TJUE ha declarado que un requisito de diez años de residencia discrimina de forma indirecta a los residentes de larga duración. Quitar efectos al padrón choca con la obligación legal de empadronarse de todo residente y con su función de puerta a servicios. Un dato a su favor: a diferencia de Vox, el PP no distingue por nacionalidad.",
+     "gravedad": "media",
+     "criterio": "Directiva 2003/109/CE, art. 11; TJUE, C-112/22 y C-223/22 (2024); Ley 7/1985, art. 15",
+     "sobre": [
+      "pp-inm-05"
+     ],
+     "fuente": {
+      "nombre": "Maldita.es, interpretaciones de la «prioridad nacional» de PP y Vox",
+      "url": "https://maldita.es/prebunking/20260511/interpretaciones-prioridad-nacional-pp-vox/"
+     }
+    },
+    {
+     "titulo": "Leyes de «concordia» y derogación de la Ley de Memoria Democrática",
+     "texto": "Tres procedimientos especiales de la ONU (el relator sobre verdad, justicia y reparación, el grupo de trabajo sobre desapariciones forzadas y el relator sobre ejecuciones extrajudiciales) advirtieron en 2024 de que las leyes de concordia de Aragón, Castilla y León y la Comunidad Valenciana, que promovieron PP y Vox, podían limitar el derecho a la verdad, la reparación y el asociacionismo memorialista. El Gobierno de Aragón rechazó ese análisis.",
+     "gravedad": "media",
+     "criterio": "Obligaciones internacionales de verdad, justicia, reparación y no repetición; comunicación conjunta de procedimientos especiales de la ONU (mayo de 2024)",
+     "sobre": [
+      "pp-cul-03"
+     ],
+     "fuente": {
+      "nombre": "El Independiente, 3-5-2024",
+      "url": "https://www.elindependiente.com/espana/2024/05/03/la-onu-reprueba-a-espana-por-las-leyes-de-concordia-del-pp-y-vox/amp/"
+     }
+    },
+    {
+     "titulo": "Responsabilidad civil del partido en el caso Gürtel",
+     "texto": "En 2020 el Tribunal Supremo confirmó que el PP se lucró con la trama Gürtel y lo condenó, como partícipe a título lucrativo, a pagar 245.492 euros. Es una responsabilidad civil, no penal, pero muestra fallos de control interno sobre la financiación de actos del partido.",
+     "gravedad": "media",
+     "criterio": "Control del poder y corrupción; Tribunal Supremo, sentencia de 14-10-2020 (Gürtel)",
+     "sobre": [],
+     "fuente": {
+      "nombre": "Público, 14-10-2020",
+      "url": "https://www.publico.es/politica/supremo-confirma-condena-al-pp-guertel.html"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Que los jueces elijan a los jueces del CGPJ",
+     "texto": "La Comisión de Venecia considera que la elección directa de los vocales judiciales por los propios jueces cumple el estándar europeo, aunque recomienda salvaguardas frente a la politización interna. La elección parlamentaria a partir de una lista de jueces no lo cumple.",
+     "criterio": "CDL-AD(2025)038",
+     "sobre": [
+      "pp-ins-01"
+     ],
+     "fuente": {
+      "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+      "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+     }
+    }
+   ]
+  },
+  "psoe": {
+   "valoracion": "Preocupaciones serias. La más grave es una actuación de gobierno: devoluciones de menores en Ceuta (2021) que el Supremo declaró ilegales, y rechazos en Melilla (2022) sin garantías según el Defensor del Pueblo. A ello se suman la autonomía de la Fiscalía, el acuerdo sobre el «lawfare», una amnistía avalada por el TC pero con reparos de calidad institucional, y una condena por corrupción de su antiguo número tres.",
+   "criticas": [
+    {
+     "titulo": "Devoluciones sin garantías en Ceuta (2021) y Melilla (2022)",
+     "texto": "El Tribunal Supremo declaró ilegal en 2024 la devolución de menores de Ceuta a Marruecos en agosto de 2021: no hubo evaluación individual ni ponderación del interés del menor, se vulneró su integridad física y moral y se invocó la prohibición de expulsiones colectivas. El Defensor del Pueblo concluyó que los 470 rechazos en frontera del 24 de junio de 2022 en Melilla no respetaron la ley nacional ni la internacional.",
+     "gravedad": "alta",
+     "criterio": "Art. 15 CE; CEDH, Protocolo 4, art. 4; Convención sobre los Derechos del Niño, art. 3; STS de enero de 2024 (menores de Ceuta)",
+     "sobre": [],
+     "fuente": {
+      "nombre": "Maldita.es sobre la sentencia del Supremo (22-1-2024)",
+      "url": "https://maldita.es/migracion/20240122/sentencia-tribunal-supremo-devoluciones-menores-marruecos-ilegal-2021"
+     }
+    },
+    {
+     "titulo": "Fiscal instructor y un fiscal general aún próximo al Gobierno",
+     "texto": "Pasar la instrucción a los fiscales (psoe-ins-02) aumenta el riesgo de influencia gubernamental si no se refuerza antes la autonomía de la Fiscalía. El Informe sobre el Estado de Derecho 2026 califica de «avance significativo» el mandato de cinco años no renovable del proyecto, pero vuelve a recomendar desvincular al fiscal general del Gobierno. El fiscal general nombrado por el Gobierno siguió en el cargo mientras estaba procesado, y el Supremo lo condenó en noviembre de 2025; su recurso está pendiente ante el TC.",
+     "gravedad": "media",
+     "criterio": "Art. 124 CE; Informe sobre el Estado de Derecho 2026, capítulo España; CM/Rec(2000)19",
+     "sobre": [
+      "psoe-ins-02"
+     ],
+     "fuente": {
+      "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+     }
+    },
+    {
+     "titulo": "Amnistía: avalada, con reparos de método",
+     "texto": "El Tribunal Constitucional avaló la ley en lo esencial (STC 137/2025, de 26 de junio): solo declaró inconstitucional el art. 1.1 por vulnerar el art. 14 CE al dejar fuera a quienes actuaron contra la secesión, y lo corrigió sin anularlo. El TJUE (Gran Sala, 16-7-2026) la declaró compatible con el derecho de la UE. Los reparos que siguen en pie son de calidad institucional: la Comisión de Venecia admitió su fin legítimo, pero recomendó buscar una mayoría cualificada más amplia y tiempo para un diálogo leal, y la ley se aprobó con una mayoría ajustada, como parte de un acuerdo de investidura y con los votos de partidos cuyos dirigentes eran beneficiarios.",
+     "gravedad": "media",
+     "criterio": "Art. 14 CE; STC 137/2025; TJUE (Gran Sala) 16-7-2026; CDL-AD(2024)003",
+     "sobre": [
+      "psoe-ins-01"
+     ],
+     "fuente": {
+      "nombre": "STC 137/2025 (elderecho.com)",
+      "url": "https://elderecho.com/la-stc-137-2025-finalmente-una-amnistia-inconstitucional"
+     }
+    },
+    {
+     "titulo": "Acuerdo de investidura con Junts y el «lawfare»",
+     "texto": "El acuerdo PSOE-Junts de 2023 recogía el «lawfare» y la posibilidad de que las comisiones parlamentarias examinaran actuaciones judiciales. La Comisión Permanente del CGPJ lo calificó de «inadmisible injerencia» en la independencia judicial, y todas las asociaciones judiciales, también la progresista, lo rechazaron.",
+     "gravedad": "media",
+     "criterio": "Art. 117 CE (independencia judicial); separación de poderes",
+     "sobre": [],
+     "fuente": {
+      "nombre": "LegalToday, 10-11-2023",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-cgpj-y-todas-las-asociaciones-de-jueces-y-fiscales-consideran-inadmisible-que-el-acuerdo-de-investidura-reconozca-el-lawfare-2023-11-10/"
+     }
+    },
+    {
+     "titulo": "Condena de su exministro y ex número tres por corrupción",
+     "texto": "En junio de 2026 el Tribunal Supremo condenó por unanimidad a José Luis Ábalos, exministro de Transportes y exsecretario de Organización del PSOE, a 24 años de prisión por delitos como organización criminal, cohecho y malversación en contratos públicos («caso mascarillas»). Las causas sobre su sucesor en el cargo orgánico siguen en instrucción y no se valoran aquí. Al estar aforado, el Supremo lo juzgó en única instancia; solo cabe recurso de amparo ante el Tribunal Constitucional.",
+     "gravedad": "media",
+     "criterio": "Control del poder y corrupción; STS (Sala Penal) de 22-6-2026",
+     "sobre": [],
+     "fuente": {
+      "nombre": "elDiario.es, 23-6-2026",
+      "url": "https://www.eldiario.es/politica/jose-luis-abalos-condenado-carcel-tribunal-supremo_1_13301658.html"
+     }
+    },
+    {
+     "titulo": "RTVE: riesgo de injerencia política",
+     "texto": "El Informe sobre el Estado de Derecho 2026 sitúa en «medio-alto» el riesgo de injerencia política en RTVE tras la reforma de 2024, aprobada por decreto-ley del Gobierno. El mismo informe valora bien la reforma de la publicidad institucional.",
+     "gravedad": "media",
+     "criterio": "Art. 20.3 CE; Reglamento (UE) 2024/1083 (EMFA), art. 5; Informe sobre el Estado de Derecho 2026",
+     "sobre": [],
+     "fuente": {
+      "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "vox": {
+   "valoracion": "Choque frontal con derechos fundamentales en inmigración y asilo (expulsiones colectivas, bloqueo naval, repatriación de menores sin examen individual) y en igualdad (preferencia por nacionalidad). También hay preocupaciones serias en pluralismo político, justicia juvenil, aborto y memoria. Dos avales: su propuesta para el CGPJ y la limitación sanitaria, que el TC ya admitió en 2016.",
+   "criticas": [
+    {
+     "titulo": "Expulsiones colectivas, bloqueo naval y repatriación de menores",
+     "texto": "Interceptar y devolver embarcaciones en el mar sin examinar cada caso vulnera el principio de no devolución: el TEDH condenó a Italia por devolver a Libia a personas rescatadas en alta mar. Los «procesos de remigración» y las expulsiones generalizadas chocan con la prohibición de expulsiones colectivas y, en el caso de los residentes de larga duración, con su protección reforzada frente a la expulsión. Cerrar los centros y repatriar a los menores no acompañados sin valorar individualmente su interés superior es lo que el Supremo declaró ilegal en Ceuta (2024).",
+     "gravedad": "alta",
+     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa y otros c. Italia (Gran Sala, 2012); Convención de Ginebra 1951, art. 33; Carta UE, art. 19; CDN, art. 3; Directiva 2003/109/CE, art. 12",
+     "sobre": [
+      "vox-inm-01",
+      "vox-inm-03",
+      "vox-inm-04",
+      "vox-inm-06"
+     ],
+     "fuente": {
+      "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+      "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+     }
+    },
+    {
+     "titulo": "«Prioridad nacional» por nacionalidad y exclusión del padrón",
+     "texto": "Dar preferencia a los españoles en vivienda protegida y ayudas es una discriminación directa por nacionalidad. La Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en asistencia social y vivienda, y el TJUE considera discriminatorio incluso un requisito de residencia de diez años. Impedir el empadronamiento choca con la obligación legal de empadronarse y corta el acceso a servicios como la escolarización de menores, un derecho que el TC reconoce también a los extranjeros en situación irregular.",
+     "gravedad": "alta",
+     "criterio": "Arts. 13, 14 y 27 CE; STC 236/2007; Directiva 2003/109/CE, art. 11; TJUE, Kamberaj (C-571/10, 2012) y C-112/22 (2024); Ley 7/1985, art. 15",
+     "sobre": [
+      "vox-viv-02",
+      "vox-inm-05"
+     ],
+     "fuente": {
+      "nombre": "TJUE, comunicado sobre los asuntos C-112/22 y C-223/22",
+      "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-07/cp240115en.pdf"
+     }
+    },
+    {
+     "titulo": "Ilegalizar partidos por sus fines y suspender autonomías",
+     "texto": "El TC estableció que España no es una «democracia militante»: solo se puede ilegalizar un partido por sus conductas (apoyo a la violencia o al terrorismo), no por defender fines como la independencia por vías pacíficas. El art. 155 CE permite medidas concretas y temporales, no suspender la autonomía como tal.",
+     "gravedad": "media",
+     "criterio": "Arts. 6, 22 y 155 CE; STC 48/2003; STC 42/2014; STC 89/2019",
+     "sobre": [
+      "vox-ter-03",
+      "vox-ter-04"
+     ],
+     "fuente": {
+      "nombre": "STC 48/2003 (BOE, Tribunal Constitucional)",
+      "url": "https://hj.tribunalconstitucional.es/HJ/docs/BOE/BOE-T-2003-5300.pdf"
+     }
+    },
+    {
+     "titulo": "Bajar la edad penal a 12 años",
+     "texto": "El Comité de los Derechos del Niño de la ONU pide fijar la edad mínima de responsabilidad penal en al menos 14 años y no rebajarla donde ya es mayor. En España es de 14 años desde la LO 5/2000.",
+     "gravedad": "media",
+     "criterio": "Convención sobre los Derechos del Niño, art. 40.3; Comité DN, Observación general n.º 24 (2019), CRC/C/GC/24",
+     "sobre": [
+      "vox-seg-03"
+     ],
+     "fuente": {
+      "nombre": "ONU, Observación general n.º 24 (2019)",
+      "url": "https://digitallibrary.un.org/record/3899429"
+     }
+    },
+    {
+     "titulo": "Derogar la ley del aborto",
+     "texto": "El TC avaló en 2023 el modelo de plazos y vinculó la decisión de la mujer en las primeras semanas a su integridad física y moral y a su libre desarrollo de la personalidad. Una derogación sin alternativa que respete ese ámbito de libertad entraría en tensión con esa doctrina.",
+     "gravedad": "media",
+     "criterio": "Arts. 10.1 y 15 CE; STC 44/2023",
+     "sobre": [
+      "vox-igu-04"
+     ],
+     "fuente": {
+      "nombre": "LegalToday, 9-5-2023",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-tribunal-constitucional-reconoce-el-derecho-al-aborto-dentro-de-las-primeras-catorce-semanas-de-gestacion-2023-05-09/"
+     }
+    },
+    {
+     "titulo": "Leyes de «concordia» y derogación de la memoria democrática",
+     "texto": "Vox impulsó con el PP las leyes de concordia de Aragón, Castilla y León y la Comunidad Valenciana. Tres procedimientos especiales de la ONU advirtieron en 2024 de que podían limitar el derecho a la verdad y a la reparación de las víctimas y el asociacionismo memorialista.",
+     "gravedad": "media",
+     "criterio": "Obligaciones internacionales de verdad, justicia, reparación y no repetición; comunicación conjunta de procedimientos especiales de la ONU (mayo de 2024)",
+     "sobre": [
+      "vox-cul-01"
+     ],
+     "fuente": {
+      "nombre": "El Independiente, 3-5-2024",
+      "url": "https://www.elindependiente.com/espana/2024/05/03/la-onu-reprueba-a-espana-por-las-leyes-de-concordia-del-pp-y-vox/amp/"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Que los jueces elijan a los vocales judiciales del CGPJ",
+     "texto": "Coincide con el estándar de elección entre pares que la Comisión de Venecia considera ajustado al estándar europeo.",
+     "criterio": "CDL-AD(2025)038",
+     "sobre": [
+      "vox-ins-01"
+     ],
+     "fuente": {
+      "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+      "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+     }
+    },
+    {
+     "titulo": "Limitar la sanidad de los inmigrantes en situación irregular a las urgencias",
+     "texto": "El TC (STC 139/2016) consideró constitucional excluir de la sanidad gratuita a los extranjeros sin residencia legal, siempre que se mantengan las urgencias, la atención al embarazo y parto y la atención completa a los menores. La propuesta solo menciona urgencias. Sus efectos sanitarios se valoran en la dimensión social.",
+     "criterio": "Art. 43 CE; STC 139/2016",
+     "sobre": [
+      "vox-san-04"
+     ],
+     "fuente": {
+      "nombre": "Economist & Jurist, 2-8-2016",
+      "url": "https://www.economistjurist.es/noticias-juridicas/el-tc-avala-la-reforma-sanitaria-y-declara-que-la-universalidad-de-la-sanidad-no-implica-necesariamente-gratuidad"
+     }
+    }
+   ]
+  },
+  "sumar": {
+   "valoracion": "Preocupaciones puntuales en independencia judicial y del Ministerio Fiscal: la instrucción por fiscales sin un fiscal general autónomo, y un modelo de CGPJ por debajo del estándar europeo.",
+   "criticas": [
+    {
+     "titulo": "Instrucción penal por fiscales sin autonomía reforzada",
+     "texto": "El mismo test que al PSOE: dar la instrucción al fiscal, cuando el fiscal general lo nombra el Gobierno, exige primero reforzar la autonomía del Ministerio Fiscal. El Informe sobre el Estado de Derecho lo recomienda año tras año.",
+     "gravedad": "media",
+     "criterio": "Art. 124 CE; Informe sobre el Estado de Derecho 2026, capítulo España",
+     "sobre": [
+      "sumar-ins-02"
+     ],
+     "fuente": {
+      "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+     }
+    },
+    {
+     "titulo": "CGPJ con elección parlamentaria de vocales judiciales",
+     "texto": "Proponer que «al menos 10 de 20» vocales sean candidatos avalados por jueces, con elección final parlamentaria, no alcanza el estándar europeo. La Comisión de Venecia exige que la mayoría de los vocales judiciales los elijan los propios jueces, y considera insuficiente que el Parlamento elija a partir de una lista de jueces. El cese automático al caducar el mandato, en cambio, ayudaría a evitar bloqueos.",
+     "gravedad": "media",
+     "criterio": "Art. 122.3 CE; CDL-AD(2025)038; Informe sobre el Estado de Derecho 2026",
+     "sobre": [
+      "sumar-ins-03"
+     ],
+     "fuente": {
+      "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+      "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "podemos": {
+   "valoracion": "Preocupaciones puntuales: disolver empresas concretas por decisión política y prohibir organizaciones sin pasar por un juez, y un tope a la propiedad de medios que necesita justificarse. Su propuesta de república confederal, si se hace por reforma constitucional, es legítima según el TC (STC 42/2014).",
+   "criticas": [
+    {
+     "titulo": "Disolver Desokupa y empresas similares",
+     "texto": "Una asociación solo puede disolverse por resolución judicial motivada (art. 22.4 CE), y una sociedad solo como pena impuesta por un juez a la persona jurídica tras un delito (art. 33.7 CP). Disolver por decisión política o por ley a una entidad concreta salta esas garantías. Las conductas delictivas, como las coacciones, ya pueden perseguirse por vía penal.",
+     "gravedad": "media",
+     "criterio": "Art. 22.4 CE; art. 24 CE; art. 33.7 CP",
+     "sobre": [
+      "podemos-ins-03"
+     ],
+     "fuente": {
+      "nombre": "Constitución Española (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     }
+    },
+    {
+     "titulo": "Prohibir grupos neonazis y neofascistas",
+     "texto": "La convención de la ONU contra la discriminación racial (ICERD, art. 4.b) obliga a declarar ilegales las organizaciones que promuevan la discriminación racial, y el TEDH avaló disolver una asociación racista paramilitar (Vona c. Hungría, 2013). Por eso la propuesta tiene base, siempre que se haga por vía judicial y por conductas, como ya prevé el art. 515.4 CP, y no por etiqueta ideológica. Es el mismo test aplicado a la propuesta de Vox de ilegalizar partidos.",
+     "gravedad": "baja",
+     "criterio": "Art. 22.4 CE; STC 48/2003; ICERD, art. 4.b; TEDH, Vona c. Hungría (2013)",
+     "sobre": [
+      "podemos-seg-02"
+     ],
+     "fuente": {
+      "nombre": "Strasbourg Observers, sobre Vona c. Hungría",
+      "url": "https://strasbourgobservers.com/2013/08/07/vona-v-hungary-freedom-of-association-and-assembly-can-be-restricted-to-protect-minority-rights/"
+     }
+    },
+    {
+     "titulo": "Tope del 10% a bancos, fondos y eléctricas en medios",
+     "texto": "Exigir transparencia sobre la propiedad de los medios va en línea con el Reglamento Europeo de Libertad de los Medios. Un tope accionarial según la actividad del inversor afecta a la libertad de empresa y de información, y necesita una justificación de proporcionalidad que la propuesta no aporta.",
+     "gravedad": "baja",
+     "criterio": "Arts. 20 y 38 CE; Reglamento (UE) 2024/1083 (EMFA), art. 6",
+     "sobre": [
+      "podemos-ins-02"
+     ],
+     "fuente": {
+      "nombre": "Reglamento (UE) 2024/1083 (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "erc": {
+   "valoracion": "Preocupaciones serias por la vía unilateral de 2017, que el TC declaró inconstitucional y el Supremo condenó, y por su papel en una amnistía avalada por el TC pero aprobada con reparos de método. Su propuesta actual es un referéndum pactado, no unilateral. Un aval: despenalizar las injurias a la Corona va en la línea del TEDH.",
+   "criticas": [
+    {
+     "titulo": "Autodeterminación y precedente unilateral de 2017",
+     "texto": "Un referéndum de autodeterminación no cabe en la Constitución vigente sin reformarla (STC 103/2008; STC 42/2014), aunque como aspiración política es legítimo. En 2017 dirigentes de ERC impulsaron las leyes del referéndum y de transitoriedad, que el TC anuló (STC 114/2017 y STC 124/2017), y el Supremo los condenó por sedición y malversación (STS 459/2019). Después fueron indultados o amnistiados. Su programa propone ahora un referéndum pactado.",
+     "gravedad": "media",
+     "criterio": "Arts. 1.2, 2, 92 y 168 CE; STC 103/2008; STC 42/2014; STC 114/2017; STS 459/2019",
+     "sobre": [
+      "erc-ter-01",
+      "erc-ter-02"
+     ],
+     "fuente": {
+      "nombre": "Iberley, sentencia del procés (14-10-2019)",
+      "url": "https://www.iberley.es/noticias/supremo-condena-sedicion-9-procesados-juicio-proces-29824"
+     }
+    },
+    {
+     "titulo": "Amnistía: avalada, con reparos de método",
+     "texto": "El Tribunal Constitucional avaló la ley en lo esencial (STC 137/2025, de 26 de junio): solo declaró inconstitucional el art. 1.1 por vulnerar el art. 14 CE al dejar fuera a quienes actuaron contra la secesión, y lo corrigió sin anularlo. El TJUE (Gran Sala, 16-7-2026) la declaró compatible con el derecho de la UE. Los reparos que siguen en pie son de calidad institucional: la Comisión de Venecia admitió su fin legítimo, pero recomendó buscar una mayoría cualificada más amplia y tiempo para un diálogo leal, y la ley se aprobó con una mayoría ajustada, como parte de un acuerdo de investidura y con los votos de partidos cuyos dirigentes eran beneficiarios.",
+     "gravedad": "media",
+     "criterio": "Art. 14 CE; STC 137/2025; TJUE (Gran Sala) 16-7-2026; CDL-AD(2024)003",
+     "sobre": [
+      "erc-ins-01"
+     ],
+     "fuente": {
+      "nombre": "Comisión de Venecia, CDL-AD(2024)003",
+      "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-003-e"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Despenalizar las injurias a la Corona",
+     "texto": "El TEDH condenó a España por castigar penalmente la quema de fotos de los Reyes como protesta política (Stern Taulats y Roura Capellera c. España, 2018) y ya había rechazado dar al jefe del Estado una protección reforzada frente a la crítica (Otegi Mondragón c. España, 2011).",
+     "criterio": "CEDH, art. 10; TEDH, Stern Taulats y Roura Capellera c. España (2018)",
+     "sobre": [
+      "erc-ins-03"
+     ],
+     "fuente": {
+      "nombre": "Columbia Global Freedom of Expression",
+      "url": "https://globalfreedomofexpression.columbia.edu/cases/stern-taulats-roura-capellera-v-spain/"
+     }
+    }
+   ]
+  },
+  "salf": {
+   "valoracion": "Choque frontal con derechos fundamentales en inmigración (deportación masiva sin examen individual) y preocupaciones serias en igualdad, sistema penitenciario y protección de datos. Le aplicamos el mismo test que a Vox. Su propuesta sanitaria cuenta con un aval parcial del TC.",
+   "criticas": [
+    {
+     "titulo": "Plan de deportación masiva",
+     "texto": "El CEDH prohíbe las expulsiones colectivas y exige examinar cada caso y respetar el principio de no devolución. Una deportación «masiva» por nacionalidad de origen no los cumple. Es el mismo test aplicado a Vox.",
+     "gravedad": "alta",
+     "criterio": "CEDH, Protocolo 4, art. 4; Carta UE, art. 19; Convención de Ginebra 1951, art. 33",
+     "sobre": [
+      "salf-inm-01"
+     ],
+     "fuente": {
+      "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+      "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+     }
+    },
+    {
+     "titulo": "Prioridad en ayudas, vivienda y guarderías",
+     "texto": "Excluir a los inmigrantes en situación irregular de las plazas de guardería afecta al derecho a la educación, que el TC reconoce a los menores extranjeros sea cual sea su situación administrativa. Cualquier criterio que en la práctica perjudique a los residentes de larga duración choca con la igualdad de trato que exige el derecho de la UE. Al incluir a los residentes legales, no es una preferencia por nacionalidad como la de Vox.",
+     "gravedad": "media",
+     "criterio": "Arts. 14 y 27 CE; STC 236/2007; Directiva 2003/109/CE, art. 11; TJUE, C-112/22 (2024)",
+     "sobre": [
+      "salf-inm-02"
+     ],
+     "fuente": {
+      "nombre": "TJUE, comunicado sobre los asuntos C-112/22 y C-223/22",
+      "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-07/cp240115en.pdf"
+     }
+    },
+    {
+     "titulo": "Macrocárcel inspirada en El Salvador, sin permisos",
+     "texto": "Negar los permisos penitenciarios a toda una categoría de presos choca con el mandato de reeducación y reinserción y con la individualización penitenciaria del art. 25.2 CE. El modelo de referencia se apoya en un régimen de excepción al que organismos de derechos humanos atribuyen detenciones arbitrarias y malos tratos.",
+     "gravedad": "media",
+     "criterio": "Art. 25.2 CE; CEDH, art. 3; LO 1/1979 General Penitenciaria",
+     "sobre": [
+      "salf-seg-01"
+     ],
+     "fuente": {
+      "nombre": "Human Rights Watch, Informe Mundial 2025: El Salvador",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/el-salvador"
+     }
+    },
+    {
+     "titulo": "Registro público de «okupas»",
+     "texto": "Publicar datos de personas por presuntas infracciones sin condena firme choca con la presunción de inocencia y con el régimen especial de los datos penales, que solo puede tratar la autoridad pública con garantías. Excluir a esas personas de ayudas sin resolución judicial agrava el problema.",
+     "gravedad": "media",
+     "criterio": "Arts. 18.4 y 24.2 CE; RGPD, art. 10",
+     "sobre": [
+      "salf-viv-04"
+     ],
+     "fuente": {
+      "nombre": "Reglamento (UE) 2016/679 (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Sanidad no urgente solo para españoles y residentes legales",
+     "texto": "Mismo test que a Vox: el TC (STC 139/2016) admitió excluir de la sanidad gratuita a los extranjeros sin residencia legal, siempre que se mantengan las urgencias, el embarazo y parto y la atención a los menores, garantías que la propuesta no detalla. Sus efectos sanitarios se valoran en la dimensión social.",
+     "criterio": "Art. 43 CE; STC 139/2016",
+     "sobre": [
+      "salf-san-03"
+     ],
+     "fuente": {
+      "nombre": "Economist & Jurist, 2-8-2016",
+      "url": "https://www.economistjurist.es/noticias-juridicas/el-tc-avala-la-reforma-sanitaria-y-declara-que-la-universalidad-de-la-sanidad-no-implica-necesariamente-gratuidad"
+     }
+    }
+   ]
+  },
+  "junts": {
+   "valoracion": "Preocupaciones serias, con un choque frontal en independencia judicial: pide que la Fiscalía actúe contra los jueces por cómo interpretan la amnistía. A eso se suman el acuerdo sobre el «lawfare», el precedente unilateral de 2017, la amnistía y una condena por corrupción de su expresidenta.",
+   "criticas": [
+    {
+     "titulo": "Que la Fiscalía actúe contra los jueces que no aplican la amnistía",
+     "texto": "Interpretar la ley corresponde a jueces independientes, y contra sus decisiones caben recursos, que es lo que ha ocurrido ante el TC y el TJUE. El Consejo de Europa establece que la interpretación del derecho no debe dar lugar a responsabilidad penal del juez salvo dolo. Promover acciones contra jueces por el sentido de sus resoluciones atenta contra su independencia.",
+     "gravedad": "alta",
+     "criterio": "Art. 117.1 CE; CM/Rec(2010)12, párrs. 66-70",
+     "sobre": [
+      "junts-ins-03"
+     ],
+     "fuente": {
+      "nombre": "Consejo de Europa, Recomendación CM/Rec(2010)12",
+      "url": "https://rm.coe.int/16807096c1"
+     }
+    },
+    {
+     "titulo": "El «lawfare» en el acuerdo de investidura",
+     "texto": "Mismo hallazgo que en el PSOE, como firmante: el acuerdo de 2023 recogía el «lawfare» y la posible revisión parlamentaria de actuaciones judiciales. El CGPJ y todas las asociaciones judiciales y fiscales lo rechazaron como injerencia en la independencia judicial.",
+     "gravedad": "media",
+     "criterio": "Art. 117 CE; separación de poderes",
+     "sobre": [],
+     "fuente": {
+      "nombre": "LegalToday, 10-11-2023",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-cgpj-y-todas-las-asociaciones-de-jueces-y-fiscales-consideran-inadmisible-que-el-acuerdo-de-investidura-reconozca-el-lawfare-2023-11-10/"
+     }
+    },
+    {
+     "titulo": "Autodeterminación y precedente unilateral de 2017",
+     "texto": "La independencia es un fin legítimo si se persigue mediante reforma constitucional (STC 42/2014). En 2017 el Govern que presidía Carles Puigdemont, hoy presidente de Junts, impulsó la declaración unilateral y las leyes del referéndum y de transitoriedad, que el TC anuló (STC 114/2017 y STC 124/2017). Junts condiciona hoy cualquier investidura a que se reconozca la autodeterminación.",
+     "gravedad": "media",
+     "criterio": "Arts. 1.2, 2 y 168 CE; STC 42/2014; STC 114/2017; STC 124/2017",
+     "sobre": [
+      "junts-ter-01",
+      "junts-ter-02"
+     ],
+     "fuente": {
+      "nombre": "Iberley, sentencia del procés (14-10-2019)",
+      "url": "https://www.iberley.es/noticias/supremo-condena-sedicion-9-procesados-juicio-proces-29824"
+     }
+    },
+    {
+     "titulo": "Amnistía: avalada, con reparos de método",
+     "texto": "El Tribunal Constitucional avaló la ley en lo esencial (STC 137/2025, de 26 de junio): solo declaró inconstitucional el art. 1.1 por vulnerar el art. 14 CE al dejar fuera a quienes actuaron contra la secesión, y lo corrigió sin anularlo. El TJUE (Gran Sala, 16-7-2026) la declaró compatible con el derecho de la UE. Los reparos que siguen en pie son de calidad institucional: la Comisión de Venecia admitió su fin legítimo, pero recomendó buscar una mayoría cualificada más amplia y tiempo para un diálogo leal, y la ley se aprobó con una mayoría ajustada, como parte de un acuerdo de investidura y con los votos de partidos cuyos dirigentes eran beneficiarios. En el caso de Junts, el principal beneficiario pendiente es su propio presidente.",
+     "gravedad": "media",
+     "criterio": "Art. 14 CE; STC 137/2025; TJUE (Gran Sala) 16-7-2026; CDL-AD(2024)003",
+     "sobre": [
+      "junts-ins-01"
+     ],
+     "fuente": {
+      "nombre": "TJUE, sentencia de 16-7-2026 (RTVC)",
+      "url": "https://rtvc.es/justicia-europea-avala-ley-amnistia-16-julio-2026/"
+     }
+    },
+    {
+     "titulo": "Catalán indispensable para renovar la residencia",
+     "texto": "El derecho de la UE admite condiciones de integración para los residentes de larga duración solo si son proporcionadas y no impiden en la práctica acceder al estatuto. Exigir una lengua concreta como requisito indispensable de renovación tensiona ese límite, y la inmigración es competencia exclusiva del Estado (art. 149.1.2 CE), con una delegación por el art. 150.2 CE que tiene límites.",
+     "gravedad": "baja",
+     "criterio": "Arts. 149.1.2 y 150.2 CE; Directiva 2003/109/CE, art. 5.2; TJUE, P y S (C-579/13, 2015)",
+     "sobre": [
+      "junts-inm-03",
+      "junts-inm-01"
+     ],
+     "fuente": {
+      "nombre": "Directiva 2003/109/CE (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32003L0109"
+     }
+    },
+    {
+     "titulo": "Condena firme de su expresidenta",
+     "texto": "El Tribunal Supremo confirmó en febrero de 2025 la condena de Laura Borràs, presidenta de Junts cuando fue juzgada, por prevaricación y falsedad documental al fraccionar contratos públicos en la Institució de les Lletres Catalanes, y rechazó aplicarle la amnistía.",
+     "gravedad": "media",
+     "criterio": "Control del poder y corrupción; STS de febrero de 2025",
+     "sobre": [],
+     "fuente": {
+      "nombre": "El Independiente, 12-2-2025",
+      "url": "https://www.elindependiente.com/espana/2025/02/12/el-supremo-condena-a-la-exdirigente-de-junts-laura-borras-y-rechaza-su-amnistia/"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "bildu": {
+   "valoracion": "Preocupaciones puntuales de calidad democrática ligadas al legado de ETA: candidatos condenados por terrorismo en sus listas y la negativa de su candidato de 2024 a llamar terrorismo a ETA. Es una conducta legal, y por eso tiene gravedad baja. Su derecho a decidir, por vía de reforma constitucional, es legítimo (STC 42/2014), y su propuesta de derogar la Ley de Secretos Oficiales va en línea con lo que pide la Comisión Europea.",
+   "criticas": [
+    {
+     "titulo": "Condena del terrorismo y condenados en las listas",
+     "texto": "En las municipales de 2023 EH Bildu presentó a 44 personas condenadas por pertenencia o colaboración con ETA, siete de ellas por delitos de sangre. Esos siete renunciaron a ocupar el cargo tras la polémica. En 2024 su candidato a lehendakari se negó a calificar a ETA de organización terrorista. Es legal: cumplieron sus penas, la Fiscalía no vio motivo para impugnar las listas y el TC legalizó la coalición en 2011 por su rechazo de la violencia. Aun así, la Ley de Partidos usa la inclusión de condenados que no hayan rechazado públicamente el terrorismo como indicio en la valoración de un partido.",
+     "gravedad": "baja",
+     "criterio": "LO 6/2002, art. 9.3.c; STC 62/2011",
+     "sobre": [],
+     "fuente": {
+      "nombre": "El Salto, 16-5-2023",
+      "url": "https://www.elsaltodiario.com/eh-bildu/siete-condenados-eta-delitos-sangre-renuncian-participar-activamente-politica-municipal"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Derogar la Ley de Secretos Oficiales de 1968",
+     "texto": "El Informe sobre el Estado de Derecho 2026 recomienda completar la sustitución de la ley de 1968, y el anteproyecto de Ley de Información Clasificada le parece un avance.",
+     "criterio": "Informe sobre el Estado de Derecho 2026",
+     "sobre": [
+      "bildu-ins-02"
+     ],
+     "fuente": {
+      "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+     }
+    }
+   ]
+  },
+  "pnv": {
+   "valoracion": "Preocupaciones puntuales: hacer del TSJ vasco la última instancia y crear un Consejo Vasco de Justicia no cabe sin reformar la Constitución. Su propuesta de una nueva ley de secretos oficiales va en línea con lo que pide la Comisión Europea.",
+   "criticas": [
+    {
+     "titulo": "TSJ vasco como última instancia y Consejo Vasco de Justicia",
+     "texto": "El art. 123 CE hace del Tribunal Supremo el órgano jurisdiccional superior en todos los órdenes, y el art. 122 CE prevé un único CGPJ. El TC anuló en 2010 el Consejo de Justicia catalán concebido como órgano desconcentrado del CGPJ. La propuesta exige reformar la Constitución, aunque no afecta a derechos fundamentales.",
+     "gravedad": "baja",
+     "criterio": "Arts. 122 y 123 CE; STC 31/2010",
+     "sobre": [
+      "pnv-ins-01"
+     ],
+     "fuente": {
+      "nombre": "Constitución Española (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     }
+    }
+   ],
+   "avales": [
+    {
+     "titulo": "Nueva Ley de Secretos Oficiales con desclasificación automática",
+     "texto": "Va en línea con la recomendación del Informe sobre el Estado de Derecho 2026 de completar la reforma del acceso a la información y sustituir la ley de 1968.",
+     "criterio": "Informe sobre el Estado de Derecho 2026",
+     "sobre": [
+      "pnv-ins-02"
+     ],
+     "fuente": {
+      "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+      "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+     }
+    }
+   ]
+  },
+  "bng": {
+   "valoracion": "Sin hallazgos relevantes. Su propuesta de autodeterminación y proceso constituyente es una aspiración legítima según el TC si se hace por reforma constitucional (STC 42/2014), y en sus propuestas no hay medidas que choquen con derechos fundamentales ni con estándares europeos.",
+   "criticas": [],
+   "avales": []
+  },
+  "aa": {
+   "valoracion": "Preocupaciones puntuales: dar o quitar fondos públicos según lo que una organización publica u opina compromete la neutralidad que exigen la libertad de información y el pluralismo.",
+   "criticas": [
+    {
+     "titulo": "Fondos públicos condicionados a la línea editorial o ideológica",
+     "texto": "Prohibir la publicidad institucional en medios «que difundan desinformación», sin un órgano independiente ni criterios tasados, da a la Administración un poder de premio o castigo sobre la prensa. El derecho europeo exige que esa publicidad se reparta con criterios transparentes, objetivos y no discriminatorios. Retirar fondos a organizaciones por su postura sobre los derechos reproductivos plantea el mismo problema de discriminación por opinión.",
+     "gravedad": "baja",
+     "criterio": "Arts. 14, 20 y 22 CE; Reglamento (UE) 2024/1083 (EMFA), art. 25",
+     "sobre": [
+      "aa-ins-02",
+      "aa-igu-01"
+     ],
+     "fuente": {
+      "nombre": "Reglamento (UE) 2024/1083 (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "cc": {
+   "valoracion": "Preocupaciones puntuales: una Ley de Residencia para Canarias, según cómo se concrete, podría chocar con la libertad de residencia. No hay más hallazgos. Votó en contra de la amnistía.",
+   "criticas": [
+    {
+     "titulo": "Ley de Residencia para Canarias",
+     "texto": "Limitar el derecho a residir en una comunidad a españoles de otras regiones o a ciudadanos de la UE choca con la libertad de residencia y circulación (arts. 19 y 139.2 CE) y con la libre circulación europea. Dependerá del texto: medidas fiscales o de vivienda vinculadas a la residencia previa podrían ser admisibles.",
+     "gravedad": "baja",
+     "criterio": "Arts. 19 y 139.2 CE; TFUE, art. 21; Directiva 2004/38/CE",
+     "sobre": [
+      "cc-viv-01"
+     ],
+     "fuente": {
+      "nombre": "Constitución Española (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     }
+    }
+   ],
+   "avales": []
+  },
+  "upn": {
+   "valoracion": "Preocupaciones puntuales de libertad de expresión y de cátedra: controlar los libros de texto con un criterio vago, y endurecer la persecución de los homenajes, algo que tiene límites marcados por el TEDH.",
+   "criticas": [
+    {
+     "titulo": "Vetar libros «contrarios a la realidad institucional de Navarra»",
+     "texto": "Que los materiales respeten la Constitución ya es exigible. Añadir un criterio tan indeterminado como la «realidad institucional» de Navarra abre la puerta a un control de contenidos que choca con la libertad de cátedra y de creación de materiales.",
+     "gravedad": "baja",
+     "criterio": "Arts. 20.1.b y c y 27 CE",
+     "sobre": [
+      "upn-edu-03"
+     ],
+     "fuente": {
+      "nombre": "Constitución Española (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+     }
+    },
+    {
+     "titulo": "Homenajes a ETA e inhabilitación perpetua",
+     "texto": "Perseguir el enaltecimiento del terrorismo y la humillación a las víctimas es legítimo, y ya es delito (art. 578 CP). Pero el TEDH condenó a España en 2021 por castigar un discurso en un homenaje sin una incitación real a la violencia (Erkizia Almandoz c. España). Impedir de por vida el acceso a cargos a quien ya cumplió su pena plantea, además, problemas de proporcionalidad con el art. 23 CE.",
+     "gravedad": "baja",
+     "criterio": "CEDH, art. 10; TEDH, Erkizia Almandoz c. España (2021); arts. 23 y 25.2 CE",
+     "sobre": [
+      "upn-seg-01",
+      "upn-seg-02"
+     ],
+     "fuente": {
+      "nombre": "Swissinfo/EFE sobre Erkizia Almandoz c. España",
+      "url": "https://www.swissinfo.ch/spa/el-tedh-condena-a-espa%C3%B1a-por-violar-la-libertad-de-expresi%C3%B3n-de-un-independentista-vasco/46725232"
+     }
+    }
+   ],
+   "avales": []
+  }
+ },
+ "actualizado": "2026-10-21"
+}

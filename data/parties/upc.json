@@ -1,0 +1,413 @@
+{
+ "id": "upc",
+ "nombre": "Unidad del Pueblo Canario",
+ "siglas": "UPC",
+ "concurre": true,
+ "candidato": "Por confirmar",
+ "ideologia": "Coalición de nacionalismo canario de izquierda e izquierda radical",
+ "ambito": "Canarias",
+ "color": "#7AB648",
+ "color_aproximado": true,
+ "web": "https://nuevacanarias.org",
+ "escanos_2023": 0,
+ "resumen": "Coalición de Nueva Canarias-Bloque Canarista, Podemos, Movimiento Sumar e IU Canarias para el Congreso y el Senado en Canarias, donde sustituye en la papeleta a Podemos y al Frente Amplio; Drago Canarias se presenta aparte. Sus ejes son la defensa de Canarias, la vivienda y los servicios públicos; como no hay programa conjunto, el detalle procede del programa de su fuerza principal, Nueva Canarias.",
+ "fuentes_programa": [
+  {
+   "nombre": "Nueva Canarias-BC, programa autonómico 2023",
+   "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+   "fecha": "2023-04"
+  },
+  {
+   "nombre": "Diario de Avisos: los ejes de Unidad del Pueblo Canario para el 29N",
+   "url": "https://diariodeavisos.elespanol.com/2026/10/29n-unidad-del-pueblo-canario/",
+   "fecha": "2026-10"
+  },
+  {
+   "nombre": "RTVC, 15-10-2026: Podemos, NC, IU y Sumar irán juntos al 29N como Unidad del Pueblo Canario",
+   "url": "https://rtvc.es/podemos-nueva-canarias-iu-sumar-juntos-29n-bajo-nombre-unidad-pueblo-canario-15-octubre-2026/",
+   "fecha": "2026-10-15"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "Demócrata: nueve coaliciones se inscriben en la JEC para las generales",
+  "url": "https://www.democrata.es/politica/nueve-coaliciones-se-inscriben-en-la-jec-para-las-generales-dos-al-congreso-tres-al-senado-y-cuatro-autonomicas/",
+  "fecha": "2026-10-17"
+ },
+ "circunscripciones": [
+  "Las Palmas",
+  "Santa Cruz de Tenerife"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 4.52,
+  "ambito": "Canarias",
+  "fuente": {
+   "nombre": "Público, resultados generales 2023 en Canarias (NC-bc, 45.557 votos)",
+   "url": "https://www.publico.es/resultados-elecciones/generales/2023/canarias"
+  },
+  "nota": "Es el resultado de Nueva Canarias en solitario. Sumar sacó el 10,64% en Canarias, pero entonces incluía a Podemos, IU y Drago. Primero Canarias, que se escindió de NC en 2024, va ahora con Coalición Canaria."
+ },
+ "propuestas": [
+  {
+   "id": "upc-ter-01",
+   "area": "territorio",
+   "texto": "Defender los intereses de Canarias y de cada isla con una voz «fuerte y propia» en el Congreso.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos: los ejes de Unidad del Pueblo Canario para el 29N",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/29n-unidad-del-pueblo-canario/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-viv-01",
+   "area": "vivienda",
+   "texto": "Garantizar el derecho a la vivienda (eje de la coalición).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos: los ejes de Unidad del Pueblo Canario para el 29N",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/29n-unidad-del-pueblo-canario/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-igu-01",
+   "area": "igualdad",
+   "texto": "Defender los servicios públicos de sanidad, educación y servicios sociales, y cuidados compartidos entre hombres y mujeres (ejes de la coalición).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos: los ejes de Unidad del Pueblo Canario para el 29N",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/29n-unidad-del-pueblo-canario/",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-ter-02",
+   "area": "territorio",
+   "texto": "Mantener a Canarias fuera del régimen común de financiación, con relación bilateral con el Estado, y ponderar más la insularidad y la pobreza.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 16",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-eco-01",
+   "area": "economia",
+   "texto": "Que el Estado no modifique el Régimen Económico y Fiscal (REF) sin acuerdo con Canarias y aumente en los PGE sus programas económicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 20",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-eco-02",
+   "area": "economia",
+   "texto": "Extender al REF el tratamiento diferenciado frente a la tributación mínima global del 15%.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 20",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-eco-03",
+   "area": "economia",
+   "texto": "Vincular los incentivos fiscales del REF a la creación de empleo y la diversificación, y reorientar la RIC hacia la sostenibilidad.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 20",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-eco-04",
+   "area": "economia",
+   "texto": "Que la Agencia Tributaria Canaria gestione los incentivos del REF mediante convenio con el Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 20",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-emp-01",
+   "area": "empleo",
+   "texto": "Bonificar las cotizaciones sociales en periodos de crisis y en actividades prioritarias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 20",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-ter-03",
+   "area": "territorio",
+   "texto": "Cogestión canaria de los aeropuertos y rechazo a privatizar las torres de control.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 17",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-ter-04",
+   "area": "territorio",
+   "texto": "Financiar con la UE y los cabildos los trenes de Gran Canaria y Tenerife, con implicación del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 9 y 17",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-ter-05",
+   "area": "territorio",
+   "texto": "Obligaciones de servicio público en vuelos y barcos entre Canarias y el resto del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 10",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-ext-01",
+   "area": "exterior",
+   "texto": "Mantener fondos europeos diferenciados para Canarias y las regiones ultraperiféricas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 21",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-ene-01",
+   "area": "energia",
+   "texto": "Excluir a Canarias del comercio europeo de emisiones o compensarla, también en las conexiones con Europa.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 9 y 21",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-rur-01",
+   "area": "rural",
+   "texto": "Mantener el POSEI (268 millones de euros anuales) de apoyo al sector primario canario.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 7",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-inm-01",
+   "area": "inmigracion",
+   "texto": "Políticas migratorias europeas respetuosas con los derechos humanos, con vías legales y seguras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 9",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-viv-02",
+   "area": "vivienda",
+   "texto": "Construir al menos 5.000 viviendas protegidas en la legislatura y limitar el alquiler en zonas tensionadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 39-41",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "upc-viv-03",
+   "area": "vivienda",
+   "texto": "Buscar mecanismos para limitar la compra de vivienda por extranjeros «no arraigados», dentro de la legislación estatal y europea.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 41",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-pen-01",
+   "area": "pensiones",
+   "texto": "Subir las pensiones no contributivas, cobradas sobre todo por mujeres.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 42",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-san-01",
+   "area": "sanidad",
+   "texto": "Programas para reducir las listas de espera y centros de urgencias de atención primaria con diagnóstico básico.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 27-28",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-edu-01",
+   "area": "educacion",
+   "texto": "Llegar al 5% del PIB en gasto educativo y universalizar la escolarización de 0 a 3 años.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 24",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-seg-01",
+   "area": "seguridad",
+   "texto": "Una Policía Canaria financiada por el Estado, con 300 plazas adicionales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 32",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  },
+  {
+   "id": "upc-igu-02",
+   "area": "igualdad",
+   "texto": "Llegar a 40.000 familias perceptoras de la Renta Canaria de Ciudadanía.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nueva Canarias-BC, programa autonómico 2023 «Un Plan de País», p. 36",
+    "url": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+    "fecha": "2023-04"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Más dependencia de transferencias estatales",
+    "texto": "Fedea calcula que en Canarias las transferencias del sistema de financiación equivalen a casi todos sus ingresos tributarios homogéneos. Blindar el REF frente a cambios y pedir más ponderación de la insularidad reforzaría esa posición a costa de las comunidades aportantes. Es la misma crítica que se hace a Coalición Canaria.",
+    "sobre": [
+     "upc-ter-02",
+     "upc-eco-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Liquidación 2024 del sistema de financiación autonómica (2026)",
+     "url": "https://fedea.net/la-liquidacion-de-2024-del-sistema-de-financiacion-de-las-comunidades-autonomas-de-regimen-comun/"
+    }
+   },
+   {
+    "titulo": "Excepción al impuesto mínimo global",
+    "texto": "Pedir un trato diferenciado del REF frente al impuesto mínimo del 15% choca con la Directiva (UE) 2022/2523, que busca precisamente limitar incentivos fiscales que rebajen la tributación efectiva de las grandes multinacionales.",
+    "sobre": [
+     "upc-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Directiva (UE) 2022/2523 (Pilar 2)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2523"
+    }
+   },
+   {
+    "titulo": "Topes al alquiler",
+    "texto": "Limitar el alquiler en zonas tensionadas puede contener precios a corto plazo, pero la evidencia comparada indica que reduce la oferta a medio plazo y desplaza viviendas al alquiler vacacional o de temporada, algo muy relevante en Canarias.",
+    "sobre": [
+     "upc-viv-02"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2024, capítulo de vivienda"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Coalición sin programa común",
+    "texto": "A un mes de las elecciones la coalición solo ha fijado ejes genéricos. Sus integrantes discrepan en asuntos como la relación con el PSOE o el modelo territorial, y eso hace difícil saber qué votarían sus diputados.",
+    "sobre": [
+     "upc-ter-01",
+     "upc-viv-01",
+     "upc-igu-01"
+    ],
+    "fuente": {
+     "nombre": "Diario de Avisos, ejes de UPC",
+     "url": "https://diariodeavisos.elespanol.com/2026/10/29n-unidad-del-pueblo-canario/"
+    }
+   },
+   {
+    "titulo": "Policía autonómica y coste",
+    "texto": "Crear una Policía Canaria financiada por el Estado duplicaría estructuras con la Policía Nacional y la Guardia Civil, y su coste no está cuantificado.",
+    "sobre": [
+     "upc-seg-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de eficiencia administrativa"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Asimetría territorial",
+    "texto": "Reforzar un estatus diferencial con cogestión de aeropuertos, policía propia y relación bilateral acentúa la asimetría autonómica, lo que otras comunidades pueden ver como un privilegio.",
+    "sobre": [
+     "upc-ter-02",
+     "upc-ter-03",
+     "upc-seg-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de federalismo"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Una duda jurídica: limitar la compra de vivienda a extranjeros «no arraigados» toca la libre circulación de capitales de la UE y la igualdad de trato, aunque el programa la condiciona a lo que permita la ley. No hay más hallazgos.",
+  "criticas": [
+   {
+    "titulo": "Límites a la compra de vivienda por extranjeros «no arraigados»",
+    "texto": "El TJUE considera que exigir residencia o arraigo para comprar inmuebles restringe la libre circulación de capitales, y solo lo admite si es proporcionado. Frente a ciudadanos de la UE, además, una distinción por nacionalidad estaría prohibida. El programa se remite a la legislación estatal y europea, y por eso la gravedad es baja. Es el mismo criterio que aplicamos a la Ley de Residencia de CC.",
+    "gravedad": "baja",
+    "criterio": "TFUE, art. 63; TJUE, Konle (C-302/97, 1999) y Libert (C-197/11, 2013); art. 13 CE",
+    "sobre": [
+     "upc-viv-03"
+    ],
+    "fuente": {
+     "nombre": "TJUE, asunto C-197/11 (Libert)",
+     "url": "https://curia.europa.eu/juris/liste.jsf?num=C-197/11"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

@@ -1,0 +1,374 @@
+{
+ "pp": {
+  "autodefinicion": {
+   "texto": "partido de centro-reformista que aspira a ser la casa común de liberales, democristianos y conservadores",
+   "fuente": {
+    "nombre": "Estatutos del Partido Popular (2025), art. 2",
+    "url": "https://www.pp.es/storage/2025/07/250705-ESTATUTOS.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 7.19,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "psoe": {
+  "autodefinicion": {
+   "texto": "se define a sí mismo como europeísta, feminista, ecologista, laico y defensor de los derechos de todas las personas",
+   "fuente": {
+    "nombre": "Estatutos Federales del PSOE (41.º Congreso Federal), art. 2.2",
+    "url": "https://psoemadrid.es/wp-content/uploads/Estatutos-Federales-41o-CF.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 3.81,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "vox": {
+  "autodefinicion": {
+   "texto": "VOX es el partido del sentido común, el que pone voz a lo que piensan millones de españoles",
+   "fuente": {
+    "nombre": "Web oficial de VOX, «¿Qué es VOX?»",
+    "url": "https://www.voxespana.es/espana/que-es-vox"
+   }
+  },
+  "ches": {
+   "lrgen": 9.38,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "sumar": {
+  "autodefinicion": {
+   "texto": "MOVIMIENTO SUMAR se concibe como un movimiento democrático ciudadano",
+   "fuente": {
+    "nombre": "Estatutos de Movimiento Sumar (2023), art. 3.2 (copia en Party Statutes Database)",
+    "url": "https://www.politicalpartydb.org/wp-content/uploads/2025/06/SPAIN_MovimientoSumar_2023.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 2.31,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  },
+  "nota": "Frente Amplio es una coalición sin autodefinición publicada en su web (frenteamplio.info). Autodefinición y CHES corresponden a Sumar, partido principal de la coalición. Otro socio, IU, figura en CHES 2024 con lrgen 1,73."
+ },
+ "podemos": {
+  "autodefinicion": null,
+  "ches": {
+   "lrgen": 1.56,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  },
+  "nota": "Los estatutos no incluyen una etiqueta ideológica; es la autodefinición literal disponible en un documento oficial accesible. Autodefinición retirada: el texto disponible era un fin estatutario, no una definición."
+ },
+ "erc": {
+  "autodefinicion": {
+   "texto": "Esquerra Republicana és un partit republicà, democràtic, feminista i d'esquerra no dogmàtica",
+   "fuente": {
+    "nombre": "Estatuts d'ERC (2025), art. 2 (publicados por ERC Barcelona)",
+    "url": "https://www.esquerrabcn.cat/documents/estatuts-2025.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 3.4,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "salf": {
+  "autodefinicion": {
+   "texto": "Forma parte del mayor movimiento civil contra la corrupción y la partitocracia de la historia de España",
+   "fuente": {
+    "nombre": "Web oficial de Se Acabó La Fiesta (portada)",
+    "url": "https://www.seacabolafiesta.com/"
+   }
+  },
+  "ches": {
+   "lrgen": 8.93,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  },
+  "nota": "Sus estatutos (art. 3) solo enumeran fines genéricos; la frase procede de la portada de la web oficial."
+ },
+ "junts": {
+  "autodefinicion": null,
+  "ches": {
+   "lrgen": 6.6,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  },
+  "nota": "Es una de las finalidades estatutarias, no una frase del tipo «Junts és…»; no se ha encontrado otra autodefinición literal verificable. Autodefinición retirada: el texto disponible era un fin estatutario, no una definición."
+ },
+ "bildu": {
+  "autodefinicion": {
+   "texto": "EH Bildu se define como una fuerza de la izquierda soberanista vasca",
+   "fuente": {
+    "nombre": "Estatutos de EH Bildu, art. 3 (bases ideológicas)",
+    "url": "https://ehbildu.eus/dokumentuak/gardentasuna/Estatutos.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 2.38,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "pnv": {
+  "autodefinicion": {
+   "texto": "EAJ-PNV se define a sí mismo como partido vasco, democrático, participativo, plural, aconfesional y humanista",
+   "fuente": {
+    "nombre": "Estatutos Nacionales de EAJ-PNV (2020), Principios Generales, punto 2",
+    "url": "https://transparencia.eaj-pnv.eus/adjuntos/gardentasuna/Estatutos-Nacionales-2020.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 6.12,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "bng": {
+  "autodefinicion": {
+   "texto": "confórmase como organización que integra o movemento socio-político de liberación nacional",
+   "fuente": {
+    "nombre": "BNG, «Principios organizativos e normas de funcionamento do BNG», apartado 0.0",
+    "url": "https://bng.gal/media/bnggaliza/files/2017/03/21/principiosorganizativos.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 2.69,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "aa": {
+  "autodefinicion": {
+   "texto": "nos definimos como andalucistas, feministas, ecosocialistas, antineoliberales",
+   "fuente": {
+    "nombre": "Web oficial de Adelante Andalucía, «Quiénes somos»",
+    "url": "https://adelanteandalucia.org/quienes-somos/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "cc": {
+  "autodefinicion": {
+   "texto": "Coalición Canaria es una organización política, nacionalista, progresista y de estructura federal",
+   "fuente": {
+    "nombre": "Coalición Canaria, Declaración de principios, valores y fines fundamentales",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 6.0,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  }
+ },
+ "upn": {
+  "autodefinicion": {
+   "texto": "UPN se define como un partido defensor de los fueros, leyes, historia, símbolos y tradiciones de Navarra",
+   "fuente": {
+    "nombre": "Estatutos de UPN (13.º Congreso), art. 2",
+    "url": "https://www.upn.org/wp-content/uploads/2024/05/Estatutos-13-Congreso-UPN.pdf"
+   }
+  },
+  "ches": {
+   "lrgen": 7.62,
+   "anio": 2024,
+   "fuente": {
+    "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
+    "url": "https://www.chesdata.eu/ches-europe"
+   }
+  },
+  "nota": "Concurre el 29N en coalición con el PP; el CHES puntúa a UPN por separado."
+ },
+ "mes": {
+  "autodefinicion": {
+   "texto": "MÉS PER MALLORCA, com a organització plural, oberta i participativa",
+   "fuente": {
+    "nombre": "MÉS per Mallorca, Codi ètic i de conducta (aprobado en Asamblea General, 13-12-2025), apartado 3",
+    "url": "https://media.timtul.com/media/web_mespermallorca/2025.12.13_aprovat_AG_CODI%20%20ETIC%20I%20DE%20CONDUCTA%20Maquetat_20260216092412.pdf"
+   }
+  },
+  "ches": null,
+  "nota": "Coalición Ara MÉS – Front Ampli: autodefinición de MÉS per Mallorca, partido principal. Ni MÉS ni la coalición figuran en el CHES."
+ },
+ "existe": {
+  "autodefinicion": {
+   "texto": "El Movimiento ciudadano Teruel Existe lleva más de 23 años luchando por la supervivencia de nuestra provincia",
+   "fuente": {
+    "nombre": "Web oficial de Teruel Existe (portada)",
+    "url": "https://teruelexiste.info"
+   }
+  },
+  "ches": null,
+  "nota": "Coalición Existe: autodefinición de Teruel Existe, partido principal. No incluido en el CHES."
+ },
+ "compromis": {
+  "autodefinicion": {
+   "texto": "Esta coalició és la resposta políticoelectoral de l'espai valencià de progrés",
+   "fuente": {
+    "nombre": "Compromís, Manifest fundacional",
+    "url": "https://compromis.net/info/manifest/"
+   }
+  },
+  "ches": null,
+  "nota": "Ni Compromís ni sus partidos integrantes figuran en el CHES 2019 ni 2024."
+ },
+ "upc": {
+  "autodefinicion": {
+   "texto": "Una organización nacionalista y progresista que defiende los intereses de Canarias",
+   "fuente": {
+    "nombre": "Web oficial de Nueva Canarias-Bloque Canarista, «¿Qué somos?»",
+    "url": "http://www.nuevacanariasbc.org/sobre-nosotros/"
+   }
+  },
+  "ches": null,
+  "nota": "Coalición Unidad del Pueblo Canario: autodefinición de Nueva Canarias-BC, partido principal. Ni la coalición ni NC figuran en el CHES."
+ },
+ "drago": {
+  "autodefinicion": null,
+  "ches": null,
+  "nota": "Web oficial no accesible para verificación (bloqueo a lectores automáticos); no se encontró autodefinición literal verificable. No incluido en el CHES."
+ },
+ "geroabai": {
+  "autodefinicion": {
+   "texto": "Es en sí misma la expresión de una nueva cultura política que se pretende trasladar a la sociedad navarra",
+   "fuente": {
+    "nombre": "Web oficial de Geroa Bai, «Conócenos»",
+    "url": "https://geroabai.eus/es/conocenos"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "pacma": {
+  "autodefinicion": {
+   "texto": "el único partido político en España que lucha por los derechos de todos los animales",
+   "fuente": {
+    "nombre": "Web oficial de PACMA (portada)",
+    "url": "https://pacma.es/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "d21": {
+  "autodefinicion": null,
+  "ches": null,
+  "nota": "No incluido en el CHES. Autodefinición retirada: el texto disponible era un fin estatutario, no una definición."
+ },
+ "frenteobrero": {
+  "autodefinicion": {
+   "texto": "El Frente Obrero es un movimiento patriota y revolucionario que lucha por y para los trabajadores, por y para España",
+   "fuente": {
+    "nombre": "Web oficial del Frente Obrero (portada)",
+    "url": "https://frenteobrero.es/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "feministas": {
+  "autodefinicion": null,
+  "ches": null,
+  "nota": "Web oficial no accesible para verificación (bloqueo a lectores automáticos); no se encontró autodefinición literal verificable. No incluido en el CHES."
+ },
+ "iustitia": {
+  "autodefinicion": {
+   "texto": "Somos el partido político de la sociedad civil.",
+   "fuente": {
+    "nombre": "Web oficial de Iustitia Europa",
+    "url": "https://iustitiaeuropa.es/es/somos-partido-politico-sociedad-civil"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "pcte": {
+  "autodefinicion": {
+   "texto": "Somos el único partido marxista-leninista organizado en todos los territorios del país",
+   "fuente": {
+    "nombre": "Web oficial del PCTE, «Conócenos»",
+    "url": "https://www.pcte.es/conocenos/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "escanosenblanco": {
+  "autodefinicion": {
+   "texto": "un grupo de ciudadanos hemos decidido concurrir a las elecciones con la intención de dejar vacío cualquier escaño",
+   "fuente": {
+    "nombre": "Manifiesto de Escaños en Blanco (web oficial)",
+    "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "falange": {
+  "autodefinicion": {
+   "texto": "Falange es un movimiento soberanista en lo más amplio del término.",
+   "fuente": {
+    "nombre": "Web oficial de FE de las JONS, «Quiénes somos»",
+    "url": "https://falange.es/quienes-somos/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ },
+ "dn": {
+  "autodefinicion": {
+   "texto": "Somos un movimiento político nacionalista español, fundado en 1995",
+   "fuente": {
+    "nombre": "Web oficial de Democracia Nacional (portada)",
+    "url": "https://www.democracianacional.es/"
+   }
+  },
+  "ches": null,
+  "nota": "No incluido en el CHES."
+ }
+}

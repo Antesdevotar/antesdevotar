@@ -1,0 +1,500 @@
+{
+ "id": "iustitia",
+ "nombre": "Iustitia Europa",
+ "siglas": "IE",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Luis María Pardo (presidente; candidato a la presidencia y cabeza de lista por Madrid)",
+ "ideologia": "Derecha radical populista (se define como «antipartido» y sin ideología)",
+ "ambito": "Estatal",
+ "color": "#1B3A6B",
+ "color_aproximado": true,
+ "web": "https://iustitiaeuropa.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado en 2023 por el abogado y exguardia civil Luis María Pardo, conocido por personarse como acusación popular en causas de corrupción, que se define como «antipartido». Prioriza una reforma constitucional para «superar el régimen del 78», la elección directa del presidente, el recorte del gasto político, el control migratorio con deportaciones y «más España y menos Unión Europea».",
+ "fuentes_programa": [
+  {
+   "titulo": "Qué defiende Iustitia Europa (El Nacional.cat)",
+   "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+   "fecha": "2026-10-09"
+  },
+  {
+   "titulo": "Presentación del «Contrato Electoral» (ESdiario)",
+   "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+   "fecha": "2026-09-27"
+  },
+  {
+   "titulo": "Iustitia Europa se presentará a las generales (Público)",
+   "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+   "fecha": "2026-09-02"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "Bilbao Hiria",
+  "url": "https://bilbaohiria.com/actualidad/que-es-iustitia-europa-partido-luis-maria-pardo-29n",
+  "fecha": "2026-10-09"
+ },
+ "circunscripciones": [
+  "Madrid",
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Europeas 2024",
+  "porcentaje": 0.15,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Público, 2-9-2026 (26.611 votos)",
+   "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html"
+  },
+  "nota": "26.611 votos sobre 17.527.438 válidos. No se presentó a las generales de 2023."
+ },
+ "propuestas": [
+  {
+   "id": "iustitia-ins-01",
+   "area": "instituciones",
+   "texto": "Reformar la Constitución de 1978 para «superar el régimen del 78» y la «despartidización del Estado».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-02",
+   "area": "instituciones",
+   "texto": "Elección directa del presidente del Gobierno.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-03",
+   "area": "instituciones",
+   "texto": "Sustituir las listas cerradas por una elección más directa de diputados y senadores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ins-04",
+   "area": "instituciones",
+   "texto": "Limitar los mandatos de los cargos políticos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ins-05",
+   "area": "instituciones",
+   "texto": "Referéndums vinculantes, también sobre la permanencia de España en la UE y la OTAN.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-ins-06",
+   "area": "instituciones",
+   "texto": "Hacer jurídicamente vinculantes las promesas electorales («Contrato Electoral»), con pérdida de sueldo, subvenciones o cargo si se incumplen.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-07",
+   "area": "instituciones",
+   "texto": "Suprimir los aforamientos y las inmunidades de los cargos públicos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ins-08",
+   "area": "instituciones",
+   "texto": "Que los jueces elijan a los vocales del CGPJ y reformar la elección del Tribunal Constitucional y de la Fiscalía General.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ins-09",
+   "area": "instituciones",
+   "texto": "Reforzar en la Constitución la acusación popular para que ciudadanos, asociaciones y partidos puedan personarse en causas de interés general.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ins-10",
+   "area": "instituciones",
+   "texto": "Eliminar la financiación pública de los partidos; el partido renuncia a subvenciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Bilbao Hiria (prensa), 9-10-2026",
+    "url": "https://bilbaohiria.com/actualidad/que-es-iustitia-europa-partido-luis-maria-pardo-29n",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-eco-01",
+   "area": "economia",
+   "texto": "«Tijeretazo» al gasto político y administrativo y revisión del sistema de subvenciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-emp-01",
+   "area": "empleo",
+   "texto": "Cuota cero a la Seguridad Social para los autónomos durante cuatro años.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-viv-01",
+   "area": "vivienda",
+   "texto": "Priorizar la propiedad privada frente a la intervención del mercado de la vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-inm-01",
+   "area": "inmigracion",
+   "texto": "Reforma integral de la Ley de Extranjería y cambio del procedimiento de asilo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   }
+  },
+  {
+   "id": "iustitia-inm-02",
+   "area": "inmigracion",
+   "texto": "Deportaciones masivas de inmigrantes en situación irregular.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-inm-03",
+   "area": "inmigracion",
+   "texto": "Expulsión inmediata de los inmigrantes que cometan delitos graves o reincidan.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   }
+  },
+  {
+   "id": "iustitia-inm-04",
+   "area": "inmigracion",
+   "texto": "Suprimir las ayudas y subvenciones a los inmigrantes en situación irregular.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   }
+  },
+  {
+   "id": "iustitia-inm-05",
+   "area": "inmigracion",
+   "texto": "Desplegar el Ejército y la Armada en fronteras, puertos y costas para interceptar entradas irregulares y frenar a los barcos de ONG, a los que llama «taxis ilegales».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Público (prensa), 2-9-2026",
+    "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
+    "fecha": "2026-09-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-inm-06",
+   "area": "inmigracion",
+   "texto": "Reforzar las vallas de Ceuta y Melilla.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ene-01",
+   "area": "energia",
+   "texto": "Salir del Pacto Verde Europeo, retirar las subvenciones a las renovables y apostar por la nuclear y el gas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-san-01",
+   "area": "sanidad",
+   "texto": "Incorporar las terapias naturales al sistema público de salud.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-edu-01",
+   "area": "educacion",
+   "texto": "Educación «sin ideología», sin contenidos de género ni de la Agenda 2030.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-ext-01",
+   "area": "exterior",
+   "texto": "«Más España y menos Unión Europea»: recuperar la soberanía cedida a la UE.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-11",
+   "area": "instituciones",
+   "texto": "Personarse como acusación popular en causas de corrupción (Begoña Gómez, Koldo-Ábalos-Cerdán, Montoro, ático de la Comunidad de Madrid).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-ins-12",
+   "area": "instituciones",
+   "texto": "Pedir al Supremo que suspenda cautelarmente la votación del 29N o que se marque por separado a 163.020 electores del CERA, por el censo de la «ley de nietos».",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Moncloa.com (prensa), 9-10-2026",
+    "url": "https://www.moncloa.com/2026/10/09/supremo-suspender-elecciones-3445017/",
+    "fecha": "2026-10-09"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Cuota cero a autónomos sin financiación",
+    "texto": "Eximir de cotizar durante cuatro años a los autónomos supondría una pérdida de ingresos para la Seguridad Social que el partido no cuantifica, en un sistema cuyo desequilibrio por envejecimiento señalan los análisis actuariales.",
+    "sobre": [
+     "iustitia-emp-01"
+    ],
+    "fuente": {
+     "nombre": "Devesa et al., Fedea (2025), Una visión actuarial del sistema de pensiones",
+     "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
+    }
+   },
+   {
+    "titulo": "Salir del Pacto Verde y quitar ayudas a renovables",
+    "texto": "Las renovables son hoy la principal fuente de generación eléctrica en España y han contribuido a bajar el precio mayorista en las horas de más producción. Abandonar el Pacto Verde expondría a España a incumplir obligaciones europeas y a perder fondos ligados a ellas.",
+    "sobre": [
+     "iustitia-ene-01"
+    ],
+    "fuente": {
+     "nombre": "Plan Nacional Integrado de Energía y Clima 2023-2030 (MITECO)",
+     "url": "https://www.miteco.gob.es/es/energia/estrategia-normativa/pniec-23-30.html"
+    }
+   },
+   {
+    "titulo": "Un referéndum sobre la UE",
+    "texto": "La experiencia británica sugiere costes elevados de salir de la UE: la Oficina de Responsabilidad Presupuestaria del Reino Unido estima una caída a largo plazo de la productividad del 4 % y del comercio en torno al 15 %.",
+    "sobre": [
+     "iustitia-ins-05",
+     "iustitia-ext-01"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Deportaciones masivas y mercado de trabajo",
+    "texto": "Fedea estima que la inmigración compensó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019. Deportaciones masivas y la supresión de ayudas afectarían a sectores que dependen de esta mano de obra y a familias con menores escolarizados.",
+    "sobre": [
+     "iustitia-inm-02",
+     "iustitia-inm-04"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026)",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   },
+   {
+    "titulo": "Terapias naturales en la sanidad pública",
+    "texto": "El Gobierno lanzó en 2018 un plan para proteger a los pacientes frente a las pseudoterapias, por falta de pruebas de eficacia y por el riesgo de que retrasen tratamientos eficaces. Incorporarlas al sistema público iría en dirección contraria si no se exige la misma evidencia que a cualquier tratamiento.",
+    "sobre": [
+     "iustitia-san-01"
+    ],
+    "fuente": {
+     "nombre": "Ministerios de Sanidad y de Ciencia, Plan para la protección de la salud frente a las pseudoterapias (2018)"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Educación «sin ideología» sin definir",
+    "texto": "Vetar contenidos de género o de la Agenda 2030 sin precisar qué se considera «ideología» deja abierto qué materias se suprimirían, incluidas las de igualdad o educación afectivo-sexual que hoy recoge la ley educativa.",
+    "sobre": [
+     "iustitia-edu-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Discurso «antipartido» y descrédito de las instituciones",
+    "texto": "El partido se presenta como «antipartido» y ha llevado a los tribunales sospechas de fraude electoral que el Supremo rechazó por falta de pruebas. Cuestionar la limpieza del escrutinio sin indicios puede erosionar la confianza en las elecciones.",
+    "sobre": [
+     "iustitia-ins-01",
+     "iustitia-ins-12"
+    ],
+    "fuente": {
+     "nombre": "elDiario.es, 31-7-2024",
+     "url": "https://www.eldiario.es/politica/supremo-rechaza-teorias-conspiracion-ultimas-elecciones-europeas_1_11562529.html"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Choque frontal con derechos fundamentales en inmigración: deportaciones masivas e interceptación militar en el mar sin examen individual. Preocupaciones serias por el «Contrato Electoral», que choca con la prohibición del mandato imperativo, y por su petición de suspender la votación o identificar por separado a un grupo de electores. Su propuesta para el CGPJ coincide con el estándar europeo (aval).",
+  "criticas": [
+   {
+    "titulo": "Deportaciones masivas e interceptación en el mar",
+    "texto": "Interceptar embarcaciones con la Armada y devolverlas sin examinar cada caso vulnera el principio de no devolución: el TEDH condenó a Italia por devolver a Libia a personas interceptadas en alta mar. Las deportaciones «masivas» chocan con la prohibición de expulsiones colectivas. Impedir los rescates choca además con el deber de auxilio en el mar. Es el mismo test aplicado a Vox y SALF.",
+    "gravedad": "alta",
+    "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa y otros c. Italia (Gran Sala, 2012); Convención de Ginebra 1951, art. 33; Carta UE, art. 19",
+    "sobre": [
+     "iustitia-inm-02",
+     "iustitia-inm-05"
+    ],
+    "fuente": {
+     "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+     "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+    }
+   },
+   {
+    "titulo": "Promesas electorales con pérdida del cargo",
+    "texto": "La Constitución prohíbe el mandato imperativo: el escaño pertenece al representante y no puede retirarse por incumplir un programa. La Comisión de Venecia considera incompatibles con el mandato libre los mecanismos que permiten revocar a un parlamentario nacional por su actuación política.",
+    "gravedad": "media",
+    "criterio": "Art. 67.2 CE; STC 10/1983; Comisión de Venecia, CDL-AD(2009)027",
+    "sobre": [
+     "iustitia-ins-06"
+    ],
+    "fuente": {
+     "nombre": "Comisión de Venecia, informe sobre el mandato imperativo CDL-AD(2009)027",
+     "url": "https://www.venice.coe.int/webforms/documents/?pdf=CDL-AD(2009)027-e"
+    }
+   },
+   {
+    "titulo": "Petición de suspender la votación o marcar a electores",
+    "texto": "Pidió al Supremo suspender la votación del 29N o, subsidiariamente, identificar por separado a 163.020 electores del CERA para poder rastrear sus votos. Suspender unas generales afecta al derecho de sufragio de todos, y separar las papeletas de un grupo identificado choca con el carácter secreto del voto. La petición está pendiente.",
+    "gravedad": "media",
+    "criterio": "Arts. 23 y 68.1 CE; CEDH, Protocolo 1, art. 3",
+    "sobre": [
+     "iustitia-ins-12"
+    ],
+    "fuente": {
+     "nombre": "Moncloa.com (prensa), 9-10-2026",
+     "url": "https://www.moncloa.com/2026/10/09/supremo-suspender-elecciones-3445017/",
+     "fecha": "2026-10-09"
+    }
+   }
+  ],
+  "avales": [
+   {
+    "titulo": "Que los jueces elijan a los vocales del CGPJ",
+    "texto": "La Comisión de Venecia considera que la elección de los vocales judiciales por los propios jueces se ajusta al estándar europeo. Es el mismo aval que reciben PP, Vox y D21.",
+    "criterio": "CDL-AD(2025)038",
+    "sobre": [
+     "iustitia-ins-08"
+    ],
+    "fuente": {
+     "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+     "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+    }
+   }
+  ]
+ },
+ "mentiras": [
+  {
+   "id": "iustitia-m-01",
+   "afirmacion": "En las europeas de 2024 la administración electoral fue «sustituida» por el Ejecutivo a través de Indra, que impuso un sistema de recuento distinto, por lo que había que anular el escrutinio en diez provincias.",
+   "autor": "Iustitia Europa (recurso firmado por el partido que preside Luis María Pardo)",
+   "fecha": "2024-06",
+   "contexto": "Recurso contencioso-electoral ante el Tribunal Supremo contra el escrutinio de las europeas de 2024",
+   "veredicto": "Sin pruebas",
+   "realidad": "El Supremo desestimó el recurso el 18-7-2024: no se aportaba «ningún dato, ni tan siquiera indiciario» de esa acusación, el escrutinio de Madrid se hizo sin irregularidades y el recurso carecía de base jurídica. Le impuso 500 euros de costas.",
+   "tipo": "dato-oficial",
+   "verificador": "Tribunal Supremo, Sala Tercera, sentencia de 18-7-2024 (según elDiario.es)",
+   "url": "https://www.eldiario.es/politica/supremo-rechaza-teorias-conspiracion-ultimas-elecciones-europeas_1_11562529.html"
+  }
+ ],
+ "actualizado": "2026-10-21"
+}

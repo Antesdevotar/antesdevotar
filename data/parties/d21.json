@@ -1,0 +1,582 @@
+{
+ "id": "d21",
+ "nombre": "Democracia para el Siglo 21",
+ "siglas": "D21",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Miriam González Durántez (presidenta de Democracia 21; candidata a la presidencia y cabeza de lista)",
+ "ideologia": "Centro liberal",
+ "ambito": "Madrid y Barcelona",
+ "color": "#0A0B0D",
+ "color_aproximado": true,
+ "web": "https://democracia21.es/",
+ "escanos_2023": 0,
+ "coalicion": [
+  "Democracia 21",
+  "Ciudadanos",
+  "UCIN (Unión de Ciudadanos Independientes)"
+ ],
+ "resumen": "Coalición de Democracia 21, el partido liberal y proeuropeo fundado en 2026 por la abogada Miriam González Durántez, con Ciudadanos y UCIN, que solo se presenta en Madrid y Barcelona. Prioriza la regeneración institucional («limpieza política radical»), la lucha contra la corrupción y un plan nacional de vivienda.",
+ "fuentes_programa": [
+  {
+   "titulo": "Web oficial de Democracia 21 (Soluciones y «Limpieza política radical»)",
+   "url": "https://democracia21.es/limpieza-politica-radical",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Recopilación de posiciones y del documento «España Limpia» (PoliticaElectoral.com)",
+   "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Presentación de Democracia 21 (Artículo14)",
+   "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+   "fecha": "2026-10-10"
+  },
+  {
+   "titulo": "Coalición con Ciudadanos y UCIN (Mundiario)",
+   "url": "https://www.mundiario.com/articulo/politica/miriam-gonzalez-une-democracia-21-ciudadanos-ucin-elecciones-29-n/20261014231121446829.html",
+   "fecha": "2026-10-14"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "PoliticaElectoral.com (coalición inscrita ante la JEC, pendiente de avales y de presentar listas)",
+  "url": "https://www.politicaelectoral.com/es/espana/partido/democracia-21",
+  "fecha": "2026-10-18"
+ },
+ "circunscripciones": [
+  "Madrid",
+  "Barcelona"
+ ],
+ "referencia_voto": {
+  "eleccion": "Europeas 2024",
+  "porcentaje": 0.7,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Resultados oficiales recopilados en Wikipedia, «2024 European Parliament election in Spain»",
+   "url": "https://en.wikipedia.org/wiki/2024_European_Parliament_election_in_Spain"
+  },
+  "nota": "Resultado de Ciudadanos (122.292 votos), su última cita estatal. Cs no se presentó a las generales de 2023; su último resultado en generales fue el 6,80 % de noviembre de 2019. Democracia 21 y UCIN no tienen resultados previos."
+ },
+ "propuestas": [
+  {
+   "id": "d21-ins-01",
+   "area": "instituciones",
+   "texto": "Reducir un 90 % los asesores políticos, «de golpe».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-02",
+   "area": "instituciones",
+   "texto": "Publicar nombres, funciones y sueldos de los asesores de todas las administraciones y revisar en seis meses todos los nombramientos de libre designación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-03",
+   "area": "instituciones",
+   "texto": "Nombrar por mérito y capacidad a todos los cargos de la Administración y de las empresas públicas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-04",
+   "area": "instituciones",
+   "texto": "Tipificar como delito el «enchufismo» ampliando el art. 405 del Código Penal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Democracia 21, «Limpieza política radical» (web oficial)",
+    "url": "https://democracia21.es/limpieza-politica-radical",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-05",
+   "area": "instituciones",
+   "texto": "Castigar penalmente al cargo público que conozca un caso de corrupción o de manipulación de contratos y no lo denuncie.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-06",
+   "area": "instituciones",
+   "texto": "Que los delitos de corrupción no prescriban.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-07",
+   "area": "instituciones",
+   "texto": "Inhabilitación de por vida para los condenados en firme por corrupción, malversación o tráfico de influencias: «quien robe a lo público no volverá nunca a lo público».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Democracia 21, «Limpieza política radical» (web oficial)",
+    "url": "https://democracia21.es/limpieza-politica-radical",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-08",
+   "area": "instituciones",
+   "texto": "Crear juzgados especializados contra la corrupción, según el modelo de los de violencia de género, y reglas procesales contra las dilaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Democracia 21, «Limpieza política radical» (web oficial)",
+    "url": "https://democracia21.es/limpieza-politica-radical",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-09",
+   "area": "instituciones",
+   "texto": "Duplicar los recursos de la Fiscalía Anticorrupción, con urbanistas, auditores forenses y analistas de datos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-10",
+   "area": "instituciones",
+   "texto": "Controlar con inteligencia artificial toda la contratación pública, incluidos los contratos menores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-11",
+   "area": "instituciones",
+   "texto": "Suprimir los aforamientos, incluidos los de diputados y senadores mediante reforma constitucional; los del Gobierno, solo para actos del cargo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-12",
+   "area": "instituciones",
+   "texto": "Que los jueces elijan directamente a los vocales judiciales del CGPJ, sin intervención de las asociaciones judiciales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-ins-13",
+   "area": "instituciones",
+   "texto": "Fiscal general elegido por el Gobierno de una terna aprobada por tres quintos del Congreso, con un mandato que no coincida con la legislatura.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-14",
+   "area": "instituciones",
+   "texto": "Cubrir por sorteo entre candidatos elegibles los nombramientos de órganos independientes bloqueados más de tres meses.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-15",
+   "area": "instituciones",
+   "texto": "Vetar en órganos independientes a quien haya tenido carrera política en los diez años previos (veinte para jueces y fiscales).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-16",
+   "area": "instituciones",
+   "texto": "Juzgar la corrupción de políticos autonómicos en el tribunal de una comunidad limítrofe.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-17",
+   "area": "instituciones",
+   "texto": "Limitar a dos los mandatos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-ins-18",
+   "area": "instituciones",
+   "texto": "Acabar con las subvenciones a partidos y fundaciones y con los «impuestos revolucionarios» de los partidos a sus cargos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Democracia 21, «Limpieza política radical» (web oficial)",
+    "url": "https://democracia21.es/limpieza-politica-radical",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-ins-19",
+   "area": "instituciones",
+   "texto": "Obligar a los parlamentarios a volver a su circunscripción al menos una vez cada dos semanas y hacer obligatoria la escucha pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-deu-01",
+   "area": "deuda",
+   "texto": "Suspender el sueldo de los miembros del Gobierno si no presenta Presupuestos y que el Gobierno cese tras un año sin ellos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-deu-02",
+   "area": "deuda",
+   "texto": "Evaluar públicamente la eficacia y el coste de todos los programas de gasto y reforzar la Intervención General con cruce de datos e IA, con interventor nombrado por seis años.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-viv-01",
+   "area": "vivienda",
+   "texto": "Plan Nacional de Construcción de Barrios pactado entre partidos, con diez años de seguridad jurídica para promotores y administraciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-viv-02",
+   "area": "vivienda",
+   "texto": "Eliminar todos los impuestos ligados a la vivienda para los menores de 35 años mientras no se garantice el acceso a alquileres asequibles.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-viv-03",
+   "area": "vivienda",
+   "texto": "Objetivo: que quien gane 1.300 euros al mes no pague más de 350 en vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-viv-04",
+   "area": "vivienda",
+   "texto": "Pedir a Sánchez y Feijóo que viajen juntos a Bruselas para destinar los fondos Next Generation sin ejecutar a un fondo de vivienda protegida y asequible.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-viv-05",
+   "area": "vivienda",
+   "texto": "Simplificar los permisos de construcción, que según el partido tardan casi tres años.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-eco-01",
+   "area": "economia",
+   "texto": "Facilitar el emprendimiento, reducir obligaciones a autónomos y pymes y eliminar normas obsoletas; que los impuestos solo financien buenos servicios públicos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-emp-01",
+   "area": "empleo",
+   "texto": "Subidas salariales «sostenibles»: «subir salarios hasta que lo note tu bolsillo».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia 21, web oficial (apartado Soluciones)",
+    "url": "https://democracia21.es/",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "d21-edu-01",
+   "area": "educacion",
+   "texto": "Educación que apoye a quien se queda atrás sin frenar al resto, con más apoyo al profesorado; grados universitarios más flexibles y con más prácticas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "d21-inm-01",
+   "area": "inmigracion",
+   "texto": "Que el Estado controle la inmigración: «nosotros decidimos quién entra, cómo entra, cuándo entra», con llegada regulada de trabajadores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Artículo14 (prensa), presentación de Democracia 21, 10-10-2026",
+    "url": "https://www.articulo14.es/politica/miriam-gonzalez-presenta-democracia-21-venimos-a-limpiar-espana-y-a-modernizarla-20261010.html",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "d21-inm-02",
+   "area": "inmigracion",
+   "texto": "Considerar la inmigración un activo económico y social y rechazar los discursos xenófobos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Nacional.cat (prensa), 15-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/democracia-21-que-defiende-quien-hay-detras-nuevo-partido-miriam-gonzalez-nuevo-ciudadanos_1710052_102.html",
+    "fecha": "2026-10-15"
+   }
+  },
+  {
+   "id": "d21-ext-01",
+   "area": "exterior",
+   "texto": "«Construir la Unión Europea del siglo 21»: proyecto liberal, proeuropeo y reformista.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia 21, web oficial (apartado Soluciones)",
+    "url": "https://democracia21.es/",
+    "fecha": "2026-10"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Eliminar impuestos a la vivienda para menores de 35",
+    "texto": "Con una oferta de vivienda rígida, las ayudas y rebajas fiscales a la compra tienden a trasladarse al precio y a beneficiar en parte al vendedor, según la evidencia que recoge Funcas. La medida tampoco cuantifica cuánto dejarían de ingresar las comunidades autónomas, titulares de los impuestos sobre transmisiones.",
+    "sobre": [
+     "d21-viv-02"
+    ],
+    "fuente": {
+     "nombre": "Funcas, «Housing affordability in Europe: lessons for Spain»",
+     "url": "https://www.funcas.es/areas-de-investigacion/area-de-economia/mercado-de-la-vivienda/"
+    }
+   },
+   {
+    "titulo": "Programa sin cifras en las grandes partidas",
+    "texto": "Las propuestas se centran en regeneración institucional; no hay medidas sobre pensiones, financiación autonómica, energía ni una estimación del efecto de su rebaja de la presión fiscal. El ahorro de recortar asesores es pequeño frente al gasto público total, y el agregador que recopila sus posiciones marca como «sin propuesta» varias de esas áreas.",
+    "sobre": [
+     "d21-ins-01",
+     "d21-eco-01"
+    ],
+    "fuente": {
+     "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+     "fecha": "2026-10"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Inmigración: principios sin instrumentos",
+    "texto": "Combina el control de entradas con una visión de la inmigración como activo, pero no concreta qué haría con la regularización, los menores no acompañados, Ceuta y Melilla o el Pacto Europeo de Migración y Asilo, que son las decisiones que afectan a los derechos de las personas migrantes.",
+    "sobre": [
+     "d21-inm-01",
+     "d21-inm-02"
+    ],
+    "fuente": {
+     "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+     "fecha": "2026-10"
+    }
+   },
+   {
+    "titulo": "Sanidad, pensiones e igualdad, solo como epígrafes",
+    "texto": "Los apartados de sanidad, familia y bienestar figuran como títulos en su web, sin medidas concretas sobre listas de espera, revalorización de pensiones o dependencia, que son las que más afectan a los hogares.",
+    "sobre": [
+     "d21-ins-19"
+    ],
+    "fuente": {
+     "nombre": "Democracia 21, web oficial (apartado Soluciones)",
+     "url": "https://democracia21.es/",
+     "fecha": "2026-10"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Sin posición sobre el modelo territorial",
+    "texto": "Concurre en Madrid y Barcelona sin fijar posición sobre financiación singular de Cataluña, amnistía, lenguas o reparto de competencias, debates centrales en una de sus dos circunscripciones. Su único criterio declarado es exigir el respeto a la Constitución para pactar.",
+    "sobre": [
+     "d21-ext-01"
+    ],
+    "fuente": {
+     "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+     "fecha": "2026-10"
+    }
+   },
+   {
+    "titulo": "Vetos largos a excargos políticos",
+    "texto": "Vetar durante diez o veinte años a quien haya tenido carrera política reduce la influencia partidista en los órganos de control, pero también excluye perfiles con experiencia de gestión pública y puede trasladar la idea de que toda actividad política es sospechosa.",
+    "sobre": [
+     "d21-ins-15"
+    ],
+    "fuente": {
+     "nombre": "PoliticaElectoral.com (agregador), posiciones de D21 y documento «España Limpia»",
+     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/democracia-21",
+     "fecha": "2026-10"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin choques con derechos fundamentales. Sus propuestas sobre el CGPJ y la Fiscalía van en la línea de los estándares europeos (avales). Hay dudas puntuales de calidad institucional: varias medidas exigirían reforma constitucional o necesitan un ajuste de proporcionalidad (inhabilitación perpetua, imprescriptibilidad, vetos largos, cese automático del Gobierno).",
+  "criticas": [
+   {
+    "titulo": "Inhabilitación perpetua e imprescriptibilidad de la corrupción",
+    "texto": "Perseguir la corrupción es legítimo, pero una inhabilitación de por vida para todos los condenados choca con el mandato de reinserción y con la proporcionalidad de las penas, y la imprescriptibilidad se reserva hoy a los delitos más graves (lesa humanidad, terrorismo con muerte). Es el mismo test aplicado a la inhabilitación perpetua que propone UPN.",
+    "gravedad": "baja",
+    "criterio": "Arts. 25.1 y 25.2 CE; art. 131 CP",
+    "sobre": [
+     "d21-ins-06",
+     "d21-ins-07"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Cese automático del Gobierno, sorteos y vetos de acceso",
+    "texto": "La Constitución prevé la prórroga automática de los Presupuestos y fija cómo se eligen el CGPJ y el TC, así que el cese del Gobierno tras un año sin Presupuestos y el sorteo de vacantes en esos órganos exigirían reforma constitucional. Los vetos de diez o veinte años a excargos limitan el acceso a funciones públicas y necesitan justificar su proporcionalidad.",
+    "gravedad": "baja",
+    "criterio": "Arts. 23.2, 122.3, 134.4 y 159 CE",
+    "sobre": [
+     "d21-deu-01",
+     "d21-ins-14",
+     "d21-ins-15"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Juzgar en el tribunal de otra comunidad",
+    "texto": "Atribuir por ley a un tribunal de una comunidad limítrofe los casos de corrupción autonómica es posible si la regla es general y previa, pero choca con la competencia de los Tribunales Superiores de Justicia de cada comunidad y debe respetar el derecho al juez predeterminado por la ley.",
+    "gravedad": "baja",
+    "criterio": "Arts. 24.2 y 152.1 CE",
+    "sobre": [
+     "d21-ins-16"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "avales": [
+   {
+    "titulo": "Que los jueces elijan a los vocales judiciales del CGPJ",
+    "texto": "La Comisión de Venecia considera que la elección directa de los vocales judiciales por los propios jueces se ajusta al estándar europeo. Es el mismo aval que reciben PP y Vox.",
+    "criterio": "CDL-AD(2025)038",
+    "sobre": [
+     "d21-ins-12"
+    ],
+    "fuente": {
+     "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+     "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+    }
+   },
+   {
+    "titulo": "Fiscal general con mayoría reforzada y mandato propio",
+    "texto": "Elegir al fiscal general de una terna aprobada por tres quintos del Congreso y con un mandato que no coincida con la legislatura responde a la recomendación reiterada de los Informes sobre el Estado de Derecho de reforzar su autonomía frente al Gobierno.",
+    "criterio": "Art. 124 CE; Informe sobre el Estado de Derecho 2026, capítulo España",
+    "sobre": [
+     "d21-ins-13"
+    ],
+    "fuente": {
+     "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
+     "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

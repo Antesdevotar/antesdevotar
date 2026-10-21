@@ -1,0 +1,415 @@
+{
+ "generado": "2026-10-21",
+ "nota": "url_programa_esperada es la página o carpeta donde es más probable que aparezca el PDF, deducida del patrón de 2023 (url_programa_2023). No se ha podido comprobar en vivo: el proxy de esta sesión rechaza conexiones directas (curl) a las webs de los partidos; WebFetch sí funciona. Ningún partido ha anunciado fecha de publicación a 21-10-2026, salvo Frente Obrero, que ya lo publicó.",
+ "precedentes": {
+  "generales_2023": {
+   "eleccion": "2023-07-23",
+   "inicio_campana": "2023-07-07",
+   "orden": [
+    {
+     "partido": "pp",
+     "fecha": "2023-07-04",
+     "fuente": "https://www.infobae.com/espana/2023/07/05/el-psoe-estudia-denunciar-a-feijoo-ante-la-jec-al-presentar-el-programa-electoral-con-una-imagen-de-la-moncloa-de-fondo/"
+    },
+    {
+     "partido": "bng",
+     "fecha": "2023-07-05",
+     "fuente": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf"
+    },
+    {
+     "partido": "sumar",
+     "fecha": "2023-07-06",
+     "fuente": "https://theobjective.com/politica/2023-07-06/elecciones-directo-campana-2023/directo/"
+    },
+    {
+     "partido": "psoe",
+     "fecha": "2023-07-07",
+     "fuente": "https://www.elindependiente.com/wp-content/uploads/2023/07/PresentacionProgramaElectoral_PS_7jul2023-1.pdf"
+    },
+    {
+     "partido": "vox",
+     "fecha": "2023-07-07 (aprox.; la prensa lo analiza el 7-8 de julio)",
+     "fuente": "https://theobjective.com/espana/politica/2023-07-07/programas-pp-psoe-sumar-vox/"
+    }
+   ],
+   "lectura": "Los cuatro grandes publicaron entre T-19 y T-16 días, en los 3 días antes del arranque de campaña o el mismo día. Los regionales, en la misma ventana o algo antes."
+  },
+  "generales_10N_2019": {
+   "lectura": "Repetición electoral en noviembre: PSOE, PP, Cs, UP, Más País y Vox tenían el programa publicado antes del 30-10-2019 (T-11), varios casi sin cambios respecto a abril.",
+   "fuente": "https://www.vozpopuli.com/espana/politica/programas-electorales-elecciones-partidos_0_1295871642.html"
+  },
+  "prevision_29N": "Aplicando T-19/T-16: ventana más probable del 10 al 14 de noviembre de 2026 (inicio de campaña el 13-11 a las 00:00). Margen: del 3-11 (tras la proclamación) al 20-11."
+ },
+ "agregadores": [
+  {
+   "nombre": "Demócrata — programas electorales",
+   "url": "https://www.democrata.es/elecciones-generales-espana/herramientas/programas",
+   "notas": "Recopila programas; WebFetch falló el 21-10. Reintentar."
+  },
+  {
+   "nombre": "PoliticaElectoral.com — generales 2026",
+   "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/",
+   "notas": "Resúmenes de posiciones por partido; útil como alerta, nunca como fuente de propuestas."
+  },
+  {
+   "nombre": "Google News / WebSearch",
+   "url": "",
+   "notas": "Consulta tipo: \"programa electoral\" <siglas> 29N"
+  },
+  {
+   "nombre": "BOE — candidaturas presentadas (28-10) y proclamadas (3-11)",
+   "url": "https://www.boe.es/",
+   "notas": "Confirma quién concurre y en qué circunscripciones."
+  }
+ ],
+ "no_concurren": [
+  {
+   "id": "aliancacat",
+   "notas": "Confirmar en el BOE del 28-10 que no presenta candidatura."
+  },
+  {
+   "id": "xav",
+   "notas": "Confirmar en el BOE del 28-10."
+  }
+ ],
+ "partidos": [
+  {
+   "id": "pp",
+   "prioridad": "A",
+   "url_web": "https://www.pp.es",
+   "url_programa_esperada": "https://www.pp.es/storage/2026/",
+   "url_programa_2023": "https://www.pp.es/storage/2023/07/23.07.04._resumen_programa_electoral.pdf",
+   "fecha_programa_2023": "2023-07-04",
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023 fue el primero de los grandes: lo presentó el 4-7 (T-19) en Madrid. Los PDF cuelgan de pp.es/storage/AAAA/MM/ con prefijo de fecha AA.MM.DD. El «Contrato con España» (19-10-2026, 12 compromisos) NO es el programa: es un avance y ya está volcado como 'declaracion'. Vigilar también la sala de prensa de pp.es."
+  },
+  {
+   "id": "psoe",
+   "prioridad": "A",
+   "url_web": "https://www.psoe.es",
+   "url_programa_esperada": "https://www.psoe.es/",
+   "url_programa_2023": "https://www.elindependiente.com/wp-content/uploads/2023/07/PresentacionProgramaElectoral_PS_7jul2023-1.pdf",
+   "fecha_programa_2023": "2023-07-07",
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023 lo presentó el 7-7 (T-16, primer día de campaña). La copia que usamos de 2023 es un espejo de prensa (poder360); localizar el PDF en psoe.es y preferirlo. Riesgo: el Gobierno está aprobando decretos-ley en precampaña (vivienda 6-10-2026), que entran como 'accion' y no se tocan."
+  },
+  {
+   "id": "vox",
+   "prioridad": "A",
+   "url_web": "https://www.voxespana.es",
+   "url_programa_esperada": "https://www.voxespana.es/",
+   "url_programa_2023": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+   "fecha_programa_2023": "2023-07-07",
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023: 20 puntos y 381 medidas (The Objective, 7-7-2023), publicado al arrancar la campaña. Sus programas autonómicos de 2026 (p. ej. CyL) se difundieron vía prensa (El Debate), así que vigilar también prensa afín. El «Programa de Desregulación» (6-2026) ya está como 'declaracion'."
+  },
+  {
+   "id": "sumar",
+   "prioridad": "A",
+   "url_web": "https://frenteamplio.info",
+   "url_programa_esperada": "https://frenteamplio.info/",
+   "url_programa_2023": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+   "fecha_programa_2023": "2023-07-06",
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Frente Amplio con Ada Colau. En 2023 Sumar presentó «Un programa para ti» el 6-7 (último día de precampaña). Coalición nueva y con socios distintos por territorio (Cataluña y Madrid por separado): puede haber programa marco + anexos territoriales; tratar anexos como fuentes del mismo partido."
+  },
+  {
+   "id": "podemos",
+   "prioridad": "B",
+   "url_web": "https://podemos.info",
+   "url_programa_esperada": "https://podemos.info/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023 fue dentro de Sumar: no hay programa propio de generales comparable; todas sus propuestas son 'declaracion'. Lema 29N «paz, casa y trabajo» (RTVC, 19-10-2026). Primer programa propio desde 2019: probablemente sustituya gran parte de las propuestas."
+  },
+  {
+   "id": "erc",
+   "prioridad": "B",
+   "url_web": "https://www.esquerra.cat",
+   "url_programa_esperada": "https://www.esquerra.cat/",
+   "url_programa_2023": "https://www.scribd.com/document/657322483/Programa-Electoral-ERC-23-J",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Programa en catalán: extraer en castellano, parafraseando fielmente; citar página del original. 2023 solo localizado vía Scribd/Nació Digital."
+  },
+  {
+   "id": "salf",
+   "prioridad": "B",
+   "url_web": "https://www.seacabolafiesta.com",
+   "url_programa_esperada": "https://www.seacabolafiesta.com/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Sin programa de generales previo; en europeas 2024 y andaluzas 2026 publicó listas de medidas difundidas sobre todo por Telegram y prensa. Vigilar el canal de Telegram de Alvise además de la web."
+  },
+  {
+   "id": "junts",
+   "prioridad": "B",
+   "url_web": "https://junts.cat",
+   "url_programa_esperada": "https://junts.cat/wp-content/uploads/2026/",
+   "url_programa_2023": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023 no publicó un programa al uso sino boletines MésJunts; puede repetirse. En catalán. Muchas propuestas son 'accion' (acuerdos con el PSOE): conservarlas."
+  },
+  {
+   "id": "bildu",
+   "prioridad": "B",
+   "url_web": "https://ehbildu.eus",
+   "url_programa_esperada": "https://ehbildu.eus/dokumentuak/",
+   "url_programa_2023": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Patrón 2023 verificado: ehbildu.eus/dokumentuak/<nombre>.pdf. Suele publicar versión en euskera y castellano: usar la castellana."
+  },
+  {
+   "id": "pnv",
+   "prioridad": "B",
+   "url_web": "https://www.eaj-pnv.eus",
+   "url_programa_esperada": "https://www.eaj-pnv.eus/es/adjuntos-documentos/",
+   "url_programa_2023": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Patrón 2023 verificado: /es/adjuntos-documentos/<n>/pdf/<slug>. Vigilar también /es/noticias."
+  },
+  {
+   "id": "bng",
+   "prioridad": "B",
+   "url_web": "https://www.bng.gal",
+   "url_programa_esperada": "https://www.bng.gal/media/bnggaliza/files/2026/",
+   "url_programa_2023": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+   "fecha_programa_2023": "2023-07-05",
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Patrón 2023: /media/bnggaliza/files/AAAA/MM/DD/. Publicó el 5-7-2023 (T-18), antes que PSOE y Vox. En gallego."
+  },
+  {
+   "id": "aa",
+   "prioridad": "B",
+   "url_web": "https://adelanteandalucia.org",
+   "url_programa_esperada": "https://adelanteandalucia.org/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "En 2023 solo localizado vía prensa (Diario Bahía de Cádiz). Concurre en solitario con militantes de base (elDiario.es, 16-10-2026)."
+  },
+  {
+   "id": "cc",
+   "prioridad": "B",
+   "url_web": "https://coalicioncanaria.org",
+   "url_programa_esperada": "https://coalicioncanaria.org/",
+   "url_programa_2023": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Candidatura con Primero Canarias; ya hay 10 propuestas 'programa-2026' sacadas de los «doce ejes para Madrid» (Diario de Avisos, 14-10-2026). Si sale programa completo, reconciliar con esas 10 (mismos ids)."
+  },
+  {
+   "id": "upn",
+   "prioridad": "B",
+   "url_web": "https://www.upn.org",
+   "url_programa_esperada": "https://www.upn.org/wp-content/uploads/2026/",
+   "url_programa_2023": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Coalición UPN-PP en Navarra (Orain, 13-10-2026): puede no haber programa propio y adherirse al del PP con anexo navarro. Si es así, solo extraer el anexo y anotarlo."
+  },
+  {
+   "id": "compromis",
+   "prioridad": "C",
+   "url_web": "https://compromis.net",
+   "url_programa_esperada": "https://compromis.net/",
+   "url_programa_2023": "https://28m.compromis.net/docs/LF_CAS_Final_ResumenProgramaElectoralCompromis.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Lista unitaria con EUPV y Podem en la Comunitat Valenciana (Moncloa.com, 18-10-2026). En 2023 usó subdominio de campaña (28m.compromis.net): probar 29n.compromis.net. En valenciano y castellano."
+  },
+  {
+   "id": "d21",
+   "prioridad": "C",
+   "url_web": "https://democracia21.es",
+   "url_programa_esperada": "https://democracia21.es/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Partido nuevo (presentado 10-10-2026) en coalición con Cs y UCIN. Ya tiene 4 propuestas 'programa-2026'. Un eventual programa de coalición puede publicarse en la web de Cs."
+  },
+  {
+   "id": "drago",
+   "prioridad": "C",
+   "url_web": "https://dragocanarias.org",
+   "url_programa_esperada": "https://dragocanarias.org/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Primera candidatura a generales en solitario. Fuentes actuales solo prensa canaria (RTVC, Diario de Avisos)."
+  },
+  {
+   "id": "existe",
+   "prioridad": "C",
+   "url_web": "https://teruelexiste.info",
+   "url_programa_esperada": "https://teruelexiste.info/wp-content/uploads/2026/",
+   "url_programa_2023": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Patrón WordPress verificado en 2023. En 2026 lidera una papeleta aragonesista en Huesca, Teruel y Zaragoza: el programa puede salir con otra marca y otra web."
+  },
+  {
+   "id": "falange",
+   "prioridad": "C",
+   "url_web": "https://falange.es",
+   "url_programa_esperada": "https://falange.es/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Recogiendo firmas. Sin programa de generales previo en la app; fuente actual: «Nuestras ideas». Confirmar que concurre en el BOE del 28-10."
+  },
+  {
+   "id": "feministas",
+   "prioridad": "C",
+   "url_web": "https://www.feministasalcongreso.es",
+   "url_programa_esperada": "https://www.feministasalcongreso.es/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Programa monotemático previsible. Confirmar circunscripciones en el BOE del 28-10."
+  },
+  {
+   "id": "frenteobrero",
+   "prioridad": "C",
+   "url_web": "https://frenteobrero.es",
+   "url_programa_esperada": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+   "url_programa_2023": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "publicado (2026-10)",
+   "programa_2026_publicado": true,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "YA PUBLICADO (10-2026) y volcado (59 propuestas 'programa-2026'). Solo vigilar si sale una versión nueva (comparar tamaño/fecha del PDF)."
+  },
+  {
+   "id": "geroabai",
+   "prioridad": "C",
+   "url_web": "https://geroabai.eus",
+   "url_programa_esperada": "https://geroabai.eus/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Solo Navarra. Fuente actual: programa foral 2023 en la web del Parlamento de Navarra."
+  },
+  {
+   "id": "iustitia",
+   "prioridad": "C",
+   "url_web": "https://iustitiaeuropa.es",
+   "url_programa_esperada": "https://iustitiaeuropa.es/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Ya presentó un «Contrato Electoral» (27-9-2026, ESdiario): localizar el documento original; si se publica como programa, pasar a 'programa-2026'."
+  },
+  {
+   "id": "mes",
+   "prioridad": "C",
+   "url_web": "https://www.mespermallorca.cat",
+   "url_programa_esperada": "https://www.mespermallorca.cat/",
+   "url_programa_2023": null,
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Concurre como coalición Ara Més–Front Ampli (VilaWeb, 19-10-2026): el programa puede estar en una web de coalición. En catalán."
+  },
+  {
+   "id": "pacma",
+   "prioridad": "C",
+   "url_web": "https://pacma.es",
+   "url_programa_esperada": "https://pacma.es/wp-content/uploads/2026/",
+   "url_programa_2023": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Patrón 2023 verificado (wp-content/uploads/AAAA/MM/PACMA_PE_...). Recogiendo firmas a 21-10-2026."
+  },
+  {
+   "id": "upc",
+   "prioridad": "C",
+   "url_web": "https://nuevacanarias.org",
+   "url_programa_esperada": "https://nuevacanarias.org/",
+   "url_programa_2023": "https://nuevacanarias.org/wp-content/uploads/2023/04/Programa_Electoral_2023.pdf",
+   "fecha_programa_2023": null,
+   "fecha_prevista_2026": "no anunciada a 21-10-2026",
+   "programa_2026_publicado": false,
+   "ultima_comprobacion": null,
+   "hash_ultimo_pdf": null,
+   "notas": "Unidad del Pueblo Canario = Podemos + NC + IU + Sumar en Canarias (RTVC, 15-10-2026). Probable web propia de coalición: buscar 'Unidad del Pueblo Canario programa'. Coherencia: si comparte programa con Frente Amplio o Podemos, enlazar en vez de duplicar."
+  }
+ ]
+}

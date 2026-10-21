@@ -1,0 +1,523 @@
+{
+ "id": "cc",
+ "nombre": "Coalición Canaria",
+ "siglas": "CC",
+ "concurre": true,
+ "candidato": "Cristina Valido (Santa Cruz de Tenerife); en Las Palmas encabeza Teodoro Sosa (Primero Canarias)",
+ "ideologia": "Nacionalismo canario de centro",
+ "ambito": "Canarias",
+ "color": "#FFD700",
+ "web": "https://coalicioncanaria.org/",
+ "escanos_2023": 1,
+ "resumen": "Partido nacionalista canario que gobierna Canarias con Fernando Clavijo y concurre al 29N en candidatura conjunta con Primero Canarias («Coalición Canaria–Primero Canarias» en Santa Cruz de Tenerife y «Primero Canarias–Coalición Canaria» en Las Palmas). Prioriza la Agenda Canaria: defensa del REF, financiación, vivienda, migración y transporte, buscando grupo propio en el Congreso.",
+ "fuentes_programa": [
+  {
+   "titulo": "Doce ejes para Madrid: acuerdo CC–Primero Canarias para el 29N",
+   "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+   "fecha": "2026-10-14"
+  },
+  {
+   "titulo": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 2023)",
+   "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+   "fecha": "2023-06"
+  },
+  {
+   "titulo": "Acuerdo PSOE-CC y Agenda Canaria",
+   "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+   "fecha": "2023-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "cc-viv-01",
+   "area": "vivienda",
+   "texto": "Financiación estatal para vivienda pública y asequible en Canarias y aprobación de una Ley de Residencia para Canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-ter-01",
+   "area": "territorio",
+   "texto": "Pleno desarrollo del Estatuto de Autonomía, incluidas las competencias sobre costas, puertos y aeropuertos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-ter-02",
+   "area": "territorio",
+   "texto": "Reconocimiento del hecho diferencial canario y de su condición de región ultraperiférica, también en una eventual reforma constitucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   }
+  },
+  {
+   "id": "cc-ter-03",
+   "area": "territorio",
+   "texto": "Lograr grupo parlamentario propio en el Congreso para negociar la Agenda Canaria con cualquier Gobierno.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 05-10-2026",
+    "url": "https://rtvc.es/coalicion-canaria-propone-cristina-valido-candidata-congreso-explora-coaliciones-las-palmas-5-octubre-2026/",
+    "fecha": "2026-10-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-eco-01",
+   "area": "economia",
+   "texto": "Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-eco-02",
+   "area": "economia",
+   "texto": "Nuevo sistema de financiación autonómica separado de los recursos del REF que pondere insularidad y pobreza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   }
+  },
+  {
+   "id": "cc-eco-03",
+   "area": "economia",
+   "texto": "Garantizar en los Presupuestos del Estado una inversión en Canarias al menos igual a la media estatal y renovar los convenios de infraestructuras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-deu-01",
+   "area": "deuda",
+   "texto": "Exigir el pago de 1.200 millones de euros en transferencias corrientes que el Estado adeuda a Canarias por la falta de Presupuestos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 25-05-2026",
+    "url": "https://rtvc.es/coalicion-canaria-da-por-finiquitada-la-legislatura-y-pide-elecciones-25-mayo-2026/",
+    "fecha": "2026-05-25"
+   }
+  },
+  {
+   "id": "cc-ins-01",
+   "area": "instituciones",
+   "texto": "Pedir a Sánchez una cuestión de confianza y, de no superarla, elecciones anticipadas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 25-05-2026",
+    "url": "https://rtvc.es/coalicion-canaria-da-por-finiquitada-la-legislatura-y-pide-elecciones-25-mayo-2026/",
+    "fecha": "2026-05-25"
+   }
+  },
+  {
+   "id": "cc-inm-01",
+   "area": "inmigracion",
+   "texto": "Gestión migratoria que active el cupo de solidaridad para que todas las comunidades acojan menores migrantes no acompañados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-inm-02",
+   "area": "inmigracion",
+   "texto": "Más coordinación y apoyo europeo en el rescate en el mar, especialmente en la ruta atlántica.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-inm-03",
+   "area": "inmigracion",
+   "texto": "Financiar plazas del Cuerpo General de la Policía Canaria equiparables a las del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-ext-01",
+   "area": "exterior",
+   "texto": "Presencia de las instituciones canarias en la política exterior que afecte al archipiélago, incluida la delimitación marítima con Marruecos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   }
+  },
+  {
+   "id": "cc-ext-02",
+   "area": "exterior",
+   "texto": "Promover Canarias como plataforma de cooperación y negocios con África Occidental.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-eco-04",
+   "area": "economia",
+   "texto": "Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-eco-05",
+   "area": "economia",
+   "texto": "Actualizar las ayudas al transporte de mercancías para que la cesta de la compra canaria no sea la más cara del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   }
+  },
+  {
+   "id": "cc-eco-06",
+   "area": "economia",
+   "texto": "Mantener la gratuidad de guaguas y tranvías e incluir los trenes de Gran Canaria y Tenerife en la red de ADIF.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-eco-07",
+   "area": "economia",
+   "texto": "Eximir a Canarias de la tasa europea de emisiones a los vuelos dentro del Espacio Económico Europeo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-rur-01",
+   "area": "rural",
+   "texto": "Mantener íntegramente el POSEI con el 100 % de la aportación estatal, los seguros agrarios y el transporte de mercancías agrícolas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-rur-02",
+   "area": "rural",
+   "texto": "Alcanzar al menos el 12 % de la cuota nacional de atún rojo para la flota canaria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-ene-01",
+   "area": "energia",
+   "texto": "Medidas específicas para acelerar la transición energética en sistemas insulares, con modelos como Gorona del Viento y Chira-Soria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-ene-02",
+   "area": "energia",
+   "texto": "Compensación anual en los Presupuestos para igualar el precio del agua desalada y regenerada con la media estatal.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   }
+  },
+  {
+   "id": "cc-emp-01",
+   "area": "empleo",
+   "texto": "Mantener el Plan Integral de Empleo de Canarias hasta igualar la media estatal y un plan de empleo para menores de 35 años.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   }
+  },
+  {
+   "id": "cc-emp-02",
+   "area": "empleo",
+   "texto": "Bonificaciones a la Seguridad Social para contratos indefinidos de jóvenes, mayores de 45 años y mujeres en ocupaciones subrepresentadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-san-01",
+   "area": "sanidad",
+   "texto": "Compensar en la financiación el sobrecoste sanitario de la insularidad y reforzar la partida estatal de salud mental.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-igu-01",
+   "area": "igualdad",
+   "texto": "Financiación del REF contra la pobreza cada año mientras Canarias supere la media estatal de pobreza.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   }
+  },
+  {
+   "id": "cc-igu-02",
+   "area": "igualdad",
+   "texto": "Que el Estado asuma el 50 % de la financiación de la dependencia con carácter finalista.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-igu-03",
+   "area": "igualdad",
+   "texto": "Aplicar el Convenio de Estambul y el Pacto de Estado contra la Violencia de Género con más presupuesto, y medidas contra la LGTBIfobia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-igu-04",
+   "area": "igualdad",
+   "texto": "Escudo social, redistribución de la renta e igualdad de oportunidades como ejes de la candidatura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   }
+  },
+  {
+   "id": "cc-edu-01",
+   "area": "educacion",
+   "texto": "Convenio plurianual de infraestructuras educativas de al menos 42 millones anuales y gratuidad de 0 a 3 años.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-edu-02",
+   "area": "educacion",
+   "texto": "Becas de estudio y desplazamiento para estudiantes canarios y desarrollo de la FP dual.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-dem-01",
+   "area": "demografia",
+   "texto": "Umbral de pobreza estatal común para el comedor escolar gratuito, elevando la cobertura del 13 % al 29 %, y ayudas a la crianza.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-pen-01",
+   "area": "pensiones",
+   "texto": "Pacto de Estado de pensiones con revalorización según el coste de la vida.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-tec-01",
+   "area": "tecnologia",
+   "texto": "Priorizar la I+D en astrofísica y espacio, ciencias marinas y biomedicina, y financiar un buque oceanográfico en Canarias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-cul-01",
+   "area": "cultura",
+   "texto": "Recuperar las ayudas a la movilidad de artistas extrapeninsulares y mantener los incentivos fiscales al rodaje en Canarias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  },
+  {
+   "id": "cc-tur-01",
+   "area": "economia",
+   "texto": "Prolongar la financiación de la estrategia de resiliencia turística de Canarias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Dependencia de transferencias",
+    "texto": "Fedea calcula que en Canarias las transferencias del sistema de financiación equivalen al 96 % de sus ingresos tributarios homogéneos, de los porcentajes más altos de España. Separar íntegramente los recursos del REF del cálculo de financiación reforzaría esa posición a costa de las comunidades aportantes.",
+    "sobre": [
+     "cc-eco-02",
+     "cc-eco-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Liquidación 2024 del sistema de financiación autonómica (2026)",
+     "url": "https://fedea.net/la-liquidacion-de-2024-del-sistema-de-financiacion-de-las-comunidades-autonomas-de-regimen-comun/"
+    }
+   },
+   {
+    "titulo": "Subvenciones al transporte y precios",
+    "texto": "Los descuentos porcentuales a residentes, sin tope de precio, pueden trasladarse en parte a mayores tarifas, de modo que una fracción de la ayuda acaba en las compañías y no en el viajero; su coste presupuestario crece con el precio del billete.",
+    "sobre": [
+     "cc-eco-04"
+    ],
+    "fuente": {
+     "nombre": "Argumento de incidencia económica de las subvenciones ad valorem"
+    }
+   },
+   {
+    "titulo": "Política de pacto bilateral",
+    "texto": "La estrategia de apoyar Gobiernos a cambio de compromisos territoriales concretos genera derechos difíciles de revertir y presión para extender ventajas a otras comunidades, lo que complica una reforma global del modelo de financiación.",
+    "sobre": [
+     "cc-ter-03",
+     "cc-eco-03"
+    ],
+    "fuente": {
+     "nombre": "Argumento de economía política del federalismo fiscal"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Ley de Residencia y libre circulación",
+    "texto": "Limitar el acceso a la vivienda o a la residencia en función del tiempo de empadronamiento chocaría con la libertad de residencia del art. 19 de la Constitución y con la libre circulación de ciudadanos de la UE, por lo que su alcance real es jurídicamente incierto.",
+    "sobre": [
+     "cc-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 19; Directiva 2004/38/CE",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Reparto de menores y capacidad de acogida",
+    "texto": "La redistribución obligatoria de menores migrantes depende de la capacidad y voluntad de otras comunidades; sin financiación suficiente y estable puede trasladar el problema sin mejorar la calidad de la atención a los menores.",
+    "sobre": [
+     "cc-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de política social; Ley Orgánica 1/1996 de Protección Jurídica del Menor"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Asimetría territorial",
+    "texto": "Reforzar un estatus diferencial con competencias exclusivas, cupos propios y presencia en política exterior acentúa la asimetría del modelo autonómico, lo que otras comunidades pueden percibir como un trato de privilegio.",
+    "sobre": [
+     "cc-ter-01",
+     "cc-ter-02",
+     "cc-ext-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de teoría del federalismo y equidad interterritorial"
+    }
+   },
+   {
+    "titulo": "Turismo y medio ambiente",
+    "texto": "Las propuestas priorizan sostener el modelo turístico y su conectividad aérea subvencionada, mientras organizaciones sociales canarias han reclamado límites a la presión turística sobre el territorio y la vivienda.",
+    "sobre": [
+     "cc-tur-01",
+     "cc-eco-04"
+    ],
+    "fuente": {
+     "nombre": "Argumento derivado de las movilizaciones «Canarias tiene un límite» (2024)"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

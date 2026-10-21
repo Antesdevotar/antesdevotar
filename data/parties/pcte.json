@@ -1,0 +1,687 @@
+{
+ "id": "pcte",
+ "nombre": "Partido Comunista de los Trabajadores de España",
+ "siglas": "PCTE",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar (secretario general: Ástor García)",
+ "ideologia": "Izquierda radical (comunista, marxista-leninista)",
+ "ambito": "Estatal",
+ "color": "#C8102E",
+ "color_aproximado": true,
+ "web": "https://www.pcte.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido marxista-leninista nacido en 2019 de una escisión del PCPE, que concurre para construir una «oposición obrera» independiente de los gobiernos y con el socialismo-comunismo como horizonte. Su programa prioriza la reducción de jornada sin pérdida salarial, el fin de la precariedad, la vivienda (prohibir desahucios y expropiar vivienda vacía de bancos y fondos) y la salida de la UE, del euro y de la OTAN.",
+ "fuentes_programa": [
+  {
+   "titulo": "Programa de lucha 2023-2027",
+   "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+   "fecha": "2023-07"
+  },
+  {
+   "titulo": "Resolución del Buró Político sobre las elecciones generales",
+   "url": "https://www.pcte.es/comunicados-centrales/el-pcte-estara-presente-en-las-elecciones-generales-resolucion-del-buro-politico-del-pcte/",
+   "fecha": "2026-10-07"
+  },
+  {
+   "titulo": "Declaración del Comité Central «Construir la oposición obrera frente al capital y sus gobiernos»",
+   "url": "https://www.pcte.es/comunicados-centrales/construir-la-oposicion-obrera-frente-al-capital-y-sus-gobiernos/",
+   "fecha": "2026-10-12"
+  },
+  {
+   "titulo": "Comunicado ante los decretos de vivienda",
+   "url": "https://www.pcte.es/comunicados-centrales/ante-la-votacion-de-los-decretos-de-vivienda-y-la-continuidad-de-la-movilizacion-popular/",
+   "fecha": "2026-10-02"
+  },
+  {
+   "titulo": "Manifiesto-Programa",
+   "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+   "fecha": "2022-09"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "PCTE, resolución del Buró Político (concurrirá «en el mayor número posible de circunscripciones»)",
+  "url": "https://www.pcte.es/comunicados-centrales/el-pcte-estara-presente-en-las-elecciones-generales-resolucion-del-buro-politico-del-pcte/",
+  "fecha": "2026-10-07"
+ },
+ "circunscripciones": [
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.07,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Resultados oficiales recopilados en Wikipedia, «2023 Spanish general election»",
+   "url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+  },
+  "nota": "18.218 votos al Congreso. En las europeas de 2024 obtuvo 15.281 votos (0,09 %)."
+ },
+ "propuestas": [
+  {
+   "id": "pcte-emp-01",
+   "area": "empleo",
+   "texto": "Reducir la jornada en todos los sectores sin pérdida salarial, con una semana máxima de 35 horas que se iría reduciendo progresivamente.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-emp-02",
+   "area": "empleo",
+   "texto": "Acabar con la precariedad y suprimir las modalidades de contratación flexible: empleo estable con plenos derechos laborales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-emp-03",
+   "area": "empleo",
+   "texto": "Prohibir las empresas de trabajo temporal (ETT).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-emp-04",
+   "area": "empleo",
+   "texto": "Poner «todas las barreras posibles» a los despidos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-emp-05",
+   "area": "empleo",
+   "texto": "Al menos cinco semanas de vacaciones pagadas al año.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-emp-06",
+   "area": "empleo",
+   "texto": "Combatir las «dobles y triples escalas salariales» y los contratos específicos para jóvenes, y «laboralizar» todas las prácticas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-emp-07",
+   "area": "empleo",
+   "texto": "Defender los salarios y unir la lucha por la vivienda a la salarial; llama a participar en la huelga general del 11 de noviembre.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PCTE, declaración del Comité Central «Construir la oposición obrera frente al capital y sus gobiernos»",
+    "url": "https://www.pcte.es/comunicados-centrales/construir-la-oposicion-obrera-frente-al-capital-y-sus-gobiernos/",
+    "fecha": "2026-10-12"
+   }
+  },
+  {
+   "id": "pcte-pen-01",
+   "area": "pensiones",
+   "texto": "Oponerse a cualquier subida de la edad de jubilación y defender su rebaja.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-eco-01",
+   "area": "economia",
+   "texto": "«Control obrero» de la industria y de los sectores estratégicos y socialización de los medios de producción, con el socialismo-comunismo como horizonte.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-eco-02",
+   "area": "economia",
+   "texto": "Rechazar la deslocalización de empresas y cualquier desmantelamiento o reestructuración de sectores estratégicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-ene-01",
+   "area": "energia",
+   "texto": "Empresas energéticas de propiedad estatal bajo «control obrero» y «soberanía energética», con acceso pleno a la energía para todos los hogares.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-rur-01",
+   "area": "rural",
+   "texto": "Precios mínimos garantizados para los productores y precios máximos para los consumidores.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-rur-02",
+   "area": "rural",
+   "texto": "Acabar con la Política Agrícola Común (PAC) y con el fraude en el sector.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-rur-03",
+   "area": "rural",
+   "texto": "Producción agrícola, ganadera y pesquera socializada y fin de los monopolios de la distribución.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-san-01",
+   "area": "sanidad",
+   "texto": "Expulsar a la empresa privada de la sanidad y de los servicios sociales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-san-02",
+   "area": "sanidad",
+   "texto": "Sistema sanitario único, público y gratuito, con atención preventiva y comunitaria, salud mental y atención dental completa.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-san-03",
+   "area": "sanidad",
+   "texto": "Ampliar plantillas y oponerse al cierre de servicios, sobre todo en zonas rurales y despobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-san-04",
+   "area": "sanidad",
+   "texto": "Cerrar las casas de apuestas y oponerse a la legalización de nuevas drogas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-edu-01",
+   "area": "educacion",
+   "texto": "Expulsar a la empresa privada de la educación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-edu-02",
+   "area": "educacion",
+   "texto": "Reconocer a las organizaciones estudiantiles el derecho a negociar y representar al alumnado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-viv-01",
+   "area": "vivienda",
+   "texto": "Prohibir los desahucios de familias trabajadoras y los cortes de suministros básicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-viv-02",
+   "area": "vivienda",
+   "texto": "«Expropiación sin indemnización» de las viviendas vacías de bancos y fondos de inversión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-viv-03",
+   "area": "vivienda",
+   "texto": "Tope «real y efectivo» a los alquileres.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-viv-04",
+   "area": "vivienda",
+   "texto": "Plan de redistribución de la vivienda vacía, rehabilitación del parque y construcción de nueva vivienda para las necesidades populares.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-viv-05",
+   "area": "vivienda",
+   "texto": "Que la estabilidad de la vivienda habitual prevalezca sobre la facultad del propietario de recuperarla, subir la renta o cambiar de inquilino; considera insuficientes los decretos de vivienda de 2026.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "PCTE, «Ante la votación de los decretos de vivienda y la continuidad de la movilización popular»",
+    "url": "https://www.pcte.es/comunicados-centrales/ante-la-votacion-de-los-decretos-de-vivienda-y-la-continuidad-de-la-movilizacion-popular/",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "pcte-igu-01",
+   "area": "igualdad",
+   "texto": "Plenos derechos sexuales y reproductivos y ampliación de los permisos de nacimiento y cuidado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-igu-02",
+   "area": "igualdad",
+   "texto": "Prohibir la prostitución, con inserción laboral y social de las mujeres afectadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-igu-03",
+   "area": "igualdad",
+   "texto": "Mantener ilegal la gestación subrogada.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-igu-04",
+   "area": "igualdad",
+   "texto": "Socializar el trabajo doméstico y de cuidados para que su acceso no dependa de la renta.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-igu-05",
+   "area": "igualdad",
+   "texto": "Plena igualdad salarial y laboral, y más medios para proteger a las víctimas de violencia de género y a sus hijos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-inm-01",
+   "area": "inmigracion",
+   "texto": "Cerrar los Centros de Internamiento de Extranjeros (CIE).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-inm-02",
+   "area": "inmigracion",
+   "texto": "Plenos derechos para todas las personas que viven y trabajan en España y para los refugiados.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-ext-01",
+   "area": "exterior",
+   "texto": "Salida unilateral de la Unión Europea y del euro.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-ext-02",
+   "area": "exterior",
+   "texto": "Salida unilateral de la OTAN y cierre de todas las bases militares extranjeras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pcte-ext-03",
+   "area": "exterior",
+   "texto": "Prohibir el tránsito de aviones y buques implicados en «agresiones imperialistas» y retirar las tropas de las «misiones imperialistas».",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-cul-01",
+   "area": "cultura",
+   "texto": "Romper el concordato con el Vaticano.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-cul-02",
+   "area": "cultura",
+   "texto": "Red pública de museos, bibliotecas, teatros, cines e instalaciones deportivas de acceso gratuito.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-tec-01",
+   "area": "tecnologia",
+   "texto": "Más financiación pública de la investigación y fin de los «monopolios» de las editoriales científicas y del modelo de transferencia universidad-empresa.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-ins-01",
+   "area": "instituciones",
+   "texto": "Regular la revocación de todos los cargos electos en todos los niveles y su rendición de cuentas ante órganos representativos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "pcte-ins-02",
+   "area": "instituciones",
+   "texto": "Radio y televisión públicas bajo control de sus trabajadores, y control de los servicios públicos por trabajadores y usuarios.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "PCTE, «Programa de lucha 2023-2027»",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "fecha": "2023-07"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Salida unilateral de la UE y del euro",
+    "texto": "Abandonar el euro obligaría a redenominar deuda, depósitos y contratos, con riesgo de devaluación y fuga de capitales, y salir de la UE supondría perder el mercado único y la PAC, de la que depende buena parte de la renta agraria. La experiencia británica, sin cambio de moneda, apunta a una caída a largo plazo de la productividad del 4 % y del comercio en torno al 15 %.",
+    "sobre": [
+     "pcte-ext-01",
+     "pcte-rur-02"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   },
+   {
+    "titulo": "Topes al alquiler y estabilidad por encima del propietario",
+    "texto": "La evidencia sobre la Ley de Vivienda de 2023 apunta a que los controles y las prórrogas reducen la oferta de alquiler habitual y la desplazan hacia otros usos. Un tope general y la prevalencia indefinida del inquilino podrían agravar la escasez para quien busca piso por primera vez.",
+    "sobre": [
+     "pcte-viv-03",
+     "pcte-viv-05"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «La Ley 12/2023 por el derecho a la vivienda: un primer balance empírico» (Fernando Pinto, 2026)",
+     "url": "https://fedea.net/la-ley-12-2023-por-el-derecho-a-la-vivienda-un-primer-balance-empirico/"
+    }
+   },
+   {
+    "titulo": "Rebajar la edad de jubilación",
+    "texto": "El sistema de pensiones ya presenta un desequilibrio actuarial y el gasto crecerá con la jubilación del baby boom. Rebajar la edad de jubilación aumentaría el número de pensionistas y reduciría el de cotizantes, sin que el partido explique cómo se financiaría.",
+    "sobre": [
+     "pcte-pen-01"
+    ],
+    "fuente": {
+     "nombre": "Devesa et al., Fedea, Una visión actuarial del sistema de pensiones (2025)",
+     "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
+    }
+   },
+   {
+    "titulo": "35 horas, sin ETT y con barreras al despido",
+    "texto": "Reducir la jornada por ley sin ganancias de productividad eleva el coste por hora, con más impacto en pymes y sectores intensivos en mano de obra. Combinado con la prohibición de las ETT y más barreras al despido, puede frenar la contratación de quienes tienen menos experiencia.",
+    "sobre": [
+     "pcte-emp-01",
+     "pcte-emp-03",
+     "pcte-emp-04"
+    ],
+    "fuente": {
+     "nombre": "Fedea, ¿Cómo reducir la jornada laboral? (2024)",
+     "url": "https://fedea.net/como-reducir-la-jornada-laboral/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Prohibir desahucios sin alternativa",
+    "texto": "Prohibir los desahucios de familias trabajadoras sin un parque público que las realoje traslada el coste a los propietarios, incluidos pequeños arrendadores, y puede endurecer los requisitos para alquilar a hogares con menos ingresos.",
+    "sobre": [
+     "pcte-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Proteger al inquilino de hoy puede excluir al de mañana",
+     "url": "https://fedea.net/proteger-al-inquilino-de-hoy-puede-excluir-al-de-manana/"
+    }
+   },
+   {
+    "titulo": "Sacar a la iniciativa privada de educación y sanidad",
+    "texto": "Expulsar a la empresa privada de la educación y la sanidad afectaría a los centros concertados y a los servicios externalizados de los que hoy dependen muchas familias y pacientes, y el partido no explica con qué plazas, plantillas y presupuesto se absorbería ese volumen. En 2019 llegó a proponer nacionalizar los centros privados.",
+    "sobre": [
+     "pcte-edu-01",
+     "pcte-san-01"
+    ],
+    "fuente": {
+     "nombre": "PCTE, Programa electoral 10N (2019)",
+     "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2020/04/30170100/Programa_electoral_PCTE_10N.pdf"
+    }
+   },
+   {
+    "titulo": "Prohibir la prostitución",
+    "texto": "El modelo abolicionista es legítimo y el TEDH lo ha avalado, pero organizaciones de trabajadoras sexuales sostienen que penalizar la demanda empuja la actividad a la clandestinidad y aumenta los riesgos para quienes la ejercen.",
+    "sobre": [
+     "pcte-igu-02"
+    ],
+    "fuente": {
+     "nombre": "Debate recogido en TEDH, M.A. y otros c. Francia (2024)",
+     "url": "https://www.jurist.org/news/2024/07/european-court-rules-criminalization-of-prostitution-in-france-not-a-violation-of-the-right-to-private-life/"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Salida de la OTAN y cierre de bases",
+    "texto": "Salir de la OTAN y cerrar las bases de Rota y Morón dejaría a España fuera de la defensa colectiva en un contexto de guerra en Europa, una opción que no respalda la mayoría de la opinión pública según los barómetros del Real Instituto Elcano.",
+    "sobre": [
+     "pcte-ext-02"
+    ],
+    "fuente": {
+     "nombre": "Real Instituto Elcano, Barómetro",
+     "url": "https://www.realinstitutoelcano.org/barometro/"
+    }
+   },
+   {
+    "titulo": "Un horizonte de partido de vanguardia",
+    "texto": "Su Manifiesto-Programa presenta el «poder obrero» como forma superior de democracia, al partido como «instrumento dirigente» de la revolución y la división de poderes como una «ilusión burguesa», sin aclarar qué lugar tendrían el pluralismo de partidos y los contrapesos institucionales en el sistema que propone.",
+    "sobre": [
+     "pcte-eco-01"
+    ],
+    "fuente": {
+     "nombre": "PCTE, Manifiesto-Programa",
+     "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+     "fecha": "2022-09"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Preocupaciones serias, sin choques frontales: expropiar viviendas sin indemnización, revocar a cualquier cargo electo (también a los parlamentarios) y expulsar la iniciativa privada de la educación chocan con doctrina reiterada. Su horizonte socialista es un proyecto legítimo si se persigue por vías pacíficas y por la reforma constitucional (STC 48/2003, STC 42/2014), y salir de la UE, del euro y de la OTAN son opciones políticas legítimas. Su programa no contiene medidas que restrinjan derechos por nacionalidad, origen o religión.",
+  "criticas": [
+   {
+    "titulo": "Expropiación sin indemnización",
+    "texto": "La Constitución solo permite expropiar con la correspondiente indemnización. Según la doctrina reiterada del TEDH, privar de un bien sin pagar una cantidad razonablemente relacionada con su valor es normalmente desproporcionado, y la ausencia total de compensación solo se justifica en circunstancias excepcionales.",
+    "gravedad": "media",
+    "criterio": "Art. 33.3 CE; CEDH, Protocolo 1, art. 1; TEDH, Los Santos Monasterios c. Grecia (1994) y Ex rey de Grecia c. Grecia (Gran Sala, 2000)",
+    "sobre": [
+     "pcte-viv-02"
+    ],
+    "fuente": {
+     "nombre": "TEDH, Guía sobre el artículo 1 del Protocolo n.º 1 (protección de la propiedad)",
+     "url": "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_1_protocol_1_eng"
+    }
+   },
+   {
+    "titulo": "Revocación de todos los cargos electos",
+    "texto": "La Constitución prohíbe el mandato imperativo: el escaño pertenece al representante y no puede retirarse por su actuación política. La Comisión de Venecia considera incompatibles con el mandato libre los mecanismos que permiten revocar a un parlamentario nacional. Es el mismo test aplicado al «Contrato Electoral» de Iustitia Europa.",
+    "gravedad": "media",
+    "criterio": "Art. 67.2 CE; STC 10/1983; Comisión de Venecia, CDL-AD(2009)027",
+    "sobre": [
+     "pcte-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Comisión de Venecia, informe sobre el mandato imperativo CDL-AD(2009)027",
+     "url": "https://www.venice.coe.int/webforms/documents/?pdf=CDL-AD(2009)027-e"
+    }
+   },
+   {
+    "titulo": "Expulsar a la iniciativa privada de la educación",
+    "texto": "Suprimir los conciertos es una opción política legítima, pero la libertad de enseñanza incluye el derecho a crear centros docentes privados, un derecho fundamental según el TC desde 1981. Si «expulsar a la empresa privada» supone cerrar o nacionalizar esos centros, como proponía su programa de 2019, chocaría con ese derecho.",
+    "gravedad": "media",
+    "criterio": "Arts. 27.1 y 27.6 CE; STC 5/1981; CEDH, Protocolo 1, art. 2",
+    "sobre": [
+     "pcte-edu-01"
+    ],
+    "fuente": {
+     "nombre": "STC 5/1981 (Tribunal Constitucional)",
+     "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/5"
+    }
+   },
+   {
+    "titulo": "Socialización de los medios de producción",
+    "texto": "La socialización general de los medios de producción y el «control obrero» de las empresas exigirían reformar la Constitución, que reconoce la propiedad privada y la libertad de empresa, aunque admite reservar al sector público recursos o servicios esenciales. Es un proyecto legítimo por el art. 168 CE, pero el CEDH seguiría exigiendo indemnizar las privaciones de propiedad.",
+    "gravedad": "baja",
+    "criterio": "Arts. 33, 38, 128 y 168 CE; STC 48/2003; STC 42/2014; CEDH, Protocolo 1, art. 1",
+    "sobre": [
+     "pcte-eco-01",
+     "pcte-ene-01"
+    ],
+    "fuente": {
+     "nombre": "STC 48/2003 (BOE, Tribunal Constitucional)",
+     "url": "https://hj.tribunalconstitucional.es/HJ/docs/BOE/BOE-T-2003-5300.pdf"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

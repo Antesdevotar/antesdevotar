@@ -1,0 +1,2183 @@
+{
+ "intro": "Responde a 24 afirmaciones sobre los grandes debates de estas elecciones y compara tus respuestas con lo que cada partido ha propuesto o hecho. Puedes saltarte las que no tengas claras.",
+ "aviso": "Esto no te dice a quién votar: te dice en qué coincides con lo que cada partido ha escrito o hecho.",
+ "metodo": "Las afirmaciones se eligieron porque separan a los partidos, no porque todos estén de acuerdo; la mitad están redactadas de modo que «de acuerdo» es la respuesta típica de la izquierda y la otra mitad de la derecha, e incluyen el eje centralización/autogobierno. La posición de cada partido (de acuerdo, matizada o en desacuerdo) se asigna solo a partir de propuestas de su programa, declaraciones o votaciones recopiladas en esta app, y cada una enlaza a la propuesta que la justifica; si no hay propuesta localizada, el partido queda sin posición y esa afirmación no cuenta para él. Para cada afirmación, coincidir del todo suma 1 punto, la distancia de un paso (por ejemplo, tú de acuerdo y el partido matizado) suma medio y la opuesta 0; el porcentaje de cada partido es la media sobre las afirmaciones en las que ambos tenéis posición, y se muestra cuántas son.",
+ "afirmaciones": [
+  {
+   "id": "t01",
+   "area": "vivienda",
+   "texto": "El Estado debería poder limitar el precio del alquiler en las zonas donde más ha subido.",
+   "contexto": "La Ley de Vivienda de 2023 permite declarar zonas tensionadas con topes al alquiler; se discute si eso abarata la vivienda o reduce la oferta.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-viv-08"
+     ],
+     "nota": "Propone eliminar la declaración de zonas tensionadas y sus topes al alquiler."
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-viv-03"
+     ],
+     "nota": "Propone prohibir subir el alquiler por encima del índice de referencia y limitar la subida al 2% hasta 2027."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-viv-01"
+     ],
+     "nota": "Propone derogar la Ley de Vivienda, incluido el control de precios en zonas tensionadas."
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-viv-04"
+     ],
+     "nota": "Propone fijar en zonas tensionadas un precio de referencia ligado al 30% de la renta de los inquilinos."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-viv-01"
+     ],
+     "nota": "Propone bajar por ley un 40% los alquileres renovados y fijar los nuevos por debajo del índice."
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-viv-01"
+     ],
+     "nota": "Propone desplegar la limitación de los precios del alquiler."
+    },
+    "salf": {
+     "valor": -1,
+     "ref": [
+      "salf-viv-05"
+     ],
+     "nota": "Rechaza los topes de precio del alquiler."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-viv-03"
+     ],
+     "nota": "Propone declarar toda la CAV zona tensionada con control permanente de precios."
+    },
+    "pnv": {
+     "valor": 0,
+     "ref": [
+      "pnv-viv-01"
+     ],
+     "nota": "Critica los efectos de la Ley de Vivienda de 2023 sobre el alquiler, sin pronunciarse expresamente sobre los topes."
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": 1,
+     "ref": [
+      "aa-viv-01"
+     ],
+     "nota": "Propone limitar por ley el alquiler al 20% del salario medio de cada zona."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": -1,
+     "ref": [
+      "upn-viv-01"
+     ],
+     "nota": "Propone derogar la Ley estatal de Vivienda, que es la que habilita los topes en zonas tensionadas."
+    }
+   }
+  },
+  {
+   "id": "t02",
+   "area": "vivienda",
+   "texto": "La ley debería permitir desalojar a quien ocupe ilegalmente una vivienda en un plazo máximo de 48 horas.",
+   "contexto": "Hoy el desalojo de una vivienda ocupada sin título suele requerir un procedimiento judicial que puede durar meses.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-viv-09"
+     ],
+     "nota": "Propone una ley para desalojar a los ocupantes ilegales en 48 horas."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-viv-06"
+     ],
+     "nota": "Propone el desalojo policial de ocupantes ilegales en 24 horas."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": 1,
+     "ref": [
+      "salf-viv-03"
+     ],
+     "nota": "Propone una ley con desalojo policial en 24 horas."
+    },
+    "junts": {
+     "valor": 1,
+     "ref": [
+      "junts-seg-01"
+     ],
+     "nota": "Propone reformar la Ley de Enjuiciamiento Criminal para desalojar en 48 horas a quien no acredite título."
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Propone luchar contra la ocupación ilegal, pero sin concretar plazos de desalojo."
+    }
+   }
+  },
+  {
+   "id": "t03",
+   "area": "empleo",
+   "texto": "La jornada laboral máxima debería reducirse por ley sin rebajar el sueldo.",
+   "contexto": "La jornada máxima legal es de 40 horas semanales; en 2025 el Congreso rechazó bajarla a 37,5.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-emp-04"
+     ],
+     "nota": "Promovió reducir la jornada máxima legal a 37,5 horas sin rebaja salarial."
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-emp-01",
+      "sumar-emp-02"
+     ],
+     "nota": "Propone 37,5 horas sin rebaja salarial y avanzar después a 32 horas."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-emp-02"
+     ],
+     "nota": "Propone reducir la jornada sin rebaja salarial hasta 30 horas semanales."
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-emp-01"
+     ],
+     "nota": "Propone avanzar hacia la semana laboral de cuatro días (no detalla el efecto sobre el salario)."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": 0,
+     "ref": [
+      "junts-emp-01"
+     ],
+     "nota": "Votó en contra de las 37,5 horas por falta de diálogo social, pero pide una propuesta gradual."
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-emp-02"
+     ],
+     "nota": "Propone una jornada de 32 horas sin pérdida salarial."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-emp-02"
+     ],
+     "nota": "Propone una jornada máxima de 35 horas sin reducción salarial."
+    },
+    "aa": {
+     "valor": 1,
+     "ref": [
+      "aa-emp-01"
+     ],
+     "nota": "Propone la semana de 32 horas sin reducción de sueldo."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t04",
+   "area": "empleo",
+   "texto": "Cobrar el Ingreso Mínimo Vital debería estar condicionado a buscar empleo de forma activa.",
+   "contexto": "El Ingreso Mínimo Vital es una prestación para hogares sin recursos; se debate si debe exigir contrapartidas laborales o tender a ser incondicional.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-inm-06"
+     ],
+     "nota": "Propone vincular el Ingreso Mínimo Vital a la búsqueda activa de empleo."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-pen-03"
+     ],
+     "nota": "Propone ampliar el Ingreso Mínimo Vital como paso hacia una renta básica incondicional."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t05",
+   "area": "economia",
+   "texto": "Deberían eliminarse los impuestos que gravan los grandes patrimonios.",
+   "contexto": "España tiene el Impuesto sobre el Patrimonio (cedido a las CCAA) y un impuesto estatal temporal a las grandes fortunas.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-eco-08"
+     ],
+     "nota": "Propone suprimir el Impuesto Temporal de Solidaridad de las Grandes Fortunas."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-eco-07"
+     ],
+     "nota": "Propone suprimir el Impuesto de Patrimonio en toda España."
+    },
+    "sumar": {
+     "valor": -1,
+     "ref": [
+      "sumar-eco-01"
+     ],
+     "nota": "Propone un impuesto permanente a las grandes fortunas de al menos el 4%."
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-eco-01"
+     ],
+     "nota": "Propone un impuesto a los grandes patrimonios."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": 1,
+     "ref": [
+      "salf-eco-03"
+     ],
+     "nota": "Propone suprimir el impuesto de patrimonio."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": -1,
+     "ref": [
+      "bildu-eco-01"
+     ],
+     "nota": "Propone hacer permanente el impuesto a las grandes fortunas."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": -1,
+     "ref": [
+      "bng-eco-07"
+     ],
+     "nota": "Propone mantener y reforzar el gravamen a las grandes fortunas."
+    },
+    "aa": {
+     "valor": -1,
+     "ref": [
+      "aa-eco-02"
+     ],
+     "nota": "Propone un impuesto a grandes fortunas y grandes propiedades."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t06",
+   "area": "economia",
+   "texto": "Las rentas más altas, también las procedentes del capital, deberían pagar más IRPF que ahora.",
+   "contexto": "El tipo máximo del IRPF sobre el trabajo ronda el 45-54% según la comunidad y el del ahorro llega al 30%; se discute si subirlos o bajar la tarifa.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-eco-01"
+     ],
+     "nota": "Propone rebajar impuestos y revisar una a una las subidas fiscales de los últimos años."
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-eco-01"
+     ],
+     "nota": "Propone un tipo del 50% para rentas de más de 300.000 euros."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-eco-01"
+     ],
+     "nota": "Propone un IRPF estatal con solo dos tipos, el más alto del 25%."
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-eco-04",
+      "sumar-eco-05"
+     ],
+     "nota": "Propone nuevos tramos desde 120.000 euros, un tipo máximo del 52% y un mínimo del 30% para grandes rentas del ahorro."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-eco-03"
+     ],
+     "nota": "Propone igualar la tributación en el IRPF de las rentas del capital con las del trabajo."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-eco-03"
+     ],
+     "nota": "Propone un IRPF más progresivo y que el capital tribute más que el trabajo."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t07",
+   "area": "pensiones",
+   "texto": "Además de la pensión pública, el sistema debería incluir un componente de ahorro privado o de empresa (capitalización).",
+   "contexto": "Las pensiones españolas se pagan casi solo por reparto (las cotizaciones de hoy pagan las pensiones de hoy); algunos proponen sumar ahorro acumulado.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-pen-06"
+     ],
+     "nota": "Propone impulsar los planes de pensiones de empleo junto a la hucha pública."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-pen-01"
+     ],
+     "nota": "Propone añadir un componente de capitalización individual al sistema de reparto."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-pen-02"
+     ],
+     "nota": "Propone blindar el carácter público del sistema e impedir la entrada de banca y fondos."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t08",
+   "area": "sanidad",
+   "texto": "La sanidad pública debería gestionarse solo con medios públicos, sin conciertos ni gestión privada.",
+   "contexto": "La Ley 15/1997 permite que servicios de la sanidad pública los gestionen empresas privadas o se concierten con clínicas.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 0,
+     "ref": [
+      "psoe-san-03"
+     ],
+     "nota": "Propone reforzar la gestión pública y evitar nuevos copagos, sin plantear eliminar los conciertos."
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-san-01"
+     ],
+     "nota": "Propone derogar la Ley 15/1997 y priorizar la gestión pública directa."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-san-01"
+     ],
+     "nota": "Propone derogar la Ley 15/1997 y prohibir la gestión privada de la sanidad pública."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": -1,
+     "ref": [
+      "salf-san-01"
+     ],
+     "nota": "Propone conciertos con clínicas privadas para cumplir plazos máximos de espera."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-san-02"
+     ],
+     "nota": "Propone derogar la Ley 15/1997, que permite la gestión privada."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-san-01"
+     ],
+     "nota": "Propone una gestión exclusivamente pública."
+    },
+    "aa": {
+     "valor": 1,
+     "ref": [
+      "aa-san-01"
+     ],
+     "nota": "Propone eliminar los conciertos y las externalizaciones sanitarias."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t09",
+   "area": "educacion",
+   "texto": "Debería garantizarse que cualquier alumno pueda estudiar en castellano en todas las comunidades autónomas.",
+   "contexto": "En comunidades con lengua cooficial, cada una decide el modelo lingüístico escolar; en Cataluña la lengua vehicular es el catalán.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-cul-01"
+     ],
+     "nota": "Propone garantizar la enseñanza en castellano en toda España, junto a las lenguas cooficiales."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-edu-02"
+     ],
+     "nota": "Propone garantizar el derecho a ser educado en español en todo el territorio."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": -1,
+     "ref": [
+      "erc-cul-04"
+     ],
+     "nota": "Propone consolidar la inmersión lingüística en catalán en la escuela."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t10",
+   "area": "deuda",
+   "texto": "Las reglas europeas que limitan el déficit y la deuda deberían flexibilizarse para permitir más inversión pública.",
+   "contexto": "La UE fija como referencia un déficit máximo del 3% y una deuda del 60% del PIB; España supera el segundo límite.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-deu-02"
+     ],
+     "nota": "Propone reducir déficit y deuda según las reglas europeas, ganando peso la inversión."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-deu-01"
+     ],
+     "nota": "Propone eliminar progresivamente el déficit y la deuda."
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-deu-01"
+     ],
+     "nota": "Propone reformar las reglas fiscales europeas para superar los límites del 3% y el 60%."
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": -1,
+     "ref": [
+      "salf-deu-04"
+     ],
+     "nota": "Propone ligar parte del sueldo de los gobernantes a no aumentar el déficit ni la deuda."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-deu-02"
+     ],
+     "nota": "Rechaza las reglas fiscales europeas que limiten la inversión pública."
+    },
+    "pnv": {
+     "valor": 1,
+     "ref": [
+      "pnv-deu-02"
+     ],
+     "nota": "Propone excluir de las reglas de gasto la inversión en transición ecológica y digital."
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t11",
+   "area": "deuda",
+   "texto": "El Estado debería asumir parte de la deuda que las comunidades autónomas tienen con él.",
+   "contexto": "Las CCAA deben al Estado más de 80.000 millones por los fondos de liquidez; el Gobierno propuso condonar una parte.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-deu-01"
+     ],
+     "nota": "Propuso condonar 83.252 millones de deuda autonómica asumiéndola el Estado."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-deu-04"
+     ],
+     "nota": "Se opone a la condonación de deuda autonómica."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-deu-01"
+     ],
+     "nota": "Propone condonar unos 15.000 millones de deuda de la Generalitat, ampliable a otras comunidades."
+    },
+    "salf": {
+     "valor": -1,
+     "ref": [
+      "salf-deu-05"
+     ],
+     "nota": "Propone no condonar deuda autonómica salvo catástrofe."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t12",
+   "area": "inmigracion",
+   "texto": "Deberían prohibirse por ley las regularizaciones extraordinarias de inmigrantes en situación irregular.",
+   "contexto": "En 2026 se aprobó una regularización extraordinaria para inmigrantes que estuvieran en España antes de 2026.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-inm-03"
+     ],
+     "nota": "Propone acabar con las regularizaciones generalizadas y prohibirlas por ley."
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-inm-01"
+     ],
+     "nota": "Defiende mantener la regularización extraordinaria en curso."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-inm-01",
+      "vox-inm-08"
+     ],
+     "nota": "Propone que ningún inmigrante irregular pueda regularizarse y recurrir la de 2026."
+    },
+    "sumar": {
+     "valor": -1,
+     "ref": [
+      "sumar-inm-01",
+      "sumar-inm-02"
+     ],
+     "nota": "Impulsó la regularización de 2026 y propone un mecanismo permanente."
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-inm-01"
+     ],
+     "nota": "Propone regularizar a quienes viven y trabajan en España."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Propone deportaciones, pero no se pronuncia expresamente sobre prohibir regularizaciones"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t13",
+   "area": "inmigracion",
+   "texto": "Los Centros de Internamiento de Extranjeros (CIE) deberían cerrarse.",
+   "contexto": "Los CIE retienen hasta 60 días a extranjeros en situación irregular pendientes de expulsión.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-inm-07"
+     ],
+     "nota": "Propone ampliar el tiempo máximo de internamiento en los CIE."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-inm-03"
+     ],
+     "nota": "Propone cerrar los CIE."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-inm-02"
+     ],
+     "nota": "Propone cerrar los CIE y derogar la Ley de Extranjería."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": 0,
+     "ref": [
+      "junts-inm-04"
+     ],
+     "nota": "Propone replantear de forma integral los CIE, sin pedir su cierre."
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": 0,
+     "ref": [
+      "pnv-inm-03"
+     ],
+     "nota": "Propone alternativas a la privación de libertad en los CIE, sin pedir su cierre."
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-inm-01"
+     ],
+     "nota": "Propone cerrar los CIE y acabar con las deportaciones."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t14",
+   "area": "energia",
+   "texto": "Las centrales nucleares deberían seguir funcionando más allá del calendario de cierre aprobado.",
+   "contexto": "El calendario vigente prevé cerrar las centrales nucleares españolas entre 2027 y 2035.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-ene-01"
+     ],
+     "nota": "Propone cancelar el calendario de cierre y que sigan operando más allá de 2030."
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-ene-02"
+     ],
+     "nota": "Defiende mantener el cierre escalonado hasta 2035."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-ene-04"
+     ],
+     "nota": "Propone alargar la vida de las centrales nucleares."
+    },
+    "sumar": {
+     "valor": -1,
+     "ref": [
+      "sumar-ene-01"
+     ],
+     "nota": "Propone cerrar todas las nucleares en 2035 y una moratoria nuclear."
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-ene-03"
+     ],
+     "nota": "Propone abandonar la energía nuclear."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": 1,
+     "ref": [
+      "salf-ene-01"
+     ],
+     "nota": "Propone paralizar el cierre de las centrales nucleares."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t15",
+   "area": "energia",
+   "texto": "Debería crearse una empresa pública de energía.",
+   "contexto": "La producción y venta de electricidad en España está hoy en manos de empresas privadas.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-ene-04"
+     ],
+     "nota": "Propone una empresa pública de energía con las hidroeléctricas cuyas concesiones venzan."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-ene-02"
+     ],
+     "nota": "Propone crear una empresa pública de energía."
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-ene-02"
+     ],
+     "nota": "Propone consolidar la empresa pública de energía de la Generalitat."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-ene-03"
+     ],
+     "nota": "Propone comercializadoras eléctricas públicas en todas las administraciones."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-ene-04"
+     ],
+     "nota": "Propone una empresa pública gallega de energía con las concesiones de embalses."
+    },
+    "aa": {
+     "valor": 1,
+     "ref": [
+      "aa-eco-04"
+     ],
+     "nota": "Propone una empresa pública andaluza de energía renovable."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t16",
+   "area": "territorio",
+   "texto": "Debería permitirse un referéndum de autodeterminación en las comunidades autónomas que lo pidan.",
+   "contexto": "La Constitución no prevé referendos de independencia de una parte del territorio; algunos partidos piden reconocer ese derecho.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-ins-07"
+     ],
+     "nota": "Propone tipificar como delito la convocatoria de un referéndum ilegal."
+    },
+    "psoe": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-ins-02",
+      "vox-ter-04"
+     ],
+     "nota": "Propone recuperar el delito de referéndum ilegal e ilegalizar partidos que busquen romper la unidad territorial."
+    },
+    "sumar": {
+     "valor": 0,
+     "ref": [
+      "sumar-ter-03"
+     ],
+     "nota": "Propone que un acuerdo para Cataluña se someta a votación de la ciudadanía catalana, sin hablar de autodeterminación."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-ter-01"
+     ],
+     "nota": "Propone reconocer el derecho a decidir de los pueblos."
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-ter-01"
+     ],
+     "nota": "Propone un referéndum de autodeterminación pactado con el Estado."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": 1,
+     "ref": [
+      "junts-ter-01"
+     ],
+     "nota": "Exige reconocer el derecho a la autodeterminación de Cataluña."
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-ter-02"
+     ],
+     "nota": "Propone reconocer el derecho a decidir de la ciudadanía vasca."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-ter-01"
+     ],
+     "nota": "Propone reconocer el derecho de autodeterminación de Galicia."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t17",
+   "area": "territorio",
+   "texto": "El Estado debería recuperar competencias que hoy gestionan las comunidades autónomas, como la sanidad o la educación.",
+   "contexto": "Sanidad y educación están transferidas a las comunidades autónomas; se discute si centralizar o ampliar el autogobierno.",
+   "posiciones": {
+    "pp": {
+     "valor": 0,
+     "ref": [
+      "pp-san-07",
+      "pp-edu-04"
+     ],
+     "nota": "Propone elementos comunes en toda España (tarjeta sanitaria única, EBAU común) sin plantear devolver competencias al Estado."
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-ter-02"
+     ],
+     "nota": "Propone avanzar hacia un modelo federal, en dirección opuesta a recentralizar."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-ter-01"
+     ],
+     "nota": "Propone un Estado unitario que recupere Educación, Sanidad, Seguridad y Justicia."
+    },
+    "sumar": {
+     "valor": -1,
+     "ref": [
+      "sumar-ter-01"
+     ],
+     "nota": "Propone reconocer un Estado plurinacional y un nuevo pacto territorial."
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-ter-01"
+     ],
+     "nota": "Propone una república plurinacional y confederal."
+    },
+    "erc": {
+     "valor": -1,
+     "ref": [
+      "erc-ter-09",
+      "erc-ter-12"
+     ],
+     "nota": "Reclama nuevos traspasos a la Generalitat, como Rodalies o el Ingreso Mínimo Vital."
+    },
+    "salf": {
+     "valor": 0,
+     "ref": [
+      "salf-edu-01"
+     ],
+     "nota": "Propone un currículo escolar único para toda España, sin plantear devolver al Estado la gestión de sanidad o educación."
+    },
+    "junts": {
+     "valor": -1,
+     "ref": [
+      "junts-ter-09"
+     ],
+     "nota": "Reclama recuperar competencias para la Generalitat."
+    },
+    "bildu": {
+     "valor": -1,
+     "ref": [
+      "bildu-ter-05"
+     ],
+     "nota": "Reclama transferir todas las competencias pendientes a la CAV y Navarra."
+    },
+    "pnv": {
+     "valor": -1,
+     "ref": [
+      "pnv-ter-05"
+     ],
+     "nota": "Defiende el Estatuto de Gernika frente a la recentralización."
+    },
+    "bng": {
+     "valor": -1,
+     "ref": [
+      "bng-edu-01"
+     ],
+     "nota": "Propone una Ley gallega de Educación con todas las competencias."
+    },
+    "aa": {
+     "valor": -1,
+     "ref": [
+      "aa-ter-03"
+     ],
+     "nota": "Reclama para Andalucía las competencias ferroviarias del Estatuto."
+    },
+    "cc": {
+     "valor": -1,
+     "ref": [
+      "cc-ter-01"
+     ],
+     "nota": "Reclama el pleno desarrollo del Estatuto canario y más competencias."
+    },
+    "upn": {
+     "valor": -1,
+     "ref": [
+      "upn-ter-03"
+     ],
+     "nota": "Defiende las competencias exclusivas de Navarra frente a leyes estatales."
+    }
+   }
+  },
+  {
+   "id": "t18",
+   "area": "instituciones",
+   "texto": "La Ley de Amnistía para los encausados por el procés debe mantenerse.",
+   "contexto": "La Ley de Amnistía de 2024 extinguió responsabilidades penales ligadas al proceso independentista catalán.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-ins-06"
+     ],
+     "nota": "Propone derogar la Ley de Amnistía."
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-ins-01"
+     ],
+     "nota": "Defiende mantener la Ley de Amnistía."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-ins-02"
+     ],
+     "nota": "Propone derogar la Ley de Amnistía."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-ins-01"
+     ],
+     "nota": "Impulsó la ley de amnistía para los encausados por el procés."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": 1,
+     "ref": [
+      "junts-ins-01"
+     ],
+     "nota": "Defiende la amnistía y su aplicación completa, incluido Puigdemont."
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t19",
+   "area": "instituciones",
+   "texto": "Debería derogarse la Ley de Memoria Democrática.",
+   "contexto": "La Ley de Memoria Democrática de 2022 regula la reparación a víctimas de la Guerra Civil y el franquismo y la retirada de símbolos.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-cul-03"
+     ],
+     "nota": "Propone derogar la Ley de Memoria Democrática."
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-cul-01"
+     ],
+     "nota": "Defiende la memoria democrática como política de Estado."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-cul-01"
+     ],
+     "nota": "Propone derogar la Ley de Memoria Democrática."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-cul-01"
+     ],
+     "nota": "Propone llevar la memoria democrática a las aulas."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": -1,
+     "ref": [
+      "bildu-ins-01"
+     ],
+     "nota": "Propone ampliar la Ley de Memoria Democrática a más víctimas."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": 1,
+     "ref": [
+      "upn-ins-01"
+     ],
+     "nota": "Propone derogar la Ley de Memoria Democrática."
+    }
+   }
+  },
+  {
+   "id": "t20",
+   "area": "igualdad",
+   "texto": "La ley de violencia de género debería sustituirse por una ley de violencia intrafamiliar que no distinga por sexo.",
+   "contexto": "La ley de 2004 trata específicamente la violencia de hombres contra mujeres en la pareja y creó juzgados especializados.",
+   "posiciones": {
+    "pp": {
+     "valor": -1,
+     "ref": [
+      "pp-igu-01"
+     ],
+     "nota": "Propone endurecer las penas por violencia machista, manteniendo ese enfoque."
+    },
+    "psoe": {
+     "valor": -1,
+     "ref": [
+      "psoe-igu-03"
+     ],
+     "nota": "Propone renovar el Pacto de Estado contra la violencia de género."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-igu-01"
+     ],
+     "nota": "Propone derogar la ley de 2004 y sustituirla por una ley de violencia intrafamiliar."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-igu-01"
+     ],
+     "nota": "Propone contabilizar todos los feminicidios y aplicar la ley del solo sí es sí."
+    },
+    "erc": {
+     "valor": -1,
+     "ref": [
+      "erc-igu-03"
+     ],
+     "nota": "Propone una red territorial para prevenir la violencia machista."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Propone sustituir las políticas de género por políticas de familia, pero no se pronuncia expresamente sobre esta ley."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": -1,
+     "ref": [
+      "bng-igu-01"
+     ],
+     "nota": "Propone tipificar el feminicidio y juzgados exclusivos de violencia machista."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": -1,
+     "ref": [
+      "cc-igu-03"
+     ],
+     "nota": "Propone aplicar el Pacto de Estado contra la Violencia de Género con más presupuesto."
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t21",
+   "area": "igualdad",
+   "texto": "El aborto debería estar garantizado como un derecho en la sanidad pública.",
+   "contexto": "El aborto es legal en España desde 2010 dentro de unos plazos, pero buena parte se practica en clínicas privadas concertadas.",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-igu-01"
+     ],
+     "nota": "Propone incluir el derecho al aborto en la Constitución."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-igu-04"
+     ],
+     "nota": "Propone derogar la ley del aborto y votó contra incluirlo en la Constitución."
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-igu-02"
+     ],
+     "nota": "Propone garantizar el aborto en la sanidad pública."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-igu-03"
+     ],
+     "nota": "Propone garantizar el aborto en la sanidad pública."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-igu-03"
+     ],
+     "nota": "Defiende el derecho a decidir sobre el propio cuerpo."
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": 1,
+     "ref": [
+      "aa-igu-01"
+     ],
+     "nota": "Propone garantizar la interrupción del embarazo en la sanidad pública."
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t22",
+   "area": "seguridad",
+   "texto": "España debería aumentar su gasto en defensa.",
+   "contexto": "La OTAN fijó en 2025 un objetivo de gasto en defensa del 5% del PIB, del que España se desmarcó comprometiéndose en torno al 2%.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-seg-05",
+      "pp-seg-06"
+     ],
+     "nota": "Propone ampliar las Fuerzas Armadas a 140.000 efectivos y cumplir los compromisos con la OTAN."
+    },
+    "psoe": {
+     "valor": 0,
+     "ref": [
+      "psoe-seg-01"
+     ],
+     "nota": "Propone un gasto del 2,1% del PIB, pero rechaza el objetivo del 5% de la OTAN."
+    },
+    "vox": {
+     "valor": 1,
+     "ref": [
+      "vox-seg-05"
+     ],
+     "nota": "Propone aumentar la inversión en Defensa."
+    },
+    "sumar": {
+     "valor": -1,
+     "ref": [
+      "sumar-seg-01"
+     ],
+     "nota": "Rechaza aumentar el gasto militar."
+    },
+    "podemos": {
+     "valor": -1,
+     "ref": [
+      "podemos-seg-01"
+     ],
+     "nota": "Propone no aumentar el gasto militar."
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": -1,
+     "ref": [
+      "bng-seg-01"
+     ],
+     "nota": "Se opone al aumento del gasto militar."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t23",
+   "area": "seguridad",
+   "texto": "La Ley de Seguridad Ciudadana de 2015 debería reformarse a fondo o derogarse.",
+   "contexto": "La ley regula las sanciones por alteraciones del orden público, protestas y actuación policial; sus críticos la llaman «ley mordaza».",
+   "posiciones": {
+    "pp": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-seg-03"
+     ],
+     "nota": "Propone reformar la Ley de Seguridad Ciudadana de 2015."
+    },
+    "vox": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "sumar": {
+     "valor": 1,
+     "ref": [
+      "sumar-ins-01"
+     ],
+     "nota": "Propone reformarla, prohibir las pelotas de goma y exigir identificación a los agentes."
+    },
+    "podemos": {
+     "valor": 1,
+     "ref": [
+      "podemos-ins-03"
+     ],
+     "nota": "Propone derogarla."
+    },
+    "erc": {
+     "valor": 1,
+     "ref": [
+      "erc-seg-01"
+     ],
+     "nota": "Propone derogarla."
+    },
+    "salf": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": 1,
+     "ref": [
+      "bildu-seg-01"
+     ],
+     "nota": "Propone derogar varios de sus delitos y prohibir las pelotas de goma."
+    },
+    "pnv": {
+     "valor": 1,
+     "ref": [
+      "pnv-seg-01"
+     ],
+     "nota": "Propone reformarla."
+    },
+    "bng": {
+     "valor": 1,
+     "ref": [
+      "bng-ins-01"
+     ],
+     "nota": "Propone derogarla."
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  },
+  {
+   "id": "t24",
+   "area": "exterior",
+   "texto": "España debería apoyar el acuerdo comercial entre la Unión Europea y Mercosur.",
+   "contexto": "El acuerdo abre el comercio con Argentina, Brasil, Paraguay y Uruguay; parte del sector agrario teme la competencia.",
+   "posiciones": {
+    "pp": {
+     "valor": 1,
+     "ref": [
+      "pp-ext-03"
+     ],
+     "nota": "Apoya el acuerdo UE-Mercosur."
+    },
+    "psoe": {
+     "valor": 1,
+     "ref": [
+      "psoe-ext-04"
+     ],
+     "nota": "Apoya acuerdos comerciales con Chile, México y Mercosur."
+    },
+    "vox": {
+     "valor": -1,
+     "ref": [
+      "vox-ext-04"
+     ],
+     "nota": "Propone revertir el acuerdo de la UE con Mercosur."
+    },
+    "sumar": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "podemos": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "erc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "salf": {
+     "valor": -1,
+     "ref": [
+      "salf-rur-01"
+     ],
+     "nota": "Se opone al acuerdo UE-Mercosur."
+    },
+    "junts": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bildu": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "pnv": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "bng": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "aa": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "cc": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    },
+    "upn": {
+     "valor": null,
+     "ref": [],
+     "nota": "Sin propuesta localizada sobre esto"
+    }
+   }
+  }
+ ]
+}

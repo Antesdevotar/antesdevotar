@@ -1,0 +1,168 @@
+{
+ "id": "escanosenblanco",
+ "nombre": "Escaños en Blanco",
+ "siglas": "EB",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar (la formación no presenta un líder público; sus electos no ocupan el escaño)",
+ "ideologia": "Candidatura de protesta sin ideología (voto en blanco computable)",
+ "ambito": "Estatal",
+ "color": "#9E9E9E",
+ "color_aproximado": true,
+ "web": "https://escanos.org/",
+ "escanos_2023": 0,
+ "resumen": "Formación fundada en 2010 en Badalona con un programa de un único punto: dejar vacíos los escaños que obtenga, sin sueldos ni subvenciones, para dar valor al voto de quien no se siente representado. Pide reformar la ley electoral para que el voto en blanco deje escaños vacíos y se disolvería cuando eso se logre.",
+ "fuentes_programa": [
+  {
+   "titulo": "Programa electoral (web oficial)",
+   "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "Manifiesto (web oficial)",
+   "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/",
+   "fecha": "2022-12"
+  },
+  {
+   "titulo": "Logros (web oficial)",
+   "url": "https://escanos.org/logros/",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "Recogida de firmas para las Elecciones Generales de 2026 (web oficial)",
+   "url": "https://escanos.org/recogida-de-firmas-escanos-en-blanco/",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "Escaños en Blanco, página de recogida de firmas para las Elecciones Generales de 2026 (consultada el 21-10-2026)",
+  "url": "https://escanos.org/recogida-de-firmas-escanos-en-blanco/",
+  "fecha": "2026-10-21"
+ },
+ "circunscripciones": [
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.03,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Resultados oficiales recopilados en Wikipedia, «2023 Spanish general election»",
+   "url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+  },
+  "nota": "8.448 votos al Congreso. En las europeas de 2024 obtuvo 19.586 votos (0,11 %). Ha dejado vacías concejalías en Foixà (2011-2019) y en Muruzábal y Zubieta (2023)."
+ },
+ "propuestas": [
+  {
+   "id": "escanosenblanco-ins-01",
+   "area": "instituciones",
+   "texto": "Dejar vacíos los escaños que obtenga: sus electos no tomarían posesión ni adquirirían la condición plena de diputado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Programa electoral» (web oficial)",
+    "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "escanosenblanco-ins-02",
+   "area": "instituciones",
+   "texto": "Renunciar a sueldo, dietas y complementos de los escaños obtenidos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Programa electoral» (web oficial)",
+    "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "escanosenblanco-ins-03",
+   "area": "instituciones",
+   "texto": "No pedir ni aceptar subvenciones públicas, tampoco las ligadas a escaños, votos o envío de propaganda; se financia con cuotas y pequeñas donaciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Programa electoral» (web oficial)",
+    "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "escanosenblanco-ins-04",
+   "area": "instituciones",
+   "texto": "Reformar la ley electoral (LOREG) para que el voto en blanco cuente como una candidatura más y pueda dejar escaños vacíos en el Congreso.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Logros» (web oficial)",
+    "url": "https://escanos.org/logros/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "escanosenblanco-ins-05",
+   "area": "instituciones",
+   "texto": "Autodisolverse cuando el voto en blanco se traduzca en escaños vacíos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Manifiesto» (web oficial)",
+    "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/",
+    "fecha": "2022-12"
+   }
+  },
+  {
+   "id": "escanosenblanco-ins-06",
+   "area": "instituciones",
+   "texto": "Hacer visible el descontento con la clase política y presionar a los partidos para que actúen con ética y fomenten la participación ciudadana entre elecciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Escaños en Blanco, «Manifiesto» (web oficial)",
+    "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/",
+    "fecha": "2022-12"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [],
+  "social": [
+   {
+    "titulo": "Un escaño vacío pesa como un «no» en las mayorías absolutas",
+    "texto": "La investidura en primera votación, las leyes orgánicas o la reforma constitucional exigen mayorías calculadas sobre el total de miembros de la Cámara. Un escaño vacío no vota, pero eleva en la práctica el umbral, así que el voto de protesta puede acabar teniendo efectos de bloqueo que su votante no buscaba.",
+    "sobre": [
+     "escanosenblanco-ins-01",
+     "escanosenblanco-ins-04"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Protesta sin posición sobre ningún asunto",
+    "texto": "Su programa tiene un único artículo y no fija postura sobre vivienda, pensiones, impuestos ni ningún otro tema. Expresa el rechazo a la oferta existente, pero el votante no sabe qué haría ese escaño si sí pudiera decidir, y el mensaje del voto queda abierto a cualquier interpretación.",
+    "sobre": [
+     "escanosenblanco-ins-01",
+     "escanosenblanco-ins-06"
+    ],
+    "fuente": {
+     "nombre": "Escaños en Blanco, «Programa electoral» (web oficial)",
+     "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+     "fecha": "2026"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos. No tomar posesión del escaño es una decisión individual de cada electo que permite el Reglamento del Congreso, y hacer computable el voto en blanco es una opción del legislador electoral; si se aprobara, habría que precisar su encaje con la composición del Congreso que fija el art. 68.1 CE.",
+  "criticas": [],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

@@ -1,0 +1,478 @@
+{
+ "id": "existe",
+ "nombre": "Existe (Teruel Existe – Aragón Existe)",
+ "siglas": "EXISTE",
+ "concurre": true,
+ "candidato": "Por confirmar (Teruel Existe anunció primarias; su líder es Tomás Guitarte)",
+ "ideologia": "Regionalista de centro (España Vaciada)",
+ "ambito": "Aragón",
+ "color": "#6CA437",
+ "color_aproximado": true,
+ "web": "https://teruelexiste.info",
+ "escanos_2023": 0,
+ "resumen": "Coalición de Teruel Existe y Aragón Existe, inscrita en la Junta Electoral Central para el Congreso y el Senado en las tres provincias aragonesas; nació de las plataformas de la «España Vaciada» y logró un diputado en 2019, que perdió en 2023. Prioriza la lucha contra la despoblación, las infraestructuras pendientes, la financiación de Aragón y un freno a los macroproyectos renovables.",
+ "fuentes_programa": [
+  {
+   "nombre": "Programa Teruel Existe, Generales 23J 2023",
+   "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+   "fecha": "2023-07"
+  },
+  {
+   "nombre": "La Comarca, 9-10-2026: Aragón-Teruel Existe quiere liderar su propia papeleta aragonesista para el 29N",
+   "url": "https://www.lacomarca.net/aragon-teruel-existe-se-suma-a-las-coaliciones-los-de-guitarte-quieren-liderar-su-propia-papeleta-aragonesista-para-el-29-n/",
+   "fecha": "2026-10-09"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "Demócrata: nueve coaliciones se inscriben en la JEC para las generales",
+  "url": "https://www.democrata.es/politica/nueve-coaliciones-se-inscriben-en-la-jec-para-las-generales-dos-al-congreso-tres-al-senado-y-cuatro-autonomicas/",
+  "fecha": "2026-10-17"
+ },
+ "circunscripciones": [
+  "Huesca",
+  "Teruel",
+  "Zaragoza"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 14.96,
+  "ambito": "Teruel",
+  "fuente": {
+   "nombre": "Última Hora, escrutinio 23J Congreso Teruel (11.292 votos, sin escaño)",
+   "url": "https://www.ultimahora.es/elecciones/23j/congreso/teruel.html"
+  }
+ },
+ "propuestas": [
+  {
+   "id": "existe-ter-01",
+   "area": "territorio",
+   "texto": "Pacto de Estado por el Desarrollo Rural y la Repoblación con un mecanismo estable de financiación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-ter-02",
+   "area": "territorio",
+   "texto": "Mecanismo rural de garantía: evaluar el impacto de cada ley y política en el medio rural.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 11",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ter-03",
+   "area": "territorio",
+   "texto": "Que todas las localidades estén a un máximo de 30 minutos de los servicios públicos básicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-ter-04",
+   "area": "territorio",
+   "texto": "Descentralizar sedes de organismos de la Administración y de empresas públicas hacia zonas despobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ter-05",
+   "area": "territorio",
+   "texto": "Reforma de la financiación autonómica de Aragón según el coste efectivo de los servicios, ponderando dispersión y densidad.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 2-3",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-deu-01",
+   "area": "deuda",
+   "texto": "Negociar el reconocimiento y el pago de la «deuda histórica» del Estado con Aragón.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 3",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ter-06",
+   "area": "territorio",
+   "texto": "Elevar el Fondo de Inversiones de Teruel (FITE) a 90 millones de euros.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 14",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-eco-01",
+   "area": "economia",
+   "texto": "Ayudas al funcionamiento de empresas en su nivel máximo para Teruel y para las comarcas de Huesca y Zaragoza con menos de 12,5 hab/km².",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 3, 7 y 14",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-eco-02",
+   "area": "economia",
+   "texto": "Exención del IBI para residentes de rentas bajas y medias en municipios despoblados de menos de 5.000 habitantes, con compensación estatal a los ayuntamientos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-viv-01",
+   "area": "vivienda",
+   "texto": "Reducir un 80% el impuesto de transmisiones patrimoniales en la compra de vivienda en esas localidades.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-viv-02",
+   "area": "vivienda",
+   "texto": "Rehabilitación de vivienda rural vinculada a su puesta en alquiler y vivienda pública rural de alquiler.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7 y 9",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ter-07",
+   "area": "territorio",
+   "texto": "Una vía de alta capacidad a menos de 30 km de cada municipio de las áreas despobladas; terminar la A-68 y construir la A-40 y la Teruel-Requena-Almansa.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7 y 12",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-ter-08",
+   "area": "territorio",
+   "texto": "Doble vía electrificada de altas prestaciones Zaragoza-Teruel-Sagunto y tren directo Teruel-Madrid.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 12",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-ter-09",
+   "area": "territorio",
+   "texto": "Transporte bajo demanda en áreas rurales y recuperación de líneas y paradas de autobús.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 12",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-tec-01",
+   "area": "tecnologia",
+   "texto": "Garantizar 100 Mbps simétricos en todos los municipios y llevar el 5G a la España vaciada.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7 y 12",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-san-01",
+   "area": "sanidad",
+   "texto": "Subir la atención primaria al 25% del presupuesto sanitario, con llegada efectiva al medio rural.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 8",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-san-02",
+   "area": "sanidad",
+   "texto": "Transporte sanitario urgente 24 horas todo el año integrado en el Sistema Nacional de Salud.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 8",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-san-03",
+   "area": "sanidad",
+   "texto": "Cribado precoz de los cánceres de próstata y de pulmón.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 8",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-edu-01",
+   "area": "educacion",
+   "texto": "Implantar la educación infantil de 0 a 3 años y ampliar la FP y la oferta universitaria ligadas al territorio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 9, 10 y 13",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ene-01",
+   "area": "energia",
+   "texto": "Moratoria al despliegue de grandes parques renovables y líneas de muy alta tensión, y un canon a los macroparques para el desarrollo local.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 4",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "existe-ene-02",
+   "area": "energia",
+   "texto": "Reservar el 20% de la capacidad de acceso a la red de transporte eléctrico para pequeñas instalaciones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 4",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ene-03",
+   "area": "energia",
+   "texto": "Reindustrializar el Nudo Mudéjar tras el cierre de la central térmica de Andorra.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 4",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-rur-01",
+   "area": "rural",
+   "texto": "Reformar la PAC para pagar por la producción actual y no por derechos históricos; ley de agricultura familiar y apoyo a la ganadería extensiva.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 11",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-rur-02",
+   "area": "rural",
+   "texto": "Rechazar los trasvases del Ebro.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 6",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-seg-01",
+   "area": "seguridad",
+   "texto": "Más Guardia Civil en el medio rural, mejores cuarteles y uso de drones; estrategia nacional contra incendios todo el año.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 11",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ins-01",
+   "area": "instituciones",
+   "texto": "Elección directa de los representantes en las diputaciones provinciales y en las comarcas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 2",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ins-02",
+   "area": "instituciones",
+   "texto": "Crear una comisión de estudio sobre la desinformación en el Congreso.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 2",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-emp-01",
+   "area": "empleo",
+   "texto": "Complemento de territorialidad para empleados públicos en zonas despobladas y fomento del teletrabajo para fijar población.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 7",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-dem-01",
+   "area": "demografia",
+   "texto": "Ampliar el permiso de lactancia hasta un año, con disfrute acumulado de las horas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Teruel Existe Generales 2023, apdo. 10",
+    "url": "https://teruelexiste.info/wp-content/uploads/2023/07/Programa_23J-2023-_Teruel_Existe_-elecciones-generales.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "existe-ext-01",
+   "area": "exterior",
+   "texto": "Conexiones con Francia a través del Pirineo y eje Cantábrico-Mediterráneo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "La Comarca, 9-10-2026: Aragón-Teruel Existe quiere liderar su propia papeleta aragonesista para el 29N",
+    "url": "https://www.lacomarca.net/aragon-teruel-existe-se-suma-a-las-coaliciones-los-de-guitarte-quieren-liderar-su-propia-papeleta-aragonesista-para-el-29-n/",
+    "fecha": "2026-10-09"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste de las infraestructuras y del criterio de 30 km/30 minutos",
+    "texto": "Garantizar una autovía a menos de 30 km de cada municipio despoblado y servicios a menos de 30 minutos implica inversiones muy elevadas por habitante servido. La AIReF ha advertido de que la planificación de infraestructuras en España no se basa suficientemente en análisis coste-beneficio.",
+    "sobre": [
+     "existe-ter-03",
+     "existe-ter-07",
+     "existe-ter-08"
+    ],
+    "fuente": {
+     "nombre": "AIReF, Spending Review fase II: infraestructuras de transporte (2020)"
+    }
+   },
+   {
+    "titulo": "Ayudas al funcionamiento y competencia territorial",
+    "texto": "Las ayudas al funcionamiento y las rebajas fiscales por territorio tienen efectos modestos sobre la población según la literatura sobre despoblación, y pueden trasladar actividad de una comarca a otra en lugar de crearla.",
+    "sobre": [
+     "existe-eco-01",
+     "existe-eco-02",
+     "existe-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de evaluación de políticas regionales"
+    }
+   },
+   {
+    "titulo": "Moratoria renovable y transición energética",
+    "texto": "Una moratoria a los grandes parques y líneas de alta tensión ralentizaría el despliegue renovable del que dependen los objetivos climáticos y el abaratamiento de la electricidad, aunque responde a quejas reales sobre el reparto de beneficios locales.",
+    "sobre": [
+     "existe-ene-01"
+    ],
+    "fuente": {
+     "nombre": "Plan Nacional Integrado de Energía y Clima 2023-2030 (MITECO)"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Priorizar territorio sobre personas",
+    "texto": "Medir servicios por distancia a cada núcleo puede desviar recursos de las zonas con más demanda; los expertos en sanidad recuerdan que la calidad asistencial también depende del volumen de casos atendidos.",
+    "sobre": [
+     "existe-ter-03",
+     "existe-san-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de eficiencia de servicios públicos"
+    }
+   },
+   {
+    "titulo": "Permiso de lactancia de un año y pequeñas empresas",
+    "texto": "Ampliar el permiso de lactancia hasta un año, acumulable, sin precisar quién lo financia, recaería en buena parte sobre micropymes rurales con plantillas muy pequeñas, donde sustituir a una persona es difícil.",
+    "sobre": [
+     "existe-dem-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de coste laboral para microempresas"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Agravio comparativo entre territorios",
+    "texto": "Reclamar «deudas históricas» y fondos específicos para una provincia alimenta una lógica de agravios que otras comunidades replican, y dificulta un acuerdo general de financiación.",
+    "sobre": [
+     "existe-deu-01",
+     "existe-ter-06"
+    ],
+    "fuente": {
+     "nombre": "Argumento de federalismo fiscal"
+    }
+   },
+   {
+    "titulo": "Rechazo a los trasvases",
+    "texto": "La oposición frontal a los trasvases del Ebro choca con las demandas de las cuencas deficitarias del Levante y mantiene un conflicto territorial sobre el agua.",
+    "sobre": [
+     "existe-rur-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento sobre conflictos hídricos interterritoriales"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos relevantes. Ninguna de sus propuestas choca con derechos fundamentales ni con los estándares europeos de Estado de derecho.",
+  "criticas": [],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

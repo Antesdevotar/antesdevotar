@@ -1,0 +1,295 @@
+{
+  "id": "aliancacat",
+  "nombre": "Aliança Catalana",
+  "siglas": "AC",
+  "concurre": false,
+  "candidato": "No concurre a las elecciones generales del 29N (líder del partido: Sílvia Orriols)",
+  "ideologia": "Independentismo catalán de extrema derecha, antiinmigración",
+  "ambito": "Cataluña",
+  "color": "#1C3D6E",
+  "web": "https://aliancacatalana.cat",
+  "escanos_2023": 0,
+  "resumen": "Partido independentista catalán fundado en 2020 en Ripoll y liderado por Sílvia Orriols, con dos diputados en el Parlament desde 2024; no se presenta a las generales del 29N por principio. Prioriza la restricción de la inmigración, la oposición al islamismo, la independencia unilateral y el catalán como única lengua oficial.",
+  "fuentes_programa": [
+    {
+      "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+      "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+      "fecha": "2024-04"
+    },
+    {
+      "nombre": "Ara, ¿Por qué Aliança Catalana no se presenta a las elecciones españolas?, 05/10/2026",
+      "url": "https://es.ara.cat/politica/alianca-catalana-no-presenta-elecciones-espanolas_1_5870081.html",
+      "fecha": "2026-10"
+    },
+    {
+      "nombre": "Ara, 15/10/2026",
+      "url": "https://es.ara.cat/politica/beneficia-alianza-catalana-no-presente-elecciones-espanolas_1_5879437.html",
+      "fecha": "2026-10"
+    },
+    {
+      "nombre": "El Español Diario, declaraciones de Sílvia Orriols, 05/10/2026",
+      "url": "https://www.esdiario.com/nacional/261005/199490/silvia-orriols-atribuye-caida-sanchez-he-hecho-caer-gobierno-espanol-salir-cataluna.html",
+      "fecha": "2026-10"
+    }
+  ],
+  "programa_2026_publicado": false,
+  "propuestas": [
+    {
+      "id": "aliancacat-ter-01",
+      "area": "territorio",
+      "texto": "No concurrir a las elecciones generales españolas: considera que no tiene sentido entrar en el Congreso de un Estado del que quiere separarse.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Ara, ¿Por qué Aliança Catalana no se presenta a las elecciones españolas?, 05/10/2026",
+        "url": "https://es.ara.cat/politica/alianca-catalana-no-presenta-elecciones-espanolas_1_5870081.html",
+        "fecha": "2026-10"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-ter-02",
+      "area": "territorio",
+      "texto": "Reformar sus estatutos para prohibir que el partido se presente a elecciones españolas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "El Español Diario, declaraciones de Sílvia Orriols, 05/10/2026",
+        "url": "https://www.esdiario.com/nacional/261005/199490/silvia-orriols-atribuye-caida-sanchez-he-hecho-caer-gobierno-espanol-salir-cataluna.html",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-ter-03",
+      "area": "territorio",
+      "texto": "Independencia de Cataluña por vía unilateral, con una nueva declaración de independencia.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-seg-01",
+      "area": "seguridad",
+      "texto": "Dotar a Cataluña de un ejército propio.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-inm-01",
+      "area": "inmigracion",
+      "texto": "Moratoria migratoria hasta que los salarios catalanes alcancen la media europea y el catalán pueda volver a integrar a los inmigrantes.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-inm-02",
+      "area": "inmigracion",
+      "texto": "Expulsión de los inmigrantes en situación irregular y normas más estrictas para la inmigración legal.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Catalan Alliance (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Catalan_Alliance",
+        "fecha": "2024"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-cul-01",
+      "area": "cultura",
+      "texto": "Prohibir el burka en los espacios públicos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-cul-02",
+      "area": "cultura",
+      "texto": "Cerrar las mezquitas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-cul-03",
+      "area": "cultura",
+      "texto": "Abolir la celebración de la fiesta del cordero (Eid al-Adha) y las corridas de toros en Cataluña.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-cul-04",
+      "area": "cultura",
+      "texto": "El catalán como única lengua oficial y de la administración pública; el castellano dejaría de ser obligatorio en la escuela pública.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aliancacat-ins-01",
+      "area": "instituciones",
+      "texto": "Tipificar la catalanofobia como delito grave.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-seg-02",
+      "area": "seguridad",
+      "texto": "Tolerancia cero con la delincuencia y más efectivos policiales.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Catalan Alliance (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Catalan_Alliance",
+        "fecha": "2024"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-eco-01",
+      "area": "economia",
+      "texto": "Rebajas de impuestos de corte liberal, incluida la supresión de los impuestos de patrimonio y sucesiones, y recorte del gasto público.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Catalan Alliance (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Catalan_Alliance",
+        "fecha": "2024"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-eco-02",
+      "area": "economia",
+      "texto": "Crear un fondo soberano de inversión catalán.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa de Aliança Catalana para las elecciones al Parlament 12M 2024 (resumen en Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Alian%C3%A7a_Catalana",
+        "fecha": "2024-04"
+      },
+      "destacada": false
+    },
+    {
+      "id": "aliancacat-viv-01",
+      "area": "vivienda",
+      "texto": "Se atribuye haber empujado a Junts a votar en contra de los decretos de vivienda de 2026 que precipitaron el adelanto electoral.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "El Español Diario, declaraciones de Sílvia Orriols, 05/10/2026",
+        "url": "https://www.esdiario.com/nacional/261005/199490/silvia-orriols-atribuye-caida-sanchez-he-hecho-caer-gobierno-espanol-salir-cataluna.html",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    }
+  ],
+  "criticas": {
+    "economica": [
+      {
+        "titulo": "Menos inmigración, menos población activa",
+        "texto": "El Banco de España y la AIReF señalan que la inmigración es clave para sostener la población en edad de trabajar y las cotizaciones ante el envejecimiento; una moratoria migratoria reduciría la fuerza laboral en sectores como la agricultura, la hostelería o los cuidados.",
+        "sobre": [
+          "aliancacat-inm-01",
+          "aliancacat-inm-02"
+        ],
+        "fuente": {
+          "nombre": "Banco de España, Informe Anual 2023"
+        }
+      },
+      {
+        "titulo": "Bajar impuestos y crear un fondo soberano a la vez",
+        "texto": "Suprimir patrimonio y sucesiones y reducir impuestos merma ingresos, mientras un fondo soberano exige excedentes o deuda; el programa no detalla cómo se financiarían ambas cosas. La OCDE considera el impuesto de sucesiones uno de los menos distorsionadores.",
+        "sobre": [
+          "aliancacat-eco-01",
+          "aliancacat-eco-02"
+        ],
+        "fuente": {
+          "nombre": "OCDE, Inheritance Taxation in OECD Countries, 2021",
+          "url": "https://www.oecd.org/en/publications/inheritance-taxation-in-oecd-countries_e2879a7d-en.html"
+        }
+      }
+    ],
+    "social": [
+      {
+        "titulo": "Expulsiones masivas y derechos",
+        "texto": "Las expulsiones están sometidas a procedimientos individuales con garantías judiciales y a acuerdos de readmisión con terceros países; organismos de derechos humanos advierten de que las devoluciones colectivas están prohibidas por el Convenio Europeo de Derechos Humanos (Protocolo 4, art. 4).",
+        "sobre": [
+          "aliancacat-inm-02"
+        ],
+        "fuente": {
+          "nombre": "Convenio Europeo de Derechos Humanos, Protocolo nº 4, art. 4"
+        }
+      },
+      {
+        "titulo": "Cerrar mezquitas y la libertad religiosa",
+        "texto": "El cierre generalizado de lugares de culto de una confesión choca con la libertad religiosa (art. 16 CE y art. 9 CEDH) y con el principio de no discriminación; el TEDH solo admite restricciones proporcionadas y justificadas caso a caso.",
+        "sobre": [
+          "aliancacat-cul-02",
+          "aliancacat-cul-03",
+          "aliancacat-cul-01"
+        ],
+        "fuente": {
+          "nombre": "Constitución Española, art. 16; CEDH, art. 9"
+        }
+      }
+    ],
+    "cultural": [
+      {
+        "titulo": "Suprimir la cooficialidad del castellano",
+        "texto": "Eliminar el castellano como lengua oficial y obligatoria en la escuela contradice el art. 3 de la Constitución, y afectaría a cerca de la mitad de la población catalana, que según la Encuesta de Usos Lingüísticos tiene el castellano como lengua habitual.",
+        "sobre": [
+          "aliancacat-cul-04",
+          "aliancacat-ins-01"
+        ],
+        "fuente": {
+          "nombre": "Generalitat de Catalunya, Encuesta de Usos Lingüísticos de la Población (EULP)"
+        }
+      },
+      {
+        "titulo": "Independencia unilateral",
+        "texto": "El Tribunal Constitucional anuló la declaración de independencia de 2017 y ha establecido que la secesión solo cabría mediante reforma constitucional; una vía unilateral carece de reconocimiento interno e internacional.",
+        "sobre": [
+          "aliancacat-ter-03",
+          "aliancacat-seg-01"
+        ],
+        "fuente": {
+          "nombre": "Tribunal Constitucional, STC 124/2017"
+        }
+      }
+    ]
+  },
+  "mentiras": [],
+  "actualizado": "2026-10-21"
+}

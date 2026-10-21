@@ -1,0 +1,1026 @@
+{
+ "titular": "La deuda: la factura que nadie quiere pagar (y que crece si nadie la paga)",
+ "entradilla": "España debe unos 1,74 billones de euros, prácticamente lo mismo que produce en un año, y ya dedica más de 40.000 millones anuales solo a pagar intereses. Gastar da votos hoy; ajustar cuesta votos hoy y sus beneficios llegan años después, a menudo a otro Gobierno. Por eso casi nadie lo hace, y por eso la deuda tiende a crecer hasta que los mercados, Bruselas o una crisis obligan a corregirla de golpe.",
+ "cifras_clave": [
+  {
+   "etiqueta": "Deuda pública total",
+   "valor": "1,744",
+   "unidad": "billones de euros",
+   "contexto": "Deuda de todas las Administraciones Públicas (Estado, CCAA, ayuntamientos y Seguridad Social) según el Protocolo de Déficit Excesivo. Sube un 3,8% en un año en euros, aunque baja en % del PIB porque la economía crece más deprisa.",
+   "fuente": "Banco de España, avance mensual de deuda AAPP (julio 2026)",
+   "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-julio26.html",
+   "fecha": "2026-07"
+  },
+  {
+   "etiqueta": "Deuda sobre el PIB",
+   "valor": "99,9",
+   "unidad": "% del PIB",
+   "contexto": "Primera vez por debajo del 100% desde 2019 (2,4 puntos menos que un año antes). En 2007 era el 35,7%. Al cierre del 2º trimestre de 2026 fue del 101,4%.",
+   "fuente": "Banco de España (julio 2026); Eurostat para 2007",
+   "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-julio26.html",
+   "fecha": "2026-07"
+  },
+  {
+   "etiqueta": "Deuda por habitante",
+   "valor": "≈35.300",
+   "unidad": "euros por persona",
+   "contexto": "Cálculo propio: 1,744 billones entre unos 49,4 millones de residentes (población aproximada INE 2026). Eurostat la situaba en 33.332 € en 2024. Un hogar medio 'debe' a través del Estado más de 85.000 €.",
+   "fuente": "Elaboración propia con Banco de España e INE; Eurostat vía Instituto Juan de Mariana para 2024",
+   "url": "https://juandemariana.org/wp-content/uploads/2025/11/DIA-DE-LA-DEUDA-2025-B2.pdf",
+   "fecha": "2026-07"
+  },
+  {
+   "etiqueta": "Gasto en intereses",
+   "valor": "40.314",
+   "unidad": "millones de euros (2025)",
+   "contexto": "2,39% del PIB. Es más de 2,8 veces el gasto público total en defensa contabilizado por la IGAE en 2024 (14.233 M€), el 61% de todo el gasto público en educación (65.862 M€) y casi el 40% del gasto en sanidad (102.942 M€). El Gobierno prevé superar los 43.000 M€ en 2026.",
+   "fuente": "IGAE, cuentas trimestrales AAPP 4T 2025; IGAE, clasificación funcional COFOG 2024",
+   "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/Cap_Trim/IT_4T_2025.pdf",
+   "fecha": "2026-03"
+  },
+  {
+   "etiqueta": "Déficit público",
+   "valor": "2,39",
+   "unidad": "% del PIB (2025)",
+   "contexto": "40.330 millones de euros. Es la primera vez desde 2007 que el déficit queda por debajo del límite del 3% de Maastricht, pero sigue siendo déficit: se gasta más de lo que se ingresa. Sin intereses, las cuentas están casi equilibradas (saldo primario ≈ 0%). AIReF prevé un 2,6% en 2026.",
+   "fuente": "IGAE (4T 2025); AIReF (julio 2026)",
+   "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/Cap_Trim/IT_4T_2025.pdf",
+   "fecha": "2026-03"
+  },
+  {
+   "etiqueta": "Años seguidos con déficit",
+   "valor": "18",
+   "unidad": "años (2008–2025)",
+   "contexto": "España no cierra un año con superávit desde 2007. Mientras haya déficit, la deuda en euros sigue subiendo cada año.",
+   "fuente": "Eurostat, serie gov_10dd_edpt1 (B9)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+   "fecha": "2026-04"
+  },
+  {
+   "etiqueta": "Pensiones vs. cotizaciones",
+   "valor": "≈206.000 vs. 177.000",
+   "unidad": "millones de euros",
+   "contexto": "Gasto en pensiones y prestaciones contributivas de la Seguridad Social frente a lo recaudado por cotizaciones sociales (ejecución presupuestaria más reciente). La diferencia se cubre con unos 48.000 M€ de transferencias del Estado, financiadas en parte con deuda.",
+   "fuente": "Congreso de los Diputados, Newsletter de la Oficina Presupuestaria (DAEP), 1er semestre 2026",
+   "url": "https://www.congreso.es/docu/docum/NewsletterDAEP1semestre2026_amp.pdf",
+   "fecha": "2026"
+  },
+  {
+   "etiqueta": "Coste medio de la deuda del Estado",
+   "valor": "2,31",
+   "unidad": "% (cierre 2025)",
+   "contexto": "Tipo medio que paga el Tesoro por toda su deuda viva. Era 1,64% en 2021 (mínimo histórico). Sube lentamente porque la deuda barata emitida en 2015–2021 se va renovando a tipos más altos (en torno al 3% a largo plazo).",
+   "fuente": "Tesoro Público, recogido por Vozpópuli (dic. 2025)",
+   "url": "https://www.vozpopuli.com/economia/banca/el-gobierno-paga-el-mayor-interes-en-siete-anos-por-la-deuda-en-circulacion-tras-renunciar-a-los-creditos-ue-.html",
+   "fecha": "2025-12"
+  },
+  {
+   "etiqueta": "Proyección a largo plazo",
+   "valor": "123–181",
+   "unidad": "% del PIB",
+   "contexto": "Si no cambian las políticas, AIReF proyecta que la deuda vuelva a subir desde mediados de la década de 2030 por el envejecimiento: 123% en 2050 (estimación de mayo 2026) y 181% en 2070 (escenario base de su opinión de sostenibilidad de 2025; 215% en el escenario desfavorable).",
+   "fuente": "AIReF, Opinión sobre la sostenibilidad de las AAPP a largo plazo (2025) y evaluación de la regla de gasto en pensiones (2026)",
+   "url": "https://www.elindependiente.com/economia/2026/05/29/nuevo-reves-de-la-airef-al-gobierno-cumplir-su-regla-de-gasto-en-pensiones-no-garantiza-la-sostenibilidad/amp/",
+   "fecha": "2026-05"
+  },
+  {
+   "etiqueta": "Intereses en 2050",
+   "valor": "4,7",
+   "unidad": "% del PIB",
+   "contexto": "Según AIReF, a políticas constantes, el pago de intereses superaría al gasto en educación hacia 2041 y lo duplicaría en 2070 (6,8% frente a 3,6% del PIB).",
+   "fuente": "AIReF, proyecciones de largo plazo (2025)",
+   "url": "https://www.vozpopuli.com/economia/alerta-de-la-airef-espana-gastara-en-intereses-de-la-deuda-el-doble-que-en-educacion.html",
+   "fecha": "2025-04"
+  }
+ ],
+ "serie_espana": [
+  {
+   "anio": 2000,
+   "deuda_pib": 57.8,
+   "deficit_pib": -1.2,
+   "intereses_pib": 3.2,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2001,
+   "deuda_pib": 54.1,
+   "deficit_pib": -0.5,
+   "intereses_pib": 3.0,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2002,
+   "deuda_pib": 51.2,
+   "deficit_pib": -0.3,
+   "intereses_pib": 2.6,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2003,
+   "deuda_pib": 47.7,
+   "deficit_pib": -0.4,
+   "intereses_pib": 2.3,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2004,
+   "deuda_pib": 45.3,
+   "deficit_pib": -0.1,
+   "intereses_pib": 2.0,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2005,
+   "deuda_pib": 42.4,
+   "deficit_pib": 1.2,
+   "intereses_pib": 1.7,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2006,
+   "deuda_pib": 39.0,
+   "deficit_pib": 2.1,
+   "intereses_pib": 1.6,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2007,
+   "deuda_pib": 35.7,
+   "deficit_pib": 1.9,
+   "intereses_pib": 1.6,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2008,
+   "deuda_pib": 39.6,
+   "deficit_pib": -4.6,
+   "intereses_pib": 1.6,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2009,
+   "deuda_pib": 53.1,
+   "deficit_pib": -11.2,
+   "intereses_pib": 1.7,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2010,
+   "deuda_pib": 60.3,
+   "deficit_pib": -9.5,
+   "intereses_pib": 1.9,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2011,
+   "deuda_pib": 69.5,
+   "deficit_pib": -9.7,
+   "intereses_pib": 2.5,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2012,
+   "deuda_pib": 89.6,
+   "deficit_pib": -11.5,
+   "intereses_pib": 3.0,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2013,
+   "deuda_pib": 100.0,
+   "deficit_pib": -7.5,
+   "intereses_pib": 3.6,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2014,
+   "deuda_pib": 104.4,
+   "deficit_pib": -6.0,
+   "intereses_pib": 3.5,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2015,
+   "deuda_pib": 102.5,
+   "deficit_pib": -5.3,
+   "intereses_pib": 3.1,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2016,
+   "deuda_pib": 102.0,
+   "deficit_pib": -4.2,
+   "intereses_pib": 2.8,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2017,
+   "deuda_pib": 101.2,
+   "deficit_pib": -3.1,
+   "intereses_pib": 2.5,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2018,
+   "deuda_pib": 99.8,
+   "deficit_pib": -2.6,
+   "intereses_pib": 2.4,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2019,
+   "deuda_pib": 97.7,
+   "deficit_pib": -3.1,
+   "intereses_pib": 2.3,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2020,
+   "deuda_pib": 119.3,
+   "deficit_pib": -9.9,
+   "intereses_pib": 2.2,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2021,
+   "deuda_pib": 115.7,
+   "deficit_pib": -6.7,
+   "intereses_pib": 2.1,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2022,
+   "deuda_pib": 109.3,
+   "deficit_pib": -4.6,
+   "intereses_pib": 2.3,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2023,
+   "deuda_pib": 105.2,
+   "deficit_pib": -3.3,
+   "intereses_pib": 2.4,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2024,
+   "deuda_pib": 101.6,
+   "deficit_pib": -3.2,
+   "intereses_pib": 2.4,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2025,
+   "deuda_pib": 100.7,
+   "deficit_pib": -2.4,
+   "intereses_pib": 2.4,
+   "tipo": "real",
+   "fuente": "Eurostat (gov_10dd_edpt1, notificación abril 2026)"
+  },
+  {
+   "anio": 2026,
+   "deuda_pib": 99.3,
+   "deficit_pib": -2.6,
+   "intereses_pib": 2.4,
+   "tipo": "prevision",
+   "fuente": "AIReF (Observatorio de deuda, julio 2026); intereses: estimación a partir de la previsión del Gobierno (>43.000 M€)"
+  }
+ ],
+ "serie_espana_nota": "deficit_pib en negativo = déficit; positivo = superávit. Datos 2000–2025 de Eurostat (consolidados, criterio PDE). 2026 es previsión.",
+ "serie_espana_url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+ "comparativa_paises": [
+  {
+   "pais": "Japón",
+   "deuda_pib": 204.4,
+   "anio": "2026 (previsión)",
+   "fuente": "FMI, Fiscal Monitor / WEO abril 2026 (recogido por Business Today)",
+   "url": "https://www.businesstoday.in/world/us/story/countries-with-the-most-government-debt-in-2026-where-india-stands-in-the-global-rankings-544620-2026-07-22"
+  },
+  {
+   "pais": "Grecia",
+   "deuda_pib": 143.5,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Italia",
+   "deuda_pib": 138.9,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Estados Unidos",
+   "deuda_pib": 125.8,
+   "anio": "2026 (previsión)",
+   "fuente": "FMI, abril 2026 (recogido por Business Today)",
+   "url": "https://www.businesstoday.in/world/us/story/countries-with-the-most-government-debt-in-2026-where-india-stands-in-the-global-rankings-544620-2026-07-22"
+  },
+  {
+   "pais": "Francia",
+   "deuda_pib": 117.6,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Bélgica",
+   "deuda_pib": 109.1,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Reino Unido",
+   "deuda_pib": 104.0,
+   "anio": "2026 (previsión)",
+   "fuente": "FMI, abril 2026 (recogido por Business Today). Ojo: la ONS británica, con otra definición (deuda neta del sector público), da en torno al 94%",
+   "url": "https://www.businesstoday.in/world/us/story/countries-with-the-most-government-debt-in-2026-where-india-stands-in-the-global-rankings-544620-2026-07-22"
+  },
+  {
+   "pais": "España",
+   "deuda_pib": 101.6,
+   "anio": "1T 2026",
+   "fuente": "Eurostat (Banco de España: 99,9% en julio 2026)",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Portugal",
+   "deuda_pib": 91.0,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Zona euro",
+   "deuda_pib": 88.9,
+   "anio": "1T 2026",
+   "fuente": "Eurostat (EA21)",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Alemania",
+   "deuda_pib": 64.4,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Países Bajos",
+   "deuda_pib": 43.8,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Irlanda",
+   "deuda_pib": 37.0,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Suecia",
+   "deuda_pib": 34.9,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "pais": "Dinamarca",
+   "deuda_pib": 26.8,
+   "anio": "1T 2026",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  }
+ ],
+ "comparativa_nota": "Los países UE usan el dato trimestral de Eurostat (1T 2026, provisional). Japón, EEUU y Reino Unido usan previsiones del FMI para 2026: no son estrictamente comparables, pero sí el orden de magnitud. El FMI estima que la deuda pública mundial llegará al 100% del PIB en 2029.",
+ "mecanica": {
+  "explicacion": "Cada año, la deuda en relación al PIB cambia por dos fuerzas. La primera es la 'bola de nieve': si el tipo de interés medio que pagas por tu deuda (r) es mayor que lo que crece tu economía en euros corrientes (g), la deuda crece sola, aunque no gastes de más. Si g es mayor que r, la deuda se encoge sola. La segunda es el saldo primario: lo que el Estado ingresa menos lo que gasta sin contar intereses. Si hay superávit primario, se reduce deuda; si hay déficit primario, se añade. La fórmula aproximada es: cambio de la deuda ≈ (r − g) × deuda − saldo primario. Con una deuda del 100% del PIB, cada punto que suba el tipo de interés medio, a la larga, cuesta 1 punto de PIB al año (unos 17.000 millones). Hoy España está en una situación favorable (crecimiento nominal ≈4,8% frente a un coste medio ≈2,4%), y por eso la ratio baja aunque haya déficit. El riesgo es que esa ventaja desaparezca: si el crecimiento se frena o los tipos suben, la misma deuda se vuelve mucho más difícil de controlar.",
+  "formula": "Δd ≈ (r − g)/(1 + g) · d − sp",
+  "pasos": [
+   {
+    "titulo": "1. La hucha agujereada",
+    "texto": "El Estado ingresa impuestos y cotizaciones y gasta en pensiones, sanidad, educación, sueldos... Cuando gasta más de lo que ingresa, tiene déficit y lo cubre pidiendo prestado: emite bonos y letras del Tesoro."
+   },
+   {
+    "titulo": "2. La deuda se acumula",
+    "texto": "Cada año de déficit se suma a la deuda anterior. España lleva 18 años seguidos con déficit, y así ha pasado de deber 0,4 billones en 2007 a más de 1,7 billones hoy."
+   },
+   {
+    "titulo": "3. Los intereses, el gasto que no se ve",
+    "texto": "Toda esa deuda paga intereses: más de 40.000 millones al año, más que todo el gasto público en defensa y más de la mitad que en educación. Ese dinero no construye ni un colegio ni un hospital."
+   },
+   {
+    "titulo": "4. La carrera entre el interés y el crecimiento",
+    "texto": "Lo que importa no es la deuda en euros, sino comparada con el tamaño de la economía. Si la economía (en euros corrientes) crece más rápido que el interés que pagas, la carga se aligera sola. Si crece más despacio, la deuda engorda sola: es la bola de nieve."
+   },
+   {
+    "titulo": "5. El círculo vicioso",
+    "texto": "Si los inversores dudan de que un país pueda pagar, piden más interés. Más interés significa más déficit, más deuda y más dudas. Así entraron Grecia, Portugal o España en la crisis de 2010–2012: la prima de riesgo española superó los 600 puntos en 2012."
+   },
+   {
+    "titulo": "6. La salida: superávit primario + crecimiento",
+    "texto": "Para que la deuda baje de forma sostenida hace falta que, sin contar intereses, el Estado ingrese algo más de lo que gasta, y que la economía crezca. Hacerlo de golpe puede provocar recesión; no hacerlo nunca deja al país sin margen para la próxima crisis."
+   },
+   {
+    "titulo": "7. El reloj demográfico",
+    "texto": "A partir de 2035 se jubila la generación del baby boom. Si no se ajusta nada, AIReF prevé que la deuda vuelva a subir hasta el 123% del PIB en 2050. Lo que se haga (o no) en esta legislatura condiciona ese futuro."
+   }
+  ],
+  "parametros_simulador": {
+   "deuda_inicial_pib": 99.9,
+   "deuda_inicial_fuente": {
+    "nombre": "Banco de España, julio 2026",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-julio26.html"
+   },
+   "tipo_interes_medio": 2.4,
+   "tipo_interes_medio_fuente": {
+    "nombre": "Coste efectivo: intereses 2025 (40.314 M€, IGAE) / deuda fin 2024 (≈1,62 billones). El Tesoro estima un coste medio de la deuda del Estado del 2,31% al cierre de 2025.",
+    "url": "https://www.vozpopuli.com/economia/banca/el-gobierno-paga-el-mayor-interes-en-siete-anos-por-la-deuda-en-circulacion-tras-renunciar-a-los-creditos-ue-.html"
+   },
+   "crecimiento_nominal": 4.8,
+   "crecimiento_nominal_fuente": {
+    "nombre": "AIReF, previsión de crecimiento nominal 2026 (mayo 2026); el Gobierno prevé 5,3%",
+    "url": "https://www.elindependiente.com/economia/2026/05/14/airef-advierte-ajuste-necesario-15-000-millones-critica-falta-ambicion-gobierno/amp/"
+   },
+   "saldo_primario": 0.0,
+   "saldo_primario_fuente": {
+    "nombre": "IGAE, saldo primario AAPP 2025: −16 M€ (≈0,0% del PIB)",
+    "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/Cap_Trim/IT_4T_2025.pdf"
+   },
+   "rangos_sugeridos": {
+    "tipo_interes_medio": [
+     0,
+     8
+    ],
+    "crecimiento_nominal": [
+     -4,
+     8
+    ],
+    "saldo_primario": [
+     -6,
+     4
+    ],
+    "anios": [
+     1,
+     30
+    ]
+   },
+   "nota": "Con estos valores la deuda baja unos 2,3 puntos al año mientras r < g. Probar r = 4% y g = 3% muestra cómo se invierte la tendencia."
+  },
+  "pasos_cortos": [
+   {
+    "escena": 0,
+    "titulo": "Gasta más de lo que ingresa",
+    "texto": "Por cada 100 euros que ingresa, el Estado gasta unos 106. La diferencia la pide prestada."
+   },
+   {
+    "escena": 1,
+    "titulo": "Cada año se suma",
+    "texto": "Tras 18 años con déficit, la deuda ha pasado del 36% al 100% del PIB."
+   },
+   {
+    "escena": 2,
+    "titulo": "Los intereses también cuestan",
+    "texto": "Pagar intereses ya cuesta más de 40.000 millones al año."
+   },
+   {
+    "escena": 3,
+    "titulo": "La bola de nieve",
+    "texto": "Si los intereses crecen más rápido que la economía, la deuda engorda sola, aunque no se gaste de más."
+   },
+   {
+    "escena": 5,
+    "titulo": "La única salida",
+    "texto": "Ingresar más de lo que se gasta, sin contar intereses, durante años. Cuanto más se espera, mayor es el esfuerzo: la deuda sigue creciendo mientras tanto."
+   }
+  ]
+ },
+ "incentivos": [
+  {
+   "titulo": "Sesgo deficitario: la democracia en déficit",
+   "texto": "Keynes recomendaba déficits en las crisis y superávits en las épocas buenas. Buchanan y Wagner advirtieron que los políticos aplicarían solo la primera mitad: gastar más o bajar impuestos es popular; hacer lo contrario en los años buenos no lo es. Resultado: déficits casi permanentes. España es un ejemplo: solo tres años con superávit (2005–2007) en el último cuarto de siglo.",
+   "referencia": "Buchanan, J. y Wagner, R. (1977), Democracy in Deficit: The Political Legacy of Lord Keynes"
+  },
+  {
+   "titulo": "El ciclo político-electoral",
+   "texto": "Los gobiernos tienden a aumentar el gasto visible, rebajar impuestos o retrasar ajustes antes de las elecciones, y a ajustar después. La evidencia es más débil en democracias consolidadas con votantes informados, pero los 'presupuestos electorales' siguen siendo frecuentes.",
+   "referencia": "Nordhaus, W. (1975), 'The Political Business Cycle', Review of Economic Studies; Rogoff, K. (1990), 'Equilibrium Political Budget Cycles', AER; Brender y Drazen (2005)"
+  },
+  {
+   "titulo": "El fondo común (tragedia de los comunes)",
+   "texto": "Cada ministerio, región o grupo de presión obtiene íntegro el beneficio de su gasto, pero el coste se reparte entre todos los contribuyentes. Todos piden más y nadie tiene incentivo a frenar. Cuantos más actores deciden el gasto (coaliciones, CCAA), mayor es el sesgo.",
+   "referencia": "Weingast, Shepsle y Johnsen (1981), JPE; von Hagen y Harden (1995), 'Budget processes and commitment to fiscal discipline', EER"
+  },
+  {
+   "titulo": "La guerra de desgaste: nadie quiere pagar el ajuste",
+   "texto": "Todos saben que hay que estabilizar la deuda, pero cada grupo intenta que el coste recaiga sobre otros (pensionistas, funcionarios, empresas, rentas altas, regiones). Mientras se pelean, el ajuste se retrasa y la deuda sigue creciendo. Suele resolverse solo con una crisis o con un gobierno con mayoría clara.",
+   "referencia": "Alesina, A. y Drazen, A. (1991), 'Why Are Stabilizations Delayed?', American Economic Review"
+  },
+  {
+   "titulo": "Endeudarse para atar las manos al rival",
+   "texto": "Un gobierno que teme perder las elecciones puede endeudarse más para limitar lo que podrá hacer su sucesor, o para gastar en sus prioridades antes de irse.",
+   "referencia": "Persson, T. y Svensson, L. (1989), QJE; Alesina, A. y Tabellini, G. (1990), Review of Economic Studies"
+  },
+  {
+   "titulo": "Ilusión fiscal",
+   "texto": "El ciudadano percibe con claridad el beneficio del gasto (una pensión, una carretera, una ayuda), pero no su coste cuando se financia con deuda: no hay un impuesto que lo recuerde. La deuda es el impuesto más invisible y por eso el más fácil de aprobar.",
+   "referencia": "Puviani, A. (1903); Buchanan, J. (1967), Public Finance in Democratic Process"
+  },
+  {
+   "titulo": "El horizonte corto del mandato",
+   "texto": "Una legislatura dura cuatro años; los beneficios de reducir deuda (tipos más bajos, margen para la próxima crisis, sostenibilidad de las pensiones) llegan en diez o veinte. El coste del ajuste lo paga el gobierno que lo hace; el beneficio lo cobra quien venga después.",
+   "referencia": "Persson, T. y Tabellini, G. (2000), Political Economics: Explaining Economic Policy, MIT Press"
+  },
+  {
+   "titulo": "Los que pagarán no votan",
+   "texto": "La deuda de hoy la pagarán, con impuestos o con menos servicios, los jóvenes y quienes aún no han nacido. Los menores de 18 no votan y los jóvenes votan menos. Es una transferencia entre generaciones decidida sin la generación que paga.",
+   "referencia": "Cukierman, A. y Meltzer, A. (1989), 'A Political Theory of Government Debt and Deficits in a Neo-Ricardian Framework', AER; Song, Storesletten y Zilibotti (2012), Econometrica"
+  },
+  {
+   "titulo": "El votante mediano envejece",
+   "texto": "La edad del votante mediano en España ronda ya los 50 años y sigue subiendo. Las pensiones son el mayor gasto público y su revalorización es una de las decisiones más sensibles electoralmente. Ningún partido con aspiraciones de gobierno propone recortarlas, aunque AIReF advierte que el sistema necesitará transferencias crecientes del Estado (hasta el 3% del PIB en 2050).",
+   "referencia": "Browning, E. (1975), 'Why the social insurance budget is too large in a democracy', Economic Inquiry; Galasso y Profeta (2004); AIReF (2026)"
+  },
+  {
+   "titulo": "Fragmentación y coaliciones",
+   "texto": "Los gobiernos de coalición y los parlamentos muy fragmentados tienden a tener más déficit: cada socio exige sus partidas y nadie quiere asumir los recortes. Sin presupuestos aprobados, el gasto se prorroga por inercia y es más difícil reordenarlo.",
+   "referencia": "Roubini, N. y Sachs, J. (1989), European Economic Review; Persson, Roland y Tabellini (2007), QJPS"
+  }
+ ],
+ "el_dilema": {
+  "texto": "Reducir deuda exige subir impuestos, recortar gasto o ambas cosas. A corto plazo eso quita dinero de la economía: si el Estado gasta 1 euro menos, el PIB puede caer entre 0,5 y más de 1,5 euros según el momento (es el 'multiplicador fiscal'). En plena recesión, con tipos de interés en cero y sin posibilidad de devaluar, el multiplicador es alto y el ajuste puede ser contraproducente: la economía cae tanto que la deuda en % del PIB sube en lugar de bajar. Eso ocurrió en buena parte del sur de Europa entre 2010 y 2013. En 2013, Olivier Blanchard y Daniel Leigh, economistas del propio FMI, reconocieron que el FMI había infravalorado los multiplicadores: las previsiones subestimaron sistemáticamente cuánto caería el PIB en los países que más ajustaron. Grecia perdió alrededor de un 25% de su PIB y su deuda pasó de ~127% a más de 175%. Pero el otro lado también tiene argumentos fuertes: con deuda muy alta, un país queda a merced de los mercados, paga más intereses que podría dedicar a servicios, y llega a la siguiente crisis sin margen. Ajustar en fases de crecimiento, de forma gradual y creíble, suele doler mucho menos que hacerlo obligado en mitad de una crisis. El debate serio no es 'ajuste sí o no', sino cuándo, cuánto, a qué ritmo y cómo (qué gastos e impuestos).",
+  "argumentos_contra_ajuste": [
+   "Los multiplicadores fiscales son mayores de lo que se creía en recesiones y con tipos bajos: recortar en mal momento destruye PIB y empleo, y puede subir la ratio de deuda (Blanchard y Leigh, FMI, 2013).",
+   "Mientras el crecimiento nominal supere al tipo de interés (r < g), la deuda baja en % del PIB sin necesidad de grandes recortes; un ajuste brusco puede romper ese círculo virtuoso (Blanchard, 'Public Debt and Low Interest Rates', 2019).",
+   "Recortar inversión pública, educación o I+D reduce el crecimiento futuro y por tanto la capacidad de pagar la deuda: es 'ahorrar' empobreciéndose.",
+   "La austeridad de 2010–2014 tuvo costes sociales profundos (desempleo, emigración juvenil, pobreza, deterioro de servicios) y alimentó el descontento político en Europa.",
+   "España tiene necesidades de gasto crecientes y reconocidas (defensa, vivienda, transición energética, dependencia): ajustar ahora podría desatenderlas.",
+   "El problema puede abordarse por el lado de los ingresos: los ingresos públicos españoles (43% del PIB en 2025, según la IGAE) siguen algo por debajo de la media de la zona euro."
+  ],
+  "argumentos_a_favor": [
+   "Ahora es el momento menos doloroso: la economía crece en torno al 2,5% y el desempleo baja. Ajustar en expansión tiene multiplicadores mucho menores que en recesión (Auerbach y Gorodnichenko, 2012).",
+   "Con deuda cercana al 100% del PIB, España llegaría a la próxima recesión con poco margen: en 2020 la deuda saltó 22 puntos en un año. Sin colchón, la siguiente crisis podría obligar a recortar justo cuando más duele.",
+   "Los intereses ya superan los 40.000 millones anuales y suben con el BCE endureciendo su política (facilidad de depósito al 2,50% en septiembre de 2026): cada euro en intereses es un euro que no va a servicios.",
+   "Algunas consolidaciones basadas sobre todo en recortes de gasto corriente, bien diseñadas y creíbles, han tenido costes de crecimiento pequeños (Alesina, Favero y Giavazzi, Austerity, 2019; casos de Canadá o Suecia en los 90).",
+   "El envejecimiento hará subir el gasto en pensiones, sanidad y dependencia de forma casi automática desde 2035; AIReF proyecta deuda del 123% en 2050 si no se actúa. Retrasar el ajuste lo hace mayor y más injusto para los jóvenes.",
+   "Las nuevas reglas fiscales europeas obligan a España a cumplir una senda de gasto neto; AIReF estima que harán falta medidas por unos 15.000 millones en los próximos años. Incumplir tiene costes de credibilidad y puede abrir un procedimiento de déficit excesivo."
+  ],
+  "referencias": [
+   {
+    "nombre": "Blanchard, O. y Leigh, D. (2013), 'Growth Forecast Errors and Fiscal Multipliers', IMF Working Paper 13/1",
+    "url": "https://www.imf.org/external/pubs/ft/wp/2013/wp1301.pdf"
+   },
+   {
+    "nombre": "Alesina, A., Favero, C. y Giavazzi, F. (2019), Austerity: When It Works and When It Doesn't, Princeton University Press",
+    "url": "https://press.princeton.edu/books/hardcover/9780691172217/austerity"
+   },
+   {
+    "nombre": "Blanchard, O. (2019), 'Public Debt and Low Interest Rates', American Economic Review",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.109.4.1197"
+   }
+  ]
+ },
+ "casos": [
+  {
+   "pais": "Canadá",
+   "periodo": "1995–2000",
+   "que_hicieron": "Tras años de déficit y una deuda federal cercana al 70% del PIB (más del 100% sumando provincias), el ministro Paul Martin aprobó en 1995 una revisión programa a programa del gasto: recortes de cerca del 20% en muchos ministerios, reducción de transferencias y de plantillas, con impuestos apenas tocados.",
+   "resultado": "Superávit federal desde 1997–98; la deuda federal cayó de ~67% a ~30% del PIB en una década. El crecimiento fue robusto, ayudado por una moneda débil, tipos a la baja y el boom de EEUU.",
+   "leccion": "Un ajuste centrado en el gasto, con consenso social previo y un entorno externo favorable, puede reducir deuda sin recesión. El contexto (devaluación, demanda exterior) importó mucho.",
+   "fuente": "FMI, 'Canada: Selected Issues'; Banco de Canadá; Alesina, Favero y Giavazzi (2019)"
+  },
+  {
+   "pais": "Suecia",
+   "periodo": "1991–2000",
+   "que_hicieron": "Tras una crisis bancaria, el déficit llegó al ~11% del PIB en 1993. Hizo un ajuste de ~8 puntos (mitad gasto, mitad impuestos), reformó pensiones (sistema de cuentas nocionales, 1998) e introdujo un marco presupuestario estricto: techo de gasto plurianual y objetivo de superávit.",
+   "resultado": "Superávit desde 1998. Hoy tiene una de las deudas más bajas de Europa (~35% del PIB) y un Estado del bienestar amplio.",
+   "leccion": "Las reglas e instituciones fiscales (techo de gasto, consejo fiscal) blindan lo conseguido. Reducir deuda no exige desmantelar el Estado del bienestar.",
+   "fuente": "OCDE, Economic Surveys: Sweden; Eurostat"
+  },
+  {
+   "pais": "Irlanda",
+   "periodo": "2008–2024",
+   "que_hicieron": "El rescate bancario disparó la deuda del 24% (2007) a ~120% del PIB (2012). Rescate UE-FMI en 2010 con fuerte ajuste. Después, crecimiento muy alto y enormes ingresos del impuesto de sociedades de multinacionales.",
+   "resultado": "Superávit desde 2022; la deuda ha bajado al 37% del PIB (1T 2026), aunque sobre la renta nacional real (GNI*) es bastante mayor.",
+   "leccion": "El crecimiento nominal es la herramienta más potente para reducir la ratio. Pero depende de ingresos volátiles: Irlanda ahorra parte en un fondo soberano por si desaparecen.",
+   "fuente": "Eurostat; Irish Fiscal Advisory Council"
+  },
+  {
+   "pais": "Portugal",
+   "periodo": "2016–2025",
+   "que_hicieron": "Un gobierno socialista apoyado por la izquierda revirtió parte de los recortes del rescate (salarios, pensiones), pero mantuvo control estricto del gasto, recortó inversión pública y usó retenciones de crédito presupuestario. Primer superávit de la democracia en 2019; superávits de nuevo desde 2023.",
+   "resultado": "La deuda bajó de ~131% (2016) a ~91% del PIB (1T 2026), desde el 135% de 2020.",
+   "leccion": "Disciplina presupuestaria y políticas sociales no son incompatibles. Crítica: parte del ajuste vino de inversión pública muy baja, con efectos en servicios.",
+   "fuente": "Eurostat; Conselho das Finanças Públicas"
+  },
+  {
+   "pais": "Grecia",
+   "periodo": "2010–2018",
+   "que_hicieron": "Tras descubrirse que el déficit real era muy superior al declarado (15% del PIB en 2009), recibió tres rescates de la troika (CE, BCE, FMI) a cambio de un ajuste durísimo: recortes de salarios y pensiones, subidas de impuestos, privatizaciones. En 2012 hizo una quita a acreedores privados.",
+   "resultado": "El PIB cayó cerca de un 25%, el paro superó el 27%. La deuda siguió subiendo hasta ~180% del PIB pese a la quita. Desde 2019 crece, tiene superávit primario y su deuda baja rápido (143,5% en 1T 2026), aunque con préstamos europeos a tipos muy bajos y plazos larguísimos.",
+   "leccion": "Esperar a que los mercados cierren el grifo obliga a ajustar en el peor momento posible. Y un ajuste demasiado rápido en recesión profunda puede ser contraproducente (Blanchard y Leigh).",
+   "fuente": "FMI (2017), Ex-post evaluation of Greece; Eurostat"
+  },
+  {
+   "pais": "Italia",
+   "periodo": "1992–2025",
+   "que_hicieron": "Mantiene desde los 90 superávits primarios casi todos los años (más que la mayoría de Europa), pero con un crecimiento muy bajo durante tres décadas.",
+   "resultado": "La deuda no ha bajado del ~100% del PIB en 30 años y está hoy en ~139%. Paga los intereses más altos de la zona euro en % del PIB (~3,9% en 2024).",
+   "leccion": "Sin crecimiento, la austeridad sola no reduce deuda: con r > g, aunque se ahorre, la bola de nieve se come el esfuerzo. Crecimiento y disciplina deben ir juntos.",
+   "fuente": "Eurostat; Banca d'Italia"
+  },
+  {
+   "pais": "Japón",
+   "periodo": "1990–2026",
+   "que_hicieron": "Tras el estallido de su burbuja financió décadas de estímulos fiscales con deuda, mientras el Banco de Japón compraba gran parte de ella y mantenía tipos en cero.",
+   "resultado": "La deuda bruta supera el 200% del PIB (la mayor del mundo desarrollado) sin crisis de deuda, porque se financia en yenes, con ahorro interno y un banco central propio. Desde 2024 el fin de los tipos cero está encareciendo su coste.",
+   "leccion": "Tener moneda y banco central propios y acreedores nacionales permite sostener deudas enormes. España, dentro del euro, no tiene esa opción: su deuda es, en la práctica, en una moneda que no controla.",
+   "fuente": "FMI, Fiscal Monitor 2026; Banco de Japón"
+  },
+  {
+   "pais": "Reino Unido",
+   "periodo": "Sept.–oct. 2022",
+   "que_hicieron": "El Gobierno de Liz Truss anunció un 'mini-presupuesto' con unos 45.000 millones de libras en rebajas de impuestos sin financiar y sin evaluación de la oficina fiscal independiente (OBR).",
+   "resultado": "Los tipos de los bonos se dispararon, la libra cayó a mínimos históricos frente al dólar y los fondos de pensiones entraron en crisis; el Banco de Inglaterra tuvo que intervenir. El Gobierno retiró las medidas y Truss dimitió a los 49 días.",
+   "leccion": "Incluso un país grande con moneda propia puede sufrir un castigo inmediato de los mercados si pierde credibilidad fiscal. La credibilidad es un activo que tarda años en ganarse y días en perderse.",
+   "fuente": "Bank of England, Financial Stability Report (dic. 2022); Office for Budget Responsibility"
+  },
+  {
+   "pais": "Argentina",
+   "periodo": "1990–2024",
+   "que_hicieron": "Ciclos repetidos de déficit financiado con deuda en dólares o con emisión monetaria; nueve impagos soberanos en su historia (el último en 2020). Desde 2024, el gobierno de Javier Milei impuso un ajuste fiscal drástico para lograr superávit.",
+   "resultado": "Las crisis de deuda trajeron hiperinflación, corralito (2001), pobreza masiva y pérdida de acceso a los mercados. El ajuste de 2024 logró superávit fiscal y bajó la inflación, con un coste social alto en el primer año; su sostenibilidad aún se debate.",
+   "leccion": "Cuando la deuda deja de ser creíble, la factura se paga de la peor manera: inflación, impago o ajuste brutal. Cuanto más se espera, más duro es.",
+   "fuente": "FMI, Argentina: Ex-post evaluation; Reinhart y Rogoff (2009), This Time Is Different"
+  }
+ ],
+ "riesgos_espana": [
+  {
+   "titulo": "Subida de tipos de interés",
+   "texto": "El BCE ha vuelto a subir tipos en 2026 por la inflación (la facilidad de depósito pasó al 2,50% en septiembre). El bono español a 10 años ronda el 3,5%, más del doble que antes de la guerra de Ucrania. Como la deuda se renueva poco a poco (vida media de unos 8 años), el coste medio sube con retraso, pero sube: los intereses pasarían de ~2,4% a ~2,9% del PIB en 2029 según AIReF.",
+   "fuente": "BCE; AIReF",
+   "url": "https://www.raisin.com/es-es/noticias/el-bce-sube-tipos-y-situa-el-tipo-de-interes-de-la-facilidad-de-deposito-en-el-2-50/"
+  },
+  {
+   "titulo": "El BCE ya no compra deuda",
+   "texto": "Entre 2015 y 2022 el BCE compró una parte enorme de la deuda española, lo que mantuvo los tipos artificialmente bajos. Desde 2023 no reinvierte los bonos que vencen: ahora la deuda española tiene que venderse a inversores privados, más sensibles al riesgo.",
+   "fuente": "Banco Central Europeo, programas APP y PEPP",
+   "url": "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+  },
+  {
+   "titulo": "Envejecimiento y pensiones",
+   "texto": "Desde mediados de 2030 se jubila la generación del baby boom. AIReF calcula que el gasto bruto en pensiones promediará el 14,6% del PIB hasta 2050 y que el Estado tendrá que transferir a la Seguridad Social hasta un 3% del PIB. A políticas constantes, la deuda volvería a subir al 123% del PIB en 2050.",
+   "fuente": "AIReF, evaluación de la regla de gasto en pensiones (mayo 2026)",
+   "url": "https://www.elindependiente.com/economia/2026/05/29/nuevo-reves-de-la-airef-al-gobierno-cumplir-su-regla-de-gasto-en-pensiones-no-garantiza-la-sostenibilidad/amp/"
+  },
+  {
+   "titulo": "Nuevas reglas fiscales europeas",
+   "texto": "Desde 2024, la UE controla sobre todo el crecimiento del 'gasto primario neto'. España pactó un Plan Fiscal-Estructural de Medio Plazo con un límite de crecimiento del gasto; AIReF y la Comisión estiman que lo superará en 2026 y advierten de desviaciones de más de un punto de PIB en 2027–2028. El Gobierno pidió en abril de 2026 activar la cláusula de escape por defensa. AIReF calcula que hacen falta medidas por unos 15.000 millones.",
+   "fuente": "AIReF (mayo 2026); Oficina Presupuestaria del Congreso",
+   "url": "https://www.elindependiente.com/economia/2026/05/14/airef-advierte-ajuste-necesario-15-000-millones-critica-falta-ambicion-gobierno/amp/"
+  },
+  {
+   "titulo": "Prima de riesgo y confianza",
+   "texto": "Hoy la prima de riesgo española es moderada y menor que la de Francia o Italia, en parte por el buen crecimiento. Pero la historia (2012, Reino Unido 2022) muestra que la confianza puede romperse rápido ante una crisis, inestabilidad política o una política fiscal percibida como irresponsable.",
+   "fuente": "Banco de España, Informe de Estabilidad Financiera",
+   "url": "https://www.bde.es/wbe/es/publicaciones/informes-memorias-anuales/informe-estabilidad-financiera/"
+  },
+  {
+   "titulo": "Sin presupuestos y con más gasto comprometido",
+   "texto": "España funciona con presupuestos prorrogados desde 2023. Al mismo tiempo crecen compromisos de gasto (defensa: hasta el 2% del PIB según la OTAN, que estima 33.123 M€ en 2025 frente a 22.693 M€ en 2024; pensiones indexadas al IPC; intereses). Sin un presupuesto que reordene prioridades, el gasto crece por inercia.",
+   "fuente": "OTAN (2025); Oficina Presupuestaria del Congreso",
+   "url": "https://es.ara.cat/politica/otan-estima-espana-alcanzado-2-pib-defensa_1_5480988.html"
+  },
+  {
+   "titulo": "La próxima crisis",
+   "texto": "En 2020 la deuda saltó del 97,7% al 119,3% del PIB en un solo año. Partiendo del 100%, una recesión similar llevaría a España por encima del 120%, en un entorno de tipos más altos que entonces y sin las compras masivas del BCE.",
+   "fuente": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table"
+  }
+ ],
+ "posicion_partidos": [
+  {
+   "id": "pp",
+   "resumen": "No hay programa de 2026 publicado a fecha de esta edición. En el manifiesto del Partido Popular Europeo que suscribe (2024) se compromete con presupuestos saneados y predecibles conforme a los criterios de Maastricht; propone a la vez rebajas de impuestos a las clases medias. No se ha localizado una senda concreta de reducción de deuda.",
+   "fuente": "Manifiesto PPE 2024 (publicado en pp.es)",
+   "url": "https://www.pp.es/storage/2025/09/Manifesto_2024.pdf",
+   "verificado": "parcial"
+  },
+  {
+   "id": "psoe",
+   "resumen": "Como partido de gobierno, ha presentado a Bruselas el Plan Fiscal-Estructural de Medio Plazo 2025–2028 con una senda de reducción gradual de déficit y deuda bajo las nuevas reglas europeas, y en abril de 2026 solicitó activar la cláusula de escape para gasto en defensa. No hay programa electoral de 2026 publicado a fecha de esta edición.",
+   "fuente": "Oficina Presupuestaria del Congreso, Newsletter 1er semestre 2026",
+   "url": "https://www.congreso.es/docu/docum/NewsletterDAEP1semestre2026_amp.pdf",
+   "verificado": "parcial"
+  },
+  {
+   "id": "vox",
+   "resumen": "Propone elaborar los presupuestos 'desde cero' con tres principios: reducir gasto, reducir déficit y ajustar gasto a ingresos; auditar el gasto no esencial; reducir altos cargos y entes; limitar transferencias a CCAA y ayuntamientos al mínimo constitucional; y eliminar subvenciones a partidos, sindicatos y patronal. A la vez propone rebajas de IRPF, IVA y Sociedades que el propio documento cifra en unos 64.000 M€. No fija un objetivo numérico de deuda.",
+   "fuente": "Vox, Programa Económico y de Vivienda (oct. 2025), pp. 36–40",
+   "url": "https://www.voxespana.es/wp-content/uploads/2025/10/Programa-WEB-021025.pdf",
+   "verificado": "si"
+  },
+  {
+   "id": "sumar",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N. En su programa de 2023 defendía reformar las reglas fiscales europeas para proteger la inversión pública y aumentar ingresos con una reforma fiscal progresiva.",
+   "fuente": "Programa Sumar 2023 (no accesible en la verificación de esta edición)",
+   "url": "https://movimientosumar.es/",
+   "verificado": "no"
+  },
+  {
+   "id": "podemos",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://podemos.info/",
+   "verificado": "no"
+  },
+  {
+   "id": "erc",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N. Su principal demanda fiscal es un nuevo modelo de financiación para Cataluña y la condonación parcial de la deuda autonómica con el Estado (FLA).",
+   "fuente": "Web oficial",
+   "url": "https://www.esquerra.cat/",
+   "verificado": "no"
+  },
+  {
+   "id": "junts",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N. Centra su discurso fiscal en el 'déficit fiscal' de Cataluña y la financiación autonómica.",
+   "fuente": "Web oficial",
+   "url": "https://junts.cat/",
+   "verificado": "no"
+  },
+  {
+   "id": "bildu",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://ehbildu.eus/",
+   "verificado": "no"
+  },
+  {
+   "id": "pnv",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N. Defiende el Concierto Económico vasco, por el que el País Vasco gestiona sus propios impuestos y fija su propio objetivo de déficit pactado.",
+   "fuente": "Web oficial",
+   "url": "https://www.eaj-pnv.eus/",
+   "verificado": "no"
+  },
+  {
+   "id": "salf",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://www.selacabolafiesta.es/",
+   "verificado": "no"
+  },
+  {
+   "id": "bng",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://www.bng.gal/",
+   "verificado": "no"
+  },
+  {
+   "id": "cc",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://www.coalicioncanaria.org/",
+   "verificado": "no"
+  },
+  {
+   "id": "upn",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://www.upn.org/",
+   "verificado": "no"
+  },
+  {
+   "id": "aa",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "",
+   "verificado": "no"
+  },
+  {
+   "id": "aliancacat",
+   "resumen": "No se ha podido verificar en esta edición un texto programático de 2026 sobre déficit o deuda; pendiente de revisión con el programa del 29N.",
+   "fuente": "Web oficial",
+   "url": "https://aliancacatalana.cat/",
+   "verificado": "no"
+  }
+ ],
+ "posicion_partidos_nota": "Solo se recoge lo que cada partido dice, sin valorarlo. Que un partido no incluya propuestas concretas sobre deuda también es información relevante. Se actualizará cuando se publiquen los programas del 29N.",
+ "preguntas_para_el_votante": [
+  "¿Su programa dice cuánto costarán sus propuestas y cómo se pagarán: con más impuestos (¿a quién?), con menos gasto (¿en qué?) o con más deuda?",
+  "¿En qué año promete que España tendrá un saldo primario positivo, y con qué medidas concretas?",
+  "Si los tipos de interés suben un punto, la factura de intereses acaba creciendo en unos 17.000 millones al año. ¿Qué gasto o impuesto ajustaría para compensarlo?",
+  "¿Cómo garantizará las pensiones de los que hoy tienen 30 años sin trasladarles una deuda mayor?",
+  "¿Cumplirá la senda de gasto pactada con la Unión Europea? Si no, ¿qué hará cuando Bruselas lo exija?",
+  "¿Aprobará presupuestos generales en su primer año de gobierno, y con qué apoyos?",
+  "¿Qué haría en la próxima recesión si la deuda sigue cerca del 100% del PIB?"
+ ],
+ "glosario": [
+  {
+   "termino": "Deuda pública",
+   "definicion": "Todo lo que deben las Administraciones Públicas (Estado, comunidades autónomas, ayuntamientos y Seguridad Social) a sus acreedores, principalmente en forma de bonos, obligaciones y letras."
+  },
+  {
+   "termino": "Déficit público",
+   "definicion": "Diferencia, en un año, entre lo que gastan las Administraciones y lo que ingresan, cuando se gasta más. Se cubre emitiendo deuda. Si se ingresa más, es superávit."
+  },
+  {
+   "termino": "Saldo primario",
+   "definicion": "El saldo público sin contar el pago de intereses. Indica si el Estado vive por encima o por debajo de sus ingresos en su gasto 'corriente', con independencia de la deuda heredada."
+  },
+  {
+   "termino": "Efecto bola de nieve",
+   "definicion": "Crecimiento automático de la deuda cuando el tipo de interés medio supera al crecimiento nominal de la economía: los intereses se pagan con más deuda, que genera más intereses."
+  },
+  {
+   "termino": "Crecimiento nominal",
+   "definicion": "Crecimiento del PIB en euros corrientes: crecimiento real más inflación. Es el que importa para la ratio deuda/PIB."
+  },
+  {
+   "termino": "Coste medio de la deuda",
+   "definicion": "Tipo de interés medio que paga el Tesoro por toda la deuda viva, que mezcla bonos antiguos (baratos o caros) con los recién emitidos."
+  },
+  {
+   "termino": "Prima de riesgo",
+   "definicion": "Diferencia entre el interés que pagan los bonos españoles a 10 años y los alemanes, considerados los más seguros de la zona euro. Mide la desconfianza de los inversores."
+  },
+  {
+   "termino": "Multiplicador fiscal",
+   "definicion": "Cuánto cambia el PIB por cada euro de más (o de menos) de gasto público o impuestos. Suele ser mayor en recesión que en expansión."
+  },
+  {
+   "termino": "Austeridad / consolidación fiscal",
+   "definicion": "Conjunto de subidas de impuestos y recortes de gasto destinados a reducir el déficit y la deuda."
+  },
+  {
+   "termino": "Protocolo de Déficit Excesivo (PDE)",
+   "definicion": "Criterio europeo común para medir deuda y déficit y procedimiento de vigilancia que se abre a los países que superan el 3% de déficit."
+  },
+  {
+   "termino": "Plan Fiscal-Estructural de Medio Plazo",
+   "definicion": "Compromiso de 4–7 años que cada país pacta con la Comisión Europea bajo las reglas fiscales vigentes desde 2024. Fija un límite al crecimiento anual del gasto primario neto."
+  },
+  {
+   "termino": "Gasto primario neto",
+   "definicion": "Gasto público sin intereses, sin gasto cíclico por desempleo y descontando las medidas de ingresos. Es la variable que vigila ahora Bruselas."
+  },
+  {
+   "termino": "Cláusula de escape",
+   "definicion": "Excepción de las reglas fiscales europeas que permite gastar más en circunstancias concretas (crisis grave o, desde 2025, aumento del gasto en defensa)."
+  },
+  {
+   "termino": "AIReF",
+   "definicion": "Autoridad Independiente de Responsabilidad Fiscal: organismo público independiente que vigila las cuentas públicas y el cumplimiento de las reglas fiscales en España."
+  },
+  {
+   "termino": "Ilusión fiscal",
+   "definicion": "Tendencia de los ciudadanos a percibir los beneficios del gasto público pero no su coste cuando se financia con deuda o impuestos poco visibles."
+  },
+  {
+   "termino": "Equidad intergeneracional",
+   "definicion": "Reparto justo de cargas y beneficios entre generaciones. La deuda traslada parte del coste del gasto actual a contribuyentes futuros."
+  }
+ ],
+ "fuentes": [
+  {
+   "nombre": "Banco de España — Deuda AAPP según PDE, avance mensual julio 2026",
+   "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-julio26.html"
+  },
+  {
+   "nombre": "Banco de España — Deuda AAPP, 2º trimestre 2026",
+   "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-2026t2.html"
+  },
+  {
+   "nombre": "IGAE — Cuentas trimestrales AAPP, 4T 2025",
+   "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/Cap_Trim/IT_4T_2025.pdf"
+  },
+  {
+   "nombre": "IGAE — Clasificación funcional del gasto (COFOG) 2020–2024",
+   "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AAPP_A/Funcional%202020-2024.pdf"
+  },
+  {
+   "nombre": "Eurostat — Government debt Q1 2026 (nota de prensa 21/07/2026)",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+  },
+  {
+   "nombre": "Eurostat — gov_10dd_edpt1 (deuda, déficit e intereses)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table"
+  },
+  {
+   "nombre": "Congreso — Oficina Presupuestaria, Newsletter 1er semestre 2026",
+   "url": "https://www.congreso.es/docu/docum/NewsletterDAEP1semestre2026_amp.pdf"
+  },
+  {
+   "nombre": "AIReF — Informe de progreso del PFEMP (mayo 2026), vía El Independiente",
+   "url": "https://www.elindependiente.com/economia/2026/05/14/airef-advierte-ajuste-necesario-15-000-millones-critica-falta-ambicion-gobierno/amp/"
+  },
+  {
+   "nombre": "AIReF — Evaluación de la regla de gasto en pensiones (mayo 2026), vía El Independiente",
+   "url": "https://www.elindependiente.com/economia/2026/05/29/nuevo-reves-de-la-airef-al-gobierno-cumplir-su-regla-de-gasto-en-pensiones-no-garantiza-la-sostenibilidad/amp/"
+  },
+  {
+   "nombre": "AIReF — Opinión de sostenibilidad a largo plazo (marzo 2025), vía El Independiente",
+   "url": "https://www.elindependiente.com/economia/2025/04/01/autoridad-fiscal-alerta-deuda-podria-llegar-181-pib-2070/amp/"
+  },
+  {
+   "nombre": "AIReF — Proyección de intereses vs. educación, vía Vozpópuli",
+   "url": "https://www.vozpopuli.com/economia/alerta-de-la-airef-espana-gastara-en-intereses-de-la-deuda-el-doble-que-en-educacion.html"
+  },
+  {
+   "nombre": "AIReF — Previsiones julio 2026, vía Onda Vasca",
+   "url": "https://www.ondavasca.com/la-airef-eleva-el-crecimiento-previsto-al-25-y-mantiene-el-deficit-en-el-26/"
+  },
+  {
+   "nombre": "Tesoro Público — coste medio de la deuda, vía Vozpópuli (dic. 2025)",
+   "url": "https://www.vozpopuli.com/economia/banca/el-gobierno-paga-el-mayor-interes-en-siete-anos-por-la-deuda-en-circulacion-tras-renunciar-a-los-creditos-ue-.html"
+  },
+  {
+   "nombre": "Previsión de intereses 2026 del Gobierno, vía El Debate (jun. 2026)",
+   "url": "https://www.eldebate.com/economia/20260610/pagar-deuda-disparado-sanchez-costara-educacion-decadas_426776.html"
+  },
+  {
+   "nombre": "FMI — Fiscal Monitor abril 2026",
+   "url": "https://www.imf.org/en/Publications/FM/Issues/2026/04/15/fiscal-monitor-april-2026"
+  },
+  {
+   "nombre": "FMI — Previsiones de deuda 2026 por país, vía Business Today",
+   "url": "https://www.businesstoday.in/world/us/story/countries-with-the-most-government-debt-in-2026-where-india-stands-in-the-global-rankings-544620-2026-07-22"
+  },
+  {
+   "nombre": "OTAN — Gasto en defensa España 2025, vía Ara",
+   "url": "https://es.ara.cat/politica/otan-estima-espana-alcanzado-2-pib-defensa_1_5480988.html"
+  },
+  {
+   "nombre": "BCE — Subida de tipos septiembre 2026, vía Raisin",
+   "url": "https://www.raisin.com/es-es/noticias/el-bce-sube-tipos-y-situa-el-tipo-de-interes-de-la-facilidad-de-deposito-en-el-2-50/"
+  },
+  {
+   "nombre": "Instituto Juan de Mariana — Día de la Deuda 2025 (datos Eurostat)",
+   "url": "https://juandemariana.org/wp-content/uploads/2025/11/DIA-DE-LA-DEUDA-2025-B2.pdf"
+  },
+  {
+   "nombre": "Blanchard y Leigh (2013), FMI WP 13/1",
+   "url": "https://www.imf.org/external/pubs/ft/wp/2013/wp1301.pdf"
+  }
+ ],
+ "actualizado": "2026-10-21",
+ "limitaciones": "Las proyecciones de AIReF citadas proceden de prensa que resume sus informes. Las posiciones de varios partidos no se han podido verificar contra su programa 2026 (no publicado o no accesible) y están marcadas como 'verificado: no'. La población usada para la deuda por habitante es aproximada.",
+ "titular_corto": "La deuda pública",
+ "entradilla_corta": "España debe 1,74 billones de euros: el 99,9% de todo lo que produce en un año. Lleva 18 años seguidos gastando más de lo que ingresa.",
+ "te_afecta": [
+  {
+   "valor": "40.314 M€",
+   "titulo": "Intereses cada año",
+   "texto": "Es casi el triple de lo que se gasta en defensa y el 61% de lo que se gasta en educación. Es dinero que no paga ningún servicio.",
+   "fuente": "IGAE, 2025",
+   "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/Cap_Trim/IT_4T_2025.pdf"
+  },
+  {
+   "valor": "206.000 vs 177.000 M€",
+   "titulo": "Pensiones frente a cotizaciones",
+   "texto": "Lo que se cotiza no cubre lo que se paga en pensiones. La diferencia sale de impuestos o de más deuda.",
+   "fuente": "Oficina Presupuestaria del Congreso",
+   "url": "https://www.congreso.es/docu/docum/NewsletterDAEP1semestre2026_amp.pdf"
+  },
+  {
+   "valor": "123%",
+   "titulo": "Deuda prevista en 2050",
+   "texto": "Es la proyección de la AIReF si no cambian las políticas, por el envejecimiento. Más deuda significa más intereses y menos margen.",
+   "fuente": "AIReF (vía prensa)",
+   "url": "https://www.elindependiente.com/economia/2025/04/01/autoridad-fiscal-alerta-deuda-podria-llegar-181-pib-2070/amp/"
+  }
+ ],
+ "por_que_nadie_la_baja": [
+  "Gastar más o bajar impuestos se nota hoy y da votos. Reducir el déficit se nota hoy y quita votos.",
+  "Los beneficios de reducir deuda llegan años después, muchas veces a otro Gobierno.",
+  "Ajustar de golpe puede frenar la economía. No ajustar nunca deja una deuda que crece sola con los intereses."
+ ]
+}

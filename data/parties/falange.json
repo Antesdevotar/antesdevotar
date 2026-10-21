@@ -1,0 +1,422 @@
+{
+ "id": "falange",
+ "nombre": "Falange Española de las JONS",
+ "siglas": "FE de las JONS",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar",
+ "ideologia": "Extrema derecha (falangista, nacionalsindicalista)",
+ "ambito": "Estatal",
+ "color": "#C8102E",
+ "color_aproximado": true,
+ "web": "https://falange.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido falangista refundado en 1976 que se presenta como alternativa al «Régimen del 78» y como movimiento «soberanista». Según sus materiales y la prensa, prioriza la «remigración», la vivienda social, la salida de la UE, del euro y de la OTAN y la nacionalización de la banca.",
+ "fuentes_programa": [
+  {
+   "titulo": "«Nuestras ideas» (web oficial)",
+   "url": "https://falange.es/nuestras-ideas/",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "«Quiénes somos» (web oficial)",
+   "url": "https://falange.es/quienes-somos/",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "Los partidos pequeños buscan su hueco el 29-N (El Confidencial Digital)",
+   "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+   "fecha": "2026-10-18"
+  },
+  {
+   "titulo": "La ultraderecha minoritaria mira a las urnas (Público)",
+   "url": "https://www.publico.es/politica/ultraderecha-minoritaria-mira-urnas-argumentos-xenofobos-acusaciones-pucherazo.html",
+   "fecha": "2026-10-12"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "El Confidencial Digital",
+  "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+  "fecha": "2026-10-18"
+ },
+ "circunscripciones": [
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.02,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Resultados oficiales recopilados en Wikipedia, «2023 Spanish general election»",
+   "url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+  },
+  "nota": "4.683 votos al Congreso. En las europeas de 2024 obtuvo 9.677 votos (0,06 %)."
+ },
+ "propuestas": [
+  {
+   "id": "falange-ext-01",
+   "area": "exterior",
+   "texto": "Salir de la Unión Europea, del euro y de la OTAN.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-ext-02",
+   "area": "exterior",
+   "texto": "Revisar todos los tratados internacionales y abandonar los que perjudiquen la «independencia política y económica» de España.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-ext-03",
+   "area": "exterior",
+   "texto": "No participar en los conflictos de Europa del Este y Oriente Medio («No es nuestra guerra»).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-eco-01",
+   "area": "economia",
+   "texto": "Modelo «nacionalsindicalista» que sitúe al trabajador en el centro y desmonte gradualmente el capitalismo, sin «terapias de choque».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-eco-02",
+   "area": "economia",
+   "texto": "Nacionalizar la banca y el crédito para controlar el dinero en circulación y facilitar créditos para vivienda y emprendimiento.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-eco-03",
+   "area": "economia",
+   "texto": "Nacionalización o participación estatal en comunicaciones, transportes, energía e industria militar.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-eco-04",
+   "area": "economia",
+   "texto": "«Rebaja fiscal drástica», con optimización de sanidad, educación y transporte públicos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-eco-05",
+   "area": "economia",
+   "texto": "Exenciones y rebajas fiscales para pymes y autónomos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-dem-01",
+   "area": "demografia",
+   "texto": "«Coeficiente familiar» en el IRPF, con rebajas y exenciones para las familias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-dem-02",
+   "area": "demografia",
+   "texto": "Plan nacional de natalidad que premie a las familias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-inm-01",
+   "area": "inmigracion",
+   "texto": "«Remigración»: devolver a sus países de origen a «millones de personas» que considera no integradas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-inm-02",
+   "area": "inmigracion",
+   "texto": "Frenar lo que llama «invasión migratoria», acabar con la «política de puertas abiertas» y las regularizaciones y defender las fronteras.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-viv-01",
+   "area": "vivienda",
+   "texto": "Vivienda como derecho social y no como activo especulativo; la vivienda social es una de sus prioridades de campaña.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Confidencial Digital, 18-10-2026",
+    "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+    "fecha": "2026-10-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-ter-01",
+   "area": "territorio",
+   "texto": "Defender la unidad de España y oponerse a cualquier secesión.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-ins-01",
+   "area": "instituciones",
+   "texto": "Superar el «Régimen del 78» y la «división artificial» en clases sociales, partidos políticos y separatismos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "falange-igu-01",
+   "area": "igualdad",
+   "texto": "Preservar el sistema de protección social (pensiones, sanidad pública, vivienda, seguros sociales).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Nuestras ideas» (web oficial)",
+    "url": "https://falange.es/nuestras-ideas/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-cul-01",
+   "area": "cultura",
+   "texto": "Defender la identidad, la cultura y las tradiciones españolas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-ene-01",
+   "area": "energia",
+   "texto": "Soberanía energética y militar.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-rur-01",
+   "area": "rural",
+   "texto": "Impulsar la agricultura y la industria nacionales y la seguridad en el empleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, «Quiénes somos» (web oficial)",
+    "url": "https://falange.es/quienes-somos/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "falange-seg-01",
+   "area": "seguridad",
+   "texto": "«Calles más seguras» y campaña contra la droga.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "FE de las JONS, materiales de campaña (web oficial, octubre de 2026)",
+    "url": "https://falange.es/documentos/",
+    "fecha": "2026-10"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Salir de la UE y del euro",
+    "texto": "Abandonar el euro obligaría a redenominar deuda, depósitos y contratos, con riesgo de devaluación y de fuga de capitales. La experiencia británica, sin cambio de moneda, ya sugiere una caída a largo plazo de la productividad del 4 % y del comercio en torno al 15 %.",
+    "sobre": [
+     "falange-ext-01"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   },
+   {
+    "titulo": "Nacionalizar la banca y bajar impuestos a la vez",
+    "texto": "Nacionalizar la banca y los sectores estratégicos exige indemnizar a sus propietarios (art. 33.3 CE), y el partido lo combina con una «rebaja fiscal drástica» sin cifrar cómo se financiaría, con una deuda pública cercana al 100 % del PIB.",
+    "sobre": [
+     "falange-eco-02",
+     "falange-eco-03",
+     "falange-eco-04"
+    ],
+    "fuente": {
+     "nombre": "FMI, consultas del Artículo IV con España",
+     "url": "https://www.imf.org/en/Countries/ESP"
+    }
+   },
+   {
+    "titulo": "«Remigración» y población activa",
+    "texto": "Fedea estima que la inmigración compensó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019. Expulsar a «millones» reduciría la población activa y las cotizaciones que sostienen el sistema de protección social que el partido dice querer preservar.",
+    "sobre": [
+     "falange-inm-01",
+     "falange-igu-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026)",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Expulsar a quien se considere «no integrado»",
+    "texto": "El criterio de «no integración» no está definido y alcanzaría a residentes legales y a sus hijos, muchos nacidos o escolarizados en España, separando familias y afectando a trabajadores de sectores que dependen de la mano de obra extranjera.",
+    "sobre": [
+     "falange-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración y mercado de trabajo: revisión y evidencia para España",
+     "url": "https://fedea.net/inmigracion-y-mercado-de-trabajo-revision-y-evidencia-para-espana/"
+    }
+   },
+   {
+    "titulo": "Vivienda social sin medidas concretas",
+    "texto": "La vivienda social figura como prioridad, pero el partido no ha publicado cuántas viviendas, con qué financiación ni con qué criterios de acceso, lo que impide valorar su efecto.",
+    "sobre": [
+     "falange-viv-01"
+    ],
+    "fuente": {
+     "nombre": "El Confidencial Digital, 18-10-2026",
+     "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+     "fecha": "2026-10-18"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Rechazo del pluralismo de partidos",
+    "texto": "Plantea superar la «división artificial» en partidos políticos y el «Régimen del 78». El pluralismo político es un valor superior de la Constitución y los partidos son su cauce fundamental; su supresión supondría un cambio de régimen, no una reforma.",
+    "sobre": [
+     "falange-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "«Invasión migratoria» y «remigración»",
+    "texto": "Presentar la inmigración como una «invasión» y defender la «remigración», término que comparte con otros grupos de extrema derecha europeos, convierte a la población inmigrante en un problema colectivo y no en individuos con derechos y obligaciones.",
+    "sobre": [
+     "falange-inm-01",
+     "falange-inm-02"
+    ],
+    "fuente": {
+     "nombre": "Público, 12-10-2026",
+     "url": "https://www.publico.es/politica/ultraderecha-minoritaria-mira-urnas-argumentos-xenofobos-acusaciones-pucherazo.html",
+     "fecha": "2026-10-12"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Choque frontal con derechos fundamentales: la «remigración» de «millones» de personas por no estar «integradas» supone expulsiones colectivas que alcanzarían también a residentes legales y, previsiblemente, a españoles. Preocupación seria por su rechazo al pluralismo de partidos, aunque proponerlo no está prohibido (STC 48/2003), y por la condena firme de quien la prensa presenta como su líder por el asalto a Blanquerna. Salir de la UE, del euro y de la OTAN o nacionalizar con indemnización son opciones legítimas.",
+  "criticas": [
+   {
+    "titulo": "«Remigración» de millones de personas",
+    "texto": "Devolver a sus países a «millones» por no estar «integrados» es una expulsión por grupos sin examen individual, prohibida por el CEDH, y alcanzaría a residentes de larga duración, que solo pueden ser expulsados si suponen una amenaza grave y real. Si incluye a españoles, la Constitución prohíbe privar de la nacionalidad a los españoles de origen. Es el mismo test aplicado a Vox.",
+    "gravedad": "alta",
+    "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa c. Italia (Gran Sala, 2012); Carta UE, art. 19; Directiva 2003/109/CE, art. 12; art. 11.2 CE",
+    "sobre": [
+     "falange-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+     "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+    }
+   },
+   {
+    "titulo": "Superar los partidos y el «Régimen del 78»",
+    "texto": "El TC estableció que en España se puede defender cualquier proyecto, incluido cambiar el régimen, por vías pacíficas y por la reforma constitucional (no es una «democracia militante»). Pero suprimir el pluralismo de partidos chocaría con el núcleo del orden constitucional y con el derecho a elecciones libres. Como el partido no concreta medidas, se valora como riesgo serio y no como vulneración.",
+    "gravedad": "media",
+    "criterio": "Arts. 1.1, 6 y 168 CE; STC 48/2003; CEDH, Protocolo 1, art. 3",
+    "sobre": [
+     "falange-ins-01"
+    ],
+    "fuente": {
+     "nombre": "STC 48/2003 (BOE, Tribunal Constitucional)",
+     "url": "https://hj.tribunalconstitucional.es/HJ/docs/BOE/BOE-T-2003-5300.pdf"
+    }
+   },
+   {
+    "titulo": "Condena firme de su líder por el asalto a Blanquerna",
+    "texto": "Manuel Andrino, a quien Público presenta en 2026 como líder de Falange, fue condenado en firme por el Supremo (2020) a 2 años y 7 meses por desórdenes públicos y un delito contra el derecho de reunión por el asalto de 2013 al acto de la Diada en el centro Blanquerna de Madrid. Su partido, La Falange, se integró en FE de las JONS en 2024.",
+    "gravedad": "media",
+    "criterio": "Arts. 16 y 21 CE; Tribunal Supremo, Sala Segunda, sentencia de julio de 2020 (caso Blanquerna)",
+    "sobre": [],
+    "fuente": {
+     "nombre": "El Salto, sentencia del Supremo sobre el asalto a Blanquerna (23-7-2020)",
+     "url": "https://www.elsaltodiario.com/extrema-derecha/supremo-condena-asaltaron-blanquerna-2013-penas-hasta-2-anos-9-meses"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

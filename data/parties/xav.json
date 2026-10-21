@@ -1,0 +1,103 @@
+{
+ "id": "xav",
+ "nombre": "Por Ávila",
+ "siglas": "XAV",
+ "concurre": false,
+ "candidato": "No concurre a las generales del 29N (cabeza de lista autonómica: Pedro Pascual)",
+ "ideologia": "Localista de centroderecha",
+ "ambito": "Ávila",
+ "color": "#F2C200",
+ "color_aproximado": true,
+ "web": null,
+ "escanos_2023": 0,
+ "resumen": "Partido localista escindido del PP en 2019 que gobierna el Ayuntamiento de Ávila. No se presenta al 29N: su comité ejecutivo lo descartó el 10-10-2026 porque, a su juicio, la campaña es un plebiscito sobre Pedro Sánchez que no abordará los problemas de la provincia (El Español).",
+ "fuentes_programa": [
+  {
+   "nombre": "El Español, 10-10-2026: Por Ávila descarta concurrir a las elecciones generales del 29 de noviembre",
+   "url": "https://www.elespanol.com/castilla-y-leon/region/avila/20261010/avila-descarta-concurrir-elecciones-generales-noviembre-plantea-pedro-sanchez-no/1003744416323_0.html",
+   "fecha": "2026-10-10"
+  },
+  {
+   "nombre": "TiétarTeVe: candidatura de Por Ávila a las autonómicas de Castilla y León 2026",
+   "url": "https://tietarteve.com/candidatura-por-avila-elecciones-autonomicas-cyl/",
+   "fecha": "2026-02-06"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": null,
+ "estado_fuente": {
+  "nombre": "El Español, 10-10-2026: Por Ávila descarta concurrir a las elecciones generales del 29 de noviembre",
+  "url": "https://www.elespanol.com/castilla-y-leon/region/avila/20261010/avila-descarta-concurrir-elecciones-generales-noviembre-plantea-pedro-sanchez-no/1003744416323_0.html",
+  "fecha": "2026-10-10"
+ },
+ "circunscripciones": [],
+ "referencia_voto": {
+  "eleccion": "Generales noviembre 2019",
+  "porcentaje": 0.39,
+  "ambito": "Castilla y León",
+  "fuente": {
+   "nombre": "Wikipedia, For Ávila (5.416 votos; solo se presentó en Ávila)",
+   "url": "https://en.wikipedia.org/wiki/For_%C3%81vila"
+  },
+  "nota": "No se presentó a las generales de 2023. El porcentaje está calculado sobre Castilla y León, aunque solo concurrió en la provincia de Ávila."
+ },
+ "propuestas": [
+  {
+   "id": "xav-san-01",
+   "area": "sanidad",
+   "texto": "Unidad de ictus en el hospital de Ávila (iniciativa defendida en las Cortes de Castilla y León).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "TiétarTeVe: candidatura de Por Ávila a las autonómicas de Castilla y León 2026",
+    "url": "https://tietarteve.com/candidatura-por-avila-elecciones-autonomicas-cyl/",
+    "fecha": "2026-02-06"
+   }
+  },
+  {
+   "id": "xav-san-02",
+   "area": "sanidad",
+   "texto": "Helipuerto sanitario y mejora del transporte sanitario en la provincia.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "TiétarTeVe: candidatura de Por Ávila a las autonómicas de Castilla y León 2026",
+    "url": "https://tietarteve.com/candidatura-por-avila-elecciones-autonomicas-cyl/",
+    "fecha": "2026-02-06"
+   }
+  },
+  {
+   "id": "xav-san-03",
+   "area": "sanidad",
+   "texto": "Hospital de día oncohematológico en Ávila.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "TiétarTeVe: candidatura de Por Ávila a las autonómicas de Castilla y León 2026",
+    "url": "https://tietarteve.com/candidatura-por-avila-elecciones-autonomicas-cyl/",
+    "fecha": "2026-02-06"
+   }
+  },
+  {
+   "id": "xav-ter-01",
+   "area": "territorio",
+   "texto": "Una voz independiente para Ávila que no siga directrices de Madrid ni de Valladolid.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "TiétarTeVe: candidatura de Por Ávila a las autonómicas de Castilla y León 2026",
+    "url": "https://tietarteve.com/candidatura-por-avila-elecciones-autonomicas-cyl/",
+    "fecha": "2026-02-06"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [],
+  "social": [],
+  "cultural": []
+ },
+ "derecho": {
+  "valoracion": "No concurre al 29N; no se evalúa.",
+  "criticas": [],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

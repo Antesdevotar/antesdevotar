@@ -1,0 +1,631 @@
+{
+  "id": "pnv",
+  "nombre": "Partido Nacionalista Vasco / Euzko Alderdi Jeltzalea",
+  "siglas": "EAJ-PNV",
+  "candidato": "Maribel Vaquero (portavoz en el Congreso, cabeza de lista por Gipuzkoa); Idoia Sagastizabal (Bizkaia) y Gorka Urtaran (Araba)",
+  "ideologia": "Nacionalismo vasco democristiano y de centro",
+  "ambito": "País Vasco",
+  "color": "#008135",
+  "web": "https://www.eaj-pnv.eus",
+  "escanos_2023": 5,
+  "resumen": "Partido nacionalista vasco de centro, presidido por Aitor Esteban, que gobierna el País Vasco y apoyó la investidura de Sánchez en 2023. Prioriza el autogobierno (nuevo Estatuto, traspaso de la Seguridad Social, Concierto Económico), la industria y la estabilidad del sistema de pensiones.",
+  "fuentes_programa": [
+    {
+      "nombre": "Programa EAJ-PNV 'Con voz propia', Generales 23J",
+      "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+      "fecha": "2023-07"
+    },
+    {
+      "nombre": "Fedea, El contenido económico de los pactos de investidura (acuerdo PSOE-PNV)",
+      "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf",
+      "fecha": "2023-11"
+    },
+    {
+      "nombre": "Onda Vasca, Aitor Esteban, 31/03/2025",
+      "url": "https://www.ondavasca.com/esteban-estrena-su-mandato-nombrando-a-vaquero-portavoz-del-pnv-en-madrid/",
+      "fecha": "2025-03"
+    },
+    {
+      "nombre": "EAJ-PNV, sala de prensa (octubre 2026)",
+      "url": "https://www.eaj-pnv.eus/es/noticias",
+      "fecha": "2026-10"
+    }
+  ],
+  "programa_2026_publicado": false,
+  "propuestas": [
+    {
+      "id": "pnv-ter-01",
+      "area": "territorio",
+      "texto": "Reconocer la nación vasca y la bilateralidad en la relación con el Estado.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-ter-02",
+      "area": "territorio",
+      "texto": "Un nuevo Estatuto para Euskadi acordado en el Parlamento Vasco y ratificado por Congreso y Senado.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Onda Vasca, Aitor Esteban, 31/03/2025",
+        "url": "https://www.ondavasca.com/esteban-estrena-su-mandato-nombrando-a-vaquero-portavoz-del-pnv-en-madrid/",
+        "fecha": "2025-03"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-ter-03",
+      "area": "territorio",
+      "texto": "Transferir la gestión del régimen económico de la Seguridad Social, prevista en el Estatuto de Gernika.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-ter-04",
+      "area": "territorio",
+      "texto": "Acuerdo de investidura 2023: traspaso de la gestión económica de la Seguridad Social en dos años y pago por el Estado del 50% del nivel básico de dependencia.",
+      "origen": "accion",
+      "fuente": {
+        "nombre": "Fedea, El contenido económico de los pactos de investidura (acuerdo PSOE-PNV)",
+        "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf",
+        "fecha": "2023-11"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ter-05",
+      "area": "territorio",
+      "texto": "Defender el Concierto Económico y el Estatuto de Gernika frente a la recentralización.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 3",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-ter-06",
+      "area": "territorio",
+      "texto": "Que los vecinos de Treviño y Villaverde de Trucíos puedan pronunciarse sobre su situación territorial.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ter-07",
+      "area": "territorio",
+      "texto": "Exigir el cumplimiento de todos los compromisos del Gobierno con Navarra, como el traspaso de I+D+i.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "EAJ-PNV, sala de prensa (octubre 2026)",
+        "url": "https://www.eaj-pnv.eus/es/noticias",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-inm-01",
+      "area": "inmigracion",
+      "texto": "Transferir a la CAV las políticas migratorias.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 11",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ins-01",
+      "area": "instituciones",
+      "texto": "Crear un Consejo Vasco de Justicia y que el TSJ del País Vasco sea la última instancia judicial en Euskadi.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 9",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-01",
+      "area": "economia",
+      "texto": "Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-eco-02",
+      "area": "economia",
+      "texto": "Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 16",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-03",
+      "area": "economia",
+      "texto": "Tramitar como impuestos, y no como prestaciones patrimoniales, los gravámenes temporales a energéticas y banca, para que puedan concertarse.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 17",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-04",
+      "area": "economia",
+      "texto": "Concertar el Impuesto sobre la Renta de No Residentes (acuerdo de investidura).",
+      "origen": "accion",
+      "fuente": {
+        "nombre": "Fedea, El contenido económico de los pactos de investidura (acuerdo PSOE-PNV)",
+        "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf",
+        "fecha": "2023-11"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-05",
+      "area": "economia",
+      "texto": "Impulsar PERTE regionales y cogestionar los proyectos tractores en los PERTE estatales.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 16",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-06",
+      "area": "economia",
+      "texto": "Eliminar los controles adicionales que España añadió a los fondos Next Generation y adaptar su reparto a cada comunidad.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 16",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-eco-07",
+      "area": "economia",
+      "texto": "Transferencias de renta a las familias más vulnerables mientras persista la subida de tipos de interés.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 19",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-deu-01",
+      "area": "deuda",
+      "texto": "Sendas de déficit diferenciadas por comunidad, negociadas bilateralmente e incluidas en la Ley de Estabilidad.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-deu-02",
+      "area": "deuda",
+      "texto": "Excluir de las reglas de gasto la inversión en transición ecológica y digital.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-emp-01",
+      "area": "empleo",
+      "texto": "Marco propio vasco de relaciones laborales y prevalencia de los convenios autonómicos más favorables.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 29",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "pnv-emp-02",
+      "area": "empleo",
+      "texto": "Ampliar la cobertura por desempleo hasta 36 meses ligada a procesos de empleabilidad.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 31",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-emp-03",
+      "area": "empleo",
+      "texto": "Extender la FP dual a todos los niveles.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 30",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-emp-04",
+      "area": "empleo",
+      "texto": "Elevar la reserva de empleo público para personas con discapacidad.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 31",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-pen-01",
+      "area": "pensiones",
+      "texto": "Sistema público de pensiones con fuentes de financiación ciertas y prestaciones no contributivas a cargo del Estado.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-pen-02",
+      "area": "pensiones",
+      "texto": "Desarrollar un sistema vasco de previsión social.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-pen-03",
+      "area": "pensiones",
+      "texto": "Oponerse a cualquier marcha atrás del PP en el sistema de pensiones.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "EAJ-PNV, sala de prensa (octubre 2026)",
+        "url": "https://www.eaj-pnv.eus/es/noticias",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-viv-01",
+      "area": "vivienda",
+      "texto": "Critica la Ley estatal de Vivienda de 2023 por sus efectos sobre el mercado del alquiler.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "EAJ-PNV, sala de prensa (octubre 2026)",
+        "url": "https://www.eaj-pnv.eus/es/noticias",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-01",
+      "area": "energia",
+      "texto": "Mantener el bono social eléctrico y el bono social térmico.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 20",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-02",
+      "area": "energia",
+      "texto": "Prioridad de acceso a la red para las comunidades energéticas y contratos PPA con garantía del Estado.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 21",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-03",
+      "area": "energia",
+      "texto": "Impulsar un sector propio de hidrógeno verde.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 24",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-04",
+      "area": "energia",
+      "texto": "Energía asequible y competitiva para la industria; enmienda a la ley europea de aceleración industrial.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "EAJ-PNV, sala de prensa (octubre 2026)",
+        "url": "https://www.eaj-pnv.eus/es/noticias",
+        "fecha": "2026-10"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-05",
+      "area": "energia",
+      "texto": "Plan renove para sustituir vehículos de 15 años o más.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 25",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ene-06",
+      "area": "energia",
+      "texto": "Mantener la gestión pública del abastecimiento de agua.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 25",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-inm-02",
+      "area": "inmigracion",
+      "texto": "Una política europea común de inmigración y asilo y reparto equitativo de los menores migrantes no acompañados.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-inm-03",
+      "area": "inmigracion",
+      "texto": "Alternativas a la privación de libertad en los CIE y trazabilidad de las devoluciones en frontera.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ins-02",
+      "area": "instituciones",
+      "texto": "Nueva Ley de Secretos Oficiales con desclasificación automática y actualización del marco legal del CNI.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 12",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ins-03",
+      "area": "instituciones",
+      "texto": "Suprimir los aforamientos y la inviolabilidad del Rey en actos no institucionales.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 13",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ins-04",
+      "area": "instituciones",
+      "texto": "Regular los lobbies.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 13",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-seg-01",
+      "area": "seguridad",
+      "texto": "Reformar la Ley de Seguridad Ciudadana ('ley mordaza').",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-igu-01",
+      "area": "igualdad",
+      "texto": "Reformar la Ley de Igualdad de 2007 y basar los delitos sexuales en la falta de consentimiento.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 27",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ext-01",
+      "area": "exterior",
+      "texto": "Participación directa de Euskadi en los órganos de decisión de la Unión Europea.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-ext-02",
+      "area": "exterior",
+      "texto": "Impulsar la presencia internacional de las selecciones deportivas vascas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 3",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-cul-01",
+      "area": "cultura",
+      "texto": "Presencia del euskera en la Administración del Estado en Euskadi y cumplimiento de la Ley Audiovisual en euskera.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 9",
+        "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+        "fecha": "2023-07"
+      },
+      "destacada": false
+    },
+    {
+      "id": "pnv-cul-02",
+      "area": "cultura",
+      "texto": "Partida de 100 millones de euros para el euskera (acuerdo de investidura 2023).",
+      "origen": "accion",
+      "fuente": {
+        "nombre": "Fedea, El contenido económico de los pactos de investidura (acuerdo PSOE-PNV)",
+        "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf",
+        "fecha": "2023-11"
+      },
+      "destacada": false
+    }
+  ],
+  "criticas": {
+    "economica": [
+      {
+        "titulo": "Un cupo calculado a la baja",
+        "texto": "Ángel de la Fuente (Fedea) estima que la base del cupo vasco está infravalorada en torno a un 30% y que los ajustes por IVA e impuestos especiales favorecen a la hacienda vasca, lo que da a Euskadi una financiación por habitante muy superior a la media sin contribuir en proporción a la nivelación.",
+        "sobre": [
+          "pnv-ter-05",
+          "pnv-eco-01"
+        ],
+        "fuente": {
+          "nombre": "Fedea, Sobre el sistema de financiación foral, FPP 2020/20",
+          "url": "https://documentos.fedea.net/documento/fpp2020-20/texto"
+        }
+      },
+      {
+        "titulo": "Reglas fiscales a la carta",
+        "texto": "Sendas de déficit negociadas bilateralmente y excluir inversión de la regla de gasto debilitan la disciplina presupuestaria común y pueden chocar con las reglas fiscales europeas reformadas en 2024.",
+        "sobre": [
+          "pnv-deu-01",
+          "pnv-deu-02"
+        ],
+        "fuente": {
+          "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
+          "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
+        }
+      }
+    ],
+    "social": [
+      {
+        "titulo": "La Seguridad Social y la caja única",
+        "texto": "Fedea recuerda que el TC (STC 124/1989 y 195/1996) limita el traspaso del régimen económico, y que el País Vasco tiene un déficit contributivo de unos 4.000 M€ cubierto por la caja común; su gestión propia plantea riesgos para la solidaridad interterritorial en pensiones.",
+        "sobre": [
+          "pnv-ter-03",
+          "pnv-ter-04",
+          "pnv-pen-02"
+        ],
+        "fuente": {
+          "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
+          "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
+        }
+      },
+      {
+        "titulo": "Marco laboral propio y desigualdad entre trabajadores",
+        "texto": "Dar prevalencia a los convenios autonómicos fragmenta la negociación colectiva estatal y puede generar diferencias de derechos y costes entre trabajadores de una misma empresa según el territorio, un argumento que han esgrimido las organizaciones de ámbito estatal en la negociación de la reforma laboral de 2021.",
+        "sobre": [
+          "pnv-emp-01"
+        ],
+        "fuente": {
+          "nombre": "Estatuto de los Trabajadores, art. 84 (concurrencia de convenios)"
+        }
+      }
+    ],
+    "cultural": [
+      {
+        "titulo": "Nación y bilateralidad frente a igualdad territorial",
+        "texto": "Críticos constitucionalistas sostienen que una relación bilateral basada en el reconocimiento de la nación vasca consolida un estatus asimétrico respecto al resto de comunidades, difícil de encajar en un Estado autonómico basado en la igualdad de derechos.",
+        "sobre": [
+          "pnv-ter-01",
+          "pnv-ter-02"
+        ],
+        "fuente": {
+          "nombre": "Tribunal Constitucional, STC 31/2010 (valor jurídico del término 'nación' en el preámbulo estatutario)"
+        }
+      },
+      {
+        "titulo": "Ruptura de la unidad jurisdiccional",
+        "texto": "Hacer del TSJ vasco la última instancia y crear un Consejo Vasco de Justicia chocaría con el art. 123 CE, que atribuye al Tribunal Supremo la condición de órgano jurisdiccional superior en todos los órdenes.",
+        "sobre": [
+          "pnv-ins-01"
+        ],
+        "fuente": {
+          "nombre": "Constitución Española, art. 123; STC 31/2010"
+        }
+      }
+    ]
+  },
+  "mentiras": [],
+  "actualizado": "2026-10-21"
+}

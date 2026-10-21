@@ -1,0 +1,403 @@
+{
+ "id": "geroabai",
+ "nombre": "Geroa Bai",
+ "siglas": "GBAI",
+ "concurre": true,
+ "candidato": "Javier Ollo (cabeza de lista provisional al Congreso por Navarra)",
+ "ideologia": "Nacionalista vasco de centroizquierda",
+ "ambito": "Navarra",
+ "color": "#E2342B",
+ "color_aproximado": true,
+ "web": "https://geroabai.eus",
+ "escanos_2023": 0,
+ "resumen": "Coalición navarra que integra al PNV, Atarrabia Taldea y Geroa Socialverdes, liderada por Uxue Barkos y socia del Gobierno foral de María Chivite; en Navarra el PNV no tiene papeleta propia y concurre dentro de ella. Prioriza el autogobierno foral (Convenio Económico y traspasos pendientes) y frenar a la derecha; las propuestas proceden sobre todo de su programa autonómico de 2023, porque no ha publicado uno para el 29N.",
+ "fuentes_programa": [
+  {
+   "nombre": "Programa Geroa Bai, Parlamento de Navarra 2023",
+   "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+   "fecha": "2023-05"
+  },
+  {
+   "nombre": "OKDiario Navarra, 15-10-2026: Geroa Bai insiste en una candidatura conjunta al Senado",
+   "url": "https://navarra.okdiario.com/articulo/politica/geroa-bai-presiona-unir-psn-eh-bildu-candidatura-senado-pesar-fracaso-conversaciones/20261015112010663902.html",
+   "fecha": "2026-10-15"
+  },
+  {
+   "nombre": "Moncloa.com, 17-10-2026: listas del PNV y de Geroa Bai para el 29N",
+   "url": "https://www.moncloa.com/2026/10/17/listas-pnv-congreso-29n-3450355/",
+   "fecha": "2026-10-17"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "Moncloa.com, 17-10-2026: listas del PNV y de Geroa Bai para el 29N",
+  "url": "https://www.moncloa.com/2026/10/17/listas-pnv-congreso-29n-3450355/",
+  "fecha": "2026-10-17"
+ },
+ "circunscripciones": [
+  "Navarra"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 2.9,
+  "ambito": "Navarra",
+  "fuente": {
+   "nombre": "Última Hora, escrutinio 23J Congreso Navarra (9.839 votos)",
+   "url": "https://www.ultimahora.es/elecciones/23j/congreso/navarra.html"
+  }
+ },
+ "propuestas": [
+  {
+   "id": "geroabai-ter-01",
+   "area": "territorio",
+   "texto": "Actualizar el Convenio Económico para ampliar la autonomía de Navarra en los tributos convenidos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 52",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-deu-01",
+   "area": "deuda",
+   "texto": "Modificar el art. 54 del Convenio para que Navarra no asuma una parte de la deuda del Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 52",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-ext-01",
+   "area": "exterior",
+   "texto": "Que la Hacienda Foral participe de forma independiente en el ECOFIN.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 52",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-ter-02",
+   "area": "territorio",
+   "texto": "Exigir el cumplimiento íntegro del Amejoramiento (LORAFNA) y completar los traspasos pendientes: I+D, becas, Policía Foral, prisiones y Seguridad Social.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 47",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-ter-03",
+   "area": "territorio",
+   "texto": "Actualizar el Amejoramiento mediante un nuevo pacto político entre navarros, sin exclusiones y refrendado por la ciudadanía.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 46-47",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-emp-01",
+   "area": "empleo",
+   "texto": "Asumir a medio plazo competencias plenas en políticas activas de empleo, Inspección de Trabajo y Seguridad Social.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 31",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-emp-02",
+   "area": "empleo",
+   "texto": "Explorar la semana laboral de cuatro días y reducciones de jornada, con permisos parcialmente retribuidos y sustitución por personas desempleadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 29-30",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-emp-03",
+   "area": "empleo",
+   "texto": "Más presupuesto para el plan de desamiantado y exención de IRPF a las personas afectadas por el amianto.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 31",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-eco-01",
+   "area": "economia",
+   "texto": "Plan de Transformación Ecológica y Digital de 1.000 millones de euros en la legislatura.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 22",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-eco-02",
+   "area": "economia",
+   "texto": "Más capacidad normativa en impuestos medioambientales (hidrocarburos, electricidad, gases fluorados) y estudiar impuestos al cambio de uso del suelo y a la ganadería intensiva.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 13",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-eco-03",
+   "area": "economia",
+   "texto": "Control de cajas registradoras similar al TicketBAI vasco y nuevo plan de lucha contra el fraude fiscal con otras haciendas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 55",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-ene-01",
+   "area": "energia",
+   "texto": "Que las instituciones navarras decidan sobre los parques eólicos y fotovoltaicos de más de 50 MW, hoy autorizados por el Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 16-17",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-ene-02",
+   "area": "energia",
+   "texto": "Desarrollar la Ley Foral de Cambio Climático, crear la agencia energética ATENA y usar el Canal de Navarra para fotovoltaica pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 12-16",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-viv-01",
+   "area": "vivienda",
+   "texto": "Seguir ampliando el derecho subjetivo a la vivienda de los programas de alquiler para jóvenes (DaVid y EmanZipa).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 63",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-igu-01",
+   "area": "igualdad",
+   "texto": "Consolidar la Renta Garantizada y armonizarla con el Ingreso Mínimo Vital.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 61-62",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-igu-02",
+   "area": "igualdad",
+   "texto": "Ley de promoción de la autonomía personal y atención a la dependencia, con copago solo en plazas residenciales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 58-64",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-san-01",
+   "area": "sanidad",
+   "texto": "Plan Estratégico de Atención Primaria y medidas de choque contra las listas de espera.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 6",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-rur-01",
+   "area": "rural",
+   "texto": "Una PAC que proteja la explotación familiar profesional, más control de la ley de la cadena alimentaria y observatorio de precios agrarios.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 36",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-rur-02",
+   "area": "rural",
+   "texto": "Ley Foral contra la Despoblación con fiscalidad especial e índice de despoblación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 35",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-ter-04",
+   "area": "territorio",
+   "texto": "Impulsar el tren de altas prestaciones sin abandonar la línea convencional ni cerrar estaciones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 38",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-ter-05",
+   "area": "territorio",
+   "texto": "Obras del Canal de Navarra hacia la Ribera y estudios independientes sobre la seguridad del recrecimiento de Yesa.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 37-38",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-ext-02",
+   "area": "exterior",
+   "texto": "Más presencia de Navarra en las instituciones europeas y en la eurorregión con la Baja Navarra.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Geroa Bai, elecciones al Parlamento de Navarra 2023, p. 48-49",
+    "url": "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/Geroa%20Bai.pdf",
+    "fecha": "2023-05"
+   }
+  },
+  {
+   "id": "geroabai-ins-01",
+   "area": "instituciones",
+   "texto": "Defender el autogobierno de Navarra y una sociedad plural en las Cortes, y frenar a la derecha y a la ultraderecha.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "OKDiario Navarra, 15-10-2026: Geroa Bai insiste en una candidatura conjunta al Senado",
+    "url": "https://navarra.okdiario.com/articulo/politica/geroa-bai-presiona-unir-psn-eh-bildu-candidatura-senado-pesar-fracaso-conversaciones/20261015112010663902.html",
+    "fecha": "2026-10-15"
+   },
+   "destacada": true
+  },
+  {
+   "id": "geroabai-ins-02",
+   "area": "instituciones",
+   "texto": "Candidatura conjunta al Senado de PSN, EH Bildu, Geroa Bai y Contigo-Zurekin, o en su defecto una agrupación de electores.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "OKDiario Navarra, 15-10-2026: Geroa Bai insiste en una candidatura conjunta al Senado",
+    "url": "https://navarra.okdiario.com/articulo/politica/geroa-bai-presiona-unir-psn-eh-bildu-candidatura-senado-pesar-fracaso-conversaciones/20261015112010663902.html",
+    "fecha": "2026-10-15"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Convenio y solidaridad interterritorial",
+    "texto": "Fedea calcula que Navarra y el País Vasco disponen de una financiación por habitante muy superior a la media de las comunidades de régimen común, en parte por cómo se calcula la aportación al Estado. Ampliar la autonomía tributaria y no asumir parte de la deuda del Estado ahondaría esa diferencia.",
+    "sobre": [
+     "geroabai-ter-01",
+     "geroabai-deu-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, trabajos de Ángel de la Fuente sobre la financiación de los territorios forales"
+    }
+   },
+   {
+    "titulo": "Semana de cuatro días sin evidencia local",
+    "texto": "Las pruebas piloto de semana de cuatro días muestran resultados dispares según el sector, y su extensión en pymes industriales con turnos continuos puede elevar costes si no aumenta la productividad.",
+    "sobre": [
+     "geroabai-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de productividad laboral"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Fragmentar la Seguridad Social",
+    "texto": "Asumir competencias plenas en Seguridad Social rompería la caja única, que la Constitución reserva al Estado (art. 149.1.17), y debilitaría la solidaridad entre territorios en pensiones y prestaciones.",
+    "sobre": [
+     "geroabai-ter-02",
+     "geroabai-emp-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 149.1.17",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Decidir sobre renovables de más de 50 MW",
+    "texto": "Trasladar la autorización de grandes parques a las instituciones forales puede dar más voz local, pero también fragmenta la planificación de la red eléctrica, que es estatal y europea.",
+    "sobre": [
+     "geroabai-ene-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de planificación energética"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Identidad navarra y polarización",
+    "texto": "Las propuestas de un nuevo pacto político y de proyección vasca de Navarra chocan con la visión de UPN y PP, que ven en ellas un paso hacia la integración en Euskadi; es un debate identitario que divide a la sociedad navarra.",
+    "sobre": [
+     "geroabai-ter-03",
+     "geroabai-ext-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento sobre el debate identitario en Navarra"
+    }
+   },
+   {
+    "titulo": "Senado de bloque",
+    "texto": "Proponer una candidatura conjunta al Senado con EH Bildu y el PSN refuerza la lógica de bloques frente a la derecha, algo que una parte del electorado moderado puede rechazar.",
+    "sobre": [
+     "geroabai-ins-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de estrategia política"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos relevantes. Su aspiración a un nuevo pacto foral refrendado es legítima si se hace por los cauces del Amejoramiento y de la Constitución, y no propone medidas que choquen con derechos fundamentales.",
+  "criticas": [],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

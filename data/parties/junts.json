@@ -1,0 +1,535 @@
+{
+ "id": "junts",
+ "nombre": "Junts per Catalunya",
+ "siglas": "Junts",
+ "candidato": "Míriam Nogueras (cabeza de lista por Barcelona)",
+ "ideologia": "Independentismo catalán de centroderecha",
+ "ambito": "Cataluña",
+ "color": "#00C3B2",
+ "web": "https://junts.cat",
+ "escanos_2023": 7,
+ "resumen": "Partido independentista catalán presidido por Carles Puigdemont que apoyó la investidura de Sánchez en 2023 y rompió con el PSOE en octubre de 2025 alegando incumplimientos. Prioriza la autodeterminación, la amnistía, un concierto económico, las competencias de inmigración, la oficialidad del catalán en la UE y medidas contra la okupación y la multirreincidencia.",
+ "fuentes_programa": [
+  {
+   "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+   "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+   "fecha": "2023-07"
+  },
+  {
+   "nombre": "Junts, butlletí MésJunts nº 26 (presentación candidatura 23J)",
+   "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_26_220623.pdf",
+   "fecha": "2023-06"
+  },
+  {
+   "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+   "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+   "fecha": "2025-01"
+  },
+  {
+   "nombre": "Ara, comparecencia de Puigdemont sobre el acuerdo de inmigración, 04/03/2025",
+   "url": "https://es.ara.cat/politica/comparecencia-carles-puigdemont-explicar-acuerdo-inmigracion-gobierno-espanol_1_5303789.html",
+   "fecha": "2025-03"
+  },
+  {
+   "nombre": "Diari de Tarragona, ruptura con el PSOE, 27/10/2025",
+   "url": "https://www.diaridetarragona.com/catalunya/243497/junts-decide-unanimidad-romper-relacion-psoe-sometera-decision-militancia.html",
+   "fecha": "2025-10"
+  },
+  {
+   "nombre": "Diario de León (EFE), declaraciones de Míriam Nogueras, 06/10/2026",
+   "url": "https://www.diariodeleon.es/nacional/261006/2099441/junts-descarta-absolutamente-pactar-gobierno-pp-vox-elecciones.html",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "junts-ter-01",
+   "area": "territorio",
+   "texto": "No investir a ningún presidente del Gobierno que no reconozca el derecho a la autodeterminación de Cataluña y la amnistía.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nació Digital, campaña 23J, 21/07/2023",
+    "url": "https://naciodigital.cat/politica/junts-passa-el-rasclet-per-revifar-el-conflicte-amb-lestat.html",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-ter-02",
+   "area": "territorio",
+   "texto": "La independencia de Cataluña como objetivo fundacional del partido.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-ter-03",
+   "area": "territorio",
+   "texto": "Concierto económico para Cataluña: cesión del 100% de los tributos que se pagan en Cataluña.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Fedea, El contenido económico de los pactos de investidura",
+    "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf",
+    "fecha": "2023-11"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-ter-04",
+   "area": "territorio",
+   "texto": "Rechazó el nuevo modelo de financiación autonómica de 2026 por no ser singular ni garantizar la ordinalidad.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "3Cat, Consejo de Política Fiscal y Financiera, 14/01/2026",
+    "url": "https://www.3cat.cat/3catinfo/el-financament-arriba-a-un-consell-de-politica-fiscal-crispat-montero-i-catalunya-fan-front-al-rebuig/noticia-amp/3389105/",
+    "fecha": "2026-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ter-05",
+   "area": "territorio",
+   "texto": "Usar los unos 20.000 M€ anuales de déficit fiscal que estima para Cataluña para aumentar un 50% el presupuesto de la Generalitat.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ter-06",
+   "area": "territorio",
+   "texto": "Reconocimiento nacional de Cataluña y corrección de los 'déficits de autogobierno', según el acuerdo de investidura de 2023.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ter-07",
+   "area": "territorio",
+   "texto": "Defender en el Congreso 'el bloque Cataluña' y no regalar votos: cualquier apoyo a un Gobierno, a cambio de contrapartidas previas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ter-08",
+   "area": "territorio",
+   "texto": "Exigir al Estado que cumpla sus compromisos de inversión en Lleida, Alt Pirineu i Aran, Girona y el Camp de Tarragona.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ter-09",
+   "area": "territorio",
+   "texto": "Recuperación de competencias para la Generalitat, como la de los secretarios-interventores municipales y la economía social.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de León (EFE), declaraciones de Míriam Nogueras, 06/10/2026",
+    "url": "https://www.diariodeleon.es/nacional/261006/2099441/junts-descarta-absolutamente-pactar-gobierno-pp-vox-elecciones.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ins-01",
+   "area": "instituciones",
+   "texto": "Ley de amnistía para los encausados por el procés, incluida su aplicación completa a Carles Puigdemont.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-ins-02",
+   "area": "instituciones",
+   "texto": "Defender a los dirigentes del procés que residen fuera de España, a los que llama «exiliados», y su retorno libre.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ins-03",
+   "area": "instituciones",
+   "texto": "Que la Fiscalía actúe contra los jueces que se niegan a aplicar la ley de amnistía.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ins-04",
+   "area": "instituciones",
+   "texto": "Descarta formar parte o apoyar un Gobierno del PP con Vox tras el 29N.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de León (EFE), declaraciones de Míriam Nogueras, 06/10/2026",
+    "url": "https://www.diariodeleon.es/nacional/261006/2099441/junts-descarta-absolutamente-pactar-gobierno-pp-vox-elecciones.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-inm-01",
+   "area": "inmigracion",
+   "texto": "Delegación 'integral' a la Generalitat de las competencias de inmigración mediante ley orgánica (art. 150.2 CE).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, comparecencia de Puigdemont sobre el acuerdo de inmigración, 04/03/2025",
+    "url": "https://es.ara.cat/politica/comparecencia-carles-puigdemont-explicar-acuerdo-inmigracion-gobierno-espanol_1_5303789.html",
+    "fecha": "2025-03"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-inm-02",
+   "area": "inmigracion",
+   "texto": "Que la Generalitat gestione los permisos de residencia y el NIE y que los Mossos estén presentes en la frontera.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, 16/09/2025",
+    "url": "https://es.ara.cat/politica/votacion-delegar-competencias-inmigracion-fecha-mantiene-no_1_5498763.html",
+    "fecha": "2025-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-inm-03",
+   "area": "inmigracion",
+   "texto": "Que el conocimiento del catalán sea indispensable para el informe favorable de renovación de la residencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ara, comparecencia de Puigdemont sobre el acuerdo de inmigración, 04/03/2025",
+    "url": "https://es.ara.cat/politica/comparecencia-carles-puigdemont-explicar-acuerdo-inmigracion-gobierno-espanol_1_5303789.html",
+    "fecha": "2025-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-inm-04",
+   "area": "inmigracion",
+   "texto": "Replantear de forma integral los Centros de Internamiento de Extranjeros (CIE).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ara, comparecencia de Puigdemont sobre el acuerdo de inmigración, 04/03/2025",
+    "url": "https://es.ara.cat/politica/comparecencia-carles-puigdemont-explicar-acuerdo-inmigracion-gobierno-espanol_1_5303789.html",
+    "fecha": "2025-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-seg-01",
+   "area": "vivienda",
+   "texto": "Reformar la Ley de Enjuiciamiento Criminal para desalojar en 48 horas a ocupantes de viviendas que no acrediten título legítimo.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, 17/02/2025",
+    "url": "https://es.ara.cat/politica/declara-guerra-ocupas_1_5287747.html",
+    "fecha": "2025-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-viv-01",
+   "area": "vivienda",
+   "texto": "Permitir a las comunidades de propietarios actuar contra pisos ocupados que causen problemas de convivencia, y sancionar a grandes tenedores que no actúen.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, 17/02/2025",
+    "url": "https://es.ara.cat/politica/declara-guerra-ocupas_1_5287747.html",
+    "fecha": "2025-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-seg-02",
+   "area": "seguridad",
+   "texto": "Ley contra la multirreincidencia: juicios más rápidos, penas más duras (p. ej. hurto de móviles) y más recursos para los ayuntamientos.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Vozpópuli, 07/11/2025",
+    "url": "https://www.vozpopuli.com/espana/cataluna/el-gobierno-desempolva-tras-diez-meses-de-bloqueo-la-ley-de-junts-sobre-multirreincidencia.html",
+    "fecha": "2025-11"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-viv-02",
+   "area": "vivienda",
+   "texto": "Votó en contra de los decretos de vivienda de 2026 (prórroga de alquileres, suspensión de desahucios) y pidió negociar otro texto.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, votación de los decretos de vivienda, 02/10/2026",
+    "url": "https://es.ara.cat/politica/junts-tumba-decreto-vivienda-sanchez-medita-adelanta-elecciones_1_5867173.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-emp-01",
+   "area": "empleo",
+   "texto": "Votó en contra de la reducción de la jornada a 37,5 horas por falta de diálogo social y su impacto en pymes; pide una propuesta 'gradual y equilibrada'.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "El Debate, enmienda a la totalidad de Junts, 18/06/2025",
+    "url": "https://www.eldebate.com/economia/20250618/junts-dinamita-reforma-laboral-diaz-enmienda-totalidad_308697_amp.html",
+    "fecha": "2025-06"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-emp-02",
+   "area": "empleo",
+   "texto": "Que las reformas laborales se elaboren con los agentes económicos y sociales catalanes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nació Digital, 08/09/2025",
+    "url": "https://naciodigital.cat/politica/la-reduccio-de-jornada-condemnada-junts-comunica-que-hi-votara-en-contra.html",
+    "fecha": "2025-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-eco-01",
+   "area": "economia",
+   "texto": "Eliminar el impuesto de sucesiones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-eco-02",
+   "area": "economia",
+   "texto": "Reducir la cuota de cotización de los trabajadores autónomos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-eco-03",
+   "area": "economia",
+   "texto": "Bajar impuestos para 'dar aire a la gente'.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de León (EFE), declaraciones de Míriam Nogueras, 06/10/2026",
+    "url": "https://www.diariodeleon.es/nacional/261006/2099441/junts-descarta-absolutamente-pactar-gobierno-pp-vox-elecciones.html",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-eco-04",
+   "area": "economia",
+   "texto": "Plan para facilitar el retorno a Cataluña de las sedes sociales de empresas que se trasladaron en 2017.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-cul-01",
+   "area": "cultura",
+   "texto": "Oficialidad del catalán en la Unión Europea.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "junts-cul-02",
+   "area": "cultura",
+   "texto": "Defensa de la lengua catalana frente a los retrocesos en competencias y uso.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Nació Digital, campaña 23J, 21/07/2023",
+    "url": "https://naciodigital.cat/politica/junts-passa-el-rasclet-per-revifar-el-conflicte-amb-lestat.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ext-01",
+   "area": "exterior",
+   "texto": "Mayor participación de Cataluña en las instituciones europeas.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, balance del acuerdo PSOE-Junts, 23/01/2025",
+    "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html",
+    "fecha": "2025-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-ext-02",
+   "area": "exterior",
+   "texto": "Recurrir la decisión del Tribunal General de la UE de levantar la inmunidad a Puigdemont, Comín y Ponsatí.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 28 (campaña 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_28_070723.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "junts-rur-01",
+   "area": "rural",
+   "texto": "Priorizar a agricultores y ganaderos frente a las eléctricas en la gestión del agua durante la sequía.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Junts, butlletí MésJunts nº 26 (presentación candidatura 23J)",
+    "url": "https://junts.cat/wp-content/uploads/2026/08/MESJUNTS_26_220623.pdf",
+    "fecha": "2023-06"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Un concierto catalán no es neutral para el resto",
+    "texto": "Fedea calcula que un concierto catalán reduciría la aportación de Cataluña a la caja común entre un 30% y un 60% de su déficit fiscal estimado, una transferencia neta de 6.600-13.200 M€ anuales que habría que cubrir con más impuestos estatales o menos financiación para las demás comunidades.",
+    "sobre": [
+     "junts-ter-03",
+     "junts-ter-05"
+    ],
+    "fuente": {
+     "nombre": "Fedea (Á. de la Fuente), Las implicaciones financieras de un concierto catalán, 2024",
+     "url": "https://fedea.net/las-implicaciones-financieras-de-un-concierto-catalan/"
+    }
+   },
+   {
+    "titulo": "Bajar impuestos sin decir cómo se compensa",
+    "texto": "Suprimir sucesiones y bajar impuestos reduce ingresos en un contexto de déficit y deuda elevados. La OCDE señala que el impuesto de sucesiones, bien diseñado, es de los menos distorsionadores y ayuda a reducir la desigualdad de riqueza.",
+    "sobre": [
+     "junts-eco-01",
+     "junts-eco-03"
+    ],
+    "fuente": {
+     "nombre": "OCDE, Inheritance Taxation in OECD Countries, 2021",
+     "url": "https://www.oecd.org/en/publications/inheritance-taxation-in-oecd-countries_e2879a7d-en.html"
+    }
+   },
+   {
+    "titulo": "Rechazar el modelo deja recursos sin ejecutar",
+    "texto": "ERC advirtió que si el nuevo modelo de financiación decae en el Congreso, los 4.700 M€ adicionales previstos para Cataluña no llegarán; la posición de Junts arriesga recursos sin una alternativa con mayoría.",
+    "sobre": [
+     "junts-ter-04"
+    ],
+    "fuente": {
+     "nombre": "Diari de Tarragona, 09/01/2026",
+     "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Los sindicatos critican el veto a la reducción de jornada",
+    "texto": "UGT y CCOO sostienen que la jornada de 37,5 horas sin rebaja salarial mejoraría la conciliación y el reparto de la productividad, y que el veto de Junts, PP y Vox frenó esa mejora; el líder de UGT advirtió de que en Cataluña 'no se entenderá' el rechazo.",
+    "sobre": [
+     "junts-emp-01",
+     "junts-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Última Hora (Europa Press), 10/09/2025",
+     "url": "https://www.ultimahora.es/noticias/comunidades/2025/09/10/2467025/alvarez-ugt-avisa-junts-catalunya-entendera-rechazo-reduccion-jornada.html"
+    }
+   },
+   {
+    "titulo": "Ligar residencia y lengua puede dificultar la integración",
+    "texto": "Podemos votó en contra de la ley de delegación al considerarla racista. Sus críticos sostienen que condicionar la renovación de la residencia al catalán añade un requisito inexistente en el resto de España y puede dejar en situación irregular a personas ya arraigadas.",
+    "sobre": [
+     "junts-inm-03",
+     "junts-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Ara, 16/09/2025",
+     "url": "https://es.ara.cat/politica/votacion-delegar-competencias-inmigracion-fecha-mantiene-no_1_5498763.html"
+    }
+   },
+   {
+    "titulo": "Desalojos en 48 horas y garantías",
+    "texto": "Organizaciones por el derecho a la vivienda y juristas advierten de que acelerar los desalojos a 48 horas reduce el margen judicial para valorar la vulnerabilidad de los ocupantes y la existencia de alternativa habitacional, sin actuar sobre la falta de oferta asequible.",
+    "sobre": [
+     "junts-seg-01",
+     "junts-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Propuesta analizada: Ara, 17/02/2025",
+     "url": "https://es.ara.cat/politica/declara-guerra-ocupas_1_5287747.html"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Autodeterminación fuera del marco constitucional",
+    "texto": "El Tribunal Constitucional ha establecido que una comunidad autónoma no puede decidir unilateralmente sobre la secesión, que solo cabría mediante reforma constitucional del art. 2 por la vía del art. 168.",
+    "sobre": [
+     "junts-ter-01",
+     "junts-ter-02"
+    ],
+    "fuente": {
+     "nombre": "Tribunal Constitucional, STC 114/2017"
+    }
+   },
+   {
+    "titulo": "Amnistía a cambio de investidura",
+    "texto": "Críticos de la ley, incluidas asociaciones judiciales, sostienen que una amnistía negociada como condición para investir a un presidente vulnera la igualdad ante la ley; el Tribunal Supremo rehusó aplicarla a la malversación.",
+    "sobre": [
+     "junts-ins-01",
+     "junts-ins-03"
+    ],
+    "fuente": {
+     "nombre": "Ara, 23/01/2025",
+     "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

@@ -1,0 +1,1479 @@
+{
+  "titular": "Lo que importa",
+  "entradilla": "Los problemas con más impacto en la vida diaria, ordenados según los datos, con sus fuentes.",
+  "temas": [
+    {
+      "id": "vivienda",
+      "titulo": "Vivienda",
+      "area": "vivienda",
+      "enlace": null,
+      "cis": [
+        "La vivienda",
+        "La ocupación de viviendas"
+      ],
+      "dato_clave": {
+        "valor": "98,7%",
+        "etiqueta": "del salario medio de una persona joven haría falta para pagar sola un alquiler medio (1.176 €/mes)",
+        "fuente": "Consejo de la Juventud de España, Observatorio de Emancipación",
+        "url": "https://www.cje.org/en/observatorio_2025/",
+        "fecha": "2026-05"
+      },
+      "resumen": "El precio de la vivienda sube a doble dígito y la construcción no cubre la creación de hogares. El 55,7% de los encuestados por el CIS cita la vivienda entre los principales problemas del país, el porcentaje más alto registrado.",
+      "datos": [
+        {
+          "valor": "+12,2%",
+          "etiqueta": "variación anual del precio de la vivienda (2º trimestre de 2026); +12,9% la de segunda mano",
+          "fuente": "INE, Índice de Precios de Vivienda",
+          "url": "https://www.ine.es/dyngs/Prensa/IPV2T26.htm",
+          "fecha": "2026-09"
+        },
+        {
+          "valor": "≈750.000",
+          "etiqueta": "viviendas de déficit acumulado entre 2021 y 2025",
+          "fuente": "Banco de España, Informe Anual 2025 (vía Euronews)",
+          "url": "https://es.euronews.com/business/2026/06/18/el-banco-de-espana-senala-un-deficit-de-750000",
+          "fecha": "2026-06"
+        },
+        {
+          "valor": "≈240.000 vs ≈92.000",
+          "etiqueta": "hogares nuevos al año frente a viviendas terminadas en 2025",
+          "fuente": "Banco de España, Informe Anual 2025 (vía El Debate)",
+          "url": "https://www.eldebate.com/economia/20260618/banco-espana-cifra-750000-deficit-vivienda-doble-italia-pide-simplificar-regulacion_429981.html",
+          "fecha": "2026-06"
+        },
+        {
+          "valor": "43,6%",
+          "etiqueta": "de las personas que viven de alquiler a precio de mercado está en riesgo de pobreza o exclusión (2025)",
+          "fuente": "INE, Encuesta de Condiciones de Vida 2025 (tabla recogida por EAPN)",
+          "url": "https://www.eapn.es/ARCHIVO/documentos/noticias/1770362299_el-estado-de-la-pobreza--avance-2026.pdf",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "1,5%",
+          "etiqueta": "del parque de viviendas principales es alquiler social; en la UE ronda el 9%",
+          "fuente": "Banco de España, Informe Anual 2023, con datos OCDE (vía Ara)",
+          "url": "https://es.ara.cat/economia/inmobiliario/1-5-millones-viviendas-nuevas-deberes-ponerse-nivel-parque-alquiler-social-ocde_1_5006544.html",
+          "fecha": "2024-04"
+        },
+        {
+          "valor": "30,0 años",
+          "etiqueta": "edad media de salida del hogar familiar en España (26,2 en la UE)",
+          "fuente": "Eurostat 2024 (vía Bankinter)",
+          "url": "https://www.bankinter.com/blog/finanzas-personales/edad-independizan-jovenes-espana-europa",
+          "fecha": "2024"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Se construye menos de lo que crece la demanda",
+          "texto": "El Banco de España estima que entre 2021 y 2025 se formaron muchos más hogares de los que se terminaron viviendas. Señala el suelo disponible, la coordinación entre administraciones y el transporte metropolitano como cuellos de botella."
+        },
+        {
+          "titulo": "Más población en las zonas con empleo",
+          "texto": "España alcanzó 49,8 millones de habitantes en julio de 2026, con un crecimiento que procede casi por completo de la inmigración. La demanda se concentra en las áreas metropolitanas y la costa, donde la oferta es más rígida."
+        },
+        {
+          "titulo": "Desacuerdo sobre los topes al alquiler",
+          "texto": "Un estudio de EsadeEcPol sobre Cataluña (2020) halló una bajada media del precio de en torno al 5% y una caída de la oferta de en torno al 10%. Otro de Fedea sobre la regulación de 2024 observa menos anuncios y menos contratos. Los defensores de la medida señalan que frena las subidas a los inquilinos que ya tienen contrato. El Banco de España advierte de efectos no deseados si la oferta no aumenta."
+        },
+        {
+          "titulo": "Poco parque público",
+          "texto": "El alquiler social representa el 1,5% de las viviendas principales, frente a alrededor del 9% en la UE. Según el Banco de España, igualar la media europea exigiría unas 1,5 millones de viviendas sociales adicionales."
+        }
+      ],
+      "subtemas": [
+        {
+          "titulo": "Seguridad jurídica del arrendador: impagos, vulnerabilidad y ocupación",
+          "texto": "Desde 2020 los jueces pueden suspender el desahucio de inquilinos en situación de vulnerabilidad acreditada por los servicios sociales (el llamado escudo social), y el propietario puede pedir una compensación pública. La medida decayó el 27 de enero de 2026 al no convalidarse el decreto que la prorrogaba, y el 26 de febrero el Congreso rechazó otro decreto que la extendía hasta finales de 2026. Un nuevo decreto en vigor desde el 8 de octubre de 2026 permite suspensiones de hasta tres años con revisión anual y compensación, e impide hasta 2030 los lanzamientos de personas vulnerables cuando el demandante es un fondo que compra deuda o inmuebles por debajo de mercado; la Diputación Permanente debe convalidarlo (votación prevista el 12 de noviembre). Las denuncias por ocupación (allanamiento y usurpación) bajaron en 2025 y equivalen a en torno al 0,06% del parque de viviendas, aunque esa estadística no distingue entre viviendas habitadas y vacías ni mide la duración de cada caso. Sobre el efecto en la oferta: un estudio internacional (Casas-Arce y Saiz, 2010) encuentra que los países con procesos de desahucio más lentos tienen mercados de alquiler más pequeños; no se ha localizado una evaluación causal específica del escudo social sobre la oferta en España. Los datos de pobreza de los inquilinos describen el otro lado: el riesgo de pobreza entre quienes alquilan es de los más altos de la UE.",
+          "datos": [
+            {
+              "valor": "18.317",
+              "etiqueta": "lanzamientos por impago de alquiler practicados en 2025 (-10,9% interanual)",
+              "fuente": "CGPJ (vía Forbes)",
+              "url": "https://forbes.es/economia/893652/los-desahucios-caen-un-11-en-2025-hasta-los-25-540-segun-cgpj/",
+              "fecha": "2026-03"
+            },
+            {
+              "valor": "60.000-70.000",
+              "etiqueta": "desahucios suspendidos por vulnerabilidad entre 2020 y 2025, según una estimación de entidades sociales con datos del Ministerio de Derechos Sociales (no es una estadística oficial)",
+              "fuente": "Coalición #NiUnDesahucioMás (nota de prensa)",
+              "url": "https://cecu.es/wp-content/uploads/2026/01/2026_01_23_Nota_moratoria.pdf",
+              "fecha": "2026-01"
+            },
+            {
+              "valor": "14.875",
+              "etiqueta": "delitos de ocupación (allanamiento y usurpación) registrados en 2025, un 9,4% menos que en 2024",
+              "fuente": "Ministerio del Interior, Portal Estadístico de Criminalidad (vía El Español)",
+              "url": "https://www.elespanol.com/eldigitalcastillalamancha/region/20260429/semana-denuncian-okupaciones-castilla-la-mancha-toledo-lidera-ranking-mitad/1003744227060_0.html",
+              "fecha": "2026-04"
+            },
+            {
+              "valor": "≈0,06%",
+              "etiqueta": "del parque de viviendas: 15.289 inmuebles ocupados en 2024 sobre 26,6 millones de viviendas",
+              "fuente": "Ministerio del Interior, citado por la Delegación del Gobierno en Madrid (vía Escudo Digital)",
+              "url": "https://www.escudodigital.com/interior/interior-cifra-mas-15000-inmuebles-okupados-ilegalmente-espana.html",
+              "fecha": "2025-02"
+            },
+            {
+              "valor": "39%",
+              "etiqueta": "de las viviendas en alquiler pertenece a caseros con una sola vivienda; personas jurídicas y vivienda pública suman en torno al 17%",
+              "fuente": "Ministerio de Derechos Sociales e IFS-CSIC, con datos AEAT-IEF de 2023",
+              "url": "https://www.dsca.gob.es/sites/default/files/prensa/Informe%201%20Multiarrendadores.pdf",
+              "fecha": "2023"
+            },
+            {
+              "valor": "45% vs 32%",
+              "etiqueta": "inquilinos en riesgo de pobreza o exclusión en España frente a la media de la UE (media 2015-2023)",
+              "fuente": "Banco de España, informe sobre el mercado del alquiler (vía Ara)",
+              "url": "https://es.ara.cat/economia/inmobiliario/espana-lleva-decada-45-inquilinos-riesgo-pobreza_1_5172421.html",
+              "fecha": "2024-10"
+            },
+            {
+              "valor": "Menos alquiler",
+              "etiqueta": "donde los desahucios tardan más: comparativa entre países",
+              "fuente": "Casas-Arce y Saiz, 'Owning versus Renting: Do Courts Matter?', Journal of Law and Economics (2010)",
+              "url": "https://ideas.repec.org/a/ucp/jlawec/v53y2010i1p137-165.html",
+              "fecha": "2010"
+            }
+          ]
+        }
+      ],
+      "y_quien_lo_paga": "Parte de las soluciones no requiere gasto: suelo, licencias, planeamiento y plazos judiciales son regulación y gestión. Ampliar el parque público y compensar a propietarios por suspensiones sí cuesta dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026: hay que decir si se financia con otros gastos, impuestos o más deuda.",
+      "preguntas": [
+        "¿Cuántas viviendas al año se terminarán con sus medidas, en qué plazo y con qué suelo y financiación?",
+        "Si mantiene o elimina la suspensión de desahucios por vulnerabilidad, ¿quién asume el coste: el propietario, el Estado o el inquilino?",
+        "¿En cuántos meses se resolverá un desahucio por impago o una ocupación con su propuesta?"
+      ]
+    },
+    {
+      "id": "salarios-productividad",
+      "titulo": "Salarios reales y productividad",
+      "area": "economia",
+      "enlace": null,
+      "cis": [
+        "La crisis económica y los problemas económicos",
+        "La calidad del empleo"
+      ],
+      "dato_clave": {
+        "valor": "91,6",
+        "etiqueta": "PIB per cápita en paridad de poder de compra (UE=100) en 2025; era 92,6 en 2017",
+        "fuente": "Eurostat (vía El Español)",
+        "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20260729/poder-adquisitivo-espanoles-solo-mejora-euros-sanchez-brecha-ue-aumenta-punto/1003744337085_0.html",
+        "fecha": "2026-07"
+      },
+      "resumen": "El PIB y el empleo crecen, pero el salario real sigue por debajo de 2021 y la productividad por ocupado no supera la de 2019. España no converge con la renta media europea por habitante.",
+      "datos": [
+        {
+          "valor": "-2%",
+          "etiqueta": "salario real frente al primer trimestre de 2021; la OCDE no prevé recuperación en 2026-2027",
+          "fuente": "OCDE, Perspectivas del Empleo 2026 (vía Xataka)",
+          "url": "https://www.xataka.com/empresas-y-economia/ocde-ha-encontrado-lastre-mercado-laboral-espana-no-cobramos-suficiente",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "97,6",
+          "etiqueta": "productividad por ocupado (UE=100) en 2025; 98,0 en 2019",
+          "fuente": "Eurostat, tabla tesem160 (vía El Independiente)",
+          "url": "https://www.elindependiente.com/economia/2026/05/18/record-creacion-empleo-no-mejora-productividad-trabajador-espana-debajo-nivel-prepandemia/amp/",
+          "fecha": "2026-05"
+        },
+        {
+          "valor": "+3,9%",
+          "etiqueta": "productividad total de los factores en 2025 respecto al año 2000",
+          "fuente": "Fundación BBVA-Ivie, Observatorio de la Productividad (vía Bolsamanía)",
+          "url": "https://www.bolsamania.com/noticias_amp/economia/economia--la-productividad-espanola-se-situa-un-39-por-encima-del-nivel-del-ano-2000-segun-fundacion-bbva-e-ivie--22564892.html",
+          "fecha": "2026-05"
+        },
+        {
+          "valor": "41,4% vs 35,1%",
+          "etiqueta": "cuña fiscal sobre el salario medio (soltero sin hijos), España frente a la media OCDE",
+          "fuente": "OCDE, Taxing Wages 2026 (vía Vozpópuli)",
+          "url": "https://www.vozpopuli.com/economia/macroeconomia/la-ocde-constata-que-el-irpf-devora-la-mejora-salarial-en-espana.html",
+          "fecha": "2026"
+        },
+        {
+          "valor": "34.237 €",
+          "etiqueta": "PIB por habitante en 2025, frente a 41.700 € en la UE",
+          "fuente": "INE, Contabilidad Regional 2025",
+          "url": "https://www.ine.es/dyngs/Prensa/en/avCRE2025.pdf",
+          "fecha": "2026"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Crecimiento basado en más horas, no en más productividad",
+          "texto": "El empleo ha crecido con fuerza, sobre todo en servicios de productividad media o baja. La productividad total de los factores apenas ha avanzado en 25 años según la Fundación BBVA-Ivie."
+        },
+        {
+          "titulo": "Empresas pequeñas y regulación fragmentada",
+          "texto": "El Banco de España asocia una mayor densidad normativa con menos entrada de empresas y menos empleo, sobre todo en empresas pequeñas, y señala que la fragmentación entre comunidades eleva los costes de cumplimiento."
+        },
+        {
+          "titulo": "Capital humano y desajuste",
+          "texto": "España tiene la tasa de sobrecualificación más alta de la UE (34% en 2025) y resultados de competencias de adultos por debajo de la OCDE (PIAAC 2023). Ver el tema de educación."
+        },
+        {
+          "titulo": "Impuestos sobre el trabajo",
+          "texto": "La OCDE sitúa la cuña fiscal por encima de su media. Hay desacuerdo sobre su efecto: unos expertos priorizan bajar cotizaciones o deflactar el IRPF; otros, que financian pensiones y servicios, señalan que la recaudación total sobre PIB está por debajo de la media de la UE."
+        }
+      ],
+      "y_quien_lo_paga": "La mayoría de las palancas de productividad son regulatorias y de gestión (licencias, unidad de mercado, evaluación de políticas). Las bajadas de impuestos o el gasto en I+D tienen coste: España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026, así que debe decirse qué otro gasto o ingreso compensa.",
+      "preguntas": [
+        "¿Qué medida concreta de su programa eleva la productividad por hora y cuánto estima que la elevará?",
+        "¿Deflactará el IRPF con la inflación? Si no, ¿cuánto recauda esa subida automática y en qué se gasta?",
+        "¿Qué normas eliminará o unificará con las comunidades autónomas, y cómo lo medirá?"
+      ]
+    },
+    {
+      "id": "empleo",
+      "titulo": "Paro estructural y juvenil",
+      "area": "empleo",
+      "enlace": null,
+      "cis": [
+        "El paro",
+        "La calidad del empleo",
+        "Problemas relacionados con la juventud"
+      ],
+      "dato_clave": {
+        "valor": "23,4%",
+        "etiqueta": "paro de menores de 25 años (junio de 2026), frente al 15,5% de la UE",
+        "fuente": "Eurostat (vía El Derecho)",
+        "url": "https://elderecho.com/la-tasa-de-paro-de-la-eurozona-se-mantuvo-estable-en-el-63-en-junio",
+        "fecha": "2026-07"
+      },
+      "resumen": "El empleo está en máximos y la temporalidad ha bajado, pero España mantiene una de las tasas de paro más altas de la UE en plena fase de crecimiento, con grandes diferencias entre regiones.",
+      "datos": [
+        {
+          "valor": "9,87%",
+          "etiqueta": "tasa de paro (2º trimestre de 2026); 2.495.300 parados",
+          "fuente": "INE, EPA 2T 2026",
+          "url": "https://ine.es/dyngs/Prensa/es/EPA2T26.htm",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "22.779.000",
+          "etiqueta": "ocupados, máximo histórico",
+          "fuente": "INE, EPA 2T 2026",
+          "url": "https://ine.es/dyngs/Prensa/es/EPA2T26.htm",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "10,3%",
+          "etiqueta": "paro total en junio de 2026, segunda tasa más alta de la UE",
+          "fuente": "Eurostat (vía El Derecho)",
+          "url": "https://elderecho.com/la-tasa-de-paro-de-la-eurozona-se-mantuvo-estable-en-el-63-en-junio",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "14,8%",
+          "etiqueta": "temporalidad en el primer trimestre de 2026 (24,8% en 2022)",
+          "fuente": "OCDE, Perspectivas del Empleo 2026 (vía Xataka)",
+          "url": "https://www.xataka.com/empresas-y-economia/ocde-ha-encontrado-lastre-mercado-laboral-espana-no-cobramos-suficiente",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "15,5 puntos",
+          "etiqueta": "diferencia de paro entre regiones, muy por encima de la media de la OCDE",
+          "fuente": "OCDE, Perspectivas del Empleo 2026 (vía Xataka)",
+          "url": "https://www.xataka.com/empresas-y-economia/ocde-ha-encontrado-lastre-mercado-laboral-espana-no-cobramos-suficiente",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "764.200",
+          "etiqueta": "hogares con todos sus activos en paro",
+          "fuente": "INE, EPA 2T 2026",
+          "url": "https://ine.es/dyngs/Prensa/es/EPA2T26.htm",
+          "fecha": "2026-07"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Paro estructural alto",
+          "texto": "Incluso en la parte alta del ciclo, el paro español duplica la media de la OCDE. Los expertos apuntan a la estructura productiva, la eficacia de las políticas activas de empleo y la movilidad geográfica, limitada por el precio de la vivienda en las zonas con más empleo."
+        },
+        {
+          "titulo": "Desajuste entre formación y puestos",
+          "texto": "Conviven paro juvenil alto y sobrecualificación: uno de cada tres ocupados con estudios superiores trabaja en un puesto que no los requiere (Eurostat, 2025)."
+        },
+        {
+          "titulo": "Debate sobre la reforma laboral y el salario mínimo",
+          "texto": "La temporalidad cayó tras la reforma de 2021. Hay desacuerdo sobre el efecto de las subidas del salario mínimo en el empleo de los menos cualificados: unos estudios encuentran efectos pequeños y otros, pérdidas en colectivos concretos."
+        }
+      ],
+      "y_quien_lo_paga": "Mejorar la intermediación y la formación es sobre todo gestión y evaluación. Ampliar bonificaciones o prestaciones tiene coste: España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026.",
+      "preguntas": [
+        "¿Qué tasa de paro considera alcanzable en 2030 y con qué reformas concretas?",
+        "¿Cómo evaluará con datos públicos si las políticas activas de empleo funcionan, y cerrará las que no?",
+        "¿Qué hará para que un parado pueda mudarse a donde hay empleo si no puede pagar la vivienda allí?"
+      ]
+    },
+    {
+      "id": "sanidad",
+      "titulo": "Sanidad: esperas y personal",
+      "area": "sanidad",
+      "enlace": null,
+      "cis": [
+        "La sanidad"
+      ],
+      "dato_clave": {
+        "valor": "853.509",
+        "etiqueta": "pacientes esperando una operación no urgente (31/12/2025), la cifra más alta de la serie",
+        "fuente": "Ministerio de Sanidad, SISLE-SNS",
+        "url": "https://www.sanidad.gob.es/gl/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Resumen_SISLE__dic25.pdf",
+        "fecha": "2025-12"
+      },
+      "resumen": "La espera media para operarse es de 121 días y la de una primera consulta con el especialista, de 102. Uno de cada cinco pacientes consigue cita con el médico de familia en uno o dos días.",
+      "datos": [
+        {
+          "valor": "121 días",
+          "etiqueta": "espera media quirúrgica; de 50 días en Madrid a 173 en Andalucía",
+          "fuente": "Ministerio de Sanidad, SISLE-SNS (diferencias por comunidad vía Euronews)",
+          "url": "https://es.euronews.com/salud/2026/04/16/un-nuevo-record-mas-de-853000-personas-esperan-una-operacion-en-espana",
+          "fecha": "2025-12"
+        },
+        {
+          "valor": "21,6%",
+          "etiqueta": "de los pacientes en lista quirúrgica espera más de 6 meses",
+          "fuente": "Ministerio de Sanidad, SISLE-SNS",
+          "url": "https://www.sanidad.gob.es/gl/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Resumen_SISLE__dic25.pdf",
+          "fecha": "2025-12"
+        },
+        {
+          "valor": "102 días",
+          "etiqueta": "espera media para la primera consulta con el especialista; el 61,5% con cita a más de 60 días",
+          "fuente": "Ministerio de Sanidad, SISLE-SNS",
+          "url": "https://www.sanidad.gob.es/gl/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Resumen_SISLE__dic25.pdf",
+          "fecha": "2025-12"
+        },
+        {
+          "valor": "21,8%",
+          "etiqueta": "consigue cita con el médico de familia el mismo día o el siguiente; el resto espera 10,3 días de media (dato provisional)",
+          "fuente": "Ministerio de Sanidad y CIS, Barómetro Sanitario 2026, 1ª oleada (vía El Español)",
+          "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260713/solo-espanoles-cita-medico-familia-resto-espera-dias-media/1003744319583_0.html",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "439 vs 420",
+          "etiqueta": "médicos por 100.000 habitantes en España frente a la media de la UE (2023); el 24,9% de los colegiados se jubilará en diez años",
+          "fuente": "Eurostat y CGCOM, Estudio de demografía médica 2025 (vía Diario Estrategia)",
+          "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5545355/espana-registra-276000-medicos-activo-pero-25-jubilara-proxima-decada-segun-cgcom",
+          "fecha": "2025-10"
+        },
+        {
+          "valor": "6,45 vs 8,12",
+          "etiqueta": "enfermeras por 1.000 habitantes en España frente a la UE (2025)",
+          "fuente": "Consejo General de Enfermería, Informe de ratios 2025 (vía Redacción Médica)",
+          "url": "https://www.redaccionmedica.com/profesionales/enfermeria/20260701/espana-necesita-enfermeras-para-igualar-la-media-europea/313152_0.html",
+          "fecha": "2026-07"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "No faltan médicos en total, faltan en ciertos puestos",
+          "texto": "España supera la media de la UE en médicos por habitante. El Consejo General de Médicos atribuye las vacantes a la distribución entre especialidades y territorios y a las condiciones de trabajo, no al número total."
+        },
+        {
+          "titulo": "Pocas enfermeras",
+          "texto": "La ratio de enfermería está por debajo de la media europea, lo que limita la capacidad de la atención primaria y de los hospitales."
+        },
+        {
+          "titulo": "Envejecimiento y jubilaciones",
+          "texto": "Una población más mayor demanda más consultas y operaciones, y uno de cada cuatro médicos se jubilará en la próxima década."
+        },
+        {
+          "titulo": "Gestión dividida entre comunidades",
+          "texto": "La sanidad está transferida: los tiempos de espera varían más de tres veces entre comunidades. El Ministerio reconoce que la estadística actual no mide la espera de pruebas diagnósticas ni el proceso completo."
+        }
+      ],
+      "y_quien_lo_paga": "Contratar y retener personal o concertar operaciones cuesta dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. Reorganizar la atención primaria, unificar la medición de esperas o redistribuir plazas MIR es gestión y no requiere necesariamente más gasto.",
+      "preguntas": [
+        "¿Qué tiempo máximo de espera garantizará y qué ocurre si no se cumple?",
+        "¿Cómo cubrirá las plazas de médico de familia y pediatría en zonas rurales?",
+        "¿Cómo coordinará con las comunidades autónomas una competencia que en su mayor parte no es estatal?"
+      ]
+    },
+    {
+      "id": "pensiones",
+      "titulo": "Pensiones y envejecimiento",
+      "area": "pensiones",
+      "enlace": null,
+      "cis": [
+        "Las pensiones"
+      ],
+      "dato_clave": {
+        "valor": "14,6% del PIB",
+        "etiqueta": "gasto bruto medio en pensiones previsto para 2022-2050",
+        "fuente": "AIReF, evaluación de la regla de gasto en pensiones (vía Bolsamanía)",
+        "url": "https://www.bolsamania.com/noticias_amp/economia/economia--airef-ratifica-el-cumplimiento-de-la-regla-de-gasto-de-pensiones-pero-dice-que-no-garantiza-la-sostenibilidad--22574898.html",
+        "fecha": "2026-05"
+      },
+      "resumen": "Las pensiones son la mayor partida del gasto público y la jubilación de la generación del baby boom elevará la tasa de dependencia durante dos décadas. La AIReF advierte de que cumplir la regla de gasto actual no garantiza la sostenibilidad.",
+      "datos": [
+        {
+          "valor": "≈123% del PIB",
+          "etiqueta": "deuda pública prevista en 2050 a políticas constantes",
+          "fuente": "AIReF (mayo 2026, vía Bolsamanía)",
+          "url": "https://www.bolsamania.com/noticias_amp/economia/economia--airef-ratifica-el-cumplimiento-de-la-regla-de-gasto-de-pensiones-pero-dice-que-no-garantiza-la-sostenibilidad--22574898.html",
+          "fecha": "2026-05"
+        },
+        {
+          "valor": "20,4% → 30,5%",
+          "etiqueta": "población de 65 años o más hoy y hacia 2055",
+          "fuente": "INE, Proyecciones de Población 2024-2074",
+          "url": "https://www.ine.es/dyngs/Prensa/es/PROP20242074.htm",
+          "fecha": "2024"
+        },
+        {
+          "valor": "≈75,3%",
+          "etiqueta": "tasa de dependencia máxima proyectada, hacia 2052",
+          "fuente": "INE, Proyecciones de Población 2024-2074",
+          "url": "https://www.ine.es/dyngs/Prensa/es/PROP20242074.htm",
+          "fecha": "2024"
+        },
+        {
+          "valor": "0,33% del PIB",
+          "etiqueta": "déficit de la Seguridad Social en 2025 (0,52% en 2024)",
+          "fuente": "Ministerio de Hacienda, cierre del déficit 2025",
+          "url": "https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20260331-np-cierre-deficit.aspx",
+          "fecha": "2026-03"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Demografía",
+          "texto": "Más jubilados por cada trabajador y más años de cobro por el aumento de la esperanza de vida. La inmigración amplía la base de cotizantes, pero no compensa por sí sola el envejecimiento según las proyecciones del INE."
+        },
+        {
+          "titulo": "Reformas recientes",
+          "texto": "La revalorización con el IPC eleva el gasto; las subidas de cotizaciones y el mecanismo de equidad intergeneracional elevan los ingresos. La AIReF considera que el saldo no asegura la sostenibilidad a largo plazo."
+        }
+      ],
+      "y_quien_lo_paga": "El aumento del gasto en pensiones se financia con cotizaciones, impuestos, menos gasto en otras partidas o deuda. España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. Cualquier propuesta debería decir qué grupo asume el ajuste: cotizantes, contribuyentes o futuros pensionistas.",
+      "preguntas": [
+        "¿Quién paga el aumento del gasto en pensiones: cotizantes, contribuyentes, futuros pensionistas o deuda? ¿En qué proporción?",
+        "¿Qué hará si la AIReF certifica que el sistema se desvía de la senda prevista?",
+        "¿Mantendrá la revalorización de todas las pensiones con el IPC? ¿Cuánto cuesta cada año?"
+      ]
+    },
+    {
+      "id": "educacion",
+      "titulo": "Educación",
+      "area": "educacion",
+      "enlace": null,
+      "cis": [
+        "La educación"
+      ],
+      "dato_clave": {
+        "valor": "12,8%",
+        "etiqueta": "de jóvenes de 18-24 años dejaron los estudios sin completar la segunda etapa de secundaria (2025); en 2008 era el 31,7%",
+        "fuente": "Ministerio de Educación (dato 2025) y Funcas (serie desde 2008)",
+        "url": "https://www.educacionfpydeportes.gob.es/dam/jcr:b410eba9-18b7-44d5-b6ad-f1c69069d75e/1-3-6-tabla-1-abandono-nivel-de-formaci-n-2025.pdf",
+        "fecha": "2026"
+      },
+      "resumen": "Los alumnos de 15 años puntúan en la media de la OCDE en PISA, pero España repite curso más del doble que la media, el abandono temprano sigue por encima de la UE y los adultos puntúan por debajo de la OCDE en competencias básicas.",
+      "datos": [
+        {
+          "valor": "9,4%",
+          "etiqueta": "abandono temprano en la media de la UE (2024)",
+          "fuente": "Funcas, a partir de Eurostat",
+          "url": "https://www.funcas.es/wp-content/uploads/2026/02/Informe-sobre-el-abandono-educativo-temprano-en-Espana.pdf",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "473 / 474 / 485",
+          "etiqueta": "puntos de España en PISA 2022 en matemáticas, lectura y ciencias (media OCDE: 472 / 476 / 485)",
+          "fuente": "OCDE, PISA 2022 (vía El Independiente)",
+          "url": "https://www.elindependiente.com/sociedad/educacion/2023/12/05/el-informe-pisa-suspende-a-los-alumnos-espanoles-en-lectura-y-matematicas/amp/",
+          "fecha": "2023-12"
+        },
+        {
+          "valor": "22% vs 9,8%",
+          "etiqueta": "alumnos de 15 años que han repetido curso alguna vez, España frente a la media OCDE",
+          "fuente": "PISA 2022, análisis de EsadeEcPol y Save the Children (vía Ara)",
+          "url": "https://en.ara.cat/society/spain-the-third-oecd-country-where-most-repeat-grade_1_5851043.html",
+          "fecha": "2026-09"
+        },
+        {
+          "valor": "247 vs 260",
+          "etiqueta": "puntuación de los adultos en comprensión lectora, España frente a la media OCDE (matemáticas: 250 vs 263)",
+          "fuente": "OCDE, PIAAC 2023 (vía The Objective)",
+          "url": "https://theobjective.com/sociedad/educacion/2024-12-10/adultos-espanoles-ue-ocde-matematicas-lectura/",
+          "fecha": "2024-12"
+        },
+        {
+          "valor": "34% vs 21,4%",
+          "etiqueta": "ocupados con estudios superiores en puestos que no los requieren, España frente a la UE (2025)",
+          "fuente": "Eurostat (vía Vozpópuli)",
+          "url": "https://www.vozpopuli.com/economia/empleo/espana-lidera-la-ue-en-tasa-de-sobrecualificacion-uno-de-cada-tres-trabajadores-tiene-mas-formacion-de-la-que-necesita.html",
+          "fecha": "2026-04"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Repetición frecuente",
+          "texto": "España es uno de los países de la OCDE donde más se repite. La evidencia internacional asocia la repetición con más abandono y no con mejor aprendizaje; los defensores sostienen que evita promocionar sin los conocimientos mínimos."
+        },
+        {
+          "titulo": "Desajuste con el mercado laboral",
+          "texto": "Mucha población con estudios universitarios y una proporción alta con solo estudios obligatorios, con un nivel intermedio (FP) históricamente menor. El resultado es sobrecualificación y paro juvenil a la vez."
+        },
+        {
+          "titulo": "Diferencias entre comunidades y por origen",
+          "texto": "Los resultados varían mucho entre comunidades autónomas, que gestionan la educación, y según el nivel socioeconómico y el origen del alumnado."
+        }
+      ],
+      "y_quien_lo_paga": "Reducir la repetición, cambiar la evaluación o reorganizar la FP son decisiones de diseño y gestión. Bajar ratios o contratar más profesorado de refuerzo cuesta dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026.",
+      "preguntas": [
+        "¿Qué hará para que repetir curso deje de ser habitual sin rebajar lo que se aprende?",
+        "¿Cómo medirá el aprendizaje real de los alumnos, no solo las tasas de titulación?",
+        "¿Cuántas plazas de FP creará, en qué sectores y dónde?"
+      ]
+    },
+    {
+      "id": "pobreza-infantil",
+      "titulo": "Pobreza infantil",
+      "area": "igualdad",
+      "enlace": null,
+      "cis": [
+        "Los problemas de índole social"
+      ],
+      "dato_clave": {
+        "valor": "33,8%",
+        "etiqueta": "de los menores de 18 años en riesgo de pobreza o exclusión social (2025), la tasa más alta de la UE (media: 24,3%)",
+        "fuente": "Eurostat (vía Vozpópuli)",
+        "url": "https://www.vozpopuli.com/economia/macroeconomia/espana-ya-es-el-pais-de-la-union-europea-con-mas-menores-en-riesgo-de-pobreza.html",
+        "fecha": "2026-05"
+      },
+      "resumen": "Uno de cada tres menores vive en riesgo de pobreza o exclusión. El Ingreso Mínimo Vital llega a una parte pequeña de los hogares que podrían cobrarlo.",
+      "datos": [
+        {
+          "valor": "33,9%",
+          "etiqueta": "tasa AROPE de los menores de 16 años (2025), 0,8 puntos menos que en 2024",
+          "fuente": "INE, Encuesta de Condiciones de Vida 2025",
+          "url": "https://ine.es/dyngs/Prensa/ECV2025.htm",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "25,7%",
+          "etiqueta": "tasa AROPE del conjunto de la población (2025)",
+          "fuente": "INE, Encuesta de Condiciones de Vida 2025",
+          "url": "https://ine.es/dyngs/Prensa/ECV2025.htm",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "28,3%",
+          "etiqueta": "de los menores bajo el umbral de pobreza (2025), unos 2,07 millones",
+          "fuente": "Fedea (vía Diario Estrategia)",
+          "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5993268/casi-tercio-menores-18-anos-espana-vivia-2025-bajo-umbral-pobreza-segun-fedea",
+          "fecha": "2026-08"
+        },
+        {
+          "valor": "21,3% vs 54,6%",
+          "etiqueta": "hogares en riesgo de pobreza a los que llega el IMV frente a los que podría alcanzar con su diseño actual",
+          "fuente": "AIReF, revisión del gasto 2022-2026 (vía The Objective)",
+          "url": "https://theobjective.com/economia/2026-02-04/airef-ingreso-minimo-hogares-pobreza/",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "55%",
+          "etiqueta": "de los hogares con derecho al IMV y al complemento de infancia no lo solicita",
+          "fuente": "AIReF (vía The Objective)",
+          "url": "https://theobjective.com/economia/2026-02-04/airef-ingreso-minimo-hogares-pobreza/",
+          "fecha": "2026-02"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Prestaciones que no llegan",
+          "texto": "La AIReF atribuye la baja cobertura del IMV a la complejidad del trámite, el desconocimiento y el diseño del incentivo al empleo, y propone automatizar la comprobación de requisitos."
+        },
+        {
+          "titulo": "Coste de la vivienda en hogares con hijos",
+          "texto": "El riesgo de pobreza es mucho mayor en los hogares que alquilan a precio de mercado (43,6%), donde se concentran muchas familias jóvenes y de origen extranjero."
+        },
+        {
+          "titulo": "Empleo de los padres",
+          "texto": "El paro y los salarios bajos de los adultos del hogar explican buena parte de la pobreza infantil."
+        }
+      ],
+      "y_quien_lo_paga": "Mejorar la cobertura del IMV hasta su potencial costaría unos 3.000 millones de euros más al año según la AIReF (de 3.106 a 6.145 millones). España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026: debe decirse de qué partida sale o qué ingreso lo financia. Automatizar el acceso es sobre todo gestión.",
+      "preguntas": [
+        "¿Cuánto bajará la pobreza infantil con su programa y cómo lo medirá?",
+        "¿Automatizará el acceso al IMV y al complemento de infancia para quienes cumplen los requisitos?",
+        "¿Qué parte del gasto social que propone va a familias con hijos frente a otros grupos?"
+      ]
+    },
+    {
+      "id": "deuda",
+      "titulo": "Deuda pública",
+      "area": "deuda",
+      "enlace": "deuda",
+      "cis": [],
+      "dato_clave": {
+        "valor": "101,5% del PIB",
+        "etiqueta": "deuda de las Administraciones Públicas (junio de 2026): 1,763 billones de euros",
+        "fuente": "Banco de España (vía Euronews)",
+        "url": "https://es.euronews.com/business/2026/08/18/la-deuda-publica-pierde-casi-dos-puntos-de-pib-en-un-ano",
+        "fecha": "2026-08"
+      },
+      "resumen": "La ratio de deuda baja porque el PIB nominal crece más deprisa, pero el saldo sigue aumentando. El déficit de 2025 fue del 2,4% del PIB con las medidas de la DANA.",
+      "datos": [
+        {
+          "valor": "2,39% del PIB",
+          "etiqueta": "déficit público de 2025 con las medidas por la DANA (2,18% sin ellas)",
+          "fuente": "Ministerio de Hacienda",
+          "url": "https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20260331-np-cierre-deficit.aspx",
+          "fecha": "2026-03"
+        },
+        {
+          "valor": "≈2,4% del PIB",
+          "etiqueta": "gasto en intereses en 2025 (cálculo propio: déficit sin DANA más superávit primario del 0,21%)",
+          "fuente": "Ministerio de Hacienda, cierre del déficit 2025",
+          "url": "https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20260331-np-cierre-deficit.aspx",
+          "fecha": "2026-03"
+        },
+        {
+          "valor": "+4,2%",
+          "etiqueta": "crecimiento interanual del saldo vivo de deuda (junio de 2026)",
+          "fuente": "Banco de España (vía Euronews)",
+          "url": "https://es.euronews.com/business/2026/08/18/la-deuda-publica-pierde-casi-dos-puntos-de-pib-en-un-ano",
+          "fecha": "2026-08"
+        },
+        {
+          "valor": "≈123% del PIB",
+          "etiqueta": "deuda prevista en 2050 a políticas constantes",
+          "fuente": "AIReF (mayo 2026, vía Bolsamanía)",
+          "url": "https://www.bolsamania.com/noticias_amp/economia/economia--airef-ratifica-el-cumplimiento-de-la-regla-de-gasto-de-pensiones-pero-dice-que-no-garantiza-la-sostenibilidad--22574898.html",
+          "fecha": "2026-05"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Déficit persistente",
+          "texto": "España tiene déficit público todos los años desde 2008. El saldo primario fue ligeramente positivo en 2025 sin contar la DANA, por lo que el déficit total equivale aproximadamente al pago de intereses."
+        },
+        {
+          "titulo": "Presión futura del envejecimiento",
+          "texto": "La AIReF proyecta que el gasto en pensiones y sanidad elevará la deuda a largo plazo si no cambian las políticas."
+        }
+      ],
+      "y_quien_lo_paga": "Cada euro de intereses es un euro que no se gasta en otra cosa. Reducir la deuda requiere superávit primario: más ingresos, menos gasto o más crecimiento.",
+      "preguntas": [
+        "¿Cuánto déficit tendría España cada año con su programa completo aplicado?",
+        "¿Se compromete a que un organismo independiente evalúe el coste de su programa?"
+      ]
+    },
+    {
+      "id": "administracion",
+      "titulo": "Administración pública y burocracia",
+      "area": "instituciones",
+      "enlace": null,
+      "cis": [
+        "El funcionamiento de los servicios públicos"
+      ],
+      "dato_clave": {
+        "valor": "47,7%",
+        "etiqueta": "de los empleados de la administración pública tiene 55 años o más, frente al 27% de media en la OCDE",
+        "fuente": "OCDE, Government at a Glance 2025 (vía Diario de León)",
+        "url": "https://www.diariodeleon.es/economia/250620/2051634/mitad-funcionarios-administracion-jubilaran-diez-anos.html",
+        "fecha": "2025-06"
+      },
+      "resumen": "La mitad de la plantilla de la administración se jubilará en unos diez años. España puntúa por encima de la media de la UE en servicios públicos digitales, mientras la Comisión Europea considera gravosas las licencias para abrir un negocio.",
+      "datos": [
+        {
+          "valor": "3.662.500",
+          "etiqueta": "empleados públicos (1er trimestre de 2026), el 16,4% de los ocupados",
+          "fuente": "INE, EPA (vía The Objective)",
+          "url": "https://theobjective.com/economia/2026-06-08/empleados-publicos-sanchez-545000-record-2026/",
+          "fecha": "2026-06"
+        },
+        {
+          "valor": "Más del 30% vs 13,4%",
+          "etiqueta": "temporalidad en la administración pública frente al conjunto de la economía",
+          "fuente": "OCDE y Eurostat (vía Diario de León)",
+          "url": "https://www.diariodeleon.es/economia/250620/2051634/mitad-funcionarios-administracion-jubilaran-diez-anos.html",
+          "fecha": "2025-06"
+        },
+        {
+          "valor": "88,75 vs 82,20",
+          "etiqueta": "puntuación en servicios públicos digitales para ciudadanos, España frente a la media de la UE (sobre 100)",
+          "fuente": "Comisión Europea, Década Digital 2025 (vía La Moncloa)",
+          "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2025/20250616-digital-decade-country-report.aspx",
+          "fecha": "2025-06"
+        },
+        {
+          "valor": "21,4 → 33,9",
+          "etiqueta": "procesos de baja por contingencias comunes por cada 1.000 afiliados entre 2017 y 2024 (todos los sectores); gasto de 16.500 millones en 2024",
+          "fuente": "AIReF, estudio sobre incapacidad temporal (vía Bolsamanía)",
+          "url": "https://www.bolsamania.com/noticias/economia/economia--el-transito-de-contrato-temporal-a-fijo-eleva-un-30-la-probabilidad-de-iniciar-una-baja-medica-segun-airef--22676296.html",
+          "fecha": "2026-06"
+        },
+        {
+          "valor": "894",
+          "etiqueta": "normas estatales y autonómicas aprobadas en 2024, con cerca de 300.000 páginas en boletines oficiales",
+          "fuente": "CEOE, Producción normativa en 2024 (vía Forbes)",
+          "url": "https://forbes.es/economia/754738/ceoe-denuncia-que-el-exceso-de-la-burocracia-frena-la-inversion-tras-aumentar-un-5-las-normas-en-2024/",
+          "fecha": "2025-07"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Plantilla envejecida y rígida",
+          "texto": "La OCDE sitúa a España como segundo país con la plantilla pública más envejecida. Las convocatorias por oposición y la distribución de plazas por cuerpos dificultan mover personal hacia donde aumenta la demanda; la temporalidad se concentra en las comunidades autónomas."
+        },
+        {
+          "titulo": "Incapacidad temporal",
+          "texto": "La AIReF documenta un aumento de la incidencia de las bajas en toda la economía y calcula que restaurar el complemento del 100% de la baja para empleados públicos elevó en un 40% la probabilidad de iniciar una. No hay una estadística oficial periódica de absentismo del sector público comparable con la privada."
+        },
+        {
+          "titulo": "Normas y licencias fragmentadas",
+          "texto": "La Comisión Europea considera gravosos los procedimientos de licencia para abrir negocios y señala que las diferencias entre comunidades elevan los costes de cumplimiento; según prensa, España está la última de la UE en transposición de directivas."
+        },
+        {
+          "titulo": "Digitalización desigual",
+          "texto": "Los servicios digitales para ciudadanos puntúan por encima de la media europea; la digitalización de las pymes sigue por debajo según la propia Comisión."
+        }
+      ],
+      "y_quien_lo_paga": "Simplificar licencias, evaluar el gasto y reorganizar plantillas no requiere más presupuesto: son reformas de gestión. Contratar para cubrir jubilaciones sí tiene coste, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026.",
+      "preguntas": [
+        "¿Cómo cubrirá la jubilación de la mitad de la plantilla pública en diez años y qué puestos no se repondrán?",
+        "¿Qué licencias sustituirá por una declaración responsable y en cuánto reducirá los plazos?",
+        "¿Publicará datos periódicos de bajas y productividad por administración?"
+      ]
+    },
+    {
+      "id": "justicia",
+      "titulo": "Justicia: lentitud",
+      "area": "instituciones",
+      "enlace": null,
+      "cis": [
+        "La Administración de Justicia"
+      ],
+      "dato_clave": {
+        "valor": "444 días",
+        "etiqueta": "tiempo estimado para resolver un litigio civil o mercantil en primera instancia (2023); eran 344 en 2021",
+        "fuente": "Comisión Europea, Cuadro de Indicadores de la Justicia de la UE 2025",
+        "url": "https://commission.europa.eu/document/download/4c9fb0bf-7912-450b-ac7e-6f1d044a9585_en",
+        "fecha": "2025-07"
+      },
+      "resumen": "España tiene menos jueces por habitante que la media europea y la duración de los litigios civiles ha aumentado. Más de la mitad de los ciudadanos valora mal la independencia judicial.",
+      "datos": [
+        {
+          "valor": "11,9 vs 17,4",
+          "etiqueta": "jueces por 100.000 habitantes, España frente a la media europea (2022)",
+          "fuente": "Consejo de Europa, CEPEJ (vía LegalToday)",
+          "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-consejo-de-europa-mantiene-a-espana-muy-por-encima-en-presupuesto-judicial-por-habitante-pero-por-debajo-en-jueces-2024-10-17/",
+          "fecha": "2024-10"
+        },
+        {
+          "valor": "11,4 meses",
+          "etiqueta": "duración estimada en los juzgados de lo social (2024); 10,1 meses en lo contencioso-administrativo",
+          "fuente": "CGPJ, La Justicia dato a dato 2024 (recogido por CCOO)",
+          "url": "https://ccoo.es/53afa98d112398189d804bfbc364304e000001.pdf",
+          "fecha": "2025"
+        },
+        {
+          "valor": "4,5 millones",
+          "etiqueta": "asuntos en trámite previstos al cierre de 2024, un 13% más que un año antes",
+          "fuente": "CGPJ, situación de los órganos judiciales 3T 2024 (vía El Derecho)",
+          "url": "https://elderecho.com/?p=437596",
+          "fecha": "2024-12"
+        },
+        {
+          "valor": "-30,9%",
+          "etiqueta": "asuntos civiles nuevos en el 3er trimestre de 2025, tras exigir un intento de acuerdo previo (MASC)",
+          "fuente": "CGPJ (vía LegalToday)",
+          "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/los-tribunales-recibieron-en-el-tercer-trimestre-de-2025-un-125-menos-de-asuntos-nuevos-2025-12-18/",
+          "fecha": "2025-12"
+        },
+        {
+          "valor": "39% vs 52%",
+          "etiqueta": "ciudadanos que valoran bien o mal la independencia judicial; España, séptima por la cola de la UE",
+          "fuente": "Eurobarómetro, Cuadro de Indicadores de la Justicia 2025 (vía LegalToday)",
+          "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/espana-septimo-pais-por-la-cola-en-la-ue-en-percepcion-ciudadana-de-la-independencia-de-los-jueces-2025-07-01/",
+          "fecha": "2025-07"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Pocos jueces por habitante",
+          "texto": "El número de jueces por habitante es de los más bajos de Europa, aunque el presupuesto judicial por habitante está por encima de la media según el Consejo de Europa. Parte del debate es si el problema es de plantilla o de organización."
+        },
+        {
+          "titulo": "Litigiosidad alta",
+          "texto": "Los juzgados reciben millones de asuntos al año. La Ley de eficiencia de 2025 obliga a intentar un acuerdo antes de demandar en lo civil, y los asuntos civiles nuevos cayeron con fuerza; aún no hay datos suficientes sobre su efecto en la duración."
+        },
+        {
+          "titulo": "Organización y medios",
+          "texto": "La implantación de los tribunales de instancia, la interoperabilidad de los sistemas informáticos entre comunidades y la cobertura de plazas vacantes condicionan la productividad de los juzgados."
+        }
+      ],
+      "y_quien_lo_paga": "Crear plazas judiciales cuesta dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. Reorganizar juzgados, unificar sistemas informáticos o cambiar procedimientos son reformas de gestión.",
+      "preguntas": [
+        "¿Cuántas plazas de juez creará y en qué plazo, y cómo las financiará?",
+        "¿Cuánto reducirá la duración media de un pleito civil y cómo lo medirá?",
+        "¿Qué cambiará en el sistema de nombramiento del CGPJ, si cambia algo?"
+      ]
+    },
+    {
+      "id": "inmigracion",
+      "titulo": "Inmigración e integración",
+      "area": "inmigracion",
+      "enlace": null,
+      "cis": [
+        "La inmigración"
+      ],
+      "dato_clave": {
+        "valor": "20,7%",
+        "etiqueta": "de la población residente nació en el extranjero (10,29 millones a 1 de julio de 2026); el 14,9% tiene nacionalidad extranjera",
+        "fuente": "INE, Estadística Continua de Población 2T 2026",
+        "url": "https://www.ine.es/dyngs/Prensa/ECP2T26.htm",
+        "fecha": "2026-08"
+      },
+      "resumen": "Es el segundo problema de España en el CIS (20,9%), y el 11,2% lo cita entre los que le afectan personalmente. En empleo la brecha con los nativos es pequeña y menor que en Francia; las brechas grandes están en pobreza, vivienda y escuela.",
+      "datos": [
+        {
+          "valor": "20,9% vs 11,2%",
+          "etiqueta": "cita la inmigración entre los principales problemas de España frente a quien la cita entre los que le afectan personalmente",
+          "fuente": "CIS, Barómetro de octubre 2026",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "fecha": "2026-10"
+        },
+        {
+          "valor": "17,2% vs 9,3%",
+          "etiqueta": "tasa de paro de extranjeros y de españoles (1er trimestre de 2026); tasa de empleo: 56,7% vs 51,0%, por una población extranjera más joven",
+          "fuente": "Ministerio de Inclusión, informe trimestral a partir de la EPA",
+          "url": "https://www.ciudadaniaexterior.inclusion.gob.es/ficheros/ministerio/sec_trabajo/analisis_mercado_trabajo/poblacion-extranjera/2026/Informe-trimestral-extranjeros-9.pdf",
+          "fecha": "2026-04"
+        },
+        {
+          "valor": "65,4% vs 67,1%",
+          "etiqueta": "tasa de empleo (15-64 años) de inmigrantes de fuera de la UE frente a nativos en España en 2025; en Francia: 61,5% vs 70,5%",
+          "fuente": "Dustmann, Frattini y Piovesan, CReAM/RFBerlin, con datos de Eurostat",
+          "url": "https://www.rfberlin.com/?p=27507",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "53,5% vs 20,5%",
+          "etiqueta": "riesgo de pobreza o exclusión de los extracomunitarios frente a los españoles (mayores de 16 años, 2025)",
+          "fuente": "INE, Encuesta de Condiciones de Vida 2025 (tabla recogida por EAPN)",
+          "url": "https://www.eapn.es/ARCHIVO/documentos/noticias/1770362299_el-estado-de-la-pobreza--avance-2026.pdf",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "14,1%",
+          "etiqueta": "de los afiliados a la Seguridad Social son extranjeros (3.038.158 en enero de 2026)",
+          "fuente": "Ministerio de Inclusión y Seguridad Social",
+          "url": "https://revista.seg-social.es/-/la-seguridad-social-comienza-2026-con-cerca-de-200.000-afiliados-extranjeros-m%C3%A1s-que-hace-un-a%C3%B1o",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "15,3 vs 6,1",
+          "etiqueta": "condenados por cada 1.000 adultos de nacionalidad extranjera frente a española (2025); ver limitaciones abajo",
+          "fuente": "INE, Estadística de Condenados 2025",
+          "url": "https://ine.es/dyngs/Prensa/en/EPCAEPCM2025.pdf",
+          "fecha": "2026-07"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Llegada rápida en pocos años",
+          "texto": "Los nacidos en el extranjero pasaron de 7,3 millones en 2021 a 10,3 millones en 2026. La mayoría llega por vía regular, a menudo desde Latinoamérica; las llegadas irregulares por mar y tierra fueron 36.775 en 2025, un 42,6% menos que en 2024."
+        },
+        {
+          "titulo": "Situación administrativa",
+          "texto": "La regularización extraordinaria de 2026 recibió más de 1,2 millones de solicitudes según el Gobierno, lo que indica el tamaño de la población que trabajaba sin poder cotizar."
+        },
+        {
+          "titulo": "Dos posturas sobre la capacidad",
+          "texto": "Unos expertos señalan que el ritmo de llegada presiona sobre la vivienda y los servicios en las zonas de destino. Otros subrayan que los extranjeros cubren vacantes y aportan el 14,1% de las cotizaciones en un país que envejece. Ambas posiciones se apoyan en datos reales; difieren en el peso que dan a cada uno."
+        }
+      ],
+      "subtemas": [
+        {
+          "titulo": "Segregación escolar",
+          "texto": "El índice de segregación del alumnado de origen extranjero en España es de 0,19: uno de cada cinco alumnos tendría que cambiar de centro para una distribución homogénea. Cataluña y el País Vasco (0,24) están entre los valores más altos de Europa, solo por detrás de Austria, Reino Unido y Bélgica.",
+          "datos": [
+            {
+              "valor": "0,19",
+              "etiqueta": "índice de segregación escolar por origen (España); 0,24 en Cataluña y País Vasco",
+              "fuente": "CCOO, a partir de datos PISA (vía Rebelión)",
+              "url": "https://rebelion.org/catalunya-y-euskadi-son-las-comunidades-que-mas-segregan-al-alumnado-migrante-y-madrid-la-que-mas-lo-hace-por-renta/",
+              "fecha": "2024-12"
+            }
+          ]
+        },
+        {
+          "titulo": "Percepción frente a datos",
+          "texto": "La percepción del volumen supera al dato. En Cataluña, la población cree de media que el 36% de los residentes nació fuera, frente al 25% real; el 40% cree que es la mitad o más. En el conjunto de España, el 84% está de acuerdo en que es bueno que la sociedad tenga gente de distintos orígenes (Funcas, diciembre de 2024).",
+          "datos": [
+            {
+              "valor": "36% vs 25%",
+              "etiqueta": "porcentaje de nacidos en el extranjero percibido y real en Cataluña",
+              "fuente": "Centre d'Estudis d'Opinió (encuesta) e Idescat (vía Ara)",
+              "url": "https://es.ara.cat/sociedad/mitad-catalanes-cree-hay-inmigracion-real_1_5669677.html",
+              "fecha": "2026-03"
+            },
+            {
+              "valor": "84%",
+              "etiqueta": "considera bueno que una sociedad esté formada por gente de distintas razas, religiones y culturas",
+              "fuente": "Funcas, Encuesta sobre percepciones de la inmigración",
+              "url": "https://www.funcas.es/wp-content/uploads/2025/01/NOTAPRENSA-1.pdf",
+              "fecha": "2025-01"
+            }
+          ]
+        },
+        {
+          "titulo": "Delincuencia: qué dicen los datos y qué no",
+          "texto": "La tasa de condenados extranjeros es 2,5 veces la de españoles. Esa comparación tiene límites: la población extranjera es más joven y con más hombres, grupos que delinquen más en cualquier nacionalidad; los condenados incluyen a no residentes (turistas, personas en tránsito) que no cuentan en la población de referencia; y el INE no publica tasas ajustadas por edad y sexo. Los datos no permiten separar el efecto del origen del de la edad, el sexo y la renta.",
+          "datos": [
+            {
+              "valor": "15,3 vs 6,1",
+              "etiqueta": "condenados por 1.000 adultos extranjeros y españoles (2025); 306.237 condenados en total",
+              "fuente": "INE, Estadística de Condenados 2025",
+              "url": "https://ine.es/dyngs/Prensa/en/EPCAEPCM2025.pdf",
+              "fecha": "2026-07"
+            }
+          ]
+        }
+      ],
+      "y_quien_lo_paga": "Integrar implica gasto en idioma, escuela y servicios sociales, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. La regularización y la gestión de permisos son medidas administrativas; la cotización de los trabajadores extranjeros es un ingreso para la Seguridad Social.",
+      "preguntas": [
+        "¿Qué cifra de entradas anuales considera adecuada y con qué criterio la calcula?",
+        "¿Qué hará para reducir la segregación escolar y la pobreza de los hogares inmigrantes?",
+        "¿Publicará estadísticas de delincuencia ajustadas por edad y sexo para poder comparar?"
+      ]
+    },
+    {
+      "id": "salud-mental",
+      "titulo": "Salud mental",
+      "area": "sanidad",
+      "enlace": null,
+      "cis": [],
+      "dato_clave": {
+        "valor": "3.808",
+        "etiqueta": "suicidios en 2025 (dato provisional), más del doble que las muertes en accidentes de tráfico (1.774)",
+        "fuente": "INE, Estadística de Defunciones según la Causa de Muerte (vía Infocop)",
+        "url": "https://www.infocop.es/en-2025-se-registraron-3-808-suicidios-en-espana-segun-datos-provisionales-del-ine/",
+        "fecha": "2026-07"
+      },
+      "resumen": "El suicidio es la primera causa externa de muerte entre los hombres. La sanidad pública tiene unos 6 psicólogos clínicos por cada 100.000 habitantes y las bajas por trastornos mentales son las más largas.",
+      "datos": [
+        {
+          "valor": "3.953",
+          "etiqueta": "suicidios en 2024 (dato definitivo)",
+          "fuente": "INE (vía Infocop)",
+          "url": "https://www.infocop.es/en-2025-se-registraron-3-808-suicidios-en-espana-segun-datos-provisionales-del-ine/",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "≈6 vs ≈18",
+          "etiqueta": "psicólogos clínicos por 100.000 habitantes en España frente a la media europea",
+          "fuente": "Euronews (prensa; sin fuente oficial citada)",
+          "url": "https://es.euronews.com/2026/09/30/salud-mental-espana-a-la-cola-de-europa-en-psicologos-pagar-o-esperar",
+          "fecha": "2026-09"
+        },
+        {
+          "valor": "98,5 días",
+          "etiqueta": "duración media de una baja por trastorno mental en 2024 (67 días en 2017)",
+          "fuente": "AIReF, estudio sobre incapacidad temporal (vía Bolsamanía)",
+          "url": "https://www.bolsamania.com/noticias/economia/economia--el-transito-de-contrato-temporal-a-fijo-eleva-un-30-la-probabilidad-de-iniciar-una-baja-medica-segun-airef--22676296.html",
+          "fecha": "2026-06"
+        },
+        {
+          "valor": "1º del mundo",
+          "etiqueta": "en consumo de benzodiacepinas (ansiolíticos) en 2020",
+          "fuente": "Junta Internacional de Fiscalización de Estupefacientes, informe 2020 (vía Infocop)",
+          "url": "https://www.infocop.es/espana-lidera-la-lista-mundial-de-consumo-de-benzodiacepinas-para-la-ansiedad/",
+          "fecha": "2021-04"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Poca atención psicológica pública",
+          "texto": "El acceso a psicología clínica pública es limitado: la última convocatoria PIR ofreció 293 plazas. Al mismo tiempo, el consumo de ansiolíticos está entre los más altos del mundo."
+        },
+        {
+          "titulo": "Factores sociales",
+          "texto": "Soledad, precariedad laboral, coste de la vivienda y uso de redes en adolescentes son factores citados por los expertos; su peso relativo está en discusión."
+        }
+      ],
+      "y_quien_lo_paga": "Contratar psicólogos clínicos y ampliar plazas PIR cuesta dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. La AIReF señala que las bajas por salud mental también tienen un coste creciente para la Seguridad Social.",
+      "preguntas": [
+        "¿Cuántos psicólogos clínicos tendrá la sanidad pública en 2030 y en qué plazo verá un paciente al especialista?",
+        "¿Habrá un plan nacional de prevención del suicidio con objetivos medibles?"
+      ]
+    },
+    {
+      "id": "natalidad",
+      "titulo": "Natalidad",
+      "area": "demografia",
+      "enlace": null,
+      "cis": [],
+      "dato_clave": {
+        "valor": "1,10",
+        "etiqueta": "hijos por mujer (2024), la segunda fecundidad más baja de la UE (media: 1,34)",
+        "fuente": "Eurostat (vía EUnews)",
+        "url": "https://www.eunews.it/en/2026/03/06/eu-fertility-falls-to-record-low-of-1-34-children-per-woman-in-2024/",
+        "fecha": "2026-03"
+      },
+      "resumen": "Mueren más personas de las que nacen y la población crece solo por la inmigración. Cada vez más mujeres llegan al final de su etapa fértil sin hijos.",
+      "datos": [
+        {
+          "valor": "321.164",
+          "etiqueta": "nacimientos en 2025 (provisional)",
+          "fuente": "INE, Estimación Mensual de Nacimientos",
+          "url": "https://www.ine.es/dyngs/Prensa/EDES_EMN2025.pdf",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "-122.167",
+          "etiqueta": "saldo vegetativo de 2025 (defunciones menos nacimientos)",
+          "fuente": "INE, Estimación Mensual de Nacimientos",
+          "url": "https://www.ine.es/dyngs/Prensa/EDES_EMN2025.pdf",
+          "fecha": "2026-02"
+        },
+        {
+          "valor": "29,5% vs 18%",
+          "etiqueta": "mujeres nacidas en 1982-1986 sin hijos en 2026, frente al 18% de la cohorte equivalente en 2000",
+          "fuente": "Funcas, Notas de Coyuntura Social (julio 2026)",
+          "url": "https://www.funcas.es/wp-content/uploads/2026/07/NOTAPRENSA-CS.pdf",
+          "fecha": "2026-07"
+        },
+        {
+          "valor": "49,8 millones",
+          "etiqueta": "habitantes en julio de 2026, máximo histórico, con crecimiento procedente de la inmigración",
+          "fuente": "INE, Estadística Continua de Población 2T 2026",
+          "url": "https://www.ine.es/dyngs/Prensa/ECP2T26.htm",
+          "fecha": "2026-08"
+        }
+      ],
+      "causas": [
+        {
+          "titulo": "Emancipación tardía",
+          "texto": "Los jóvenes salen de casa de media a los 30 años, casi cuatro más que en la UE, lo que retrasa la formación de parejas y el primer hijo."
+        },
+        {
+          "titulo": "Debate sobre la eficacia de las políticas",
+          "texto": "La evidencia internacional muestra que los cheques por nacimiento tienen efectos pequeños o temporales; las políticas de vivienda, conciliación y escuelas infantiles tienen más respaldo, aunque sus efectos también son moderados."
+        }
+      ],
+      "y_quien_lo_paga": "Las prestaciones por hijo y las escuelas infantiles gratuitas cuestan dinero, y España cerró 2025 con un déficit del 2,4% del PIB (incluidas las medidas por la DANA) y una deuda del 101,5% del PIB en junio de 2026. La regulación de horarios y permisos tiene coste sobre todo para las empresas.",
+      "preguntas": [
+        "¿Qué medidas ayudarán a que las familias tengan los hijos que desean, y cuánto cuestan?",
+        "¿Qué evidencia respalda que su medida eleva la natalidad?"
+      ]
+    }
+  ],
+  "preocupaciones_cis": {
+    "fecha": "2026-10 (trabajo de campo: 1-6 de octubre de 2026)",
+    "fuente": "CIS, Barómetro de octubre 2026, estudio 3582. Pregunta multirrespuesta sobre el principal problema de España (% de menciones)",
+    "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+    "top": [
+      {
+        "problema": "La vivienda",
+        "porcentaje": 55.7
+      },
+      {
+        "problema": "La inmigración",
+        "porcentaje": 20.9
+      },
+      {
+        "problema": "La crisis económica y los problemas económicos",
+        "porcentaje": 20.3
+      },
+      {
+        "problema": "La calidad del empleo",
+        "porcentaje": 19.4
+      },
+      {
+        "problema": "El Gobierno y los partidos o políticos concretos",
+        "porcentaje": 15.1
+      },
+      {
+        "problema": "La sanidad",
+        "porcentaje": 14.4
+      },
+      {
+        "problema": "Problemas políticos en general",
+        "porcentaje": 10.1
+      },
+      {
+        "problema": "El paro",
+        "porcentaje": 9.6
+      },
+      {
+        "problema": "La educación",
+        "porcentaje": 8.7
+      },
+      {
+        "problema": "El mal comportamiento de los políticos",
+        "porcentaje": 8.5
+      },
+      {
+        "problema": "Los extremismos",
+        "porcentaje": 7.7
+      },
+      {
+        "problema": "Problemas relacionados con la juventud",
+        "porcentaje": 7.2
+      },
+      {
+        "problema": "La corrupción y el fraude",
+        "porcentaje": 6.7
+      }
+    ],
+    "otros": [
+      {
+        "problema": "Los problemas de índole social",
+        "porcentaje": 4.9
+      },
+      {
+        "problema": "La inseguridad ciudadana",
+        "porcentaje": 4.3
+      },
+      {
+        "problema": "El funcionamiento de los servicios públicos",
+        "porcentaje": 3.0
+      },
+      {
+        "problema": "La subida de tarifas energéticas, crisis energética",
+        "porcentaje": 2.0
+      },
+      {
+        "problema": "Las pensiones",
+        "porcentaje": 1.4
+      },
+      {
+        "problema": "La Administración de Justicia",
+        "porcentaje": 1.3
+      },
+      {
+        "problema": "La ocupación de viviendas",
+        "porcentaje": 0.5
+      },
+      {
+        "problema": "La España vaciada, la despoblación",
+        "porcentaje": 0.2
+      }
+    ],
+    "personal": {
+      "nota": "Pregunta P14R: problemas que más le afectan personalmente (suma de tres menciones).",
+      "datos": [
+        {
+          "problema": "La vivienda",
+          "porcentaje": 33.8
+        },
+        {
+          "problema": "La crisis económica y los problemas económicos",
+          "porcentaje": 30.3
+        },
+        {
+          "problema": "La sanidad",
+          "porcentaje": 24.0
+        },
+        {
+          "problema": "La calidad del empleo",
+          "porcentaje": 18.8
+        },
+        {
+          "problema": "La inmigración",
+          "porcentaje": 11.2
+        },
+        {
+          "problema": "La educación",
+          "porcentaje": 10.0
+        },
+        {
+          "problema": "El paro",
+          "porcentaje": 6.5
+        },
+        {
+          "problema": "Las pensiones",
+          "porcentaje": 4.0
+        }
+      ]
+    }
+  },
+  "test_del_votante": [
+    "¿Ha hablado del problema o del rival? Cuenta cuántos minutos dedica a cada cosa.",
+    "¿Ha dado una cifra, un plazo y un responsable, o solo un objetivo que nadie discute?",
+    "¿Ha dicho cuánto cuesta y quién lo paga: más impuestos, menos gasto en otra cosa o más deuda?",
+    "¿Su propuesta se podría comprobar dentro de cuatro años con un dato oficial (INE, Eurostat, Ministerio)?",
+    "¿Reconoce alguna renuncia o efecto negativo de lo que propone? Las políticas reales siempre lo tienen.",
+    "¿Es competencia del Gobierno central, o promete algo que depende de comunidades, ayuntamientos o la UE?",
+    "¿Aceptaría que esta propuesta la aplicara y evaluara un gobierno de otro color?",
+    "Si mañana se olvidara la polémica de la que habla, ¿cambiaría algo en tu vida?"
+  ],
+  "fuentes": [
+    {
+      "nombre": "Consejo de la Juventud de España, Observatorio de Emancipación",
+      "url": "https://www.cje.org/en/observatorio_2025/"
+    },
+    {
+      "nombre": "INE, Índice de Precios de Vivienda",
+      "url": "https://www.ine.es/dyngs/Prensa/IPV2T26.htm"
+    },
+    {
+      "nombre": "Banco de España, Informe Anual 2025 (vía Euronews)",
+      "url": "https://es.euronews.com/business/2026/06/18/el-banco-de-espana-senala-un-deficit-de-750000"
+    },
+    {
+      "nombre": "Banco de España, Informe Anual 2025 (vía El Debate)",
+      "url": "https://www.eldebate.com/economia/20260618/banco-espana-cifra-750000-deficit-vivienda-doble-italia-pide-simplificar-regulacion_429981.html"
+    },
+    {
+      "nombre": "INE, Encuesta de Condiciones de Vida 2025 (tabla recogida por EAPN)",
+      "url": "https://www.eapn.es/ARCHIVO/documentos/noticias/1770362299_el-estado-de-la-pobreza--avance-2026.pdf"
+    },
+    {
+      "nombre": "Banco de España, Informe Anual 2023, con datos OCDE (vía Ara)",
+      "url": "https://es.ara.cat/economia/inmobiliario/1-5-millones-viviendas-nuevas-deberes-ponerse-nivel-parque-alquiler-social-ocde_1_5006544.html"
+    },
+    {
+      "nombre": "Eurostat 2024 (vía Bankinter)",
+      "url": "https://www.bankinter.com/blog/finanzas-personales/edad-independizan-jovenes-espana-europa"
+    },
+    {
+      "nombre": "CGPJ (vía Forbes)",
+      "url": "https://forbes.es/economia/893652/los-desahucios-caen-un-11-en-2025-hasta-los-25-540-segun-cgpj/"
+    },
+    {
+      "nombre": "Coalición #NiUnDesahucioMás (nota de prensa)",
+      "url": "https://cecu.es/wp-content/uploads/2026/01/2026_01_23_Nota_moratoria.pdf"
+    },
+    {
+      "nombre": "Ministerio del Interior, Portal Estadístico de Criminalidad (vía El Español)",
+      "url": "https://www.elespanol.com/eldigitalcastillalamancha/region/20260429/semana-denuncian-okupaciones-castilla-la-mancha-toledo-lidera-ranking-mitad/1003744227060_0.html"
+    },
+    {
+      "nombre": "Ministerio del Interior, citado por la Delegación del Gobierno en Madrid (vía Escudo Digital)",
+      "url": "https://www.escudodigital.com/interior/interior-cifra-mas-15000-inmuebles-okupados-ilegalmente-espana.html"
+    },
+    {
+      "nombre": "Ministerio de Derechos Sociales e IFS-CSIC, con datos AEAT-IEF de 2023",
+      "url": "https://www.dsca.gob.es/sites/default/files/prensa/Informe%201%20Multiarrendadores.pdf"
+    },
+    {
+      "nombre": "Banco de España, informe sobre el mercado del alquiler (vía Ara)",
+      "url": "https://es.ara.cat/economia/inmobiliario/espana-lleva-decada-45-inquilinos-riesgo-pobreza_1_5172421.html"
+    },
+    {
+      "nombre": "Casas-Arce y Saiz, 'Owning versus Renting: Do Courts Matter?', Journal of Law and Economics (2010)",
+      "url": "https://ideas.repec.org/a/ucp/jlawec/v53y2010i1p137-165.html"
+    },
+    {
+      "nombre": "Eurostat (vía El Español)",
+      "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20260729/poder-adquisitivo-espanoles-solo-mejora-euros-sanchez-brecha-ue-aumenta-punto/1003744337085_0.html"
+    },
+    {
+      "nombre": "OCDE, Perspectivas del Empleo 2026 (vía Xataka)",
+      "url": "https://www.xataka.com/empresas-y-economia/ocde-ha-encontrado-lastre-mercado-laboral-espana-no-cobramos-suficiente"
+    },
+    {
+      "nombre": "Eurostat, tabla tesem160 (vía El Independiente)",
+      "url": "https://www.elindependiente.com/economia/2026/05/18/record-creacion-empleo-no-mejora-productividad-trabajador-espana-debajo-nivel-prepandemia/amp/"
+    },
+    {
+      "nombre": "Fundación BBVA-Ivie, Observatorio de la Productividad (vía Bolsamanía)",
+      "url": "https://www.bolsamania.com/noticias_amp/economia/economia--la-productividad-espanola-se-situa-un-39-por-encima-del-nivel-del-ano-2000-segun-fundacion-bbva-e-ivie--22564892.html"
+    },
+    {
+      "nombre": "OCDE, Taxing Wages 2026 (vía Vozpópuli)",
+      "url": "https://www.vozpopuli.com/economia/macroeconomia/la-ocde-constata-que-el-irpf-devora-la-mejora-salarial-en-espana.html"
+    },
+    {
+      "nombre": "INE, Contabilidad Regional 2025",
+      "url": "https://www.ine.es/dyngs/Prensa/en/avCRE2025.pdf"
+    },
+    {
+      "nombre": "Eurostat (vía El Derecho)",
+      "url": "https://elderecho.com/la-tasa-de-paro-de-la-eurozona-se-mantuvo-estable-en-el-63-en-junio"
+    },
+    {
+      "nombre": "INE, EPA 2T 2026",
+      "url": "https://ine.es/dyngs/Prensa/es/EPA2T26.htm"
+    },
+    {
+      "nombre": "Ministerio de Sanidad, SISLE-SNS",
+      "url": "https://www.sanidad.gob.es/gl/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Resumen_SISLE__dic25.pdf"
+    },
+    {
+      "nombre": "Ministerio de Sanidad, SISLE-SNS (diferencias por comunidad vía Euronews)",
+      "url": "https://es.euronews.com/salud/2026/04/16/un-nuevo-record-mas-de-853000-personas-esperan-una-operacion-en-espana"
+    },
+    {
+      "nombre": "Ministerio de Sanidad y CIS, Barómetro Sanitario 2026, 1ª oleada (vía El Español)",
+      "url": "https://www.elespanol.com/invertia/observatorios/sanidad/20260713/solo-espanoles-cita-medico-familia-resto-espera-dias-media/1003744319583_0.html"
+    },
+    {
+      "nombre": "Eurostat y CGCOM, Estudio de demografía médica 2025 (vía Diario Estrategia)",
+      "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5545355/espana-registra-276000-medicos-activo-pero-25-jubilara-proxima-decada-segun-cgcom"
+    },
+    {
+      "nombre": "Consejo General de Enfermería, Informe de ratios 2025 (vía Redacción Médica)",
+      "url": "https://www.redaccionmedica.com/profesionales/enfermeria/20260701/espana-necesita-enfermeras-para-igualar-la-media-europea/313152_0.html"
+    },
+    {
+      "nombre": "AIReF, evaluación de la regla de gasto en pensiones (vía Bolsamanía)",
+      "url": "https://www.bolsamania.com/noticias_amp/economia/economia--airef-ratifica-el-cumplimiento-de-la-regla-de-gasto-de-pensiones-pero-dice-que-no-garantiza-la-sostenibilidad--22574898.html"
+    },
+    {
+      "nombre": "INE, Proyecciones de Población 2024-2074",
+      "url": "https://www.ine.es/dyngs/Prensa/es/PROP20242074.htm"
+    },
+    {
+      "nombre": "Ministerio de Hacienda, cierre del déficit 2025",
+      "url": "https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20260331-np-cierre-deficit.aspx"
+    },
+    {
+      "nombre": "Ministerio de Educación (dato 2025) y Funcas (serie desde 2008)",
+      "url": "https://www.educacionfpydeportes.gob.es/dam/jcr:b410eba9-18b7-44d5-b6ad-f1c69069d75e/1-3-6-tabla-1-abandono-nivel-de-formaci-n-2025.pdf"
+    },
+    {
+      "nombre": "Funcas, a partir de Eurostat",
+      "url": "https://www.funcas.es/wp-content/uploads/2026/02/Informe-sobre-el-abandono-educativo-temprano-en-Espana.pdf"
+    },
+    {
+      "nombre": "OCDE, PISA 2022 (vía El Independiente)",
+      "url": "https://www.elindependiente.com/sociedad/educacion/2023/12/05/el-informe-pisa-suspende-a-los-alumnos-espanoles-en-lectura-y-matematicas/amp/"
+    },
+    {
+      "nombre": "PISA 2022, análisis de EsadeEcPol y Save the Children (vía Ara)",
+      "url": "https://en.ara.cat/society/spain-the-third-oecd-country-where-most-repeat-grade_1_5851043.html"
+    },
+    {
+      "nombre": "OCDE, PIAAC 2023 (vía The Objective)",
+      "url": "https://theobjective.com/sociedad/educacion/2024-12-10/adultos-espanoles-ue-ocde-matematicas-lectura/"
+    },
+    {
+      "nombre": "Eurostat (vía Vozpópuli)",
+      "url": "https://www.vozpopuli.com/economia/empleo/espana-lidera-la-ue-en-tasa-de-sobrecualificacion-uno-de-cada-tres-trabajadores-tiene-mas-formacion-de-la-que-necesita.html"
+    },
+    {
+      "nombre": "Eurostat (vía Vozpópuli)",
+      "url": "https://www.vozpopuli.com/economia/macroeconomia/espana-ya-es-el-pais-de-la-union-europea-con-mas-menores-en-riesgo-de-pobreza.html"
+    },
+    {
+      "nombre": "INE, Encuesta de Condiciones de Vida 2025",
+      "url": "https://ine.es/dyngs/Prensa/ECV2025.htm"
+    },
+    {
+      "nombre": "Fedea (vía Diario Estrategia)",
+      "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5993268/casi-tercio-menores-18-anos-espana-vivia-2025-bajo-umbral-pobreza-segun-fedea"
+    },
+    {
+      "nombre": "AIReF, revisión del gasto 2022-2026 (vía The Objective)",
+      "url": "https://theobjective.com/economia/2026-02-04/airef-ingreso-minimo-hogares-pobreza/"
+    },
+    {
+      "nombre": "Banco de España (vía Euronews)",
+      "url": "https://es.euronews.com/business/2026/08/18/la-deuda-publica-pierde-casi-dos-puntos-de-pib-en-un-ano"
+    },
+    {
+      "nombre": "OCDE, Government at a Glance 2025 (vía Diario de León)",
+      "url": "https://www.diariodeleon.es/economia/250620/2051634/mitad-funcionarios-administracion-jubilaran-diez-anos.html"
+    },
+    {
+      "nombre": "INE, EPA (vía The Objective)",
+      "url": "https://theobjective.com/economia/2026-06-08/empleados-publicos-sanchez-545000-record-2026/"
+    },
+    {
+      "nombre": "Comisión Europea, Década Digital 2025 (vía La Moncloa)",
+      "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2025/20250616-digital-decade-country-report.aspx"
+    },
+    {
+      "nombre": "AIReF, estudio sobre incapacidad temporal (vía Bolsamanía)",
+      "url": "https://www.bolsamania.com/noticias/economia/economia--el-transito-de-contrato-temporal-a-fijo-eleva-un-30-la-probabilidad-de-iniciar-una-baja-medica-segun-airef--22676296.html"
+    },
+    {
+      "nombre": "CEOE, Producción normativa en 2024 (vía Forbes)",
+      "url": "https://forbes.es/economia/754738/ceoe-denuncia-que-el-exceso-de-la-burocracia-frena-la-inversion-tras-aumentar-un-5-las-normas-en-2024/"
+    },
+    {
+      "nombre": "Comisión Europea, Cuadro de Indicadores de la Justicia de la UE 2025",
+      "url": "https://commission.europa.eu/document/download/4c9fb0bf-7912-450b-ac7e-6f1d044a9585_en"
+    },
+    {
+      "nombre": "Consejo de Europa, CEPEJ (vía LegalToday)",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-consejo-de-europa-mantiene-a-espana-muy-por-encima-en-presupuesto-judicial-por-habitante-pero-por-debajo-en-jueces-2024-10-17/"
+    },
+    {
+      "nombre": "CGPJ, La Justicia dato a dato 2024 (recogido por CCOO)",
+      "url": "https://ccoo.es/53afa98d112398189d804bfbc364304e000001.pdf"
+    },
+    {
+      "nombre": "CGPJ, situación de los órganos judiciales 3T 2024 (vía El Derecho)",
+      "url": "https://elderecho.com/?p=437596"
+    },
+    {
+      "nombre": "CGPJ (vía LegalToday)",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/los-tribunales-recibieron-en-el-tercer-trimestre-de-2025-un-125-menos-de-asuntos-nuevos-2025-12-18/"
+    },
+    {
+      "nombre": "Eurobarómetro, Cuadro de Indicadores de la Justicia 2025 (vía LegalToday)",
+      "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/espana-septimo-pais-por-la-cola-en-la-ue-en-percepcion-ciudadana-de-la-independencia-de-los-jueces-2025-07-01/"
+    },
+    {
+      "nombre": "INE, Estadística Continua de Población 2T 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/ECP2T26.htm"
+    },
+    {
+      "nombre": "CIS, Barómetro de octubre 2026",
+      "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf"
+    },
+    {
+      "nombre": "Ministerio de Inclusión, informe trimestral a partir de la EPA",
+      "url": "https://www.ciudadaniaexterior.inclusion.gob.es/ficheros/ministerio/sec_trabajo/analisis_mercado_trabajo/poblacion-extranjera/2026/Informe-trimestral-extranjeros-9.pdf"
+    },
+    {
+      "nombre": "Dustmann, Frattini y Piovesan, CReAM/RFBerlin, con datos de Eurostat",
+      "url": "https://www.rfberlin.com/?p=27507"
+    },
+    {
+      "nombre": "Ministerio de Inclusión y Seguridad Social",
+      "url": "https://revista.seg-social.es/-/la-seguridad-social-comienza-2026-con-cerca-de-200.000-afiliados-extranjeros-m%C3%A1s-que-hace-un-a%C3%B1o"
+    },
+    {
+      "nombre": "INE, Estadística de Condenados 2025",
+      "url": "https://ine.es/dyngs/Prensa/en/EPCAEPCM2025.pdf"
+    },
+    {
+      "nombre": "CCOO, a partir de datos PISA (vía Rebelión)",
+      "url": "https://rebelion.org/catalunya-y-euskadi-son-las-comunidades-que-mas-segregan-al-alumnado-migrante-y-madrid-la-que-mas-lo-hace-por-renta/"
+    },
+    {
+      "nombre": "Centre d'Estudis d'Opinió (encuesta) e Idescat (vía Ara)",
+      "url": "https://es.ara.cat/sociedad/mitad-catalanes-cree-hay-inmigracion-real_1_5669677.html"
+    },
+    {
+      "nombre": "Funcas, Encuesta sobre percepciones de la inmigración",
+      "url": "https://www.funcas.es/wp-content/uploads/2025/01/NOTAPRENSA-1.pdf"
+    },
+    {
+      "nombre": "INE, Estadística de Defunciones según la Causa de Muerte (vía Infocop)",
+      "url": "https://www.infocop.es/en-2025-se-registraron-3-808-suicidios-en-espana-segun-datos-provisionales-del-ine/"
+    },
+    {
+      "nombre": "Euronews (prensa; sin fuente oficial citada)",
+      "url": "https://es.euronews.com/2026/09/30/salud-mental-espana-a-la-cola-de-europa-en-psicologos-pagar-o-esperar"
+    },
+    {
+      "nombre": "Junta Internacional de Fiscalización de Estupefacientes, informe 2020 (vía Infocop)",
+      "url": "https://www.infocop.es/espana-lidera-la-lista-mundial-de-consumo-de-benzodiacepinas-para-la-ansiedad/"
+    },
+    {
+      "nombre": "Eurostat (vía EUnews)",
+      "url": "https://www.eunews.it/en/2026/03/06/eu-fertility-falls-to-record-low-of-1-34-children-per-woman-in-2024/"
+    },
+    {
+      "nombre": "INE, Estimación Mensual de Nacimientos",
+      "url": "https://www.ine.es/dyngs/Prensa/EDES_EMN2025.pdf"
+    },
+    {
+      "nombre": "Funcas, Notas de Coyuntura Social (julio 2026)",
+      "url": "https://www.funcas.es/wp-content/uploads/2026/07/NOTAPRENSA-CS.pdf"
+    }
+  ],
+  "actualizado": "2026-10-21"
+}

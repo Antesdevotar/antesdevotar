@@ -1,0 +1,518 @@
+{
+  "id": "upn",
+  "nombre": "Unión del Pueblo Navarro",
+  "siglas": "UPN",
+  "concurre": true,
+  "candidato": "Encabeza la lista una mujer de UPN aún no anunciada a 21-10-2026 (n.º 2: Sergio Sayas, PP); candidato a la Presidencia: Alberto Núñez Feijóo",
+  "ideologia": "Regionalismo navarro de centroderecha",
+  "ambito": "Navarra",
+  "color": "#1D4E89",
+  "web": "https://www.upn.org/",
+  "escanos_2023": 1,
+  "resumen": "Partido regionalista y foralista navarro, presidido por Cristina Ibarrola, que concurre al 29N en coalición con el PP («Unión del Pueblo Navarro en coalición con el Partido Popular»); sus electos irían al Grupo Mixto con libertad de voto. Prioriza la defensa del Fuero y el Convenio Económico, la oposición al nacionalismo vasco, la bajada de impuestos y las infraestructuras navarras.",
+  "fuentes_programa": [
+    {
+      "titulo": "Programa UPN Elecciones Generales 2023",
+      "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+      "fecha": "2023-07"
+    },
+    {
+      "titulo": "Acuerdo de coalición UPN-PP para el 29N (Orain/EITB)",
+      "url": "https://orain.eus/es/politica/2026/10/13/dia-clave-el-futuro-una-posible-coalicion-upn-pp-las-elecciones-generales/",
+      "fecha": "2026-10-13"
+    }
+  ],
+  "programa_2026_publicado": false,
+  "propuestas": [
+    {
+      "id": "upn-ter-01",
+      "area": "territorio",
+      "texto": "Defender a Navarra como comunidad foral diferenciada dentro de España y Europa frente al nacionalismo vasco.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-ter-02",
+      "area": "territorio",
+      "texto": "Suprimir la Disposición Transitoria Cuarta de la Constitución (posible incorporación de Navarra a Euskadi) en una eventual reforma.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-ter-03",
+      "area": "territorio",
+      "texto": "Impedir que partidos sin representación en Navarra negocien sus competencias exclusivas y defenderlas frente a leyes estatales.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-ter-04",
+      "area": "territorio",
+      "texto": "Que sus diputados se integren en el Grupo Mixto con libertad de voto para defender los intereses de Navarra.",
+      "origen": "accion",
+      "fuente": {
+        "nombre": "Acuerdo de coalición UPN-PP (Orain/EITB)",
+        "url": "https://orain.eus/es/politica/2026/10/13/dia-clave-el-futuro-una-posible-coalicion-upn-pp-las-elecciones-generales/",
+        "fecha": "2026-10-13"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-ins-00",
+      "area": "instituciones",
+      "texto": "Contribuir a desalojar a Pedro Sánchez del Gobierno y a una etapa de regeneración democrática y transparencia.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Sergio Sayas, n.º 2 de la lista (OKDiario Navarra)",
+        "url": "https://navarra.okdiario.com/articulo/politica/sergio-sayas-numero-dos-congreso-navarra-pacto-upn-pp-que-permitira-regionalistas-votar-libre/20261017164511664236.html",
+        "fecha": "2026-10-17"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-eco-01",
+      "area": "economia",
+      "texto": "Defender el Convenio Económico con una aportación al Estado calculada según renta y no población y reflejada en los PGE.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-eco-02",
+      "area": "economia",
+      "texto": "Bajar impuestos y deflactar la tarifa del IRPF para compensar la inflación.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      },
+      "destacada": true
+    },
+    {
+      "id": "upn-eco-03",
+      "area": "economia",
+      "texto": "Medidas y ayudas para el emprendimiento y la protección de autónomos y pymes.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-eco-04",
+      "area": "economia",
+      "texto": "Planta de baterías en Volkswagen Navarra y defensa del sector de automoción.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-eco-05",
+      "area": "economia",
+      "texto": "Plan de iniciación a la exportación con el ICEX para empresas navarras.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-emp-01",
+      "area": "empleo",
+      "texto": "Plan Nacional de Empleo Juvenil y contratos-programa con el Servicio Navarro de Empleo para políticas activas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-emp-02",
+      "area": "empleo",
+      "texto": "Medidas legales para la reinserción laboral de quienes perciben ayudas públicas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-viv-01",
+      "area": "vivienda",
+      "texto": "Derogar la Ley estatal de Vivienda y respetar las competencias de Navarra en la materia.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-viv-02",
+      "area": "vivienda",
+      "texto": "Garantizar la propiedad privada y luchar contra la ocupación ilegal de viviendas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-pen-01",
+      "area": "pensiones",
+      "texto": "Sistema de pensiones sostenible, con pensiones dignas y sin recortes.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-san-01",
+      "area": "sanidad",
+      "texto": "Plan Nacional de Prevención del Suicidio y normativa específica para ELA, enfermedades raras y cuidados paliativos.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-igu-01",
+      "area": "igualdad",
+      "texto": "Que el Estado cumpla la financiación de la Ley de Dependencia y la normativa de accesibilidad.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-edu-01",
+      "area": "educacion",
+      "texto": "Derogar la LOMLOE y garantizar la libertad de elección entre centros públicos y concertados.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-edu-02",
+      "area": "educacion",
+      "texto": "Eliminar la limitación para concertar centros según el modelo educativo.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-edu-03",
+      "area": "educacion",
+      "texto": "Impedir libros de texto contrarios a la Constitución y a la realidad institucional de Navarra.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-edu-04",
+      "area": "educacion",
+      "texto": "Que Navarra asuma la competencia en becas y potenciar la FP dual, el inglés y la educación especial.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 4",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-cul-01",
+      "area": "cultura",
+      "texto": "Oponerse a lo que califica de imposición del euskera.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 2",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-ins-01",
+      "area": "instituciones",
+      "texto": "Derogar la Ley de Memoria Democrática.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-seg-01",
+      "area": "seguridad",
+      "texto": "Reformar la ley para eliminar los homenajes y actos de enaltecimiento de ETA.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-seg-02",
+      "area": "seguridad",
+      "texto": "Revisar los beneficios penitenciarios de presos de ETA sin arrepentimiento e impedir que condenados por delitos de sangre ocupen cargos públicos.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-seg-03",
+      "area": "seguridad",
+      "texto": "Igualar las indemnizaciones de las víctimas del terrorismo con y sin sentencia judicial.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-seg-04",
+      "area": "seguridad",
+      "texto": "Mantener la Agrupación de Tráfico de la Guardia Civil en las carreteras navarras.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-rur-01",
+      "area": "rural",
+      "texto": "Construir la segunda fase del Canal de Navarra y ampliar de 30 a 50 años el plazo de pago del canon de los regantes.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-rur-02",
+      "area": "rural",
+      "texto": "Defender el mundo rural, la caza, la pesca y la tauromaquia, ampliar los seguros agrarios y actuar contra la despoblación.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-ter-05",
+      "area": "territorio",
+      "texto": "Tren de alta velocidad a Pamplona conectado con la «Y vasca» por Ezkio y con Zaragoza, con parada en Tudela.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-ter-06",
+      "area": "territorio",
+      "texto": "Terminar la autovía Tudela-Medinaceli, desdoblar la N-121-A y prolongar la gratuidad de la AP-15.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 3",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-ene-01",
+      "area": "energia",
+      "texto": "Apostar por las renovables y resolver la situación de unas 9.000 familias afectadas por el cambio normativo de las primas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-tec-01",
+      "area": "tecnologia",
+      "texto": "Asumir competencias en I+D+i, financiar centros de investigación en Navarra y facilitar el retorno de investigadores.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-tec-02",
+      "area": "tecnologia",
+      "texto": "Impulsar el Centro Nacional de Energías Renovables (CENER) y el Centro Nacional de Conservas Vegetales.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-cul-02",
+      "area": "cultura",
+      "texto": "Restaurar la Catedral de Tudela, el Monasterio de Irache y la Colegiata de Roncesvalles, y crear un Parador en el Camino de Santiago.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 5-6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    },
+    {
+      "id": "upn-cul-03",
+      "area": "cultura",
+      "texto": "Derogar el apartado de la Ley del Deporte sobre selecciones autonómicas.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa UPN Generales 2023, p. 6",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023-07"
+      }
+    }
+  ],
+  "criticas": {
+    "economica": [
+      {
+        "titulo": "Sobrefinanciación foral",
+        "texto": "Fedea sitúa a las comunidades forales en un índice de financiación por habitante cercano a 200 frente a 100 en el régimen común, y Ángel de la Fuente ha cuestionado en varios trabajos el método de cálculo de las aportaciones forales. Defender el Convenio sin revisar su cálculo perpetúa esa diferencia frente al resto de comunidades.",
+        "sobre": [
+          "upn-eco-01"
+        ],
+        "fuente": {
+          "nombre": "Fedea, Las implicaciones financieras de un concierto catalán (2024)",
+          "url": "https://fedea.net/las-implicaciones-financieras-de-un-concierto-catalan/"
+        }
+      },
+      {
+        "titulo": "Rebajas fiscales sin cuantificar",
+        "texto": "El programa propone bajar impuestos y deflactar el IRPF sin cifras de coste ni de compensación. Por el Convenio, la deflactación estatal no afecta directamente a la recaudación navarra, pero sí a la estatal que financia competencias comunes.",
+        "sobre": [
+          "upn-eco-02"
+        ],
+        "fuente": {
+          "nombre": "Fedea, Más sobre los efectos de la no corrección por inflación del IRPF (2025)",
+          "url": "https://fedea.net/mas-sobre-los-efectos-de-la-no-correccion-por-inflacion-del-irpf/"
+        }
+      },
+      {
+        "titulo": "Infraestructuras sin calendario ni coste",
+        "texto": "Las peticiones de inversión estatal (segunda fase del Canal, TAV, autovías, gratuidad de la AP-15, ampliación del plazo del canon) no se acompañan de estimaciones de coste ni de prioridades, y la ampliación del canon traslada carga financiera a las cuentas públicas.",
+        "sobre": [
+          "upn-rur-01",
+          "upn-ter-05",
+          "upn-ter-06"
+        ],
+        "fuente": {
+          "nombre": "Argumento de evaluación de inversiones públicas"
+        }
+      }
+    ],
+    "social": [
+      {
+        "titulo": "Derogar la Ley de Vivienda sin alternativa detallada",
+        "texto": "El programa propone derogar la ley estatal sin concretar medidas de oferta ni de ayuda a inquilinos; Fedea recomienda centrar la política de vivienda en suelo, licencias y ayudas a hogares vulnerables, aspectos que UPN no desarrolla.",
+        "sobre": [
+          "upn-viv-01"
+        ],
+        "fuente": {
+          "nombre": "Fedea, Proteger al inquilino de hoy puede excluir al de mañana (2026)",
+          "url": "https://fedea.net/proteger-al-inquilino-de-hoy-puede-excluir-al-de-manana/"
+        }
+      },
+      {
+        "titulo": "Conciertos y equidad",
+        "texto": "Eliminar límites a los conciertos según modelo educativo puede facilitar la financiación pública de centros que separan por sexo o seleccionan alumnado, con riesgo de mayor segregación escolar, según la literatura sobre elección de centro.",
+        "sobre": [
+          "upn-edu-01",
+          "upn-edu-02"
+        ],
+        "fuente": {
+          "nombre": "Argumento de política educativa (literatura sobre segregación escolar, OCDE PISA)"
+        }
+      }
+    ],
+    "cultural": [
+      {
+        "titulo": "Euskera y derechos lingüísticos",
+        "texto": "Presentar el euskera como imposición choca con la cooficialidad que la Ley Foral del Vascuence reconoce en la zona vascófona; sus críticos alertan de que restringir su presencia limita derechos lingüísticos reconocidos en la Carta Europea de Lenguas Regionales.",
+        "sobre": [
+          "upn-cul-01"
+        ],
+        "fuente": {
+          "nombre": "Carta Europea de las Lenguas Regionales o Minoritarias (Consejo de Europa)",
+          "url": "https://www.coe.int/es/web/european-charter-regional-or-minority-languages"
+        }
+      },
+      {
+        "titulo": "Memoria democrática",
+        "texto": "Derogar la Ley de Memoria Democrática eliminaría el marco estatal para exhumaciones y reparación de víctimas de la Guerra Civil y la dictadura, ámbito en el que relatores de la ONU han pedido a España más actuación del Estado.",
+        "sobre": [
+          "upn-ins-01"
+        ],
+        "fuente": {
+          "nombre": "Relator especial de la ONU sobre verdad, justicia y reparación, informe sobre España",
+          "url": "https://www.ohchr.org/es/special-procedures/sr-truth-justice-reparation-and-non-recurrence"
+        }
+      }
+    ]
+  },
+  "mentiras": [],
+  "actualizado": "2026-10-21"
+}

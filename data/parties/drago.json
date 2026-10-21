@@ -1,0 +1,300 @@
+{
+ "id": "drago",
+ "nombre": "Drago Canarias",
+ "siglas": "DRAGO",
+ "concurre": true,
+ "candidato": "Alberto Rodríguez (Santa Cruz de Tenerife); Héctor Morán (Las Palmas)",
+ "ideologia": "Nacionalista canario de izquierda verde",
+ "ambito": "Canarias",
+ "color": "#1E4D2B",
+ "color_aproximado": true,
+ "web": "https://dragocanarias.org",
+ "escanos_2023": 0,
+ "resumen": "Partido soberanista canario de izquierda fundado en 2022 por el exdiputado de Podemos Alberto Rodríguez; en 2023 fue dentro de Sumar y para el 29N se presenta en solitario, fuera de Unidad del Pueblo Canario. Prioriza el decrecimiento turístico, la vivienda, una Ley de Residencia y más competencias para Canarias; no ha publicado programa, así que sus propuestas proceden de declaraciones de 2026.",
+ "fuentes_programa": [
+  {
+   "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+   "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+   "fecha": "2026-10-10"
+  },
+  {
+   "nombre": "Atlántico Hoy: Drago Canarias concurrirá por su cuenta a las generales del 29-N",
+   "url": "https://www.atlanticohoy.com/politica/drago-canarias-concurrira-por-su-cuenta-elecciones-generales-29-n_1568278_102.html",
+   "fecha": "2026-10"
+  },
+  {
+   "nombre": "Diario de Avisos, 20-10-2026: Drago pide declarar zona tensionada a todos los municipios",
+   "url": "https://diariodeavisos.elespanol.com/2026/10/drago-canarias-zona-tensionada-municipios/",
+   "fecha": "2026-10-20"
+  },
+  {
+   "nombre": "Diario de Avisos, 10-6-2026: entrevista a Alberto Rodríguez sobre la «prioridad» canaria",
+   "url": "https://diariodeavisos.elespanol.com/2026/06/alberto-rodriguez-prioridad-nacional/",
+   "fecha": "2026-06-10"
+  },
+  {
+   "nombre": "El Debate, 24-5-2026: Alberto Rodríguez en «La Retranca» (TVC)",
+   "url": "https://www.eldebate.com/espana/20260524/exdiputado-podemos-defiende-prioridad-nacional-canarias-no-puede-venga-aleman-jubilado-compre-dos-casas_421016.html",
+   "fecha": "2026-05-24"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+  "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+  "fecha": "2026-10-10"
+ },
+ "circunscripciones": [
+  "Las Palmas",
+  "Santa Cruz de Tenerife"
+ ],
+ "referencia_voto": {
+  "eleccion": "Autonómicas Canarias 2023",
+  "porcentaje": 3.23,
+  "ambito": "Canarias",
+  "fuente": {
+   "nombre": "Público, resultados autonómicas Canarias 2023 (coalición Drago Verdes Canarias, 27.916 votos en las circunscripciones insulares)",
+   "url": "https://www.publico.es/resultados-elecciones/autonomicas/2023/canarias"
+  },
+  "nota": "Concurrió como Drago Verdes Canarias (con Verdes Equo); en la lista autonómica obtuvo el 3,4%. En las generales de 2023 fue dentro de Sumar."
+ },
+ "propuestas": [
+  {
+   "id": "drago-eco-01",
+   "area": "economia",
+   "texto": "Impulsar el «decrecimiento turístico» en Canarias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-eco-02",
+   "area": "economia",
+   "texto": "Diversificar la economía canaria para reducir la dependencia del turismo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-viv-01",
+   "area": "vivienda",
+   "texto": "Limitar la compra de vivienda con fines especulativos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-viv-02",
+   "area": "vivienda",
+   "texto": "Declarar zona de mercado residencial tensionado a los 88 municipios de Canarias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos, 20-10-2026: Drago pide declarar zona tensionada a todos los municipios",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/drago-canarias-zona-tensionada-municipios/",
+    "fecha": "2026-10-20"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-viv-03",
+   "area": "vivienda",
+   "texto": "Medidas fiscales en vivienda, que considera ausentes en los gobiernos de coalición.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Atlántico Hoy: Drago Canarias concurrirá por su cuenta a las generales del 29-N",
+    "url": "https://www.atlanticohoy.com/politica/drago-canarias-concurrira-por-su-cuenta-elecciones-generales-29-n_1568278_102.html",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "drago-viv-04",
+   "area": "vivienda",
+   "texto": "Dar prioridad en vivienda a quienes viven en Canarias frente a quienes llegan «en condiciones de privilegio».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Debate, 24-5-2026: Alberto Rodríguez en «La Retranca» (TVC)",
+    "url": "https://www.eldebate.com/espana/20260524/exdiputado-podemos-defiende-prioridad-nacional-canarias-no-puede-venga-aleman-jubilado-compre-dos-casas_421016.html",
+    "fecha": "2026-05-24"
+   }
+  },
+  {
+   "id": "drago-ter-01",
+   "area": "territorio",
+   "texto": "Aprobar una Ley de Residencia para Canarias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-ter-02",
+   "area": "territorio",
+   "texto": "Limitar a tres meses la estancia en Canarias de quienes no son residentes permanentes, por la «capacidad de carga» del territorio, sin distinguir por origen.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos, 10-6-2026: entrevista a Alberto Rodríguez sobre la «prioridad» canaria",
+    "url": "https://diariodeavisos.elespanol.com/2026/06/alberto-rodriguez-prioridad-nacional/",
+    "fecha": "2026-06-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-ter-03",
+   "area": "territorio",
+   "texto": "Transferir a Canarias las competencias sobre costas y aeropuertos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-ter-04",
+   "area": "territorio",
+   "texto": "Defender la soberanía de Canarias sobre sus aguas territoriales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "RTVC, 10-10-2026: Drago Canarias concurrirá a las elecciones generales del 29N",
+    "url": "https://rtvc.es/drago-canarias-concurrira-elecciones-generales-proximo-29n-10-octubre-2026/",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "drago-ext-01",
+   "area": "exterior",
+   "texto": "Revisar el cambio de posición del Gobierno sobre el Sáhara Occidental de 2022, que considera perjudicial para el pueblo saharaui y para Canarias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Atlántico Hoy: Drago Canarias concurrirá por su cuenta a las generales del 29-N",
+    "url": "https://www.atlanticohoy.com/politica/drago-canarias-concurrira-por-su-cuenta-elecciones-generales-29-n_1568278_102.html",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "drago-inm-01",
+   "area": "inmigracion",
+   "texto": "Rechazar que Canarias sea la «frontera sur externalizada» de la UE por la aplicación estricta de la política migratoria europea.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Avisos, 10-6-2026: entrevista a Alberto Rodríguez sobre la «prioridad» canaria",
+    "url": "https://diariodeavisos.elespanol.com/2026/06/alberto-rodriguez-prioridad-nacional/",
+    "fecha": "2026-06-10"
+   }
+  },
+  {
+   "id": "drago-ins-01",
+   "area": "instituciones",
+   "texto": "Una voz canaria propia en el Congreso, sin obediencia a partidos estatales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Atlántico Hoy: Drago Canarias concurrirá por su cuenta a las generales del 29-N",
+    "url": "https://www.atlanticohoy.com/politica/drago-canarias-concurrira-por-su-cuenta-elecciones-generales-29-n_1568278_102.html",
+    "fecha": "2026-10"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Decrecimiento turístico y empleo",
+    "texto": "El turismo aporta en torno a un tercio del PIB y del empleo de Canarias. Reducirlo sin un plan cuantificado de sectores alternativos supone un riesgo de pérdida de renta y empleo a corto plazo, sobre todo para trabajadores poco cualificados.",
+    "sobre": [
+     "drago-eco-01",
+     "drago-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Exceltur, Impactur Canarias (peso del turismo en PIB y empleo)"
+    }
+   },
+   {
+    "titulo": "Zona tensionada en todo el archipiélago",
+    "texto": "Declarar tensionados todos los municipios generalizaría los topes de alquiler. La evidencia sobre controles de renta (p. ej., en Cataluña y en Berlín) muestra bajadas de precio a corto plazo, pero también una reducción de la oferta en alquiler a medio plazo.",
+    "sobre": [
+     "drago-viv-02"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2024, capítulo de vivienda"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Límite de estancia y mercado laboral",
+    "texto": "Impedir que quienes no son residentes permanentes estén más de tres meses afectaría a trabajadores temporales, estudiantes y profesionales de la Península y de la UE que sostienen servicios públicos y sectores con escasez de mano de obra, como la sanidad o la hostelería.",
+    "sobre": [
+     "drago-ter-02",
+     "drago-ter-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de mercado laboral"
+    }
+   },
+   {
+    "titulo": "Propuestas sin concretar",
+    "texto": "Gran parte de sus propuestas («limitar la compra especulativa», «medidas fiscales», «prioridad» para quien vive en Canarias) no definen criterios, instrumentos ni costes, lo que impide evaluar su efecto.",
+    "sobre": [
+     "drago-viv-01",
+     "drago-viv-03",
+     "drago-viv-04"
+    ],
+    "fuente": {
+     "nombre": "Ausencia de programa publicado"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Soberanía sobre las aguas",
+    "texto": "Reclamar soberanía canaria sobre las aguas choca con el reparto de competencias del Estado en relaciones internacionales y con el derecho del mar, que no reconoce aguas archipelágicas a regiones de un Estado, por lo que tiene sobre todo un valor simbólico.",
+    "sobre": [
+     "drago-ter-04"
+    ],
+    "fuente": {
+     "nombre": "Convención de las Naciones Unidas sobre el Derecho del Mar, parte IV; Ley 44/2010 de aguas canarias"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Preocupación seria por una propuesta: limitar a tres meses la estancia en Canarias de quien no reside de forma permanente chocaría con la libertad de residencia y circulación de los españoles y con la libre circulación de los ciudadanos de la UE. Aplica el mismo test que a la Ley de Residencia de Coalición Canaria, pero aquí la medida está más concretada.",
+  "criticas": [
+   {
+    "titulo": "Límite de tres meses de estancia para no residentes",
+    "texto": "La Constitución garantiza a los españoles el derecho a elegir libremente su residencia y a circular por todo el territorio, y prohíbe medidas que lo obstaculicen. El derecho de la UE permite a cualquier ciudadano europeo residir más de tres meses si trabaja o dispone de recursos. Un tope general de estancia vulneraría ambos derechos. La gravedad es media y no alta porque se trata de declaraciones en entrevista, sin articulado. Una ley que lo aplicara literalmente merecería la gravedad alta.",
+    "gravedad": "media",
+    "criterio": "Arts. 19 y 139.2 CE; TFUE, art. 21; Carta de Derechos Fundamentales de la UE, art. 45; Directiva 2004/38/CE, arts. 6 y 7",
+    "sobre": [
+     "drago-ter-02",
+     "drago-ter-01"
+    ],
+    "fuente": {
+     "nombre": "Diario de Avisos, 10-6-2026",
+     "url": "https://diariodeavisos.elespanol.com/2026/06/alberto-rodriguez-prioridad-nacional/"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

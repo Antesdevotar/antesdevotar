@@ -1,0 +1,932 @@
+{
+ "id": "dn",
+ "nombre": "Democracia Nacional",
+ "siglas": "DN",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar (presidente del partido: Pedro Chaparro; Pablo Lucini, coordinador en Madrid, ha dicho que aspira al escaño por Madrid, según Público)",
+ "ideologia": "Extrema derecha (nacionalista identitaria)",
+ "ambito": "Estatal",
+ "color": "#FF030E",
+ "color_aproximado": true,
+ "web": "https://www.democracianacional.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado en 1995 y presidido por Pedro Chaparro, que intenta presentar candidatura solo por Madrid. Según su web, prioriza el «retorno y la expulsión masiva de extranjeros», la defensa de las fronteras y la soberanía, la vivienda para «españoles autóctonos» y la natalidad.",
+ "fuentes_programa": [
+  {
+   "titulo": "«DN ante la convocatoria de elecciones generales 29-N» (web oficial)",
+   "url": "https://www.democracianacional.es/post/dn-ante-la-convocatoria-de-elecciones-generales-29-n",
+   "fecha": "2026-10-06"
+  },
+  {
+   "titulo": "«Las 6 propuestas urgentes de Democracia Nacional sobre vivienda» (web oficial)",
+   "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+   "fecha": "2026-10-02"
+  },
+  {
+   "titulo": "«Inmigración masiva» (58 medidas, web oficial)",
+   "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "«Tu nación, tus derechos» (web oficial)",
+   "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "«Documentos ideológicos y programáticos» (web oficial)",
+   "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+   "fecha": "2024-02-21"
+  },
+  {
+   "titulo": "Entrevista a Pedro Chaparro (SevillaInfo)",
+   "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+   "fecha": "2025-05-12"
+  },
+  {
+   "titulo": "Los partidos pequeños buscan su hueco el 29-N (El Confidencial Digital)",
+   "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+   "fecha": "2026-10-18"
+  },
+  {
+   "titulo": "La ultraderecha minoritaria mira a las urnas (Público)",
+   "url": "https://www.publico.es/politica/ultraderecha-minoritaria-mira-urnas-argumentos-xenofobos-acusaciones-pucherazo.html",
+   "fecha": "2026-10-12"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Recogiendo firmas",
+ "estado_fuente": {
+  "nombre": "El Confidencial Digital; Democracia Nacional, comunicado del 6-10-2026",
+  "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
+  "fecha": "2026-10-18"
+ },
+ "circunscripciones": [
+  "Madrid"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2015",
+  "porcentaje": 0.01,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Wikipedia, «Democracia Nacional» (resultados electorales)",
+   "url": "https://es.wikipedia.org/wiki/Democracia_Nacional"
+  },
+  "nota": "1.685 votos. No se presentó con sus siglas a las generales de 2016, 2019 ni 2023; en las europeas de 2019 concurrió dentro de la coalición ADÑ Identidad Española."
+ },
+ "propuestas": [
+  {
+   "id": "dn-inm-01",
+   "area": "inmigracion",
+   "texto": "Política migratoria «radical» basada en el «retorno y la expulsión masiva de extranjeros» y en la defensa de las fronteras.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «DN ante la convocatoria de elecciones generales 29-N» (web oficial)",
+    "url": "https://www.democracianacional.es/post/dn-ante-la-convocatoria-de-elecciones-generales-29-n",
+    "fecha": "2026-10-06"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-inm-02",
+   "area": "inmigracion",
+   "texto": "«Deportaciones masivas» de inmigrantes, a los que atribuye la saturación del mercado de la vivienda, sobre todo del alquiler.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-inm-03",
+   "area": "inmigracion",
+   "texto": "Cerrar por completo la llegada de inmigrantes, legal e ilegal, hasta revisar las vías de arraigo y alcanzar el pleno empleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "SevillaInfo (prensa), entrevista a Pedro Chaparro, 12-5-2025",
+    "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+    "fecha": "2025-05-12"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-inm-04",
+   "area": "inmigracion",
+   "texto": "Devolver de inmediato a quien llegue sin documentación y emplear policía, Fuerzas Armadas e inteligencia contra la llegada de indocumentados, con legislación de emergencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-05",
+   "area": "inmigracion",
+   "texto": "«Militarizar las fronteras» para frenar la entrada de extranjeros.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-inm-06",
+   "area": "inmigracion",
+   "texto": "Revisar cada año los permisos de residencia y repatriar al extranjero tras 90 días sin cotizar o al agotar la prestación por desempleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-07",
+   "area": "inmigracion",
+   "texto": "Repatriar a los contingentes de inmigrantes cuando caiga el empleo y promover la inmigración estacional de ida y vuelta.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-08",
+   "area": "inmigracion",
+   "texto": "Expulsar al extranjero que participe en protestas u ocupaciones que reclamen derechos fuera de la ley de extranjería o que defienda ideas políticas o religiosas contrarias a la Constitución.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-09",
+   "area": "inmigracion",
+   "texto": "Tope del 10 % de población inmigrante por ciudad o barrio; al superarlo, el municipio se cerraría a nuevas instalaciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-10",
+   "area": "inmigracion",
+   "texto": "Limitar las ayudas sociales y becas a inmigrantes a un máximo del doble de su porcentaje de población en cada provincia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-11",
+   "area": "inmigracion",
+   "texto": "Ordenar la inmigración legal por origen: primero Europa del Este; después latinoamericanos, saharauis y ecuatoguineanos; después países mediterráneos; y por último el resto.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-12",
+   "area": "inmigracion",
+   "texto": "Permitir la reagrupación familiar solo tras tres años de cotización.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-13",
+   "area": "inmigracion",
+   "texto": "Conceder el asilo solo en casos «relevantes y demostrables» y castigar la falsa persecución con expulsión y prohibición de por vida de volver a la UE.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-14",
+   "area": "inmigracion",
+   "texto": "Internar a los menores extranjeros que delincan en centros cerrados específicos, con opción de repatriación inmediata.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-15",
+   "area": "inmigracion",
+   "texto": "Juicio rápido sin fianza para inmigrantes detenidos y expulsión al cumplir la condena íntegra; beneficios penitenciarios solo si antes pagan indemnizaciones y gastos de repatriación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-inm-16",
+   "area": "inmigracion",
+   "texto": "Nacionalidad por «ius sanguinis»: los hijos de no europeos tendrían la de sus padres; en matrimonios mixtos, posible pérdida de la española de los hijos tras condenas y custodia para el cónyuge español.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-igu-01",
+   "area": "igualdad",
+   "texto": "«Preferencia nacional»: prioridad en empleo y prestaciones sociales para nacidos en la UE o con antecedentes familiares en España, y prohibir la «discriminación positiva» que la perjudique.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-viv-01",
+   "area": "vivienda",
+   "texto": "Vivienda protegida de calidad y ampliación del parque protegido con acceso para familias, parejas, jóvenes y emprendedores «españoles autóctonos», y más ayudas sociales para ellos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-viv-02",
+   "area": "vivienda",
+   "texto": "Perseguir con eficacia a los «especuladores inmobiliarios» y las prácticas especulativas que encarecen la vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-viv-03",
+   "area": "vivienda",
+   "texto": "Intervención del Estado en el mercado inmobiliario para perseguir actividades ilegales y abaratar los precios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-viv-04",
+   "area": "vivienda",
+   "texto": "Bajar los impuestos a las familias que ya tienen vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-viv-05",
+   "area": "vivienda",
+   "texto": "Ayudas fiscales y económicas a los jóvenes para acceder a una vivienda y formar una familia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-emp-01",
+   "area": "empleo",
+   "texto": "Dar preferencia a la contratación de «trabajadores nacionales» en la construcción de vivienda y recuperar la formación profesional en oficios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Las 6 propuestas urgentes sobre vivienda» (web oficial)",
+    "url": "https://www.democracianacional.es/post/las-6-propuestas-expresas-de-democracia-nacional-sobre-vivienda",
+    "fecha": "2026-10-02"
+   }
+  },
+  {
+   "id": "dn-emp-02",
+   "area": "empleo",
+   "texto": "Derogar las reformas laborales que, según el partido, permiten el «empleo precario».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-emp-03",
+   "area": "empleo",
+   "texto": "Avanzar hacia la cogestión en las empresas y ensayar la participación de los trabajadores en los beneficios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-eco-01",
+   "area": "economia",
+   "texto": "Recuperar la soberanía monetaria saliendo del euro y volviendo a la peseta.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "SevillaInfo (prensa), entrevista a Pedro Chaparro, 12-5-2025",
+    "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+    "fecha": "2025-05-12"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-eco-02",
+   "area": "economia",
+   "texto": "Usar el déficit público para alcanzar el pleno empleo con «tipos de interés nominales nulos».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-eco-03",
+   "area": "economia",
+   "texto": "Rebaja «drástica» de impuestos a los inversores directos que creen empleo y sustituir el IAE por tasas que no graven la creación de empleo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-eco-04",
+   "area": "economia",
+   "texto": "IRPF con solo dos tipos (15 % y 27 %), actualizados con el IPC, e Impuesto de Sociedades al 25 %.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-eco-05",
+   "area": "economia",
+   "texto": "Impuesto sobre el «capital especulativo» y protección del pequeño comercio frente a las grandes superficies.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-eco-06",
+   "area": "economia",
+   "texto": "Proteger la economía frente a la «competencia desleal» exterior y suspender los acuerdos de libre comercio que perjudiquen a sectores productivos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ext-01",
+   "area": "exterior",
+   "texto": "Sustituir la Unión Europea por una «Confederación Europea» y abandonar la OTAN, el FMI, el Banco Mundial y la OMC.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-ext-02",
+   "area": "exterior",
+   "texto": "Salir también de la Organización Mundial de la Salud.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "SevillaInfo (prensa), entrevista a Pedro Chaparro, 12-5-2025",
+    "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+    "fecha": "2025-05-12"
+   }
+  },
+  {
+   "id": "dn-ext-03",
+   "area": "exterior",
+   "texto": "Declarar a Marruecos «enemigo geopolítico», cortar ayudas y cooperación y no venderle tecnología militar.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-seg-01",
+   "area": "seguridad",
+   "texto": "Bloqueo naval permanente en el Estrecho para frenar pateras y narcolanchas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «¡España bajo amenaza!», artículo firmado por Pedro Chaparro (web oficial)",
+    "url": "https://www.democracianacional.es/post/espa%C3%B1a-bajo-amenaza",
+    "fecha": "2026-10-15"
+   }
+  },
+  {
+   "id": "dn-seg-02",
+   "area": "seguridad",
+   "texto": "Erradicar la delincuencia, el poder de las mafias y la corrupción política y económica.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-ter-01",
+   "area": "territorio",
+   "texto": "Reformar el Título VIII de la Constitución para limitar las autonomías a competencias administrativas, culturales y ecológicas, y suprimir «nacionalidades» del artículo 2.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ter-02",
+   "area": "territorio",
+   "texto": "Sancionar de forma «gravísima» cualquier actuación territorial contraria a la unidad nacional.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ins-01",
+   "area": "instituciones",
+   "texto": "Sustituir la democracia liberal por una «democracia orgánica» corporativa basada en la familia, el municipio y el sindicato.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "SevillaInfo (prensa), entrevista a Pedro Chaparro, 12-5-2025",
+    "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+    "fecha": "2025-05-12"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-ins-02",
+   "area": "instituciones",
+   "texto": "Listas abiertas, fin de la disciplina de voto, plebiscitos por iniciativa popular y límites drásticos al gasto electoral.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ins-03",
+   "area": "instituciones",
+   "texto": "Prohibir expresamente que se concedan derechos políticos a los residentes extranjeros.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ins-04",
+   "area": "instituciones",
+   "texto": "Limitar la concentración de medios privados y garantizar a todas las candidaturas igual acceso a los medios públicos en campaña.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ins-05",
+   "area": "instituciones",
+   "texto": "Vigilar los mensajes de los medios que puedan generar permisividad o admiración hacia conductas inmorales o violentas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-dem-01",
+   "area": "demografia",
+   "texto": "Aumentar de forma «drástica» las ayudas a la natalidad de las familias españolas y dar condiciones laborales especiales a las madres.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   },
+   "destacada": true
+  },
+  {
+   "id": "dn-dem-02",
+   "area": "demografia",
+   "texto": "Oponerse a la práctica del aborto, con ayudas a las mujeres que decidan ser madres y adopciones más ágiles.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-cul-01",
+   "area": "cultura",
+   "texto": "Prohibir en público las prendas religiosas «ostentosas» a quien no esté consagrado, controlar el islam «fundamentalista» y no subvencionarlo sin reciprocidad de los países árabes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Inmigración masiva» (58 medidas, web oficial)",
+    "url": "https://www.democracianacional.es/inmigraci%C3%B3n-masiva",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-cul-02",
+   "area": "cultura",
+   "texto": "Volver a exigir nombres propios en alguna lengua española en el Registro Civil y proteger la producción cultural española y europea frente a la estadounidense.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-cul-03",
+   "area": "cultura",
+   "texto": "Oponerse a la resignificación del Valle de los Caídos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "SevillaInfo (prensa), entrevista a Pedro Chaparro, 12-5-2025",
+    "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+    "fecha": "2025-05-12"
+   }
+  },
+  {
+   "id": "dn-edu-01",
+   "area": "educacion",
+   "texto": "Cambiar los planes de estudio para educar en la identidad regional, española y europea, con el castellano como lengua común de todos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-ene-01",
+   "area": "energia",
+   "texto": "Plan de urgencia contra la desertificación, con repoblación forestal y gestión racional del agua.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Tu nación, tus derechos» (10 propuestas, web oficial)",
+    "url": "https://www.democracianacional.es/tu-naci%C3%B3n-tus-derechos",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "dn-rur-01",
+   "area": "rural",
+   "texto": "Proteger a agricultores, ganaderos y pescadores frente a multinacionales, OMC, UE e importación de «mano de obra barata».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  },
+  {
+   "id": "dn-tec-01",
+   "area": "tecnologia",
+   "texto": "Programas de colaboración tecnológica europea que garanticen la independencia respecto a Estados Unidos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Democracia Nacional, «Documentos ideológicos y programáticos» (web oficial)",
+    "url": "https://www.democracianacional.es/post/documentos-ideol%C3%B3gicos-y-program%C3%A1ticos-de-democracia-nacional",
+    "fecha": "2024-02-21"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Expulsión masiva y cierre total en una población que envejece",
+    "texto": "Fedea estima que la inmigración compensó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019, y el Banco de España atribuye a los inmigrantes 1,7 puntos del crecimiento del PIB entre 2022 y 2025. Expulsar de forma masiva y cerrar toda llegada reduciría la población activa y las cotizaciones, también en sectores como la construcción, que el partido necesita para levantar vivienda.",
+    "sobre": [
+     "dn-inm-01",
+     "dn-inm-02",
+     "dn-inm-03",
+     "dn-inm-07"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026); Banco de España (Pilar Cuadrado), julio 2026",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   },
+   {
+    "titulo": "Salir del euro y financiar el pleno empleo con déficit",
+    "texto": "Volver a la peseta obligaría a redenominar deuda, depósitos y contratos, con riesgo de devaluación y fuga de capitales; la experiencia británica, sin cambio de moneda, ya apunta a una caída a largo plazo de la productividad del 4 %. Usar el déficit con tipos «nulos» para el pleno empleo, con una deuda cercana al 100 % del PIB, dependería de financiarlo con emisión monetaria y su riesgo de inflación.",
+    "sobre": [
+     "dn-eco-01",
+     "dn-eco-02",
+     "dn-ext-01"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   },
+   {
+    "titulo": "Rebajas fiscales drásticas sin cifrar",
+    "texto": "Un IRPF de solo dos tipos (15 % y 27 %), rebajas «drásticas» a inversores y más ayudas a la natalidad y a la vivienda no van acompañados de ninguna estimación de coste ni de cómo se compensaría la pérdida de recaudación.",
+    "sobre": [
+     "dn-eco-03",
+     "dn-eco-04",
+     "dn-dem-01",
+     "dn-viv-04",
+     "dn-viv-05"
+    ],
+    "fuente": {
+     "nombre": "Funcas, Previsiones económicas para España 2026-2028 (octubre 2026)",
+     "url": "https://www.funcas.es/textointegro/previsiones-economicas-para-espana-2026-2028-octubre-2026/"
+    }
+   },
+   {
+    "titulo": "La vivienda cara no se explica solo por la demanda",
+    "texto": "El Banco de España señala que el problema de acceso a la vivienda se debe sobre todo a una oferta rígida que no responde al aumento de la demanda. Las deportaciones atacarían solo un componente de la demanda y restarían mano de obra a la construcción, mientras que el partido no propone medidas concretas para aumentar la oferta salvo construir si «aun así» hiciera falta.",
+    "sobre": [
+     "dn-inm-02",
+     "dn-viv-01",
+     "dn-emp-01"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2023, capítulo 4",
+     "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Repatriar a residentes legales por quedarse sin empleo",
+    "texto": "Repatriar tras 90 días sin cotizar o cuando caiga el empleo, y retrasar tres años la reagrupación familiar, convertiría la pérdida del trabajo en pérdida de la residencia para personas con años en España y con hijos escolarizados aquí, separando familias.",
+    "sobre": [
+     "dn-inm-06",
+     "dn-inm-07",
+     "dn-inm-12"
+    ],
+    "fuente": {
+     "nombre": "Fedea, «Inmigración y mercado de trabajo: revisión y evidencia para España» (I. Gálvez, 2025)",
+     "url": "https://fedea.net/inmigracion-y-mercado-de-trabajo-revision-y-evidencia-para-espana/"
+    }
+   },
+   {
+    "titulo": "Ayudas y barrios repartidos por origen",
+    "texto": "Topar al 10 % la población inmigrante de cada barrio y limitar sus ayudas y becas según su peso en la provincia reparte derechos por origen y no por necesidad, y dejaría sin protección a hogares vulnerables. El derecho de la UE obliga a tratar igual a los residentes de larga duración en prestaciones y vivienda.",
+    "sobre": [
+     "dn-inm-09",
+     "dn-inm-10",
+     "dn-igu-01"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2003/109/CE (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0109"
+    }
+   },
+   {
+    "titulo": "Vivienda protegida solo para «españoles autóctonos»",
+    "texto": "El criterio de «autóctono» excluiría también a españoles naturalizados y a sus hijos, además de a residentes de larga duración, en el acceso a vivienda protegida y ayudas sociales.",
+    "sobre": [
+     "dn-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2003/109/CE (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0109"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Señalamiento por religión y por origen",
+    "texto": "Prohibir prendas religiosas en la calle, controlar el islam, ordenar la inmigración por países y tratar a los residentes marroquíes como ciudadanos de un «país hostil» señala a colectivos enteros por su religión o su origen y no por conductas individuales.",
+    "sobre": [
+     "dn-cul-01",
+     "dn-inm-11",
+     "dn-ext-03"
+    ],
+    "fuente": {
+     "nombre": "TEDH, ficha temática «Religious symbols and clothing»",
+     "url": "https://www.echr.coe.int/documents/d/echr/fs_religious_symbols_eng"
+    }
+   },
+   {
+    "titulo": "«Democracia orgánica» frente al pluralismo",
+    "texto": "Su modelo de «democracia orgánica» de familia, municipio y sindicato, que el propio presidente vincula a la Falange, sustituye la representación por partidos y el sufragio individual por cauces corporativos. El pluralismo político es un valor superior de la Constitución y los partidos su cauce fundamental.",
+    "sobre": [
+     "dn-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Rechazo de toda inmigración, también la latinoamericana",
+    "texto": "El partido rechaza cualquier inmigración, incluida la latinoamericana (su campaña «Pateras del cielo»), y uno de sus dirigentes ha escrito que los españoles podrían «desaparecer». Es un marco de «sustitución» que presenta a la población inmigrante como amenaza colectiva.",
+    "sobre": [
+     "dn-inm-03",
+     "dn-inm-11"
+    ],
+    "fuente": {
+     "nombre": "Público, 14-9-2025",
+     "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+     "fecha": "2025-09-14"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Choque frontal con derechos fundamentales en dos frentes: las deportaciones masivas y la repatriación de residentes legales sin examen individual, y la preferencia por origen («españoles autóctonos», nacidos en la UE) en vivienda, empleo, ayudas y barrios. Hay además preocupaciones serias en libertades de expresión y reunión de los extranjeros, nacionalidad, libertad religiosa, garantías penales y aborto, y su presidente tiene una condena firme por el asalto a Blanquerna. Salir del euro, de la UE o de la OTAN y reformar el modelo autonómico por el art. 168 CE son opciones legítimas.",
+  "criticas": [
+   {
+    "titulo": "Deportaciones masivas y repatriación de residentes",
+    "texto": "La «expulsión masiva», la devolución inmediata de quien llegue sin papeles y la repatriación de contingentes cuando cae el empleo son expulsiones por grupos sin examen individual, prohibidas por el CEDH, y chocan con el principio de no devolución. Los residentes de larga duración solo pueden ser expulsados si suponen una amenaza grave y real, y los menores exigen valorar su interés superior. Es el mismo test aplicado a Vox, SALF, Falange y Frente Obrero.",
+    "gravedad": "alta",
+    "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa y otros c. Italia (Gran Sala, 2012); Convención de Ginebra 1951, art. 33; Carta UE, art. 19; Directiva 2008/115/CE, arts. 5 y 12; Directiva 2003/109/CE, art. 12; CDN, art. 3",
+    "sobre": [
+     "dn-inm-01",
+     "dn-inm-02",
+     "dn-inm-04",
+     "dn-inm-05",
+     "dn-inm-06",
+     "dn-inm-07",
+     "dn-inm-14"
+    ],
+    "fuente": {
+     "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
+     "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
+    }
+   },
+   {
+    "titulo": "Preferencia por origen en vivienda, empleo, ayudas y barrios",
+    "texto": "Reservar vivienda protegida y ayudas a «españoles autóctonos» y dar prioridad en empleo y prestaciones a nacidos en la UE o con antecedentes familiares en España es una preferencia por origen, no solo por nacionalidad: excluye también a españoles naturalizados. Los topes por barrio y las cuotas de ayudas por origen van en la misma línea. El TJUE considera discriminatorio incluso un requisito de diez años de residencia. Es el mismo test que a la «prioridad nacional» de Vox y a la vivienda para «autóctonos» de Frente Obrero.",
+    "gravedad": "alta",
+    "criterio": "Art. 14 CE; Directiva 2000/43/CE; Directiva 2003/109/CE, art. 11; TJUE, Kamberaj (C-571/10, 2012) y C-112/22 (2024)",
+    "sobre": [
+     "dn-viv-01",
+     "dn-igu-01",
+     "dn-emp-01",
+     "dn-inm-09",
+     "dn-inm-10"
+    ],
+    "fuente": {
+     "nombre": "TJUE, comunicado sobre los asuntos C-112/22 y C-223/22",
+     "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-07/cp240115en.pdf"
+    }
+   },
+   {
+    "titulo": "Expulsar por protestar o por defender ideas",
+    "texto": "Expulsar a extranjeros por participar en protestas que reclamen derechos o por defender ideas contrarias a la Constitución sanciona el ejercicio de las libertades de expresión y reunión. El TC reconoce un contenido mínimo del derecho de reunión a todo extranjero, incluso en situación irregular, y en España se puede defender cualquier idea, también contra la Constitución, por medios pacíficos.",
+    "gravedad": "media",
+    "criterio": "Arts. 16, 20 y 21 CE; STC 236/2007; STC 48/2003",
+    "sobre": [
+     "dn-inm-08"
+    ],
+    "fuente": {
+     "nombre": "STC 236/2007 (Tribunal Constitucional)",
+     "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/6203"
+    }
+   },
+   {
+    "titulo": "Quitar la nacionalidad a españoles de origen y custodia por nacionalidad",
+    "texto": "La Constitución prohíbe privar de la nacionalidad a los españoles de origen, y los hijos de matrimonios mixtos lo son; retirársela por condenas exigiría reformar la Constitución. Atribuir la custodia al cónyuge español por serlo choca con la igualdad y con el interés superior del menor, que obliga a valorar cada caso. Es el mismo test aplicado a las medidas de nacionalidad de Frente Obrero.",
+    "gravedad": "media",
+    "criterio": "Arts. 11.2, 14 y 39 CE; Carta UE, art. 24",
+    "sobre": [
+     "dn-inm-16"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Prendas religiosas prohibidas en la calle y control del islam",
+    "texto": "Prohibir en el espacio público las prendas religiosas «ostentosas» a todo el que no sea religioso consagrado va más allá de lo que el TEDH ha admitido: condenó a Turquía por castigar a unos fieles por vestir ropa religiosa en la calle (Ahmet Arslan, 2010). Condicionar el trato al islam a la reciprocidad de otros Estados afecta a la igualdad de los fieles residentes en España. Es el mismo test aplicado a Frente Obrero.",
+    "gravedad": "media",
+    "criterio": "Arts. 14 y 16 CE; CEDH, art. 9; TEDH, Ahmet Arslan y otros c. Turquía (2010)",
+    "sobre": [
+     "dn-cul-01"
+    ],
+    "fuente": {
+     "nombre": "TEDH, ficha temática «Religious symbols and clothing»",
+     "url": "https://www.echr.coe.int/documents/d/echr/fs_religious_symbols_eng"
+    }
+   },
+   {
+    "titulo": "Prisión sin fianza por ser inmigrante",
+    "texto": "Un juicio rápido «sin fianza» para todo inmigrante detenido supone prisión provisional automática por la condición de extranjero, cuando el CEDH y la Constitución exigen valorar en cada caso su necesidad. Condicionar los beneficios penitenciarios a pagar la repatriación choca con la igualdad y con la orientación a la reinserción.",
+    "gravedad": "media",
+    "criterio": "Arts. 14, 17 y 25.2 CE; CEDH, art. 5.3",
+    "sobre": [
+     "dn-inm-15"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Oposición al aborto",
+    "texto": "El TC declaró en 2023 que la ley de plazos es constitucional y que la decisión de la mujer en las primeras catorce semanas forma parte de su derecho a la integridad física y moral. Volver a prohibirlo chocaría con esa doctrina. Es el mismo test aplicado a Vox.",
+    "gravedad": "media",
+    "criterio": "Arts. 10.1 y 15 CE; STC 44/2023",
+    "sobre": [
+     "dn-dem-02"
+    ],
+    "fuente": {
+     "nombre": "Legal Today, sobre la STC 44/2023",
+     "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-tribunal-constitucional-reconoce-el-derecho-al-aborto-dentro-de-las-primeras-catorce-semanas-de-gestacion-2023-05-09/"
+    }
+   },
+   {
+    "titulo": "Condena firme de su presidente por el asalto a Blanquerna",
+    "texto": "Pedro Chaparro, entonces vicepresidente y hoy presidente de Democracia Nacional, fue condenado en firme por el Supremo (2020) a 2 años y 7 meses por desórdenes públicos y por un delito contra el derecho de reunión por el asalto de 2013 al acto de la Diada en el centro Blanquerna de Madrid. En septiembre de 2026 llamó a desalojar por la fuerza la acampada por la vivienda de la Puerta del Sol (sin consecuencias judiciales conocidas). Es el mismo test aplicado a Falange.",
+    "gravedad": "media",
+    "criterio": "Arts. 16 y 21 CE; Tribunal Supremo, Sala Segunda, sentencia de julio de 2020 (caso Blanquerna)",
+    "sobre": [],
+    "fuente": {
+     "nombre": "El Salto, sentencia del Supremo sobre el asalto a Blanquerna (23-7-2020); elDiario.es, 29-9-2026 (acampada de Sol)",
+     "url": "https://www.elsaltodiario.com/extrema-derecha/supremo-condena-asaltaron-blanquerna-2013-penas-hasta-2-anos-9-meses"
+    }
+   },
+   {
+    "titulo": "Sanciones «gravísimas», vigilancia de medios y voto de extranjeros",
+    "texto": "Castigar de forma «gravísima» actuaciones contrarias a la unidad nacional sin definirlas plantea problemas de legalidad penal, y «vigilar» los mensajes de los medios por su moralidad roza la prohibición de censura previa. Prohibir todo derecho político a los extranjeros chocaría con el voto municipal por reciprocidad que permite la Constitución y con el de los ciudadanos de la UE. Reformar el Título VIII por el art. 168 CE es legítimo.",
+    "gravedad": "baja",
+    "criterio": "Arts. 13.2, 20.2 y 25.1 CE; TFUE, art. 22",
+    "sobre": [
+     "dn-ter-02",
+     "dn-ins-05",
+     "dn-ins-03"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

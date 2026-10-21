@@ -1,0 +1,402 @@
+{
+ "id": "mes",
+ "nombre": "Ara MÉS – Front Ampli",
+ "siglas": "MÉS",
+ "concurre": true,
+ "candidato": "Por confirmar (saldrá de Ara Més; se citan Carme Gomila y Vicenç Vidal)",
+ "ideologia": "Nacionalista balear de izquierda verde",
+ "ambito": "Illes Balears",
+ "color": "#E2003B",
+ "color_aproximado": true,
+ "web": "https://www.mespermallorca.cat",
+ "escanos_2023": 1,
+ "resumen": "Candidatura de Ara Més (MÉS per Mallorca, Més per Menorca y Ara Eivissa) con Sumar, Esquerra Unida, Progrés en Verd y Recortes Cero para el Congreso por Baleares; Podemos va aparte. MÉS per Mallorca, su fuerza principal, prioriza la vivienda (abolir el alquiler turístico y limitar la compra a no residentes), el decrecimiento turístico y el coste de la insularidad.",
+ "fuentes_programa": [
+  {
+   "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+   "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+   "fecha": "2025-12-13"
+  },
+  {
+   "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+   "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+   "fecha": "2026-09-01"
+  },
+  {
+   "nombre": "Mallorca.com, 9-9-2026: moción de MÉS sobre política turística",
+   "url": "https://www.mallorca.com/en/magazin/news/holiday-lets-ban-mallorca",
+   "fecha": "2026-09-09"
+  },
+  {
+   "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+   "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+   "fecha": "2026-10-10"
+  },
+  {
+   "nombre": "VilaWeb, 19-10-2026: Ara Més–Front Ampli presenta la coalició",
+   "url": "https://www.vilaweb.cat/noticies/ara-mes-front-ampli-presenta-la-coalicio-electoral-i-mante-oberta-la-porta-a-podem/",
+   "fecha": "2026-10-19"
+  },
+  {
+   "nombre": "Ara Balears, 19-10-2026: Ara Més–Front Ampli pide el voto",
+   "url": "https://en.arabalears.cat/politics/ara-mes-broad-front-asks-for-the-vote-to-demand-brave-measures-for-the-islands_1_5884014.html",
+   "fecha": "2026-10-19"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "VilaWeb, 19-10-2026: Ara Més–Front Ampli presenta la coalició",
+  "url": "https://www.vilaweb.cat/noticies/ara-mes-front-ampli-presenta-la-coalicio-electoral-i-mante-oberta-la-porta-a-podem/",
+  "fecha": "2026-10-19"
+ },
+ "circunscripciones": [
+  "Illes Balears"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 16.73,
+  "ambito": "Illes Balears",
+  "fuente": {
+   "nombre": "Público, resultados generales 2023 en Baleares (Més per Mallorca–Més per Menorca–Sumar, 83.116 votos, 1 escaño)",
+   "url": "https://www.publico.es/resultados-elecciones/generales/2023/congreso/illes-balears"
+  },
+  "nota": "En 2023 la candidatura de MÉS y Sumar incluía también a Podemos, que ahora concurre por separado."
+ },
+ "propuestas": [
+  {
+   "id": "mes-viv-01",
+   "area": "vivienda",
+   "texto": "Declarar el acceso a la vivienda «emergencia nacional».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+    "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+    "fecha": "2025-12-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-viv-02",
+   "area": "vivienda",
+   "texto": "Abolir el alquiler turístico: prohibir nuevos usos turísticos de viviendas y eliminar de forma progresiva los existentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+    "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+    "fecha": "2025-12-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-viv-03",
+   "area": "vivienda",
+   "texto": "Impedir la compra de vivienda a no residentes, pidiendo al Gobierno central el cambio legal necesario.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+    "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-viv-04",
+   "area": "vivienda",
+   "texto": "Exigir un mínimo de años de residencia en Baleares para poder comprar vivienda y dar prioridad a los residentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 9-9-2026: moción de MÉS sobre política turística",
+    "url": "https://www.mallorca.com/en/magazin/news/holiday-lets-ban-mallorca",
+    "fecha": "2026-09-09"
+   }
+  },
+  {
+   "id": "mes-viv-05",
+   "area": "vivienda",
+   "texto": "Declarar Baleares zona tensionada para aplicar los límites al alquiler, y regular los precios de la vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+    "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+    "fecha": "2026-10-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-viv-06",
+   "area": "vivienda",
+   "texto": "Más impuestos a las viviendas vacías, recargo a las segundas residencias y subir el ITP en compras para uso no residencial.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+    "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "mes-viv-07",
+   "area": "vivienda",
+   "texto": "Moratoria a la construcción de viviendas de lujo y prohibir edificar en suelo rústico.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+    "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "mes-viv-08",
+   "area": "vivienda",
+   "texto": "Que el Estado desarrolle vivienda protegida en Son Busquets y traspase al instituto balear de vivienda los inmuebles de la Sareb.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 10-10-2026: moción de MÉS sobre vivienda",
+    "url": "https://www.mallorca.com/en/magazin/news/moratoria-pisos-luxe-mallorca",
+    "fecha": "2026-10-10"
+   }
+  },
+  {
+   "id": "mes-viv-09",
+   "area": "vivienda",
+   "texto": "Movilizar los pisos vacíos de grandes tenedores e impulsar el alquiler público y social.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+    "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+    "fecha": "2025-12-13"
+   }
+  },
+  {
+   "id": "mes-eco-01",
+   "area": "economia",
+   "texto": "Retirar 130.000 plazas turísticas en Mallorca a medio plazo, con compra pública de plazas obsoletas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+    "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+    "fecha": "2026-09-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-eco-02",
+   "area": "economia",
+   "texto": "Duplicar el impuesto de turismo sostenible y destinar al menos un 25% a diversificación económica, territorio y transición energética.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+    "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+    "fecha": "2026-09-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-eco-03",
+   "area": "economia",
+   "texto": "Un tipo de IVA diferenciado para Baleares.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+    "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+    "fecha": "2026-09-01"
+   }
+  },
+  {
+   "id": "mes-emp-01",
+   "area": "empleo",
+   "texto": "Un salario mínimo propio para Baleares.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+    "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+    "fecha": "2026-09-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-eco-04",
+   "area": "economia",
+   "texto": "Que el Gobierno central deje de promocionar Baleares como destino turístico.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 9-9-2026: moción de MÉS sobre política turística",
+    "url": "https://www.mallorca.com/en/magazin/news/holiday-lets-ban-mallorca",
+    "fecha": "2026-09-09"
+   }
+  },
+  {
+   "id": "mes-ter-01",
+   "area": "territorio",
+   "texto": "Oponerse a la ampliación de los aeropuertos y no financiar nuevas rutas aéreas turísticas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 9-9-2026: moción de MÉS sobre política turística",
+    "url": "https://www.mallorca.com/en/magazin/news/holiday-lets-ban-mallorca",
+    "fecha": "2026-09-09"
+   }
+  },
+  {
+   "id": "mes-eco-05",
+   "area": "economia",
+   "texto": "Superar el modelo basado en el turismo de masas y la construcción hacia una economía diversificada y verde.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+    "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+    "fecha": "2025-12-13"
+   }
+  },
+  {
+   "id": "mes-ene-01",
+   "area": "energia",
+   "texto": "Decrecer en el consumo de suelo y proteger el territorio; invertir en el ciclo del agua para compensar el consumo turístico.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 9-9-2026: moción de MÉS sobre política turística",
+    "url": "https://www.mallorca.com/en/magazin/news/holiday-lets-ban-mallorca",
+    "fecha": "2026-09-09"
+   }
+  },
+  {
+   "id": "mes-tec-01",
+   "area": "tecnologia",
+   "texto": "Más financiación para agricultura, cultura, innovación e investigación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Mallorca.com, 1-9-2026: propuestas turísticas de MÉS per Mallorca",
+    "url": "https://www.mallorca.com/en/magazin/news/mes-tourist-tax-mallorca",
+    "fecha": "2026-09-01"
+   }
+  },
+  {
+   "id": "mes-ter-02",
+   "area": "territorio",
+   "texto": "Afrontar los sobrecostes de la insularidad para trabajadores públicos, autónomos y pequeñas empresas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ara Balears, 19-10-2026: Ara Més–Front Ampli pide el voto",
+    "url": "https://en.arabalears.cat/politics/ara-mes-broad-front-asks-for-the-vote-to-demand-brave-measures-for-the-islands_1_5884014.html",
+    "fecha": "2026-10-19"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mes-igu-01",
+   "area": "igualdad",
+   "texto": "La perspectiva feminista como eje transversal de la acción política.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "mallorcadiario, 13-12-2025: VII Asamblea de MÉS per Mallorca",
+    "url": "https://www.mallorcadiario.com/mes-per-mallorca-apuesta-por-abolir-el-alquiler-turistico-y-declara-la-vivienda-como-emergencia-nacional/amp",
+    "fecha": "2025-12-13"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Menos plazas turísticas, menos renta",
+    "texto": "El turismo supone en torno al 45% del PIB balear según Exceltur. Retirar 130.000 plazas y duplicar la ecotasa reduciría ingresos y empleo en el corto plazo si no hay sectores capaces de absorberlos, y la compra pública de plazas tiene un coste elevado que no se cuantifica.",
+    "sobre": [
+     "mes-eco-01",
+     "mes-eco-02",
+     "mes-eco-04"
+    ],
+    "fuente": {
+     "nombre": "Exceltur, Impactur Illes Balears"
+    }
+   },
+   {
+    "titulo": "Salario mínimo e IVA autonómicos",
+    "texto": "Un salario mínimo y un IVA propios de Baleares no caben en el marco actual: el IVA está armonizado en la UE y el salario mínimo es competencia estatal. Además, un salario mínimo regional más alto puede afectar al empleo de baja productividad fuera de la temporada alta.",
+    "sobre": [
+     "mes-emp-01",
+     "mes-eco-03"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2006/112/CE del IVA; art. 149.1.7 CE"
+    }
+   },
+   {
+    "titulo": "Prohibir el alquiler turístico",
+    "texto": "Eliminar el alquiler turístico puede devolver viviendas al alquiler residencial (estudios en Barcelona y Palma apuntan efectos en los precios), pero supone para los propietarios una pérdida de rentas que puede acabar en reclamaciones de indemnización.",
+    "sobre": [
+     "mes-viv-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de regulación de vivienda turística"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Requisitos de residencia y movilidad laboral",
+    "texto": "Exigir años de residencia para comprar vivienda perjudicaría a trabajadores recién llegados, incluidos sanitarios y docentes que Baleares tiene dificultades para atraer, al igual que a residentes que vuelven tras estudiar fuera.",
+    "sobre": [
+     "mes-viv-03",
+     "mes-viv-04"
+    ],
+    "fuente": {
+     "nombre": "Argumento de mercado laboral"
+    }
+   },
+   {
+    "titulo": "Aeropuertos y conectividad de los residentes",
+    "texto": "Oponerse a ampliar los aeropuertos y frenar nuevas rutas puede encarecer también los vuelos de los residentes, para quienes el avión es un servicio esencial.",
+    "sobre": [
+     "mes-ter-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de conectividad insular"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Residentes frente a «los de fuera»",
+    "texto": "Priorizar a los residentes en la vivienda responde a un malestar social amplio, pero sus críticos advierten de que alimenta una frontera entre población local y recién llegada, también entre ciudadanos españoles.",
+    "sobre": [
+     "mes-viv-04",
+     "mes-viv-03"
+    ],
+    "fuente": {
+     "nombre": "Argumento de cohesión social"
+    }
+   },
+   {
+    "titulo": "Freno a la promoción turística",
+    "texto": "Pedir al Estado que deje de promocionar Baleares choca con la identidad económica construida en torno al turismo durante 60 años y con los intereses de buena parte del empresariado local.",
+    "sobre": [
+     "mes-eco-04"
+    ],
+    "fuente": {
+     "nombre": "Argumento sobre el modelo productivo balear"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Una preocupación seria: exigir años de residencia para comprar vivienda y prohibir la compra a no residentes choca con la libre circulación de capitales según doctrina reiterada del TJUE, y con la libertad de residencia de los españoles. La gravedad es mayor que en la Ley de Residencia de CC porque la medida está concretada.",
+  "criticas": [
+   {
+    "titulo": "Años de residencia para comprar vivienda y veto a no residentes",
+    "texto": "El TJUE ha declarado contrarias a la libre circulación de capitales las normas que exigen residir previamente o tener un «vínculo suficiente» con el municipio para comprar inmuebles, salvo que sean proporcionadas a un objetivo como la vivienda asequible y no haya medidas menos restrictivas. Un veto general a no residentes no supera ese test. Aplicado a españoles de otras comunidades, además, obstaculizaría la libertad de residencia.",
+    "gravedad": "media",
+    "criterio": "TFUE, art. 63; TJUE, Konle (C-302/97, 1999), Festersen (C-370/05, 2007) y Libert (C-197/11, 2013); arts. 19 y 139.2 CE",
+    "sobre": [
+     "mes-viv-03",
+     "mes-viv-04"
+    ],
+    "fuente": {
+     "nombre": "TJUE, asunto C-197/11 (Libert)",
+     "url": "https://curia.europa.eu/juris/liste.jsf?num=C-197/11"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}

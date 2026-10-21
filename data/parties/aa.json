@@ -1,0 +1,579 @@
+{
+  "id": "aa",
+  "nombre": "Adelante Andalucía",
+  "siglas": "AA",
+  "concurre": true,
+  "candidato": "Sin candidato a la Presidencia; cabezas de lista provinciales, entre ellos Luis de los Santos (Sevilla) y María Sánchez (Cádiz). Portavoz: José Ignacio García",
+  "ideologia": "Andalucismo de izquierdas, ecosocialista",
+  "ambito": "Andalucía",
+  "color": "#38423F",
+  "web": "https://adelanteandalucia.org/",
+  "escanos_2023": 0,
+  "resumen": "Partido andalucista de izquierdas que obtuvo 8 escaños en las andaluzas de mayo de 2026 y concurre por primera vez en solitario al Congreso en las ocho provincias andaluzas con militantes de base como cabezas de lista. No ha publicado programa para el 29N; su programa autonómico de 2026 y el de 2023 priorizan la vivienda (topes al alquiler, desprivatización), la financiación de Andalucía y los servicios públicos.",
+  "fuentes_programa": [
+    {
+      "titulo": "Programa Adelante Andalucía 2026 (andaluzas): 50 medidas",
+      "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+      "fecha": "2026-05"
+    },
+    {
+      "titulo": "Programa generales 23J (resumen Diario Bahía de Cádiz)",
+      "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+      "fecha": "2023-07"
+    },
+    {
+      "titulo": "Candidaturas al Congreso para el 29N (elDiario.es)",
+      "url": "https://www.eldiario.es/andalucia/adelante-andalucia-prescinde-fichajes-estrella-tira-militantes-base-candidatura-solitario-generales_1_13590162.html",
+      "fecha": "2026-10-16"
+    }
+  ],
+  "programa_2026_publicado": false,
+  "propuestas": [
+    {
+      "id": "aa-viv-01",
+      "area": "vivienda",
+      "texto": "Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "José Ignacio García, entrevista Europa Press (Última Hora)",
+        "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/28/2678649/adelante-andalucia-gobierno-sanchez-sera-fallido-arregla-problema-vivienda.html",
+        "fecha": "2026-07-28"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-viv-02",
+      "area": "vivienda",
+      "texto": "Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-viv-03",
+      "area": "vivienda",
+      "texto": "Incorporar el 100 % de los inmuebles de la Sareb al parque público de alquiler.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-viv-04",
+      "area": "vivienda",
+      "texto": "Obligar a que el 50 % de las viviendas de nuevas promociones privadas sean protegidas y reformar el modelo de VPO para hacerlo accesible.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-01",
+      "area": "economia",
+      "texto": "Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-02",
+      "area": "economia",
+      "texto": "Impuesto a grandes fortunas y grandes propiedades inmobiliarias y agrícolas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-03",
+      "area": "economia",
+      "texto": "Crear una tasa turística.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-04",
+      "area": "economia",
+      "texto": "Crear una banca pública andaluza y una empresa pública de energía renovable.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-eco-05",
+      "area": "economia",
+      "texto": "Red de supermercados públicos frente a la subida de precios de los alimentos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-06",
+      "area": "economia",
+      "texto": "Plan de protección a autónomos con vacaciones, permisos, ventanilla única y un marketplace andaluz.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-eco-07",
+      "area": "economia",
+      "texto": "Plan de industrialización ecosocialista en las comarcas con más paro y revertir el cierre de Airbus en Puerto Real.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      }
+    },
+    {
+      "id": "aa-eco-08",
+      "area": "economia",
+      "texto": "Nuevo modelo turístico con reparto de beneficios, cooperativas turísticas y vacaciones subvencionadas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-deu-01",
+      "area": "deuda",
+      "texto": "Auditoría de la deuda andaluza para identificar la parte considerada ilegítima.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-ter-01",
+      "area": "territorio",
+      "texto": "Reformar la financiación autonómica por infrafinanciación de Andalucía, rechazando el principio de ordinalidad.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-ter-02",
+      "area": "territorio",
+      "texto": "Más inversión estatal en Andalucía y cumplimiento de lo presupuestado, frente a una ejecución que cifra en el 42 %.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      }
+    },
+    {
+      "id": "aa-ter-03",
+      "area": "territorio",
+      "texto": "Reclamar las competencias ferroviarias del Estatuto y tren para localidades de más de 20.000 habitantes.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-ter-04",
+      "area": "territorio",
+      "texto": "Voz andalucista propia en el Congreso con candidaturas en solitario en las ocho provincias.",
+      "origen": "accion",
+      "fuente": {
+        "nombre": "elDiario.es, 16-10-2026",
+        "url": "https://www.eldiario.es/andalucia/adelante-andalucia-prescinde-fichajes-estrella-tira-militantes-base-candidatura-solitario-generales_1_13590162.html",
+        "fecha": "2026-10-16"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-emp-01",
+      "area": "empleo",
+      "texto": "Semana laboral de 32 horas sin reducción de sueldo.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-emp-02",
+      "area": "empleo",
+      "texto": "Plan de calidad del empleo en hostelería y turismo y más inspección en la subcontratación naval.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      }
+    },
+    {
+      "id": "aa-pen-01",
+      "area": "pensiones",
+      "texto": "Fijar la edad de jubilación en 62 años.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-san-01",
+      "area": "sanidad",
+      "texto": "Eliminar los conciertos y externalizaciones sanitarias y destinar el 100 % del presupuesto a la sanidad pública.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-san-02",
+      "area": "sanidad",
+      "texto": "Atención primaria con un mínimo de 10 minutos por consulta, máximo de 1.500 pacientes por profesional y cita en 48 horas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-san-03",
+      "area": "sanidad",
+      "texto": "Impuesto de retorno sanitario sobre el beneficio de la sanidad privada.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-san-04",
+      "area": "sanidad",
+      "texto": "Incluir salud visual, dental, podología y nutrición en la sanidad pública, y tratamiento del cáncer en 21 días desde su detección.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-edu-01",
+      "area": "educacion",
+      "texto": "Financiación de las universidades públicas y prohibición de nuevas universidades privadas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-edu-02",
+      "area": "educacion",
+      "texto": "Blindar la FP pública y paralizar nuevas plazas de FP privada.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-edu-03",
+      "area": "educacion",
+      "texto": "Comedores escolares públicos con cocina propia y enfermería escolar presencial en cada centro.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-igu-01",
+      "area": "igualdad",
+      "texto": "Garantizar la interrupción voluntaria del embarazo en la sanidad pública y retirar fondos a organizaciones contrarias a los derechos reproductivos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-igu-02",
+      "area": "igualdad",
+      "texto": "Plan para eliminar la LGTBIfobia y crear un departamento de Feminismos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-igu-03",
+      "area": "igualdad",
+      "texto": "Recuperar como servicios públicos los externalizados (112, 061, ayuda a domicilio) y valorar la dependencia en un máximo de 150 días.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-inm-01",
+      "area": "inmigracion",
+      "texto": "Rechazar que se culpe a inmigrantes y pobres del malestar social y dirigir la crítica hacia los poderosos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "elDiario.es, 16-10-2026",
+        "url": "https://www.eldiario.es/andalucia/adelante-andalucia-prescinde-fichajes-estrella-tira-militantes-base-candidatura-solitario-generales_1_13590162.html",
+        "fecha": "2026-10-16"
+      }
+    },
+    {
+      "id": "aa-rur-01",
+      "area": "rural",
+      "texto": "Ley de soberanía alimentaria con expropiación de tierras de grandes terratenientes y fondos.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      },
+      "destacada": true
+    },
+    {
+      "id": "aa-rur-02",
+      "area": "rural",
+      "texto": "Limitar lo que considera abusos de la gran distribución y favorecer a pequeños agricultores frente a grandes propietarios y fondos.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      }
+    },
+    {
+      "id": "aa-ene-01",
+      "area": "energia",
+      "texto": "Planificación democrática de las renovables y transformación local de minerales para abandonar el modelo extractivo.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-ins-01",
+      "area": "instituciones",
+      "texto": "Ley contra los «privilegios políticos» con limitación de mandatos, transparencia salarial y justificación de dietas.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-ins-02",
+      "area": "instituciones",
+      "texto": "Prohibir la contratación de publicidad institucional con medios que difundan desinformación.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-ins-03",
+      "area": "instituciones",
+      "texto": "Acabar con lo que califica de privilegios de la jerarquía de la Iglesia católica.",
+      "origen": "programa-2023",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+        "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+        "fecha": "2023-07-10"
+      }
+    },
+    {
+      "id": "aa-cul-01",
+      "area": "cultura",
+      "texto": "Recuperar la RTVA con estabilidad laboral e independencia editorial.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-cul-02",
+      "area": "cultura",
+      "texto": "Reclamar la devolución de obras de arte andaluzas fuera de Andalucía, red de salas de conciertos y escuela pública de cine andaluz.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-dem-01",
+      "area": "demografia",
+      "texto": "Plan de retorno para andaluces emigrados con subvención del 50 % en los billetes de transporte.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    },
+    {
+      "id": "aa-dem-02",
+      "area": "demografia",
+      "texto": "Suelo del 1 % del presupuesto para políticas de juventud.",
+      "origen": "declaracion",
+      "fuente": {
+        "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+        "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+        "fecha": "2026-05"
+      }
+    }
+  ],
+  "criticas": {
+    "economica": [
+      {
+        "titulo": "Topes al alquiler y caída de la oferta",
+        "texto": "Un balance empírico de Fedea sobre la Ley de Vivienda en Cataluña encuentra que los topes moderaron las subidas pero redujeron la oferta de alquiler más de un 20 % y multiplicaron la competencia por cada vivienda, perjudicando a quienes buscan piso. Un tope del 20 % del salario medio sería aún más restrictivo.",
+        "sobre": [
+          "aa-viv-01"
+        ],
+        "fuente": {
+          "nombre": "Fedea, La Ley 12/2023: un primer balance empírico (Pinto, 2026)",
+          "url": "https://fedea.net/la-ley-12-2023-por-el-derecho-a-la-vivienda-un-primer-balance-empirico/"
+        }
+      },
+      {
+        "titulo": "Jubilación a los 62 años",
+        "texto": "Fedea calcula que el sistema ya promete pensiones que superan en torno a un 25 % a las cotizaciones en valor presente; adelantar la edad ordinaria cinco años elevaría mucho el gasto y reduciría la población ocupada en pleno envejecimiento.",
+        "sobre": [
+          "aa-pen-01"
+        ],
+        "fuente": {
+          "nombre": "Devesa et al., Fedea (2025)",
+          "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
+        }
+      },
+      {
+        "titulo": "Reducción de jornada por ley",
+        "texto": "Conde-Ruiz y Lahera advierten de que reducir la jornada por ley sin ajuste salarial encarece los costes laborales unitarios; una semana de 32 horas supondría un recorte de cerca del 20 % frente a las 40 horas, en una región con alta proporción de pymes y empleo en servicios.",
+        "sobre": [
+          "aa-emp-01"
+        ],
+        "fuente": {
+          "nombre": "Fedea, ¿Cómo reducir la jornada laboral? (2024)",
+          "url": "https://fedea.net/como-reducir-la-jornada-laboral/"
+        }
+      }
+    ],
+    "social": [
+      {
+        "titulo": "Expropiaciones y seguridad jurídica",
+        "texto": "La expropiación del uso de viviendas y tierras exige indemnización conforme al art. 33 de la Constitución; el programa no cuantifica ese coste y la incertidumbre regulatoria puede retraer la inversión en vivienda en alquiler, como advierte el Banco de España.",
+        "sobre": [
+          "aa-viv-02",
+          "aa-rur-01"
+        ],
+        "fuente": {
+          "nombre": "Banco de España, Informe Anual 2023, cap. 4 (mercado de la vivienda)",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+        }
+      },
+      {
+        "titulo": "Fin de los conciertos sanitarios",
+        "texto": "Suprimir de golpe los conciertos y externalizaciones obligaría a la red pública a absorber pruebas, cirugías y servicios hoy derivados, con riesgo de alargar listas de espera mientras se dota de personal e infraestructura.",
+        "sobre": [
+          "aa-san-01"
+        ],
+        "fuente": {
+          "nombre": "Argumento de gestión sanitaria"
+        }
+      }
+    ],
+    "cultural": [
+      {
+        "titulo": "Prohibir universidades y FP privadas",
+        "texto": "Prohibir nuevas universidades y plazas de FP privadas choca con la libertad de creación de centros docentes del art. 27.6 de la Constitución y limitaría la oferta en titulaciones con alta demanda insatisfecha en la red pública.",
+        "sobre": [
+          "aa-edu-01",
+          "aa-edu-02"
+        ],
+        "fuente": {
+          "nombre": "Constitución Española, art. 27.6",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+        }
+      },
+      {
+        "titulo": "Publicidad institucional y desinformación",
+        "texto": "Excluir de la publicidad institucional a medios que «difundan desinformación» requiere un órgano que decida qué es desinformación, lo que plantea riesgos de discrecionalidad y de condicionar la línea editorial.",
+        "sobre": [
+          "aa-ins-02"
+        ],
+        "fuente": {
+          "nombre": "Argumento sobre libertad de información (art. 20 CE)"
+        }
+      }
+    ]
+  },
+  "mentiras": [],
+  "actualizado": "2026-10-21"
+}

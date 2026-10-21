@@ -1,0 +1,9 @@
+# Generado
+dist/
+node_modules/
+*.zip
+
+# Material interno de trabajo (no se publica)
+data/briefs/
+data/mentiras_*.json
+_interno/

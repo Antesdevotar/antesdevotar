@@ -1,0 +1,350 @@
+{
+ "id": "feministas",
+ "nombre": "Feministas al Congreso",
+ "siglas": "PFAC",
+ "concurre": true,
+ "candidato": "Por confirmar (dirección: Pilar Aguilar, presidenta; Amparo Mañés, secretaria general)",
+ "ideologia": "Feminista abolicionista, crítica con el género",
+ "ambito": "Estatal",
+ "color": "#6B2C91",
+ "color_aproximado": true,
+ "web": "https://www.feministasalcongreso.es",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado en 2022 por feministas desencantadas con las políticas de igualdad del PSOE y Podemos; no se presentó en 2023 y obtuvo 29.742 votos en las europeas de 2024. Anuncia que concurrirá el 29N con la abolición de la prostitución, la derogación de la ley trans y la prohibición de los vientres de alquiler como ejes.",
+ "fuentes_programa": [
+  {
+   "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+   "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+   "fecha": "2026-10-13"
+  },
+  {
+   "nombre": "The Objective, 10-4-2024 (candidatura a las europeas)",
+   "url": "https://theobjective.com/espana/2024-04-10/feministas-criticas-psoe-sumar-europeas-nuevo-partido/",
+   "fecha": "2024-04-10"
+  },
+  {
+   "nombre": "El Común, 23-10-2024: nueva ejecutiva de Feministas al Congreso",
+   "url": "https://elcomun.es/2024/10/23/el-partido-feministas-al-congreso-elige-a-su-nueva-ejecutiva-encabezada-por-pilar-aguilar/",
+   "fecha": "2024-10-23"
+  },
+  {
+   "nombre": "EFEminista: presentación del partido (prensa)",
+   "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+   "fecha": "2022-01"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Anunciada",
+ "estado_fuente": {
+  "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+  "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+  "fecha": "2026-10-13"
+ },
+ "circunscripciones": [
+  "Por confirmar"
+ ],
+ "referencia_voto": {
+  "eleccion": "Europeas 2024",
+  "porcentaje": 0.17,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "The Objective, 13-10-2026 (29.742 votos)",
+   "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/"
+  },
+  "nota": "Porcentaje calculado sobre unos 17,46 millones de votos válidos (deducidos del 0,77% de PACMA con 134.425 votos)."
+ },
+ "propuestas": [
+  {
+   "id": "feministas-igu-01",
+   "area": "igualdad",
+   "texto": "Ley abolicionista de la prostitución que proteja a las mujeres, persiga penalmente a los proxenetas y sancione al cliente.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-igu-02",
+   "area": "igualdad",
+   "texto": "Derogar la «ley trans».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-igu-03",
+   "area": "igualdad",
+   "texto": "Derogar las normas y protocolos que, según el partido, «niegan la realidad material del sexo» y falsean censos y estadísticas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-igu-04",
+   "area": "igualdad",
+   "texto": "Abolir el género como categoría jurídica.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Común, 23-10-2024: nueva ejecutiva de Feministas al Congreso",
+    "url": "https://elcomun.es/2024/10/23/el-partido-feministas-al-congreso-elige-a-su-nueva-ejecutiva-encabezada-por-pilar-aguilar/",
+    "fecha": "2024-10-23"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-igu-05",
+   "area": "igualdad",
+   "texto": "Prohibir los vientres de alquiler («abolición de la explotación reproductiva»).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 10-4-2024 (candidatura a las europeas)",
+    "url": "https://theobjective.com/espana/2024-04-10/feministas-criticas-psoe-sumar-europeas-nuevo-partido/",
+    "fecha": "2024-04-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-igu-06",
+   "area": "igualdad",
+   "texto": "Auditar los fondos del Pacto de Estado contra la Violencia de Género.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   },
+   "destacada": true
+  },
+  {
+   "id": "feministas-tec-01",
+   "area": "tecnologia",
+   "texto": "Control de la pornografía y restricción del acceso de menores a grabaciones de violencia sexual.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Común, 23-10-2024: nueva ejecutiva de Feministas al Congreso",
+    "url": "https://elcomun.es/2024/10/23/el-partido-feministas-al-congreso-elige-a-su-nueva-ejecutiva-encabezada-por-pilar-aguilar/",
+    "fecha": "2024-10-23"
+   }
+  },
+  {
+   "id": "feministas-igu-07",
+   "area": "igualdad",
+   "texto": "Desarrollar y dotar de medios la Ley de Igualdad de 2007.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-ins-01",
+   "area": "instituciones",
+   "texto": "Formación en igualdad para jueces y fuerzas de seguridad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-san-01",
+   "area": "sanidad",
+   "texto": "Reconocer la endometriosis como enfermedad invalidante, con servicios para detectarla, y atender la fibromialgia y otros problemas de salud de las mujeres.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-edu-01",
+   "area": "educacion",
+   "texto": "Incorporar la coeducación a todos los currículos educativos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-emp-01",
+   "area": "empleo",
+   "texto": "Medidas contra la brecha salarial, la precariedad laboral de las mujeres y las dificultades de conciliación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 10-4-2024 (candidatura a las europeas)",
+    "url": "https://theobjective.com/espana/2024-04-10/feministas-criticas-psoe-sumar-europeas-nuevo-partido/",
+    "fecha": "2024-04-10"
+   }
+  },
+  {
+   "id": "feministas-emp-02",
+   "area": "empleo",
+   "texto": "Estudiar y mejorar las condiciones laborales de las cuidadoras.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-igu-08",
+   "area": "igualdad",
+   "texto": "Medidas «consistentes y concretas» contra la feminización de la pobreza.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "EFEminista: presentación del partido (prensa)",
+    "url": "https://efeminista.com/feministas-al-congreso-partido-para-defender-a-mujeres-desde-instituciones/",
+    "fecha": "2022-01"
+   }
+  },
+  {
+   "id": "feministas-eco-01",
+   "area": "economia",
+   "texto": "Reforzar los servicios públicos y revertir recortes y privatizaciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   }
+  },
+  {
+   "id": "feministas-viv-01",
+   "area": "vivienda",
+   "texto": "Proteger el derecho a la vivienda frente al mercado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
+    "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
+    "fecha": "2026-10-13"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Agenda sin memoria económica",
+    "texto": "Sus propuestas sociales (reforzar servicios públicos, revertir privatizaciones, medidas contra la feminización de la pobreza) no van acompañadas de cifras, calendario ni fuentes de financiación, lo que impide evaluar su coste y viabilidad.",
+    "sobre": [
+     "feministas-eco-01",
+     "feministas-igu-08",
+     "feministas-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Ausencia de programa cuantificado"
+    }
+   },
+   {
+    "titulo": "Auditoría del Pacto de Estado",
+    "texto": "Auditar los fondos del Pacto de Estado es razonable, pero el Tribunal de Cuentas y las comunidades ya fiscalizan su ejecución; sin concretar qué añadiría, la propuesta duplica controles existentes.",
+    "sobre": [
+     "feministas-igu-06"
+    ],
+    "fuente": {
+     "nombre": "Argumento de control del gasto público"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Efectos del modelo abolicionista sobre quienes ejercen",
+    "texto": "Organizaciones de trabajadoras sexuales y algunos estudios sobre el modelo nórdico sostienen que sancionar al cliente desplaza la prostitución a la clandestinidad y aumenta los riesgos para las mujeres; otros estudios y organismos defienden su efecto disuasorio. La evidencia está dividida.",
+    "sobre": [
+     "feministas-igu-01"
+    ],
+    "fuente": {
+     "nombre": "Debate recogido en TEDH, M.A. y otros c. Francia (2024)",
+     "url": "https://www.jurist.org/news/2024/07/european-court-rules-criminalization-of-prostitution-in-france-not-a-violation-of-the-right-to-private-life/"
+    }
+   },
+   {
+    "titulo": "Personas trans",
+    "texto": "Derogar la ley trans y suprimir el género como categoría jurídica dejaría a las personas trans sin vía clara para rectificar su sexo registral, con efectos en documentación, empleo y vida diaria; organizaciones LGTBI lo consideran un retroceso de derechos.",
+    "sobre": [
+     "feministas-igu-02",
+     "feministas-igu-04"
+    ],
+    "fuente": {
+     "nombre": "Ley 4/2023, para la igualdad real y efectiva de las personas trans",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Choque con buena parte del movimiento feminista y LGTBI",
+    "texto": "Su definición del sujeto del feminismo basada solo en el sexo enfrenta a una parte importante del feminismo y del movimiento LGTBI, que la ve excluyente; sus defensoras sostienen que protege categorías necesarias para medir la desigualdad.",
+    "sobre": [
+     "feministas-igu-03",
+     "feministas-igu-04"
+    ],
+    "fuente": {
+     "nombre": "Argumento sobre el debate interno del feminismo"
+    }
+   },
+   {
+    "titulo": "Control de la pornografía y libertad de expresión",
+    "texto": "Restringir el acceso de menores tiene amplio consenso, pero un «control de la pornografía» sin definir plantea dudas sobre su alcance para adultos y sobre la verificación de edad y la privacidad.",
+    "sobre": [
+     "feministas-tec-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de libertad de expresión y protección de datos"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Una duda jurídica: suprimir el género como categoría jurídica, si implica que no haya ninguna vía para rectificar el sexo registral, chocaría con la doctrina del TEDH. Derogar la ley trans por sí sola no se valora (es el mismo criterio que aplicamos a PP y Vox). Un aval: el TEDH respalda sancionar al cliente de prostitución.",
+  "criticas": [
+   {
+    "titulo": "Suprimir el género como categoría jurídica",
+    "texto": "El TEDH exige que los Estados ofrezcan un procedimiento para reconocer legalmente la identidad de las personas trans, aunque les deja margen para fijar los requisitos. Derogar la ley de 2023 no infringe esa doctrina si se mantiene alguna vía. Abolir el género como categoría jurídica, sin más, podría eliminarla. El partido no lo concreta y por eso la gravedad es baja.",
+    "gravedad": "baja",
+    "criterio": "CEDH, art. 8; TEDH, Christine Goodwin c. Reino Unido (Gran Sala, 2002); TEDH, A.P., Garçon y Nicot c. Francia (2017)",
+    "sobre": [
+     "feministas-igu-04",
+     "feministas-igu-03"
+    ],
+    "fuente": {
+     "nombre": "Ley 4/2023 (régimen vigente de rectificación registral)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366"
+    }
+   }
+  ],
+  "avales": [
+   {
+    "titulo": "Sancionar al cliente de prostitución",
+    "texto": "En 2024 el TEDH concluyó que la ley francesa que castiga la compra de servicios sexuales no vulnera el derecho a la vida privada (art. 8 CEDH), dado el amplio margen de apreciación de los Estados en esta materia.",
+    "criterio": "TEDH, M.A. y otros c. Francia, 25-7-2024",
+    "sobre": [
+     "feministas-igu-01"
+    ],
+    "fuente": {
+     "nombre": "JURIST, 25-7-2024",
+     "url": "https://www.jurist.org/news/2024/07/european-court-rules-criminalization-of-prostitution-in-france-not-a-violation-of-the-right-to-private-life/"
+    }
+   }
+  ]
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-21"
+}
