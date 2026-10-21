@@ -161,10 +161,10 @@ emit('deuda', {
 });
 emit('importa', {
   route: 'importa',
-  title: `Lo que de verdad importa en las elecciones del 29N | ${NAME}`,
+  title: `Datos clave para los españoles: elecciones del 29N | ${NAME}`,
   description: 'Vivienda, salarios, pensiones, sanidad, deuda: los datos que marcan tu calidad de vida frente al ruido político.',
   jsonld: orgLd,
-  seoBody: `<h1>${esc(DATA.importa?.titular || 'Lo que importa')}</h1><p>${esc(DATA.importa?.manifiesto || '')}</p>`,
+  seoBody: `<h1>${esc(DATA.importa?.titular || 'Datos clave')}</h1><p>${esc(DATA.importa?.manifiesto || '')}</p>`,
 });
 if (DATA.test) emit('test', { route: 'test', title: `¿Con qué partido coincides? Test electoral 29N | ${NAME}`, description: 'Responde a 27 afirmaciones y descubre en qué coincides con cada partido, según lo que ha votado, hecho o propuesto, con fuente.', jsonld: orgLd, seoBody: '<h1>¿Con qué partido coincides?</h1>' });
 emit('partidos', { route: 'partidos', title: `Todos los partidos del 29N | ${NAME}`, description: 'Los partidos que se presentan a las elecciones generales del 29 de noviembre de 2026, ordenados por intención de voto.', jsonld: orgLd, seoBody: `<h1>Partidos</h1>${list(parties.map((p) => p.nombre))}` });

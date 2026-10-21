@@ -158,8 +158,8 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .prow:active{background:var(--surface-2);transform:scale(.995)}
 .prow-rank{font:700 13px var(--f-body);color:var(--ink-2);text-align:center;font-variant-numeric:tabular-nums}
 .prow-main{display:grid;gap:2px;min-width:0}
-.prow-name{font-weight:650;font-size:15.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.prow-sub{font-size:13px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow-name{font-weight:650;font-size:15.5px;line-height:1.22;overflow-wrap:anywhere;hyphens:auto}
+.prow-sub{font-size:13px;color:var(--ink-2);line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow-wrap:anywhere}
 .prow-bar{height:5px;border-radius:9px;background:var(--surface-2);margin-top:5px;overflow:hidden}
 .prow-bar i{display:block;height:100%;background:var(--pc);border-radius:9px}
 .prow-pct{display:grid;justify-items:end;font-variant-numeric:tabular-nums}
@@ -523,7 +523,9 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .aval p{font-size:14.5px}
 .block-head.sub{margin:18px 0 6px;justify-content:flex-start;align-items:center}
 .block-head.sub h3{font:750 17px var(--f-display)}
-.prow.other{grid-template-columns:22px 42px 1fr auto 18px}
+.prow.other{grid-template-columns:42px minmax(0,1fr) auto 18px;padding-left:10px}
+.prow{grid-template-columns:22px 42px minmax(0,1fr) auto 18px}
+.prow-pct small{white-space:nowrap}
 .prow-pct b.small{font-size:15px}
 .prow-pct small{text-align:right;max-width:110px}
 .afecta{display:grid;gap:8px}

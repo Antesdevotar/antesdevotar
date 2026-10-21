@@ -66,7 +66,7 @@ Cada partido tiene críticas en cuatro dimensiones: **económica**, **social**, 
   - Calcula el saldo primario necesario para estabilizar la deuda, y para reducirla al 60% del PIB en 20 años.
   - Es un cálculo simplificado y no incluye el efecto de un ajuste fiscal sobre el crecimiento.
 
-## 7. Lo que importa
+## 7. Datos clave
 
 Recoge los problemas con más impacto en la calidad de vida según datos oficiales: INE, Eurostat, CIS, CGPJ, Ministerio de Sanidad, OCDE y otros.
 

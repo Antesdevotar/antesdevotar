@@ -36,8 +36,8 @@
     { id: 'inicio', label: 'Inicio', icon: 'home' },
     { id: 'comparar', label: 'Comparar', icon: 'compare' },
     { id: 'test', label: '¿Con quién coincides?', short: 'Test', icon: 'test' },
-    { id: 'deuda', label: 'Deuda', icon: 'debt' },
-    { id: 'importa', label: 'Lo que importa', short: 'Importa', icon: 'matter' }
+    { id: 'importa', label: 'Datos clave', short: 'Datos', icon: 'matter' },
+    { id: 'deuda', label: 'Deuda', icon: 'debt' }
   ];
 
   // ---------- Helpers ----------
@@ -237,8 +237,8 @@
         case 'comparar': title = 'Comparar'; html = viewComparar(); break;
         case 'test': title = '¿Con quién coincides?'; html = viewTest(); break;
         case 'deuda': title = 'Deuda pública'; html = viewDeuda(); break;
-        case 'importa': title = 'Lo que importa'; html = viewImporta(); break;
-        case 'importaTema': { var tt = temaById(rt.id); title = tt ? tt.titulo : 'Lo que importa'; html = viewImportaTema(rt.id); break; }
+        case 'importa': title = 'Datos clave'; html = viewImporta(); break;
+        case 'importaTema': { var tt = temaById(rt.id); title = tt ? tt.titulo : 'Datos clave'; html = viewImportaTema(rt.id); break; }
         case 'metodologia': title = 'Metodología'; html = viewMetodologia(); break;
         default: title = ''; html = viewInicio();
       }
@@ -297,7 +297,7 @@
     var rv = p.referencia_voto;
     var where = (p.circunscripciones || []).join(', ');
     return '<a class="prow other" href="' + partyPath('partido-' + p.id) + '" data-nav="partido-' + p.id + '" style="--pc:' + esc(p.color) + '">' +
-      '<span class="prow-rank"></span>' + avatar(p) +
+      avatar(p) +
       '<span class="prow-main"><span class="prow-name">' + esc(p.nombre) + '</span><span class="prow-sub">' + esc([p.candidato, where && where !== 'Por confirmar' ? where : p.ambito].filter(Boolean).join(' · ')) + '</span></span>' +
       '<span class="prow-pct">' + (rv && rv.porcentaje != null ? '<b class="small">' + fmt(rv.porcentaje, rv.porcentaje < 1 ? 2 : 1) + '%</b><small>' + esc(rv.eleccion) + (rv.ambito && rv.ambito !== 'España' ? ' · ' + esc(rv.ambito) : '') + '</small>' : '<small>' + esc(p.estado_candidatura || 'Nuevo') + '</small>') + '</span>' + icon('chev', 18) + '</a>';
   }
@@ -318,6 +318,7 @@
     var d = daysLeft();
     var top = D.partidos;
     var dz = D.deuda && D.deuda.cifras_clave && D.deuda.cifras_clave[0];
+    var fi = D.importa && D.importa.temas && D.importa.temas[0];
     var nProp = D.partidos.reduce(function (a, p) { return a + p.propuestas.length; }, 0);
     return '<section class="hero">' +
       '<div class="hero-copy"><p class="kicker">Elecciones generales · 29 de noviembre de 2026</p>' +
@@ -329,9 +330,9 @@
       '<div id="partyList">' + partyLists(top) + '</div>' +
       '<p class="fine">Media de encuestas publicadas. ' + (D.encuestas.fuentes || []).map(function (f) { return src(f); }).join(' ') + '</p></section>' +
       '<section class="block feature-grid">' +
-      '<a class="feature f-debt" href="' + partyPath('deuda') + '" data-nav="deuda"><span class="f-eyebrow">La deuda pública</span><b class="f-big">' + esc(dz ? dz.valor + (dz.unidad ? ' ' + dz.unidad : '') : 'Deuda') + '</b><span>' + esc(dz ? dz.etiqueta : 'Por qué crece sola y por qué nadie quiere frenarla') + '</span><span class="f-cta">Ver cómo funciona ' + icon('next', 16) + '</span></a>' +
-      '<a class="feature f-matter" href="' + partyPath('importa') + '" data-nav="importa"><span class="f-eyebrow">Lo que de verdad importa</span><b class="f-big">' + esc(firstImporta()) + '</b><span>Los datos que marcan tu vida frente al ruido del día</span><span class="f-cta">Ver los datos ' + icon('next', 16) + '</span></a>' +
+      '<a class="feature f-matter" href="' + partyPath('importa') + '" data-nav="importa"><span class="f-eyebrow">Datos clave' + (fi ? ' · ' + esc(fi.titulo) : '') + '</span><b class="f-big">' + esc(fi && fi.dato_clave ? fi.dato_clave.valor : 'Datos') + '</b><span>' + esc(fi && fi.dato_clave ? fi.dato_clave.etiqueta : 'Vivienda, empleo, sanidad, pensiones: los datos que afectan a tu día a día') + '</span><span class="f-cta">Ver todos los datos ' + icon('next', 16) + '</span></a>' +
       '<a class="feature f-compare" href="' + partyPath('comparar') + '" data-nav="comparar"><span class="f-eyebrow">Comparador</span><b class="f-big">Tema a tema</b><span>Pon dos partidos frente a frente en vivienda, empleo o pensiones</span><span class="f-cta">Comparar ' + icon('next', 16) + '</span></a>' +
+      '<a class="feature f-debt" href="' + partyPath('deuda') + '" data-nav="deuda"><span class="f-eyebrow">Deuda pública</span><b class="f-big">' + esc(dz ? dz.valor + (dz.unidad ? ' ' + dz.unidad : '') : 'Deuda') + '</b><span>' + esc(dz ? dz.etiqueta : 'Cuánto debemos, cuánto nos cuesta y cómo evoluciona') + '</span><span class="f-cta">Ver cómo funciona ' + icon('next', 16) + '</span></a>' +
       '</section>' +
       '<section class="block"><div class="block-head"><h2>Explorar por tema</h2></div><div class="chips wrap">' + D.areas.map(function (a) { return '<a class="chip" href="' + partyPath('tema-' + a.id) + '" data-nav="tema-' + a.id + '">' + esc(a.nombre) + '</a>'; }).join('') + '</div></section>' +
       footer();
@@ -637,7 +638,7 @@
     if (d.te_afecta) html += '<section class="block"><div class="block-head"><h2>En qué te afecta</h2></div><div class="afecta">' + d.te_afecta.map(function (x) {
       return '<article class="af"><b>' + esc(x.valor) + '</b><h3>' + esc(x.titulo) + '</h3><p>' + esc(x.texto) + '</p>' + (x.url ? src({ nombre: x.fuente, url: x.url }) : '') + '</article>';
     }).join('') + '</div></section>';
-    html += '<section class="block trap"><div class="block-head"><h2>Cómo funciona</h2></div>' +
+    html += '<section class="block trap"><div class="block-head"><h2>Cómo evoluciona la deuda</h2></div>' +
       '<div class="trap-stage"><svg id="trapSvg" viewBox="0 0 360 220" role="img" aria-label="Animación: cómo crece la deuda"></svg>' +
       '<div class="trap-text" aria-live="polite"><span class="trap-step" id="trapN"></span><h3 id="trapT"></h3><p id="trapP"></p></div>' +
       '<div class="trap-ctl"><button class="iconbtn" type="button" id="trapPrev" aria-label="Paso anterior">' + icon('prev', 20) + '</button><div class="dots" id="trapDots"></div><button class="btn" type="button" id="trapNext">Siguiente ' + icon('next', 16) + '</button></div></div></section>';
@@ -701,7 +702,7 @@
     { titulo: 'Los intereses se pagan con más deuda', texto: 'Si gasta más de lo que ingresa, no le llega para los intereses: pide prestado otra vez para pagarlos.' },
     { titulo: 'Intereses sobre intereses', texto: 'Al año siguiente paga intereses también por lo que pidió para pagar intereses. La parte clara de cada barra crece sola.' },
     { titulo: 'El crecimiento puede salvarte… o no', texto: 'Si la economía crece más rápido que el tipo de interés, la deuda pesa menos con el tiempo. Si crece menos, la bola se acelera.' },
-    { titulo: 'Cada vez cuesta más salir', texto: 'Cuanto más tarde se corrige, mayor es el ajuste necesario. Por eso esperar sale caro.' }
+    { titulo: 'Cada vez cuesta más salir', texto: 'Cuanto más tarde se corrige, mayor es el ajuste necesario. Por eso retrasar la corrección suele salir más caro.' }
   ];
   function trapSteps() { var m = D.deuda && D.deuda.mecanica; var p = m && (m.pasos_cortos || m.pasos); return p && p.length >= 3 ? p : TRAP_DEFAULT; }
   function drawTrap() {
@@ -868,7 +869,7 @@
   }
   function viewImporta() {
     var d = D.importa; if (!d) return empty('Esta sección se está preparando.');
-    var html = '<section class="block first"><h1 class="h1">Lo que importa</h1><p class="lede small">' + esc(d.entradilla || 'Los problemas con más impacto en la vida diaria, con datos y fuentes.') + '</p>';
+    var html = '<section class="block first"><h1 class="h1">Datos clave para los españoles</h1><p class="lede small">' + esc(d.entradilla || 'Los problemas con más impacto en la vida diaria, con datos y fuentes.') + '</p>';
     html += '<div class="mgrid">' + (d.temas || []).map(function (t) {
       var target = t.enlace === 'deuda' || t.id === 'deuda' ? 'deuda' : 'importa-' + t.id;
       return '<a class="mcard" href="' + partyPath(target) + '" data-nav="' + target + '"><span class="m-t">' + esc(t.titulo) + '</span><b class="m-v">' + esc(t.dato_clave && t.dato_clave.valor) + '</b><span class="m-l">' + esc(t.dato_clave && t.dato_clave.etiqueta) + '</span></a>';
@@ -931,10 +932,18 @@
   function afterRender(rt) {
     if (rt.view === 'deuda') { trap.i = 0; drawTrap(); simulate(); startTicker(); }
     var qp = $('#qParty');
-    if (qp) qp.addEventListener('input', function () {
-      var q = norm(qp.value);
-      $('#partyList').innerHTML = partyLists(D.partidos.filter(function (p) { return !q || norm([p.nombre, p.siglas, p.candidato, p.ambito, (p.circunscripciones || []).join(' ')].join(' ')).indexOf(q) >= 0; }), qp.value);
-    });
+    if (qp) {
+      var runQ = function () {
+        var words = norm(qp.value).trim().split(/\s+/).filter(Boolean);
+        $('#partyList').innerHTML = partyLists(D.partidos.filter(function (p) {
+          if (!words.length) return true;
+          var hay = norm([p.nombre, p.siglas, p.id, p.candidato, p.ambito, (p.circunscripciones || []).join(' '), p.referencia_voto && p.referencia_voto.ambito].join(' '));
+          return words.every(function (w) { return hay.indexOf(w) >= 0; });
+        }), qp.value);
+      };
+      ['input', 'search', 'keyup', 'change'].forEach(function (ev) { qp.addEventListener(ev, runQ); });
+      var lab = qp.closest('form'); if (lab) lab.addEventListener('submit', function (ev) { ev.preventDefault(); runQ(); });
+    }
     var qprop = $('#qProp');
     if (qprop) { qprop.value = partyState.q; qprop.addEventListener('input', function () { partyState.q = qprop.value; var p = P($('#ptab').getAttribute('data-party')); $('#propList').innerHTML = propList(p, partyState.area, partyState.q); }); }
     var co = $('#cmpOut'); if (co && !co._b) { co._b = 1; co.addEventListener('change', function (ev) { var s = ev.target.closest('[data-cmp-idx]'); if (!s) return; cmp.sel[+s.getAttribute('data-cmp-idx')] = s.value; cmpSave(); co.innerHTML = cmpOut(); }); }
@@ -1022,8 +1031,8 @@
     var rt = parse(current);
     if (rt.view === 'partido') { var p = P(rt.id); return 'Todas las propuestas de ' + p.siglas + ' para el 29N, con sus críticas y fuentes:'; }
     if (rt.view === 'tema') return 'Qué propone cada partido sobre ' + areaName(rt.id).toLowerCase() + ' para el 29N:';
-    if (rt.view === 'deuda') return 'La deuda pública, explicada con datos:';
-    if (rt.view === 'importa') return 'Lo que de verdad importa en estas elecciones, con datos:';
+    if (rt.view === 'deuda') return 'La deuda pública, explicada para todos:';
+    if (rt.view === 'importa') return 'Datos clave para los españoles en estas elecciones, con sus fuentes:';
     if (rt.view === 'test') return '¿Con qué partido coincides más? Test con las propuestas reales de cada uno, con fuente:';
     return 'Antes de votar el 29N, lee lo que proponen todos los partidos. Sin interpretar y con fuentes:';
   }
