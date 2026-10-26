@@ -49,7 +49,7 @@ for (const id of [...order, ...extraIds]) {
   parties.push(p);
 }
 const LANZADA = process.env.LANZAMIENTO === '1';
-const VEDA = process.env.FORCE_VEDA === '1' || (Date.now() >= Date.parse('2026-11-24T00:00:00+01:00') && Date.now() < Date.parse('2026-11-29T21:00:00+01:00'));
+const VEDA = process.env.FORCE_VEDA === '1' || meta.forzar_veda === true || (Date.now() >= Date.parse('2026-11-24T00:00:00+01:00') && Date.now() < Date.parse('2026-11-29T21:00:00+01:00'));
 if (VEDA) {
   parties.forEach((p) => { p.encuesta = null; });
   parties.sort((a, b) => (a.tier === 'otros') - (b.tier === 'otros') || (b.escanos_2023 || 0) - (a.escanos_2023 || 0));
