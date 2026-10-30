@@ -29,11 +29,11 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Anunciada",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "Demócrata: nueve coaliciones se inscriben en la JEC para las generales",
-  "url": "https://www.democrata.es/politica/nueve-coaliciones-se-inscriben-en-la-jec-para-las-generales-dos-al-congreso-tres-al-senado-y-cuatro-autonomicas/",
-  "fecha": "2026-10-17"
+  "nombre": "RTVC, candidaturas en Canarias",
+  "url": "https://rtvc.es/publicadas-boe-candidaturas-congreso-senado-28-octubre-2026/",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
   "Las Palmas",
@@ -409,5 +409,6 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "Coalición de NC-BC, Podemos, IU y Movimiento Sumar."
 }

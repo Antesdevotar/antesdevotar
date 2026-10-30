@@ -531,5 +531,18 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "concurre": true,
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "Barcelona",
+  "Girona",
+  "Lleida",
+  "Tarragona"
+ ],
+ "estado_fuente": {
+  "nombre": "3Cat, candidaturas catalanas al 29N",
+  "url": "https://www.3cat.cat/3catinfo/qui-son-els-candidats-catalans-a-les-eleccions-generals-del-29n-consulta-les-llistes-al-congres-i-al-senat/noticia/3436292/",
+  "fecha": "2026-10-28"
+ }
 }

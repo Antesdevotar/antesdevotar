@@ -1,674 +1,684 @@
 {
-  "id": "salf",
-  "nombre": "Se Acabó La Fiesta",
-  "siglas": "SALF",
-  "concurre": true,
-  "candidato": "Luis «Alvise» Pérez (cabeza de lista por Madrid)",
-  "ideologia": "Derecha radical populista, liberal en lo económico",
-  "ambito": "Estatal",
-  "color": "#6B4226",
-  "web": "https://www.seacabolafiesta.com/",
-  "escanos_2023": 0,
-  "resumen": "Partido fundado por Alvise Pérez que obtuvo tres eurodiputados en 2024 y concurre al 29N con él como cabeza de lista por Madrid; no ha publicado programa nacional y sus propuestas proceden de discursos y programas autonómicos de 2026. Prioriza la lucha contra la corrupción, la rebaja de impuestos, la reducción del Estado, la seguridad y deportaciones de inmigrantes irregulares.",
-  "fuentes_programa": [
-    {
-      "titulo": "Alvise anuncia que encabeza la lista de SALF por Madrid (Libertad Digital)",
-      "url": "https://www.libertaddigital.com/espana/2026-10-05/alvise-se-presenta-a-las-elecciones-como-cabeza-de-lista-de-salf-por-madrid-7470744/",
-      "fecha": "2026-10-05"
-    },
-    {
-      "titulo": "Programa SALF andaluzas 17M 2026 (resumen de The Objective)",
-      "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-      "fecha": "2026-05"
-    },
-    {
-      "titulo": "Recopilación de posiciones de SALF para el 29N (politicaelectoral.com)",
-      "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-      "fecha": "2026-10"
-    },
-    {
-      "titulo": "Propuestas de campaña europeas 2024 (Artículo14)",
-      "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-      "fecha": "2024-06"
-    }
-  ],
-  "programa_2026_publicado": false,
-  "propuestas": [
-    {
-      "id": "salf-eco-01",
-      "area": "economia",
-      "texto": "IRPF del 0 % para quienes ingresen menos de 35.000 euros al año.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-eco-02",
-      "area": "economia",
-      "texto": "Rebajar cinco puntos el IRPF por cada hijo a cargo.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-eco-03",
-      "area": "economia",
-      "texto": "Suprimir el impuesto de sucesiones y donaciones y el impuesto de patrimonio.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-eco-04",
-      "area": "economia",
-      "texto": "Cuota cero a la Seguridad Social para nuevos autónomos durante tres años, financiada por la Administración.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-eco-05",
-      "area": "economia",
-      "texto": "Pago de la Administración a sus proveedores en menos de 30 días.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-eco-06",
-      "area": "economia",
-      "texto": "Proteger el dinero en efectivo a nivel constitucional y oponerse al euro digital.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      }
-    },
-    {
-      "id": "salf-deu-01",
-      "area": "deuda",
-      "texto": "Reducir al menos un 70 % los altos cargos y asesores y fusionar departamentos considerados redundantes.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-deu-02",
-      "area": "deuda",
-      "texto": "Eliminar las subvenciones públicas a partidos políticos, sindicatos y patronales.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-deu-03",
-      "area": "deuda",
-      "texto": "Suprimir la publicidad institucional salvo campañas imprescindibles.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-deu-04",
-      "area": "deuda",
-      "texto": "Vincular parte del sueldo de los gobernantes a no aumentar el déficit ni la deuda, y congelar los emolumentos de los cargos políticos.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-deu-05",
-      "area": "deuda",
-      "texto": "Fijar límites a la presión fiscal y al endeudamiento autonómicos y no condonar deuda autonómica salvo catástrofe.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-deu-06",
-      "area": "deuda",
-      "texto": "Reducir de forma significativa el tamaño del Estado y la burocracia.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      }
-    },
-    {
-      "id": "salf-san-01",
-      "area": "sanidad",
-      "texto": "Plazo máximo de 30 días para consulta de especialista y 90 para cirugía programada, con conciertos con clínicas privadas sin coste para el paciente.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-san-02",
-      "area": "sanidad",
-      "texto": "Crear una central única de compras sanitarias y una historia clínica electrónica única.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-san-03",
-      "area": "sanidad",
-      "texto": "Reservar la atención sanitaria no urgente a españoles y residentes legales y facturar la de no asegurados a sus países de origen.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-san-04",
-      "area": "sanidad",
-      "texto": "Retirar las operaciones de cambio de sexo de la cartera pública y reforzar la prevención del suicidio y las autolesiones.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-edu-01",
-      "area": "educacion",
-      "texto": "Currículo escolar único para toda España.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-edu-02",
-      "area": "educacion",
-      "texto": "Reválidas al final de Primaria y Secundaria, PIN parental y ley de autoridad del docente.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-edu-03",
-      "area": "educacion",
-      "texto": "Ampliar los conciertos educativos, incluidos los centros de educación diferenciada.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-edu-04",
-      "area": "educacion",
-      "texto": "Gratuidad de la educación de 0 a 3 años y más FP dual y educación especial.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-viv-01",
-      "area": "vivienda",
-      "texto": "Declarar edificable todo el suelo salvo que existan razones objetivas en contra.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-viv-02",
-      "area": "vivienda",
-      "texto": "Cero impuestos en la compra de la primera vivienda y licencias rápidas.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-viv-03",
-      "area": "vivienda",
-      "texto": "Ley «antiokupación» con desalojo policial en 24 horas y deducción en el IRPF para los propietarios afectados.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-viv-04",
-      "area": "vivienda",
-      "texto": "Registro público de ocupantes ilegales y exclusión de los «okupas» de las ayudas sociales.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-viv-05",
-      "area": "vivienda",
-      "texto": "Rechazo a los topes de precio del alquiler.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-inm-01",
-      "area": "inmigracion",
-      "texto": "Plan de deportación masiva de inmigrantes irregulares financiado con fondos de cooperación internacional, empezando por Marruecos.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-inm-02",
-      "area": "inmigracion",
-      "texto": "Prioridad para españoles y residentes legales en ayudas, vivienda protegida y plazas de guardería.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-seg-01",
-      "area": "seguridad",
-      "texto": "Macrocárcel de máxima seguridad para multirreincidentes inspirada en El Salvador, con trabajo obligatorio y sin permisos penitenciarios.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-seg-02",
-      "area": "seguridad",
-      "texto": "Más agentes y medios, 10.000 chalecos antibala y anticorte y subida de dietas para Policía Nacional y Guardia Civil.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-seg-03",
-      "area": "seguridad",
-      "texto": "Endurecer las penas por delitos de pederastia.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      }
-    },
-    {
-      "id": "salf-ins-01",
-      "area": "instituciones",
-      "texto": "Hacer imprescriptibles los delitos de corrupción.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-ins-02",
-      "area": "instituciones",
-      "texto": "Negar el tercer grado al condenado por corrupción que no devuelva lo robado y castigar también a quien se beneficie del dinero ilícito.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-ins-03",
-      "area": "instituciones",
-      "texto": "Premio del 10 % de lo recuperado, libre de impuestos, para quien denuncie corrupción y aporte pruebas.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-ins-04",
-      "area": "instituciones",
-      "texto": "Limitar a ocho años la permanencia en cargos públicos.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-ins-05",
-      "area": "instituciones",
-      "texto": "Reforma electoral para que el voto valga lo mismo en todas las provincias.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-ins-06",
-      "area": "instituciones",
-      "texto": "Auditar el patrimonio de los altos cargos y establecer control horario público de su actividad.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-ext-01",
-      "area": "exterior",
-      "texto": "Renegociar la relación de España con la UE y, si no hay mejoras, convocar un referéndum sobre la permanencia.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      },
-      "destacada": true
-    },
-    {
-      "id": "salf-ext-02",
-      "area": "exterior",
-      "texto": "Oponerse a la Agenda 2030 y a los Objetivos de Desarrollo Sostenible.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      }
-    },
-    {
-      "id": "salf-ene-01",
-      "area": "energia",
-      "texto": "Paralizar el cierre de las centrales nucleares y apostar por los reactores modulares pequeños (SMR).",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-ene-02",
-      "area": "energia",
-      "texto": "Limitar las nuevas renovables a zonas degradadas, polígonos y cubiertas industriales.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-rur-01",
-      "area": "rural",
-      "texto": "Oposición al acuerdo UE-Mercosur y exigencia de cláusulas espejo.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-rur-02",
-      "area": "rural",
-      "texto": "Eliminar el cuaderno digital de explotación agraria y bonificar el gasóleo agrícola.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-dem-01",
-      "area": "demografia",
-      "texto": "Recuperar el cheque bebé: 2.500 euros por hijo y 3.500 desde el tercero.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-igu-01",
-      "area": "igualdad",
-      "texto": "Sustituir las políticas de género por políticas de natalidad y familia, con custodia compartida preferente.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-igu-02",
-      "area": "igualdad",
-      "texto": "Ayudas a madres jóvenes para evitar abortos por motivos económicos.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-pen-01",
-      "area": "pensiones",
-      "texto": "Reformar el sistema de pensiones, al que califica de «estafa piramidal».",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
-        "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
-        "fecha": "2026-10"
-      }
-    },
-    {
-      "id": "salf-cul-01",
-      "area": "cultura",
-      "texto": "Privatizar los medios públicos autonómicos, como Canal Sur, priorizando a compradores que mantengan la plantilla.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
-        "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
-        "fecha": "2026-05-01"
-      }
-    },
-    {
-      "id": "salf-cul-02",
-      "area": "cultura",
-      "texto": "Limitar el poder de los medios de comunicación, a los que acusa de manipulación, y reforzar la libertad de expresión.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
-        "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
-        "fecha": "2024-06-10"
-      }
-    }
-  ],
-  "criticas": {
-    "economica": [
-      {
-        "titulo": "Coste recaudatorio del IRPF cero hasta 35.000 euros",
-        "texto": "La mayor parte de los declarantes del IRPF tiene bases inferiores a 35.000 euros, por lo que la exención eliminaría una parte muy relevante de la recaudación del principal impuesto del Estado. SALF no ha presentado una estimación de coste ni de cómo se compensaría, y lo combina con la supresión de sucesiones y patrimonio.",
-        "sobre": [
-          "salf-eco-01",
-          "salf-eco-02",
-          "salf-eco-03"
-        ],
-        "fuente": {
-          "nombre": "Argumento de economía pública; ausencia de memoria económica en las propuestas de SALF"
-        }
-      },
-      {
-        "titulo": "Coste económico de una salida de la UE",
-        "texto": "La experiencia británica sugiere costes elevados: la Oficina de Responsabilidad Presupuestaria del Reino Unido estima que el acuerdo comercial post-Brexit reduce a largo plazo la productividad un 4 % y el comercio en torno a un 15 % respecto a la permanencia.",
-        "sobre": [
-          "salf-ext-01"
-        ],
-        "fuente": {
-          "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
-          "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
-        }
-      },
-      {
-        "titulo": "Deportaciones masivas y envejecimiento",
-        "texto": "Fedea estima que la inmigración mitigó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019 y que seguirá sosteniendo el crecimiento. Reducir drásticamente la población extranjera restaría mano de obra en un contexto de envejecimiento.",
-        "sobre": [
-          "salf-inm-01"
-        ],
-        "fuente": {
-          "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026)",
-          "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
-        }
-      }
-    ],
-    "social": [
-      {
-        "titulo": "El modelo penitenciario de El Salvador",
-        "texto": "El sistema que SALF toma como referencia se apoya en un régimen de excepción con más de 81.000 detenidos, al que Human Rights Watch y la CIDH atribuyen detenciones arbitrarias masivas, tortura y muertes bajo custodia. Su encaje con las garantías procesales españolas y europeas es dudoso.",
-        "sobre": [
-          "salf-seg-01"
-        ],
-        "fuente": {
-          "nombre": "Human Rights Watch, Informe Mundial 2025: El Salvador",
-          "url": "https://www.hrw.org/world-report/2025/country-chapters/el-salvador"
-        }
-      },
-      {
-        "titulo": "Desalojos en 24 horas e inviolabilidad del domicilio",
-        "texto": "La Constitución solo permite entrar en un domicilio con consentimiento, resolución judicial o en flagrante delito. Un desalojo policial automático en 24 horas sin intervención judicial chocaría con esta garantía y podría afectar también a inquilinos en conflicto contractual.",
-        "sobre": [
-          "salf-viv-03"
-        ],
-        "fuente": {
-          "nombre": "Constitución Española, art. 18.2",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-        }
-      },
-      {
-        "titulo": "Prioridad nacional y residentes legales",
-        "texto": "La normativa europea obliga a tratar a los residentes de larga duración en igualdad con los nacionales en prestaciones sociales y vivienda. Dar prioridad por nacionalidad en ayudas y sanidad no urgente podría vulnerar esa igualdad y dejar sin atención a personas en situación administrativa irregular.",
-        "sobre": [
-          "salf-inm-02",
-          "salf-san-03"
-        ],
-        "fuente": {
-          "nombre": "Directiva 2003/109/CE, art. 11",
-          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0109"
-        }
-      }
-    ],
-    "cultural": [
-      {
-        "titulo": "Recentralización educativa",
-        "texto": "Un currículo único para toda España exigiría vaciar competencias que los Estatutos atribuyen a las comunidades, incluidas las enseñanzas en lenguas cooficiales, lo que previsiblemente requeriría reformas estatutarias o constitucionales y generaría conflicto territorial.",
-        "sobre": [
-          "salf-edu-01"
-        ],
-        "fuente": {
-          "nombre": "Argumento de derecho constitucional (art. 148-149 CE y Estatutos de Autonomía)"
-        }
-      },
-      {
-        "titulo": "Límites a los medios y pluralismo",
-        "texto": "Limitar el poder de los medios y privatizar las radiotelevisiones autonómicas, sin precisar con qué criterios, plantea dudas sobre el pluralismo informativo y la libertad de información protegidas por la Constitución.",
-        "sobre": [
-          "salf-cul-01",
-          "salf-cul-02"
-        ],
-        "fuente": {
-          "nombre": "Constitución Española, art. 20",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-        }
-      }
-    ]
+ "id": "salf",
+ "nombre": "Se Acabó La Fiesta",
+ "siglas": "SALF",
+ "concurre": true,
+ "candidato": "Luis «Alvise» Pérez (cabeza de lista por Madrid)",
+ "ideologia": "Derecha radical populista, liberal en lo económico",
+ "ambito": "Estatal",
+ "color": "#6B4226",
+ "web": "https://www.seacabolafiesta.com/",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado por Alvise Pérez que obtuvo tres eurodiputados en 2024 y concurre al 29N con él como cabeza de lista por Madrid; no ha publicado programa nacional y sus propuestas proceden de discursos y programas autonómicos de 2026. Prioriza la lucha contra la corrupción, la rebaja de impuestos, la reducción del Estado, la seguridad y deportaciones de inmigrantes irregulares.",
+ "fuentes_programa": [
+  {
+   "titulo": "Alvise anuncia que encabeza la lista de SALF por Madrid (Libertad Digital)",
+   "url": "https://www.libertaddigital.com/espana/2026-10-05/alvise-se-presenta-a-las-elecciones-como-cabeza-de-lista-de-salf-por-madrid-7470744/",
+   "fecha": "2026-10-05"
   },
-  "mentiras": [],
-  "actualizado": "2026-10-21"
+  {
+   "titulo": "Programa SALF andaluzas 17M 2026 (resumen de The Objective)",
+   "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+   "fecha": "2026-05"
+  },
+  {
+   "titulo": "Recopilación de posiciones de SALF para el 29N (politicaelectoral.com)",
+   "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Propuestas de campaña europeas 2024 (Artículo14)",
+   "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+   "fecha": "2024-06"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "salf-eco-01",
+   "area": "economia",
+   "texto": "IRPF del 0 % para quienes ingresen menos de 35.000 euros al año.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-eco-02",
+   "area": "economia",
+   "texto": "Rebajar cinco puntos el IRPF por cada hijo a cargo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-eco-03",
+   "area": "economia",
+   "texto": "Suprimir el impuesto de sucesiones y donaciones y el impuesto de patrimonio.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-eco-04",
+   "area": "economia",
+   "texto": "Cuota cero a la Seguridad Social para nuevos autónomos durante tres años, financiada por la Administración.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-eco-05",
+   "area": "economia",
+   "texto": "Pago de la Administración a sus proveedores en menos de 30 días.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-eco-06",
+   "area": "economia",
+   "texto": "Proteger el dinero en efectivo a nivel constitucional y oponerse al euro digital.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   }
+  },
+  {
+   "id": "salf-deu-01",
+   "area": "deuda",
+   "texto": "Reducir al menos un 70 % los altos cargos y asesores y fusionar departamentos considerados redundantes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-deu-02",
+   "area": "deuda",
+   "texto": "Eliminar las subvenciones públicas a partidos políticos, sindicatos y patronales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-deu-03",
+   "area": "deuda",
+   "texto": "Suprimir la publicidad institucional salvo campañas imprescindibles.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-deu-04",
+   "area": "deuda",
+   "texto": "Vincular parte del sueldo de los gobernantes a no aumentar el déficit ni la deuda, y congelar los emolumentos de los cargos políticos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-deu-05",
+   "area": "deuda",
+   "texto": "Fijar límites a la presión fiscal y al endeudamiento autonómicos y no condonar deuda autonómica salvo catástrofe.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-deu-06",
+   "area": "deuda",
+   "texto": "Reducir de forma significativa el tamaño del Estado y la burocracia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   }
+  },
+  {
+   "id": "salf-san-01",
+   "area": "sanidad",
+   "texto": "Plazo máximo de 30 días para consulta de especialista y 90 para cirugía programada, con conciertos con clínicas privadas sin coste para el paciente.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-san-02",
+   "area": "sanidad",
+   "texto": "Crear una central única de compras sanitarias y una historia clínica electrónica única.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-san-03",
+   "area": "sanidad",
+   "texto": "Reservar la atención sanitaria no urgente a españoles y residentes legales y facturar la de no asegurados a sus países de origen.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-san-04",
+   "area": "sanidad",
+   "texto": "Retirar las operaciones de cambio de sexo de la cartera pública y reforzar la prevención del suicidio y las autolesiones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-edu-01",
+   "area": "educacion",
+   "texto": "Currículo escolar único para toda España.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-edu-02",
+   "area": "educacion",
+   "texto": "Reválidas al final de Primaria y Secundaria, PIN parental y ley de autoridad del docente.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-edu-03",
+   "area": "educacion",
+   "texto": "Ampliar los conciertos educativos, incluidos los centros de educación diferenciada.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-edu-04",
+   "area": "educacion",
+   "texto": "Gratuidad de la educación de 0 a 3 años y más FP dual y educación especial.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-viv-01",
+   "area": "vivienda",
+   "texto": "Declarar edificable todo el suelo salvo que existan razones objetivas en contra.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-viv-02",
+   "area": "vivienda",
+   "texto": "Cero impuestos en la compra de la primera vivienda y licencias rápidas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-viv-03",
+   "area": "vivienda",
+   "texto": "Ley «antiokupación» con desalojo policial en 24 horas y deducción en el IRPF para los propietarios afectados.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-viv-04",
+   "area": "vivienda",
+   "texto": "Registro público de ocupantes ilegales y exclusión de los «okupas» de las ayudas sociales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-viv-05",
+   "area": "vivienda",
+   "texto": "Rechazo a los topes de precio del alquiler.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-inm-01",
+   "area": "inmigracion",
+   "texto": "Plan de deportación masiva de inmigrantes irregulares financiado con fondos de cooperación internacional, empezando por Marruecos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-inm-02",
+   "area": "inmigracion",
+   "texto": "Prioridad para españoles y residentes legales en ayudas, vivienda protegida y plazas de guardería.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-seg-01",
+   "area": "seguridad",
+   "texto": "Macrocárcel de máxima seguridad para multirreincidentes inspirada en El Salvador, con trabajo obligatorio y sin permisos penitenciarios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-seg-02",
+   "area": "seguridad",
+   "texto": "Más agentes y medios, 10.000 chalecos antibala y anticorte y subida de dietas para Policía Nacional y Guardia Civil.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-seg-03",
+   "area": "seguridad",
+   "texto": "Endurecer las penas por delitos de pederastia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   }
+  },
+  {
+   "id": "salf-ins-01",
+   "area": "instituciones",
+   "texto": "Hacer imprescriptibles los delitos de corrupción.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-ins-02",
+   "area": "instituciones",
+   "texto": "Negar el tercer grado al condenado por corrupción que no devuelva lo robado y castigar también a quien se beneficie del dinero ilícito.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-ins-03",
+   "area": "instituciones",
+   "texto": "Premio del 10 % de lo recuperado, libre de impuestos, para quien denuncie corrupción y aporte pruebas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-ins-04",
+   "area": "instituciones",
+   "texto": "Limitar a ocho años la permanencia en cargos públicos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-ins-05",
+   "area": "instituciones",
+   "texto": "Reforma electoral para que el voto valga lo mismo en todas las provincias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-ins-06",
+   "area": "instituciones",
+   "texto": "Auditar el patrimonio de los altos cargos y establecer control horario público de su actividad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-ext-01",
+   "area": "exterior",
+   "texto": "Renegociar la relación de España con la UE y, si no hay mejoras, convocar un referéndum sobre la permanencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "salf-ext-02",
+   "area": "exterior",
+   "texto": "Oponerse a la Agenda 2030 y a los Objetivos de Desarrollo Sostenible.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   }
+  },
+  {
+   "id": "salf-ene-01",
+   "area": "energia",
+   "texto": "Paralizar el cierre de las centrales nucleares y apostar por los reactores modulares pequeños (SMR).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-ene-02",
+   "area": "energia",
+   "texto": "Limitar las nuevas renovables a zonas degradadas, polígonos y cubiertas industriales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-rur-01",
+   "area": "rural",
+   "texto": "Oposición al acuerdo UE-Mercosur y exigencia de cláusulas espejo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-rur-02",
+   "area": "rural",
+   "texto": "Eliminar el cuaderno digital de explotación agraria y bonificar el gasóleo agrícola.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-dem-01",
+   "area": "demografia",
+   "texto": "Recuperar el cheque bebé: 2.500 euros por hijo y 3.500 desde el tercero.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-igu-01",
+   "area": "igualdad",
+   "texto": "Sustituir las políticas de género por políticas de natalidad y familia, con custodia compartida preferente.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-igu-02",
+   "area": "igualdad",
+   "texto": "Ayudas a madres jóvenes para evitar abortos por motivos económicos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-pen-01",
+   "area": "pensiones",
+   "texto": "Reformar el sistema de pensiones, al que califica de «estafa piramidal».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Recopilación de posiciones públicas de SALF para el 29N (politicaelectoral.com, a 18-10-2026)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "salf-cul-01",
+   "area": "cultura",
+   "texto": "Privatizar los medios públicos autonómicos, como Canal Sur, priorizando a compradores que mantengan la plantilla.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa SALF elecciones andaluzas 17M 2026 (según The Objective)",
+    "url": "https://theobjective.com/espana/politica/2026-05-01/alvise-canal-sur-juanma-moreno/",
+    "fecha": "2026-05-01"
+   }
+  },
+  {
+   "id": "salf-cul-02",
+   "area": "cultura",
+   "texto": "Limitar el poder de los medios de comunicación, a los que acusa de manipulación, y reforzar la libertad de expresión.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Propuestas de campaña europeas 2024 (Artículo14)",
+    "url": "https://www.articulo14.es/politica/las-propuestas-de-alvise-mas-locas-del-dinero-en-metalico-al-referendum-en-espana-20240610.html",
+    "fecha": "2024-06-10"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste recaudatorio del IRPF cero hasta 35.000 euros",
+    "texto": "La mayor parte de los declarantes del IRPF tiene bases inferiores a 35.000 euros, por lo que la exención eliminaría una parte muy relevante de la recaudación del principal impuesto del Estado. SALF no ha presentado una estimación de coste ni de cómo se compensaría, y lo combina con la supresión de sucesiones y patrimonio.",
+    "sobre": [
+     "salf-eco-01",
+     "salf-eco-02",
+     "salf-eco-03"
+    ],
+    "fuente": {
+     "nombre": "Argumento de economía pública; ausencia de memoria económica en las propuestas de SALF"
+    }
+   },
+   {
+    "titulo": "Coste económico de una salida de la UE",
+    "texto": "La experiencia británica sugiere costes elevados: la Oficina de Responsabilidad Presupuestaria del Reino Unido estima que el acuerdo comercial post-Brexit reduce a largo plazo la productividad un 4 % y el comercio en torno a un 15 % respecto a la permanencia.",
+    "sobre": [
+     "salf-ext-01"
+    ],
+    "fuente": {
+     "nombre": "Office for Budget Responsibility (Reino Unido), análisis Brexit",
+     "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/"
+    }
+   },
+   {
+    "titulo": "Deportaciones masivas y envejecimiento",
+    "texto": "Fedea estima que la inmigración mitigó cerca del 60 % del deterioro del dividendo demográfico entre 2000 y 2019 y que seguirá sosteniendo el crecimiento. Reducir drásticamente la población extranjera restaría mano de obra en un contexto de envejecimiento.",
+    "sobre": [
+     "salf-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea, Inmigración, envejecimiento y dividendo demográfico (2026)",
+     "url": "https://fedea.net/inmigracion-envejecimiento-y-dividendo-demografico-el-caso-de-espana/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "El modelo penitenciario de El Salvador",
+    "texto": "El sistema que SALF toma como referencia se apoya en un régimen de excepción con más de 81.000 detenidos, al que Human Rights Watch y la CIDH atribuyen detenciones arbitrarias masivas, tortura y muertes bajo custodia. Su encaje con las garantías procesales españolas y europeas es dudoso.",
+    "sobre": [
+     "salf-seg-01"
+    ],
+    "fuente": {
+     "nombre": "Human Rights Watch, Informe Mundial 2025: El Salvador",
+     "url": "https://www.hrw.org/world-report/2025/country-chapters/el-salvador"
+    }
+   },
+   {
+    "titulo": "Desalojos en 24 horas e inviolabilidad del domicilio",
+    "texto": "La Constitución solo permite entrar en un domicilio con consentimiento, resolución judicial o en flagrante delito. Un desalojo policial automático en 24 horas sin intervención judicial chocaría con esta garantía y podría afectar también a inquilinos en conflicto contractual.",
+    "sobre": [
+     "salf-viv-03"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 18.2",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Prioridad nacional y residentes legales",
+    "texto": "La normativa europea obliga a tratar a los residentes de larga duración en igualdad con los nacionales en prestaciones sociales y vivienda. Dar prioridad por nacionalidad en ayudas y sanidad no urgente podría vulnerar esa igualdad y dejar sin atención a personas en situación administrativa irregular.",
+    "sobre": [
+     "salf-inm-02",
+     "salf-san-03"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2003/109/CE, art. 11",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0109"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Recentralización educativa",
+    "texto": "Un currículo único para toda España exigiría vaciar competencias que los Estatutos atribuyen a las comunidades, incluidas las enseñanzas en lenguas cooficiales, lo que previsiblemente requeriría reformas estatutarias o constitucionales y generaría conflicto territorial.",
+    "sobre": [
+     "salf-edu-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de derecho constitucional (art. 148-149 CE y Estatutos de Autonomía)"
+    }
+   },
+   {
+    "titulo": "Límites a los medios y pluralismo",
+    "texto": "Limitar el poder de los medios y privatizar las radiotelevisiones autonómicas, sin precisar con qué criterios, plantea dudas sobre el pluralismo informativo y la libertad de información protegidas por la Constitución.",
+    "sobre": [
+     "salf-cul-01",
+     "salf-cul-02"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 20",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21",
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "46 circunscripciones"
+ ],
+ "estado_fuente": {
+  "nombre": "Civio, candidaturas presentadas al 29N (BOE 28/10/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/28/candidaturas-presentadas-29n/",
+  "fecha": "2026-10-28"
+ },
+ "candidatura_nota": "No se presenta en Cataluña, Ciudad Real ni Cantabria."
 }

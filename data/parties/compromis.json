@@ -43,16 +43,16 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Anunciada",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "Demócrata: nueve coaliciones se inscriben en la JEC para las generales",
-  "url": "https://www.democrata.es/politica/nueve-coaliciones-se-inscriben-en-la-jec-para-las-generales-dos-al-congreso-tres-al-senado-y-cuatro-autonomicas/",
-  "fecha": "2026-10-17"
+  "nombre": "Valencia Plaza, candidaturas en la Comunitat Valenciana",
+  "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/valencia-elegira-entre-14-candidaturas-al-congreso-el-29-n-cuatro-mas-que-alicante-y-castellon",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
+  "Valencia",
   "Alicante",
-  "Castellón",
-  "Valencia"
+  "Castellón"
  ],
  "referencia_voto": {
   "eleccion": "Autonómicas Comunitat Valenciana 2023",
@@ -483,5 +483,6 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "No va con lista propia: se presenta en la coalición Compromís-Front Valencià (Compromís, Podemos, EUPV y ERPV), integrada en el Frente Amplio."
 }

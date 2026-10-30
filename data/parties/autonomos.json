@@ -1,0 +1,399 @@
+{
+ "id": "autonomos",
+ "nombre": "Partido Autónomos",
+ "siglas": "PA",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar. Juan Antonio Aroca preside el partido; en julio de 2025 anunció a Roberto Pradas como su candidato al Congreso por Valencia. No se han localizado los cabezas de lista publicados para el 29N.",
+ "ambito": "Estatal",
+ "color": "#9E9E9E",
+ "color_aproximado": true,
+ "web": "https://www.partidoautonomos.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado en 2020, en plena pandemia, a partir de un grupo de Facebook de trabajadores autónomos; se define como ni de izquierdas ni de derechas y no ha obtenido nunca escaño en el Congreso. Prioriza los derechos sociales y la fiscalidad de autónomos y pymes, menos burocracia y una Administración «despolitizada» y eficiente.",
+ "fuentes_programa": [
+  {
+   "titulo": "Decálogo de propuestas (web oficial)",
+   "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+   "fecha": "2023-07"
+  },
+  {
+   "titulo": "Nuestro compromiso con los autónomos y la reforma fiscal urgente (web oficial)",
+   "url": "https://www.partidoautonomos.es/nuestro-compromiso-con-los-autonomos-y-la-reforma-fiscal-urgente/",
+   "fecha": "2025-07-23"
+  },
+  {
+   "titulo": "Comunicado oficial de apoyo a las movilizaciones de autónomos (web oficial)",
+   "url": "https://www.partidoautonomos.es/comunicado-oficial-apoyo-a-las-movilizaciones-y-defensa-de-una-representacion-real-para-los-autonomos/",
+   "fecha": "2025-10-24"
+  },
+  {
+   "titulo": "Bienvenido a nuestra web (web oficial)",
+   "url": "https://www.partidoautonomos.es/bienvenido-a-nuestra-web/",
+   "fecha": "2026"
+  },
+  {
+   "titulo": "Roberto Pradas, nuestro candidato por Valencia al Congreso (web oficial)",
+   "url": "https://www.partidoautonomos.es/roberto-pradas-nuestro-candidato-por-valencia-al-congreso/",
+   "fecha": "2025-07-28"
+  },
+  {
+   "titulo": "Comité Ejecutivo Central (web oficial)",
+   "url": "https://www.partidoautonomos.es/comite-ejecutivo-central/",
+   "fecha": "2026-02"
+  },
+  {
+   "titulo": "Wikipedia, «Partido Autónomos»",
+   "url": "https://es.wikipedia.org/wiki/Partido_Aut%C3%B3nomos",
+   "fecha": "2026"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Presentada",
+ "estado_fuente": {
+  "nombre": "Candidaturas al Congreso publicadas en el BOE del 28-10-2026: Valencia Plaza (Valencia, Alicante y Castellón) y RTVC (Santa Cruz de Tenerife)",
+  "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/valencia-elegira-entre-14-candidaturas-al-congreso-el-29-n-cuatro-mas-que-alicante-y-castellon",
+  "fecha": "2026-10-28"
+ },
+ "estado_fuentes_adicionales": [
+  {
+   "nombre": "RTVC, candidaturas publicadas en el BOE (Santa Cruz de Tenerife)",
+   "url": "https://rtvc.es/publicadas-boe-candidaturas-congreso-senado-28-octubre-2026/",
+   "fecha": "2026-10-28"
+  }
+ ],
+ "circunscripciones": [
+  "Valencia",
+  "Alicante",
+  "Castellón",
+  "Santa Cruz de Tenerife"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.15,
+  "ambito": "Alicante",
+  "fuente": {
+   "nombre": "Última Hora, escrutinio del Congreso 23J en la provincia de Alicante",
+   "url": "https://www.ultimahora.es/elecciones/23j/congreso/alicante-alacant.html"
+  },
+  "nota": "1.428 votos; fue la única circunscripción en la que se presentó. Antes concurrió a las autonómicas de Madrid 2021 (1.417 votos) y Andalucía 2022 (2.180 votos) y obtuvo un concejal en Castell-Platja d'Aro en 2023 (Wikipedia)."
+ },
+ "propuestas": [
+  {
+   "id": "autonomos-emp-01",
+   "area": "empleo",
+   "texto": "Dar a los autónomos la misma protección que a los asalariados en bajas médicas, desempleo y jubilación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-emp-02",
+   "area": "empleo",
+   "texto": "Que un autónomo cuyos ingresos no lleguen al salario mínimo interprofesional no tenga que pagar cuota.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, comunicado oficial de apoyo a las movilizaciones de autónomos (web oficial)",
+    "url": "https://www.partidoautonomos.es/comunicado-oficial-apoyo-a-las-movilizaciones-y-defensa-de-una-representacion-real-para-los-autonomos/",
+    "fecha": "2025-10-24"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-eco-01",
+   "area": "economia",
+   "texto": "Hacer una reforma fiscal «justa y proporcional», con cuotas ajustadas a los ingresos reales de cada autónomo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Nuestro compromiso con los autónomos y la reforma fiscal urgente» (web oficial)",
+    "url": "https://www.partidoautonomos.es/nuestro-compromiso-con-los-autonomos-y-la-reforma-fiscal-urgente/",
+    "fecha": "2025-07-23"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-eco-02",
+   "area": "economia",
+   "texto": "Revisar los límites a los gastos deducibles de los autónomos, que el partido considera excesivos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-eco-03",
+   "area": "economia",
+   "texto": "Que la Ley de Segunda Oportunidad permita perdonar también las deudas con Hacienda y la Seguridad Social.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-eco-04",
+   "area": "economia",
+   "texto": "Que baste una declaración jurada para iniciar una actividad empresarial o profesional, con revisión posterior por la Administración.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-eco-05",
+   "area": "economia",
+   "texto": "Reducir la carga administrativa que soportan los autónomos en su trabajo diario.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Nuestro compromiso con los autónomos y la reforma fiscal urgente» (web oficial)",
+    "url": "https://www.partidoautonomos.es/nuestro-compromiso-con-los-autonomos-y-la-reforma-fiscal-urgente/",
+    "fecha": "2025-07-23"
+   }
+  },
+  {
+   "id": "autonomos-eco-06",
+   "area": "economia",
+   "texto": "Que la Administración facilite al máximo la puesta en marcha de negocios a quienes se autoemplean.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-eco-07",
+   "area": "economia",
+   "texto": "Impulsar la iniciativa privada en lo mercantil, la cultura, el deporte y la solidaridad, con protagonismo de la sociedad y no de las instituciones.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-eco-08",
+   "area": "economia",
+   "texto": "Apoyar al pequeño comercio local y reducir trabas burocráticas (propuesta de su candidatura en Castellón).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Cinco autónomos de Castellón dan el salto a la política» (web oficial, a partir de El Periódico Mediterráneo)",
+    "url": "https://www.partidoautonomos.es/autonomos-castellon-politica-pequeno-comercio/",
+    "fecha": "2026-06-11"
+   }
+  },
+  {
+   "id": "autonomos-edu-01",
+   "area": "educacion",
+   "texto": "Acceso gratuito de los autónomos a la formación bonificada, en las mismas condiciones que los empleados.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-edu-02",
+   "area": "educacion",
+   "texto": "Que la educación ponga en valor la figura del empresario, el autónomo y el emprendedor.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-ins-01",
+   "area": "instituciones",
+   "texto": "Despolitizar la Administración y las entidades públicas, que deberían estar gestionadas por profesionales sin influencias ideológicas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-ins-02",
+   "area": "instituciones",
+   "texto": "Evaluar el desempeño de los empleados públicos para sancionar la ineficiencia y premiar la excelencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-ins-03",
+   "area": "instituciones",
+   "texto": "Preservar la independencia del Poder Judicial y dotar a la Justicia de medios para que sea más ágil y eficaz.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "autonomos-ins-04",
+   "area": "instituciones",
+   "texto": "No pedir ni recibir subvenciones: el partido dice financiarse solo con las cuotas de sus afiliados.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Bienvenido a nuestra web» (web oficial)",
+    "url": "https://www.partidoautonomos.es/bienvenido-a-nuestra-web/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "autonomos-ins-05",
+   "area": "instituciones",
+   "texto": "Hacer política sin profesionalizarse: sus miembros dicen no querer vivir de la política.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Bienvenido a nuestra web» (web oficial)",
+    "url": "https://www.partidoautonomos.es/bienvenido-a-nuestra-web/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "autonomos-deu-01",
+   "area": "deuda",
+   "texto": "Gestionar el dinero público con eficiencia, eliminar el gasto superfluo y priorizar las inversiones de mayor valor socioeconómico.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+    "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "autonomos-deu-02",
+   "area": "deuda",
+   "texto": "Destinar los impuestos prioritariamente a sanidad, educación, investigación, infraestructuras, seguridad y asuntos sociales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «Bienvenido a nuestra web» (web oficial)",
+    "url": "https://www.partidoautonomos.es/bienvenido-a-nuestra-web/",
+    "fecha": "2026"
+   }
+  },
+  {
+   "id": "autonomos-emp-03",
+   "area": "empleo",
+   "texto": "Declarar el 3 de octubre «Día Nacional del Autónomo», para lo que impulsó una recogida de firmas.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Partido Autónomos, «3 de octubre, Día Nacional del Autónomo» (web oficial)",
+    "url": "https://www.partidoautonomos.es/3-de-octubre-dia-nacional-del-autonomo/",
+    "fecha": "2023-02"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Quitar la cuota a la vez que se amplía la protección",
+    "texto": "Desde 2023 los autónomos cotizan según sus rendimientos reales, y el tramo más bajo (hasta 670 € netos al mes) paga unos 200 € al mes en 2026. Eximir de cuota a quien no llegue al SMI reduciría los ingresos de un sistema contributivo justo cuando el partido pide igualar bajas, paro y jubilación con los asalariados, y no dice cuánto costaría ni cómo se financiaría.",
+    "sobre": [
+     "autonomos-emp-02",
+     "autonomos-emp-01",
+     "autonomos-eco-01"
+    ],
+    "fuente": {
+     "nombre": "MutuaFácil, guía de cotización de autónomos por ingresos reales en 2026 (RDL 13/2022)",
+     "url": "https://mutuafacil.es/guias-y-recursos/cotizacion-autonomos-ingresos-reales/"
+    }
+   },
+   {
+    "titulo": "La segunda oportunidad ya perdona parte de la deuda pública",
+    "texto": "El decálogo afirma que no se perdonan las deudas con Hacienda o la Seguridad Social, pero desde la reforma concursal de 2022 la ley permite exonerar hasta 10.000 € por acreedor público, y sentencias del Tribunal Supremo de 2026 han extendido ese límite a cualquier administración. La propuesta no precisa hasta dónde iría más allá ni qué coste asumiría el erario.",
+    "sobre": [
+     "autonomos-eco-03"
+    ],
+    "fuente": {
+     "nombre": "Legal Today, «Nuevo horizonte para la Ley de Segunda Oportunidad y el crédito público» (28-4-2026)",
+     "url": "https://www.legaltoday.com/practica-juridica/derecho-mercantil/mercantil/nuevo-horizonte-para-la-ley-de-segunda-oportunidad-y-el-credito-publico-2026-04-28/"
+    }
+   },
+   {
+    "titulo": "La declaración responsable ya existe para buena parte del comercio",
+    "texto": "Desde la «licencia exprés» de 2012, ampliada en 2013, los comercios minoristas de hasta 750 m² y otras actividades pueden abrir con una declaración responsable y control posterior. La propuesta no concreta a qué actividades nuevas la extendería ni cómo se reforzaría la inspección posterior de la que depende ese modelo.",
+    "sobre": [
+     "autonomos-eco-04",
+     "autonomos-eco-06"
+    ],
+    "fuente": {
+     "nombre": "El Derecho, «El Gobierno amplía a los comercios de hasta 750 metros cuadrados la licencia exprés» (24-10-2013)",
+     "url": "https://elderecho.com/el-gobierno-amplia-a-los-comercios-de-hasta-750-metros-cuadrados-la-licencia-expres"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "La brecha de pensiones nace de cotizar menos",
+    "texto": "En julio de 2026 la pensión media de jubilación de los autónomos era de 1.061 € al mes, frente a 1.733 € en el Régimen General, una diferencia ligada a bases de cotización más bajas. Igualar sus derechos con los de los asalariados exige cotizaciones equivalentes o transferencias del Estado; dejar de cotizar por debajo del SMI aumentaría esa brecha para quienes menos ganan.",
+    "sobre": [
+     "autonomos-emp-01",
+     "autonomos-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Merca2, con datos del Ministerio de Inclusión, Seguridad Social y Migraciones (2-8-2026)",
+     "url": "https://www.merca2.es/2026/08/02/pension-media-autonomos-julio-2026-2429038/"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "El emprendimiento ya forma parte del currículo",
+    "texto": "La competencia emprendedora es una de las ocho competencias clave de la ESO (Real Decreto 217/2022), y en 4.º existe la materia optativa Economía y Emprendimiento. La propuesta de poner en valor al empresario en la educación no concreta qué cambiaría respecto a lo que ya se enseña.",
+    "sobre": [
+     "autonomos-edu-02"
+    ],
+    "fuente": {
+     "nombre": "Eurydice (Comisión Europea), Enseñanza y aprendizaje en la ESO en España",
+     "url": "https://eurydice.eacea.ec.europa.eu/es/national-education-systems/spain/ensenanza-y-aprendizaje-en-la-educacion-secundaria-obligatoria-eso"
+    }
+   },
+   {
+    "titulo": "Un decálogo sin postura en los grandes debates",
+    "texto": "Su programa público es un decálogo centrado en autónomos y gestión pública, sin cifras ni posición sobre vivienda, inmigración, modelo territorial, energía o política exterior. El votante sabe qué defendería para los autónomos, pero no cómo votaría el resto de asuntos que decide el Congreso.",
+    "sobre": [
+     "autonomos-emp-01",
+     "autonomos-ins-01",
+     "autonomos-deu-01"
+    ],
+    "fuente": {
+     "nombre": "Partido Autónomos, «Decálogo de propuestas» (web oficial)",
+     "url": "https://www.partidoautonomos.es/decalogo-de-propuestas/",
+     "fecha": "2023-07"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos. Sus propuestas institucionales (independencia judicial, más medios para la Justicia, Administración profesional, evaluación del desempeño de los empleados públicos) son genéricas y no chocan con la Constitución ni con la doctrina europea. El decálogo afirma que la Justicia favorece a infractores y delincuentes, pero no lo acompaña de ninguna medida concreta que pueda evaluarse.",
+  "criticas": [],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-30"
+}

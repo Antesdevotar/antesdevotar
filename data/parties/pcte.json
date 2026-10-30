@@ -40,14 +40,14 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Anunciada",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "PCTE, resolución del Buró Político (concurrirá «en el mayor número posible de circunscripciones»)",
-  "url": "https://www.pcte.es/comunicados-centrales/el-pcte-estara-presente-en-las-elecciones-generales-resolucion-del-buro-politico-del-pcte/",
-  "fecha": "2026-10-07"
+  "nombre": "Civio, candidaturas presentadas al 29N (BOE 28/10/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/28/candidaturas-presentadas-29n/",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
-  "Por confirmar"
+  "37 circunscripciones"
  ],
  "referencia_voto": {
   "eleccion": "Generales 2023",
@@ -683,5 +683,6 @@
   "avales": []
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "Además, listas de sus versiones gallega y catalana."
 }

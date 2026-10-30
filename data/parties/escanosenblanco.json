@@ -35,14 +35,25 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Recogiendo firmas",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "Escaños en Blanco, página de recogida de firmas para las Elecciones Generales de 2026 (consultada el 21-10-2026)",
-  "url": "https://escanos.org/recogida-de-firmas-escanos-en-blanco/",
-  "fecha": "2026-10-21"
+  "nombre": "Press Digital, partidos minoritarios al 29N",
+  "url": "https://www.pressdigital.es/articulo/politica/2026-10-28/6069724-jubilados-autonomos-feministas-juristas-comunistas-soberanistas-otros-partidos-aspiran-escano",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
-  "Por confirmar"
+  "Álava",
+  "Gipuzkoa",
+  "Pontevedra",
+  "Las Palmas",
+  "Almería",
+  "Córdoba",
+  "León",
+  "Palencia",
+  "Soria",
+  "Valladolid",
+  "Murcia",
+  "Melilla"
  ],
  "referencia_voto": {
   "eleccion": "Generales 2023",
@@ -164,5 +175,6 @@
   "avales": []
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "La prensa habla de 13 circunscripciones; aquí figuran las 12 confirmadas."
 }

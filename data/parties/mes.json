@@ -44,11 +44,11 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Anunciada",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "VilaWeb, 19-10-2026: Ara Més–Front Ampli presenta la coalició",
-  "url": "https://www.vilaweb.cat/noticies/ara-mes-front-ampli-presenta-la-coalicio-electoral-i-mante-oberta-la-porta-a-podem/",
-  "fecha": "2026-10-19"
+  "nombre": "Última Hora, listas provisionales en Baleares",
+  "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/28/2737043/estas-son-listas-provisionales-candidatos-congreso-diputados-por-baleares.html",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
   "Illes Balears"
@@ -398,5 +398,6 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "No va con lista propia: se presenta en la coalición Ara Més-Front Ampli (Ara MÉS, Movimiento Sumar e IU), integrada en el Frente Amplio."
 }

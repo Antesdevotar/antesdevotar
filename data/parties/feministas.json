@@ -34,14 +34,15 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Anunciada",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "The Objective, 13-10-2026: Feministas críticas con el PSOE se presentarán el 29-N",
-  "url": "https://theobjective.com/espana/politica/2026-10-13/feministas-criticas-psoe-se-presentaran-29n-abolir-prostitucion/",
-  "fecha": "2026-10-13"
+  "nombre": "Press Digital, partidos minoritarios al 29N",
+  "url": "https://www.pressdigital.es/articulo/politica/2026-10-28/6069724-jubilados-autonomos-feministas-juristas-comunistas-soberanistas-otros-partidos-aspiran-escano",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
-  "Por confirmar"
+  "Álava",
+  "Bizkaia"
  ],
  "referencia_voto": {
   "eleccion": "Europeas 2024",

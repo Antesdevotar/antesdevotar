@@ -55,7 +55,7 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Recogiendo firmas",
+ "estado_candidatura": "Sin confirmar",
  "estado_fuente": {
   "nombre": "El Confidencial Digital; Democracia Nacional, comunicado del 6-10-2026",
   "url": "https://www.elconfidencialdigital.com/articulo/politica/alvise-roberto-vaquero-falange-nueva-formacion-miriam-gonzalez-partidos-pequenos-buscan-hueco-29-n/202610131712151493291.html",
@@ -928,5 +928,6 @@
   "avales": []
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "No aparece en las listas provisionales publicadas el 28 de octubre que hemos podido revisar. Se confirmará con la proclamación oficial del 3 de noviembre."
 }

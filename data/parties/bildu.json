@@ -1,732 +1,745 @@
 {
-  "id": "bildu",
-  "nombre": "Euskal Herria Bildu",
-  "siglas": "EH Bildu",
-  "candidato": "Oskar Matute (cabeza de lista por Bizkaia; pendiente de ratificación por la militancia)",
-  "ideologia": "Izquierda independentista vasca (abertzale)",
-  "ambito": "País Vasco y Navarra",
-  "color": "#00A8A9",
-  "web": "https://ehbildu.eus",
-  "escanos_2023": 6,
-  "resumen": "Coalición de la izquierda independentista vasca (Sortu, EA, Alternatiba, Aralar) coordinada por Arnaldo Otegi, que apoyó la investidura de Sánchez en 2023. Prioriza el reconocimiento nacional y el derecho a decidir, la vivienda pública y el control de alquileres, la subida de salarios y pensiones mínimas y la fiscalidad progresiva.",
-  "fuentes_programa": [
-    {
-      "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-      "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-      "fecha": "2023-07"
-    },
-    {
-      "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
-      "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
-      "fecha": "2026-05"
-    },
-    {
-      "nombre": "Onda Vasca, propuesta de Pello Otxandiano, 16/06/2024",
-      "url": "https://www.ondavasca.com/otxandiano-propondra-en-el-pleno-de-investidura-un-proyecto-compartido-con-nuevo-estatus/",
-      "fecha": "2024-06"
-    },
-    {
-      "nombre": "Onda Vasca, 16/10/2026",
-      "url": "https://www.ondavasca.com/eh-bildu-se-lanza-a-por-el-voto-de-izquierda-con-matute-de-portavoz/",
-      "fecha": "2026-10"
-    }
-  ],
-  "programa_2026_publicado": false,
-  "propuestas": [
-    {
-      "id": "bildu-ter-01",
-      "area": "territorio",
-      "texto": "Reconocer a Euskal Herria como nación y el carácter político del conflicto con el Estado.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-ter-02",
-      "area": "territorio",
-      "texto": "Reconocer el derecho a decidir, con ratificación por la ciudadanía vasca de cualquier acuerdo.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-ter-03",
-      "area": "territorio",
-      "texto": "Reconocer el carácter plurinacional del Estado y habilitar la opción de la República en la Constitución.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "El Independiente, moción en el Parlamento Vasco, 28/03/2023",
-        "url": "https://www.elindependiente.com/espana/2023/03/28/bildu-pnv-y-podemos-pactan-que-el-parlamento-vasco-reclame-el-derecho-a-decidir-y-la-republica/amp/",
-        "fecha": "2023-03"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ter-04",
-      "area": "territorio",
-      "texto": "Un 'nuevo estatus' para la CAV, no un nuevo Estatuto, con bilateralidad efectiva y un sistema de garantías del autogobierno.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Onda Vasca, propuesta de Pello Otxandiano, 16/06/2024",
-        "url": "https://www.ondavasca.com/otxandiano-propondra-en-el-pleno-de-investidura-un-proyecto-compartido-con-nuevo-estatus/",
-        "fecha": "2024-06"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ter-05",
-      "area": "territorio",
-      "texto": "Transferir todas las competencias pendientes del Estatuto de Gernika y del Amejoramiento navarro, incluidas I+D+i, becas, puertos y aeropuertos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-ter-06",
-      "area": "territorio",
-      "texto": "Renegociar de igual a igual el Concierto Económico vasco y el Convenio Económico navarro.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ter-07",
-      "area": "territorio",
-      "texto": "Negociar el traspaso íntegro de Cercanías.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ter-08",
-      "area": "territorio",
-      "texto": "Transferir la Inspección de Trabajo y las políticas pasivas de empleo.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-eco-01",
-      "area": "economia",
-      "texto": "Hacer permanentes los impuestos a banca, energéticas y grandes fortunas, gestionados por las haciendas forales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-eco-02",
-      "area": "economia",
-      "texto": "Crear un impuesto especial sobre los beneficios de las grandes cadenas de distribución alimentaria.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-eco-03",
-      "area": "economia",
-      "texto": "Obligar a devolver las ayudas públicas a las empresas que deslocalicen su producción.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-eco-04",
-      "area": "economia",
-      "texto": "Nueva Ley de Industria centrada en pymes, investigación, innovación y digitalización.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-deu-01",
-      "area": "deuda",
-      "texto": "Derogar la reforma de 2011 del artículo 135 de la Constitución, que prioriza el pago de la deuda.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-deu-02",
-      "area": "deuda",
-      "texto": "Rechazar la reactivación de reglas fiscales europeas que limiten la inversión pública.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-emp-01",
-      "area": "empleo",
-      "texto": "Recuperar la indemnización de 45 días por año en el despido improcedente y los salarios de tramitación.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-emp-02",
-      "area": "empleo",
-      "texto": "Reducir la jornada laboral a 32 horas semanales sin pérdida salarial.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-emp-03",
-      "area": "empleo",
-      "texto": "SMI estatal de 1.200 euros y un salario mínimo vasco del 60% del salario medio, según la Carta Social Europea.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-emp-04",
-      "area": "empleo",
-      "texto": "Prevalencia de los convenios vascos, provinciales y autonómicos sobre los estatales; marco vasco-navarro de negociación colectiva.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-emp-05",
-      "area": "empleo",
-      "texto": "Recuperar la autorización administrativa de la autoridad laboral en los ERE.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-pen-01",
-      "area": "pensiones",
-      "texto": "Subir de inmediato las pensiones mínimas a 1.080 euros y más las de viudedad y no contributivas.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-pen-02",
-      "area": "pensiones",
-      "texto": "Rechazar cualquier aumento de la edad de jubilación o del periodo de cotización.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-pen-03",
-      "area": "pensiones",
-      "texto": "Transferir el régimen económico de la Seguridad Social a las instituciones vascas y navarras.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-01",
-      "area": "vivienda",
-      "texto": "Recuperar la prórroga automática e indefinida de los contratos de alquiler en las mismas condiciones.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-02",
-      "area": "vivienda",
-      "texto": "Plan de vivienda 2026-2036: 30.000 viviendas protegidas sobre todo en alquiler y un fondo público-privado de 3.000 M€ con mayoría pública.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
-        "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
-        "fecha": "2026-05"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bildu-viv-03",
-      "area": "vivienda",
-      "texto": "Declarar toda la CAV zona tensionada con control permanente de precios del alquiler.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
-        "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
-        "fecha": "2026-05"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-04",
-      "area": "vivienda",
-      "texto": "Gravar las viviendas vacías (IBI y canon anual), alquiler forzoso en zonas tensionadas y expropiación del uso en emergencias.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Onda Vasca, 18/05/2026",
-        "url": "https://www.ondavasca.com/eh-bildu-cuestiona-la-deduccion-fiscal-por-vivienda-y-pide-aplicar-el-alquiler-forzoso-a-las-vacias/",
-        "fecha": "2026-05"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-05",
-      "area": "vivienda",
-      "texto": "Subir el ITP a terceras viviendas y grandes tenedores y un recargo del 20% al alquiler turístico y de temporada.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
-        "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
-        "fecha": "2026-05"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-06",
-      "area": "vivienda",
-      "texto": "Revisar la deducción fiscal por compra de vivienda para destinar esos recursos a vivienda pública.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Onda Vasca, 18/05/2026",
-        "url": "https://www.ondavasca.com/eh-bildu-cuestiona-la-deduccion-fiscal-por-vivienda-y-pide-aplicar-el-alquiler-forzoso-a-las-vacias/",
-        "fecha": "2026-05"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-viv-07",
-      "area": "vivienda",
-      "texto": "Mantener el 75% de vivienda protegida en nuevas promociones y destinar la mitad de esa reserva al alquiler.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Orain, enmiendas a la Ley vasca de vivienda, 27/10/2025",
-        "url": "https://orain.eus/es/politica/2025/10/27/eh-bildu-propone-elevar-los-porcentajes-viviendas-protegidas-destinados-al-alquiler/",
-        "fecha": "2025-10"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-san-01",
-      "area": "sanidad",
-      "texto": "Ampliar las plazas MIR, especialmente en atención primaria.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-san-02",
-      "area": "sanidad",
-      "texto": "Derogar la Ley 15/1997, que permite fórmulas de gestión privada en la sanidad pública.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-san-03",
-      "area": "sanidad",
-      "texto": "Multiplicar el presupuesto de salud mental y las plazas PIR.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-san-04",
-      "area": "sanidad",
-      "texto": "Incluir la atención visual y bucodental básica en la cartera pública.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-edu-01",
-      "area": "educacion",
-      "texto": "Proteger el modelo educativo vasco y sus disposiciones lingüísticas frente a cambios impuestos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-igu-01",
-      "area": "igualdad",
-      "texto": "Subir al menos un 12% los umbrales y cuantías del Ingreso Mínimo Vital y permitir la solicitud presencial.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-igu-02",
-      "area": "igualdad",
-      "texto": "Prohibir de forma permanente los cortes de suministros básicos a hogares vulnerables.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-igu-03",
-      "area": "igualdad",
-      "texto": "Defender los avances feministas, incluido el derecho a decidir sobre el propio cuerpo, y los derechos LGTBI frente a delitos de odio.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-inm-01",
-      "area": "inmigracion",
-      "texto": "Derogar la Ley de Extranjería y sustituirla por una ley basada en derechos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-inm-02",
-      "area": "inmigracion",
-      "texto": "Crear vías seguras de migración y acabar con las devoluciones en caliente.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-inm-03",
-      "area": "inmigracion",
-      "texto": "Proponer una ley integral contra el racismo y la discriminación.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ene-01",
-      "area": "energia",
-      "texto": "Adelantar la neutralidad climática a 2040.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ene-02",
-      "area": "energia",
-      "texto": "Reformar el sistema marginalista de fijación del precio eléctrico en la UE.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ene-03",
-      "area": "energia",
-      "texto": "Crear comercializadoras eléctricas públicas en todos los niveles de la administración.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-seg-01",
-      "area": "seguridad",
-      "texto": "Derogar los delitos de 'falta de respeto' y 'desobediencia' de la ley mordaza y prohibir las pelotas de goma.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-seg-02",
-      "area": "seguridad",
-      "texto": "Crear un organismo independiente que supervise e investigue la actuación policial.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ins-01",
-      "area": "instituciones",
-      "texto": "Ampliar la Ley de Memoria Democrática a víctimas del franquismo, la tortura y la violencia del Estado y de la extrema derecha.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-ins-02",
-      "area": "instituciones",
-      "texto": "Derogar la Ley de Secretos Oficiales para esclarecer casos como Zabalza, Germán Rodríguez o el 3 de marzo de Gasteiz.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-cul-01",
-      "area": "cultura",
-      "texto": "Garantizar el uso del euskera en la Administración del Estado y su presencia en el ámbito digital y audiovisual.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-rur-01",
-      "area": "rural",
-      "texto": "Más control de la cadena alimentaria para garantizar precios justos a los productores.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "bildu-rur-02",
-      "area": "rural",
-      "texto": "Más inversión en Renfe y Feve (accesibilidad y horarios) y descuentos al transporte público garantizados por ley.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
-        "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    }
-  ],
-  "criticas": {
-    "economica": [
-      {
-        "titulo": "La vivienda: deuda y retracción del alquiler privado",
-        "texto": "El análisis publicado en Deia sobre el plan de vivienda de EH Bildu advierte del elevado endeudamiento público que requiere, de posibles reticencias del capital privado a inversiones largas de baja rentabilidad y de que las medidas fiscales y de control de rentas pueden contraer el mercado de alquiler privado.",
-        "sobre": [
-          "bildu-viv-02",
-          "bildu-viv-03",
-          "bildu-viv-04",
-          "bildu-viv-05"
-        ],
-        "fuente": {
-          "nombre": "Deia / Onda Vasca, 18/05/2026",
-          "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/"
-        }
-      },
-      {
-        "titulo": "Subidas salariales y de costes laborales",
-        "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo de los trabajadores afectados entre 6 y 11 puntos. Fedea advierte de que encarecer el despido y reducir jornada sin ajuste salarial elevan los costes empresariales y pueden afectar al empleo.",
-        "sobre": [
-          "bildu-emp-03",
-          "bildu-emp-02",
-          "bildu-emp-01"
-        ],
-        "fuente": {
-          "nombre": "Banco de España, DO 2113 (2021)",
-          "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
-        }
-      },
-      {
-        "titulo": "Gravámenes sectoriales permanentes",
-        "texto": "Fedea considera que los gravámenes temporales a banca y energéticas funcionan más como multas sectoriales que como impuestos y que hacerlos permanentes puede trasladarse a clientes y desincentivar la inversión.",
-        "sobre": [
-          "bildu-eco-01",
-          "bildu-eco-02"
-        ],
-        "fuente": {
-          "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
-          "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
-        }
-      }
-    ],
-    "social": [
-      {
-        "titulo": "Pensiones: más gasto sin elevar edad ni cotización",
-        "texto": "Subir mínimas a 1.080 € y descartar cambios en edad o periodo de cotización aumenta el gasto en un sistema que la AIReF y la Comisión Europea ya proyectan con gasto creciente por el envejecimiento, trasladando el coste a cotizantes jóvenes o al déficit.",
-        "sobre": [
-          "bildu-pen-01",
-          "bildu-pen-02"
-        ],
-        "fuente": {
-          "nombre": "AIReF, opiniones sobre sostenibilidad del sistema de pensiones"
-        }
-      },
-      {
-        "titulo": "Romper la caja única de la Seguridad Social",
-        "texto": "Fedea recuerda que el TC (STC 124/1989 y 195/1996) limita el traspaso del régimen económico de la Seguridad Social, y que fragmentarlo debilitaría la solidaridad entre territorios; el País Vasco tiene un déficit contributivo de unos 4.000 M€ anuales.",
-        "sobre": [
-          "bildu-pen-03",
-          "bildu-ter-06"
-        ],
-        "fuente": {
-          "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
-          "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
-        }
-      }
-    ],
-    "cultural": [
-      {
-        "titulo": "El derecho a decidir y la soberanía nacional",
-        "texto": "La Constitución atribuye la soberanía al conjunto del pueblo español y el TC ha declarado que un 'derecho a decidir' que habilite la secesión requiere reforma constitucional; el reconocimiento de Euskal Herria como nación con derecho a decidir no cabe en el marco vigente.",
-        "sobre": [
-          "bildu-ter-01",
-          "bildu-ter-02",
-          "bildu-ter-03"
-        ],
-        "fuente": {
-          "nombre": "Tribunal Constitucional, STC 42/2014"
-        }
-      },
-      {
-        "titulo": "El relato del 'conflicto político'",
-        "texto": "Asociaciones de víctimas del terrorismo, como Covite, critican que presentar la violencia de ETA como parte de un 'conflicto político' diluye la responsabilidad de la banda, y reprocharon a EH Bildu incluir en sus listas municipales de 2023 a condenados por pertenencia a ETA, algunos por delitos de sangre (estos últimos renunciaron después a ocupar el cargo).",
-        "sobre": [
-          "bildu-ter-01",
-          "bildu-ins-01"
-        ],
-        "fuente": {
-          "nombre": "Covite, denuncia sobre listas de EH Bildu, mayo 2023"
-        }
-      }
-    ]
+ "id": "bildu",
+ "nombre": "Euskal Herria Bildu",
+ "siglas": "EH Bildu",
+ "candidato": "Oskar Matute (cabeza de lista por Bizkaia; pendiente de ratificación por la militancia)",
+ "ideologia": "Izquierda independentista vasca (abertzale)",
+ "ambito": "País Vasco y Navarra",
+ "color": "#00A8A9",
+ "web": "https://ehbildu.eus",
+ "escanos_2023": 6,
+ "resumen": "Coalición de la izquierda independentista vasca (Sortu, EA, Alternatiba, Aralar) coordinada por Arnaldo Otegi, que apoyó la investidura de Sánchez en 2023. Prioriza el reconocimiento nacional y el derecho a decidir, la vivienda pública y el control de alquileres, la subida de salarios y pensiones mínimas y la fiscalidad progresiva.",
+ "fuentes_programa": [
+  {
+   "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+   "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+   "fecha": "2023-07"
   },
-  "mentiras": [],
-  "actualizado": "2026-10-21"
+  {
+   "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
+   "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
+   "fecha": "2026-05"
+  },
+  {
+   "nombre": "Onda Vasca, propuesta de Pello Otxandiano, 16/06/2024",
+   "url": "https://www.ondavasca.com/otxandiano-propondra-en-el-pleno-de-investidura-un-proyecto-compartido-con-nuevo-estatus/",
+   "fecha": "2024-06"
+  },
+  {
+   "nombre": "Onda Vasca, 16/10/2026",
+   "url": "https://www.ondavasca.com/eh-bildu-se-lanza-a-por-el-voto-de-izquierda-con-matute-de-portavoz/",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "bildu-ter-01",
+   "area": "territorio",
+   "texto": "Reconocer a Euskal Herria como nación y el carácter político del conflicto con el Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-ter-02",
+   "area": "territorio",
+   "texto": "Reconocer el derecho a decidir, con ratificación por la ciudadanía vasca de cualquier acuerdo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-ter-03",
+   "area": "territorio",
+   "texto": "Reconocer el carácter plurinacional del Estado y habilitar la opción de la República en la Constitución.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "El Independiente, moción en el Parlamento Vasco, 28/03/2023",
+    "url": "https://www.elindependiente.com/espana/2023/03/28/bildu-pnv-y-podemos-pactan-que-el-parlamento-vasco-reclame-el-derecho-a-decidir-y-la-republica/amp/",
+    "fecha": "2023-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ter-04",
+   "area": "territorio",
+   "texto": "Un 'nuevo estatus' para la CAV, no un nuevo Estatuto, con bilateralidad efectiva y un sistema de garantías del autogobierno.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Onda Vasca, propuesta de Pello Otxandiano, 16/06/2024",
+    "url": "https://www.ondavasca.com/otxandiano-propondra-en-el-pleno-de-investidura-un-proyecto-compartido-con-nuevo-estatus/",
+    "fecha": "2024-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ter-05",
+   "area": "territorio",
+   "texto": "Transferir todas las competencias pendientes del Estatuto de Gernika y del Amejoramiento navarro, incluidas I+D+i, becas, puertos y aeropuertos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-ter-06",
+   "area": "territorio",
+   "texto": "Renegociar de igual a igual el Concierto Económico vasco y el Convenio Económico navarro.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ter-07",
+   "area": "territorio",
+   "texto": "Negociar el traspaso íntegro de Cercanías.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ter-08",
+   "area": "territorio",
+   "texto": "Transferir la Inspección de Trabajo y las políticas pasivas de empleo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-eco-01",
+   "area": "economia",
+   "texto": "Hacer permanentes los impuestos a banca, energéticas y grandes fortunas, gestionados por las haciendas forales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-eco-02",
+   "area": "economia",
+   "texto": "Crear un impuesto especial sobre los beneficios de las grandes cadenas de distribución alimentaria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-eco-03",
+   "area": "economia",
+   "texto": "Obligar a devolver las ayudas públicas a las empresas que deslocalicen su producción.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-eco-04",
+   "area": "economia",
+   "texto": "Nueva Ley de Industria centrada en pymes, investigación, innovación y digitalización.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-deu-01",
+   "area": "deuda",
+   "texto": "Derogar la reforma de 2011 del artículo 135 de la Constitución, que prioriza el pago de la deuda.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-deu-02",
+   "area": "deuda",
+   "texto": "Rechazar la reactivación de reglas fiscales europeas que limiten la inversión pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-emp-01",
+   "area": "empleo",
+   "texto": "Recuperar la indemnización de 45 días por año en el despido improcedente y los salarios de tramitación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-emp-02",
+   "area": "empleo",
+   "texto": "Reducir la jornada laboral a 32 horas semanales sin pérdida salarial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-emp-03",
+   "area": "empleo",
+   "texto": "SMI estatal de 1.200 euros y un salario mínimo vasco del 60% del salario medio, según la Carta Social Europea.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-emp-04",
+   "area": "empleo",
+   "texto": "Prevalencia de los convenios vascos, provinciales y autonómicos sobre los estatales; marco vasco-navarro de negociación colectiva.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-emp-05",
+   "area": "empleo",
+   "texto": "Recuperar la autorización administrativa de la autoridad laboral en los ERE.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-pen-01",
+   "area": "pensiones",
+   "texto": "Subir de inmediato las pensiones mínimas a 1.080 euros y más las de viudedad y no contributivas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-pen-02",
+   "area": "pensiones",
+   "texto": "Rechazar cualquier aumento de la edad de jubilación o del periodo de cotización.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-pen-03",
+   "area": "pensiones",
+   "texto": "Transferir el régimen económico de la Seguridad Social a las instituciones vascas y navarras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-01",
+   "area": "vivienda",
+   "texto": "Recuperar la prórroga automática e indefinida de los contratos de alquiler en las mismas condiciones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-02",
+   "area": "vivienda",
+   "texto": "Plan de vivienda 2026-2036: 30.000 viviendas protegidas sobre todo en alquiler y un fondo público-privado de 3.000 M€ con mayoría pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
+    "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
+    "fecha": "2026-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bildu-viv-03",
+   "area": "vivienda",
+   "texto": "Declarar toda la CAV zona tensionada con control permanente de precios del alquiler.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
+    "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
+    "fecha": "2026-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-04",
+   "area": "vivienda",
+   "texto": "Gravar las viviendas vacías (IBI y canon anual), alquiler forzoso en zonas tensionadas y expropiación del uso en emergencias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Onda Vasca, 18/05/2026",
+    "url": "https://www.ondavasca.com/eh-bildu-cuestiona-la-deduccion-fiscal-por-vivienda-y-pide-aplicar-el-alquiler-forzoso-a-las-vacias/",
+    "fecha": "2026-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-05",
+   "area": "vivienda",
+   "texto": "Subir el ITP a terceras viviendas y grandes tenedores y un recargo del 20% al alquiler turístico y de temporada.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Deia / Onda Vasca, plan 'Euskal Herrian posible egin', 18/05/2026",
+    "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/",
+    "fecha": "2026-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-06",
+   "area": "vivienda",
+   "texto": "Revisar la deducción fiscal por compra de vivienda para destinar esos recursos a vivienda pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Onda Vasca, 18/05/2026",
+    "url": "https://www.ondavasca.com/eh-bildu-cuestiona-la-deduccion-fiscal-por-vivienda-y-pide-aplicar-el-alquiler-forzoso-a-las-vacias/",
+    "fecha": "2026-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-viv-07",
+   "area": "vivienda",
+   "texto": "Mantener el 75% de vivienda protegida en nuevas promociones y destinar la mitad de esa reserva al alquiler.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Orain, enmiendas a la Ley vasca de vivienda, 27/10/2025",
+    "url": "https://orain.eus/es/politica/2025/10/27/eh-bildu-propone-elevar-los-porcentajes-viviendas-protegidas-destinados-al-alquiler/",
+    "fecha": "2025-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-san-01",
+   "area": "sanidad",
+   "texto": "Ampliar las plazas MIR, especialmente en atención primaria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-san-02",
+   "area": "sanidad",
+   "texto": "Derogar la Ley 15/1997, que permite fórmulas de gestión privada en la sanidad pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-san-03",
+   "area": "sanidad",
+   "texto": "Multiplicar el presupuesto de salud mental y las plazas PIR.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-san-04",
+   "area": "sanidad",
+   "texto": "Incluir la atención visual y bucodental básica en la cartera pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-edu-01",
+   "area": "educacion",
+   "texto": "Proteger el modelo educativo vasco y sus disposiciones lingüísticas frente a cambios impuestos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-igu-01",
+   "area": "igualdad",
+   "texto": "Subir al menos un 12% los umbrales y cuantías del Ingreso Mínimo Vital y permitir la solicitud presencial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-igu-02",
+   "area": "igualdad",
+   "texto": "Prohibir de forma permanente los cortes de suministros básicos a hogares vulnerables.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-igu-03",
+   "area": "igualdad",
+   "texto": "Defender los avances feministas, incluido el derecho a decidir sobre el propio cuerpo, y los derechos LGTBI frente a delitos de odio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-inm-01",
+   "area": "inmigracion",
+   "texto": "Derogar la Ley de Extranjería y sustituirla por una ley basada en derechos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-inm-02",
+   "area": "inmigracion",
+   "texto": "Crear vías seguras de migración y acabar con las devoluciones en caliente.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-inm-03",
+   "area": "inmigracion",
+   "texto": "Proponer una ley integral contra el racismo y la discriminación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ene-01",
+   "area": "energia",
+   "texto": "Adelantar la neutralidad climática a 2040.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ene-02",
+   "area": "energia",
+   "texto": "Reformar el sistema marginalista de fijación del precio eléctrico en la UE.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ene-03",
+   "area": "energia",
+   "texto": "Crear comercializadoras eléctricas públicas en todos los niveles de la administración.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-seg-01",
+   "area": "seguridad",
+   "texto": "Derogar los delitos de 'falta de respeto' y 'desobediencia' de la ley mordaza y prohibir las pelotas de goma.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-seg-02",
+   "area": "seguridad",
+   "texto": "Crear un organismo independiente que supervise e investigue la actuación policial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ins-01",
+   "area": "instituciones",
+   "texto": "Ampliar la Ley de Memoria Democrática a víctimas del franquismo, la tortura y la violencia del Estado y de la extrema derecha.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-ins-02",
+   "area": "instituciones",
+   "texto": "Derogar la Ley de Secretos Oficiales para esclarecer casos como Zabalza, Germán Rodríguez o el 3 de marzo de Gasteiz.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-cul-01",
+   "area": "cultura",
+   "texto": "Garantizar el uso del euskera en la Administración del Estado y su presencia en el ámbito digital y audiovisual.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-rur-01",
+   "area": "rural",
+   "texto": "Más control de la cadena alimentaria para garantizar precios justos a los productores.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "bildu-rur-02",
+   "area": "rural",
+   "texto": "Más inversión en Renfe y Feve (accesibilidad y horarios) y descuentos al transporte público garantizados por ley.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
+    "url": "https://ehbildu.eus/dokumentuak/23J-COMPROMISO-DE-EUSKAL-HERRIA-BILDU.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "La vivienda: deuda y retracción del alquiler privado",
+    "texto": "El análisis publicado en Deia sobre el plan de vivienda de EH Bildu advierte del elevado endeudamiento público que requiere, de posibles reticencias del capital privado a inversiones largas de baja rentabilidad y de que las medidas fiscales y de control de rentas pueden contraer el mercado de alquiler privado.",
+    "sobre": [
+     "bildu-viv-02",
+     "bildu-viv-03",
+     "bildu-viv-04",
+     "bildu-viv-05"
+    ],
+    "fuente": {
+     "nombre": "Deia / Onda Vasca, 18/05/2026",
+     "url": "https://www.ondavasca.com/choque-de-modelos-para-afrontar-el-problema-social-del-acceso-a-la-vivienda-en-euskadi/"
+    }
+   },
+   {
+    "titulo": "Subidas salariales y de costes laborales",
+    "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo de los trabajadores afectados entre 6 y 11 puntos. Fedea advierte de que encarecer el despido y reducir jornada sin ajuste salarial elevan los costes empresariales y pueden afectar al empleo.",
+    "sobre": [
+     "bildu-emp-03",
+     "bildu-emp-02",
+     "bildu-emp-01"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, DO 2113 (2021)",
+     "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+    }
+   },
+   {
+    "titulo": "Gravámenes sectoriales permanentes",
+    "texto": "Fedea considera que los gravámenes temporales a banca y energéticas funcionan más como multas sectoriales que como impuestos y que hacerlos permanentes puede trasladarse a clientes y desincentivar la inversión.",
+    "sobre": [
+     "bildu-eco-01",
+     "bildu-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
+     "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Pensiones: más gasto sin elevar edad ni cotización",
+    "texto": "Subir mínimas a 1.080 € y descartar cambios en edad o periodo de cotización aumenta el gasto en un sistema que la AIReF y la Comisión Europea ya proyectan con gasto creciente por el envejecimiento, trasladando el coste a cotizantes jóvenes o al déficit.",
+    "sobre": [
+     "bildu-pen-01",
+     "bildu-pen-02"
+    ],
+    "fuente": {
+     "nombre": "AIReF, opiniones sobre sostenibilidad del sistema de pensiones"
+    }
+   },
+   {
+    "titulo": "Romper la caja única de la Seguridad Social",
+    "texto": "Fedea recuerda que el TC (STC 124/1989 y 195/1996) limita el traspaso del régimen económico de la Seguridad Social, y que fragmentarlo debilitaría la solidaridad entre territorios; el País Vasco tiene un déficit contributivo de unos 4.000 M€ anuales.",
+    "sobre": [
+     "bildu-pen-03",
+     "bildu-ter-06"
+    ],
+    "fuente": {
+     "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
+     "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "El derecho a decidir y la soberanía nacional",
+    "texto": "La Constitución atribuye la soberanía al conjunto del pueblo español y el TC ha declarado que un 'derecho a decidir' que habilite la secesión requiere reforma constitucional; el reconocimiento de Euskal Herria como nación con derecho a decidir no cabe en el marco vigente.",
+    "sobre": [
+     "bildu-ter-01",
+     "bildu-ter-02",
+     "bildu-ter-03"
+    ],
+    "fuente": {
+     "nombre": "Tribunal Constitucional, STC 42/2014"
+    }
+   },
+   {
+    "titulo": "El relato del 'conflicto político'",
+    "texto": "Asociaciones de víctimas del terrorismo, como Covite, critican que presentar la violencia de ETA como parte de un 'conflicto político' diluye la responsabilidad de la banda, y reprocharon a EH Bildu incluir en sus listas municipales de 2023 a condenados por pertenencia a ETA, algunos por delitos de sangre (estos últimos renunciaron después a ocupar el cargo).",
+    "sobre": [
+     "bildu-ter-01",
+     "bildu-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Covite, denuncia sobre listas de EH Bildu, mayo 2023"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21",
+ "concurre": true,
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "Álava",
+  "Bizkaia",
+  "Gipuzkoa",
+  "Navarra"
+ ],
+ "estado_fuente": {
+  "nombre": "Demócrata, listas provisionales en Euskadi",
+  "url": "https://www.democrata.es/euskadi/euskadi-publica-las-listas-provisionales-15-candidaturas-por-alava-12-por-bizkaia-y-11-por-gipuzkoa-al-congreso/",
+  "fecha": "2026-10-28"
+ }
 }

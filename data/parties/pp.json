@@ -1316,5 +1316,16 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "concurre": true,
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "Todas"
+ ],
+ "estado_fuente": {
+  "nombre": "Civio, candidaturas presentadas al 29N (BOE 28/10/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/28/candidaturas-presentadas-29n/",
+  "fecha": "2026-10-28"
+ },
+ "candidatura_nota": "En Navarra se presenta en coalición con UPN."
 }

@@ -417,6 +417,7 @@
     var head = '<section class="phead" style="--pc:' + esc(p.color) + ';--pcfg:' + contrast(p.color) + '">' +
       '<div class="phead-top">' + avatar(p, 'lg') + '<div class="phead-id"><h1>' + esc(p.nombre) + '</h1><p>' + esc(['Programa electoral 2026', p.candidato].filter(Boolean).join(' · ')) + '</p></div></div>' +
       (p.resumen ? '<p class="phead-sum">' + esc(p.resumen) + '</p>' : '') +
+      (p.candidatura_nota ? '<p class="selfdef"><span>Candidatura</span> ' + esc(p.candidatura_nota) + (p.estado_fuente && p.estado_fuente.url ? ' ' + src(p.estado_fuente, 'Fuente') : '') + '</p>' : '') +
       (p.autodefinicion && p.autodefinicion.texto ? '<p class="selfdef"><span>Se define como</span> «' + esc(p.autodefinicion.texto) + '» ' + src(p.autodefinicion.fuente, 'Fuente') + '</p>' : '') +
       (p.ches && p.ches.lrgen != null ? '<div class="ches"><span class="ches-l">Izquierda</span><span class="ches-t"><i style="left:' + (p.ches.lrgen * 10).toFixed(1) + '%"></i></span><span class="ches-l">Derecha</span><small>Posición según expertos: ' + fmt(p.ches.lrgen, 1) + ' sobre 10 · ' + src(p.ches.fuente, 'Chapel Hill Expert Survey ' + (p.ches.anio || '')) + '</small></div>' : '') +
       '<div class="pkpis">' +

@@ -519,5 +519,16 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "Las Palmas",
+  "Santa Cruz de Tenerife"
+ ],
+ "estado_fuente": {
+  "nombre": "RTVC, candidaturas en Canarias",
+  "url": "https://rtvc.es/publicadas-boe-candidaturas-congreso-senado-28-octubre-2026/",
+  "fecha": "2026-10-28"
+ },
+ "candidatura_nota": "En la papeleta: Coalición Canaria-Primero Canarias, con Municipalistas Primero Canarias y grupos insulares."
 }

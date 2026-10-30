@@ -1,0 +1,609 @@
+{
+ "id": "sorianya",
+ "nombre": "Soria ¡Ya!",
+ "siglas": "Soria ¡Ya!",
+ "concurre": true,
+ "candidato": "Juan Antonio Palomar Sicilia (cabeza de lista al Congreso por Soria)",
+ "ambito": "Soria (Castilla y León)",
+ "color": "#000000",
+ "color_aproximado": true,
+ "web": "https://soriaya.org",
+ "escanos_2023": 0,
+ "resumen": "Plataforma ciudadana soriana convertida en partido, integrada en el movimiento de la «España Vaciada»; en 2023 se quedó sin escaño en el Congreso con el 19,2% en Soria, y en las autonómicas de marzo de 2026 bajó de tres procuradores a uno (Ángel Ceña) en las Cortes de Castilla y León; no concurrió a las municipales de 2023, por lo que no tiene diputados provinciales. Prioriza la lucha contra la despoblación, las autovías A-11 y A-15, el ferrocarril y las ventajas fiscales para las provincias menos pobladas; sus propuestas proceden del programa de las generales de 2023, porque no ha publicado uno para el 29N.",
+ "fuentes_resumen": [
+  {
+   "nombre": "Diario de Valladolid, 16-3-2026: Soria Ya pierde dos de sus tres procuradores (Ceña conserva el escaño)",
+   "url": "https://www.diariodevalladolid.es/castilla-y-leon/260316/280815/batacazo-soria-pierde-dos-tres-procuradores-cortes.html"
+  },
+  {
+   "nombre": "The Objective, 2-6-2023: Soria ¡Ya! dará el salto a la política nacional el 23-J (no se presentó a las municipales de mayo)",
+   "url": "https://theobjective.com/espana/castilla-y-leon/2023-06-02/soria-ya-elecciones-julio-adelanto-sanchez/"
+  }
+ ],
+ "fuentes_programa": [
+  {
+   "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+   "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+   "fecha": "2023-07"
+  },
+  {
+   "nombre": "Tribuna de Soria, 27-10-2026: Soria ¡YA! presenta a Palomar al Congreso y a Romera al Senado",
+   "url": "https://www.tribunasoria.com/noticias/464332/soria-ya-presenta-a-palomar-al-congreso-y-a-romera-al-senado",
+   "fecha": "2026-10-27"
+  },
+  {
+   "nombre": "El Español, 27-10-2026: Soria ¡Ya! presenta una candidatura al 29-N «para ganar» (prensa)",
+   "url": "https://www.elespanol.com/castilla-y-leon/region/soria/20261027/soria-presenta-candidatura-pensada-ganar-defender-provincia-sin-tutelas-madrid/1003744437193_0.html",
+   "fecha": "2026-10-27"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Presentada",
+ "estado_fuente": {
+  "nombre": "Desde Soria, 28-10-2026: candidaturas publicadas en el BOE (BOE-A-2026-22607); Congreso: Juan Antonio Palomar Sicilia y Rosalía Peña Gallego",
+  "url": "https://www.desdesoria.es/articulo/noticias/son-todas-candidaturas-soria-elecciones-29-noviembre/20261028082518939173.html",
+  "fecha": "2026-10-28"
+ },
+ "circunscripciones": [
+  "Soria"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 19.21,
+  "ambito": "Soria",
+  "fuente": {
+   "nombre": "Última Hora, escrutinio 23J Congreso Soria (9.626 votos, sin escaño)",
+   "url": "https://www.ultimahora.es/elecciones/23j/congreso/soria.html"
+  }
+ },
+ "propuestas": [
+  {
+   "id": "sorianya-ter-01",
+   "area": "territorio",
+   "texto": "Pacto de Estado y ley contra la despoblación, con un compromiso de inversión del 1% del PIB al año.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ter-02",
+   "area": "territorio",
+   "texto": "Crear un Fondo de Inversiones de Soria similar al Fondo de Inversiones de Teruel (FITE).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ter-03",
+   "area": "territorio",
+   "texto": "Crear una agencia de desarrollo independiente y «despolitizada» para las zonas despobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-04",
+   "area": "territorio",
+   "texto": "Ventanillas únicas comarcales contra la despoblación que sirvan también para hacer trámites administrativos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-05",
+   "area": "territorio",
+   "texto": "Tramitar con urgencia los tramos pendientes de la A-11 (hasta Aranda y Portugal) y construir la A-15 entre Soria y Navarra, con continuidad hasta Tudela.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ter-06",
+   "area": "territorio",
+   "texto": "Estudio y proyecto de la autovía A-24 Burgos–Calamocha, de una carretera 2+1 en la N-111 Soria–Logroño y desdoblamiento de la circunvalación norte SO-20.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-07",
+   "area": "territorio",
+   "texto": "Doble vía electrificada Torralba–Soria–Castejón y línea de altas prestaciones Valladolid–Aranda–Soria–Zaragoza, ambas mixtas de viajeros y mercancías.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ter-08",
+   "area": "territorio",
+   "texto": "Incluir las autovías A-11 y A-15 y la línea Valladolid–Soria–Zaragoza en la red transeuropea de transporte (TEN-T).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-09",
+   "area": "territorio",
+   "texto": "Más frecuencias en los trenes Soria–Madrid y Zaragoza–Arcos de Jalón–Madrid, recuperar las de autobús previas a la pandemia y mantener la subvención de billetes interautonómicos desde Soria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-10",
+   "area": "territorio",
+   "texto": "Objetivo 30-30: que todas las localidades estén a menos de 30 minutos de los servicios esenciales y de una vía rápida.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ter-11",
+   "area": "territorio",
+   "texto": "Reformar la Ley de Bases de Régimen Local y la participación en los ingresos del Estado de los municipios de menos de 75.000 habitantes, y aumentar la dotación de los Presupuestos para Soria por su dispersión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ter-12",
+   "area": "territorio",
+   "texto": "Finalizar las obras de la presa del río Mayor y cumplir la directiva europea de aguas residuales, reduciendo pérdidas en las redes de abastecimiento.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ins-01",
+   "area": "instituciones",
+   "texto": "Descentralizar la Administración General del Estado con criterios que favorezcan a los territorios despoblados.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-ins-02",
+   "area": "instituciones",
+   "texto": "Crear en Soria un Juzgado de Vigilancia Penitenciaria y un quinto Juzgado de Primera Instancia, y poner en pleno funcionamiento el nuevo centro penitenciario.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-emp-01",
+   "area": "empleo",
+   "texto": "Teletrabajo permanente automático para los empleados públicos de zonas despobladas que lo pidan (si el puesto lo permite), mérito por permanencia y complemento para puestos de difícil cobertura.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-emp-02",
+   "area": "empleo",
+   "texto": "Cubrir todas las plazas de funcionarios pendientes en la provincia de Soria.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-01",
+   "area": "economia",
+   "texto": "Aplicar plenamente las ayudas al funcionamiento para empresas y autónomos de Soria, Teruel y Cuenca, hasta el 20% de los costes laborales, y extenderlas a empresas con teletrabajadores residentes en zonas despobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-eco-02",
+   "area": "economia",
+   "texto": "Reducir un 50% la cuota íntegra de los principales impuestos para trabajadores y empresas de Soria, Cuenca y Teruel.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sorianya-eco-03",
+   "area": "economia",
+   "texto": "Tarifa plana de 80 euros para los autónomos que se establezcan en territorios despoblados.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-04",
+   "area": "economia",
+   "texto": "Para el comercio de municipios de menos de 500 habitantes: deducciones fiscales, tarifas eléctricas reducidas y bonificación del combustible para la venta ambulante.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-05",
+   "area": "economia",
+   "texto": "Línea diferenciada de financiación para la inversión empresarial en zonas poco pobladas, al 0% de interés y con avales mínimos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-06",
+   "area": "economia",
+   "texto": "Terminar los polígonos de SEPES de Valcorba y La Malita a precio competitivo, conectar Valcorba por tren con la estación de El Cañuelo y crear una plataforma logística con participación pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-07",
+   "area": "economia",
+   "texto": "Atraer «nómadas digitales» con oficinas de retorno y la ampliación de los regímenes fiscales especiales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-eco-08",
+   "area": "economia",
+   "texto": "Aprovechar las herramientas económicas europeas para mejorar la competitividad de la provincia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "El Español, 27-10-2026: Soria ¡Ya! presenta una candidatura al 29-N «para ganar» (prensa)",
+    "url": "https://www.elespanol.com/castilla-y-leon/region/soria/20261027/soria-presenta-candidatura-pensada-ganar-defender-provincia-sin-tutelas-madrid/1003744437193_0.html",
+    "fecha": "2026-10-27"
+   }
+  },
+  {
+   "id": "sorianya-viv-01",
+   "area": "vivienda",
+   "texto": "Banco de viviendas de alquiler, ayudas a la rehabilitación, construcción de VPO, agilizar los expedientes de ruina y convertir edificios públicos en desuso en viviendas o espacios de coworking.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-tec-01",
+   "area": "tecnologia",
+   "texto": "Garantizar conectividad de banda ancha de nueva generación en toda la provincia (según el partido, 162 de sus 183 municipios carecen de ella).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ene-01",
+   "area": "energia",
+   "texto": "Que las provincias «donantes de energía» renovable obtengan beneficios fiscales y económicos y que el valor de sus recursos ambientales revierta en el territorio, para que no sea un «territorio de sacrificio».",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-ene-02",
+   "area": "energia",
+   "texto": "Reconocer la masa forestal como sumidero de CO2 y compensarla según el principio «quien contamina paga», vinculando beneficios fiscales a beneficios ambientales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-rur-01",
+   "area": "rural",
+   "texto": "Apoyo al sector agrario: precio justo, menos burocracia, portal de venta directa, ley de pequeñas explotaciones familiares, incentivos a nuevos agricultores e industria agroalimentaria de transformación en origen.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-rur-02",
+   "area": "rural",
+   "texto": "Desarrollar y modernizar nuevos regadíos en la provincia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-rur-03",
+   "area": "rural",
+   "texto": "Plan Estatal de Ayuda a la Ganadería Extensiva y la Trashumancia y un marco normativo específico para los «montes de socios».",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-seg-01",
+   "area": "seguridad",
+   "texto": "Más medios estatales contra incendios (avioneta en El Amogable y Taniñe), un Centro Nacional de Formación de Bomberos Forestales en Soria e incentivos a las fuerzas de seguridad en zonas poco pobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-igu-01",
+   "area": "igualdad",
+   "texto": "Revisar la Ley de Dependencia y su financiación para las zonas despobladas, con la figura del «cuidador rural», y atención personalizada a los mayores frente a la brecha digital y la exclusión financiera.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-igu-02",
+   "area": "igualdad",
+   "texto": "Apoyo a las mujeres de zonas despobladas, en especial en explotaciones agrarias familiares, con servicios de conciliación adaptados.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-dem-01",
+   "area": "demografia",
+   "texto": "Plan estatal de ayuda a familias que se trasladen desde grandes ciudades: pago único con permanencia mínima de cinco años y actividad laboral.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-san-01",
+   "area": "sanidad",
+   "texto": "Más plazas MIR y EIR, agilizar la convalidación de títulos y financiar la sanidad atendiendo a la dispersión y extensión del territorio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-edu-01",
+   "area": "educacion",
+   "texto": "Examen único de acceso a la universidad (EBAU) en toda España.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-edu-02",
+   "area": "educacion",
+   "texto": "Becas y deducciones en el IRPF con criterio de procedencia de zonas despobladas, y más puntos en los concursos docentes para plazas en zonas poco pobladas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-cul-01",
+   "area": "cultura",
+   "texto": "Museo Nacional de Paleontología con sede en Soria, un Parador Nacional en un edificio histórico de la provincia y el centro de recepción de visitantes de Numancia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sorianya-cul-02",
+   "area": "cultura",
+   "texto": "Gran exposición temporal en la ermita de San Baudelio con sus pinturas originales, rehabilitación del patrimonio de la Lista Roja y la Cañada Real Soriana como ruta de senderismo y cicloturismo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa electoral de Soria ¡YA! 2023 (Generales 23J), web oficial",
+    "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/",
+    "fecha": "2023-07"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste de la rebaja fiscal del 50% y del 1% del PIB, sin financiación",
+    "texto": "Comprometer el 1% del PIB al año supone, con el PIB actual (más de 1,5 billones de euros), más de 15.000 millones anuales, y el programa no dice cómo se financiaría ni cómo se sumaría a la rebaja del 50% de los principales impuestos en tres provincias. Los economistas del REAF advierten de que muchos beneficios fiscales territoriales contra la despoblación son «más nominativos que efectivos».",
+    "sobre": [
+     "sorianya-ter-01",
+     "sorianya-eco-02",
+     "sorianya-eco-03"
+    ],
+    "fuente": {
+     "nombre": "The Objective, 26-3-2022: rebajas fiscales autonómicas contra la despoblación (declaraciones de Rubén Gimeno, REAF-Consejo General de Economistas)",
+     "url": "https://theobjective.com/economia/2022-03-26/despoblacion-rebajas-fiscales/"
+    }
+   },
+   {
+    "titulo": "Infraestructuras de baja demanda sin análisis coste-beneficio",
+    "texto": "La AIReF concluyó que la planificación de infraestructuras en España ha estado desconectada de la financiación disponible, con previsiones de demanda sobrestimadas y corredores de baja demanda con balance coste-beneficio negativo, y pidió evaluación previa y priorización. Las nuevas autovías y la doble vía electrificada de altas prestaciones en una provincia de unos 90.000 habitantes necesitarían superar ese tipo de evaluación.",
+    "sobre": [
+     "sorianya-ter-05",
+     "sorianya-ter-06",
+     "sorianya-ter-07"
+    ],
+    "fuente": {
+     "nombre": "Valencia Plaza, 30-7-2020: estudio de la AIReF sobre 35 años de inversión en infraestructuras de transporte",
+     "url": "https://valenciaplaza.com/valenciaplaza/el-ave-madrid-valencia-costo-1200-millones-mas-y"
+    }
+   },
+   {
+    "titulo": "Ayudas al funcionamiento: excepcionales y con riesgo de desplazar actividad",
+    "texto": "Las directrices europeas de ayudas regionales solo admiten ayudas al funcionamiento como excepción para regiones escasamente pobladas, por su mayor riesgo de distorsionar la competencia. Extenderlas a empresas con teletrabajadores en zonas despobladas amplía su coste, y pueden trasladar actividad entre territorios en lugar de crearla.",
+    "sobre": [
+     "sorianya-eco-01"
+    ],
+    "fuente": {
+     "nombre": "Comisión Europea, Directrices sobre las ayudas estatales de finalidad regional (2021/C 153/01)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021XC0429(01)"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "El objetivo 30-30 y el coste de dar servicios en núcleos muy pequeños",
+    "texto": "El Banco de España señala que la escala mínima de muchos servicios encarece el coste por habitante en los municipios rurales más pequeños. Garantizar servicios esenciales y vías rápidas a menos de 30 minutos de cada localidad puede desviar recursos de donde se concentra la demanda, aunque responde a un déficit real de acceso que el mismo informe documenta.",
+    "sobre": [
+     "sorianya-ter-10"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2020, cap. 4, p. 285",
+     "url": "https://repositorio.bde.es/bitstream/123456789/16628/1/InfAnual_2020-Cap4.pdf"
+    }
+   },
+   {
+    "titulo": "Criterio territorial en lugar de renta",
+    "texto": "La rebaja del 50% de impuestos, las becas por procedencia y el teletrabajo automático se asignan por lugar de residencia y no por necesidad, de modo que beneficiarían igual a rentas altas de Soria y excluirían a personas con menos recursos de otras zonas. Las propuestas no incluyen límites de renta.",
+    "sobre": [
+     "sorianya-eco-02",
+     "sorianya-edu-02",
+     "sorianya-emp-01"
+    ],
+    "fuente": {
+     "nombre": "Diseño de las propias propuestas (Programa Soria ¡YA! 2023)",
+     "url": "https://soriaya.org/programa-electoral-de-soria-ya-2023/"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Agravio comparativo entre territorios",
+    "texto": "Pedir un fondo propio para Soria, más dotación presupuestaria provincial y ventajas fiscales para tres provincias concretas alimenta una lógica de compensaciones que otros territorios replican y complica un acuerdo general de financiación.",
+    "sobre": [
+     "sorianya-ter-02",
+     "sorianya-ter-11",
+     "sorianya-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de federalismo fiscal (mismo criterio aplicado a Existe)"
+    }
+   },
+   {
+    "titulo": "Recursos naturales como patrimonio provincial",
+    "texto": "Reclamar beneficios fiscales por ser provincia «donante de energía» o por la absorción de CO2 de sus montes trata recursos de interés general como renta provincial; aplicado a todos los territorios, abriría compensaciones cruzadas por agua, energía o paisaje difíciles de ordenar.",
+    "sobre": [
+     "sorianya-ene-01",
+     "sorianya-ene-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de federalismo fiscal y bienes públicos"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos relevantes. Sus propuestas son de inversión, fiscalidad y servicios territoriales y ninguna choca con derechos fundamentales ni con los estándares europeos de Estado de derecho.",
+  "criticas": [],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-30"
+}

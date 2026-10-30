@@ -1,678 +1,690 @@
 {
-  "id": "bng",
-  "nombre": "Bloque Nacionalista Galego",
-  "siglas": "BNG",
-  "concurre": true,
-  "candidato": "Pendiente de confirmar a 21-10-2026 (Néstor Rego, diputado desde 2019, ha sido su cabeza de lista por A Coruña)",
-  "ideologia": "Nacionalismo gallego de izquierdas",
-  "ambito": "Galicia",
-  "color": "#6AADE4",
-  "web": "https://www.bng.gal/",
-  "escanos_2023": 1,
-  "resumen": "Frente nacionalista gallego de izquierdas, segunda fuerza en el Parlamento de Galicia, que concurre en solitario en las cuatro provincias gallegas con el lema «más derechos y menos derechas». Su programa prioriza el autogobierno y la soberanía fiscal de Galicia, el traspaso de la AP-9 y una tarifa eléctrica gallega, y la ampliación de derechos laborales y servicios públicos.",
-  "fuentes_programa": [
-    {
-      "titulo": "Programa BNG Eleccións Xerais 2023",
-      "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-      "fecha": "2023-07"
-    },
-    {
-      "titulo": "El BNG se declara listo para el 29N (Moncloa.com)",
-      "url": "https://www.moncloa.com/2026/10/05/bng-elecciones-generales-29n-rego-3442795/",
-      "fecha": "2026-10-05"
-    },
-    {
-      "titulo": "Listas de la izquierda para el 29N: el BNG concurre con candidatura propia (Infobae)",
-      "url": "https://www.infobae.com/espana/2026/10/17/asi-quedan-los-acuerdos-de-la-izquierda-para-las-elecciones-generales-del-29-n-estas-son-las-listas-a-la-izquierda-del-psoe-en-cada-comunidad-autonoma/",
-      "fecha": "2026-10-17"
-    }
-  ],
-  "programa_2026_publicado": false,
-  "propuestas": [
-    {
-      "id": "bng-ter-01",
-      "area": "territorio",
-      "texto": "Reconocer el derecho de autodeterminación y abrir un proceso constituyente hacia una República gallega.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 10",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-01",
-      "area": "economia",
-      "texto": "Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 11",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-eco-02",
-      "area": "economia",
-      "texto": "Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 11",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-03",
-      "area": "economia",
-      "texto": "IRPF más progresivo, con menor gravamen a las rentas del trabajo que a las del capital y tarifas deflactadas según la inflación gallega.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 39",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-04",
-      "area": "economia",
-      "texto": "Que tributen en Galicia por Sociedades las empresas que operan allí aunque tengan la sede fuera.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 39-40",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-05",
-      "area": "economia",
-      "texto": "Rebaja permanente del IVA en alimentación básica, productos del mar e higiene y tipo superreducido para bienes culturales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 40",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-06",
-      "area": "economia",
-      "texto": "IVA del 5 % para electricidad, gas, biomasa y leña, y rebaja del impuesto eléctrico del 5,1 % al 0,5 %.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 40",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-07",
-      "area": "economia",
-      "texto": "Mantener y reforzar los gravámenes a la banca, las grandes energéticas y las grandes fortunas, con gestión transferida a Galicia.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 40-41",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-eco-08",
-      "area": "economia",
-      "texto": "Prohibir ayudas públicas a empresas con sociedades sin actividad real en paraísos fiscales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 41",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-emp-01",
-      "area": "empleo",
-      "texto": "Derogar la reforma laboral de 2021 y recuperar la indemnización de 45 días por despido improcedente y los salarios de tramitación.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 16",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-emp-02",
-      "area": "empleo",
-      "texto": "Jornada máxima de 35 horas semanales sin reducción salarial.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 16",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-emp-03",
-      "area": "empleo",
-      "texto": "Salario mínimo interprofesional equivalente al 60 % del salario medio.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 16",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-emp-04",
-      "area": "empleo",
-      "texto": "Prevalencia de los convenios gallegos o provinciales sobre los estatales y un marco gallego de relaciones laborales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 11, 16-17",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-emp-05",
-      "area": "empleo",
-      "texto": "Eliminar las empresas de trabajo temporal, la subcontratación en cadena y los falsos autónomos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 17",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-pen-01",
-      "area": "pensiones",
-      "texto": "Pensiones mínimas equivalentes al 60 % del salario medio y revalorización anual con el IPC real.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 17-18",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-pen-02",
-      "area": "pensiones",
-      "texto": "Recuperar la jubilación ordinaria a los 65 años y la parcial a los 61.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 18",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-pen-03",
-      "area": "pensiones",
-      "texto": "Calcular la base reguladora con los 10 años que elija el beneficiario y financiar el sistema también con impuestos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 18",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-pen-04",
-      "area": "pensiones",
-      "texto": "Coeficientes reductores de la edad de jubilación para el sector naval, pesquero y marisquero.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 18",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-viv-01",
-      "area": "vivienda",
-      "texto": "Elevar la inversión pública en vivienda hasta 250 euros por habitante.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 15",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-viv-02",
-      "area": "vivienda",
-      "texto": "Traspasar gratuitamente a Galicia los activos de la Sareb para crear una bolsa de vivienda pública.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 13, 15",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-viv-03",
-      "area": "vivienda",
-      "texto": "Ampliar el recargo del IBI sobre la vivienda vacía y alargar la duración de los contratos de alquiler.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 15",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-san-01",
-      "area": "sanidad",
-      "texto": "Financiación sanitaria hasta la media europea por habitante y gestión exclusivamente pública mediante la reforma de la Ley 15/97.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 35",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-san-02",
-      "area": "sanidad",
-      "texto": "Eliminar los copagos farmacéuticos e incluir odontología, logopedia y ortoprótesis en la cartera pública.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 36",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-san-03",
-      "area": "sanidad",
-      "texto": "Transferir a Galicia la formación MIR, EIR y PIR con más plazas.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 36",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-edu-01",
-      "area": "educacion",
-      "texto": "Educación pública y gratuita de 0 a 18 años, obligatoria de 3 a 18, y una Ley gallega de Educación con todas las competencias.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 32-33",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-edu-02",
-      "area": "educacion",
-      "texto": "Eliminar progresivamente los conciertos educativos, empezando por los centros que segregan por sexo.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 33",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-edu-03",
-      "area": "educacion",
-      "texto": "Sacar la religión del currículo y renegociar el concordato con la Santa Sede.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 33",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-edu-04",
-      "area": "educacion",
-      "texto": "Destinar el 7 % del PIB a educación y el 1,5 % a las universidades públicas.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 34",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ene-01",
-      "area": "energia",
-      "texto": "Tarifa eléctrica gallega con menores peajes por ser Galicia productora excedentaria de electricidad.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 48",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-ene-02",
-      "area": "energia",
-      "texto": "Transferir a Galicia la planificación energética, redes y distribución, y la autorización de instalaciones de más de 50 MW.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 49",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ene-03",
-      "area": "energia",
-      "texto": "Retirar los planes de ordenación del espacio marítimo y declarar el litoral gallego no apto para la eólica marina.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 49",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ene-04",
-      "area": "energia",
-      "texto": "Recuperar las concesiones de embalses para crear una empresa pública gallega de energía.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 50",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ter-02",
-      "area": "territorio",
-      "texto": "Traspaso y gratuidad de la AP-9 y la AP-53, y transferencia de puertos, aeropuertos, costas, ferrocarril y salvamento marítimo.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 12",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "bng-ter-03",
-      "area": "territorio",
-      "texto": "Ley de transferencia de la titularidad de la AP-9 a Galicia, pactada con PSOE y Sumar y aprobada en el Congreso.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "El Salto, 25-06-2026",
-        "url": "https://www.elsaltodiario.com/galicia/congreso-aprueba-ley-transferir-ap-9-xunta-galicia-pacto-bng-psoe-sumar",
-        "fecha": "2026-06-25"
-      }
-    },
-    {
-      "id": "bng-ter-04",
-      "area": "territorio",
-      "texto": "Servicio de cercanías ferroviarias en Galicia (al menos Vigo-Pontevedra y A Coruña-Ferrol) antes de 2027 y AVE Vigo-Oporto.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Néstor Rego en Vigo (Europa Press/VigoÉ)",
-        "url": "https://www.vigoe.es/?p=574306",
-        "fecha": "2024-12-04"
-      }
-    },
-    {
-      "id": "bng-ins-01",
-      "area": "instituciones",
-      "texto": "Derogar la Ley Mordaza y la prisión permanente revisable.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 27",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ins-02",
-      "area": "instituciones",
-      "texto": "Reforma electoral con Galicia como circunscripción única y supresión de las diputaciones provinciales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 29-31",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ins-03",
-      "area": "instituciones",
-      "texto": "Inhabilitar para cargo público a quien cometa fraude fiscal o use paraísos fiscales.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 30",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-igu-01",
-      "area": "igualdad",
-      "texto": "Tipificar el feminicidio, crear un estatuto de víctima y juzgados exclusivos de violencia machista en cinco ciudades gallegas.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 22",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-igu-02",
-      "area": "igualdad",
-      "texto": "Oponerse a la gestación subrogada y avanzar hacia la abolición de la prostitución persiguiendo el proxenetismo.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 23",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-igu-03",
-      "area": "igualdad",
-      "texto": "Exigir que el Estado financie el 50 % de la dependencia y salde una deuda con Galicia superior a 2.000 millones.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 19",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-igu-04",
-      "area": "igualdad",
-      "texto": "Transferir el Ingreso Mínimo Vital y crear una renta gallega de inclusión.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 14",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-inm-01",
-      "area": "inmigracion",
-      "texto": "Cerrar los centros de internamiento de extranjeros (CIE) y acabar con las deportaciones.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 20",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-seg-01",
-      "area": "seguridad",
-      "texto": "Oponerse al aumento del gasto militar y destinar esos recursos a servicios públicos.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 6",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-ext-01",
-      "area": "exterior",
-      "texto": "Rechazar el apoyo oficial a la propuesta marroquí de autonomía para el Sáhara Occidental.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 5",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-rur-01",
-      "area": "rural",
-      "texto": "Reformar la Ley de la Cadena Alimentaria para prohibir efectivamente la venta por debajo de costes.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 43",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-rur-02",
-      "area": "rural",
-      "texto": "Negociación directa de Galicia en los acuerdos pesqueros y exención de TAC y cuotas para la pesca artesanal.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 43-44",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-rur-03",
-      "area": "rural",
-      "texto": "Plan de industrialización prioritario para Ferrol y Vigo, Navantia-Ferrol como complejo integral e intervención pública de Alcoa San Cibrao.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 42",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-tec-01",
-      "area": "tecnologia",
-      "texto": "Elevar la inversión estatal en I+D+i al 3 % del PIB en 2030 y transferir a Galicia los centros del CSIC y del IEO.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 45-46",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    },
-    {
-      "id": "bng-tec-02",
-      "area": "tecnologia",
-      "texto": "Gestión directa desde Galicia de los fondos europeos, repartidos según dispersión, envejecimiento y déficit inversor.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa BNG Xerais 2023, p. 46-47",
-        "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
-        "fecha": "2023-07"
-      }
-    }
-  ],
-  "criticas": {
-    "economica": [
-      {
-        "titulo": "Concierto económico y solidaridad interterritorial",
-        "texto": "Fedea señala que los sistemas de concierto sitúan a las comunidades forales con una financiación por habitante cercana al doble de la media de régimen común, y advierte de que descentralizar la gestión de todos los tributos fragmentaría la administración fiscal y reduciría la capacidad del Estado para financiar sus competencias. Generalizarlo a Galicia, receptora neta, podría reducir sus propios recursos si el cupo se calculara sin nivelación.",
-        "sobre": [
-          "bng-eco-01",
-          "bng-eco-02"
-        ],
-        "fuente": {
-          "nombre": "Fedea, ¿Quién debe gestionar los tributos en España? (2025)",
-          "url": "https://fedea.net/quien-debe-gestionar-los-tributos-en-espana/"
-        }
-      },
-      {
-        "titulo": "Pensiones: más gasto en un sistema desequilibrado",
-        "texto": "Un estudio actuarial publicado por Fedea calcula que las pensiones comprometidas superan en torno a un 25 % a las cotizaciones en valor presente. Bajar la edad ordinaria a 65 años, elevar las mínimas al 60 % del salario medio y acortar el periodo de cálculo aumentarían el gasto sin una fuente de financiación cuantificada.",
-        "sobre": [
-          "bng-pen-01",
-          "bng-pen-02",
-          "bng-pen-03"
-        ],
-        "fuente": {
-          "nombre": "Devesa et al., Fedea, Una visión actuarial del sistema de pensiones (2025)",
-          "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
-        }
-      },
-      {
-        "titulo": "Jornada de 35 horas por ley",
-        "texto": "Conde-Ruiz y Lahera (Fedea) advierten de que reducir la jornada por ley sin ajustar salarios eleva los costes laborales unitarios de la mayoría de empresas, con posibles efectos sobre empleo y competitividad, y recomiendan hacerlo vía negociación colectiva y con transiciones largas.",
-        "sobre": [
-          "bng-emp-02"
-        ],
-        "fuente": {
-          "nombre": "Fedea, ¿Cómo reducir la jornada laboral? (2024)",
-          "url": "https://fedea.net/como-reducir-la-jornada-laboral/"
-        }
-      }
-    ],
-    "social": [
-      {
-        "titulo": "Fin de los conciertos y libertad de elección",
-        "texto": "La eliminación progresiva de los conciertos afectaría a las familias que eligen centros concertados y obligaría a absorber ese alumnado en la red pública, con un coste de plazas y personal que el programa no cuantifica.",
-        "sobre": [
-          "bng-edu-02"
-        ],
-        "fuente": {
-          "nombre": "Argumento de política educativa; art. 27 CE sobre libertad de enseñanza"
-        }
-      },
-      {
-        "titulo": "Fin de las deportaciones",
-        "texto": "Cerrar los CIE y suprimir las deportaciones eliminaría el principal instrumento para ejecutar las órdenes de expulsión previstas en la normativa española y europea de retorno, lo que plantea problemas de cumplimiento del marco comunitario.",
-        "sobre": [
-          "bng-inm-01"
-        ],
-        "fuente": {
-          "nombre": "Directiva 2008/115/CE de retorno",
-          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008L0115"
-        }
-      }
-    ],
-    "cultural": [
-      {
-        "titulo": "Autodeterminación y marco constitucional",
-        "texto": "El derecho de autodeterminación y un proceso constituyente gallego no tienen cabida en la Constitución, que fundamenta la soberanía en el conjunto del pueblo español; requerirían una reforma constitucional agravada.",
-        "sobre": [
-          "bng-ter-01"
-        ],
-        "fuente": {
-          "nombre": "Constitución Española, arts. 1.2, 2 y 168",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-        }
-      },
-      {
-        "titulo": "Eólica marina y transición energética",
-        "texto": "Declarar todo el litoral no apto para la eólica marina y oponerse a los planes de ordenación marítima podría dificultar el cumplimiento de los objetivos de renovables del PNIEC, en una comunidad con alto recurso eólico.",
-        "sobre": [
-          "bng-ene-03"
-        ],
-        "fuente": {
-          "nombre": "Plan Nacional Integrado de Energía y Clima 2023-2030",
-          "url": "https://www.miteco.gob.es/es/energia/estrategia-normativa/pniec-23-30.html"
-        }
-      }
-    ]
+ "id": "bng",
+ "nombre": "Bloque Nacionalista Galego",
+ "siglas": "BNG",
+ "concurre": true,
+ "candidato": "Pendiente de confirmar a 21-10-2026 (Néstor Rego, diputado desde 2019, ha sido su cabeza de lista por A Coruña)",
+ "ideologia": "Nacionalismo gallego de izquierdas",
+ "ambito": "Galicia",
+ "color": "#6AADE4",
+ "web": "https://www.bng.gal/",
+ "escanos_2023": 1,
+ "resumen": "Frente nacionalista gallego de izquierdas, segunda fuerza en el Parlamento de Galicia, que concurre en solitario en las cuatro provincias gallegas con el lema «más derechos y menos derechas». Su programa prioriza el autogobierno y la soberanía fiscal de Galicia, el traspaso de la AP-9 y una tarifa eléctrica gallega, y la ampliación de derechos laborales y servicios públicos.",
+ "fuentes_programa": [
+  {
+   "titulo": "Programa BNG Eleccións Xerais 2023",
+   "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+   "fecha": "2023-07"
   },
-  "mentiras": [],
-  "actualizado": "2026-10-21"
+  {
+   "titulo": "El BNG se declara listo para el 29N (Moncloa.com)",
+   "url": "https://www.moncloa.com/2026/10/05/bng-elecciones-generales-29n-rego-3442795/",
+   "fecha": "2026-10-05"
+  },
+  {
+   "titulo": "Listas de la izquierda para el 29N: el BNG concurre con candidatura propia (Infobae)",
+   "url": "https://www.infobae.com/espana/2026/10/17/asi-quedan-los-acuerdos-de-la-izquierda-para-las-elecciones-generales-del-29-n-estas-son-las-listas-a-la-izquierda-del-psoe-en-cada-comunidad-autonoma/",
+   "fecha": "2026-10-17"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "bng-ter-01",
+   "area": "territorio",
+   "texto": "Reconocer el derecho de autodeterminación y abrir un proceso constituyente hacia una República gallega.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 10",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-01",
+   "area": "economia",
+   "texto": "Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 11",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-eco-02",
+   "area": "economia",
+   "texto": "Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 11",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-03",
+   "area": "economia",
+   "texto": "IRPF más progresivo, con menor gravamen a las rentas del trabajo que a las del capital y tarifas deflactadas según la inflación gallega.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 39",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-04",
+   "area": "economia",
+   "texto": "Que tributen en Galicia por Sociedades las empresas que operan allí aunque tengan la sede fuera.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 39-40",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-05",
+   "area": "economia",
+   "texto": "Rebaja permanente del IVA en alimentación básica, productos del mar e higiene y tipo superreducido para bienes culturales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 40",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-06",
+   "area": "economia",
+   "texto": "IVA del 5 % para electricidad, gas, biomasa y leña, y rebaja del impuesto eléctrico del 5,1 % al 0,5 %.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 40",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-07",
+   "area": "economia",
+   "texto": "Mantener y reforzar los gravámenes a la banca, las grandes energéticas y las grandes fortunas, con gestión transferida a Galicia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 40-41",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-eco-08",
+   "area": "economia",
+   "texto": "Prohibir ayudas públicas a empresas con sociedades sin actividad real en paraísos fiscales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 41",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-emp-01",
+   "area": "empleo",
+   "texto": "Derogar la reforma laboral de 2021 y recuperar la indemnización de 45 días por despido improcedente y los salarios de tramitación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 16",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-emp-02",
+   "area": "empleo",
+   "texto": "Jornada máxima de 35 horas semanales sin reducción salarial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 16",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-emp-03",
+   "area": "empleo",
+   "texto": "Salario mínimo interprofesional equivalente al 60 % del salario medio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 16",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-emp-04",
+   "area": "empleo",
+   "texto": "Prevalencia de los convenios gallegos o provinciales sobre los estatales y un marco gallego de relaciones laborales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 11, 16-17",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-emp-05",
+   "area": "empleo",
+   "texto": "Eliminar las empresas de trabajo temporal, la subcontratación en cadena y los falsos autónomos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 17",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-pen-01",
+   "area": "pensiones",
+   "texto": "Pensiones mínimas equivalentes al 60 % del salario medio y revalorización anual con el IPC real.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 17-18",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-pen-02",
+   "area": "pensiones",
+   "texto": "Recuperar la jubilación ordinaria a los 65 años y la parcial a los 61.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 18",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-pen-03",
+   "area": "pensiones",
+   "texto": "Calcular la base reguladora con los 10 años que elija el beneficiario y financiar el sistema también con impuestos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 18",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-pen-04",
+   "area": "pensiones",
+   "texto": "Coeficientes reductores de la edad de jubilación para el sector naval, pesquero y marisquero.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 18",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-viv-01",
+   "area": "vivienda",
+   "texto": "Elevar la inversión pública en vivienda hasta 250 euros por habitante.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 15",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-viv-02",
+   "area": "vivienda",
+   "texto": "Traspasar gratuitamente a Galicia los activos de la Sareb para crear una bolsa de vivienda pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 13, 15",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-viv-03",
+   "area": "vivienda",
+   "texto": "Ampliar el recargo del IBI sobre la vivienda vacía y alargar la duración de los contratos de alquiler.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 15",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-san-01",
+   "area": "sanidad",
+   "texto": "Financiación sanitaria hasta la media europea por habitante y gestión exclusivamente pública mediante la reforma de la Ley 15/97.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 35",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-san-02",
+   "area": "sanidad",
+   "texto": "Eliminar los copagos farmacéuticos e incluir odontología, logopedia y ortoprótesis en la cartera pública.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 36",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-san-03",
+   "area": "sanidad",
+   "texto": "Transferir a Galicia la formación MIR, EIR y PIR con más plazas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 36",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-edu-01",
+   "area": "educacion",
+   "texto": "Educación pública y gratuita de 0 a 18 años, obligatoria de 3 a 18, y una Ley gallega de Educación con todas las competencias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 32-33",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-edu-02",
+   "area": "educacion",
+   "texto": "Eliminar progresivamente los conciertos educativos, empezando por los centros que segregan por sexo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 33",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-edu-03",
+   "area": "educacion",
+   "texto": "Sacar la religión del currículo y renegociar el concordato con la Santa Sede.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 33",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-edu-04",
+   "area": "educacion",
+   "texto": "Destinar el 7 % del PIB a educación y el 1,5 % a las universidades públicas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 34",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ene-01",
+   "area": "energia",
+   "texto": "Tarifa eléctrica gallega con menores peajes por ser Galicia productora excedentaria de electricidad.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 48",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-ene-02",
+   "area": "energia",
+   "texto": "Transferir a Galicia la planificación energética, redes y distribución, y la autorización de instalaciones de más de 50 MW.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 49",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ene-03",
+   "area": "energia",
+   "texto": "Retirar los planes de ordenación del espacio marítimo y declarar el litoral gallego no apto para la eólica marina.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 49",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ene-04",
+   "area": "energia",
+   "texto": "Recuperar las concesiones de embalses para crear una empresa pública gallega de energía.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 50",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ter-02",
+   "area": "territorio",
+   "texto": "Traspaso y gratuidad de la AP-9 y la AP-53, y transferencia de puertos, aeropuertos, costas, ferrocarril y salvamento marítimo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 12",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-ter-03",
+   "area": "territorio",
+   "texto": "Ley de transferencia de la titularidad de la AP-9 a Galicia, pactada con PSOE y Sumar y aprobada en el Congreso.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "El Salto, 25-06-2026",
+    "url": "https://www.elsaltodiario.com/galicia/congreso-aprueba-ley-transferir-ap-9-xunta-galicia-pacto-bng-psoe-sumar",
+    "fecha": "2026-06-25"
+   }
+  },
+  {
+   "id": "bng-ter-04",
+   "area": "territorio",
+   "texto": "Servicio de cercanías ferroviarias en Galicia (al menos Vigo-Pontevedra y A Coruña-Ferrol) antes de 2027 y AVE Vigo-Oporto.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Néstor Rego en Vigo (Europa Press/VigoÉ)",
+    "url": "https://www.vigoe.es/?p=574306",
+    "fecha": "2024-12-04"
+   }
+  },
+  {
+   "id": "bng-ins-01",
+   "area": "instituciones",
+   "texto": "Derogar la Ley Mordaza y la prisión permanente revisable.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 27",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ins-02",
+   "area": "instituciones",
+   "texto": "Reforma electoral con Galicia como circunscripción única y supresión de las diputaciones provinciales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 29-31",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ins-03",
+   "area": "instituciones",
+   "texto": "Inhabilitar para cargo público a quien cometa fraude fiscal o use paraísos fiscales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 30",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-igu-01",
+   "area": "igualdad",
+   "texto": "Tipificar el feminicidio, crear un estatuto de víctima y juzgados exclusivos de violencia machista en cinco ciudades gallegas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 22",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-igu-02",
+   "area": "igualdad",
+   "texto": "Oponerse a la gestación subrogada y avanzar hacia la abolición de la prostitución persiguiendo el proxenetismo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 23",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-igu-03",
+   "area": "igualdad",
+   "texto": "Exigir que el Estado financie el 50 % de la dependencia y salde una deuda con Galicia superior a 2.000 millones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 19",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-igu-04",
+   "area": "igualdad",
+   "texto": "Transferir el Ingreso Mínimo Vital y crear una renta gallega de inclusión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 14",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-inm-01",
+   "area": "inmigracion",
+   "texto": "Cerrar los centros de internamiento de extranjeros (CIE) y acabar con las deportaciones.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 20",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-seg-01",
+   "area": "seguridad",
+   "texto": "Oponerse al aumento del gasto militar y destinar esos recursos a servicios públicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 6",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-ext-01",
+   "area": "exterior",
+   "texto": "Rechazar el apoyo oficial a la propuesta marroquí de autonomía para el Sáhara Occidental.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 5",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-rur-01",
+   "area": "rural",
+   "texto": "Reformar la Ley de la Cadena Alimentaria para prohibir efectivamente la venta por debajo de costes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 43",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-rur-02",
+   "area": "rural",
+   "texto": "Negociación directa de Galicia en los acuerdos pesqueros y exención de TAC y cuotas para la pesca artesanal.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 43-44",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-rur-03",
+   "area": "rural",
+   "texto": "Plan de industrialización prioritario para Ferrol y Vigo, Navantia-Ferrol como complejo integral e intervención pública de Alcoa San Cibrao.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 42",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-tec-01",
+   "area": "tecnologia",
+   "texto": "Elevar la inversión estatal en I+D+i al 3 % del PIB en 2030 y transferir a Galicia los centros del CSIC y del IEO.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 45-46",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "bng-tec-02",
+   "area": "tecnologia",
+   "texto": "Gestión directa desde Galicia de los fondos europeos, repartidos según dispersión, envejecimiento y déficit inversor.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa BNG Xerais 2023, p. 46-47",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
+    "fecha": "2023-07"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Concierto económico y solidaridad interterritorial",
+    "texto": "Fedea señala que los sistemas de concierto sitúan a las comunidades forales con una financiación por habitante cercana al doble de la media de régimen común, y advierte de que descentralizar la gestión de todos los tributos fragmentaría la administración fiscal y reduciría la capacidad del Estado para financiar sus competencias. Generalizarlo a Galicia, receptora neta, podría reducir sus propios recursos si el cupo se calculara sin nivelación.",
+    "sobre": [
+     "bng-eco-01",
+     "bng-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Fedea, ¿Quién debe gestionar los tributos en España? (2025)",
+     "url": "https://fedea.net/quien-debe-gestionar-los-tributos-en-espana/"
+    }
+   },
+   {
+    "titulo": "Pensiones: más gasto en un sistema desequilibrado",
+    "texto": "Un estudio actuarial publicado por Fedea calcula que las pensiones comprometidas superan en torno a un 25 % a las cotizaciones en valor presente. Bajar la edad ordinaria a 65 años, elevar las mínimas al 60 % del salario medio y acortar el periodo de cálculo aumentarían el gasto sin una fuente de financiación cuantificada.",
+    "sobre": [
+     "bng-pen-01",
+     "bng-pen-02",
+     "bng-pen-03"
+    ],
+    "fuente": {
+     "nombre": "Devesa et al., Fedea, Una visión actuarial del sistema de pensiones (2025)",
+     "url": "https://fedea.net/una-vision-actuarial-del-sistema-de-pensiones-de-jubilacion-espanol/"
+    }
+   },
+   {
+    "titulo": "Jornada de 35 horas por ley",
+    "texto": "Conde-Ruiz y Lahera (Fedea) advierten de que reducir la jornada por ley sin ajustar salarios eleva los costes laborales unitarios de la mayoría de empresas, con posibles efectos sobre empleo y competitividad, y recomiendan hacerlo vía negociación colectiva y con transiciones largas.",
+    "sobre": [
+     "bng-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Fedea, ¿Cómo reducir la jornada laboral? (2024)",
+     "url": "https://fedea.net/como-reducir-la-jornada-laboral/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Fin de los conciertos y libertad de elección",
+    "texto": "La eliminación progresiva de los conciertos afectaría a las familias que eligen centros concertados y obligaría a absorber ese alumnado en la red pública, con un coste de plazas y personal que el programa no cuantifica.",
+    "sobre": [
+     "bng-edu-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de política educativa; art. 27 CE sobre libertad de enseñanza"
+    }
+   },
+   {
+    "titulo": "Fin de las deportaciones",
+    "texto": "Cerrar los CIE y suprimir las deportaciones eliminaría el principal instrumento para ejecutar las órdenes de expulsión previstas en la normativa española y europea de retorno, lo que plantea problemas de cumplimiento del marco comunitario.",
+    "sobre": [
+     "bng-inm-01"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2008/115/CE de retorno",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008L0115"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Autodeterminación y marco constitucional",
+    "texto": "El derecho de autodeterminación y un proceso constituyente gallego no tienen cabida en la Constitución, que fundamenta la soberanía en el conjunto del pueblo español; requerirían una reforma constitucional agravada.",
+    "sobre": [
+     "bng-ter-01"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, arts. 1.2, 2 y 168",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   },
+   {
+    "titulo": "Eólica marina y transición energética",
+    "texto": "Declarar todo el litoral no apto para la eólica marina y oponerse a los planes de ordenación marítima podría dificultar el cumplimiento de los objetivos de renovables del PNIEC, en una comunidad con alto recurso eólico.",
+    "sobre": [
+     "bng-ene-03"
+    ],
+    "fuente": {
+     "nombre": "Plan Nacional Integrado de Energía y Clima 2023-2030",
+     "url": "https://www.miteco.gob.es/es/energia/estrategia-normativa/pniec-23-30.html"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21",
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "A Coruña",
+  "Lugo",
+  "Ourense",
+  "Pontevedra"
+ ],
+ "estado_fuente": {
+  "nombre": "GC Diario, candidaturas en Galicia",
+  "url": "https://gcdiario.com/politica/611458-29n-un-total-de-13-partidos-se-presentan-en-galicia-ocho-en-las-cuatro-provincias-con-40-listas-al-congreso/",
+  "fecha": "2026-10-28"
+ }
 }

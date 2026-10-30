@@ -1,0 +1,680 @@
+{
+ "id": "alhora",
+ "nombre": "Alhora",
+ "siglas": "Alhora",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Jordi Graupera (cabeza de lista por Barcelona y presidente de Alhora)",
+ "ambito": "Cataluña",
+ "color": "#D1145A",
+ "color_aproximado": true,
+ "web": "https://alhora.cat",
+ "escanos_2023": 0,
+ "resumen": "Partido independentista catalán fundado en abril de 2024 por Jordi Graupera y Clara Ponsatí, que obtuvo el 0,45% en las autonómicas de 2024 y se presenta por primera vez al Congreso con el lema «Fora Espanya» para «bloquear la política española». Su programa de 2024 prioriza el catalán con una doble red escolar, alejarse del «monocultivo turístico», las renovables, las listas abiertas y una declaración de independencia sostenida con movilización.",
+ "fuentes_programa": [
+  {
+   "titulo": "Programa Parlament 2024, «Abordem 6 emergències nacionals» (web oficial)",
+   "url": "https://alhora.cat/programa-12052024/",
+   "fecha": "2024-04"
+  },
+  {
+   "titulo": "VilaWeb, resumen del programa de Alhora para el 12-M",
+   "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+   "fecha": "2024-05-03"
+  },
+  {
+   "titulo": "Crónica Global, candidatura «Fora Espanya» al Congreso",
+   "url": "https://www.cronicaglobal.cat/politica/20261026/graupera-presentara-eleccions-congres-candidatura-espanya/1003742806207_0.html",
+   "fecha": "2026-10-26"
+  },
+  {
+   "titulo": "Catalunya Ràdio, entrevista a Jordi Graupera",
+   "url": "https://www.3cat.cat/3cat/jordi-graupera-si-alhora-arriba-al-congres-votariem-que-no-a-tot/audio/1295514/",
+   "fecha": "2026-10-27"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Presentada",
+ "estado_fuente": {
+  "nombre": "Nació Digital, 28-10-2026: listas de Alhora en las elecciones del 29-N (listas provisionales publicadas en el BOE)",
+  "url": "https://naciodigital.cat/politica/llistes-dalhora-a-les-eleccions-espanyoles-del-29-n-qui-acompanya-jordi-graupera.html",
+  "fecha": "2026-10-28"
+ },
+ "circunscripciones": [
+  "Barcelona",
+  "Girona",
+  "Lleida",
+  "Tarragona"
+ ],
+ "referencia_voto": {
+  "eleccion": "Autonómicas Cataluña 2024",
+  "porcentaje": 0.45,
+  "ambito": "Cataluña",
+  "fuente": {
+   "nombre": "Wikipedia, «2024 Catalan regional election» (14.104 votos)",
+   "url": "https://en.wikipedia.org/wiki/2024_Catalan_regional_election"
+  },
+  "nota": "Nunca se ha presentado a unas generales. Cabezas de lista para el 29N: Jordi Graupera (Barcelona), Júlia Ojeda (Girona), Cristina Casol (Lleida) y Miquel Bonet (Tarragona)."
+ },
+ "propuestas": [
+  {
+   "id": "alhora-ter-01",
+   "area": "territorio",
+   "texto": "Presentarse al Congreso con el lema «Fora Espanya» para «bloquear la política española» y «evitar que el poder lo ocupen otros».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Crónica Global, 26-10-2026: Graupera se presentará al Congreso con la candidatura «Fora Espanya»",
+    "url": "https://www.cronicaglobal.cat/politica/20261026/graupera-presentara-eleccions-congres-candidatura-espanya/1003742806207_0.html",
+    "fecha": "2026-10-26"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-ter-02",
+   "area": "territorio",
+   "texto": "Votar «no a todo» en el Congreso, sin acuerdos con PSOE ni PP, y forzar elecciones si es necesario.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Catalunya Ràdio (3Cat), 27-10-2026: entrevista a Jordi Graupera, «Votaríem que no a tot»",
+    "url": "https://www.3cat.cat/3cat/jordi-graupera-si-alhora-arriba-al-congres-votariem-que-no-a-tot/audio/1295514/",
+    "fecha": "2026-10-27"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-ter-03",
+   "area": "territorio",
+   "texto": "Considerar insuficiente el traspaso de Rodalies y rechazar que la empresa mixta pase a tener un 51% del Estado en lugar de un 51% de la Generalitat.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Catalunya Ràdio (3Cat), 27-10-2026: entrevista a Jordi Graupera, «Votaríem que no a tot»",
+    "url": "https://www.3cat.cat/3cat/jordi-graupera-si-alhora-arriba-al-congres-votariem-que-no-a-tot/audio/1295514/",
+    "fecha": "2026-10-27"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-deu-01",
+   "area": "deuda",
+   "texto": "Rechazar la condonación de la deuda del FLA, que considera un retorno de dinero de Cataluña, y denunciar que el déficit fiscal catalán no se ha reducido.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Catalunya Ràdio (3Cat), 27-10-2026: entrevista a Jordi Graupera, «Votaríem que no a tot»",
+    "url": "https://www.3cat.cat/3cat/jordi-graupera-si-alhora-arriba-al-congres-votariem-que-no-a-tot/audio/1295514/",
+    "fecha": "2026-10-27"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ter-04",
+   "area": "territorio",
+   "texto": "Construir un sistema político capaz de sostener la gobernanza y el orden público tras una declaración de independencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-ter-05",
+   "area": "territorio",
+   "texto": "Impulsar una movilización popular de entre 200.000 y 300.000 personas para resistir el tiempo necesario hasta negociar reconocimientos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ter-06",
+   "area": "territorio",
+   "texto": "Prever qué funcionarios dirigirán el proceso, hacer del orden público «un pilar fundamental» y anticipar escenarios de escalada de amenazas y «pequeños focos de violencia».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ext-01",
+   "area": "exterior",
+   "texto": "Establecer contactos abiertos con gobiernos extranjeros dentro de su estrategia de independencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ins-02",
+   "area": "instituciones",
+   "texto": "Renovar los liderazgos políticos excluyendo a los responsables de la «rendición» de 2017.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ins-03",
+   "area": "instituciones",
+   "texto": "Aprobar una nueva ley electoral con listas abiertas en la que se vote nominalmente a cada candidato.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-ins-04",
+   "area": "instituciones",
+   "texto": "Elegir a los diputados por distritos en lugar de por provincias, garantizando la proporcionalidad entre votos y escaños.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ins-05",
+   "area": "instituciones",
+   "texto": "Permitir que cada elector vote a un candidato de distrito y, a la vez, a un partido distinto si lo desea.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-edu-01",
+   "area": "educacion",
+   "texto": "Crear una doble red escolar que garantice una educación 100% en catalán, pasando de entrada a un 30% de escuela inmersiva.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-edu-02",
+   "area": "educacion",
+   "texto": "Evaluar externamente el nivel de catalán en la escuela no inmersiva y obligar a cambiar el plan lingüístico del centro si no se alcanza.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-edu-03",
+   "area": "educacion",
+   "texto": "Formar 5.000 nuevos profesores de catalán en los próximos diez años.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-edu-04",
+   "area": "educacion",
+   "texto": "Ofrecer becas-salario, inserción laboral garantizada y una vía rápida para que estudiantes de otras disciplinas se hagan maestros de catalán.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 15-5-2025: Alhora sobre el Pacte Nacional per la Llengua",
+    "url": "https://www.vilaweb.cat/noticies/alhora-denuncia-pacte-llengua-vulnera-drets-catalans-subordinacio-linguistica/",
+    "fecha": "2025-05-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-edu-05",
+   "area": "educacion",
+   "texto": "Reformar el máster de profesorado y crear una carrera profesional para directores, con rendición de cuentas mediante evaluaciones externas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-cul-01",
+   "area": "cultura",
+   "texto": "Invertir 1.000 millones de euros en un plan de enseñanza del catalán para adultos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-cul-02",
+   "area": "cultura",
+   "texto": "Auditar el sistema de acreditaciones de catalán y sustituir la obtención automática del C1 al final de la secundaria por otras pruebas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-cul-03",
+   "area": "cultura",
+   "texto": "Eliminar el uso del castellano en TV3 y Catalunya Ràdio.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-cul-04",
+   "area": "cultura",
+   "texto": "Dejar de subvencionar el «espanyolisme cultural».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-cul-05",
+   "area": "cultura",
+   "texto": "Dejar de firmar contratos públicos con empresas que no respeten la lengua catalana.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-cul-06",
+   "area": "cultura",
+   "texto": "Condicionar cualquier pacto de gobierno municipal a crear una concejalía de lengua con el 10% del presupuesto.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 28-6-2025: II congreso de Alhora",
+    "url": "https://www.vilaweb.cat/noticies/alhora-direccio-graupera-municipals/",
+    "fecha": "2025-06-28"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-inm-01",
+   "area": "inmigracion",
+   "texto": "Ofrecer formación catalanizadora remunerada a las personas inmigrantes, con cursos intensivos de inmersión y ayudas económicas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 15-5-2025: Alhora sobre el Pacte Nacional per la Llengua",
+    "url": "https://www.vilaweb.cat/noticies/alhora-denuncia-pacte-llengua-vulnera-drets-catalans-subordinacio-linguistica/",
+    "fecha": "2025-05-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-inm-02",
+   "area": "inmigracion",
+   "texto": "Aprobar leyes e incentivos para que empresas y trabajadores de la Administración puedan comunicarse en catalán, y que ese uso sea requisito para acceder a empleos públicos y servicios.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 15-5-2025: Alhora sobre el Pacte Nacional per la Llengua",
+    "url": "https://www.vilaweb.cat/noticies/alhora-denuncia-pacte-llengua-vulnera-drets-catalans-subordinacio-linguistica/",
+    "fecha": "2025-05-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-eco-01",
+   "area": "economia",
+   "texto": "Oponerse a los macroproyectos Hard Rock y Juegos Olímpicos de invierno.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-eco-02",
+   "area": "economia",
+   "texto": "Multiplicar la tasa turística para alejarse del «monocultivo turístico».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-eco-04",
+   "area": "economia",
+   "texto": "Destinar la tasa turística a educación en lugar de a promoción turística.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 6-5-2024: entrevista a Clara Ponsatí (cabeza de lista de Alhora en 2024)",
+    "url": "https://www.vilaweb.cat/noticies/entrevista-clara-ponsati-alhora-eleccions-catalunya-confrontar-espanya/",
+    "fecha": "2024-05-06"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-eco-03",
+   "area": "economia",
+   "texto": "Revisar el impuesto sobre el patrimonio para que no perjudique a la clase media.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-tec-01",
+   "area": "tecnologia",
+   "texto": "Coordinar inversión pública, subvenciones y fiscalidad a favor de la economía del conocimiento y fomentar la colaboración público-privada en I+D.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ter-07",
+   "area": "territorio",
+   "texto": "Traspasar a la Generalitat la titularidad completa de las infraestructuras ferroviarias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ter-08",
+   "area": "territorio",
+   "texto": "Crear una tarjeta única de transporte integrada para toda Cataluña, sin sistema de zonas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ter-09",
+   "area": "territorio",
+   "texto": "Dejar de construir autopistas y conectar el país mediante el tren.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-viv-01",
+   "area": "vivienda",
+   "texto": "Restringir las licencias de viviendas de uso turístico y endurecer las condiciones de renovación.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-viv-02",
+   "area": "vivienda",
+   "texto": "Reformar la ley del 30% de vivienda protegida para dar apoyo financiero a los promotores, y que las viviendas acabadas pasen a ser de propiedad pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-viv-03",
+   "area": "vivienda",
+   "texto": "Apoyar a los propietarios que rehabiliten edificios antiguos a cambio de un alquiler regulado.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-viv-04",
+   "area": "vivienda",
+   "texto": "Penalizar en el impuesto de transmisiones patrimoniales las compraventas de no residentes de menos de dos años en zonas de alta presión especulativa.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ene-01",
+   "area": "energia",
+   "texto": "Aprobar un plan urgente de energías renovables basado en un mapa de capacidad del territorio y acelerar su tramitación administrativa.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Alhora, «Abordem 6 emergències nacionals», programa Parlament 2024 (web oficial)",
+    "url": "https://alhora.cat/programa-12052024/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "alhora-ene-02",
+   "area": "energia",
+   "texto": "Crear una autorización acelerada para proyectos solares con baterías y promover el autoconsumo industrial y doméstico.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  },
+  {
+   "id": "alhora-ene-03",
+   "area": "energia",
+   "texto": "Acelerar el plan para eliminar fugas en la red de agua e invertir en fuentes alternativas y mecanismos de emergencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "VilaWeb, 3-5-2024: resumen del programa electoral de Alhora (12-M)",
+    "url": "https://www.vilaweb.cat/noticies/alhora-programa-electoral-eleccions-catalunya-2024/",
+    "fecha": "2024-05-03"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Coste económico de la vía unilateral",
+    "texto": "Su estrategia prevé una declaración de independencia sostenida con meses de movilización, y Graupera admite que tendría costes. El precedente de 2017 da una medida de la incertidumbre: tras el 1-O, 3.139 empresas iniciaron el traslado de su sede social fuera de Cataluña según los registradores, aunque cambiar la sede no implica trasladar la actividad. El programa no estima estos costes.",
+    "sobre": [
+     "alhora-ter-04",
+     "alhora-ter-05"
+    ],
+    "fuente": {
+     "nombre": "Maldita.es, 24-12-2017 (datos del Colegio de Registradores)",
+     "url": "https://maldita.es/malditobulo/20171224/son-300-o-son-3-000-las-empresas-que-han-abandonado-cataluna/"
+    }
+   },
+   {
+    "titulo": "Tasa turística multiplicada sin cuantificar",
+    "texto": "Multiplicar la tasa y restringir licencias turísticas busca reducir la dependencia del turismo, pero el programa no fija la cuantía ni estima el efecto sobre el empleo y los ingresos de un sector con mucho peso en la economía catalana, ni cómo se compensaría a los territorios que más dependen de él.",
+    "sobre": [
+     "alhora-eco-02",
+     "alhora-viv-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de impacto sectorial; el programa no aporta cuantía ni memoria económica",
+     "url": "https://alhora.cat/programa-12052024/"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Votar «no a todo» renuncia a negociar",
+    "texto": "Votar en contra de todo supone no usar los escaños para obtener mejoras que el propio partido reclama, como en Rodalies o en financiación. Además, forzar elecciones repetidas tiene un coste para la gobernabilidad que el partido asume como objetivo.",
+    "sobre": [
+     "alhora-ter-02",
+     "alhora-ter-03",
+     "alhora-deu-01"
+    ],
+    "fuente": {
+     "nombre": "Catalunya Ràdio (3Cat), entrevista a Jordi Graupera, 27-10-2026",
+     "url": "https://www.3cat.cat/3cat/jordi-graupera-si-alhora-arriba-al-congres-votariem-que-no-a-tot/audio/1295514/"
+    }
+   },
+   {
+    "titulo": "Riesgo de separar al alumnado por lengua",
+    "texto": "Una red escolar de elección voluntaria puede acabar agrupando a los alumnos según la lengua y el origen de sus familias. En el propio congreso de Alhora se plantearon dudas sobre cómo garantizar una elección real en municipios con un solo instituto, y la propuesta no responde aún a esa cuestión.",
+    "sobre": [
+     "alhora-edu-01"
+    ],
+    "fuente": {
+     "nombre": "VilaWeb, 3-10-2026: congreso de Alhora sobre la doble red educativa",
+     "url": "https://www.vilaweb.cat/noticies/alhora-doble-xarxa-educativa-congres/"
+    }
+   },
+   {
+    "titulo": "Planificar el orden público para un escenario de conflicto",
+    "texto": "El plan anticipa «escalada de amenazas» y «pequeños focos de violencia», y Graupera habló en 2024 de meses de «movilizaciones generales» y de tomar el control del orden público para frenar a quienes se opongan a la «nueva legalidad catalana». Es una estrategia que da por asumido un conflicto con riesgos para la convivencia en una sociedad dividida sobre la independencia.",
+    "sobre": [
+     "alhora-ter-05",
+     "alhora-ter-06"
+    ],
+    "fuente": {
+     "nombre": "VilaWeb, 5-5-2024: vídeo de Jordi Graupera sobre la vía a la independencia",
+     "url": "https://www.vilaweb.cat/noticies/alhora-independencia-video/"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Retirar el castellano de los medios públicos",
+    "texto": "Según la Encuesta de usos lingüísticos de 2023, el 32,6% de la población tiene el catalán como lengua habitual y en torno a un 40% considera el castellano su lengua. Eliminar el castellano de TV3 y Catalunya Ràdio dejaría fuera de los medios públicos, que pagan todos los contribuyentes, la lengua con la que se identifica una parte grande de la población.",
+    "sobre": [
+     "alhora-cul-03"
+    ],
+    "fuente": {
+     "nombre": "3Cat, 19-2-2025: presentación de la Encuesta de usos lingüísticos de la población 2023",
+     "url": "https://www.3cat.cat/3catinfo/en-directe-presentacio-de-lenquesta-dusos-linguistics/noticia-amp/3336630/"
+    }
+   },
+   {
+    "titulo": "«Espanyolisme cultural», una categoría sin definir",
+    "texto": "El programa no define qué es el «espanyolisme cultural» ni quién lo decidiría. Retirar subvenciones según esa etiqueta deja a la Administración un margen amplio para premiar o castigar la creación cultural por su contenido.",
+    "sobre": [
+     "alhora-cul-04"
+    ],
+    "fuente": {
+     "nombre": "Alhora, programa Parlament 2024 (no define el término)",
+     "url": "https://alhora.cat/programa-12052024/"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Una preocupación seria: propone una declaración de independencia sostenida con movilización y control del orden público, una vía unilateral que el TC sitúa fuera del Estado de derecho. Se valora con el mismo criterio y la misma gravedad que la autodeterminación de ERC y Junts. La independencia como aspiración es legítima si se persigue por reforma constitucional. Hay además dos dudas menores: una red escolar solo en catalán y un recargo fiscal a compradores no residentes.",
+  "criticas": [
+   {
+    "titulo": "Declaración unilateral de independencia",
+    "texto": "La independencia es un fin legítimo si se persigue por reforma constitucional (STC 42/2014). Alhora plantea en cambio una declaración de independencia sostenida por la movilización, el control del orden público y una administración «leal a la nueva legalidad catalana». El TC declaró que una vía unilateral queda fuera del Estado de derecho (STC 259/2015) y anuló las leyes del referéndum y de transitoriedad de 2017 (STC 114/2017 y STC 124/2017). A diferencia de ERC y Junts, en este caso no es un precedente sino su propuesta. En su campaña del 29N se limita a votar «no a todo» en el Congreso.",
+    "gravedad": "alta",
+    "criterio": "Arts. 1.2, 2, 9.1 y 168 CE; STC 42/2014; STC 259/2015; STC 114/2017; STC 124/2017 Se califica alta (y no media, como en ERC y Junts) porque aquí la vía unilateral es una propuesta vigente del partido, no un precedente: la doctrina del Tribunal Constitucional la considera contraria al núcleo del orden constitucional.",
+    "sobre": [
+     "alhora-ter-04",
+     "alhora-ter-05",
+     "alhora-ter-06"
+    ],
+    "fuente": {
+     "nombre": "STC 259/2015, BOE de 12-1-2016",
+     "url": "https://www.boe.es/boe/dias/2016/01/12/pdfs/BOE-A-2016-308.pdf"
+    }
+   },
+   {
+    "titulo": "Red escolar íntegramente en catalán",
+    "texto": "La doctrina constitucional admite la inmersión siempre que se garantice el pleno dominio del castellano, y entiende que el catalán es lengua vehicular «normalmente», no «la única». El Supremo ha dicho que excluir el castellano como lengua de enseñanza sería «manifiestamente inconstitucional». La red que propone es voluntaria y convive con otra bilingüe, y por eso la gravedad es baja, pero su encaje legal no está resuelto.",
+    "gravedad": "baja",
+    "criterio": "Arts. 3 y 27 CE; STC 31/2010 (art. 35 EAC); jurisprudencia del Tribunal Supremo sobre el castellano como lengua vehicular",
+    "sobre": [
+     "alhora-edu-01"
+    ],
+    "fuente": {
+     "nombre": "Law&Trends, 3-3-2022: el Supremo reafirma el castellano como lengua vehicular en Cataluña",
+     "url": "https://www.lawandtrends.com/noticias/administrativo/supremo-reafirma-al-castellano-como-lengua-vehicular-de-ensenanza-en-cataluna-1.html"
+    }
+   },
+   {
+    "titulo": "Recargo fiscal a compradores no residentes",
+    "texto": "El TJUE considera que las condiciones de residencia para comprar inmuebles restringen la libre circulación de capitales y solo las admite si son proporcionadas; frente a ciudadanos de la UE, una distinción por nacionalidad estaría prohibida. Aquí se trata de un recargo fiscal limitado a zonas de alta presión, no de un veto, y por eso la gravedad es baja. Es el mismo criterio que aplicamos a UPC.",
+    "gravedad": "baja",
+    "criterio": "TFUE, art. 63; TJUE, Konle (C-302/97, 1999) y Libert (C-197/11, 2013)",
+    "sobre": [
+     "alhora-viv-04"
+    ],
+    "fuente": {
+     "nombre": "TJUE, asunto C-197/11 (Libert)",
+     "url": "https://curia.europa.eu/juris/liste.jsf?num=C-197/11"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-30"
+}

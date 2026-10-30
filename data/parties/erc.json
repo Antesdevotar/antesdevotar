@@ -1,719 +1,733 @@
 {
-  "id": "erc",
-  "nombre": "Esquerra Republicana de Catalunya",
-  "siglas": "ERC",
-  "candidato": "Gabriel Rufián (cabeza de lista por Barcelona)",
-  "ideologia": "Izquierda independentista catalana, socialdemócrata y republicana",
-  "ambito": "Cataluña",
-  "color": "#FFB232",
-  "web": "https://www.esquerra.cat",
-  "escanos_2023": 7,
-  "resumen": "Partido de izquierda independentista catalán, presidido por Oriol Junqueras, que apoyó la investidura de Pedro Sánchez en 2023. Prioriza un referéndum pactado, la financiación singular con recaudación propia del IRPF, el traspaso de Rodalies y la defensa del catalán.",
-  "fuentes_programa": [
-    {
-      "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-      "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-      "fecha": "2023-07"
-    },
-    {
-      "nombre": "Programa electoral ERC 23J (Scribd)",
-      "url": "https://www.scribd.com/document/657322483/Programa-Electoral-ERC-23-J",
-      "fecha": "2023-07"
-    },
-    {
-      "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-      "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-      "fecha": "2024-04"
-    },
-    {
-      "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-      "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-      "fecha": "2023-11"
-    },
-    {
-      "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
-      "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
-      "fecha": "2025-07"
-    },
-    {
-      "nombre": "Proposición de ley de ERC sobre recaudación del IRPF (Ara)",
-      "url": "https://es.ara.cat/politica/erc-presenta-solitario-ley-catalunya-resto-autonomias-puedan-recaudar-irpf_1_5489876.html",
-      "fecha": "2025-09"
-    },
-    {
-      "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
-      "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
-      "fecha": "2026-01"
-    }
-  ],
-  "programa_2026_publicado": false,
-  "propuestas": [
-    {
-      "id": "erc-ter-01",
-      "area": "territorio",
-      "texto": "Negociar con el Gobierno un referéndum de autodeterminación pactado y reconocido internacionalmente como vía hacia la independencia.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ter-02",
-      "area": "territorio",
-      "texto": "Alcanzar un 'acuerdo de claridad' con el Estado que fije el procedimiento para una nueva votación sobre la independencia.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-03",
-      "area": "territorio",
-      "texto": "Financiación singular: que la Generalitat recaude todos los impuestos con plena capacidad normativa, pagando al Estado por sus servicios y aportando a un fondo de solidaridad.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ter-04",
-      "area": "territorio",
-      "texto": "Acabar con el déficit fiscal de Cataluña y de los Països Catalans.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-05",
-      "area": "territorio",
-      "texto": "Reformar la LOFCA y otras dos leyes para que la Agència Tributària de Catalunya, y cualquier comunidad que lo pida, recaude el IRPF por delegación.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Proposición de ley de ERC sobre recaudación del IRPF (Ara)",
-        "url": "https://es.ara.cat/politica/erc-presenta-solitario-ley-catalunya-resto-autonomias-puedan-recaudar-irpf_1_5489876.html",
-        "fecha": "2025-09"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ter-06",
-      "area": "territorio",
-      "texto": "Elevar la recaudación del IRPF gestionada por la Generalitat de unos 5.000 a unos 30.000 millones de euros anuales lo antes posible.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Nació Digital, 12/07/2025",
-        "url": "https://naciodigital.cat/politica/erc-presentara-al-congres-una-reforma-per-recaptar-lirpf-sense-esperar-el-psoe.html",
-        "fecha": "2025-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-07",
-      "area": "territorio",
-      "texto": "Exigir el principio de ordinalidad en el reparto: que Cataluña no pierda posiciones en financiación por habitante respecto a lo que aporta.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
-        "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
-        "fecha": "2025-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-08",
-      "area": "territorio",
-      "texto": "Aprobar en el Congreso el nuevo modelo de financiación pactado con el Gobierno (cesión del 55% del IRPF y del 56,5% del IVA), con unos 4.700 M€ más para Cataluña.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
-        "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
-        "fecha": "2026-01"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ter-09",
-      "area": "territorio",
-      "texto": "Traspaso integral de Rodalies (Cercanías y trenes regionales) a la Generalitat.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-        "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-        "fecha": "2023-11"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ter-10",
-      "area": "territorio",
-      "texto": "Cerrar el consorcio de inversiones del Estado en Cataluña.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
-        "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
-        "fecha": "2026-01"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-11",
-      "area": "territorio",
-      "texto": "Crear un fondo de compensación por las inversiones en infraestructuras presupuestadas por el Estado en Cataluña y no ejecutadas.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ter-12",
-      "area": "territorio",
-      "texto": "Traspasar a Cataluña la gestión del Ingreso Mínimo Vital.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-deu-01",
-      "area": "deuda",
-      "texto": "Condonar unos 15.000 millones de euros de la deuda de la Generalitat con el Estado (FLA), ampliable a otras comunidades.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-        "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-        "fecha": "2023-11"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-deu-02",
-      "area": "deuda",
-      "texto": "No negociar presupuestos (de la Generalitat ni del Estado) mientras no se cumplan los acuerdos de financiación, IRPF y Rodalies.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
-        "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
-        "fecha": "2026-01"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ins-01",
-      "area": "instituciones",
-      "texto": "Aprobar una ley de amnistía para los encausados por el procés independentista.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-        "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-        "fecha": "2023-11"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-ins-02",
-      "area": "instituciones",
-      "texto": "Suprimir el Senado, por considerar que no ejerce de cámara territorial.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ins-03",
-      "area": "instituciones",
-      "texto": "Despenalizar las injurias a la Corona.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ins-04",
-      "area": "instituciones",
-      "texto": "Rebajar la edad de voto a los 16 años.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ins-05",
-      "area": "instituciones",
-      "texto": "Simplificar la administración pública para mejorar la transparencia y la lucha contra la corrupción.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-seg-01",
-      "area": "seguridad",
-      "texto": "Derogar la Ley de Seguridad Ciudadana ('ley mordaza').",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-seg-02",
-      "area": "seguridad",
-      "texto": "Reforzar la lucha contra los delitos digitales y desplegar la comisaría virtual de los Mossos d'Esquadra.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-inm-01",
-      "area": "inmigracion",
-      "texto": "Derogar la Ley de Extranjería.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-inm-02",
-      "area": "inmigracion",
-      "texto": "Apoyar la ley orgánica que delega en la Generalitat permisos de residencia, emisión de NIE y presencia de los Mossos en la frontera.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "Ara, 16/09/2025",
-        "url": "https://es.ara.cat/politica/votacion-delegar-competencias-inmigracion-fecha-mantiene-no_1_5498763.html",
-        "fecha": "2025-09"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-igu-01",
-      "area": "igualdad",
-      "texto": "Crear un 'frente democrático' contra los discursos de odio.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-igu-02",
-      "area": "igualdad",
-      "texto": "Impulsar un paquete de medidas para proteger y ampliar los derechos feministas y LGTBI.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-igu-03",
-      "area": "igualdad",
-      "texto": "Desplegar una red 'lila' en todo el territorio para prevenir la violencia machista.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-san-01",
-      "area": "sanidad",
-      "texto": "Acabar con la infrafinanciación del sistema sanitario.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-san-02",
-      "area": "sanidad",
-      "texto": "Garantizar la equidad territorial y de resultados en el sistema de salud catalán.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-cul-01",
-      "area": "cultura",
-      "texto": "Lograr la plena normalización del uso social del catalán.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-cul-02",
-      "area": "cultura",
-      "texto": "Que el Estado destine al catalán los mismos recursos de promoción e internacionalización que al castellano.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": true
-    },
-    {
-      "id": "erc-cul-03",
-      "area": "cultura",
-      "texto": "Defender el catalán frente a los acuerdos de PP y Vox en Baleares y Comunidad Valenciana.",
-      "origen": "programa-2023",
-      "fuente": {
-        "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-        "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-        "fecha": "2023-07"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-cul-04",
-      "area": "cultura",
-      "texto": "Consolidar la inmersión lingüística en catalán en la escuela.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-cul-05",
-      "area": "cultura",
-      "texto": "Reforzar el catalán en el ámbito digital y audiovisual.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-cul-06",
-      "area": "cultura",
-      "texto": "Elevar el gasto en cultura al 2% del presupuesto de la Generalitat.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-viv-01",
-      "area": "vivienda",
-      "texto": "Desplegar la limitación de los precios del alquiler.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-viv-02",
-      "area": "vivienda",
-      "texto": "Invertir al menos 1.000 millones de euros anuales en políticas de vivienda.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-viv-03",
-      "area": "vivienda",
-      "texto": "Apoyó en el Congreso los decretos de vivienda de 2026 (prórroga de alquileres, suspensión de desahucios, veto a compras por fondos), que fueron rechazados.",
-      "origen": "accion",
-      "fuente": {
-        "nombre": "El Salto, votación de los decretos de vivienda, 02/10/2026",
-        "url": "https://www.elsaltodiario.com/politica/congreso-tumba-dos-decretos-vivienda-deja-legislatura-al-borde-del-fin",
-        "fecha": "2026-10"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-emp-01",
-      "area": "empleo",
-      "texto": "Avanzar hacia la semana laboral de cuatro días.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-emp-02",
-      "area": "empleo",
-      "texto": "Fijar un salario mínimo de referencia catalán.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-emp-03",
-      "area": "empleo",
-      "texto": "Consolidar el Marco Catalán de Relaciones Laborales.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-eco-01",
-      "area": "economia",
-      "texto": "Reindustrializar Cataluña con el objetivo de que la industria alcance el 25% del PIB en 2030.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ene-01",
-      "area": "energia",
-      "texto": "Avanzar hacia un modelo energético 100% renovable, residuo cero y movilidad sostenible.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ene-02",
-      "area": "energia",
-      "texto": "Consolidar la empresa pública de energía de la Generalitat (Energètica).",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-rur-01",
-      "area": "rural",
-      "texto": "Aprobar una ley de soberanía alimentaria y garantizar precios justos al sector primario.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-rur-02",
-      "area": "rural",
-      "texto": "Aprobar un estatuto de los municipios rurales para corregir el desequilibrio territorial.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-edu-01",
-      "area": "educacion",
-      "texto": "Gratuidad de todo el primer ciclo de educación infantil (0-3 años).",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    },
-    {
-      "id": "erc-ext-01",
-      "area": "exterior",
-      "texto": "Promover internacionalmente la causa de la independencia de Cataluña.",
-      "origen": "declaracion",
-      "fuente": {
-        "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-        "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-        "fecha": "2024-04"
-      },
-      "destacada": false
-    }
-  ],
-  "criticas": {
-    "economica": [
-      {
-        "titulo": "El coste de la financiación singular recae en el resto",
-        "texto": "Fedea estimó que un concierto como el pactado en 2024 supondría una transferencia neta a Cataluña de 6.600-13.200 M€ anuales; compensarla exigiría subir la parte estatal del IRPF entre un 15% y un 30% o recortar en torno a un 5-11% la financiación del resto de comunidades. Generalizarlo costaría 31.000-62.000 M€ adicionales.",
-        "sobre": [
-          "erc-ter-03",
-          "erc-ter-04",
-          "erc-ter-06"
-        ],
-        "fuente": {
-          "nombre": "Fedea (Á. de la Fuente), Las implicaciones financieras de un concierto catalán, 2024",
-          "url": "https://fedea.net/las-implicaciones-financieras-de-un-concierto-catalan/"
-        }
-      },
-      {
-        "titulo": "Condonar deuda debilita la disciplina fiscal",
-        "texto": "Para Fedea, una quita incondicionada de deuda autonómica confirma que las comunidades pueden gastar más de lo que ingresan y actúa como un seguro gratuito ante futuras crisis. Extenderla a todas las comunidades en proporción a la población costaría unos 88.000 M€.",
-        "sobre": [
-          "erc-deu-01"
-        ],
-        "fuente": {
-          "nombre": "Fedea (Á. de la Fuente), El contenido económico de los pactos de investidura, 2023",
-          "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
-        }
-      },
-      {
-        "titulo": "Un salario mínimo regional más alto puede restar empleo",
-        "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo neto de los trabajadores afectados entre 6 y 11 puntos. Un suelo salarial catalán superior al estatal podría tener efectos similares en sectores y comarcas de menor productividad.",
-        "sobre": [
-          "erc-emp-02"
-        ],
-        "fuente": {
-          "nombre": "Banco de España, Documento Ocasional 2113 (2021)",
-          "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
-        }
-      }
-    ],
-    "social": [
-      {
-        "titulo": "Riesgo para la cohesión entre territorios",
-        "texto": "Todas las comunidades salvo Cataluña, incluidas algunas gobernadas por el PSOE, rechazaron en el Consejo de Política Fiscal y Financiera el modelo negociado bilateralmente con ERC. Fedea advierte de que una gestión tributaria 'a la carta' puede romper la caja única y la nivelación de servicios entre regiones.",
-        "sobre": [
-          "erc-ter-08",
-          "erc-ter-07",
-          "erc-ter-03"
-        ],
-        "fuente": {
-          "nombre": "3Cat, Consejo de Política Fiscal y Financiera, 14/01/2026",
-          "url": "https://www.3cat.cat/3catinfo/el-financament-arriba-a-un-consell-de-politica-fiscal-crispat-montero-i-catalunya-fan-front-al-rebuig/noticia-amp/3389105/"
-        }
-      },
-      {
-        "titulo": "El control de alquileres puede reducir la oferta",
-        "texto": "El Banco de España advierte de que medidas de vivienda de eficacia limitada a corto plazo pueden tener efectos no deseados, como desviar viviendas al alquiler de temporada, y recomienda priorizar el aumento de la oferta, especialmente de alquiler social.",
-        "sobre": [
-          "erc-viv-01",
-          "erc-viv-03"
-        ],
-        "fuente": {
-          "nombre": "Banco de España, Informe Anual 2023, cap. 4",
-          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
-        }
-      }
-    ],
-    "cultural": [
-      {
-        "titulo": "Un referéndum de secesión choca con la Constitución",
-        "texto": "El Tribunal Constitucional ha declarado reiteradamente que una comunidad autónoma no puede convocar un referéndum de autodeterminación porque la soberanía reside en el conjunto del pueblo español (art. 1.2 y 2 CE); solo sería posible mediante reforma constitucional agravada (art. 168).",
-        "sobre": [
-          "erc-ter-01",
-          "erc-ter-02"
-        ],
-        "fuente": {
-          "nombre": "Tribunal Constitucional, STC 114/2017"
-        }
-      },
-      {
-        "titulo": "La amnistía y la igualdad ante la ley",
-        "texto": "Juristas y parte de la judicatura sostienen que una amnistía pactada a cambio de votos de investidura trata de forma desigual a ciudadanos por motivos políticos; el Tribunal Supremo se negó a aplicarla a la malversación de los líderes del procés.",
-        "sobre": [
-          "erc-ins-01"
-        ],
-        "fuente": {
-          "nombre": "Ara, 23/01/2025",
-          "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html"
-        }
-      },
-      {
-        "titulo": "La inmersión y los castellanohablantes",
-        "texto": "Los tribunales (TSJC, 2020, confirmado por el Supremo en 2021) obligaron a impartir al menos un 25% de la docencia en castellano al entender que el modelo de inmersión no garantizaba la presencia vehicular de ambas lenguas oficiales.",
-        "sobre": [
-          "erc-cul-04",
-          "erc-cul-01"
-        ],
-        "fuente": {
-          "nombre": "TSJC, sentencia de 16/12/2020; Tribunal Supremo, auto de 2021"
-        }
-      }
-    ]
+ "id": "erc",
+ "nombre": "Esquerra Republicana de Catalunya",
+ "siglas": "ERC",
+ "candidato": "Gabriel Rufián (cabeza de lista por Barcelona)",
+ "ideologia": "Izquierda independentista catalana, socialdemócrata y republicana",
+ "ambito": "Cataluña",
+ "color": "#FFB232",
+ "web": "https://www.esquerra.cat",
+ "escanos_2023": 7,
+ "resumen": "Partido de izquierda independentista catalán, presidido por Oriol Junqueras, que apoyó la investidura de Pedro Sánchez en 2023. Prioriza un referéndum pactado, la financiación singular con recaudación propia del IRPF, el traspaso de Rodalies y la defensa del catalán.",
+ "fuentes_programa": [
+  {
+   "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+   "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+   "fecha": "2023-07"
   },
-  "mentiras": [],
-  "actualizado": "2026-10-21"
+  {
+   "nombre": "Programa electoral ERC 23J (Scribd)",
+   "url": "https://www.scribd.com/document/657322483/Programa-Electoral-ERC-23-J",
+   "fecha": "2023-07"
+  },
+  {
+   "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+   "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+   "fecha": "2024-04"
+  },
+  {
+   "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
+   "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
+   "fecha": "2023-11"
+  },
+  {
+   "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
+   "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
+   "fecha": "2025-07"
+  },
+  {
+   "nombre": "Proposición de ley de ERC sobre recaudación del IRPF (Ara)",
+   "url": "https://es.ara.cat/politica/erc-presenta-solitario-ley-catalunya-resto-autonomias-puedan-recaudar-irpf_1_5489876.html",
+   "fecha": "2025-09"
+  },
+  {
+   "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
+   "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
+   "fecha": "2026-01"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "propuestas": [
+  {
+   "id": "erc-ter-01",
+   "area": "territorio",
+   "texto": "Negociar con el Gobierno un referéndum de autodeterminación pactado y reconocido internacionalmente como vía hacia la independencia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ter-02",
+   "area": "territorio",
+   "texto": "Alcanzar un 'acuerdo de claridad' con el Estado que fije el procedimiento para una nueva votación sobre la independencia.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-03",
+   "area": "territorio",
+   "texto": "Financiación singular: que la Generalitat recaude todos los impuestos con plena capacidad normativa, pagando al Estado por sus servicios y aportando a un fondo de solidaridad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ter-04",
+   "area": "territorio",
+   "texto": "Acabar con el déficit fiscal de Cataluña y de los Països Catalans.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-05",
+   "area": "territorio",
+   "texto": "Reformar la LOFCA y otras dos leyes para que la Agència Tributària de Catalunya, y cualquier comunidad que lo pida, recaude el IRPF por delegación.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Proposición de ley de ERC sobre recaudación del IRPF (Ara)",
+    "url": "https://es.ara.cat/politica/erc-presenta-solitario-ley-catalunya-resto-autonomias-puedan-recaudar-irpf_1_5489876.html",
+    "fecha": "2025-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ter-06",
+   "area": "territorio",
+   "texto": "Elevar la recaudación del IRPF gestionada por la Generalitat de unos 5.000 a unos 30.000 millones de euros anuales lo antes posible.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nació Digital, 12/07/2025",
+    "url": "https://naciodigital.cat/politica/erc-presentara-al-congres-una-reforma-per-recaptar-lirpf-sense-esperar-el-psoe.html",
+    "fecha": "2025-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-07",
+   "area": "territorio",
+   "texto": "Exigir el principio de ordinalidad en el reparto: que Cataluña no pierda posiciones en financiación por habitante respecto a lo que aporta.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
+    "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
+    "fecha": "2025-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-08",
+   "area": "territorio",
+   "texto": "Aprobar en el Congreso el nuevo modelo de financiación pactado con el Gobierno (cesión del 55% del IRPF y del 56,5% del IVA), con unos 4.700 M€ más para Cataluña.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
+    "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
+    "fecha": "2026-01"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ter-09",
+   "area": "territorio",
+   "texto": "Traspaso integral de Rodalies (Cercanías y trenes regionales) a la Generalitat.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
+    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
+    "fecha": "2023-11"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ter-10",
+   "area": "territorio",
+   "texto": "Cerrar el consorcio de inversiones del Estado en Cataluña.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
+    "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
+    "fecha": "2026-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-11",
+   "area": "territorio",
+   "texto": "Crear un fondo de compensación por las inversiones en infraestructuras presupuestadas por el Estado en Cataluña y no ejecutadas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-12",
+   "area": "territorio",
+   "texto": "Traspasar a Cataluña la gestión del Ingreso Mínimo Vital.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-deu-01",
+   "area": "deuda",
+   "texto": "Condonar unos 15.000 millones de euros de la deuda de la Generalitat con el Estado (FLA), ampliable a otras comunidades.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
+    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
+    "fecha": "2023-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-deu-02",
+   "area": "deuda",
+   "texto": "No negociar presupuestos (de la Generalitat ni del Estado) mientras no se cumplan los acuerdos de financiación, IRPF y Rodalies.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
+    "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
+    "fecha": "2026-01"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-01",
+   "area": "instituciones",
+   "texto": "Aprobar una ley de amnistía para los encausados por el procés independentista.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
+    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
+    "fecha": "2023-11"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-ins-02",
+   "area": "instituciones",
+   "texto": "Suprimir el Senado, por considerar que no ejerce de cámara territorial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-03",
+   "area": "instituciones",
+   "texto": "Despenalizar las injurias a la Corona.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-04",
+   "area": "instituciones",
+   "texto": "Rebajar la edad de voto a los 16 años.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-05",
+   "area": "instituciones",
+   "texto": "Simplificar la administración pública para mejorar la transparencia y la lucha contra la corrupción.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-seg-01",
+   "area": "seguridad",
+   "texto": "Derogar la Ley de Seguridad Ciudadana ('ley mordaza').",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-seg-02",
+   "area": "seguridad",
+   "texto": "Reforzar la lucha contra los delitos digitales y desplegar la comisaría virtual de los Mossos d'Esquadra.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-inm-01",
+   "area": "inmigracion",
+   "texto": "Derogar la Ley de Extranjería.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-inm-02",
+   "area": "inmigracion",
+   "texto": "Apoyar la ley orgánica que delega en la Generalitat permisos de residencia, emisión de NIE y presencia de los Mossos en la frontera.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Ara, 16/09/2025",
+    "url": "https://es.ara.cat/politica/votacion-delegar-competencias-inmigracion-fecha-mantiene-no_1_5498763.html",
+    "fecha": "2025-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-01",
+   "area": "igualdad",
+   "texto": "Crear un 'frente democrático' contra los discursos de odio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-02",
+   "area": "igualdad",
+   "texto": "Impulsar un paquete de medidas para proteger y ampliar los derechos feministas y LGTBI.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-03",
+   "area": "igualdad",
+   "texto": "Desplegar una red 'lila' en todo el territorio para prevenir la violencia machista.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-san-01",
+   "area": "sanidad",
+   "texto": "Acabar con la infrafinanciación del sistema sanitario.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-san-02",
+   "area": "sanidad",
+   "texto": "Garantizar la equidad territorial y de resultados en el sistema de salud catalán.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-01",
+   "area": "cultura",
+   "texto": "Lograr la plena normalización del uso social del catalán.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-02",
+   "area": "cultura",
+   "texto": "Que el Estado destine al catalán los mismos recursos de promoción e internacionalización que al castellano.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-cul-03",
+   "area": "cultura",
+   "texto": "Defender el catalán frente a los acuerdos de PP y Vox en Baleares y Comunidad Valenciana.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
+    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-04",
+   "area": "cultura",
+   "texto": "Consolidar la inmersión lingüística en catalán en la escuela.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-05",
+   "area": "cultura",
+   "texto": "Reforzar el catalán en el ámbito digital y audiovisual.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-06",
+   "area": "cultura",
+   "texto": "Elevar el gasto en cultura al 2% del presupuesto de la Generalitat.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-viv-01",
+   "area": "vivienda",
+   "texto": "Desplegar la limitación de los precios del alquiler.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-viv-02",
+   "area": "vivienda",
+   "texto": "Invertir al menos 1.000 millones de euros anuales en políticas de vivienda.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-viv-03",
+   "area": "vivienda",
+   "texto": "Apoyó en el Congreso los decretos de vivienda de 2026 (prórroga de alquileres, suspensión de desahucios, veto a compras por fondos), que fueron rechazados.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "El Salto, votación de los decretos de vivienda, 02/10/2026",
+    "url": "https://www.elsaltodiario.com/politica/congreso-tumba-dos-decretos-vivienda-deja-legislatura-al-borde-del-fin",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-emp-01",
+   "area": "empleo",
+   "texto": "Avanzar hacia la semana laboral de cuatro días.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-emp-02",
+   "area": "empleo",
+   "texto": "Fijar un salario mínimo de referencia catalán.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-emp-03",
+   "area": "empleo",
+   "texto": "Consolidar el Marco Catalán de Relaciones Laborales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-eco-01",
+   "area": "economia",
+   "texto": "Reindustrializar Cataluña con el objetivo de que la industria alcance el 25% del PIB en 2030.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ene-01",
+   "area": "energia",
+   "texto": "Avanzar hacia un modelo energético 100% renovable, residuo cero y movilidad sostenible.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ene-02",
+   "area": "energia",
+   "texto": "Consolidar la empresa pública de energía de la Generalitat (Energètica).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-rur-01",
+   "area": "rural",
+   "texto": "Aprobar una ley de soberanía alimentaria y garantizar precios justos al sector primario.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-rur-02",
+   "area": "rural",
+   "texto": "Aprobar un estatuto de los municipios rurales para corregir el desequilibrio territorial.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-edu-01",
+   "area": "educacion",
+   "texto": "Gratuidad de todo el primer ciclo de educación infantil (0-3 años).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ext-01",
+   "area": "exterior",
+   "texto": "Promover internacionalmente la causa de la independencia de Cataluña.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
+    "fecha": "2024-04"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "El coste de la financiación singular recae en el resto",
+    "texto": "Fedea estimó que un concierto como el pactado en 2024 supondría una transferencia neta a Cataluña de 6.600-13.200 M€ anuales; compensarla exigiría subir la parte estatal del IRPF entre un 15% y un 30% o recortar en torno a un 5-11% la financiación del resto de comunidades. Generalizarlo costaría 31.000-62.000 M€ adicionales.",
+    "sobre": [
+     "erc-ter-03",
+     "erc-ter-04",
+     "erc-ter-06"
+    ],
+    "fuente": {
+     "nombre": "Fedea (Á. de la Fuente), Las implicaciones financieras de un concierto catalán, 2024",
+     "url": "https://fedea.net/las-implicaciones-financieras-de-un-concierto-catalan/"
+    }
+   },
+   {
+    "titulo": "Condonar deuda debilita la disciplina fiscal",
+    "texto": "Para Fedea, una quita incondicionada de deuda autonómica confirma que las comunidades pueden gastar más de lo que ingresan y actúa como un seguro gratuito ante futuras crisis. Extenderla a todas las comunidades en proporción a la población costaría unos 88.000 M€.",
+    "sobre": [
+     "erc-deu-01"
+    ],
+    "fuente": {
+     "nombre": "Fedea (Á. de la Fuente), El contenido económico de los pactos de investidura, 2023",
+     "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
+    }
+   },
+   {
+    "titulo": "Un salario mínimo regional más alto puede restar empleo",
+    "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo neto de los trabajadores afectados entre 6 y 11 puntos. Un suelo salarial catalán superior al estatal podría tener efectos similares en sectores y comarcas de menor productividad.",
+    "sobre": [
+     "erc-emp-02"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Documento Ocasional 2113 (2021)",
+     "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Riesgo para la cohesión entre territorios",
+    "texto": "Todas las comunidades salvo Cataluña, incluidas algunas gobernadas por el PSOE, rechazaron en el Consejo de Política Fiscal y Financiera el modelo negociado bilateralmente con ERC. Fedea advierte de que una gestión tributaria 'a la carta' puede romper la caja única y la nivelación de servicios entre regiones.",
+    "sobre": [
+     "erc-ter-08",
+     "erc-ter-07",
+     "erc-ter-03"
+    ],
+    "fuente": {
+     "nombre": "3Cat, Consejo de Política Fiscal y Financiera, 14/01/2026",
+     "url": "https://www.3cat.cat/3catinfo/el-financament-arriba-a-un-consell-de-politica-fiscal-crispat-montero-i-catalunya-fan-front-al-rebuig/noticia-amp/3389105/"
+    }
+   },
+   {
+    "titulo": "El control de alquileres puede reducir la oferta",
+    "texto": "El Banco de España advierte de que medidas de vivienda de eficacia limitada a corto plazo pueden tener efectos no deseados, como desviar viviendas al alquiler de temporada, y recomienda priorizar el aumento de la oferta, especialmente de alquiler social.",
+    "sobre": [
+     "erc-viv-01",
+     "erc-viv-03"
+    ],
+    "fuente": {
+     "nombre": "Banco de España, Informe Anual 2023, cap. 4",
+     "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/23/Fich/InfAnual_2023_Cap4.pdf"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Un referéndum de secesión choca con la Constitución",
+    "texto": "El Tribunal Constitucional ha declarado reiteradamente que una comunidad autónoma no puede convocar un referéndum de autodeterminación porque la soberanía reside en el conjunto del pueblo español (art. 1.2 y 2 CE); solo sería posible mediante reforma constitucional agravada (art. 168).",
+    "sobre": [
+     "erc-ter-01",
+     "erc-ter-02"
+    ],
+    "fuente": {
+     "nombre": "Tribunal Constitucional, STC 114/2017"
+    }
+   },
+   {
+    "titulo": "La amnistía y la igualdad ante la ley",
+    "texto": "Juristas y parte de la judicatura sostienen que una amnistía pactada a cambio de votos de investidura trata de forma desigual a ciudadanos por motivos políticos; el Tribunal Supremo se negó a aplicarla a la malversación de los líderes del procés.",
+    "sobre": [
+     "erc-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Ara, 23/01/2025",
+     "url": "https://es.ara.cat/politica/psoe-no-cumple-junts_1_5264036.html"
+    }
+   },
+   {
+    "titulo": "La inmersión y los castellanohablantes",
+    "texto": "Los tribunales (TSJC, 2020, confirmado por el Supremo en 2021) obligaron a impartir al menos un 25% de la docencia en castellano al entender que el modelo de inmersión no garantizaba la presencia vehicular de ambas lenguas oficiales.",
+    "sobre": [
+     "erc-cul-04",
+     "erc-cul-01"
+    ],
+    "fuente": {
+     "nombre": "TSJC, sentencia de 16/12/2020; Tribunal Supremo, auto de 2021"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-21",
+ "concurre": true,
+ "estado_candidatura": "Presentada",
+ "circunscripciones": [
+  "Barcelona",
+  "Girona",
+  "Lleida",
+  "Tarragona"
+ ],
+ "estado_fuente": {
+  "nombre": "3Cat, candidaturas catalanas al 29N",
+  "url": "https://www.3cat.cat/3catinfo/qui-son-els-candidats-catalans-a-les-eleccions-generals-del-29n-consulta-les-llistes-al-congres-i-al-senat/noticia/3436292/",
+  "fecha": "2026-10-28"
+ },
+ "candidatura_nota": "Su lista por Barcelona incluye a tres candidatos de Podemos, que no se presenta en Cataluña."
 }

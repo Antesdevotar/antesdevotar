@@ -1,0 +1,718 @@
+{
+ "id": "mundojusto",
+ "nombre": "Por un Mundo Más Justo",
+ "siglas": "M+J",
+ "tier": "otros",
+ "concurre": true,
+ "candidato": "Por confirmar (no consta candidato a la presidencia; en Madrid encabeza la lista José Manuel Romero Melero, según esdiario)",
+ "ambito": "Estatal",
+ "color": "#9E9E9E",
+ "color_aproximado": true,
+ "web": "https://www.porunmundomasjusto.es/",
+ "escanos_2023": 0,
+ "resumen": "Partido fundado en 2004 que se define como humanista y transversal y nunca ha obtenido escaño en el Congreso. Según su manifiesto, prioriza la lucha contra la pobreza y la desigualdad, los derechos de las personas migrantes, la cooperación internacional y la paz.",
+ "fuentes_programa": [
+  {
+   "titulo": "Manifiesto político (febrero de 2023), enlazado en su web como documento de referencia",
+   "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+   "fecha": "2023-02"
+  },
+  {
+   "titulo": "Plan de Trabajo 2026 (borrador)",
+   "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/04/Borrador-PLAN-DE-TRABAJO-2026.pdf",
+   "fecha": "2026-02"
+  },
+  {
+   "titulo": "Posicionamientos (web oficial)",
+   "url": "https://www.porunmundomasjusto.es/posicionamientos/",
+   "fecha": "2026-10"
+  },
+  {
+   "titulo": "Web oficial: 8 de los 26 ejes del programa 29-N, solo formulados como preguntas",
+   "url": "https://www.porunmundomasjusto.es/",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Presentada",
+ "estado_fuente": {
+  "nombre": "Press Digital, 28-10-2026: jubilados, autónomos, feministas... los otros partidos que aspiran a escaño",
+  "url": "https://www.pressdigital.es/articulo/politica/2026-10-28/6069724-jubilados-autonomos-feministas-juristas-comunistas-soberanistas-otros-partidos-aspiran-escano",
+  "fecha": "2026-10-28"
+ },
+ "circunscripciones": [
+  "Álava",
+  "Bizkaia",
+  "Albacete",
+  "Almería",
+  "Asturias",
+  "Ávila",
+  "Badajoz",
+  "Barcelona",
+  "Cuenca",
+  "Granada",
+  "Guadalajara",
+  "Las Palmas",
+  "León",
+  "Madrid",
+  "Valencia"
+ ],
+ "nota_circunscripciones": "Listas provisionales (BOE del 28-10-2026; la proclamación es el 2 de noviembre). La prensa habla de «una treintena» de circunscripciones al Congreso; aquí solo figuran las 15 comprobadas en el BOE o en prensa provincial. Civio señaló que su lista de Las Palmas no cumple la alternancia entre hombres y mujeres.",
+ "fuentes_circunscripciones": [
+  {
+   "nombre": "BOE-A-2026-22607, candidaturas presentadas (28-10-2026): Álava, Albacete, Almería, Asturias, Ávila, Badajoz, Barcelona",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607"
+  },
+  {
+   "nombre": "Demócrata: listas provisionales vascas (Álava y Bizkaia)",
+   "url": "https://www.democrata.es/euskadi/euskadi-publica-las-listas-provisionales-15-candidaturas-por-alava-12-por-bizkaia-y-11-por-gipuzkoa-al-congreso/"
+  },
+  {
+   "nombre": "El Plural: listas de Castilla-La Mancha (Albacete, Cuenca, Guadalajara)",
+   "url": "https://www.elplural.com/autonomias/castilla-la-mancha/todas-listas-congreso-castilla-la-mancha-29n-44-candidatos-encabezan-papeletas_802602102"
+  },
+  {
+   "nombre": "Ahora Granada: candidaturas por Granada",
+   "url": "https://www.ahoragranada.com/noticias/todas-las-candidaturas-por-granada-al-congreso-y-al-senado-para-el-29n/"
+  },
+  {
+   "nombre": "Canarias7: candidaturas por Las Palmas",
+   "url": "https://www.canarias7.es/elecciones/generales/lista-completa-partidos-candidatos-congreso-palmas-elecciones-20261028101218-nt.html"
+  },
+  {
+   "nombre": "Laciana Digital: candidaturas por León",
+   "url": "https://www.lacianadigital.com/los-leoneses-elegiran-entre-13-candidaturas-al-congreso-y-9-al-senado-el-29-de-noviembre/"
+  },
+  {
+   "nombre": "esdiario: candidaturas al Congreso (Madrid)",
+   "url": "https://www.esdiario.com/nacional/261028/201469/29nya-nombres-apellidos-salen-luz-todas-candidaturas-congreso-senado.html"
+  },
+  {
+   "nombre": "Valencia Plaza: candidaturas por Valencia",
+   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/valencia-elegira-entre-14-candidaturas-al-congreso-el-29-n-cuatro-mas-que-alicante-y-castellon"
+  },
+  {
+   "nombre": "eldiario.es Asturias: candidaturas por Asturias",
+   "url": "https://www.eldiario.es/asturias/once-candidaturas-congreso-siete-senado-concurriran-elecciones-generales-asturias_1_13621582.html"
+  },
+  {
+   "nombre": "Civio: candidaturas presentadas para el 29N",
+   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/28/candidaturas-presentadas-29n/"
+  }
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.09,
+  "ambito": "España",
+  "fuente": {
+   "nombre": "Wikipedia, «Results breakdown of the 2023 Spanish general election (Congress)» (23.290 votos)",
+   "url": "https://en.wikipedia.org/wiki/Results_breakdown_of_the_2023_Spanish_general_election_(Congress)"
+  },
+  "nota": "No figura con candidatura propia en los resultados de las europeas de 2024."
+ },
+ "propuestas": [
+  {
+   "id": "mundojusto-eco-01",
+   "area": "economia",
+   "texto": "Crear tributos transnacionales sobre las ganancias del mercado financiero internacional.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 13.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-eco-02",
+   "area": "economia",
+   "texto": "Impulsar acuerdos internacionales para que las multinacionales paguen más impuestos y no usen paraísos fiscales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 13.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-eco-03",
+   "area": "economia",
+   "texto": "Revertir la reducción del impuesto de sociedades y combatir la evasión fiscal, para que las grandes empresas contribuyan según sus beneficios.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 26.2 y 26.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-eco-04",
+   "area": "economia",
+   "texto": "Aumentar la presencia del Estado en la producción de bienes y servicios estratégicos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 28.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-eco-05",
+   "area": "economia",
+   "texto": "Apoyar a pymes y autónomos con menos burocracia, respaldo financiero y capacitación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 28.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-emp-01",
+   "area": "empleo",
+   "texto": "Garantizar un trabajo decente a toda persona en edad de trabajar, con la aspiración de un cierto pleno empleo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 29.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-emp-02",
+   "area": "empleo",
+   "texto": "Repartir la riqueza que genera la automatización mediante una «renta básica de justicia social» y la reducción de horas de trabajo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 29.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-viv-01",
+   "area": "vivienda",
+   "texto": "Priorizar la «vivienda social de promoción pública» frente a la vivienda libre y el derecho a la vivienda frente a su uso como inversión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 41.2 y 41.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-viv-02",
+   "area": "vivienda",
+   "texto": "Priorizar la rehabilitación de vivienda frente a la construcción nueva.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 41.4",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-san-01",
+   "area": "sanidad",
+   "texto": "Reforzar la sanidad pública con más inversión y no apoyar, en general, los conciertos con la sanidad privada.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 39.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-san-03",
+   "area": "sanidad",
+   "texto": "Aumentar la financiación de la salud mental, con «más psicólogos y psiquiatras ofrecidos por el sistema».",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 39.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-edu-01",
+   "area": "educacion",
+   "texto": "Hacer gratuita la educación concertada, sin cobros a las familias.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 34.7",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-edu-02",
+   "area": "educacion",
+   "texto": "Incluir en la educación obligatoria la educación para la ciudadanía global y en derechos humanos y paz.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 11.6 y 34.4",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-inm-01",
+   "area": "inmigracion",
+   "texto": "Prohibir las concertinas, las pelotas de goma, el gas pimienta y las «devoluciones en caliente» en las fronteras.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 31.5",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-inm-02",
+   "area": "inmigracion",
+   "texto": "Suprimir los Centros de Internamiento de Extranjeros (CIE).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 31.6",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-inm-03",
+   "area": "inmigracion",
+   "texto": "Extender el derecho de asilo a quienes huyen de crisis humanitarias por causas sanitarias, ambientales o de hambre.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 31.7",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-inm-04",
+   "area": "inmigracion",
+   "texto": "Garantizar los derechos sociales universales también a las personas migrantes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 32.4",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-inm-05",
+   "area": "inmigracion",
+   "texto": "Apoyar la Iniciativa Legislativa Popular para una regularización extraordinaria de personas extranjeras.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "M+J, Plan de Trabajo 2026 (borrador)",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/04/Borrador-PLAN-DE-TRABAJO-2026.pdf",
+    "fecha": "2026-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-inm-06",
+   "area": "inmigracion",
+   "texto": "Que el Gobierno mantenga su rechazo al Reglamento europeo de Retorno y no negocie con terceros países la instalación de centros de retorno.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "M+J, «La expulsión no puede ser la política migratoria de Europa» (web oficial)",
+    "url": "https://www.porunmundomasjusto.es/la-expulsion-no-puede-ser-la-politica-migratoria-de-europa/",
+    "fecha": "2026-07-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-inm-07",
+   "area": "inmigracion",
+   "texto": "Reparto de responsabilidades entre Estados europeos, vías legales y seguras para migrar y sistemas de acogida dignos.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "M+J, «La expulsión no puede ser la política migratoria de Europa» (web oficial)",
+    "url": "https://www.porunmundomasjusto.es/la-expulsion-no-puede-ser-la-politica-migratoria-de-europa/",
+    "fecha": "2026-07-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ene-01",
+   "area": "energia",
+   "texto": "Eliminar el carbón, el petróleo y el gas «máximo en tres décadas».",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 49.6",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ene-02",
+   "area": "energia",
+   "texto": "Mantener las centrales nucleares existentes «sin apresurar su cierre» y no apoyar nuevas centrales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 49.5",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ene-03",
+   "area": "energia",
+   "texto": "Tratar la energía como un derecho social que el Estado garantiza, con capacidad de intervenir en su precio.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 49.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ins-01",
+   "area": "instituciones",
+   "texto": "Eliminar la intromisión de los partidos en el CGPJ, el Tribunal Constitucional y el Tribunal Supremo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 19.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-ins-02",
+   "area": "instituciones",
+   "texto": "Hacer legalmente obligatorio el cumplimiento de los programas electorales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 21.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ins-03",
+   "area": "instituciones",
+   "texto": "Fijar un tope a las donaciones privadas de particulares a partidos y prohibir las de empresas.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 21.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ins-04",
+   "area": "instituciones",
+   "texto": "Introducir referéndums para determinadas leyes y otros mecanismos de democracia directa y digital, y facilitar las ILP.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 20.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ins-05",
+   "area": "instituciones",
+   "texto": "Aprobar medidas contra las «puertas giratorias» y los conflictos de intereses de los cargos políticos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 19.4",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-igu-01",
+   "area": "igualdad",
+   "texto": "Apoyar la abolición de la prostitución y ofrecer alternativas de trabajo digno a quienes la ejercen.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 37.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-igu-02",
+   "area": "igualdad",
+   "texto": "No aceptar la gestación subrogada en España y promover su erradicación a nivel mundial.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 37.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-igu-03",
+   "area": "igualdad",
+   "texto": "Que las personas mayores dependientes puedan vivir en su hogar si lo desean, con apoyo económico para su atención.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 40.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-igu-04",
+   "area": "igualdad",
+   "texto": "Regular la eutanasia «en determinadas circunstancias» y dar prioridad a los cuidados paliativos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 47.1 y 47.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ext-01",
+   "area": "exterior",
+   "texto": "Dar carácter vinculante a las decisiones de la ONU y eliminar los privilegios de los cinco miembros permanentes del Consejo de Seguridad.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 12.1 y 12.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": true
+  },
+  {
+   "id": "mundojusto-ext-02",
+   "area": "exterior",
+   "texto": "Avanzar hacia un gobierno mundial regido por principios democráticos y con competencias globales.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 12.4",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ext-03",
+   "area": "exterior",
+   "texto": "Condicionar el comercio internacional al respeto de derechos laborales, medio ambiente, paz y democracia.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 13.3",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-ext-04",
+   "area": "exterior",
+   "texto": "Reforzar la cooperación al desarrollo de España y de la UE.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 32.1",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-seg-01",
+   "area": "seguridad",
+   "texto": "Desincentivar la lógica de bloques y la militarización, con un papel de España y la UE centrado en el diálogo y la mediación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 52",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-rur-01",
+   "area": "rural",
+   "texto": "Aplicar «discriminación positiva» al mundo rural en educación, salud y vivienda.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 43.2",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-rur-02",
+   "area": "rural",
+   "texto": "Penalizar o desincentivar la importación de productos agrícolas de economías que no cumplan estándares laborales y ecológicos mínimos.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 43.5",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  },
+  {
+   "id": "mundojusto-cul-01",
+   "area": "cultura",
+   "texto": "Apoyar a la Iglesia católica en igualdad con otras asociaciones, sin privilegios tributarios, sin asignación de la recaudación y sin financiar la asignatura de religión.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Manifiesto político de M+J (2023), apdo. 45",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf",
+    "fecha": "2023-02"
+   },
+   "destacada": false
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Impuestos globales que dependen de acuerdos que no llegan",
+    "texto": "Gravar las ganancias financieras internacionales o subir la tributación de las multinacionales exige acuerdos entre muchos Estados. Once países de la UE, España entre ellos, fueron autorizados en 2013 a crear un impuesto común sobre transacciones financieras y la directiva no se ha llegado a aprobar. El manifiesto no explica qué haría España si esos acuerdos no se alcanzan.",
+    "sobre": [
+     "mundojusto-eco-01",
+     "mundojusto-eco-02"
+    ],
+    "fuente": {
+     "nombre": "Decisión 2013/52/UE del Consejo, cooperación reforzada en el impuesto sobre transacciones financieras (fiscal-impuestos.com)",
+     "url": "https://www.fiscal-impuestos.com/decision-comision-cooperacion-impuesto-transacciones-financieras.html"
+    }
+   },
+   {
+    "titulo": "Renta básica, menos jornada y concertada gratuita sin coste ni financiación",
+    "texto": "El manifiesto propone una «renta básica de justicia social», menos horas de trabajo y la gratuidad total de la concertada, pero no fija cuantías, beneficiarios, plazos ni cómo se pagarían. Sin esas cifras no se puede valorar su efecto sobre las cuentas públicas ni sobre el empleo.",
+    "sobre": [
+     "mundojusto-emp-02",
+     "mundojusto-edu-01"
+    ],
+    "fuente": {
+     "nombre": "Manifiesto político de M+J (2023), apdos. 29.2 y 34.7: no aportan memoria económica",
+     "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2023/05/RelatoMJCongreso2023-light.pdf"
+    }
+   },
+   {
+    "titulo": "Penalizar importaciones agrícolas: competencia de la UE",
+    "texto": "La política comercial común es competencia exclusiva de la UE, así que España no puede gravar ni restringir por su cuenta la importación de productos de terceros países. La medida solo sería viable si se impulsa en Bruselas y respetando las reglas de la OMC, y el manifiesto no lo concreta.",
+    "sobre": [
+     "mundojusto-rur-02",
+     "mundojusto-ext-03"
+    ],
+    "fuente": {
+     "nombre": "TFUE, art. 3.1.e (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2008/art_3/oj"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Cerrar los CIE sin decir cómo se ejecutarían los retornos",
+    "texto": "La Directiva europea de retorno permite internar como último recurso, hasta 18 meses, cuando hay riesgo de fuga y no bastan medidas menos coercitivas, y obliga a los Estados a ejecutar las órdenes de retorno. Suprimir los CIE es compatible con ella solo si hay alternativas eficaces, y el manifiesto no las detalla.",
+    "sobre": [
+     "mundojusto-inm-02"
+    ],
+    "fuente": {
+     "nombre": "Directiva 2008/115/CE, art. 15",
+     "url": "https://www.legislation.gov.uk/eudr/2008/115/article/15/data.htm"
+    }
+   },
+   {
+    "titulo": "Abolicionismo: el efecto sobre quienes ejercen la prostitución está en disputa",
+    "texto": "Amnistía Internacional sostiene que penalizar la compra de sexo, como en el modelo nórdico, aumenta el riesgo y la marginación de quienes ejercen y dificulta que denuncien abusos, y defiende despenalizar el trabajo sexual consentido entre adultos. El manifiesto no explica cómo evitaría esos efectos.",
+    "sobre": [
+     "mundojusto-igu-01"
+    ],
+    "fuente": {
+     "nombre": "Amnistía Internacional, política sobre los derechos de las trabajadoras sexuales (2016)",
+     "url": "https://www.amnesty.org/es/latest/news/2016/05/amnesty-international-publishes-policy-and-research-on-protection-of-sex-workers-rights/"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Gobierno mundial y fin del veto: sin vía practicable",
+    "texto": "Eliminar los privilegios de los miembros permanentes exige reformar la Carta de la ONU, y su art. 108 requiere que la reforma la ratifiquen todos ellos, es decir, que renuncien voluntariamente a su veto. Un gobierno mundial con competencias propias supondría además ceder soberanía a una escala que el manifiesto no concreta.",
+    "sobre": [
+     "mundojusto-ext-01",
+     "mundojusto-ext-02"
+    ],
+    "fuente": {
+     "nombre": "Carta de la ONU, art. 108 (Wikipedia, «Reform of the United Nations Security Council»)",
+     "url": "https://en.wikipedia.org/wiki/Reform_of_the_United_Nations_Security_Council"
+    }
+   },
+   {
+    "titulo": "Iglesia: exige renegociar acuerdos internacionales",
+    "texto": "La enseñanza de la religión católica y el régimen económico de la Iglesia se rigen por los acuerdos de 1979 con la Santa Sede, que son tratados internacionales y prevén resolver las dificultades de común acuerdo. Retirar la financiación de la asignatura o los beneficios fiscales requeriría renegociarlos o denunciarlos, y el manifiesto no aborda cómo.",
+    "sobre": [
+     "mundojusto-cul-01"
+    ],
+    "fuente": {
+     "nombre": "Acuerdo entre el Estado español y la Santa Sede sobre Enseñanza y Asuntos Culturales, 1979 (BOE)",
+     "url": "https://www.boe.es/eli/es/ai/1979/01/03/(3)/con/19791215"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos graves. Una duda jurídica menor: hacer legalmente obligatorio cumplir el programa electoral choca con la prohibición del mandato imperativo. Su propuesta de sacar a los partidos de la elección del CGPJ coincide con el estándar europeo.",
+  "criticas": [
+   {
+    "titulo": "Programas electorales jurídicamente obligatorios",
+    "texto": "La Constitución establece que diputados y senadores no están ligados por mandato imperativo. Obligar por ley a cumplir un programa limitaría esa libertad de voto y exigiría precisar quién lo controla y con qué consecuencias, algo que el manifiesto no hace.",
+    "gravedad": "baja",
+    "criterio": "Art. 67.2 CE",
+    "sobre": [
+     "mundojusto-ins-02"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española, art. 67.2",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "avales": [
+   {
+    "titulo": "Sacar a los partidos de la elección del CGPJ",
+    "texto": "Eliminar la intervención de los partidos en el CGPJ coincide con la recomendación de la Comisión de Venecia de que los jueces elijan a los vocales judiciales. La misma valoración se aplica a otros partidos con propuestas equivalentes.",
+    "criterio": "CDL-AD(2025)038",
+    "sobre": [
+     "mundojusto-ins-01"
+    ],
+    "fuente": {
+     "nombre": "Comisión de Venecia, CDL-AD(2025)038",
+     "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
+    }
+   }
+  ]
+ },
+ "mentiras": [],
+ "actualizado": "2026-10-30"
+}

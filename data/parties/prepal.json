@@ -1,0 +1,365 @@
+{
+ "id": "prepal",
+ "nombre": "Partido Regionalista del País Leonés",
+ "siglas": "PREPAL",
+ "concurre": true,
+ "candidato": "Francisco Iglesias Carreño (presidente del partido y cabeza de lista al Congreso por Zamora; Manuela Iglesias Carreño encabeza la lista por León y Rafael Diego Núñez la de Salamanca, según El Español)",
+ "ambito": "Castilla y León (León, Zamora y Salamanca)",
+ "color": "#8E1B3A",
+ "color_aproximado": true,
+ "web": "https://www.prepal.eu",
+ "escanos_2023": 0,
+ "resumen": "Partido regionalista leonesista fundado en 1980 por Francisco Iglesias Carreño, sin representación en el Congreso. No debe confundirse con UPL, que no se presenta el 29N. Prioriza crear una comunidad autónoma propia para León, Zamora y Salamanca mediante un Estatuto aprobado por las Cortes, ejecutar el Plan Oeste y construir nuevos hospitales y conexiones ferroviarias en esas provincias.",
+ "fuentes_programa": [
+  {
+   "nombre": "Heraldo de León, 6-3-2026: Prepal reclama al Gobierno impulsar la autonomía de la Región Leonesa",
+   "url": "https://www.heraldodeleon.es/articulo/leon/prepal-reclama-gobierno-impulsar-autonomia-region-leonesa/20260306181616077533.html",
+   "fecha": "2026-03"
+  },
+  {
+   "nombre": "Heraldo de León, 18-9-2026: carta «XLVI años Partido Regionalista del País Leonés PREPAL»",
+   "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+   "fecha": "2026-09"
+  },
+  {
+   "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora",
+   "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+   "fecha": "2025-01"
+  },
+  {
+   "nombre": "Wikipedia, Partido Regionalista del País Leonés",
+   "url": "https://es.wikipedia.org/wiki/Partido_Regionalista_del_Pa%C3%ADs_Leon%C3%A9s",
+   "fecha": "2026-10"
+  }
+ ],
+ "programa_2026_publicado": false,
+ "estado_candidatura": "Presentada",
+ "estado_fuente": {
+  "nombre": "El Debate: todos los partidos y confluencias que presentan listas el 29N en las provincias de Castilla y León (listas provisionales del BOE)",
+  "url": "https://www.eldebate.com/espana/castilla-y-leon/20261029/todos-partidos-confluencias-presentan-listas-29n-provincias-castilla-leon_474772.html",
+  "fecha": "2026-10-28"
+ },
+ "circunscripciones": [
+  "León",
+  "Salamanca",
+  "Zamora"
+ ],
+ "referencia_voto": {
+  "eleccion": "Generales 2023",
+  "porcentaje": 0.15,
+  "ambito": "Zamora",
+  "fuente": {
+   "nombre": "Público, resultados de las generales al Congreso 2023 en Zamora (155 votos)",
+   "url": "https://www.publico.es/resultados-elecciones/generales/2023/congreso/castilla-y-leon/zamora"
+  }
+ },
+ "propuestas": [
+  {
+   "id": "prepal-ter-01",
+   "area": "territorio",
+   "texto": "Crear una comunidad autónoma propia, la «Región Reino Leonés» o «Regionalidad Leonesa», formada por las provincias de León, Zamora y Salamanca (38.491 km²), hoy integradas en Castilla y León.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 6-3-2026: Prepal reclama al Gobierno impulsar la autonomía de la Región Leonesa (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/leon/prepal-reclama-gobierno-impulsar-autonomia-region-leonesa/20260306181616077533.html",
+    "fecha": "2026-03-06"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-ter-02",
+   "area": "territorio",
+   "texto": "Que el Gobierno presente a las Cortes Generales un proyecto de Estatuto de Autonomía para la Región Leonesa, para su debate, votación y publicación en el BOE.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 9-8-2026: carta de Francisco Iglesias Carreño (PREPAL), «Regionalidad Leonesa: investigaciones y actualidad» (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/regionalidad-leonesa-investigaciones-actualidad/20260809121811103629.html",
+    "fecha": "2026-08-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-ter-03",
+   "area": "territorio",
+   "texto": "Tomar como base de ese Estatuto el anteproyecto aprobado por la XXVIII Asamblea General del partido el 28 de enero de 2022.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 19-9-2025: carta de Francisco Iglesias Carreño, «XLV años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
+    "fecha": "2025-09-19"
+   }
+  },
+  {
+   "id": "prepal-ter-04",
+   "area": "territorio",
+   "texto": "Que el Estatuto leonés se aplique a todos los ciudadanos nacidos o residentes en las tres provincias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 9-8-2026: carta de Francisco Iglesias Carreño (PREPAL), «Regionalidad Leonesa: investigaciones y actualidad» (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/regionalidad-leonesa-investigaciones-actualidad/20260809121811103629.html",
+    "fecha": "2026-08-09"
+   }
+  },
+  {
+   "id": "prepal-ins-01",
+   "area": "instituciones",
+   "texto": "Que todo el proceso autonómico leonés sea «tutelado por la Corona Española» y se haga dentro del marco legal vigente, «con la Constitución española en la mano».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 6-3-2026: Prepal reclama al Gobierno impulsar la autonomía de la Región Leonesa (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/leon/prepal-reclama-gobierno-impulsar-autonomia-region-leonesa/20260306181616077533.html",
+    "fecha": "2026-03-06"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-ins-02",
+   "area": "instituciones",
+   "texto": "Apoyo «directo y fijo» a la Constitución y que cualquier reforma constitucional se someta siempre a referéndum.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora (prensa)",
+    "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+    "fecha": "2025-01-26"
+   }
+  },
+  {
+   "id": "prepal-ter-05",
+   "area": "territorio",
+   "texto": "Que toda reforma constitucional mantenga la igualdad de todos los españoles sin discriminación y la igualdad entre las 15 «regionalidades».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora (prensa)",
+    "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+    "fecha": "2025-01-26"
+   }
+  },
+  {
+   "id": "prepal-eco-01",
+   "area": "economia",
+   "texto": "Que el Gobierno ejecute sin más demora las «115 medidas» del Plan Oeste, y que la oposición también lo exija.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 18-9-2026: carta de Francisco Iglesias Carreño, «XLVI años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+    "fecha": "2026-09-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-san-01",
+   "area": "sanidad",
+   "texto": "Construir nuevos hospitales en Salamanca, Zamora y León, en lugares accesibles y menos congestionados, en vez de reformar los existentes.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 18-9-2026: carta de Francisco Iglesias Carreño, «XLVI años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+    "fecha": "2026-09-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-san-02",
+   "area": "sanidad",
+   "texto": "Construir hospitales comarcales en Ciudad Rodrigo (Salamanca), Benavente (Zamora) y Astorga (León).",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 18-9-2026: carta de Francisco Iglesias Carreño, «XLVI años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+    "fecha": "2026-09-18"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-ter-06",
+   "area": "territorio",
+   "texto": "Devolver el tráfico ferroviario de viajeros y mercancías a las localidades entre Astorga y Puerto de Béjar, pasando por La Bañeza, Benavente, Zamora, Salamanca y Guijuelo, entre otras.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora (prensa)",
+    "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+    "fecha": "2025-01-26"
+   },
+   "destacada": true
+  },
+  {
+   "id": "prepal-ter-07",
+   "area": "territorio",
+   "texto": "Integrar a las tres provincias en las grandes redes viarias y mejorar sus comunicaciones con Extremadura, Galicia, Asturias y Portugal.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 19-9-2025: carta de Francisco Iglesias Carreño, «XLV años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
+    "fecha": "2025-09-19"
+   }
+  },
+  {
+   "id": "prepal-ext-01",
+   "area": "exterior",
+   "texto": "Avanzar en las comunicaciones entre España y Portugal por carretera, autovía, ferrocarril y redes informáticas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora (prensa)",
+    "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+    "fecha": "2025-01-26"
+   }
+  },
+  {
+   "id": "prepal-dem-01",
+   "area": "demografia",
+   "texto": "Poner fin a la emigración forzada de los jóvenes de León, Zamora y Salamanca, que según el partido «debe terminarse ya».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 18-9-2026: carta de Francisco Iglesias Carreño, «XLVI años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+    "fecha": "2026-09-18"
+   }
+  },
+  {
+   "id": "prepal-cul-01",
+   "area": "cultura",
+   "texto": "Defender el patrimonio histórico, cultural e identitario leonés frente a lo que considera sustitución «centralista».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Heraldo de León, 18-9-2026: carta de Francisco Iglesias Carreño, «XLVI años Partido Regionalista del País Leonés PREPAL» (prensa)",
+    "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html",
+    "fecha": "2026-09-18"
+   }
+  },
+  {
+   "id": "prepal-cul-02",
+   "area": "cultura",
+   "texto": "Pleno respeto, dentro del marco constitucional, a todas las regionalidades españolas, a su patrimonio y a su identidad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "ILEON, 26-1-2025: El Prepal celebra su 31.ª asamblea general en Zamora (prensa)",
+    "url": "https://ileon.eldiario.es/region-leonesa/prepal-celebra-31-asamblea-general-zamora_1_11994409.html",
+    "fecha": "2025-01-26"
+   }
+  },
+  {
+   "id": "prepal-seg-01",
+   "area": "seguridad",
+   "texto": "Construir un nuevo cuartel de la Guardia Civil en la ciudad de Zamora (en su programa desde 2008).",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Zamoranews, 18-7-2023: PREPAL mantiene en su programa la apuesta por un nuevo cuartel en Zamora (prensa)",
+    "url": "https://www.zamoranews.com/articulo/zamora/prepal-mantiene-programa-apuesta-nuevo-cuartel-zamora-medida-vigente-2008/20230718093920252224.html",
+    "fecha": "2023-07-18"
+   }
+  }
+ ],
+ "criticas": {
+  "economica": [
+   {
+    "titulo": "Infraestructuras sin coste ni prioridades",
+    "texto": "El partido pide a la vez seis hospitales nuevos, devolver el tráfico ferroviario al trazado entre Astorga y Puerto de Béjar y nuevas conexiones viarias, sin estimar costes ni demanda. La AIReF ha advertido de que en España las inversiones en transporte se deciden sin un análisis coste-beneficio sistemático, y el riesgo es mayor en líneas con poca demanda.",
+    "sobre": [
+     "prepal-san-01",
+     "prepal-san-02",
+     "prepal-ter-06",
+     "prepal-ter-07"
+    ],
+    "fuente": {
+     "nombre": "AIReF, Spending Review fase II: infraestructuras de transporte (2020)"
+    }
+   },
+   {
+    "titulo": "Un plan de hace dos décadas, sin actualizar",
+    "texto": "El partido reclama ejecutar las «115 medidas» del Plan Oeste, impulsado en los gobiernos de Rodríguez Zapatero, pero en lo publicado no explica qué medidas siguen pendientes, cuánto costarían hoy ni si siguen siendo adecuadas.",
+    "sobre": [
+     "prepal-eco-01"
+    ],
+    "fuente": {
+     "nombre": "leonoticias: UPL, UPS y Prepal crean una comisión de seguimiento del Plan Oeste de Zapatero",
+     "url": "https://www.leonoticias.com/frontend/leonoticias/Los-Partidos-Leonesistas-UPL-UPS-Y-Prepal-Crean-Una-Comisio-vn19108-vst216"
+    }
+   },
+   {
+    "titulo": "Coste de una nueva administración autonómica",
+    "texto": "Separar tres provincias de Castilla y León obligaría a montar un nuevo parlamento, gobierno y administración, y a repartir activos, deuda y personal entre dos comunidades. El partido no cuantifica ese coste ni explica cómo se financiaría la nueva comunidad.",
+    "sobre": [
+     "prepal-ter-01",
+     "prepal-ter-02"
+    ],
+    "fuente": {
+     "nombre": "Argumento de coste de transición institucional; las fuentes del partido no aportan memoria económica"
+    }
+   }
+  ],
+  "social": [
+   {
+    "titulo": "Promesas sanitarias que no dependen del Congreso",
+    "texto": "La sanidad está transferida a Castilla y León desde 2002, así que construir hospitales es una decisión de la Junta y no de las Cortes Generales, a las que se presenta el partido. Además, Salamanca ya tiene un nuevo edificio del Hospital Universitario. Y abrir hospitales comarcales con poca población choca con la evidencia de que la calidad de muchos procesos depende del número de casos que se atienden.",
+    "sobre": [
+     "prepal-san-01",
+     "prepal-san-02"
+    ],
+    "fuente": {
+     "nombre": "Real Decreto 1480/2001 (traspaso del INSALUD a Castilla y León); Portal de Salud de la Junta de Castilla y León, Hospital Universitario de Salamanca (nuevo edificio)",
+     "url": "https://www.saludcastillayleon.es/CASalamanca/es/hospital-universitario-salamanca-nuevo-edificio"
+    }
+   },
+   {
+    "titulo": "Objetivo demográfico sin medidas",
+    "texto": "Pedir que la emigración juvenil «debe terminarse ya» no va acompañado en lo publicado de medidas concretas de empleo, vivienda o fiscalidad, así que no se puede valorar su eficacia.",
+    "sobre": [
+     "prepal-dem-01"
+    ],
+    "fuente": {
+     "nombre": "Argumento de concreción; carta del presidente del partido en Heraldo de León (18-9-2026)",
+     "url": "https://www.heraldodeleon.es/cartas-al-director/xlvi-anos-partido-regionalista-pais-leones-prepal/20260918134738109001.html"
+    }
+   }
+  ],
+  "cultural": [
+   {
+    "titulo": "Desigual respaldo en Zamora y Salamanca",
+    "texto": "El proyecto incluye Zamora y Salamanca, donde el apoyo a la autonomía leonesa ha sido menor que en León. Incluso en León, la vía del art. 143 CE no alcanzó los dos tercios de municipios necesarios, y además haría falta reformar el Estatuto de Castilla y León. Una comunidad de tres provincias se plantearía, por tanto, sin una mayoría clara en dos de ellas.",
+    "sobre": [
+     "prepal-ter-01",
+     "prepal-ter-04"
+    ],
+    "fuente": {
+     "nombre": "The Objective, 27-6-2024: el camino a la autonomía de León que recoge la Constitución",
+     "url": "https://theobjective.com/espana/politica/2024-06-27/leon-autonomia-camino-recoge-constitucion/"
+    }
+   },
+   {
+    "titulo": "Falta de consenso político en el propio León",
+    "texto": "Cuando la Diputación de León votó en 2024 una moción por la autonomía de las tres provincias, salió por 13 votos contra 11, con el PP y Vox en contra y sus portavoces preguntando si se había consultado a Zamora y Salamanca. El proyecto carece así del consenso amplio que exigiría alterar el mapa autonómico.",
+    "sobre": [
+     "prepal-ter-01",
+     "prepal-cul-01"
+    ],
+    "fuente": {
+     "nombre": "Diario de León, 26-6-2024: La Diputación respalda la autonomía de León separado de Castilla",
+     "url": "https://www.diariodeleon.es/leon/240626/1565458/diputacion-respalda-autonomia-leon-separado-castilla.html"
+    }
+   }
+  ]
+ },
+ "derecho": {
+  "valoracion": "Sin hallazgos graves. El partido plantea la autonomía leonesa explícitamente dentro de la Constitución, y la creación de una comunidad nueva tiene cauce constitucional (arts. 143 y 144 CE). Solo hay una duda menor de encaje institucional: pide que el proceso lo «tutele» la Corona, una función que la Constitución no atribuye al Rey.",
+  "criticas": [
+   {
+    "titulo": "«Tutela» de la Corona sobre el proceso autonómico",
+    "texto": "En una monarquía parlamentaria los actos del Rey deben estar refrendados por el Gobierno o las Cortes y carecen de validez sin ese refrendo, de modo que la Corona no puede tutelar un proceso legislativo. La iniciativa autonómica corresponde a las diputaciones y municipios (art. 143.2 CE), aunque las Cortes pueden sustituirla por motivos de interés nacional (art. 144 CE). El resto de la propuesta respeta ese marco.",
+    "gravedad": "baja",
+    "criterio": "Arts. 1.3, 56.3, 64, 143 y 144 CE",
+    "sobre": [
+     "prepal-ins-01",
+     "prepal-ter-02"
+    ],
+    "fuente": {
+     "nombre": "Constitución Española (BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    }
+   }
+  ],
+  "avales": []
+ },
+ "tier": "otros",
+ "mentiras": [],
+ "actualizado": "2026-10-30"
+}

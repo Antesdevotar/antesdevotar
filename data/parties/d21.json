@@ -40,11 +40,11 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Recogiendo firmas",
+ "estado_candidatura": "Presentada",
  "estado_fuente": {
-  "nombre": "PoliticaElectoral.com (coalición inscrita ante la JEC, pendiente de avales y de presentar listas)",
-  "url": "https://www.politicaelectoral.com/es/espana/partido/democracia-21",
-  "fecha": "2026-10-18"
+  "nombre": "ESdiario, candidaturas al 29N",
+  "url": "https://www.esdiario.com/nacional/261028/201469/29nya-nombres-apellidos-salen-luz-todas-candidaturas-congreso-senado.html",
+  "fecha": "2026-10-28"
  },
  "circunscripciones": [
   "Madrid",
@@ -578,5 +578,6 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21"
+ "actualizado": "2026-10-21",
+ "candidatura_nota": "En la papeleta: Democracia21, con Ciudadanos y UCIN."
 }
