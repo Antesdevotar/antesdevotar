@@ -1,43 +1,27 @@
 {
- "actualizado": "2026-10-20",
- "metodo": "Para PP, PSOE, Vox, Frente Amplio, Podemos y SALF, media de los últimos sondeos de cada instituto (Demócrata, Su Momento, elDiario.es, PolitPro). Para los partidos de ámbito autonómico, que muchas encuestas no detallan, se usa el último sondeo publicado que los incluye (IMOP-El Confidencial, 5-7 de octubre de 2026).",
+ "actualizado": "2026-10-27",
+ "metodo": "Media de encuestas de Demócrata: 15 institutos, el último estudio de cada uno en los 30 días anteriores. Los escaños son la media de las proyecciones de 10 institutos.",
  "fuentes": [
   {
-   "nombre": "Demócrata — media de encuestas (20 oct 2026)",
+   "nombre": "Demócrata — media de encuestas (27 oct 2026)",
    "url": "https://www.democrata.es/elecciones-generales-espana/herramientas/encuestas"
-  },
-  {
-   "nombre": "Su Momento — media de 32 encuestas (10 oct 2026)",
-   "url": "https://sumomento.com/encuestas"
-  },
-  {
-   "nombre": "PolitPro — tendencia electoral",
-   "url": "https://politpro.eu/es/espana"
-  },
-  {
-   "nombre": "elDiario.es — promedio de sondeos",
-   "url": "https://www.eldiario.es/politica/dice-hoy-media-encuestas-pp-vox-aventajan-bloque-progresista-15-puntos-izquierda-sigue-negociando_1_13585216.html"
-  },
-  {
-   "nombre": "IMOP-El Confidencial, 5-7 oct 2026 (para partidos de ámbito autonómico, que no recogen todas las encuestas)",
-   "url": "https://sumomento.com/encuestas"
   }
  ],
  "partidos": [
   {
    "id": "pp",
-   "voto": 31.7,
-   "escanos": 135
+   "voto": 31.0,
+   "escanos": 134
   },
   {
    "id": "psoe",
-   "voto": 26.8,
-   "escanos": 106
+   "voto": 27.3,
+   "escanos": 108
   },
   {
    "id": "vox",
-   "voto": 18.7,
-   "escanos": 66
+   "voto": 18.9,
+   "escanos": 67
   },
   {
    "id": "sumar",
@@ -47,61 +31,55 @@
   },
   {
    "id": "podemos",
-   "voto": 3.1,
+   "voto": 2.9,
    "escanos": 2
   },
   {
    "id": "erc",
-   "voto": 2.2,
-   "escanos": 8,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "voto": 2.3,
+   "escanos": 8
   },
   {
    "id": "salf",
-   "voto": 1.8,
-   "escanos": 0
+   "voto": 1.6,
+   "escanos": 0,
+   "nota": "Las proyecciones no le asignan escaño."
   },
   {
    "id": "junts",
-   "voto": 1.1,
-   "escanos": 4,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "voto": 1.5,
+   "escanos": 6
   },
   {
    "id": "bildu",
-   "voto": 1.3,
-   "escanos": 6,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
-  },
-  {
-   "id": "pnv",
-   "voto": 0.9,
-   "escanos": 4,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
-  },
-  {
-   "id": "bng",
-   "voto": 1.1,
-   "escanos": 3,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "voto": 1.4,
+   "escanos": 7
   },
   {
    "id": "aa",
    "voto": 1.0,
-   "escanos": 1,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "escanos": 1
+  },
+  {
+   "id": "pnv",
+   "voto": 0.9,
+   "escanos": 5
+  },
+  {
+   "id": "bng",
+   "voto": 0.9,
+   "escanos": 2
   },
   {
    "id": "cc",
-   "voto": 0.6,
-   "escanos": 1,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "voto": 0.4,
+   "escanos": 1
   },
   {
    "id": "upn",
    "voto": 0.2,
-   "escanos": 1,
-   "fuente": "IMOP-El Confidencial, 5-7 oct 2026"
+   "escanos": 0,
+   "nota": "Va en coalición con el PP en Navarra; las proyecciones no le asignan escaño por separado."
   }
  ]
 }
