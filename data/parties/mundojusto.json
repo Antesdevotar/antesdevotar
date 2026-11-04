@@ -34,11 +34,11 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Presentada",
+ "estado_candidatura": "Proclamada",
  "estado_fuente": {
-  "nombre": "Press Digital, 28-10-2026: jubilados, autónomos, feministas... los otros partidos que aspiran a escaño",
-  "url": "https://www.pressdigital.es/articulo/politica/2026-10-28/6069724-jubilados-autonomos-feministas-juristas-comunistas-soberanistas-otros-partidos-aspiran-escano",
-  "fecha": "2026-10-28"
+  "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
+  "fecha": "2026-11-03"
  },
  "circunscripciones": [
   "Álava",
@@ -48,16 +48,14 @@
   "Asturias",
   "Ávila",
   "Badajoz",
-  "Barcelona",
   "Cuenca",
   "Granada",
   "Guadalajara",
   "Las Palmas",
-  "León",
   "Madrid",
   "Valencia"
  ],
- "nota_circunscripciones": "Listas provisionales (BOE del 28-10-2026; la proclamación es el 2 de noviembre). La prensa habla de «una treintena» de circunscripciones al Congreso; aquí solo figuran las 15 comprobadas en el BOE o en prensa provincial. Civio señaló que su lista de Las Palmas no cumple la alternancia entre hombres y mujeres.",
+ "nota_circunscripciones": "Lista de circunscripciones confirmadas; su candidatura en Barcelona y León no fue proclamada.",
  "fuentes_circunscripciones": [
   {
    "nombre": "BOE-A-2026-22607, candidaturas presentadas (28-10-2026): Álava, Albacete, Almería, Asturias, Ávila, Badajoz, Barcelona",

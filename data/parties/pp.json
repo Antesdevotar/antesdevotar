@@ -1318,14 +1318,14 @@
  "mentiras": [],
  "actualizado": "2026-10-21",
  "concurre": true,
- "estado_candidatura": "Presentada",
+ "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "Todas"
  ],
  "estado_fuente": {
-  "nombre": "Civio, candidaturas presentadas al 29N (BOE 28/10/2026)",
-  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/28/candidaturas-presentadas-29n/",
-  "fecha": "2026-10-28"
+  "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
+  "fecha": "2026-11-03"
  },
  "candidatura_nota": "En Navarra se presenta en coalición con UPN."
 }

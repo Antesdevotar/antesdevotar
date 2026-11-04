@@ -629,15 +629,15 @@
  "mentiras": [],
  "actualizado": "2026-10-21",
  "concurre": true,
- "estado_candidatura": "Presentada",
+ "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "Álava",
   "Bizkaia",
   "Gipuzkoa"
  ],
  "estado_fuente": {
-  "nombre": "Demócrata, listas provisionales en Euskadi",
-  "url": "https://www.democrata.es/euskadi/euskadi-publica-las-listas-provisionales-15-candidaturas-por-alava-12-por-bizkaia-y-11-por-gipuzkoa-al-congreso/",
-  "fecha": "2026-10-28"
+  "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
+  "fecha": "2026-11-03"
  }
 }

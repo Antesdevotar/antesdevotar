@@ -35,11 +35,11 @@
   }
  ],
  "programa_2026_publicado": false,
- "estado_candidatura": "Presentada",
+ "estado_candidatura": "Proclamada",
  "estado_fuente": {
-  "nombre": "Press Digital, partidos minoritarios al 29N",
-  "url": "https://www.pressdigital.es/articulo/politica/2026-10-28/6069724-jubilados-autonomos-feministas-juristas-comunistas-soberanistas-otros-partidos-aspiran-escano",
-  "fecha": "2026-10-28"
+  "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
+  "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
+  "fecha": "2026-11-03"
  },
  "circunscripciones": [
   "Álava",
@@ -52,8 +52,7 @@
   "Palencia",
   "Soria",
   "Valladolid",
-  "Murcia",
-  "Melilla"
+  "Murcia"
  ],
  "referencia_voto": {
   "eleccion": "Generales 2023",
@@ -176,5 +175,5 @@
  },
  "mentiras": [],
  "actualizado": "2026-10-21",
- "candidatura_nota": "La prensa habla de 13 circunscripciones; aquí figuran las 12 confirmadas."
+ "candidatura_nota": "Proclamada en 12 circunscripciones; aquí figuran las 11 confirmadas."
 }
