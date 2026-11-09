@@ -8,32 +8,17 @@
  "color": "#FFB232",
  "web": "https://www.esquerra.cat",
  "escanos_2023": 7,
- "resumen": "Partido de izquierda independentista catalán, presidido por Oriol Junqueras, que apoyó la investidura de Pedro Sánchez en 2023. Prioriza un referéndum pactado, la financiación singular con recaudación propia del IRPF, el traspaso de Rodalies y la defensa del catalán.",
+ "resumen": "Partido de izquierda independentista catalán, presidido por Oriol Junqueras, que apoyó la investidura de Pedro Sánchez en 2023. Su programa para el 29N prioriza negociar un referéndum de autodeterminación, una financiación basada en la recaudación de los impuestos generados en Cataluña, el traspaso integral de Rodalies y la defensa del catalán.",
  "fuentes_programa": [
   {
-   "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-   "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-   "fecha": "2023-07"
-  },
-  {
-   "nombre": "Programa electoral ERC 23J (Scribd)",
-   "url": "https://www.scribd.com/document/657322483/Programa-Electoral-ERC-23-J",
-   "fecha": "2023-07"
-  },
-  {
-   "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-   "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-   "fecha": "2024-04"
+   "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+   "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+   "fecha": "2026-11-05"
   },
   {
    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
    "fecha": "2023-11"
-  },
-  {
-   "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
-   "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
-   "fecha": "2025-07"
   },
   {
    "nombre": "Proposición de ley de ERC sobre recaudación del IRPF (Ara)",
@@ -46,55 +31,31 @@
    "fecha": "2026-01"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
    "id": "erc-ter-01",
    "area": "territorio",
-   "texto": "Negociar con el Gobierno un referéndum de autodeterminación pactado y reconocido internacionalmente como vía hacia la independencia.",
-   "origen": "programa-2023",
+   "texto": "Negociar con el Estado la convocatoria de una consulta de autodeterminación en Cataluña, con la UE y el Consejo de Europa como facilitadores, según la resolución Cilevičs y las buenas prácticas de la Comisión de Venecia.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": true
-  },
-  {
-   "id": "erc-ter-02",
-   "area": "territorio",
-   "texto": "Alcanzar un 'acuerdo de claridad' con el Estado que fije el procedimiento para una nueva votación sobre la independencia.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
   },
   {
    "id": "erc-ter-03",
    "area": "territorio",
-   "texto": "Financiación singular: que la Generalitat recaude todos los impuestos con plena capacidad normativa, pagando al Estado por sus servicios y aportando a un fondo de solidaridad.",
-   "origen": "declaracion",
+   "texto": "Que la Agència Tributària de Catalunya asuma progresivamente la recaudación de todos los tributos estatales generados en Cataluña.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": true
-  },
-  {
-   "id": "erc-ter-04",
-   "area": "territorio",
-   "texto": "Acabar con el déficit fiscal de Cataluña y de los Països Catalans.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
   },
   {
    "id": "erc-ter-05",
@@ -106,7 +67,7 @@
     "url": "https://es.ara.cat/politica/erc-presenta-solitario-ley-catalunya-resto-autonomias-puedan-recaudar-irpf_1_5489876.html",
     "fecha": "2025-09"
    },
-   "destacada": true
+   "destacada": false
   },
   {
    "id": "erc-ter-06",
@@ -123,36 +84,36 @@
   {
    "id": "erc-ter-07",
    "area": "territorio",
-   "texto": "Exigir el principio de ordinalidad en el reparto: que Cataluña no pierda posiciones en financiación por habitante respecto a lo que aporta.",
-   "origen": "declaracion",
+   "texto": "Un sistema de financiación basado en la recaudación de los impuestos generados en Cataluña, con una participación del Estado para sufragar sus competencias y respetando el principio de ordinalidad.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Comisión Bilateral Estado-Generalitat, 14/07/2025 (Ara)",
-    "url": "https://es.ara.cat/politica/nueva-financiacion-todavia-cifras-pactada-generalitat_1_5442900.html",
-    "fecha": "2025-07"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
    "id": "erc-ter-08",
    "area": "territorio",
-   "texto": "Aprobar en el Congreso el nuevo modelo de financiación pactado con el Gobierno (cesión del 55% del IRPF y del 56,5% del IVA), con unos 4.700 M€ más para Cataluña.",
-   "origen": "accion",
+   "texto": "Hacer efectivo el nuevo modelo de financiación acordado con el Gobierno en enero de 2026, que según ERC supondría 4.700 millones de euros adicionales al año para Cataluña.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Declaraciones de Oriol Junqueras, 09/01/2026 (Diari de Tarragona)",
-    "url": "https://www.diaridetarragona.com/catalunya/249215/junqueras-avisa-illa-sanchez-nuevo-modelo-financiacion-aun-debe-aprobarse-congreso.html",
-    "fecha": "2026-01"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": true
   },
   {
    "id": "erc-ter-09",
    "area": "territorio",
-   "texto": "Traspaso integral de Rodalies (Cercanías y trenes regionales) a la Generalitat.",
-   "origen": "accion",
+   "texto": "Completar el traspaso integral de Rodalies, tanto de la gestión del servicio como de las infraestructuras, incluidas las líneas R1, R2 Sud, R3, R4 Nord y R16.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-    "fecha": "2023-11"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": true
   },
@@ -169,40 +130,100 @@
    "destacada": false
   },
   {
-   "id": "erc-ter-11",
+   "id": "erc-ter-13",
    "area": "territorio",
-   "texto": "Crear un fondo de compensación por las inversiones en infraestructuras presupuestadas por el Estado en Cataluña y no ejecutadas.",
-   "origen": "programa-2023",
+   "texto": "Mantener la independencia de Cataluña como objetivo político.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-ter-12",
+   "id": "erc-ter-14",
    "area": "territorio",
-   "texto": "Traspasar a Cataluña la gestión del Ingreso Mínimo Vital.",
-   "origen": "programa-2023",
+   "texto": "Que Cataluña gestione los aeropuertos de Girona, Reus y Sabadell.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-15",
+   "area": "territorio",
+   "texto": "Conectar Girona y Reus con la red de alta velocidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ter-16",
+   "area": "territorio",
+   "texto": "Derogar la Ley de Racionalización y Sostenibilidad de la Administración Local (LRSAL).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-eco-02",
+   "area": "economia",
+   "texto": "Convertir en permanentes los gravámenes extraordinarios sobre las grandes fortunas, la banca y las energéticas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-eco-03",
+   "area": "economia",
+   "texto": "Elevar del 30% al 35% el tipo máximo de las ganancias de capital.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-eco-04",
+   "area": "economia",
+   "texto": "Reducir la tributación de las rentas del trabajo inferiores a 35.000 euros anuales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
    "id": "erc-deu-01",
    "area": "deuda",
-   "texto": "Condonar unos 15.000 millones de euros de la deuda de la Generalitat con el Estado (FLA), ampliable a otras comunidades.",
-   "origen": "accion",
+   "texto": "Completar la condonación de más de 17.100 millones de euros de deuda del FLA, que según ERC ahorraría a la Generalitat unos 1.500 millones anuales en intereses.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-    "fecha": "2023-11"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
-   "destacada": false
+   "destacada": true
   },
   {
    "id": "erc-deu-02",
@@ -217,266 +238,26 @@
    "destacada": false
   },
   {
-   "id": "erc-ins-01",
-   "area": "instituciones",
-   "texto": "Aprobar una ley de amnistía para los encausados por el procés independentista.",
-   "origen": "accion",
+   "id": "erc-deu-03",
+   "area": "deuda",
+   "texto": "Modificar las reglas fiscales que limitan la inversión y el endeudamiento de los ayuntamientos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
-    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
-    "fecha": "2023-11"
-   },
-   "destacada": true
-  },
-  {
-   "id": "erc-ins-02",
-   "area": "instituciones",
-   "texto": "Suprimir el Senado, por considerar que no ejerce de cámara territorial.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-ins-03",
-   "area": "instituciones",
-   "texto": "Despenalizar las injurias a la Corona.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-ins-04",
-   "area": "instituciones",
-   "texto": "Rebajar la edad de voto a los 16 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-ins-05",
-   "area": "instituciones",
-   "texto": "Simplificar la administración pública para mejorar la transparencia y la lucha contra la corrupción.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-seg-01",
-   "area": "seguridad",
-   "texto": "Derogar la Ley de Seguridad Ciudadana ('ley mordaza').",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-seg-02",
-   "area": "seguridad",
-   "texto": "Reforzar la lucha contra los delitos digitales y desplegar la comisaría virtual de los Mossos d'Esquadra.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-inm-01",
-   "area": "inmigracion",
-   "texto": "Derogar la Ley de Extranjería.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-inm-02",
-   "area": "inmigracion",
-   "texto": "Apoyar la ley orgánica que delega en la Generalitat permisos de residencia, emisión de NIE y presencia de los Mossos en la frontera.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Ara, 16/09/2025",
-    "url": "https://es.ara.cat/politica/votacion-delegar-competencias-inmigracion-fecha-mantiene-no_1_5498763.html",
-    "fecha": "2025-09"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-igu-01",
-   "area": "igualdad",
-   "texto": "Crear un 'frente democrático' contra los discursos de odio.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-igu-02",
-   "area": "igualdad",
-   "texto": "Impulsar un paquete de medidas para proteger y ampliar los derechos feministas y LGTBI.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-igu-03",
-   "area": "igualdad",
-   "texto": "Desplegar una red 'lila' en todo el territorio para prevenir la violencia machista.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-san-01",
-   "area": "sanidad",
-   "texto": "Acabar con la infrafinanciación del sistema sanitario.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-san-02",
-   "area": "sanidad",
-   "texto": "Garantizar la equidad territorial y de resultados en el sistema de salud catalán.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-cul-01",
-   "area": "cultura",
-   "texto": "Lograr la plena normalización del uso social del catalán.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-cul-02",
-   "area": "cultura",
-   "texto": "Que el Estado destine al catalán los mismos recursos de promoción e internacionalización que al castellano.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "erc-cul-03",
-   "area": "cultura",
-   "texto": "Defender el catalán frente a los acuerdos de PP y Vox en Baleares y Comunidad Valenciana.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa ERC Generales 23J (resumen Nació Digital)",
-    "url": "https://naciodigital.cat/politica/negociar-el-referendum-i-lamnistia-i-eliminar-el-senat-les-propostes-derc-per-al-23j.html",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-cul-04",
-   "area": "cultura",
-   "texto": "Consolidar la inmersión lingüística en catalán en la escuela.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-cul-05",
-   "area": "cultura",
-   "texto": "Reforzar el catalán en el ámbito digital y audiovisual.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-cul-06",
-   "area": "cultura",
-   "texto": "Elevar el gasto en cultura al 2% del presupuesto de la Generalitat.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "erc-viv-01",
-   "area": "vivienda",
-   "texto": "Desplegar la limitación de los precios del alquiler.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
    "id": "erc-viv-02",
    "area": "vivienda",
-   "texto": "Invertir al menos 1.000 millones de euros anuales en políticas de vivienda.",
-   "origen": "declaracion",
+   "texto": "Destinar al menos el 1,5% del PIB estatal a políticas públicas de vivienda.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
@@ -493,122 +274,434 @@
    "destacada": false
   },
   {
+   "id": "erc-viv-04",
+   "area": "vivienda",
+   "texto": "Que el Estado delegue en la Generalitat la capacidad de aprobar una Ley de Arrendamientos Urbanos propia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-viv-05",
+   "area": "vivienda",
+   "texto": "Transferir de forma gratuita e inmediata a la Generalitat los inmuebles de la Sareb en Cataluña para ampliar el parque público de vivienda.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-viv-06",
+   "area": "vivienda",
+   "texto": "Elevar al 21% el IVA de los alquileres turísticos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
    "id": "erc-emp-01",
    "area": "empleo",
-   "texto": "Avanzar hacia la semana laboral de cuatro días.",
-   "origen": "declaracion",
+   "texto": "Reducir la jornada máxima a 37,5 horas semanales sin rebaja salarial.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
    "id": "erc-emp-02",
    "area": "empleo",
-   "texto": "Fijar un salario mínimo de referencia catalán.",
-   "origen": "declaracion",
+   "texto": "Establecer un salario mínimo catalán de 1.460 euros.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
-   "destacada": false
+   "destacada": true
   },
   {
-   "id": "erc-emp-03",
+   "id": "erc-emp-04",
    "area": "empleo",
-   "texto": "Consolidar el Marco Catalán de Relaciones Laborales.",
-   "origen": "declaracion",
+   "texto": "Traspasar a la Generalitat las prestaciones por desempleo, contributivas y asistenciales, para gestionarlas a través del SOC.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-eco-01",
-   "area": "economia",
-   "texto": "Reindustrializar Cataluña con el objetivo de que la industria alcance el 25% del PIB en 2030.",
-   "origen": "declaracion",
+   "id": "erc-emp-05",
+   "area": "empleo",
+   "texto": "Traspasar a la Generalitat las funciones pendientes de la Inspección de Trabajo.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-ene-01",
-   "area": "energia",
-   "texto": "Avanzar hacia un modelo energético 100% renovable, residuo cero y movilidad sostenible.",
-   "origen": "declaracion",
+   "id": "erc-emp-06",
+   "area": "empleo",
+   "texto": "Elevar el salario mínimo interprofesional estatal hasta el 60% del salario medio.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-ene-02",
-   "area": "energia",
-   "texto": "Consolidar la empresa pública de energía de la Generalitat (Energètica).",
-   "origen": "declaracion",
+   "id": "erc-emp-07",
+   "area": "empleo",
+   "texto": "Recuperar la indemnización por despido improcedente de 45 días por año trabajado, con un máximo de 42 mensualidades, y los salarios de tramitación.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-rur-01",
-   "area": "rural",
-   "texto": "Aprobar una ley de soberanía alimentaria y garantizar precios justos al sector primario.",
-   "origen": "declaracion",
+   "id": "erc-pen-01",
+   "area": "pensiones",
+   "texto": "Actualizar las pensiones con un IPC territorializado que refleje la evolución de los precios en cada territorio.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-rur-02",
-   "area": "rural",
-   "texto": "Aprobar un estatuto de los municipios rurales para corregir el desequilibrio territorial.",
-   "origen": "declaracion",
+   "id": "erc-dem-01",
+   "area": "demografia",
+   "texto": "Crear una prestación universal por crianza desde 200 euros mensuales por familia.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-dem-02",
+   "area": "demografia",
+   "texto": "Equiparar las familias monoparentales a las familias numerosas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-san-03",
+   "area": "sanidad",
+   "texto": "Incluir en la sanidad pública la atención bucodental completa, incluidas caries, endodoncias y prótesis.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-san-04",
+   "area": "sanidad",
+   "texto": "Cobertura universal y gratuita de la atención psicológica y de salud mental.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-san-05",
+   "area": "sanidad",
+   "texto": "Financiar las gafas graduadas y las lentillas prescritas por profesionales sanitarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
    "id": "erc-edu-01",
    "area": "educacion",
-   "texto": "Gratuidad de todo el primer ciclo de educación infantil (0-3 años).",
-   "origen": "declaracion",
+   "texto": "Garantizar de forma progresiva el acceso universal y gratuito a la educación pública de 0 a 3 años.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   },
   {
-   "id": "erc-ext-01",
-   "area": "exterior",
-   "texto": "Promover internacionalmente la causa de la independencia de Cataluña.",
-   "origen": "declaracion",
+   "id": "erc-edu-02",
+   "area": "educacion",
+   "texto": "Elevar la inversión pública estatal en educación al 6% del PIB.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
-    "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-04",
+   "area": "cultura",
+   "texto": "Blindar la inmersión lingüística frente a las resoluciones judiciales que imponen porcentajes de castellano, modificando la legislación estatal y reforzando las competencias de la Generalitat.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-05",
+   "area": "cultura",
+   "texto": "Reservar a producciones en lenguas oficiales al menos el 50% del tiempo de emisión dedicado a obras europeas, con un mínimo del 25% en TVE para lenguas distintas del castellano.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-cul-07",
+   "area": "cultura",
+   "texto": "Aprobar una Ley estatal de Plurilingüismo para poder relacionarse con las instituciones del Estado en cualquier lengua oficial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "erc-cul-08",
+   "area": "cultura",
+   "texto": "Lograr la oficialidad en la UE del catalán, el occitano y la lengua de signos catalana.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-02",
+   "area": "igualdad",
+   "texto": "Reconocer legalmente las identidades no binarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-04",
+   "area": "igualdad",
+   "texto": "Perseguir penalmente las prácticas de conversión.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-igu-05",
+   "area": "igualdad",
+   "texto": "Crear un permiso laboral retribuido por duelo gestacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-inm-02",
+   "area": "inmigracion",
+   "texto": "Traspasar a la Generalitat la gestión integral de la migración y el asilo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-01",
+   "area": "instituciones",
+   "texto": "Aprobar una ley de amnistía para los encausados por el procés independentista.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Acuerdo de investidura PSOE-ERC (La Marea)",
+    "url": "https://lamarea.com/2023/11/02/psoe-y-erc-cierran-su-acuerdo-de-investidura-a-la-espera-de-junts",
+    "fecha": "2023-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-03",
+   "area": "instituciones",
+   "texto": "Eliminar del Código Penal los delitos de ofensa a los sentimientos religiosos y de injurias y calumnias contra la Corona y las asambleas legislativas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-06",
+   "area": "instituciones",
+   "texto": "Transferir a la Generalitat la comisaría de la Policía Nacional de Via Laietana, con sus archivos y recursos, para convertirla en un centro de memoria histórica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ins-07",
+   "area": "instituciones",
+   "texto": "Crear 180 nuevas plazas judiciales en Cataluña para hacer frente a la reincidencia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-seg-01",
+   "area": "seguridad",
+   "texto": "Derogar la Ley de Seguridad Ciudadana (\"Ley Mordaza\").",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-seg-03",
+   "area": "seguridad",
+   "texto": "Integrar directamente a los Mossos d'Esquadra en Interpol y Europol.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-seg-04",
+   "area": "seguridad",
+   "texto": "Que la Generalitat asuma plenamente las competencias policiales en puertos y aeropuertos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ext-02",
+   "area": "exterior",
+   "texto": "Embargo completo de armas a Israel y presión para suspender el acuerdo de asociación UE-Israel.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ext-03",
+   "area": "exterior",
+   "texto": "Revertir el cambio de posición del Gobierno de 2022 sobre el Sáhara Occidental.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ext-04",
+   "area": "exterior",
+   "texto": "Respetar las resoluciones judiciales europeas sobre los acuerdos con Marruecos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
+   },
+   "destacada": false
+  },
+  {
+   "id": "erc-ext-05",
+   "area": "exterior",
+   "texto": "Cumplir el compromiso de destinar el 0,7% de la renta a Ayuda Oficial al Desarrollo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+    "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/",
+    "fecha": "2026-11-05"
    },
    "destacada": false
   }
@@ -620,7 +713,7 @@
     "texto": "Fedea estimó que un concierto como el pactado en 2024 supondría una transferencia neta a Cataluña de 6.600-13.200 M€ anuales; compensarla exigiría subir la parte estatal del IRPF entre un 15% y un 30% o recortar en torno a un 5-11% la financiación del resto de comunidades. Generalizarlo costaría 31.000-62.000 M€ adicionales.",
     "sobre": [
      "erc-ter-03",
-     "erc-ter-04",
+     "erc-ter-07",
      "erc-ter-06"
     ],
     "fuente": {
@@ -641,9 +734,10 @@
    },
    {
     "titulo": "Un salario mínimo regional más alto puede restar empleo",
-    "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo neto de los trabajadores afectados entre 6 y 11 puntos. Un suelo salarial catalán superior al estatal podría tener efectos similares en sectores y comarcas de menor productividad.",
+    "texto": "El Banco de España estimó que la subida del SMI de 2019 redujo el empleo neto de los trabajadores afectados entre 6 y 11 puntos. Un suelo salarial catalán de 1.460 euros, superior al estatal, o un SMI estatal ligado al 60% del salario medio podrían tener efectos similares en sectores y comarcas de menor productividad.",
     "sobre": [
-     "erc-emp-02"
+     "erc-emp-02",
+     "erc-emp-06"
     ],
     "fuente": {
      "nombre": "Banco de España, Documento Ocasional 2113 (2021)",
@@ -669,7 +763,6 @@
     "titulo": "El control de alquileres puede reducir la oferta",
     "texto": "El Banco de España advierte de que medidas de vivienda de eficacia limitada a corto plazo pueden tener efectos no deseados, como desviar viviendas al alquiler de temporada, y recomienda priorizar el aumento de la oferta, especialmente de alquiler social.",
     "sobre": [
-     "erc-viv-01",
      "erc-viv-03"
     ],
     "fuente": {
@@ -684,7 +777,7 @@
     "texto": "El Tribunal Constitucional ha declarado reiteradamente que una comunidad autónoma no puede convocar un referéndum de autodeterminación porque la soberanía reside en el conjunto del pueblo español (art. 1.2 y 2 CE); solo sería posible mediante reforma constitucional agravada (art. 168).",
     "sobre": [
      "erc-ter-01",
-     "erc-ter-02"
+     "erc-ter-13"
     ],
     "fuente": {
      "nombre": "Tribunal Constitucional, STC 114/2017"
@@ -703,10 +796,9 @@
    },
    {
     "titulo": "La inmersión y los castellanohablantes",
-    "texto": "Los tribunales (TSJC, 2020, confirmado por el Supremo en 2021) obligaron a impartir al menos un 25% de la docencia en castellano al entender que el modelo de inmersión no garantizaba la presencia vehicular de ambas lenguas oficiales.",
+    "texto": "Los tribunales (TSJC, 2020, confirmado por el Supremo en 2021) obligaron a impartir al menos un 25% de la docencia en castellano al entender que el modelo de inmersión no garantizaba la presencia vehicular de ambas lenguas oficiales. Su programa para el 29N propone modificar la legislación estatal para blindar la inmersión frente a esas resoluciones.",
     "sobre": [
-     "erc-cul-04",
-     "erc-cul-01"
+     "erc-cul-04"
     ],
     "fuente": {
      "nombre": "TSJC, sentencia de 16/12/2020; Tribunal Supremo, auto de 2021"
@@ -715,7 +807,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21",
+ "actualizado": "2026-11-09",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [

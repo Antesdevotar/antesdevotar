@@ -105,14 +105,14 @@
     "erc": {
      "valor": 1,
      "ref": [
-      "erc-viv-01",
-      "erc-viv-03"
+      "erc-viv-03",
+      "erc-viv-04"
      ],
      "fuente": {
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone desplegar la limitación de precios. Votó a favor de los decretos de 2026."
+     "nota": "Votó a favor de los decretos de vivienda de 2026. Su programa pide que la Generalitat pueda aprobar una Ley de Arrendamientos Urbanos propia."
     },
     "escanosenblanco": {
      "valor": null,
@@ -812,8 +812,11 @@
      "ref": [
       "erc-emp-01"
      ],
-     "fuente": null,
-     "nota": "Propone avanzar a la semana de cuatro días."
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Propone reducir la jornada máxima a 37,5 horas semanales sin rebaja salarial."
     },
     "escanosenblanco": {
      "valor": null,
@@ -1026,10 +1029,16 @@
      "nota": "Sin posición documentada"
     },
     "erc": {
-     "valor": null,
-     "ref": [],
-     "fuente": null,
-     "nota": "Sin posición documentada"
+     "valor": 0,
+     "ref": [
+      "erc-eco-04",
+      "erc-eco-03"
+     ],
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Propone bajar la tributación de las rentas del trabajo inferiores a 35.000 euros, pero subir el tipo máximo de las ganancias de capital del 30% al 35%."
     },
     "escanosenblanco": {
      "valor": null,
@@ -1244,12 +1253,14 @@
     },
     "erc": {
      "valor": 1,
-     "ref": [],
+     "ref": [
+      "erc-eco-02"
+     ],
      "fuente": {
       "nombre": "Aprobación de los gravámenes a banca, energéticas y grandes fortunas, Congreso, 24-11-2022 (Menorca.info/Europa Press)",
       "url": "https://www.menorca.info/actualidad/nacional/2022/11/24/1835095/pleno-del-congreso-aprueba-gravamenes-banca-energeticas-ricos.html"
      },
-     "nota": "Votó a favor del impuesto de grandes fortunas en 2022 y pidió hacerlo permanente."
+     "nota": "Votó a favor del impuesto de grandes fortunas en 2022 y su programa pide hacerlo permanente."
     },
     "escanosenblanco": {
      "valor": null,
@@ -1894,8 +1905,11 @@
      "ref": [
       "erc-cul-04"
      ],
-     "fuente": null,
-     "nota": "Propone consolidar la inmersión lingüística en catalán."
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Propone blindar la inmersión lingüística frente a las resoluciones judiciales que imponen porcentajes de castellano."
     },
     "escanosenblanco": {
      "valor": null,
@@ -2095,8 +2109,11 @@
      "ref": [
       "erc-deu-01"
      ],
-     "fuente": null,
-     "nota": "Pactó la condonación de unos 15.000 M€ de deuda de la Generalitat."
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Pactó la condonación de deuda de la Generalitat en 2023 y su programa pide completarla (más de 17.100 M€ del FLA)."
     },
     "escanosenblanco": {
      "valor": null,
@@ -2316,14 +2333,12 @@
     },
     "erc": {
      "valor": -1,
-     "ref": [
-      "erc-inm-01"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Toma en consideración de la ILP de regularización, Congreso, 9-4-2024: 310 a favor, 33 en contra (El Salto)",
       "url": "https://www.elsaltodiario.com/migracion/ilp-regularizacion-personas-migrantes-entra-congreso-mayoritario-grupo"
      },
-     "nota": "Propone derogar la Ley de Extranjería; votó a favor de la ILP en 2024."
+     "nota": "Votó a favor de tramitar la ILP de regularización en 2024."
     },
     "escanosenblanco": {
      "valor": null,
@@ -2981,10 +2996,13 @@
      "valor": 1,
      "ref": [
       "erc-ter-01",
-      "erc-ter-02"
+      "erc-ter-13"
      ],
-     "fuente": null,
-     "nota": "Propone un referéndum pactado de autodeterminación."
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Propone negociar con el Estado un referéndum de autodeterminación en Cataluña."
     },
     "escanosenblanco": {
      "valor": null,
@@ -3198,11 +3216,16 @@
     "erc": {
      "valor": -1,
      "ref": [
+      "erc-ter-03",
       "erc-ter-05",
-      "erc-ter-09"
+      "erc-ter-09",
+      "erc-inm-02"
      ],
-     "fuente": null,
-     "nota": "Reclama más competencias (IRPF, Rodalies) para la Generalitat."
+     "fuente": {
+      "nombre": "Programa electoral de ERC para el 29N (según Demócrata, 5-11-2026)",
+      "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+     },
+     "nota": "Reclama más competencias para la Generalitat (recaudación de impuestos, Rodalies, migración, aeropuertos)."
     },
     "escanosenblanco": {
      "valor": null,
@@ -4080,11 +4103,12 @@
     },
     "erc": {
      "valor": -1,
-     "ref": [
-      "erc-igu-03"
-     ],
-     "fuente": null,
-     "nota": "Propone una red 'lila' contra la violencia machista."
+     "ref": [],
+     "fuente": {
+      "nombre": "Programa ERC elecciones al Parlament 12M 2024 (resumen VilaWeb)",
+      "url": "https://www.vilaweb.cat/noticies/esquerra-referendum-programa-electoral/"
+     },
+     "nota": "En su programa para el Parlament de 2024 proponía una red 'lila' contra la violencia machista."
     },
     "escanosenblanco": {
      "valor": null,
@@ -4294,7 +4318,7 @@
       "nombre": "Toma en consideración de la reforma de la Ley de Seguridad Ciudadana, Congreso, 29-10-2024 (Onda Vasca)",
       "url": "https://www.ondavasca.com/la-reforma-de-la-ley-mordaza-da-el-primer-paso-en-el-congreso/"
      },
-     "nota": "Propone derogarla."
+     "nota": "Su programa para el 29N propone derogarla."
     },
     "escanosenblanco": {
      "valor": null,
@@ -5611,14 +5635,12 @@
     },
     "erc": {
      "valor": 1,
-     "ref": [
-      "erc-ene-02"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Admisión a trámite de la ley de Unidas Podemos para crear una eléctrica pública, Congreso, febrero de 2022 (Energías Renovables)",
       "url": "https://www.energias-renovables.com/panorama/psoe-pp-vox-y-cs-dicen-no-20220223"
      },
-     "nota": "Votó a favor en 2022 y propone consolidar la empresa pública de la Generalitat."
+     "nota": "Votó a favor en 2022 de tramitar la ley para crear una eléctrica pública estatal."
     },
     "escanosenblanco": {
      "valor": null,
