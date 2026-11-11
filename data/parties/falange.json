@@ -4,7 +4,7 @@
  "siglas": "FE de las JONS",
  "tier": "otros",
  "concurre": true,
- "candidato": "Por confirmar",
+ "candidato": "Norberto Pedro Pico Sanabria (cabeza de lista por Madrid)",
  "ideologia": "Extrema derecha (falangista, nacionalsindicalista)",
  "ambito": "Estatal",
  "color": "#C8102E",
@@ -57,8 +57,8 @@
   "porcentaje": 0.02,
   "ambito": "España",
   "fuente": {
-   "nombre": "Resultados oficiales recopilados en Wikipedia, «2023 Spanish general election»",
-   "url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+   "nombre": "BOE, Resolución de 30-8-2023 de la Junta Electoral Central: resultados generales de las elecciones del 23-7-2023",
+   "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf"
   },
   "nota": "4.683 votos al Congreso. En las europeas de 2024 obtuvo 9.677 votos (0,06 %)."
  },

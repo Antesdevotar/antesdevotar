@@ -4,7 +4,7 @@
  "siglas": "M+J",
  "tier": "otros",
  "concurre": true,
- "candidato": "Por confirmar (no consta candidato a la presidencia; en Madrid encabeza la lista José Manuel Romero Melero, según esdiario)",
+ "candidato": "José Manuel Romero Melero (cabeza de lista por Madrid)",
  "ambito": "Estatal",
  "color": "#9E9E9E",
  "color_aproximado": true,
@@ -103,8 +103,8 @@
   "porcentaje": 0.09,
   "ambito": "España",
   "fuente": {
-   "nombre": "Wikipedia, «Results breakdown of the 2023 Spanish general election (Congress)» (23.290 votos)",
-   "url": "https://en.wikipedia.org/wiki/Results_breakdown_of_the_2023_Spanish_general_election_(Congress)"
+   "nombre": "BOE, Resolución de 30-8-2023 de la Junta Electoral Central: resultados generales de las elecciones del 23-7-2023 (PUM+J: 23.290 votos)",
+   "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf"
   },
   "nota": "No figura con candidatura propia en los resultados de las europeas de 2024."
  },
@@ -662,8 +662,8 @@
      "mundojusto-ext-02"
     ],
     "fuente": {
-     "nombre": "Carta de la ONU, art. 108 (Wikipedia, «Reform of the United Nations Security Council»)",
-     "url": "https://en.wikipedia.org/wiki/Reform_of_the_United_Nations_Security_Council"
+     "nombre": "Carta de las Naciones Unidas, art. 108 (Naciones Unidas)",
+     "url": "https://www.un.org/en/about-us/un-charter/chapter-18"
     }
    },
    {

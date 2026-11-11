@@ -1,0 +1,843 @@
+[
+  {
+    "party": "aa",
+    "nombre": "Luis de los Santos",
+    "rol": "Cabeza de lista por Sevilla",
+    "cargo_actual": "Abogado; sin cargo institucional",
+    "trayectoria": [],
+    "anos_en_politica": 0,
+    "anos_base": "Sin cargo público electo ni designado previo según la prensa (el artículo de Demócrata habla de 'sin experiencia institucional').",
+    "experiencia_fuera": "Abogado especializado en derechos humanos.",
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "Demócrata: Adelante elige a siete mujeres y un hombre sin experiencia institucional como cabezas de lista",
+        "url": "https://www.democrata.es/elecciones-generales-espana/adelante-elige-a-siete-mujeres-y-un-hombre-sin-experiencia-institucional-como-cabezas-de-lista-al-congreso/"
+      },
+      {
+        "nombre": "Demócrata (EN): Adelante launches its heads of list",
+        "url": "https://www.democrata.es/en/general-elections-spain/adelante-launches-its-heads-of-list-and-attacks-the-speculation-that-turns-andalusia-into-a-set/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista por Sevilla (la circunscripción más poblada de las ocho en que Adelante Andalucía presenta lista; el partido no presenta candidato a la Presidencia del Gobierno)",
+      "cargo_actual": "Abogado; sin cargo institucional (cabeza de lista al Congreso por Sevilla)",
+      "experiencia_fuera": "Abogado especializado en derechos humanos (una versión de la misma noticia añade derecho penal).",
+      "patrimonio_nota": "No ocupa ni ha ocupado cargo que obligue a presentar declaración de bienes ante un registro público; no hay declaración oficial. No se han localizado formación ni trayectoria adicionales en fuentes abiertas."
+    }
+  },
+  {
+    "party": "cc",
+    "nombre": "Teodoro Sosa",
+    "rol": "Cabeza de lista por Las Palmas",
+    "cargo_actual": "Segundo vicepresidente del Cabildo de Gran Canaria; presidente del Bloque Nacionalista Rural (BNR)",
+    "trayectoria": [
+      {
+        "cargo": "Salida de Nueva Canarias y fundación de Municipalistas Primero Canarias",
+        "desde": "2025-01",
+        "hasta": null
+      },
+      {
+        "cargo": "Presidente de la Ejecutiva Nacional del BNR",
+        "desde": "2025-11",
+        "hasta": null
+      },
+      {
+        "cargo": "Segundo vicepresidente del Cabildo de Gran Canaria",
+        "desde": null,
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Sin fecha de primer cargo en fuentes abiertas (el CV oficial del Ayuntamiento de Gáldar es un .odt que no pudo leerse).",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "no_localizada",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Cargo con obligación de declarar; no hemos localizado una declaración publicada."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "RTVC: Primero Canarias y CC cierran el acuerdo (14-10-2026)",
+        "url": "https://rtvc.es/primero-canarias-coalicion-canaria-cierran-acuerdo-candidatura-unidad-canaria-29-n-14-octubre-2026/"
+      },
+      {
+        "nombre": "RTVC: Sosa, el partido de ida es en Madrid (17-10-2026)",
+        "url": "https://rtvc.es/sosa-el-partido-de-ida-es-en-madrid-el-de-vuelta-en-canarias-en-2027-y-no-me-excluyo-17-de-octubre-de-2026/"
+      },
+      {
+        "nombre": "RTVC: BNR nombra a Teodoro Sosa presidente (20-11-2025)",
+        "url": "https://rtvc.es/bnr-teodoro-sosa-presidente-ejecutiva-nacional-20-noviembre-2025/"
+      },
+      {
+        "nombre": "Ayuntamiento de Gáldar: biografía (no legible)",
+        "url": "https://transparencia.galdar.es/storage/uploads/1689507912CV Teodoro Claret Sosa Monzón.odt"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de la candidatura CC-Primero Canarias por Las Palmas (circunscripción más poblada de Canarias). En Santa Cruz de Tenerife encabeza Cristina Valido (ver ficha siguiente). No hay candidato a la Presidencia del Gobierno.",
+      "cargo_actual": "Segundo vicepresidente del Cabildo de Gran Canaria y presidente del Bloque Nacionalista Rural (BNR), según RTVC. RTVC (17-10-2026) lo cita además como alcalde de Gáldar, pero otra nota de RTVC (20-11-2025) sugiere que el alcalde es Julio Mateo Castillo: dato discrepante, no confirmado.",
+      "patrimonio_nota": "No localizada declaración pública (Cabildo de Gran Canaria / Ayuntamiento de Gáldar). Como cargo local está obligado a declarar; la ausencia de hallazgo no implica que no exista."
+    }
+  },
+  {
+    "party": "cc",
+    "nombre": "Cristina Valido García",
+    "rol": "Cabeza de lista por Santa Cruz de Tenerife",
+    "cargo_actual": "Diputada por Santa Cruz de Tenerife (Grupo Mixto) hasta la disolución de las Cortes; concejal de El Rosario",
+    "trayectoria": [
+      {
+        "cargo": "Vicepresidenta y consejera de Asuntos Sociales del Cabildo de Tenerife",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Consejera de Empleo, Asuntos Sociales y Vivienda del Gobierno de Canarias",
+        "desde": null,
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Diputada del Parlamento de Canarias",
+        "desde": null,
+        "hasta": "2023-08-02"
+      },
+      {
+        "cargo": "Concejal de El Rosario",
+        "desde": "2023",
+        "hasta": null
+      },
+      {
+        "cargo": "Diputada del Congreso (XV Legislatura)",
+        "desde": "2023-08",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "No constan fechas de inicio de sus cargos en las fuentes abiertas consultadas (RTVC 2023 no da años).",
+    "experiencia_fuera": null,
+    "formacion": "Estudió Filología; experta universitaria en Gobernabilidad y Desarrollo Local y en Gestión de Políticas Públicas; técnica especialista en Administración de Empresas.",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2025-10-29",
+      "url": "https://www.congreso.es/docbienes/leg15/000033/000033_001_e_0086940_20251029.pdf",
+      "inmuebles_n": 0,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": -3933,
+      "nota": "Patrimonio declarado (cuentas, valores y otros bienes menos deudas, sin casas ni coches) de −3.933 €, con 0 inmuebles, según El Congreso en tu Mano, que reproduce la declaración oficial. Desglose no verificado."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "Congreso: registro de intereses (actividades)",
+        "url": "https://www.congreso.es/docinte/registro_intereses_diputado_38.pdf"
+      },
+      {
+        "nombre": "Congreso: declaración de bienes (PDF)",
+        "url": "https://www.congreso.es/docbienes/leg15/000033/000033_001_e_0086940_20251029.pdf"
+      },
+      {
+        "nombre": "El Congreso en tu Mano: directorio de diputados",
+        "url": "https://elcongresoentumano.es/diputados"
+      },
+      {
+        "nombre": "RTVC: Cristina Valido y María Fernández de CC al Congreso",
+        "url": "https://rtvc.es/cristina-valido-y-maria-fernandez-de-cc-al-congreso/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de la candidatura CC-Primero Canarias por Santa Cruz de Tenerife; portavoz de CC en el Congreso (ficha alternativa a Sosa para el partido).",
+      "cargo_actual": "Diputada por Santa Cruz de Tenerife (Grupo Mixto, XV Legislatura) hasta la disolución; concejal de El Rosario",
+      "formacion": "Estudió Filología; experta universitaria en Gobernabilidad y Desarrollo Local y en Gestión de Políticas Públicas; técnica especialista en Administración de Empresas (sin centro ni año; RTVC 2023).",
+      "patrimonio_nota": "Fecha tomada del nombre del PDF oficial (versión 001); el PDF no pudo leerse. Las cifras (0 inmuebles; patrimonio neto -3.933 EUR, 'deuda > cuentas', sin casas ni coches) proceden de El Congreso en tu Mano, que reproduce la declaración oficial: se citan como prensa/agregador. Desglose de depósitos, otros bienes y deudas no verificable. Neto = -3.933 (dato del agregador, no calculado)."
+    }
+  },
+  {
+    "party": "upn",
+    "nombre": "Leticia San Martín Rodríguez",
+    "rol": "Cabeza de lista por Navarra",
+    "cargo_actual": "Parlamentaria foral de UPN y portavoz de Salud en el Parlamento de Navarra; profesora de la UPNA en excedencia",
+    "trayectoria": [
+      {
+        "cargo": "Parlamentaria foral (UPN), portavoz de Salud",
+        "desde": null,
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "No consta la fecha de su primer cargo en las fuentes consultadas.",
+    "experiencia_fuera": "Profesora de la Universidad Pública de Navarra (en excedencia desde el 1-12-2023).",
+    "formacion": null,
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Parlamento de Navarra (XI Legislatura)",
+      "fecha_declaracion": "2024-07-02",
+      "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/San%20Mart%C3%ADn%20Rodr%C3%ADguez%2C%20Leticia%20-%202024%20B%20para%20publicar.pdf",
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": null,
+          "porcentaje": null
+        },
+        {
+          "tipo": "trastero",
+          "ubicacion": null,
+          "porcentaje": null
+        },
+        {
+          "tipo": "garaje (2 plazas)",
+          "ubicacion": null,
+          "porcentaje": null
+        }
+      ],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Solo hemos localizado la modificación de 02-07-2024 (añade un trastero y dos plazas de garaje asociadas al piso declarado al inicio de la legislatura); no constan importes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "Naiz: UPN elige a Leticia San Martín y Javier Esparza",
+        "url": "https://www.naiz.eus/info/noticia/20261023/upn-elige-a-leticia-san-martin-y-javier-esparza-como-cabezas-de-lista-al-congreso-y-al-senado"
+      },
+      {
+        "nombre": "OKDiario Navarra: UPN y PP cierran sus listas",
+        "url": "https://navarra.okdiario.com/articulo/politica/upn-pp-cierran-listas-29-noviembre-leticia-liderara-congreso-javier-esparza-senado/20261023175908664996.html"
+      },
+      {
+        "nombre": "Parlamento de Navarra: declaración de actividades 2024",
+        "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/San%20Mart%C3%ADn%20Rodr%C3%ADguez%2C%20Leticia%20-%202024%20A.pdf"
+      },
+      {
+        "nombre": "Parlamento de Navarra: modificación de bienes 2024",
+        "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/San%20Mart%C3%ADn%20Rodr%C3%ADguez%2C%20Leticia%20-%202024%20B%20para%20publicar.pdf"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Número 1 de la lista conjunta UPN-PP al Congreso por Navarra (elegida por el Consejo Político de UPN el 23-10-2026)",
+      "cargo_actual": "Parlamentaria foral de UPN y portavoz de Salud en el Parlamento de Navarra; profesora de la UPNA en excedencia desde el 1-12-2023",
+      "experiencia_fuera": "Profesora de la Universidad Pública de Navarra (en excedencia desde el 1-12-2023, según su declaración de actividades de 2024; ondavasca recoge un premio Hélice ANECA a la calidad académica).",
+      "patrimonio_nota": "Solo se localizó el documento de modificaciones del 2-7-2024 ('añadir un trastero y dos plazas de garaje, asociadas al piso que declaré al inicio de la legislatura'). No se localizó la declaración inicial de 2023 con valores; no constan importes, depósitos, otros bienes ni deudas. Neto no calculable.",
+      "patrimonio_inmuebles_detalle": [
+        {
+          "tipo": "vivienda (piso declarado al inicio de la legislatura)",
+          "ubicacion": null,
+          "porcentaje": null
+        },
+        {
+          "tipo": "trastero (asociado al piso)",
+          "ubicacion": null,
+          "porcentaje": null
+        },
+        {
+          "tipo": "garaje (2 plazas, asociadas al piso)",
+          "ubicacion": null,
+          "porcentaje": null
+        }
+      ]
+    }
+  },
+  {
+    "party": "compromis",
+    "nombre": "Àgueda Micó Micó",
+    "rol": "Cabeza de lista por València",
+    "cargo_actual": "Diputada por València (Grupo Mixto) hasta la disolución de las Cortes",
+    "trayectoria": [
+      {
+        "cargo": "Concejal del Ayuntamiento de L'Olleria",
+        "desde": "2003",
+        "hasta": "2015"
+      },
+      {
+        "cargo": "Profesora asociada de Ciencia Política, Universitat de València",
+        "desde": "2014",
+        "hasta": null
+      },
+      {
+        "cargo": "Secretaria de Organización del Bloc y Compromís",
+        "desde": "2012",
+        "hasta": "2016"
+      },
+      {
+        "cargo": "Portavoz de Compromís",
+        "desde": "2016",
+        "hasta": null
+      },
+      {
+        "cargo": "Secretaria general del Bloc",
+        "desde": "2016",
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Diputada del Congreso (XV Legislatura)",
+        "desde": "2023",
+        "hasta": "2026-10-06"
+      }
+    ],
+    "anos_en_politica": 23,
+    "anos_base": "2003 (concejal de L'Olleria) a 2026. Fuente: biografía reproducida por El Congreso en tu Mano a partir del Congreso.",
+    "experiencia_fuera": "Profesora asociada de Ciencia Política en la Universitat de València (desde 2014).",
+    "formacion": "Licenciatura en Derecho (Universitat de València); licenciatura en Ciencias Políticas y de la Administración (UOC); Diploma de Estudios Avanzados (Universitat de València).",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-08",
+      "url": "https://www.congreso.es/docbienes/leg15/000158/000158_000_e_0000678_20230808.pdf",
+      "inmuebles_n": 3,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": -115905,
+      "nota": "Patrimonio declarado (cuentas, valores y otros bienes menos deudas, sin casas ni coches) de −115.905 €, con 3 inmuebles, según El Congreso en tu Mano, que reproduce la declaración oficial. Desglose no verificado."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "eldiario.es: la izquierda valenciana irá unida (16-10-2026)",
+        "url": "https://www.eldiario.es/comunitat-valenciana/politica/izquierda-valenciana-ira-unida-elecciones-generales-papeleta-compromis-front-valencia_1_13591005.html"
+      },
+      {
+        "nombre": "Actualidad Valencia: Compromís confirma a Micó como número 1",
+        "url": "https://actualidadvalencia.com/compromis-mico-numero-1-valencia-podem-alicante/"
+      },
+      {
+        "nombre": "El Congreso en tu Mano: ficha de Micó",
+        "url": "https://elcongresoentumano.es/diputado/164"
+      },
+      {
+        "nombre": "Congreso: declaración de bienes (PDF)",
+        "url": "https://www.congreso.es/docbienes/leg15/000158/000158_000_e_0000678_20230808.pdf"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Número 1 de Compromís-Front Valencià por València (confirmado por eldiario.es y Actualidad Valencia el 16-10-2026); no hay candidato a la Presidencia del Gobierno",
+      "cargo_actual": "Diputada por València (Grupo Mixto, XV Legislatura) hasta la disolución de las Cortes (6-10-2026, según El Congreso en tu Mano)",
+      "formacion": "Licenciatura en Derecho (Universitat de València); licenciatura en Ciencias Políticas y de la Administración (UOC); Diploma de Estudios Avanzados (Universitat de València). Sin años (El Congreso en tu Mano).",
+      "patrimonio_nota": "Declaración de toma de posesión (v.1); el PDF no pudo leerse. Según El Congreso en tu Mano (agregador que reproduce la declaración): 3 inmuebles y patrimonio neto de -115.905 EUR SIN incluir casas ni coches (las deudas declaradas superan a las cuentas). Valor de inmuebles, desglose de depósitos, otros bienes y deudas no verificados; neto total no calculable. Existe además declaración de intereses económicos de la misma fecha."
+    }
+  },
+  {
+    "party": "mes",
+    "nombre": "Carme (Carmen) Gomila",
+    "rol": "Cabeza de lista por Baleares",
+    "cargo_actual": "Presidenta de Esquerra Republicana de les Illes Balears; coordinadora de Ara Més",
+    "trayectoria": [
+      {
+        "cargo": "Regidora de Servicios Sociales y Educación, Ayuntamiento de Manacor",
+        "desde": null,
+        "hasta": "2026-02-09"
+      },
+      {
+        "cargo": "Presidenta de Esquerra Republicana de les Illes Balears",
+        "desde": "2026-01",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 7,
+    "anos_base": "Aproximado: declaró haber empezado a los 24 años y tener 31 (Ara Balears, 20-1-2026); no consta el año exacto.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "no_localizada",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Cargo con obligación de declarar; no hemos localizado una declaración publicada."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "La Voz de Ibiza: candidatos al Congreso y al Senado en Baleares",
+        "url": "https://lavozdeibiza.com/baleares/elecciones-del-29n-en-baleares-quienes-son-los-candidatos-al-congreso-y-al-senado-y-las-sorpresas-de-las-listas/?swcfpc=1"
+      },
+      {
+        "nombre": "Ara Balears: Carme Gomila leaves the Manacor town hall",
+        "url": "https://en.arabalears.cat/politics/carme-gomila-leaves-the-manacor-city-council-to-seek-new-professional-challenges_1_5623156.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Ara Més-Front Ampli al Congreso por Baleares (coordinadora de la federación Ara Més, según La Voz de Ibiza)",
+      "cargo_actual": "Presidenta de Esquerra Republicana de les Illes Balears y coordinadora de Ara Més; dejó la concejalía de Manacor en el pleno del 9-2-2026",
+      "patrimonio_nota": "No localizada declaración pública (Ayuntamiento de Manacor). Como regidora estaba obligada a declarar; la ausencia de hallazgo no implica que no exista."
+    }
+  },
+  {
+    "party": "upc",
+    "nombre": "Luis Alberto Campos Jiménez",
+    "rol": "Cabeza de lista por Las Palmas",
+    "cargo_actual": "Diputado del Parlamento de Canarias (GP NC-bc, Gran Canaria) y secretario general de Nueva Canarias",
+    "trayectoria": [
+      {
+        "cargo": "Concejal del Ayuntamiento de Santa Lucía (primer teniente de alcalde)",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Diputado del Parlamento de Canarias, portavoz adjunto",
+        "desde": "2015",
+        "hasta": "2019"
+      },
+      {
+        "cargo": "Diputado del Parlamento de Canarias, portavoz",
+        "desde": "2019",
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Diputado del Parlamento de Canarias (XI Legislatura)",
+        "desde": "2023-06-27",
+        "hasta": null
+      },
+      {
+        "cargo": "Secretario general de Nueva Canarias",
+        "desde": "2025-07",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 11,
+    "anos_base": "2015 (primer cargo con año: diputado autonómico) a 2026; fue además concejal 12 años sin fechas, por lo que es un mínimo.",
+    "experiencia_fuera": "Auxiliar de juego, técnico de juego, administrativo y asesor contable.",
+    "formacion": "Técnico Especialista en Comercio Exterior y grado universitario en Comunicación.",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Parlamento de Canarias",
+      "fecha_declaracion": "2023-06-16",
+      "url": "https://www.parcan.es/files/diputados/11L/023/11023declabienes-1.pdf",
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Declaración inicial publicada por el Parlamento de Canarias (2023); es un documento escaneado y no hemos podido leer los importes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "RTVC: Luis Campos y Marisol Collado, cabezas de lista de UPC (26-10-2026)",
+        "url": "https://rtvc.es/luis-campos-marisol-collado-cabezas-lista-congreso-unidad-pueblo-canario-26-octubre-2026/"
+      },
+      {
+        "nombre": "Parlamento de Canarias: ficha y biografía",
+        "url": "https://www.parcan.es/composicion/diputados/diputado/11023/biografia/"
+      },
+      {
+        "nombre": "Parlamento de Canarias: declaración de bienes",
+        "url": "https://www.parcan.es/composicion/diputados/diputado/11023/declaracion_bienes/"
+      },
+      {
+        "nombre": "La Voz de Lanzarote: Luis Campos replaces Román Rodríguez as general secretary",
+        "url": "https://www.lavozdelanzarote.com/en/news/politics/luis-campos-replaces-roman-rodriguez-as-general-secretary-of-nueva-canarias_236679_102.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Unidad del Pueblo Canario por Las Palmas (circunscripción más poblada; en Santa Cruz de Tenerife encabeza Marisol Collado)",
+      "formacion": "Técnico Especialista en Comercio Exterior y grado universitario en Comunicación (sin centro ni año; biografía oficial del Parlamento de Canarias).",
+      "experiencia_fuera": "Auxiliar de juego, técnico de juego, administrativo y asesor contable (sin años).",
+      "trayectoria": [
+        "Concejal del Ayuntamiento de Santa Lucía (primer teniente de alcalde); 12 años, sin fechas"
+      ],
+      "patrimonio_nota": "Declaración inicial de bienes patrimoniales (XI Legislatura). El PDF oficial es un documento escaneado sin capa de texto y no pudo leerse con las herramientas disponibles; no se transcriben cifras. Sin inmuebles, depósitos, otros bienes ni deudas verificados; neto no calculable. No se muestran declaraciones posteriores en la página oficial."
+    }
+  },
+  {
+    "party": "drago",
+    "nombre": "Alberto Rodríguez Rodríguez",
+    "rol": "Cabeza de lista por Santa Cruz de Tenerife",
+    "cargo_actual": "Concejal de Drago Verdes Canarias en San Cristóbal de La Laguna; presidente de Drago Canarias",
+    "trayectoria": [
+      {
+        "cargo": "Diputado del Congreso",
+        "desde": "2016",
+        "hasta": "2021"
+      },
+      {
+        "cargo": "Cofundador de Drago Canarias",
+        "desde": "2022",
+        "hasta": null
+      },
+      {
+        "cargo": "Candidato a la Presidencia del Gobierno de Canarias",
+        "desde": "2023-05",
+        "hasta": null
+      },
+      {
+        "cargo": "Concejal de San Cristóbal de La Laguna",
+        "desde": "2023",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 10,
+    "anos_base": "2016 (diputado del Congreso) a 2026, según su biografía oficial del Ayuntamiento de La Laguna.",
+    "experiencia_fuera": "Refinería de Santa Cruz de Tenerife, más de 15 años y en activo; antes, Complejo Ambiental de Tenerife (Arico).",
+    "formacion": "Técnico Superior en Química Ambiental.",
+    "patrimonio": {
+      "declarado": false,
+      "estado": "no_localizada",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Cargo con obligación de declarar; no hemos localizado una declaración publicada."
+    },
+    "sentencias_firmes": [
+      {
+        "persona": "el propio candidato",
+        "resumen": "Condena penal: sentencia de la Sala de lo Penal del Tribunal Supremo por atentado contra agente de la autoridad (hechos de 2014, protesta en La Laguna), con atenuante muy cualificada de dilaciones indebidas: 1 mes y 15 días de prisión sustituidos por multa de 540 €, inhabilitación para sufragio pasivo durante la condena e indemnización de 50 € al agente. Absuelto del delito leve de lesiones.",
+        "fecha": "2021-10-07",
+        "url": "https://www.eldiario.es/politica/condena-mes-medio-carcel-alberto-rodriguez-agredir-policia_1_8350486.amp.html"
+      }
+    ],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "RTVC: Drago Canarias presenta sus candidaturas completas (28-10-2026)",
+        "url": "https://rtvc.es/drago-canarias-candidaturas-28-octubre-2026/"
+      },
+      {
+        "nombre": "Ayuntamiento de La Laguna: biografía oficial",
+        "url": "https://www.aytolalaguna.es/ayuntamiento/.galleries/DOCUMENTOS-Corporacion-Municipal/DOCUMENTOS-Alberto-Rodriguez-Rodriguez/UTF-8Bio-para-transparencia-y-web-Ayuntamiento-LL.odt"
+      },
+      {
+        "nombre": "eldiario.es: el Supremo condena a Alberto Rodríguez (7-10-2021)",
+        "url": "https://www.eldiario.es/politica/condena-mes-medio-carcel-alberto-rodriguez-agredir-policia_1_8350486.amp.html"
+      },
+      {
+        "nombre": "Onda Vasca/Europa Press: condenado a 1 mes y 15 días",
+        "url": "https://www.ondavasca.com/el-diputado-de-podemos-alberto-rodriguez-condenado-a-1-mes-y-15-dias-de-prision-por-agredir-a-un-policia/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Presidente de Drago Canarias y cabeza de lista por Santa Cruz de Tenerife (RTVC 28-10-2026). En Las Palmas, la circunscripción más poblada, encabeza Héctor Morán; se mantiene a Rodríguez por ser el candidato principal del partido.",
+      "formacion": "Técnico Superior en Química Ambiental (enseñanza pública canaria; sin centro ni año).",
+      "sentencias": [
+        "Sentencia de la Sala de lo Penal del Tribunal Supremo: delito de atentado contra agente de la autoridad (hechos de 2014, protesta en La Laguna), con atenuante muy cualificada de dilaciones indebidas; 1 mes y 15 días de prisión sustituidos por multa de 540 EUR, inhabilitación para sufragio pasivo durante la condena e indemnización de 50 EUR al agente; absuelto del delito leve de lesiones. Dos magistrados emitieron voto particular. Posteriores recursos (amparo, TEDH) no alteran que la sentencia ordinaria es del Supremo."
+      ],
+      "sentencias_fecha": [
+        "2021-10-07 (fecha de la noticia; las fuentes no dan fecha propia de la sentencia)"
+      ],
+      "procedimientos_eliminados": [
+        {
+          "resumen": "Según su biografía oficial, el Tribunal Constitucional le dio la razón posteriormente respecto de la pérdida del escaño y su caso sigue abierto ante el Tribunal Europeo de Derechos Humanos. No verificado con resolución judicial.",
+          "motivo": "demanda presentada por el propio candidato ante el TEDH; no es un procedimiento contra él"
+        }
+      ],
+      "patrimonio_nota": "No localizada declaración pública vigente (Ayuntamiento de La Laguna). Como concejal está obligado a declarar; la ausencia de hallazgo no implica que no exista."
+    }
+  },
+  {
+    "party": "geroabai",
+    "nombre": "Pablo Azcona Molinet",
+    "rol": "Cabeza de lista por Navarra",
+    "cargo_actual": "Portavoz parlamentario de Geroa Bai en el Parlamento de Navarra",
+    "trayectoria": [
+      {
+        "cargo": "Concejal de Lodosa",
+        "desde": "2007",
+        "hasta": "2011"
+      },
+      {
+        "cargo": "Alcalde de Lodosa",
+        "desde": "2011",
+        "hasta": "2021"
+      },
+      {
+        "cargo": "Presidente de la Federación Navarra de Municipios y Concejos",
+        "desde": "2015",
+        "hasta": null
+      },
+      {
+        "cargo": "Parlamentario foral (Geroa Bai)",
+        "desde": "2019",
+        "hasta": null
+      },
+      {
+        "cargo": "Portavoz de Geroa Bai en el Parlamento de Navarra",
+        "desde": "2023",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 19,
+    "anos_base": "2007 (concejal de Lodosa) a 2026 (orain.eus).",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Parlamento de Navarra (XI Legislatura)",
+      "fecha_declaracion": "2024-06-30",
+      "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/Azcona%20Molinet%2C%20Pablo%20-%202024%20B.pdf",
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [
+        {
+          "tipo": "vehículo",
+          "descripcion": "Skoda Enyaq sportline eléctrico, adquirido nuevo (2024)",
+          "valor": null
+        }
+      ],
+      "deudas": null,
+      "neto": null,
+      "nota": "Solo hemos localizado la modificación de 30-06-2024 (adquisición de un vehículo nuevo); no constan inmuebles ni importes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "orain.eus: Pablo Azcona and Mayte Espinosa will head Geroa Bai's lists",
+        "url": "https://orain.eus/en/politics/elections/hauteskunde-orokorrak/2026/10/23/pablo-azcona-and-mayte-espinosa-will-head-geroa-bais-list-to-congress-and-the-senate/"
+      },
+      {
+        "nombre": "Parlamento de Navarra: modificación de bienes 2024",
+        "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/Azcona%20Molinet%2C%20Pablo%20-%202024%20B.pdf"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Geroa Bai al Congreso por Navarra (orain.eus, 23-10-2026)",
+      "trayectoria": [
+        "Presidente de la Federación Navarra de Municipios y Concejos (citado para 2015 y 2019)"
+      ],
+      "patrimonio_nota": "Solo se localizó el documento de modificaciones del 30-6-2024 (adquisición de un vehículo nuevo). No se localizó la declaración inicial de 2023; no constan inmuebles, depósitos, importes ni deudas. Neto no calculable."
+    }
+  },
+  {
+    "party": "existe",
+    "nombre": "Tomás Guitarte",
+    "rol": "Cabeza de lista por Teruel",
+    "cargo_actual": "Diputado y portavoz de Aragón-Teruel Existe en las Cortes de Aragón (dejaría el escaño si resulta elegido al Congreso)",
+    "trayectoria": [
+      {
+        "cargo": "Diputado del Congreso por Teruel (Teruel Existe)",
+        "desde": "2019",
+        "hasta": null
+      },
+      {
+        "cargo": "Diputado de las Cortes de Aragón (Aragón-Teruel Existe)",
+        "desde": null,
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 7,
+    "anos_base": "2019 (elegido diputado por Teruel); mínimo, pues La Comarca lo describe como socio fundador del movimiento Teruel Existe desde hace más de 25 años (activismo, no cargo público).",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "no_localizada",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Cargo con obligación de declarar; no hemos localizado una declaración publicada."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "La Comarca: Tomás Guitarte volverá a encabezar la candidatura",
+        "url": "https://www.lacomarca.net/tomas-guitarte-volvera-encabezar-candidatura-teruel-existe-congreso-elecciones-29n/"
+      },
+      {
+        "nombre": "La Comarca: el juez archiva provisionalmente la causa (16-2-2026)",
+        "url": "https://www.lacomarca.net/juez-archiva-provisionalmente-teruel-causa-ex-jefa-gabinete-diputacion-provincial-falta-indicios/"
+      },
+      {
+        "nombre": "Última Hora: Izquierdo (PAR) pide la suspensión de empleo (5-2-2026)",
+        "url": "https://www.ultimahora.es/noticias/comunidades/2026/02/05/2564419/izquierdo-par-pide-suspension-empleo-mujer-guitarte-teruel-existe-dpt.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Teruel Existe al Congreso por Teruel (La Comarca)",
+      "patrimonio_nota": "No localizada su declaración de bienes de las Cortes de Aragón (ni la de la etapa en el Congreso, ya no vigente). Como diputado autonómico está obligado a declarar; la ausencia de hallazgo no implica que no exista."
+    }
+  },
+  {
+    "party": "sorianya",
+    "nombre": "Juan Antonio (Toño) Palomar Sicilia",
+    "rol": "Cabeza de lista por Soria",
+    "cargo_actual": "Presidente de Soria ¡Ya!",
+    "trayectoria": [
+      {
+        "cargo": "Procurador en las Cortes de Castilla y León",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Presidente de Soria ¡Ya!",
+        "desde": "2023-10",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 4,
+    "anos_base": "Cuatro años como procurador (El Debate, 19-10-2026); se incorporó a la plataforma hace unos diez años como activista (no cargo público).",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "no_localizada",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "Cargo con obligación de declarar; no hemos localizado una declaración publicada."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "El Debate: Soria ¡Ya! elige a Juan Antonio Palomar",
+        "url": "https://www.eldebate.com/espana/castilla-y-leon/20261019/soria-elige-juan-antonio-palomar-liderar-lista-congreso-david-romera-senado_471237.html"
+      },
+      {
+        "nombre": "El Mirón de Soria: Palomar, nuevo presidente de Soria ¡Ya! (9-10-2023)",
+        "url": "https://elmirondesoria.es/soria/capital/palomar-nuevo-presidente-de-soria-ya/amp"
+      },
+      {
+        "nombre": "eldiario.es: Palomar y Romera encabezarán las listas",
+        "url": "https://www.eldiario.es/castilla-y-leon/politica/palomar-romera-encabezaran-listas-soria-congreso-senado_1_13597356.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Soria ¡Ya! al Congreso por Soria (primarias del 15-17-10-2026; 41,93 % de los votos emitidos)",
+      "cargo_actual": "Presidente de Soria ¡Ya! (desde 9-10-2023, mandato hasta diciembre de 2026) y cabeza de lista al Congreso",
+      "trayectoria": [
+        "Procurador en las Cortes de Castilla y León (cuatro años, según El Debate; sin fechas exactas)"
+      ],
+      "patrimonio_nota": "No localizada su declaración de bienes en las Cortes de Castilla y León (las publicadas son PDF escaneados sin identificar al declarante). Como procurador estuvo obligado a declarar; la ausencia de hallazgo no implica que no exista."
+    }
+  },
+  {
+    "party": "d21",
+    "nombre": "Miriam González Durántez",
+    "rol": "Cabeza de lista por Madrid y Barcelona",
+    "cargo_actual": "Abogada; impulsora de Democracia21",
+    "trayectoria": [],
+    "anos_en_politica": 0,
+    "anos_base": "Euronews (12-10-2026): no se le conoce cargo electo ni designado previo.",
+    "experiencia_fuera": "Abogada especializada en comercio internacional; fundadora de Inspiring Girls; lideró la plataforma cívica España Mejor.",
+    "formacion": "Nacida en 1968 en Olmedo (Valladolid); formada en Bélgica con beca.",
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "Euronews: quién es Miriam González",
+        "url": "https://es.euronews.com/2026/10/12/quien-es-miriam-gonzalez-desafia-al-bipartidismo-con-democracia-21-en-elecciones-espana"
+      },
+      {
+        "nombre": "Demócrata: Democracia 21 concurrirá en Madrid y Barcelona",
+        "url": "https://www.democrata.es/politica/democracia-21-concurrira-en-madrid-y-barcelona-con-la-abogada-miriam-gonzalez-como-cabeza-de-lista/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Democracia21 (concurre solo en Madrid y Barcelona; el título de Demócrata la nombra cabeza de lista en ambas). Sin candidato formal a la Presidencia.",
+      "cargo_actual": "Abogada; candidata y impulsora de Democracia21 (sin cargo público)",
+      "formacion": "Nacida en 1968 en Olmedo (Valladolid); formada en Bélgica con beca (Euronews). No constan títulos, centros ni años en fuentes de referencia consultadas.",
+      "experiencia_fuera": "Abogada especializada en comercio internacional; fundó la organización Inspiring Girls y lideró la plataforma cívica España Mejor (sin fechas en la fuente).",
+      "patrimonio_nota": "No ocupa cargo público; no hay declaración oficial de bienes."
+    }
+  }
+]

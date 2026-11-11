@@ -4,13 +4,13 @@
  "siglas": "PA",
  "tier": "otros",
  "concurre": true,
- "candidato": "Por confirmar. Juan Antonio Aroca preside el partido; en julio de 2025 anunció a Roberto Pradas como su candidato al Congreso por Valencia. No se han localizado los cabezas de lista publicados para el 29N.",
+ "candidato": "Lydia Cañedo Oliver (cabeza de lista por Alicante)",
  "ambito": "Estatal",
  "color": "#9E9E9E",
  "color_aproximado": true,
  "web": "https://www.partidoautonomos.es/",
  "escanos_2023": 0,
- "resumen": "Partido fundado en 2020, en plena pandemia, a partir de un grupo de Facebook de trabajadores autónomos; se define como ni de izquierdas ni de derechas y no ha obtenido nunca escaño en el Congreso. Prioriza los derechos sociales y la fiscalidad de autónomos y pymes, menos burocracia y una Administración «despolitizada» y eficiente.",
+ "resumen": "Partido que inició su andadura en 2020; se define como ni de izquierdas ni de derechas y no ha obtenido nunca escaño en el Congreso. Prioriza los derechos sociales y la fiscalidad de autónomos y pymes, menos burocracia y una Administración «despolitizada» y eficiente.",
  "fuentes_programa": [
   {
    "titulo": "Decálogo de propuestas (web oficial)",
@@ -41,11 +41,6 @@
    "titulo": "Comité Ejecutivo Central (web oficial)",
    "url": "https://www.partidoautonomos.es/comite-ejecutivo-central/",
    "fecha": "2026-02"
-  },
-  {
-   "titulo": "Wikipedia, «Partido Autónomos»",
-   "url": "https://es.wikipedia.org/wiki/Partido_Aut%C3%B3nomos",
-   "fecha": "2026"
   }
  ],
  "programa_2026_publicado": false,
@@ -75,7 +70,7 @@
    "nombre": "Última Hora, escrutinio del Congreso 23J en la provincia de Alicante",
    "url": "https://www.ultimahora.es/elecciones/23j/congreso/alicante-alacant.html"
   },
-  "nota": "1.428 votos; fue la única circunscripción en la que se presentó. Antes concurrió a las autonómicas de Madrid 2021 (1.417 votos) y Andalucía 2022 (2.180 votos) y obtuvo un concejal en Castell-Platja d'Aro en 2023 (Wikipedia)."
+  "nota": "1.428 votos; fue la única circunscripción en la que se presentó. Obtuvo un concejal en Castell-Platja d'Aro en 2023 (3Cat, resultados del 28M)."
  },
  "propuestas": [
   {

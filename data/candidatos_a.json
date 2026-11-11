@@ -1,0 +1,1187 @@
+[
+  {
+    "party": "pp",
+    "nombre": "Alberto Núñez Feijóo",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Presidente del Partido Popular; diputado por Madrid",
+    "trayectoria": [
+      {
+        "cargo": "Técnico Superior de la Xunta de Galicia (funcionario)",
+        "desde": "1985",
+        "hasta": null
+      },
+      {
+        "cargo": "Alto cargo de la Xunta de Galicia",
+        "desde": "1991",
+        "hasta": "1996"
+      },
+      {
+        "cargo": "Alto cargo del Gobierno de España",
+        "desde": "1996",
+        "hasta": "2003"
+      },
+      {
+        "cargo": "Miembro del Gobierno de la Xunta de Galicia",
+        "desde": "2003",
+        "hasta": "2005"
+      },
+      {
+        "cargo": "Presidente de la Xunta de Galicia",
+        "desde": "2009",
+        "hasta": "2022"
+      },
+      {
+        "cargo": "Presidente del Partido Popular",
+        "desde": "2022",
+        "hasta": null
+      },
+      {
+        "cargo": "Senador",
+        "desde": null,
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Diputado por Madrid (XV Legislatura)",
+        "desde": "2023",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 35,
+    "anos_base": "Primer cargo designado: alto cargo de la Xunta en 1991 (ficha del Congreso); 2026-1991=35.",
+    "experiencia_fuera": "Funcionario del Cuerpo Técnico Superior de la Xunta de Galicia desde 1985; no consta otra profesión fuera de la Administración.",
+    "formacion": "Licenciado en Derecho, Universidad de Santiago de Compostela (1979-1984).",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados (declaración de bienes y rentas); declaración de cese al Senado en 2023",
+      "fecha_declaracion": "2023-08-16",
+      "url": "https://www.congreso.es/docbienes/leg15/000332/000332_000_e_0001389_20230816.pdf",
+      "inmuebles_n": 4,
+      "inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": null
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Vigo",
+          "porcentaje": null
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "A Coruña",
+          "porcentaje": null
+        },
+        {
+          "tipo": "finca rústica",
+          "ubicacion": "Ames (A Coruña)",
+          "porcentaje": "100%"
+        }
+      ],
+      "inmuebles_valor": null,
+      "depositos": 37000,
+      "otros_bienes": 733200,
+      "otros_bienes_detalle": [
+        {
+          "concepto": "fondo de inversión",
+          "valor": 400000
+        },
+        {
+          "concepto": "plan de pensiones",
+          "valor": 200000
+        },
+        {
+          "concepto": "4.000 acciones de Inditex",
+          "valor": 133200
+        },
+        {
+          "concepto": "acciones de Telefónica",
+          "valor": null
+        }
+      ],
+      "deudas": 0,
+      "neto": 770200,
+      "nota": "Importes de prensa que cita la declaración del Congreso de 16-08-2023 (Qué!, The Objective); El Congreso en tu Mano, que reproduce la declaración oficial, cifra el patrimonio declarado sin casas ni coches en 769.779 €. El depósito es \"más de 37.000 €\". Neto = depósitos + otros bienes − deudas, sin inmuebles."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Búsquedas '<nombre> investigado/imputado/procesado/juicio' sin resultados de procedimiento judicial abierto contra el candidato. Familiares: la Fiscalía de Santiago de Compostela archivó las diligencias de investigación 52/2024 sobre contratos de la Xunta con una empresa en la que su hermana es directiva (Público, 18-11-2024); la resolución no impide acudir a los tribunales. No se encontró proceso judicial en curso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Congreso de los Diputados, ficha de Alberto Núñez Feijóo (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=346&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes y rentas 16-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000332/000332_000_e_0001389_20230816.pdf"
+      },
+      {
+        "nombre": "Qué!, 14-07-2026",
+        "url": "https://www.que.es/2026/07/14/feijoo-oculta-ingresos-pp-congreso/"
+      },
+      {
+        "nombre": "The Objective, 01-09-2023",
+        "url": "https://theobjective.com/espana/politica/2023-09-01/feijoo-casa-acciones-inditex-ahorros/"
+      },
+      {
+        "nombre": "The Objective, 02-07-2026",
+        "url": "https://theobjective.com/espana/politica/2026-07-02/psoe-congreso-vote-exigir-feijoo-explique-paga-vivienda/"
+      },
+      {
+        "nombre": "Xunta de Galicia, biografía del presidente (Alfonso Rueda, presidente desde mayo de 2022)",
+        "url": "https://www.xunta.gal/a-presidencia/biografia-do-presidente"
+      },
+      {
+        "nombre": "Partido Popular, página del presidente (7-10 nov 2026)",
+        "url": "https://www.pp.es/presidente/"
+      },
+      {
+        "nombre": "Moncloa.com, lista PP Madrid 29N, 27-10-2026",
+        "url": "https://www.moncloa.com/2026/10/27/feijoo-lista-pp-madrid-29n-3456056/"
+      },
+      {
+        "nombre": "Público, 18-11-2024",
+        "url": "https://www.publico.es/politica/fiscalia-archiva-denuncia-contratos-xunta-hermana-feijoo.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; número 1 por Madrid",
+      "cargo_actual": "Presidente del Partido Popular; diputado por Madrid (XV Legislatura)",
+      "formacion": "Licenciado en Derecho, Universidad de Santiago de Compostela, 1979-1984 (ficha del Congreso).",
+      "experiencia_fuera": "Funcionario del Cuerpo Técnico Superior de la Xunta de Galicia desde 1985 (ficha del Congreso); no consta otra profesión fuera de la Administración.",
+      "trayectoria": [
+        "Senador (declaración de cese presentada al Senado en 2023)"
+      ],
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Cifras tomadas de prensa que cita la declaración: Qué! 14-07-2026 (Congreso: tres viviendas en Madrid, Vigo y A Coruña; cuenta corriente de más de 37.000 €; fondo de inversión 400.000 €; plan de pensiones 200.000 €; dividendos de Inditex y Telefónica) y The Objective 01-09-2023 (declaración al Senado: finca rústica en Ames; 4.000 acciones de Inditex valoradas en 133.200 € a 14-08-2023; sin deudas; además un inmueble y locales de una sociedad en la que participa, sin porcentaje). El depósito es 'más de 37.000 €'. No hay valor de inmuebles: neto = depósitos + otros bienes − deudas, SIN inmuebles. Valor de las acciones de Telefónica no consta. Según Qué!, no consta actualización desde agosto de 2023; el PSOE registró en julio de 2026 una iniciativa para que amplíe la declaración (The Objective 02-07-2026).",
+      "patrimonio_inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": null,
+          "fuente": "Congreso (Qué!)"
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Vigo",
+          "porcentaje": null,
+          "fuente": "Congreso (Qué!)"
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "A Coruña (adquirida el 11-08-2023)",
+          "porcentaje": null,
+          "fuente": "Congreso (Qué!); fecha de compra según The Objective sobre declaración al Senado"
+        },
+        {
+          "tipo": "finca rústica",
+          "ubicacion": "Ames (A Coruña), de 1992",
+          "porcentaje": "pleno dominio",
+          "fuente": "Senado (The Objective)"
+        }
+      ]
+    }
+  },
+  {
+    "party": "psoe",
+    "nombre": "Pedro Sánchez Pérez-Castejón",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Presidente del Gobierno; secretario general del PSOE; diputado por Madrid",
+    "trayectoria": [
+      {
+        "cargo": "Concejal del Ayuntamiento de Madrid",
+        "desde": "2004",
+        "hasta": "2009"
+      },
+      {
+        "cargo": "Diputado por Madrid",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Secretario general del PSOE",
+        "desde": "2014",
+        "hasta": "2016"
+      },
+      {
+        "cargo": "Secretario general del PSOE",
+        "desde": "2017",
+        "hasta": null
+      },
+      {
+        "cargo": "Presidente del Gobierno",
+        "desde": "2018",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 22,
+    "anos_base": "Primer cargo electo: concejal de Madrid desde 2004 (ficha del Congreso); 2026-2004=22. Militante del PSOE desde 1993.",
+    "experiencia_fuera": "Profesor de Economía en la Universidad Camilo José Cela; asesor en el Parlamento Europeo; miembro del gabinete del Alto Representante de la ONU en Bosnia y Herzegovina.",
+    "formacion": "Licenciado en Ciencias Económicas y Empresariales (Real Colegio Universitario María Cristina, adscrito a la Complutense, 1995); máster en Economía de la UE (Université libre de Bruxelles); Diploma de Estudios Avanzados en Integración Económica y Monetaria Europea (Instituto Universitario Ortega y Gasset); doctor en Economía (Universidad Camilo José Cela, 2012).",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-09",
+      "url": "https://www.congreso.es/docbienes/leg15/000177/000177_000_e_0000756_20230809.pdf",
+      "inmuebles_n": 4,
+      "inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": "50%"
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": "100%"
+        },
+        {
+          "tipo": "garaje",
+          "ubicacion": null,
+          "porcentaje": "50%"
+        },
+        {
+          "tipo": "garaje",
+          "ubicacion": null,
+          "porcentaje": "100%"
+        }
+      ],
+      "inmuebles_valor": null,
+      "depositos": 19208.79,
+      "otros_bienes": 191929.3,
+      "otros_bienes_detalle": [
+        {
+          "concepto": "fondo de inversión",
+          "valor": 81449.2
+        },
+        {
+          "concepto": "plan de pensiones",
+          "valor": 105376.1
+        },
+        {
+          "concepto": "acciones cotizadas",
+          "valor": 5104
+        }
+      ],
+      "deudas": 61786.31,
+      "neto": 149351.78,
+      "nota": "Importes de prensa que cita la declaración del Congreso de 09-08-2023 (The Objective, ARA); El Congreso en tu Mano, que reproduce la declaración oficial, cifra el patrimonio declarado sin casas ni coches en 153.772 €. Deuda: hipoteca de 2008 con saldo de 61.786,31 €. Neto = depósitos + otros bienes − deudas, sin inmuebles."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [
+      {
+        "persona": "esposa (Begoña Gómez)",
+        "resumen": "Causa por tráfico de influencias y malversación vinculada a una cátedra en la Universidad Complutense. El 18-07-2026 la Audiencia Provincial de Madrid confirmó la apertura de juicio oral por tráfico de influencias y malversación y descartó corrupción en los negocios y apropiación indebida. La Fiscalía ha pedido la absolución.",
+        "organo_judicial": "Audiencia Provincial de Madrid (tribunal del jurado)",
+        "fase": "pendiente de juicio con jurado",
+        "fecha_ultima_actuacion": "2026-07-18",
+        "url": "https://www.vozpopuli.com/tribunales/la-justicia-madrilena-congela-el-juicio-a-begona-gomez-y-ni-siquiera-elige-al-juez-que-presidira-el-jurado.html"
+      },
+      {
+        "persona": "hermano (David Sánchez)",
+        "resumen": "Condenado en primera instancia el 14-07-2026 por prevaricación administrativa (nueve años de inhabilitación para empleo o cargo público) y absuelto de tráfico de influencias, en la causa sobre su contratación en la Diputación de Badajoz. La defensa ha anunciado recurso.",
+        "organo_judicial": "Audiencia Provincial de Badajoz",
+        "fase": "condenado en primera instancia, recurrido",
+        "fecha_ultima_actuacion": "2026-07-14",
+        "url": "https://es.euronews.com/2026/07/14/david-sanchez-condenado-a-nueve-anos-de-inhabilitacion-por-prevaricacion"
+      }
+    ],
+    "nota": "Sin sentencia firme contra el candidato ni su entorno directo. No se encontró procedimiento judicial abierto contra el propio candidato. La sentencia contra su hermano no es firme (euronews 14-07-2026; recurso anunciado por la defensa). El estado de ambos procedimientos procede de prensa de julio a octubre de 2026; no se consultaron las resoluciones.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Pedro Sánchez (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=189&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 09-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000177/000177_000_e_0000756_20230809.pdf"
+      },
+      {
+        "nombre": "La Moncloa, biografía del presidente",
+        "url": "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"
+      },
+      {
+        "nombre": "The Objective, 01-08-2023",
+        "url": "https://theobjective.com/espana/politica/2023-08-01/pedro-sanchez-fondo-inversion-hipoteca/"
+      },
+      {
+        "nombre": "ARA, agosto 2023",
+        "url": "https://es.ara.cat/politica/cambiado-patrimonio-pedro-sanchez-presidente_1_4770546.html"
+      },
+      {
+        "nombre": "Qué!, 18-07-2026",
+        "url": "https://www.que.es/2026/07/18/juicio-begona-gomez-confirmado/"
+      },
+      {
+        "nombre": "Vozpopuli, 19-10-2026",
+        "url": "https://www.vozpopuli.com/tribunales/la-justicia-madrilena-congela-el-juicio-a-begona-gomez-y-ni-siquiera-elige-al-juez-que-presidira-el-jurado.html"
+      },
+      {
+        "nombre": "Euronews, 14-07-2026",
+        "url": "https://es.euronews.com/2026/07/14/david-sanchez-condenado-a-nueve-anos-de-inhabilitacion-por-prevaricacion"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; número 1 por Madrid",
+      "cargo_actual": "Presidente del Gobierno; secretario general del PSOE; diputado por Madrid (XV Legislatura)",
+      "formacion": "Licenciado en Ciencias Económicas y Empresariales, Real Colegio Universitario María Cristina (adscrito a la Complutense), 1995; máster en Economía de la UE, Université libre de Bruxelles; Diploma de Estudios Avanzados en Integración Económica y Monetaria Europea, Instituto Universitario Ortega y Gasset; doctor en Economía, Universidad Camilo José Cela, 2012 (La Moncloa; ficha del Congreso para doctorado y máster).",
+      "experiencia_fuera": "Profesor de Economía en la Universidad Camilo José Cela; asesor en el Parlamento Europeo; miembro del gabinete del Alto Representante de la ONU en Bosnia y Herzegovina (La Moncloa, sin años).",
+      "trayectoria": [
+        "Diputado por Madrid (IX a XV Legislatura; ficha sin años de inicio)"
+      ],
+      "procedimientos_originales": [
+        {
+          "resumen": "Causa por tráfico de influencias y malversación vinculada a una cátedra en la Universidad Complutense. El juez instructor Juan Carlos Peinado cerró la instrucción en abril de 2026; el 18-07-2026 la Audiencia Provincial de Madrid confirmó la apertura de juicio oral por tráfico de influencias y malversación y descartó corrupción en los negocios y apropiación indebida. La Fiscalía ha pedido la absolución.",
+          "fase": "auto de apertura de juicio oral confirmado; pendiente de asignación de sección y magistrado-presidente del jurado; sin fecha de juicio",
+          "organo_judicial": "Juzgado de Instrucción (juez Peinado); Audiencia Provincial de Madrid (tribunal del jurado)"
+        },
+        {
+          "resumen": "Condenado en primera instancia el 14-07-2026 por prevaricación administrativa (nueve años de inhabilitación para empleo o cargo público) y absuelto del delito de tráfico de influencias, en la causa sobre su contratación en la Diputación de Badajoz. La defensa anunció recurso ante el TSJ de Extremadura.",
+          "fase": "condenado en primera instancia; recurrida; no firme",
+          "organo_judicial": "Audiencia Provincial de Badajoz"
+        }
+      ],
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Cifras de The Objective (01-08-2023) y ARA (agosto de 2023), que citan la declaración. Hipoteca de 2008 por 159.300 € sobre la vivienda compartida, con saldo de 61.786,31 €. Saldo en cuentas: 19.208,79 € (The Objective) y 19.208,72 € (ARA). No hay valor de inmuebles: neto SIN inmuebles. La ficha del Congreso solo muestra esta declaración (9-08-2023) y consigna la baja del cargo de diputado el 06-10-2026. Un titular de Artículo 14 del 06-11-2026 (no abierto) menciona 'dos viviendas, más de 267.000 euros en activos financieros y deudas declaradas'; la cifra no coincide con la suma de 2023 y no se ha podido comprobar.",
+      "patrimonio_inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": "50%"
+        },
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": "100%"
+        },
+        {
+          "tipo": "garaje",
+          "ubicacion": null,
+          "porcentaje": "50%"
+        },
+        {
+          "tipo": "garaje",
+          "ubicacion": null,
+          "porcentaje": "100%"
+        }
+      ]
+    }
+  },
+  {
+    "party": "vox",
+    "nombre": "Santiago Abascal Conde",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Presidente de Vox; diputado por Madrid",
+    "trayectoria": [
+      {
+        "cargo": "Concejal del PP en Llodio (Álava)",
+        "desde": "1999",
+        "hasta": "2007"
+      },
+      {
+        "cargo": "Miembro de las Juntas Generales de Álava",
+        "desde": "2003",
+        "hasta": "2004"
+      },
+      {
+        "cargo": "Miembro del Parlamento Vasco",
+        "desde": "2004",
+        "hasta": "2009"
+      },
+      {
+        "cargo": "Presidente de Vox",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Diputado por Madrid (XIII, XIV y XV Legislaturas)",
+        "desde": "2019",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 27,
+    "anos_base": "Primer cargo electo: concejal de Llodio desde 1999 (Vozpópuli); 2026-1999=27.",
+    "experiencia_fuera": null,
+    "formacion": "Licenciado en Sociología, Universidad de Deusto (2003).",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-16",
+      "url": "https://www.congreso.es/docbienes/leg15/000316/000316_000_e_0001326_20230816.pdf",
+      "inmuebles_n": 1,
+      "inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": "Madrid",
+          "porcentaje": "40%"
+        }
+      ],
+      "inmuebles_valor": null,
+      "depositos": 29017.94,
+      "otros_bienes": 0,
+      "otros_bienes_detalle": [
+        {
+          "concepto": "vehículo todoterreno Jeep",
+          "valor": null
+        },
+        {
+          "concepto": "motocicleta BMW R80RT",
+          "valor": null
+        }
+      ],
+      "deudas": 341300,
+      "neto": -312282.06,
+      "nota": "Cuenta corriente de 29.017,94 € a 16-08-2023 (Crónica Vasca, que cita la declaración) e hipoteca con 341.300 € pendientes (The Objective). El Congreso en tu Mano, que reproduce la declaración oficial, cifra el patrimonio declarado sin casas ni coches en −312.282 €. Los vehículos figuran sin valor. Neto = depósitos + otros bienes − deudas, sin inmuebles ni vehículos."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Búsquedas '<nombre> condenado/investigado/imputado/juicio' sin resultados de condena ni procedimiento judicial abierto contra el candidato. No se identificó proceso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Santiago Abascal (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=317&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 16-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000316/000316_000_e_0001326_20230816.pdf"
+      },
+      {
+        "nombre": "The Objective, 06-09-2023",
+        "url": "https://theobjective.com/espana/politica/2023-09-06/abascal-sueldo-vox/"
+      },
+      {
+        "nombre": "Vozpópuli, trayectoria y estudios",
+        "url": "https://www.vozpopuli.com/dolcevita/santiago-abascal-vox-joven-pasado-estudios-familia-mujer_0_1299470552.html"
+      },
+      {
+        "nombre": "Vozpópuli, listas de Vox 29N (22-10-2026)",
+        "url": "https://www.vozpopuli.com/espana/politica/vox-elige-a-sus-cabezas-de-lista-para-el-29-n-estos-son-los-lideres-por-cada-provincia.html"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; número 1 por Madrid",
+      "cargo_actual": "Presidente de Vox; diputado por Madrid (XV Legislatura)",
+      "formacion": "Licenciado en Sociología (ficha del Congreso); Universidad de Deusto, 2003 (Vozpópuli).",
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Cifras de The Objective (06-09-2023): cuenta corriente 'poco más de 29.000 €'; préstamo hipotecario de 368.000 € con 341.300 € pendientes. La ficha del Congreso lista además una modificación de 21-09-2023 (https://www.congreso.es/docbienes/leg15/000316/000316_001_e_0001872_20230921.pdf) cuyo contenido no se pudo leer. No hay valor de inmuebles ni de vehículos: neto = depósitos − deudas, SIN inmuebles ni vehículos. Un titular de Artículo 14 del 09-11-2026 (no abierto) cita una vivienda en Madrid, 29.000 € de ahorros y una hipoteca de 341.300 €.",
+      "patrimonio_inmuebles_detalle": [
+        {
+          "tipo": "vivienda (adquirida en julio de 2020)",
+          "ubicacion": "Madrid (según prensa)",
+          "porcentaje": null
+        }
+      ]
+    }
+  },
+  {
+    "party": "sumar",
+    "nombre": "Ada Colau Ballano",
+    "rol": "Candidata a la Presidencia del Gobierno",
+    "cargo_actual": "Sin cargo institucional",
+    "trayectoria": [
+      {
+        "cargo": "Cofundadora y portavoz de la Plataforma de Afectados por la Hipoteca",
+        "desde": "2009",
+        "hasta": "2014"
+      },
+      {
+        "cargo": "Alcaldesa de Barcelona",
+        "desde": "2015",
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Líder de Catalunya en Comú",
+        "desde": "2017",
+        "hasta": null
+      },
+      {
+        "cargo": "Concejala del Ayuntamiento de Barcelona",
+        "desde": "2023",
+        "hasta": "2024"
+      }
+    ],
+    "anos_en_politica": 11,
+    "anos_base": "Primer cargo electo: alcaldesa de Barcelona, elegida el 13-06-2015 (CIDOB); 2026-2015=11. La PAH (2009) fue cargo orgánico no público.",
+    "experiencia_fuera": "Técnica de cooperación en el Observatori DESC desde 2007; trabajos en consultoría de comunicación, producción de televisión y traducción e interpretación de italiano.",
+    "formacion": "Estudios de Filosofía en la Universitat de Barcelona (desde 1992); no concluyó la licenciatura.",
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo con obligación de declarar bienes desde que dejó el Ayuntamiento de Barcelona en octubre de 2024."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos abiertos localizados. La causa por subvenciones a entidades afines (Juzgado de Instrucción 21 de Barcelona) quedó archivada de forma definitiva en 2025 al no recurrir la acusación (3Cat). Diari de Tarragona indicaba en octubre de 2026 que no estaba confirmado que siguiera siendo candidata; fuentes posteriores la sitúan como cabeza de Frente Amplio y de la lista de Barcelona. En Madrid la lista de Frente Amplio la encabeza Emilio Delgado (Más Madrid).",
+    "fuentes": [
+      {
+        "nombre": "CIDOB, Ada Colau Ballano",
+        "url": "https://www.cidob.org/lider-politico/ada-colau-ballano"
+      },
+      {
+        "nombre": "Demócrata, Frente Amplio elige a Colau (12-10-2026)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/frente-amplio-elige-a-ada-colau-como-candidata-para-las-elecciones-del-29n/"
+      },
+      {
+        "nombre": "Diari de Tarragona, Frente Amplio separado en Catalunya y Madrid",
+        "url": "https://www.diaridetarragona.com/espana/273314/frente-amplio-concurriran-separado-catalunya-madrid.html"
+      },
+      {
+        "nombre": "Demócrata, buscador de listas 29N (BOE)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      },
+      {
+        "nombre": "Catalan News, Colau deja el consistorio",
+        "url": "https://www.catalannews.com/politics/item/former-mayor-ada-colau-to-leave-barcelona-council"
+      },
+      {
+        "nombre": "3Cat, causa archivada definitivamente",
+        "url": "https://www.3cat.cat/3catinfo/arxivada-definitivament-la-causa-contra-colau-per-les-subvencions-a-entitats-socials/noticia-amp/3340512/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Candidata a la Presidencia del Gobierno por Frente Amplio (propuesta de Movimiento Sumar, Comuns, Más Madrid e IU, 12-10-2026); cabeza de lista de Comuns-Front Ampli por Barcelona",
+      "cargo_actual": "Sin cargo institucional según las fuentes consultadas; presidenta de la Fundación Sentit Comú (pie de foto de Diari de Tarragona)",
+      "formacion": "Estudios de Filosofía en la Universitat de Barcelona (iniciados en 1992); no concluyó la licenciatura (CIDOB; Demócrata coincide).",
+      "experiencia_fuera": "Técnica de cooperación en el Observatori DESC desde 2007; trabajos en consultoría de comunicación, producción de televisión y traducción e interpretación de italiano (CIDOB).",
+      "trayectoria": [
+        "Cofundadora y portavoz de la Plataforma de Afectados por la Hipoteca (cargo orgánico)"
+      ],
+      "patrimonio_nota": "No ocupa cargo con obligación de declaración de bienes desde que dejó el Ayuntamiento de Barcelona en octubre de 2024 (anunciado el 09-09-2024, Catalan News). No se localizó una declaración oficial publicada y vigente de la candidata."
+    }
+  },
+  {
+    "party": "podemos",
+    "nombre": "Irene Montero Gil",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": "Eurodiputada; vicepresidenta del grupo The Left; secretaria política y de Internacional de Podemos",
+    "trayectoria": [
+      {
+        "cargo": "Miembro del Consejo Ciudadano de Podemos",
+        "desde": "2014",
+        "hasta": null
+      },
+      {
+        "cargo": "Diputada en el Congreso",
+        "desde": "2016",
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Ministra de Igualdad",
+        "desde": "2020",
+        "hasta": "2023"
+      },
+      {
+        "cargo": "Eurodiputada",
+        "desde": "2024",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 10,
+    "anos_base": "Primer cargo público electo: diputada desde 2016 (CV del Parlamento Europeo); 2026-2016=10. Cargo orgánico en Podemos desde 2014.",
+    "experiencia_fuera": "Cajera en Saturn (2010-2011); becaria del programa de formación del profesorado universitario (2013-2015).",
+    "formacion": "Estudios en la Universidad Autónoma de Madrid (2006-2013).",
+    "patrimonio": {
+      "declarado": false,
+      "estado": "solo_intereses",
+      "organo": "Parlamento Europeo (declaración de intereses privados, no de patrimonio)",
+      "fecha_declaracion": "2024-08-05",
+      "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/ba8a6f22-8a91-46bb-bc98-3f7ddb436829_1725006001313.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "El Parlamento Europeo publica la declaración de intereses económicos, no el patrimonio. La declaración (revisión de 05-08-2024) recoge ingresos como ministra de Igualdad (77.478 € anuales) y 20.000 € por un libro; sin participaciones societarias."
+    },
+    "sentencias_firmes": [
+      {
+        "persona": "el propio candidato",
+        "resumen": "Condena civil: sentencia de la Sala Primera del Tribunal Supremo que la condena a indemnizar con 18.000 € por daño moral a Rafael Marcos (expareja de María Sevilla) por intromisión ilegítima en su honor al calificarlo de 'maltratador' en declaraciones del 25-05-2022, además de borrar el tuit y publicar el fallo. El Tribunal Constitucional inadmitió el recurso de amparo y la sentencia es firme.",
+        "fecha": "2023-06-09",
+        "url": "https://theobjective.com/espana/tribunales/2023-11-06/constitucional-recurso-irene-montero-condena/"
+      }
+    ],
+    "procedimientos_abiertos": [],
+    "nota": "Búsquedas '<nombre> investigada/imputada/procesada/juicio' sin procedimiento judicial en curso del propio candidato. No se buscaron de forma específica procesos del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Parlamento Europeo, ficha de Irene Montero",
+        "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/home"
+      },
+      {
+        "nombre": "Parlamento Europeo, CV",
+        "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/cv"
+      },
+      {
+        "nombre": "Parlamento Europeo, declaraciones",
+        "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/declarations"
+      },
+      {
+        "nombre": "Parlamento Europeo, declaración de intereses privados (revisión 1, 05-08-2024)",
+        "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/ba8a6f22-8a91-46bb-bc98-3f7ddb436829_1725006001313.pdf"
+      },
+      {
+        "nombre": "Diari de Tarragona, Podemos y Frente Amplio en Madrid y Cataluña",
+        "url": "https://www.diaridetarragona.com/espana/273314/frente-amplio-concurriran-separado-catalunya-madrid.html"
+      },
+      {
+        "nombre": "Vozpópuli, 19-10-2026",
+        "url": "https://www.vozpopuli.com/espana/politica/montero-retiene-su-escano-y-su-sueldo-europeo-mientras-fia-al-personalismo-la-supervivencia-de-podemos-el-29-n.html"
+      },
+      {
+        "nombre": "The Objective, 06-11-2023 (firmeza)",
+        "url": "https://theobjective.com/espana/tribunales/2023-11-06/constitucional-recurso-irene-montero-condena/"
+      },
+      {
+        "nombre": "The Objective, 26-07-2023",
+        "url": "https://theobjective.com/espana/tribunales/2023-07-26/irene-montero-supremo-sentencia-rafael-marcos/"
+      },
+      {
+        "nombre": "Onda Vasca, 09-06-2023",
+        "url": "https://www.ondavasca.com/el-ts-condena-a-irene-montero-a-pagar-18-000-euros-a-la-expareja-de-maria-sevilla-por-presentarle-como-maltratrador/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Podemos por Madrid (ganó las primarias con el 90,7 % de los votos emitidos)",
+      "cargo_actual": "Eurodiputada (The Left, vicepresidenta del grupo); secretaria política y de Internacional de Podemos",
+      "formacion": "Universidad Autónoma de Madrid, 2006-2011 y 2011-2013; el CV del Parlamento Europeo no indica los títulos.",
+      "experiencia_fuera": "Cajera en Saturn (2010-2011); becaria del programa de formación del profesorado universitario (2013-2015) (CV del Parlamento Europeo).",
+      "sentencias": [
+        "Sentencia de la Sala Primera del Tribunal Supremo que la condena a indemnizar con 18.000 € por daño moral a Rafael Marcos (expareja de María Sevilla) por intromisión ilegítima en su honor al calificarlo de 'maltratador' en declaraciones del 25-05-2022, además de borrar el tuit y publicar el fallo. El Tribunal Constitucional inadmitió el recurso de amparo, con lo que la sentencia es firme. Condena civil, no penal."
+      ],
+      "patrimonio_nota": "El Parlamento Europeo publica la declaración de intereses económicos, no el patrimonio. La declaración (original 16-07-2024; revisión 1 de 05-08-2024) recoge: ministra de Igualdad 01/2020-11/2023, 77.478 € anuales; diputada XIV Legislatura; actividad remunerada durante el mandato: libro para Editorial Navona S.L., 20.000 € en un pago; secretaria política de Podemos desde 12/2023 y secretaria política y de Internacional desde 07/2024 sin ingresos; sin participaciones societarias. No se localizó una declaración de bienes en el Congreso o en el Gobierno de la candidata."
+    }
+  },
+  {
+    "party": "erc",
+    "nombre": "Gabriel Rufián Romero",
+    "rol": "Cabeza de lista por Barcelona",
+    "cargo_actual": "Diputado por Barcelona; portavoz de ERC en el Congreso",
+    "trayectoria": [
+      {
+        "cargo": "Diputado por Barcelona (XI a XV Legislaturas)",
+        "desde": "2016",
+        "hasta": null
+      },
+      {
+        "cargo": "Concejal en Santa Coloma de Gramenet",
+        "desde": "2023",
+        "hasta": "2025"
+      },
+      {
+        "cargo": "Portavoz titular en la Junta de Portavoces (XV Legislatura)",
+        "desde": "2023",
+        "hasta": "2026"
+      }
+    ],
+    "anos_en_politica": 10,
+    "anos_base": "Primer cargo documentado: diputado desde la XI Legislatura (2016, ficha del Congreso); no se ha verificado un cargo anterior. 2026-2016=10.",
+    "experiencia_fuera": null,
+    "formacion": "Diplomatura en Relaciones Laborales y máster en Dirección de Recursos Humanos, Universitat Pompeu Fabra.",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2026-01-28",
+      "url": "https://www.congreso.es/docbienes/leg15/000299/000299_001_e_0096087_20260128.pdf",
+      "inmuebles_n": 1,
+      "inmuebles_detalle": [
+        {
+          "tipo": "vivienda",
+          "ubicacion": null,
+          "porcentaje": "50%"
+        }
+      ],
+      "inmuebles_valor": null,
+      "depositos": 22000,
+      "otros_bienes": 0,
+      "otros_bienes_detalle": [],
+      "deudas": 241000,
+      "neto": -219000,
+      "nota": "Importes de Infobae (15-09-2023), que cita la declaración de 2023; El Congreso en tu Mano, que reproduce la declaración oficial vigente (modificada en enero de 2026), cifra el patrimonio declarado sin casas ni coches en −220.000 €. Neto = depósitos + otros bienes − deudas, sin inmuebles.",
+      "deudas_detalle": [
+        {
+          "concepto": "hipoteca (CaixaBank, 200.000 € concedidos)",
+          "valor": 170000
+        },
+        {
+          "concepto": "préstamo personal (CaixaBank, 80.000 € concedidos)",
+          "valor": 71000
+        }
+      ]
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos judiciales localizados contra el candidato. No se identificó proceso del entorno familiar directo. Aparece en prensa de octubre de 2026 la expresión 'Operación Rufián' (propuesta de agrupación de la izquierda); la lista de ERC por Barcelona consta con su nombre en el listado del BOE reproducido por Demócrata.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Gabriel Rufián (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=312&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 28-01-2026 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000299/000299_001_e_0096087_20260128.pdf"
+      },
+      {
+        "nombre": "ARA, 17-01-2025 (concejal)",
+        "url": "https://es.ara.cat/politica/rufian-pliega-concejal-santa-coloma-gramenet_1_5257643.html"
+      },
+      {
+        "nombre": "Demócrata, buscador de listas 29N (BOE)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de ERC por Barcelona",
+      "cargo_actual": "Diputado por Barcelona (Grupo Republicano); portavoz de ERC en el Congreso",
+      "formacion": "Diplomatura en Relaciones Laborales y Máster en Dirección de Recursos Humanos, Universitat Pompeu Fabra (ficha del Congreso; años no consignados).",
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Declaración más reciente (modificación de 28-01-2026); la inicial es de 16-08-2023 (https://www.congreso.es/docbienes/leg15/000299/000299_000_e_0001249_20230816.pdf). No se localizó prensa de 2023-2026 que cite cifras. Importes, inmuebles y deudas: null."
+    }
+  },
+  {
+    "party": "salf",
+    "nombre": "Luis Pérez Fernández (Alvise Pérez)",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": "Eurodiputado (no inscrito); líder de Se Acabó La Fiesta",
+    "trayectoria": [
+      {
+        "cargo": "Eurodiputado",
+        "desde": "2024",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": 2,
+    "anos_base": "Primer cargo electo: eurodiputado, mandato iniciado en julio de 2024 (primera declaración de intereses, 16-07-2024); 2026-2024=2.",
+    "experiencia_fuera": "Influencer (2021-2024); administrador único de Resistencia Popular S.L.; consultoría freelance en comunicación y redes sociales; derechos de autor del libro 'Devuélveme mi país'.",
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "solo_intereses",
+      "organo": "Parlamento Europeo (declaración de intereses privados, no de patrimonio)",
+      "fecha_declaracion": "2026-07-06",
+      "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/9108d7b8-2687-4c2e-ab04-ff7931788ad9_1783411203718.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": null,
+      "nota": "El Parlamento Europeo publica la declaración de intereses económicos, no el patrimonio. La revisión de 06-07-2026 recoge ingresos como influencer (2021-2024) y, durante el mandato, consultoría freelance (288.044 €), derechos de autor (146.792 €), Patreon (14.242 €) e Instagram (722 €); es titular único de Resistencia Popular S.L. y de AP Desarrollo y Gestión S.L."
+    },
+    "sentencias_firmes": [
+      {
+        "persona": "el propio candidato",
+        "resumen": "Condena civil: intromisión ilegítima en la intimidad y la propia imagen del jefe superior de Policía de Canarias por un mensaje publicado en Telegram el 01-03-2023. Indemnización de 10.000 €, retirada del mensaje, publicación de la sentencia y costas. Dictada por un juzgado de Las Palmas de Gran Canaria y confirmada por la Audiencia Provincial; el Tribunal Supremo inadmitió el recurso de casación y la sentencia es firme.",
+        "fecha": "2026-10-09",
+        "url": "https://rtvc.es/supremo-confirma-condena-alvise-mensajes-jefe-policia-canarias-9-octubre-2026/"
+      }
+    ],
+    "procedimientos_abiertos": [
+      {
+        "persona": "el propio candidato",
+        "resumen": "Presunta financiación ilegal de SALF: estafa, apropiación indebida, blanqueo de capitales y falsedad documental.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Julián Sánchez Melgar)",
+        "fase": "en instrucción en el Tribunal Supremo",
+        "fecha_ultima_actuacion": "2025-04-11",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      },
+      {
+        "persona": "el propio candidato",
+        "resumen": "Difusión de una prueba PCR falsa atribuida a Salvador Illa.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Javier Hernández)",
+        "fase": "en instrucción en el Tribunal Supremo",
+        "fecha_ultima_actuacion": "2025-04-11",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      },
+      {
+        "persona": "el propio candidato",
+        "resumen": "Presunto acoso a la fiscal Susana Gisbert.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Eduardo de Porres)",
+        "fase": "en instrucción en el Tribunal Supremo",
+        "fecha_ultima_actuacion": "2025-05",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      },
+      {
+        "persona": "el propio candidato",
+        "resumen": "Presunto acoso y revelación de secretos contra los eurodiputados Diego Soler y Nora Junco.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Manuel Marchena)",
+        "fase": "en instrucción en el Tribunal Supremo; el Parlamento Europeo aún no ha levantado la inmunidad en esta causa",
+        "fecha_ultima_actuacion": "2025-10",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      },
+      {
+        "persona": "el propio candidato",
+        "resumen": "Presuntas amenazas contra el alcalde de Algeciras y senador José Ignacio Landaluce.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Antonio del Moral)",
+        "fase": "en instrucción en el Tribunal Supremo",
+        "fecha_ultima_actuacion": "2026-03",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      },
+      {
+        "persona": "el propio candidato",
+        "resumen": "Presunto desorden público por mensajes en Telegram durante las protestas agrícolas de 2024.",
+        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructora Carmen Lamela)",
+        "fase": "en instrucción en el Tribunal Supremo",
+        "fecha_ultima_actuacion": null,
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      }
+    ],
+    "nota": "Estado de las seis causas según Moncloa.com (04-10-2026): ninguna ha alcanzado juicio oral; el Parlamento Europeo levantó la inmunidad en dos de ellas (la fuente no dice cuáles). Algún titular menciona siete causas; solo se enumeran seis con fuente abierta. Fecha de la resolución del Supremo en la condena civil: no consta; se usa la fecha de la noticia. No se identificó proceso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Parlamento Europeo, ficha de Alvise Pérez",
+        "url": "https://www.europarl.europa.eu/meps/en/257019/ALVISE_PEREZ/home"
+      },
+      {
+        "nombre": "Parlamento Europeo, declaraciones",
+        "url": "https://www.europarl.europa.eu/meps/en/257019/ALVISE_PEREZ/declarations"
+      },
+      {
+        "nombre": "Parlamento Europeo, declaración de intereses privados (revisión 3, 06-07-2026)",
+        "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/9108d7b8-2687-4c2e-ab04-ff7931788ad9_1783411203718.pdf"
+      },
+      {
+        "nombre": "Demócrata, Alvise cabeza de lista por Madrid (05-10-2026)",
+        "url": "https://www.democrata.es/fr/politique/luis-alvise-perez-sera-tete-de-liste-de-salf-par-madrid-aux-generales-du-29-novembre/"
+      },
+      {
+        "nombre": "RTVC, condena firme (09-10-2026)",
+        "url": "https://rtvc.es/supremo-confirma-condena-alvise-mensajes-jefe-policia-canarias-9-octubre-2026/"
+      },
+      {
+        "nombre": "Moncloa.com, seis causas en el Supremo (04-10-2026)",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de SALF por Madrid (anunciado el 05-10-2026)",
+      "experiencia_fuera": "Influencer (declarado 2021-2024); administrador único y titular de Resistencia Popular S.L. (inactiva); consultoría freelance en comunicación y redes sociales; derechos de autor del libro 'Devuélveme mi país' (declaración de intereses privados, revisión 3 de 06-07-2026).",
+      "sentencias": [
+        "Condena civil por intromisión ilegítima en la intimidad y la propia imagen del jefe superior de Policía de Canarias por un mensaje publicado en Telegram el 01-03-2023: 10.000 € de indemnización, retirada del mensaje, publicación de la sentencia y costas. Dictada por un juzgado de Las Palmas de Gran Canaria, confirmada por la Audiencia Provincial; el Tribunal Supremo inadmitió el recurso de casación y la sentencia quedó firme. No es condena penal."
+      ],
+      "procedimientos_originales": [
+        {
+          "resumen": "Presunta financiación ilegal de SALF: estafa, apropiación indebida, blanqueo de capitales y falsedad documental.",
+          "fase": "instrucción",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Julián Sánchez Melgar)"
+        },
+        {
+          "resumen": "Difusión de una prueba PCR falsa atribuida a Salvador Illa (delito no nombrado en la fuente).",
+          "fase": "instrucción",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Javier Hernández)"
+        },
+        {
+          "resumen": "Presunto acoso a la fiscal Susana Gisbert.",
+          "fase": "instrucción",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Eduardo de Porres)"
+        },
+        {
+          "resumen": "Presunto acoso y revelación de secretos contra los eurodiputados Diego Soler y Nora Junco.",
+          "fase": "instrucción; causa admitida en octubre de 2025; Parlamento Europeo sin completar el suplicatorio en esta causa a 04-10-2026",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Manuel Marchena)"
+        },
+        {
+          "resumen": "Presuntas amenazas contra el alcalde de Algeciras y senador José Ignacio Landaluce.",
+          "fase": "instrucción",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Antonio del Moral)"
+        },
+        {
+          "resumen": "Presunto desorden público por mensajes en Telegram durante las protestas agrícolas de 2024.",
+          "fase": "instrucción",
+          "organo_judicial": "Tribunal Supremo, Sala Segunda (instructora Carmen Lamela)"
+        }
+      ],
+      "patrimonio_nota": "El Parlamento Europeo publica intereses económicos, no patrimonio. Revisión 3 (06-07-2026): ingresos como influencer 2021-2024 (incl. 100.000 € por una charla el 06-04-2024); durante el mandato, suscripciones de Instagram (722 €) y Patreon (14.242 €), consultoría freelance (288.044 €) y derechos de autor (146.792 €); titular único de Resistencia Popular S.L. y de AP Desarrollo y Gestión S.L. No hay declaración de bienes accesible."
+    }
+  },
+  {
+    "party": "junts",
+    "nombre": "Míriam Nogueras i Camero",
+    "rol": "Cabeza de lista por Barcelona",
+    "cargo_actual": "Diputada por Barcelona; portavoz de Junts en el Congreso",
+    "trayectoria": [
+      {
+        "cargo": "Diputada por Barcelona (XI a XV Legislaturas)",
+        "desde": "2016",
+        "hasta": null
+      },
+      {
+        "cargo": "Portavoz titular en la Junta de Portavoces (XV Legislatura)",
+        "desde": "2023",
+        "hasta": "2026"
+      }
+    ],
+    "anos_en_politica": 10,
+    "anos_base": "Primer cargo documentado: diputada desde la XI Legislatura (2016, ficha del Congreso); no se ha verificado un cargo anterior. 2026-2016=10.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-10",
+      "url": "https://www.congreso.es/docbienes/leg15/000228/000228_000_e_0000971_20230810.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": 158190,
+      "nota": "Patrimonio declarado (cuentas. valores y otros bienes menos deudas. sin casas ni coches) de 158.190 €. según El Congreso en tu Mano. que reproduce la declaración oficial. Desglose. inmuebles y deudas no verificados."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos judiciales localizados contra la candidata. La ficha del Congreso no consigna formación ni profesión. No se identificó proceso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Míriam Nogueras (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=241&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 10-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000228/000228_000_e_0000971_20230810.pdf"
+      },
+      {
+        "nombre": "Demócrata, buscador de listas 29N (BOE)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de Junts por Barcelona",
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
+    }
+  },
+  {
+    "party": "bildu",
+    "nombre": "Oskar Matute García de Jalón",
+    "rol": "Cabeza de lista por Bizkaia",
+    "cargo_actual": "Diputado por Bizkaia; portavoz adjunto de EH Bildu en el Congreso",
+    "trayectoria": [
+      {
+        "cargo": "Miembro del Parlamento Vasco",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Diputado por Bizkaia (XII a XV Legislaturas)",
+        "desde": "2016",
+        "hasta": null
+      },
+      {
+        "cargo": "Portavoz adjunto en la Junta de Portavoces (XV Legislatura)",
+        "desde": "2023",
+        "hasta": "2026"
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Consta cargo previo en el Parlamento Vasco sin años en las fuentes abiertas; el primer cargo con fecha es diputado desde 2016 (10 años como mínimo documentado).",
+    "experiencia_fuera": null,
+    "formacion": "Estudios de Empresariales (sin titulación acreditada).",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-14",
+      "url": "https://www.congreso.es/docbienes/leg15/000282/000282_000_e_0001187_20230814.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": 9087,
+      "nota": "Patrimonio declarado (cuentas. valores y otros bienes menos deudas. sin casas ni coches) de 9.087 €. según El Congreso en tu Mano. que reproduce la declaración oficial. Desglose. inmuebles y deudas no verificados."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos judiciales localizados contra el candidato. No se identificó proceso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Oskar Matute (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=287&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 14-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000282/000282_000_e_0001187_20230814.pdf"
+      },
+      {
+        "nombre": "Moncloa.com, listas de EH Bildu (16-10-2026)",
+        "url": "https://www.moncloa.com/2026/10/16/eh-bildu-candidatos-generales-29n-3449751/"
+      },
+      {
+        "nombre": "Demócrata, buscador de listas 29N (BOE)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista de EH Bildu por Bizkaia y referencia de la coalición en el Congreso (propuesta pendiente de votación de las bases el 16-10-2026; consta en el listado del BOE)",
+      "formacion": "La ficha del Congreso indica que cursa Empresariales; no consta titulación acreditada.",
+      "trayectoria": [
+        "Miembro del Parlamento Vasco (años no consignados)"
+      ],
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
+    }
+  },
+  {
+    "party": "pnv",
+    "nombre": "Idoia Sagastizabal Unzetabarrenetxea",
+    "rol": "Cabeza de lista por Bizkaia",
+    "cargo_actual": "Diputada por Bizkaia; concejala de Lekeitio; portavoz adjunta del Grupo Vasco",
+    "trayectoria": [
+      {
+        "cargo": "Diputada por Bizkaia (XII a XV Legislaturas)",
+        "desde": "2016",
+        "hasta": null
+      },
+      {
+        "cargo": "Concejala de Lekeitio",
+        "desde": null,
+        "hasta": null
+      },
+      {
+        "cargo": "Portavoz adjunta en la Junta de Portavoces",
+        "desde": "2023",
+        "hasta": null
+      },
+      {
+        "cargo": "Presidenta de la Comisión de Investigación sobre el apagón del 28-04-2025",
+        "desde": "2026",
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Es concejala de Lekeitio sin año de inicio en las fuentes abiertas; el primer cargo con fecha es diputada desde 2016 (10 años como mínimo documentado).",
+    "experiencia_fuera": null,
+    "formacion": "Licenciada en Derecho; MBA; técnica en Empleo y Promoción Económica.",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-16",
+      "url": "https://www.congreso.es/docbienes/leg15/000298/000298_000_e_0001246_20230816.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": 28957,
+      "nota": "Patrimonio declarado (cuentas. valores y otros bienes menos deudas. sin casas ni coches) de 28.957 €. según El Congreso en tu Mano. que reproduce la declaración oficial. Desglose. inmuebles y deudas no verificados."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos judiciales localizados contra la candidata. Maribel Vaquero (Gipuzkoa) es portavoz del grupo vasco en el Congreso; su declaración no se recogió. No se identificó proceso del entorno familiar directo.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Idoia Sagastizabal (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=309&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 16-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000298/000298_000_e_0001246_20230816.pdf"
+      },
+      {
+        "nombre": "Moncloa.com, listas del PNV (17-10-2026)",
+        "url": "https://www.moncloa.com/2026/10/17/listas-pnv-congreso-29n-3450355/"
+      },
+      {
+        "nombre": "Demócrata, buscador de listas 29N (BOE)",
+        "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista del PNV por Bizkaia (circunscripción más poblada donde se presenta); Maribel Vaquero encabeza Gipuzkoa y Gorka Urtaran Álava; el PNV no designa candidato a la Presidencia",
+      "cargo_actual": "Diputada por Bizkaia (G.P. Vasco); concejala de Lekeitio; portavoz adjunta del grupo",
+      "formacion": "Licenciada en Derecho; MBA; técnica en Empleo y Promoción Económica (ficha del Congreso; sin centros ni años).",
+      "trayectoria": [
+        "Concejala de Lekeitio (año de inicio no consignado)"
+      ],
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
+    }
+  },
+  {
+    "party": "bng",
+    "nombre": "Néstor Rego Candamil",
+    "rol": "Cabeza de lista por A Coruña",
+    "cargo_actual": "Diputado por A Coruña (Grupo Mixto)",
+    "trayectoria": [
+      {
+        "cargo": "Diputado por A Coruña (XIV y XV Legislaturas)",
+        "desde": "2019",
+        "hasta": null
+      },
+      {
+        "cargo": "Portavoz titular en la Junta de Portavoces",
+        "desde": "2023",
+        "hasta": "2026"
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "La ficha del Congreso solo consigna el mandato de diputado desde 2019 (7 años como mínimo documentado); no se verificaron cargos anteriores.",
+    "experiencia_fuera": "Profesor de Lingua e Literatura Galegas.",
+    "formacion": "Licenciado en Geografía e Historia.",
+    "patrimonio": {
+      "declarado": true,
+      "estado": "publicada",
+      "organo": "Congreso de los Diputados",
+      "fecha_declaracion": "2023-08-10",
+      "url": "https://www.congreso.es/docbienes/leg15/000224/000224_000_e_0000944_20230810.pdf",
+      "inmuebles_n": null,
+      "inmuebles_detalle": [],
+      "inmuebles_valor": null,
+      "depositos": null,
+      "otros_bienes": null,
+      "otros_bienes_detalle": [],
+      "deudas": null,
+      "neto": -119488,
+      "nota": "Patrimonio declarado (cuentas. valores y otros bienes menos deudas. sin casas ni coches) de -119.488 €. según El Congreso en tu Mano. que reproduce la declaración oficial. Desglose. inmuebles y deudas no verificados."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "nota": "Sin condenas ni procesos judiciales localizados contra el candidato. No se identificó proceso del entorno familiar directo. El BNG repite a Rego como cabeza de lista por A Coruña (Moncloa.com, 25-10-2026); en Pontevedra encabeza Carme da Silva.",
+    "fuentes": [
+      {
+        "nombre": "Congreso, ficha de Néstor Rego (XV Legislatura)",
+        "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=238&idLegislatura=XV"
+      },
+      {
+        "nombre": "Congreso, declaración de bienes 10-08-2023 (PDF escaneado)",
+        "url": "https://www.congreso.es/docbienes/leg15/000224/000224_000_e_0000944_20230810.pdf"
+      },
+      {
+        "nombre": "Moncloa.com, listas del BNG (25-10-2026)",
+        "url": "https://www.moncloa.com/2026/10/25/bng-listas-29n-olalla-rodil-lugo-3455123/"
+      }
+    ],
+    "notas_internas": {
+      "rol": "Cabeza de lista del BNG por A Coruña (Consello Nacional, 24-10-2026)",
+      "cargo_actual": "Diputado por A Coruña (Grupo Mixto), único diputado del BNG",
+      "formacion": "Licenciado en Geografía e Historia (ficha del Congreso; sin centro ni año).",
+      "experiencia_fuera": "Profesor de Lingua e Literatura Galegas (ficha del Congreso; sin años).",
+      "trayectoria": [
+        "Portavoz titular en la Junta de Portavoces (periodos de la XV Legislatura)"
+      ],
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
+    }
+  }
+]

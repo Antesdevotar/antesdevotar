@@ -3,7 +3,7 @@
  "nombre": "Compromís: Front Valencià",
  "siglas": "COMPROMÍS",
  "concurre": true,
- "candidato": "Àgueda Micó (Valencia); María Teresa Pérez, de Podem (Alicante); Castellón, de Compromís (por confirmar)",
+ "candidato": "Àgueda Micó (cabeza de lista por València)",
  "ideologia": "Nacionalista valenciano de izquierda verde",
  "ambito": "Comunitat Valenciana",
  "color": "#F18E00",
@@ -59,10 +59,10 @@
   "porcentaje": 14.51,
   "ambito": "Comunitat Valenciana",
   "fuente": {
-   "nombre": "Wikipedia, 2023 Valencian regional election (Compromís, 357.989 votos)",
-   "url": "https://en.wikipedia.org/wiki/2023_Valencian_regional_election"
+   "nombre": "Instituto de Derecho Público, Informe Comunidades Autónomas 2023: Comunitat Valenciana (Compromís, 357.989 votos; % sobre votantes)",
+   "url": "https://www.idpbarcelona.net/docs/public/iccaa/2023/cvalenciana_2023.pdf"
   },
-  "nota": "En las generales de 2023 Compromís concurrió dentro de Sumar. En las autonómicas de 2023 Podemos-EUPV sacó el 3,57%."
+  "nota": "En las generales de 2023 Compromís concurrió dentro de Sumar. En esas autonómicas Unides Podem-EUPV sacó 88.152 votos."
  },
  "propuestas": [
   {

@@ -69,10 +69,10 @@
   "porcentaje": 0.01,
   "ambito": "España",
   "fuente": {
-   "nombre": "Wikipedia, «Democracia Nacional» (resultados electorales)",
-   "url": "https://es.wikipedia.org/wiki/Democracia_Nacional"
+   "nombre": "BOE, Resolución de la Junta Electoral Central: resultados generales de las elecciones del 20-12-2015 (DN: 1.704 votos)",
+   "url": "https://www.boe.es/boe/dias/2016/01/29/pdfs/BOE-A-2016-867.pdf"
   },
-  "nota": "1.685 votos. No se presentó con sus siglas a las generales de 2016, 2019 ni 2023; en las europeas de 2019 concurrió dentro de la coalición ADÑ Identidad Española."
+  "nota": "1.704 votos. No se presentó con sus siglas a las generales de 2016, 2019 ni 2023; en las europeas de 2019 concurrió dentro de la coalición ADÑ Identidad Española."
  },
  "propuestas": [
   {

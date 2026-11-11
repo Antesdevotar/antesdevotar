@@ -200,7 +200,7 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .kpi b{font:800 24px/1 var(--f-display);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
 .kpi span{font-size:12.5px;color:var(--ink-2);line-height:1.25}
 
-.seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;padding:4px;border-radius:14px;background:var(--surface-2);margin-top:16px}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:4px;padding:4px;border-radius:14px;background:var(--surface-2);margin-top:16px}
 .seg.sticky{position:sticky;top:8px;z-index:5;box-shadow:0 6px 16px -10px rgba(0,0,0,.25)}
 .seg-btn{min-width:0;padding:0 4px;white-space:nowrap;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:6px;height:42px;border:0;border-radius:11px;background:transparent;font-weight:650;font-size:14.5px;color:var(--ink-2)}
 .seg-btn.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
@@ -700,3 +700,75 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .pre ul,.pre ol{padding-left:20px;display:grid;gap:4px}
 .pre a{color:inherit}
 .pre nav{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+/* ---- Candidatos ---- */
+.f-cands{background:var(--surface);border:1px solid var(--line)}
+.cand{padding:16px;border-radius:var(--r-l,16px);background:var(--surface);border:1px solid var(--line);margin-top:10px}
+.cand.full{margin-top:16px}
+.cand-h{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.cand-h h2{font:800 20px/1.15 var(--f-display);margin:0}
+.cand-h p{margin:2px 0 0;font-size:13.5px;color:var(--ink-2)}
+.cand-now{font-size:14px;font-weight:600;margin:4px 0 0}
+.cand h3{font:750 12.5px var(--f-body);text-transform:uppercase;letter-spacing:.06em;color:var(--ink-2);margin:16px 0 6px}
+.cand p{margin:0;font-size:14.5px;line-height:1.45}
+.cand-tr,.cand-j{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}
+.cand-tr li{display:flex;justify-content:space-between;gap:12px;font-size:14px}
+.cand-tr small{color:var(--ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cand-j li{font-size:14px;line-height:1.45;padding-left:12px;border-left:3px solid var(--line-2)}
+.cand-dl{display:grid;gap:6px;margin:0}
+.cand-dl div{display:flex;justify-content:space-between;gap:12px;font-size:14.5px}
+.cand-dl dt{color:var(--ink-2)}
+.cand-dl dd{margin:0;font-weight:650;text-align:right;font-variant-numeric:tabular-nums}
+.cand-none{color:var(--ink-2)}
+.cand .fine{margin-top:6px}
+.cands{display:grid;gap:8px;margin-top:12px}
+.cand-row{border:1px solid var(--line);border-radius:var(--r-m);background:var(--surface)}
+.cand-row>summary{display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;list-style:none}
+.cand-row>summary::-webkit-details-marker{display:none}
+.cand-row-m{display:grid;flex:1;min-width:0}
+.cand-row-m b{font-size:15px}
+.cand-row-m small{font-size:12.5px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cand-row .cand{border:0;margin:0;padding:4px 14px 8px;background:transparent}
+.cand-row .cand-h{display:none}
+.cand-row>.linkbtn{display:inline-flex;margin:0 14px 14px}
+/* SEO: H1 semánticos y enlazado interno */
+.h1-eyebrow{display:block;font:600 13px/1.3 var(--f-body);letter-spacing:.01em;opacity:.72;margin-bottom:6px;font-variation-settings:normal}
+.h1-tail{font-size:.6em;font-weight:700;opacity:.62;letter-spacing:-.01em}
+.related .chips.wrap{gap:6px}
+.related .chip{white-space:normal;height:auto;min-height:36px;padding:6px 12px;font-size:13.5px;line-height:1.25;text-align:left}
+.related .btn.wide{margin-bottom:4px}
+.rel-links{margin:14px 0 4px;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.rel-links a{font-weight:650;color:var(--ink)}
+.rel-chips{margin-top:12px}
+.tparty>.tp-link{margin:0 10px 8px}
+.hook u{display:block;margin-top:3px;font-size:12.5px;color:var(--ink-2)}
+.meth-full{margin-top:18px;border:1px solid var(--line);border-radius:var(--r-m);background:var(--surface);max-width:72ch}
+.meth-full>summary{cursor:pointer;padding:14px 16px;font:700 16px var(--f-display);min-height:48px}
+.meth-doc{padding:0 16px 16px;font-size:15px;line-height:1.55;color:var(--ink-2)}
+.meth-doc h2{font:750 18px/1.2 var(--f-display);color:var(--ink);margin:18px 0 6px}
+.meth-doc p{margin:6px 0}
+.meth-doc ul{padding-left:20px;display:grid;gap:4px;margin:6px 0}
+.meth-doc code{font-size:13px;word-break:break-word}
+/* Fecha visible, resumen destacado, FAQ, candidatos, quiénes somos */
+.upd{font-size:13px;color:var(--ink-2);margin:6px 0 0;font-variant-numeric:tabular-nums}
+.phead .upd{margin-top:12px}
+.phead-full{font-size:13.5px}
+.phead-lead{margin-top:12px;padding:12px 14px;border-left:4px solid var(--pc,var(--ink));background:var(--surface-2);border-radius:0 var(--r-m,12px) var(--r-m,12px) 0;font-size:15.5px;line-height:1.5;font-weight:550;max-width:66ch}
+.block .phead-lead{margin-bottom:6px}
+.faq{margin-top:26px;padding-top:6px;border-top:1px solid var(--line);max-width:70ch}
+.faq h2{font:750 21px/1.15 var(--f-display);letter-spacing:-.02em;margin:16px 0 4px}
+.faq h3{font:700 16px/1.3 var(--f-display);margin:16px 0 4px}
+.faq p{color:var(--ink-2);font-size:15px;line-height:1.5;margin:0}
+.cand-neto{margin:2px 0 0;font-size:14.5px;line-height:1.45}
+.cand-neto b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.cand-link{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--pc,var(--line-2))}
+.cand-links{display:flex;flex-wrap:wrap;gap:0 14px;margin:10px 0 0}
+.cand-row>.cand-links{margin:0 8px 8px}
+.cand-row>.cand-links.top{margin:0 8px 0}
+.foot-links{margin:0;display:flex;flex-wrap:wrap;gap:4px 8px}
+.quienes h2{font:750 19px/1.2 var(--f-display);margin:22px 0 6px}
+.quienes p{color:var(--ink-2);max-width:66ch;line-height:1.55;margin:0 0 8px}
+.quienes p a{color:var(--ink);font-weight:650}
+.pre .upd{margin:-4px 0 12px}
+.pre .sub{color:var(--ink-2);margin:-6px 0 8px}
+.pre .phead-lead{margin:0 0 12px}
+.pre .cand{margin:12px 0}

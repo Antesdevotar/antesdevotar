@@ -1,0 +1,984 @@
+{
+  "aa": {
+    "resumen": "Adelante Andalucía es un partido andalucista de izquierdas y ecosocialista. Se presenta el 29N en 8 circunscripciones. No tiene candidato a la Presidencia; hay cabezas de lista provinciales. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Adelante Andalucía a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Adelante Andalucía fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 8 circunscripciones (Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga, Sevilla)."
+      },
+      {
+        "q": "¿Dónde se presenta Adelante Andalucía?",
+        "a": "Adelante Andalucía se presenta en 8 circunscripciones (Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga, Sevilla)."
+      },
+      {
+        "q": "¿Quién es el candidato de Adelante Andalucía?",
+        "a": "Adelante Andalucía no tiene candidato a la Presidencia; presenta cabezas de lista provinciales, entre ellos Luis de los Santos (Sevilla) y María Sánchez (Cádiz). Su portavoz es José Ignacio García."
+      },
+      {
+        "q": "¿Ha publicado Adelante Andalucía su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Adelante Andalucía no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Adelante Andalucía sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Crear una banca pública andaluza y una empresa pública de energía renovable. Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza."
+      },
+      {
+        "q": "¿Qué propone Adelante Andalucía sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona. Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar."
+      }
+    ]
+  },
+  "alhora": {
+    "resumen": "Alhora es un partido independentista catalán. Se presenta el 29N en Barcelona, Girona, Lleida y Tarragona. Jordi Graupera encabeza la lista por Barcelona. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Alhora a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Alhora fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+      },
+      {
+        "q": "¿Dónde se presenta Alhora?",
+        "a": "Alhora se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+      },
+      {
+        "q": "¿Quién es el candidato de Alhora?",
+        "a": "El candidato de Alhora es Jordi Graupera, presidente del partido y cabeza de lista por Barcelona."
+      },
+      {
+        "q": "¿Ha publicado Alhora su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Alhora no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Alhora sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Presentarse al Congreso con el lema «Fora Espanya» para «bloquear la política española» y «evitar que el poder lo ocupen otros». Votar «no a todo» en el Congreso, sin acuerdos con PSOE ni PP, y forzar elecciones si es necesario."
+      },
+      {
+        "q": "¿Qué propone Alhora sobre cultura?",
+        "a": "Entre sus propuestas sobre cultura, de sus declaraciones: Eliminar el uso del castellano en TV3 y Catalunya Ràdio. Invertir 1.000 millones de euros en un plan de enseñanza del catalán para adultos."
+      }
+    ]
+  },
+  "autonomos": {
+    "resumen": "El Partido Autónomos es un partido que se define como ni de izquierdas ni de derechas. Se presenta el 29N en Alicante, Castellón y Santa Cruz de Tenerife. Lydia Cañedo Oliver figura como cabeza de lista por Alicante. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta el Partido Autónomos a las elecciones del 29N?",
+        "a": "Sí. La candidatura del Partido Autónomos fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Alicante, Castellón, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Dónde se presenta el Partido Autónomos?",
+        "a": "El Partido Autónomos se presenta en 3 circunscripciones (Alicante, Castellón, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Quién es el candidato del Partido Autónomos?",
+        "a": "Lydia Cañedo Oliver encabeza la lista de Autónomos por Alicante."
+      },
+      {
+        "q": "¿Ha publicado el Partido Autónomos su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el Partido Autónomos no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone el Partido Autónomos sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Hacer una reforma fiscal «justa y proporcional», con cuotas ajustadas a los ingresos reales de cada autónomo. Que la Ley de Segunda Oportunidad permita perdonar también las deudas con Hacienda y la Seguridad Social."
+      },
+      {
+        "q": "¿Qué propone el Partido Autónomos sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Despolitizar la Administración y las entidades públicas, que deberían estar gestionadas por profesionales sin influencias ideológicas. Evaluar el desempeño de los empleados públicos para sancionar la ineficiencia y premiar la excelencia."
+      }
+    ]
+  },
+  "bildu": {
+    "resumen": "EH Bildu es una coalición de la izquierda independentista vasca. Se presenta el 29N en Álava, Bizkaia, Gipuzkoa y Navarra. Oskar Matute es cabeza de lista por Bizkaia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta EH Bildu a las elecciones del 29N?",
+        "a": "Sí. La candidatura de EH Bildu fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Álava, Bizkaia, Gipuzkoa, Navarra)."
+      },
+      {
+        "q": "¿Dónde se presenta EH Bildu?",
+        "a": "EH Bildu se presenta en 4 circunscripciones (Álava, Bizkaia, Gipuzkoa, Navarra)."
+      },
+      {
+        "q": "¿Quién es el candidato de EH Bildu?",
+        "a": "Oskar Matute es el cabeza de lista de EH Bildu por Bizkaia, pendiente de ratificación por la militancia."
+      },
+      {
+        "q": "¿Ha publicado EH Bildu su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, EH Bildu no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone EH Bildu sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Reconocer a Euskal Herria como nación y el carácter político del conflicto con el Estado. Reconocer el derecho a decidir, con ratificación por la ciudadanía vasca de cualquier acuerdo."
+      },
+      {
+        "q": "¿Qué propone EH Bildu sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones y su programa de 2023: Plan de vivienda 2026-2036: 30.000 viviendas protegidas sobre todo en alquiler y un fondo público-privado de 3.000 M€ con mayoría pública. Recuperar la prórroga automática e indefinida de los contratos de alquiler en las mismas condiciones."
+      }
+    ]
+  },
+  "bng": {
+    "resumen": "El BNG es un frente nacionalista gallego de izquierdas. Se presenta el 29N en A Coruña, Lugo, Ourense y Pontevedra. Néstor Rego ha sido su cabeza de lista por A Coruña (pendiente de confirmar). No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta el BNG a las elecciones del 29N?",
+        "a": "Sí. La candidatura del BNG fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (A Coruña, Lugo, Ourense, Pontevedra)."
+      },
+      {
+        "q": "¿Dónde se presenta el BNG?",
+        "a": "El BNG se presenta en 4 circunscripciones (A Coruña, Lugo, Ourense, Pontevedra)."
+      },
+      {
+        "q": "¿Quién es el candidato del BNG?",
+        "a": "Está pendiente de confirmar a 21-10-2026. Néstor Rego, diputado desde 2019, ha sido su cabeza de lista por A Coruña."
+      },
+      {
+        "q": "¿Ha publicado el BNG su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el BNG no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone el BNG sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado. Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia."
+      },
+      {
+        "q": "¿Qué propone el BNG sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Jornada máxima de 35 horas semanales sin reducción salarial. Derogar la reforma laboral de 2021 y recuperar la indemnización de 45 días por despido improcedente y los salarios de tramitación."
+      }
+    ]
+  },
+  "cc": {
+    "resumen": "Coalición Canaria es un partido nacionalista canario de centro. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Cristina Valido encabeza Santa Cruz de Tenerife y Teodoro Sosa, Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y su programa de 2026.",
+    "faq": [
+      {
+        "q": "¿Se presenta Coalición Canaria a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Coalición Canaria fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Dónde se presenta Coalición Canaria?",
+        "a": "Coalición Canaria se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife). En la papeleta: Coalición Canaria-Primero Canarias, con Municipalistas Primero Canarias y grupos insulares."
+      },
+      {
+        "q": "¿Quién es el candidato de Coalición Canaria?",
+        "a": "Cristina Valido encabeza la candidatura por Santa Cruz de Tenerife; en Las Palmas la encabeza Teodoro Sosa, de Primero Canarias."
+      },
+      {
+        "q": "¿Ha publicado Coalición Canaria su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Coalición Canaria no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y su programa de 2026."
+      },
+      {
+        "q": "¿Qué propone Coalición Canaria sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2026: Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan. Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público."
+      },
+      {
+        "q": "¿Qué propone Coalición Canaria sobre igualdad?",
+        "a": "Entre sus propuestas sobre igualdad, de su programa de 2023: Financiación del REF contra la pobreza cada año mientras Canarias supere la media estatal de pobreza. Que el Estado asuma el 50 % de la financiación de la dependencia con carácter finalista."
+      }
+    ]
+  },
+  "compromis": {
+    "resumen": "Compromís es una coalición nacionalista valenciana de izquierda verde. Se presenta el 29N en Valencia, Alicante y Castellón. Àgueda Micó encabeza la lista por Valencia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Compromís a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Compromís fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Valencia, Alicante, Castellón)."
+      },
+      {
+        "q": "¿Dónde se presenta Compromís?",
+        "a": "Compromís se presenta en 3 circunscripciones (Valencia, Alicante, Castellón). No va con lista propia: se presenta en la coalición Compromís-Front Valencià (Compromís, Podemos, EUPV y ERPV), integrada en el Frente Amplio."
+      },
+      {
+        "q": "¿Quién es el candidato de Compromís?",
+        "a": "Àgueda Micó encabeza la lista por Valencia; María Teresa Pérez, de Podem, la de Alicante. El cabeza de lista de Castellón, de Compromís, está por confirmar."
+      },
+      {
+        "q": "¿Ha publicado Compromís su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Compromís no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Compromís sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Nuevo modelo de financiación autonómica y, mientras llega, un fondo de nivelación que sitúe a la Comunitat Valenciana en la media estatal. No apoyar una financiación singular para Cataluña si no se aborda también la infrafinanciación valenciana."
+      },
+      {
+        "q": "¿Qué propone Compromís sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad, de sus declaraciones y su programa de 2023: Reclamar al Estado 800 millones de euros para la atención primaria valenciana. Pasar a gestión pública los hospitales y servicios sanitarios privatizados, incluido el transporte sanitario."
+      }
+    ]
+  },
+  "d21": {
+    "resumen": "Democracia 21 es una coalición de centro liberal. Se presenta el 29N en Madrid y Barcelona. Miriam González Durántez es la candidata y cabeza de lista. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Democracia 21 a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Democracia 21 fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Madrid, Barcelona)."
+      },
+      {
+        "q": "¿Dónde se presenta Democracia 21?",
+        "a": "Democracia 21 se presenta en 2 circunscripciones (Madrid, Barcelona). En la papeleta: Democracia21, con Ciudadanos y UCIN."
+      },
+      {
+        "q": "¿Quién es el candidato de Democracia 21?",
+        "a": "La candidata es Miriam González Durántez, presidenta de Democracia 21, candidata a la presidencia del Gobierno y cabeza de lista."
+      },
+      {
+        "q": "¿Ha publicado Democracia 21 su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Democracia 21 no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Democracia 21 sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones y su programa de 2026: Reducir un 90 % los asesores políticos, «de golpe». Tipificar como delito el «enchufismo» ampliando el art. 405 del Código Penal."
+      },
+      {
+        "q": "¿Qué propone Democracia 21 sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Plan Nacional de Construcción de Barrios pactado entre partidos, con diez años de seguridad jurídica para promotores y administraciones. Eliminar todos los impuestos ligados a la vivienda para los menores de 35 años mientras no se garantice el acceso a alquileres asequibles."
+      }
+    ]
+  },
+  "dn": {
+    "resumen": "Democracia Nacional es un partido nacionalista identitario fundado en 1995 y presidido por Pedro Chaparro. Según sus datos, no se presenta a las generales del 29N: no figura en las candidaturas proclamadas (BOE del 3-11-2026, según Civio).",
+    "faq": [
+      {
+        "q": "¿Se presenta Democracia Nacional a las elecciones del 29N?",
+        "a": "No. Según los datos de Antes de Votar, Democracia Nacional no figura en las candidaturas proclamadas para el 29N (BOE del 3-11-2026, según Civio)."
+      },
+      {
+        "q": "¿Dónde se presenta Democracia Nacional?",
+        "a": "En ninguna: no figura en las candidaturas proclamadas. Su ficha indica que intentaba presentar candidatura solo por Madrid."
+      },
+      {
+        "q": "¿Quién es el candidato de Democracia Nacional?",
+        "a": "No tiene candidatura proclamada para el 29N. Pedro Chaparro preside el partido; según Público, Pablo Lucini, coordinador en Madrid, ha dicho que aspira al escaño por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Democracia Nacional su programa electoral 2026?",
+        "a": "No consta. Democracia Nacional no concurre al 29N y, según los datos de Antes de Votar (actualizados el 21-10-2026), no tiene programa electoral para esas elecciones; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Democracia Nacional sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de sus declaraciones: Política migratoria «radical» basada en el «retorno y la expulsión masiva de extranjeros» y en la defensa de las fronteras. «Deportaciones masivas» de inmigrantes, a los que atribuye la saturación del mercado de la vivienda, sobre todo del alquiler."
+      },
+      {
+        "q": "¿Qué propone Democracia Nacional sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Recuperar la soberanía monetaria saliendo del euro y volviendo a la peseta. Usar el déficit público para alcanzar el pleno empleo con «tipos de interés nominales nulos»."
+      }
+    ]
+  },
+  "drago": {
+    "resumen": "Drago Canarias es un partido soberanista canario de izquierda verde. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Alberto Rodríguez encabeza Santa Cruz de Tenerife y Héctor Morán, Las Palmas. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Drago Canarias a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Drago Canarias fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Dónde se presenta Drago Canarias?",
+        "a": "Drago Canarias se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Quién es el candidato de Drago Canarias?",
+        "a": "Alberto Rodríguez encabeza la lista por Santa Cruz de Tenerife y Héctor Morán, la de Las Palmas."
+      },
+      {
+        "q": "¿Ha publicado Drago Canarias su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Drago Canarias no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Drago Canarias sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Limitar la compra de vivienda con fines especulativos. Declarar zona de mercado residencial tensionado a los 88 municipios de Canarias."
+      },
+      {
+        "q": "¿Qué propone Drago Canarias sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Aprobar una Ley de Residencia para Canarias. Limitar a tres meses la estancia en Canarias de quienes no son residentes permanentes, por la «capacidad de carga» del territorio, sin distinguir por origen."
+      }
+    ]
+  },
+  "erc": {
+    "resumen": "ERC es un partido de izquierda independentista catalán. Se presenta el 29N en Barcelona, Girona, Lleida y Tarragona. Gabriel Rufián encabeza la lista por Barcelona. Tiene programa 2026 publicado.",
+    "faq": [
+      {
+        "q": "¿Se presenta ERC a las elecciones del 29N?",
+        "a": "Sí. La candidatura de ERC fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+      },
+      {
+        "q": "¿Dónde se presenta ERC?",
+        "a": "ERC se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona). Su lista por Barcelona incluye a tres candidatos de Podemos, que no se presenta en Cataluña."
+      },
+      {
+        "q": "¿Quién es el candidato de ERC?",
+        "a": "Gabriel Rufián es el cabeza de lista de ERC por Barcelona."
+      },
+      {
+        "q": "¿Ha publicado ERC su programa electoral 2026?",
+        "a": "Sí. Su programa electoral para el 29N figura publicado, según Demócrata (5-11-2026)."
+      },
+      {
+        "q": "¿Qué propone ERC sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2026: Que la Agència Tributària de Catalunya asuma progresivamente la recaudación de todos los tributos estatales generados en Cataluña. Completar el traspaso integral de Rodalies, tanto de la gestión del servicio como de las infraestructuras, incluidas las líneas R1, R2 Sud, R3, R4 Nord y R16."
+      },
+      {
+        "q": "¿Qué propone ERC sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de su programa de 2026: Establecer un salario mínimo catalán de 1.460 euros. Reducir la jornada máxima a 37,5 horas semanales sin rebaja salarial."
+      }
+    ]
+  },
+  "escanosenblanco": {
+    "resumen": "Escaños en Blanco es una candidatura de protesta sin ideología. Se presenta el 29N en 12 circunscripciones. No presenta un líder público; Ángel María Rey Albesa figura por Murcia. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Escaños en Blanco a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Escaños en Blanco fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 12 circunscripciones; constan confirmadas 11 (Álava, Gipuzkoa, Pontevedra, Las Palmas, Almería, Córdoba, León, Palencia, Soria, Valladolid, Murcia)."
+      },
+      {
+        "q": "¿Dónde se presenta Escaños en Blanco?",
+        "a": "Escaños en Blanco se presenta en 12 circunscripciones; constan confirmadas 11 (Álava, Gipuzkoa, Pontevedra, Las Palmas, Almería, Córdoba, León, Palencia, Soria, Valladolid, Murcia)."
+      },
+      {
+        "q": "¿Quién es el candidato de Escaños en Blanco?",
+        "a": "Ángel María Rey Albesa encabeza la lista de Escaños en Blanco por Murcia. La formación no presenta un líder público y sus electos no ocupan el escaño."
+      },
+      {
+        "q": "¿Ha publicado Escaños en Blanco su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Escaños en Blanco no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Escaños en Blanco sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Dejar vacíos los escaños que obtenga: sus electos no tomarían posesión ni adquirirían la condición plena de diputado. Renunciar a sueldo, dietas y complementos de los escaños obtenidos."
+      }
+    ]
+  },
+  "existe": {
+    "resumen": "Teruel Existe es una coalición regionalista de la «España Vaciada». Se presenta el 29N en Teruel. Tomás Guitarte figura como cabeza de lista por Teruel. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta Teruel Existe a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Teruel Existe fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Teruel."
+      },
+      {
+        "q": "¿Dónde se presenta Teruel Existe?",
+        "a": "Teruel Existe se presenta en la circunscripción de Teruel. En la papeleta: Teruel Existe. Aragón Existe no se presenta en Zaragoza ni Huesca."
+      },
+      {
+        "q": "¿Quién es el candidato de Teruel Existe?",
+        "a": "Tomás Guitarte, líder de Teruel Existe, encabeza su lista por Teruel."
+      },
+      {
+        "q": "¿Ha publicado Teruel Existe su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Teruel Existe no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone Teruel Existe sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Pacto de Estado por el Desarrollo Rural y la Repoblación con un mecanismo estable de financiación. Que todas las localidades estén a un máximo de 30 minutos de los servicios públicos básicos."
+      },
+      {
+        "q": "¿Qué propone Teruel Existe sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad, de su programa de 2023: Subir la atención primaria al 25% del presupuesto sanitario, con llegada efectiva al medio rural. Transporte sanitario urgente 24 horas todo el año integrado en el Sistema Nacional de Salud."
+      }
+    ]
+  },
+  "falange": {
+    "resumen": "Falange es un partido falangista y nacionalsindicalista. Se presenta el 29N en 9 circunscripciones. Norberto Pedro Pico Sanabria figura como cabeza de lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Falange a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Falange fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 9 circunscripciones (Madrid, Teruel, Valencia, Castellón, Guadalajara, Toledo, Córdoba, Palencia, Valladolid)."
+      },
+      {
+        "q": "¿Dónde se presenta Falange?",
+        "a": "Falange se presenta en 9 circunscripciones (Madrid, Teruel, Valencia, Castellón, Guadalajara, Toledo, Córdoba, Palencia, Valladolid)."
+      },
+      {
+        "q": "¿Quién es el candidato de Falange?",
+        "a": "Norberto Pedro Pico Sanabria figura como cabeza de lista de Falange por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Falange su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Falange no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Falange sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Modelo «nacionalsindicalista» que sitúe al trabajador en el centro y desmonte gradualmente el capitalismo, sin «terapias de choque». Nacionalizar la banca y el crédito para controlar el dinero en circulación y facilitar créditos para vivienda y emprendimiento."
+      },
+      {
+        "q": "¿Qué propone Falange sobre política exterior?",
+        "a": "Entre sus propuestas sobre política exterior, de sus declaraciones: Salir de la Unión Europea, del euro y de la OTAN. Revisar todos los tratados internacionales y abandonar los que perjudiquen la «independencia política y económica» de España."
+      }
+    ]
+  },
+  "feministas": {
+    "resumen": "Feministas al Congreso es un partido feminista abolicionista. Se presenta el 29N en Álava. Zuriñe Ojeda Santiago es la cabeza de lista por Álava. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Feministas al Congreso a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Feministas al Congreso fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Álava."
+      },
+      {
+        "q": "¿Dónde se presenta Feministas al Congreso?",
+        "a": "Feministas al Congreso se presenta en la circunscripción de Álava."
+      },
+      {
+        "q": "¿Quién es el candidato de Feministas al Congreso?",
+        "a": "Zuriñe Ojeda Santiago es la cabeza de lista por Álava. Pilar Aguilar es la presidenta del partido y Amparo Mañés, la secretaria general."
+      },
+      {
+        "q": "¿Ha publicado Feministas al Congreso su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Feministas al Congreso no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Feministas al Congreso sobre igualdad?",
+        "a": "Entre sus propuestas sobre igualdad, de sus declaraciones: Ley abolicionista de la prostitución que proteja a las mujeres, persiga penalmente a los proxenetas y sancione al cliente. Derogar la «ley trans»."
+      },
+      {
+        "q": "¿Qué propone Feministas al Congreso sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de sus declaraciones: Medidas contra la brecha salarial, la precariedad laboral de las mujeres y las dificultades de conciliación. Estudiar y mejorar las condiciones laborales de las cuidadoras."
+      }
+    ]
+  },
+  "frenteobrero": {
+    "resumen": "Frente Obrero es una organización que se define como «patriota y revolucionaria». Se presenta el 29N en todas las circunscripciones. Roberto Vaquero encabeza la lista por Madrid. Tiene programa 2026 publicado.",
+    "faq": [
+      {
+        "q": "¿Se presenta Frente Obrero a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Frente Obrero fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta Frente Obrero?",
+        "a": "Frente Obrero se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Quién es el candidato de Frente Obrero?",
+        "a": "Roberto Vaquero, presidente del partido, es el cabeza de lista de Frente Obrero por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Frente Obrero su programa electoral 2026?",
+        "a": "Sí. Es el programa «Un programa para recuperar España»."
+      },
+      {
+        "q": "¿Qué propone Frente Obrero sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de su programa de 2026: «Control absoluto» de las fronteras terrestres y marítimas y «lucha obstinada» contra las mafias de la inmigración. Expulsión inmediata de los inmigrantes en situación irregular y de los que delinquen de forma reiterada; sin regularización para quien intentó entrar ilegalmente."
+      },
+      {
+        "q": "¿Qué propone Frente Obrero sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de su programa de 2026: Subidas salariales generales ligadas al coste de la vida. Representación obligatoria de los trabajadores en todas las empresas de 10 o más empleados."
+      }
+    ]
+  },
+  "geroabai": {
+    "resumen": "Geroa Bai es una coalición navarra de nacionalismo vasco de centroizquierda. Se presenta el 29N en Navarra. Pablo Azcona Molinet figura como cabeza de lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta Geroa Bai a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Geroa Bai fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Navarra."
+      },
+      {
+        "q": "¿Dónde se presenta Geroa Bai?",
+        "a": "Geroa Bai se presenta en la circunscripción de Navarra."
+      },
+      {
+        "q": "¿Quién es el candidato de Geroa Bai?",
+        "a": "Se citó a Javier Ollo como cabeza de lista provisional al Congreso por Navarra; en los datos de Antes de Votar figura Pablo Azcona Molinet como cabeza de lista por Navarra."
+      },
+      {
+        "q": "¿Ha publicado Geroa Bai su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Geroa Bai no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone Geroa Bai sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Actualizar el Convenio Económico para ampliar la autonomía de Navarra en los tributos convenidos. Exigir el cumplimiento íntegro del Amejoramiento (LORAFNA) y completar los traspasos pendientes: I+D, becas, Policía Foral, prisiones y Seguridad Social."
+      },
+      {
+        "q": "¿Qué propone Geroa Bai sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Asumir a medio plazo competencias plenas en políticas activas de empleo, Inspección de Trabajo y Seguridad Social. Explorar la semana laboral de cuatro días y reducciones de jornada, con permisos parcialmente retribuidos y sustitución por personas desempleadas."
+      }
+    ]
+  },
+  "iustitia": {
+    "resumen": "Iustitia Europa es un partido que se define como «antipartido». Se presenta el 29N en Madrid. Luis María Pardo encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Iustitia Europa a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Iustitia Europa fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Madrid."
+      },
+      {
+        "q": "¿Dónde se presenta Iustitia Europa?",
+        "a": "Iustitia Europa se presenta en la circunscripción de Madrid."
+      },
+      {
+        "q": "¿Quién es el candidato de Iustitia Europa?",
+        "a": "Luis María Pardo, presidente del partido, es su candidato a la presidencia y cabeza de lista por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Iustitia Europa su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Iustitia Europa no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Iustitia Europa sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Reformar la Constitución de 1978 para «superar el régimen del 78» y la «despartidización del Estado». Elección directa del presidente del Gobierno."
+      },
+      {
+        "q": "¿Qué propone Iustitia Europa sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de sus declaraciones: Deportaciones masivas de inmigrantes en situación irregular. Desplegar el Ejército y la Armada en fronteras, puertos y costas para interceptar entradas irregulares y frenar a los barcos de ONG, a los que llama «taxis ilegales»."
+      }
+    ]
+  },
+  "junts": {
+    "resumen": "Junts es un partido independentista catalán de centroderecha. Se presenta el 29N en Barcelona, Girona, Lleida y Tarragona. Míriam Nogueras encabeza la lista por Barcelona. No consta programa 2026 publicado; las propuestas proceden de sus actuaciones, su programa de 2023 y sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Junts a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Junts fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+      },
+      {
+        "q": "¿Dónde se presenta Junts?",
+        "a": "Junts se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+      },
+      {
+        "q": "¿Quién es el candidato de Junts?",
+        "a": "Míriam Nogueras es la cabeza de lista de Junts por Barcelona."
+      },
+      {
+        "q": "¿Ha publicado Junts su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Junts no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus actuaciones, su programa de 2023 y sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Junts sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones y su programa de 2023: No investir a ningún presidente del Gobierno que no reconozca el derecho a la autodeterminación de Cataluña y la amnistía. La independencia de Cataluña como objetivo fundacional del partido."
+      },
+      {
+        "q": "¿Qué propone Junts sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus actuaciones y su programa de 2023: Ley de amnistía para los encausados por el procés, incluida su aplicación completa a Carles Puigdemont. Defender a los dirigentes del procés que residen fuera de España, a los que llama «exiliados», y su retorno libre."
+      }
+    ]
+  },
+  "mes": {
+    "resumen": "Ara Més es una candidatura nacionalista balear de izquierda verde. Se presenta el 29N en Illes Balears. Carme Gomila figura como cabeza de lista por Baleares. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Ara Més a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Ara Més fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Illes Balears."
+      },
+      {
+        "q": "¿Dónde se presenta Ara Més?",
+        "a": "Ara Més se presenta en la circunscripción de Illes Balears. No va con lista propia: se presenta en la coalición Ara Més-Front Ampli (Ara MÉS, Movimiento Sumar e IU), integrada en el Frente Amplio."
+      },
+      {
+        "q": "¿Quién es el candidato de Ara Més?",
+        "a": "Carme Gomila encabeza la lista de Ara Més por Baleares."
+      },
+      {
+        "q": "¿Ha publicado Ara Més su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Ara Més no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Ara Més sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Declarar el acceso a la vivienda «emergencia nacional». Abolir el alquiler turístico: prohibir nuevos usos turísticos de viviendas y eliminar de forma progresiva los existentes."
+      },
+      {
+        "q": "¿Qué propone Ara Més sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Retirar 130.000 plazas turísticas en Mallorca a medio plazo, con compra pública de plazas obsoletas. Duplicar el impuesto de turismo sostenible y destinar al menos un 25% a diversificación económica, territorio y transición energética."
+      }
+    ]
+  },
+  "mundojusto": {
+    "resumen": "Por un Mundo Más Justo es un partido que se define como humanista y transversal. Se presenta el 29N en 13 circunscripciones. En Madrid encabeza la lista José Manuel Romero Melero. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta Por un Mundo Más Justo a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Por un Mundo Más Justo fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 13 circunscripciones (Álava, Bizkaia, Albacete, Almería, Asturias, Ávila, Badajoz, Cuenca, Granada, Guadalajara, Las Palmas, Madrid, Valencia)."
+      },
+      {
+        "q": "¿Dónde se presenta Por un Mundo Más Justo?",
+        "a": "Por un Mundo Más Justo se presenta en 13 circunscripciones (Álava, Bizkaia, Albacete, Almería, Asturias, Ávila, Badajoz, Cuenca, Granada, Guadalajara, Las Palmas, Madrid, Valencia). Lista de circunscripciones confirmadas; su candidatura en Barcelona y León no fue proclamada."
+      },
+      {
+        "q": "¿Quién es el candidato de Por un Mundo Más Justo?",
+        "a": "No consta candidato a la Presidencia. En Madrid encabeza la lista José Manuel Romero Melero."
+      },
+      {
+        "q": "¿Ha publicado Por un Mundo Más Justo su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Por un Mundo Más Justo no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone Por un Mundo Más Justo sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de su programa de 2023 y sus actuaciones: Prohibir las concertinas, las pelotas de goma, el gas pimienta y las «devoluciones en caliente» en las fronteras. Apoyar la Iniciativa Legislativa Popular para una regularización extraordinaria de personas extranjeras."
+      },
+      {
+        "q": "¿Qué propone Por un Mundo Más Justo sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Revertir la reducción del impuesto de sociedades y combatir la evasión fiscal, para que las grandes empresas contribuyan según sus beneficios. Crear tributos transnacionales sobre las ganancias del mercado financiero internacional."
+      }
+    ]
+  },
+  "pacma": {
+    "resumen": "PACMA es un partido animalista. Se presenta el 29N en 30 circunscripciones. Asier Esparza es el aspirante a la presidencia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta PACMA a las elecciones del 29N?",
+        "a": "Sí. La candidatura de PACMA fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 30 circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta PACMA?",
+        "a": "PACMA se presenta en 30 circunscripciones."
+      },
+      {
+        "q": "¿Quién es el candidato de PACMA?",
+        "a": "Asier Esparza ha sido elegido aspirante a la presidencia del Gobierno, según Demócrata."
+      },
+      {
+        "q": "¿Ha publicado PACMA su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, PACMA no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone PACMA sobre protección de los animales?",
+        "a": "Entre sus propuestas sobre protección de los animales, de su programa de 2023: Aprobar una ley general de protección que ampare a todos los animales sin exclusiones (la «Ley Cero»). Suprimir la multa como alternativa a la prisión en el maltrato animal y elevar a más de cinco años la pena del tipo agravado."
+      },
+      {
+        "q": "¿Qué propone PACMA sobre caza y ganadería?",
+        "a": "Entre sus propuestas sobre caza y ganadería, de su programa de 2023: Prohibir la caza y el uso de animales como instrumentos de caza; mientras, limitar los cotos y prohibir la munición de plomo. Catalogar al lobo como especie en peligro de extinción y hacer censos."
+      }
+    ]
+  },
+  "pcte": {
+    "resumen": "El PCTE es un partido comunista marxista-leninista. Se presenta el 29N en 37 circunscripciones. Eva García de Madariaga Delgado figura como cabeza de lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta el PCTE a las elecciones del 29N?",
+        "a": "Sí. La candidatura del PCTE fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 37 circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta el PCTE?",
+        "a": "El PCTE se presenta en 37 circunscripciones. Además, listas de sus versiones gallega y catalana."
+      },
+      {
+        "q": "¿Quién es el candidato del PCTE?",
+        "a": "Eva García de Madariaga Delgado encabeza la lista del PCTE por Madrid. El secretario general del partido es Ástor García."
+      },
+      {
+        "q": "¿Ha publicado el PCTE su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el PCTE no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone el PCTE sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Reducir la jornada en todos los sectores sin pérdida salarial, con una semana máxima de 35 horas que se iría reduciendo progresivamente. Acabar con la precariedad y suprimir las modalidades de contratación flexible: empleo estable con plenos derechos laborales."
+      },
+      {
+        "q": "¿Qué propone el PCTE sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de su programa de 2023: Prohibir los desahucios de familias trabajadoras y los cortes de suministros básicos. «Expropiación sin indemnización» de las viviendas vacías de bancos y fondos de inversión."
+      }
+    ]
+  },
+  "pnv": {
+    "resumen": "El PNV es un partido nacionalista vasco de centro. Se presenta el 29N en Álava, Bizkaia y Gipuzkoa. Maribel Vaquero encabeza Gipuzkoa. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta el PNV a las elecciones del 29N?",
+        "a": "Sí. La candidatura del PNV fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Álava, Bizkaia, Gipuzkoa)."
+      },
+      {
+        "q": "¿Dónde se presenta el PNV?",
+        "a": "El PNV se presenta en 3 circunscripciones (Álava, Bizkaia, Gipuzkoa)."
+      },
+      {
+        "q": "¿Quién es el candidato del PNV?",
+        "a": "Maribel Vaquero, portavoz en el Congreso, encabeza la lista por Gipuzkoa; Idoia Sagastizabal, la de Bizkaia, y Gorka Urtaran, la de Araba."
+      },
+      {
+        "q": "¿Ha publicado el PNV su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el PNV no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone el PNV sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023 y sus declaraciones: Reconocer la nación vasca y la bilateralidad en la relación con el Estado. Un nuevo Estatuto para Euskadi acordado en el Parlamento Vasco y ratificado por Congreso y Senado."
+      },
+      {
+        "q": "¿Qué propone el PNV sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA. Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular."
+      }
+    ]
+  },
+  "podemos": {
+    "resumen": "Podemos es un partido de izquierda. Se presenta el 29N en 41 circunscripciones. Irene Montero es la candidata. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Podemos a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Podemos fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 41 circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta Podemos?",
+        "a": "Podemos se presenta en 41 circunscripciones. En solitario en 41 circunscripciones. En la Comunitat Valenciana va en Compromís-Front Valencià y en Canarias en Unidad del Pueblo Canario. No se presenta en Cataluña (lleva candidatos en la lista de ERC por Barcelona)."
+      },
+      {
+        "q": "¿Quién es el candidato de Podemos?",
+        "a": "Irene Montero es la candidata de Podemos, tras las primarias de octubre de 2026, y encabeza la lista por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Podemos su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Podemos no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Podemos sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Bajar por ley un 40% los alquileres en contratos renovados o prorrogados y fijar los nuevos en el 60% del índice de referencia. Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada."
+      },
+      {
+        "q": "¿Qué propone Podemos sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas. Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades."
+      }
+    ]
+  },
+  "pp": {
+    "resumen": "El PP es un partido de centroderecha liberal-conservador. Se presenta el 29N en todas las circunscripciones. Alberto Núñez Feijóo es el candidato. Tiene programa 2026 publicado.",
+    "faq": [
+      {
+        "q": "¿Se presenta el PP a las elecciones del 29N?",
+        "a": "Sí. La candidatura del PP fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta el PP?",
+        "a": "El PP se presenta en todas las circunscripciones. En Navarra se presenta en coalición con UPN."
+      },
+      {
+        "q": "¿Quién es el candidato del PP?",
+        "a": "El candidato del PP a la Presidencia del Gobierno es Alberto Núñez Feijóo, presidente del partido."
+      },
+      {
+        "q": "¿Ha publicado el PP su programa electoral 2026?",
+        "a": "Sí. Es el programa «Reconstrucción Nacional», con 249 medidas."
+      },
+      {
+        "q": "¿Qué propone el PP sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de su programa de 2026: Que los jueces de todas las categorías elijan a los doce vocales judiciales del CGPJ, y que las plazas del Supremo se cubran por concurso de méritos. Que los candidatos al Constitucional no hayan tenido cargos políticos en los cinco años previos y que el TC resuelva en 90 días los recursos sobre derechos fundamentales."
+      },
+      {
+        "q": "¿Qué propone el PP sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de su programa de 2026: Reforzar efectivos y medios en las fronteras, con apoyo de las Fuerzas Armadas si la seguridad lo exige, y extender el rechazo en frontera a las entradas a nado en Ceuta y Melilla. Visados por puntos y dos vías legales de acceso laboral, con homologación de títulos con garantías."
+      }
+    ]
+  },
+  "prepal": {
+    "resumen": "PREPAL es un partido regionalista leonesista. Se presenta el 29N en León, Salamanca y Zamora. Francisco Iglesias Carreño encabeza la lista por Zamora. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta PREPAL a las elecciones del 29N?",
+        "a": "Sí. La candidatura de PREPAL fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (León, Salamanca, Zamora)."
+      },
+      {
+        "q": "¿Dónde se presenta PREPAL?",
+        "a": "PREPAL se presenta en 3 circunscripciones (León, Salamanca, Zamora)."
+      },
+      {
+        "q": "¿Quién es el candidato de PREPAL?",
+        "a": "Francisco Iglesias Carreño, presidente del partido, encabeza la lista por Zamora. Manuela Iglesias Carreño encabeza la de León y Rafael Diego Núñez la de Salamanca, según El Español."
+      },
+      {
+        "q": "¿Ha publicado PREPAL su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, PREPAL no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone PREPAL sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Que el Gobierno presente a las Cortes Generales un proyecto de Estatuto de Autonomía para la Región Leonesa, para su debate, votación y publicación en el BOE. Tomar como base de ese Estatuto el anteproyecto aprobado por la XXVIII Asamblea General del partido el 28 de enero de 2022."
+      },
+      {
+        "q": "¿Qué propone PREPAL sobre instituciones?",
+        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Que todo el proceso autonómico leonés sea «tutelado por la Corona Española» y se haga dentro del marco legal vigente, «con la Constitución española en la mano». Apoyo «directo y fijo» a la Constitución y que cualquier reforma constitucional se someta siempre a referéndum."
+      }
+    ]
+  },
+  "psoe": {
+    "resumen": "El PSOE es un partido socialdemócrata. Se presenta el 29N en todas las circunscripciones. Pedro Sánchez es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus actuaciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta el PSOE a las elecciones del 29N?",
+        "a": "Sí. La candidatura del PSOE fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta el PSOE?",
+        "a": "El PSOE se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Quién es el candidato del PSOE?",
+        "a": "El candidato del PSOE es Pedro Sánchez, presidente del Gobierno desde 2018."
+      },
+      {
+        "q": "¿Ha publicado el PSOE su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el PSOE no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus actuaciones."
+      },
+      {
+        "q": "¿Qué propone el PSOE sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda, de sus actuaciones: Programa TU CASA: préstamos ICO al 0% de hasta el 20% del precio (máx. 50.000 €) para la primera vivienda, con 10.000 M€ y carencia hasta el fin de la hipoteca. Prórroga extraordinaria de hasta dos años de los contratos de alquiler que venzan antes de finales de 2028, para inquilinos al corriente de pago."
+      },
+      {
+        "q": "¿Qué propone el PSOE sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales. Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas."
+      }
+    ]
+  },
+  "salf": {
+    "resumen": "Se Acabó La Fiesta es un partido liberal en lo económico. Se presenta el 29N en 46 circunscripciones. Alvise Pérez encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Se Acabó La Fiesta a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Se Acabó La Fiesta fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 46 circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta Se Acabó La Fiesta?",
+        "a": "Se Acabó La Fiesta se presenta en 46 circunscripciones. No se presenta en Cataluña, Ciudad Real ni Cantabria."
+      },
+      {
+        "q": "¿Quién es el candidato de Se Acabó La Fiesta?",
+        "a": "Luis «Alvise» Pérez es el cabeza de lista de Se Acabó La Fiesta por Madrid."
+      },
+      {
+        "q": "¿Ha publicado Se Acabó La Fiesta su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Se Acabó La Fiesta no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Se Acabó La Fiesta sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: IRPF del 0 % para quienes ingresen menos de 35.000 euros al año. Rebajar cinco puntos el IRPF por cada hijo a cargo."
+      },
+      {
+        "q": "¿Qué propone Se Acabó La Fiesta sobre gasto público?",
+        "a": "Entre sus propuestas sobre gasto público, de sus declaraciones: Reducir al menos un 70 % los altos cargos y asesores y fusionar departamentos considerados redundantes. Eliminar las subvenciones públicas a partidos políticos, sindicatos y patronales."
+      }
+    ]
+  },
+  "sorianya": {
+    "resumen": "Soria ¡Ya! es un partido soriano de la «España Vaciada». Se presenta el 29N en Soria. Juan Antonio Palomar Sicilia encabeza la lista por Soria. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta Soria ¡Ya! a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Soria ¡Ya! fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Soria."
+      },
+      {
+        "q": "¿Dónde se presenta Soria ¡Ya!?",
+        "a": "Soria ¡Ya! se presenta en la circunscripción de Soria."
+      },
+      {
+        "q": "¿Quién es el candidato de Soria ¡Ya!?",
+        "a": "Juan Antonio Palomar Sicilia es el cabeza de lista al Congreso por Soria."
+      },
+      {
+        "q": "¿Ha publicado Soria ¡Ya! su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Soria ¡Ya! no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone Soria ¡Ya! sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Pacto de Estado y ley contra la despoblación, con un compromiso de inversión del 1% del PIB al año. Crear un Fondo de Inversiones de Soria similar al Fondo de Inversiones de Teruel (FITE)."
+      },
+      {
+        "q": "¿Qué propone Soria ¡Ya! sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Reducir un 50% la cuota íntegra de los principales impuestos para trabajadores y empresas de Soria, Cuenca y Teruel. Tarifa plana de 80 euros para los autónomos que se establezcan en territorios despoblados."
+      }
+    ]
+  },
+  "sumar": {
+    "resumen": "El Frente Amplio (Sumar) es una coalición de izquierda y ecologista, sucesora de Sumar y sin Podemos. Se presenta el 29N en 49 circunscripciones. Ada Colau es la candidata. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta el Frente Amplio (Sumar) a las elecciones del 29N?",
+        "a": "Sí. La candidatura del Frente Amplio (Sumar) fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 49 circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta el Frente Amplio (Sumar)?",
+        "a": "El Frente Amplio (Sumar) se presenta en 49 circunscripciones. Todas salvo Ceuta, Melilla y Teruel. Con nombres propios según el territorio: Comuns-Front Ampli, Compromís-Front Valencià, CHA-Frente Amplio, Ara Més-Front Ampli, Unidad del Pueblo Canario y otros."
+      },
+      {
+        "q": "¿Quién es el candidato del Frente Amplio (Sumar)?",
+        "a": "La candidata a la Presidencia del Gobierno es Ada Colau."
+      },
+      {
+        "q": "¿Ha publicado el Frente Amplio (Sumar) su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, el Frente Amplio (Sumar) no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone el Frente Amplio (Sumar) sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos. Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+      },
+      {
+        "q": "¿Qué propone el Frente Amplio (Sumar) sobre empleo?",
+        "a": "Entre sus propuestas sobre empleo, de sus actuaciones: Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto rechazado por el Congreso el 10-9-2025). SMI de 1.221 € en 14 pagas en 2026 y, como mínimo, del 60% del salario medio; seguir subiéndolo."
+      }
+    ]
+  },
+  "upc": {
+    "resumen": "Unidad del Pueblo Canario es una coalición de nacionalismo canario de izquierda. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Luis Alberto Campos Jiménez figura por Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta Unidad del Pueblo Canario a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Unidad del Pueblo Canario fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+      },
+      {
+        "q": "¿Dónde se presenta Unidad del Pueblo Canario?",
+        "a": "Unidad del Pueblo Canario se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife). Coalición de NC-BC, Podemos, IU y Movimiento Sumar."
+      },
+      {
+        "q": "¿Quién es el candidato de Unidad del Pueblo Canario?",
+        "a": "Luis Alberto Campos Jiménez encabeza la lista por Las Palmas."
+      },
+      {
+        "q": "¿Ha publicado Unidad del Pueblo Canario su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Unidad del Pueblo Canario no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone Unidad del Pueblo Canario sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones y su programa de 2023: Defender los intereses de Canarias y de cada isla con una voz «fuerte y propia» en el Congreso. Mantener a Canarias fuera del régimen común de financiación, con relación bilateral con el Estado, y ponderar más la insularidad y la pobreza."
+      },
+      {
+        "q": "¿Qué propone Unidad del Pueblo Canario sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Que el Estado no modifique el Régimen Económico y Fiscal (REF) sin acuerdo con Canarias y aumente en los PGE sus programas económicos. Extender al REF el tratamiento diferenciado frente a la tributación mínima global del 15%."
+      }
+    ]
+  },
+  "upn": {
+    "resumen": "UPN es un partido regionalista y foralista navarro de centroderecha. Se presenta el 29N en Navarra. Leticia San Martín Rodríguez figura como cabeza de lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "faq": [
+      {
+        "q": "¿Se presenta UPN a las elecciones del 29N?",
+        "a": "Sí. La candidatura de UPN fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en la circunscripción de Navarra."
+      },
+      {
+        "q": "¿Dónde se presenta UPN?",
+        "a": "UPN se presenta en la circunscripción de Navarra. Se presenta en coalición con el PP (UPN-PP)."
+      },
+      {
+        "q": "¿Quién es el candidato de UPN?",
+        "a": "Leticia San Martín Rodríguez figura como cabeza de lista por Navarra. El candidato a la Presidencia de la coalición con el PP es Alberto Núñez Feijóo."
+      },
+      {
+        "q": "¿Ha publicado UPN su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, UPN no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
+      },
+      {
+        "q": "¿Qué propone UPN sobre organización territorial?",
+        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Defender a Navarra como comunidad foral diferenciada dentro de España y Europa frente al nacionalismo vasco. Suprimir la Disposición Transitoria Cuarta de la Constitución (posible incorporación de Navarra a Euskadi) en una eventual reforma."
+      },
+      {
+        "q": "¿Qué propone UPN sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Defender el Convenio Económico con una aportación al Estado calculada según renta y no población y reflejada en los PGE. Bajar impuestos y deflactar la tarifa del IRPF para compensar la inflación."
+      }
+    ]
+  },
+  "vox": {
+    "resumen": "Vox es un partido nacionalconservador. Se presenta el 29N en todas las circunscripciones. Santiago Abascal es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus declaraciones.",
+    "faq": [
+      {
+        "q": "¿Se presenta Vox a las elecciones del 29N?",
+        "a": "Sí. La candidatura de Vox fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Dónde se presenta Vox?",
+        "a": "Vox se presenta en todas las circunscripciones."
+      },
+      {
+        "q": "¿Quién es el candidato de Vox?",
+        "a": "El candidato de Vox es Santiago Abascal, presidente del partido."
+      },
+      {
+        "q": "¿Ha publicado Vox su programa electoral 2026?",
+        "a": "No consta. A fecha de la última revisión de esta ficha, Vox no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus declaraciones."
+      },
+      {
+        "q": "¿Qué propone Vox sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: IRPF estatal con dos tipos: 15% para bases de hasta 70.000 € y 25% por encima. Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%."
+      },
+      {
+        "q": "¿Qué propone Vox sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración, de su programa de 2023 y sus declaraciones: Expulsión inmediata de quien entre «ilegalmente» (de forma irregular); ningún inmigrante en situación irregular podrá regularizarse. Procesos de «remigración» para extranjeros que vivan de ayudas públicas sin trabajar ni cotizar."
+      }
+    ]
+  }
+}

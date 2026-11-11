@@ -1,0 +1,524 @@
+[
+  {
+    "party": "alhora",
+    "nombre": "Jordi Graupera i Garcia Milà",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Presidente de Alhora",
+    "trayectoria": [
+      {
+        "cargo": "Presidente de Alhora",
+        "desde": null,
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Sin cargo público electo o designado verificado; es dirigente de partido (presidente de Alhora desde su fundación).",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      },
+      {
+        "nombre": "Ara, entrevista a Jordi Graupera (29-N)",
+        "url": "https://en.ara.cat/politics/someone-has-to-say-no-to-pp-and-psoe-at-the-same-time-it-will-be-punishment-vote-for-29-n_1_5892513.html"
+      },
+      {
+        "nombre": "NacióDigital, listas de Alhora 29-N",
+        "url": "https://naciodigital.cat/politica/llistes-dalhora-a-les-eleccions-espanyoles-del-29-n-qui-acompanya-jordi-graupera.html"
+      }
+    ],
+    "notas": "Profesión y formación pendientes de fuente fiable propia (web de universidad o CV oficial).",
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; cabeza de lista por Barcelona",
+      "trayectoria": [
+        "Presidente de Alhora (partido que se estrenó en las elecciones catalanas de 2024)"
+      ],
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes",
+      "anos_base": "Sin cargo público electo o designado verificado; es dirigente de partido (presidente de Alhora desde su fundación, año no verificado en fuentes distintas de una enciclopedia abierta no admitida como fuente).",
+      "notas": "Profesión y formación constan en una enciclopedia abierta (no admitida como fuente); pendiente de fuente propia (web de universidad o CV oficial)."
+    }
+  },
+  {
+    "party": "autonomos",
+    "nombre": "Lydia Cañedo Oliver",
+    "rol": "Cabeza de lista por Alicante",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación.",
+    "notas_internas": {
+      "rol": "Cabeza de lista por Alicante (Valencia no proclamada; Alicante es la circunscripción más poblada donde se presenta; Castellón la encabeza Carolina Queral Recatalá)",
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "escanosenblanco",
+    "nombre": "Ángel María Rey Albesa",
+    "rol": "Cabeza de lista por Murcia",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación. Verificación de ausencia en Illes Balears no completada (menos poblada que Murcia).",
+    "notas_internas": {
+      "rol": "Cabeza de lista por Murcia (circunscripción más poblada de las verificadas con candidatura proclamada: no figura en Madrid, Barcelona, Valencia, Sevilla ni Málaga)",
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "falange",
+    "nombre": "Norberto Pedro Pico Sanabria",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación. (En Alicante, FE de las JONS figura como no proclamada.)",
+    "notas_internas": {
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "feministas",
+    "nombre": "Zuriñe Ojeda Santiago",
+    "rol": "Cabeza de lista por Álava",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      },
+      {
+        "nombre": "Gasteiz Hoy, partidos que se presentan por Álava el 29N",
+        "url": "https://www.gasteizhoy.com/elecciones-29n-partidos-posliticos-alava-candidaturas/"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación. Nombre no localizado en el texto consultado del BOE (la lista de Álava no se pudo leer completa); confirmado por Gasteiz Hoy y Demócrata.",
+    "notas_internas": {
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "frenteobrero",
+    "nombre": "Roberto Vaquero Arribas",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": "Dirigente de Frente Obrero",
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin cargo público electo o designado verificado.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [
+      {
+        "persona": "el propio candidato",
+        "resumen": "Condena penal: el Tribunal Supremo lo condena a 1 año y 3 meses de prisión por pertenencia a grupo criminal y lo absuelve de asociación ilícita y organización criminal. La Audiencia Nacional lo había condenado en 2018.",
+        "fecha": "2020-07-20",
+        "url": "https://vlex.es/vid/847093832",
+        "fuentes_adicionales": [
+          "https://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=724e4dab71ac6610VgnVCM1000006f48ac0aRCRD&vgnextfmt=default&vgnextlocale=es_ES",
+          "https://okdiario.com/espana/supremo-rebaja-penas-carcel-unos-comunistas-condenados-pertenecer-banda-armada-5939954"
+        ]
+      }
+    ],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      },
+      {
+        "nombre": "CGPJ, nota de prensa 31-10-2018: Audiencia Nacional condena a cinco de seis acusados de Reconstrucción Comunista",
+        "url": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Sala-de-Prensa/Notas-de-prensa/La-Audiencia-Nacional-condena-a-cinco-de-los-seis-acusados-de-Reconstruccion-Comunista-a-penas-de-entre-seis-meses-y-tres-anos-y-medio-de-carcel"
+      },
+      {
+        "nombre": "Demócrata, Frente Obrero y UGT",
+        "url": "https://www.democrata.es/politica/frente-obrero-pancarta-sede-ugt-madrid-protesta/"
+      }
+    ],
+    "notas": [],
+    "notas_internas": {
+      "rol": "Cabeza de lista por Madrid; dirigente de Frente Obrero",
+      "sentencias": [
+        "Condenado por el Tribunal Supremo a 1 año y 3 meses de prisión por pertenencia a grupo criminal; absuelto de asociación ilícita y organización criminal. La Audiencia Nacional lo había condenado en 2018."
+      ],
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "iustitia",
+    "nombre": "Luis María Pardo Rodríguez",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Presidente de Iustitia Europa",
+    "trayectoria": [
+      {
+        "cargo": "Presidente de Iustitia Europa",
+        "desde": null,
+        "hasta": null
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Sin cargo público electo o designado; dirigente de partido.",
+    "experiencia_fuera": "Abogado; guardia civil en excedencia; antiguo taxista",
+    "formacion": "Graduado en Derecho (UNED); año no consta",
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      },
+      {
+        "nombre": "Moncloa.com, Iustitia Europa consigue avales y se presenta en Madrid (27-10-2026)",
+        "url": "https://www.moncloa.com/2026/10/27/iustitia-europa-avales-29n-3456311/"
+      },
+      {
+        "nombre": "Vozpópuli, perfil de Iustitia Europa",
+        "url": "https://www.vozpopuli.com/espana/luis-maria-pardo-iustitia-europa.html"
+      }
+    ],
+    "notas": "Dato de profesión y formación de una sola fuente de prensa (Moncloa.com); contrastar con segunda fuente. Iustitia Europa y su presidente actúan como acusación popular en causas ajenas (no son procedimientos contra él).",
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; cabeza de lista por Madrid",
+      "trayectoria": [
+        "Presidente de Iustitia Europa; proclamado candidato a la Presidencia del Gobierno en septiembre de 2026"
+      ],
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "mundojusto",
+    "nombre": "José Manuel Romero Melero",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación.",
+    "notas_internas": {
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "pacma",
+    "nombre": "Asier Esparza Billalabeitia",
+    "rol": "Candidato a la Presidencia del Gobierno",
+    "cargo_actual": "Secretario de la Junta Directiva de PACMA; coordinador provincial en Gipuzkoa",
+    "trayectoria": [
+      {
+        "cargo": "Afiliado a PACMA",
+        "desde": 2019,
+        "hasta": null
+      },
+      {
+        "cargo": "Coordinador provincial de PACMA en Gipuzkoa",
+        "desde": 2020,
+        "hasta": null
+      },
+      {
+        "cargo": "Vocal de la dirección nacional de PACMA",
+        "desde": 2024,
+        "hasta": null
+      },
+      {
+        "cargo": "Candidato de PACMA a la Alcaldía de San Sebastián (no electo)",
+        "desde": 2023,
+        "hasta": 2023
+      },
+      {
+        "cargo": "Candidato de PACMA a lehendakari (no electo)",
+        "desde": 2024,
+        "hasta": 2024
+      }
+    ],
+    "anos_en_politica": null,
+    "anos_base": "Nunca ha ocupado cargo público electo ni designado (candidato no electo en 2023 y 2024); dirigente de partido desde 2020 como coordinador provincial.",
+    "experiencia_fuera": "Empresario de imagen publicitaria, fotógrafo, diseñador gráfico y director de arte; 18 años en la agencia Publis; docente de software de diseño en el Instituto Vasco de Nuevas Profesiones",
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      },
+      {
+        "nombre": "Demócrata, PACMA elige a Asier Esparza como aspirante a la Presidencia",
+        "url": "https://www.democrata.es/politica/pacma-elige-al-donostiarra-asier-esparza-como-aspirante-a-la-presidencia-del-gobierno/"
+      },
+      {
+        "nombre": "Gasteiz Hoy, PACMA anuncia cabezas de lista (19-03-2024)",
+        "url": "https://www.gasteizhoy.com/pacma-anuncia-a-su-candidata-por-alava/"
+      }
+    ],
+    "notas": "Formación no consta en las fuentes consultadas. Trayectoria de una fuente de prensa principal; la candidatura a lehendakari 2024 está confirmada por Gasteiz Hoy.",
+    "notas_internas": {
+      "rol": "Candidato a la Presidencia del Gobierno; cabeza de lista por Madrid",
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "pcte",
+    "nombre": "Eva García de Madariaga Delgado",
+    "rol": "Cabeza de lista por Madrid",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación.",
+    "notas_internas": {
+      "rol": "Cabeza de lista por Madrid (la encabeza ella, no Ástor García, según el BOE)",
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  },
+  {
+    "party": "prepal",
+    "nombre": "Manuela Iglesias Carreño",
+    "rol": "Cabeza de lista por León",
+    "cargo_actual": null,
+    "trayectoria": [],
+    "anos_en_politica": null,
+    "anos_base": "Sin constancia verificada de cargo público electo o designado; no se calculan años en política.",
+    "experiencia_fuera": null,
+    "formacion": null,
+    "patrimonio": {
+      "declarado": false,
+      "estado": "sin_obligacion",
+      "organo": null,
+      "fecha_declaracion": null,
+      "url": null,
+      "inmuebles_n": null,
+      "inmuebles_valor": null,
+      "inmuebles_detalle": [],
+      "depositos": null,
+      "otros_bienes": null,
+      "deudas": null,
+      "neto": null,
+      "nota": "No ocupa cargo público que obligue a declarar bienes."
+    },
+    "sentencias_firmes": [],
+    "procedimientos_abiertos": [],
+    "fuentes": [
+      {
+        "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+      }
+    ],
+    "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación.",
+    "notas_internas": {
+      "rol": "Cabeza de lista por León (circunscripción más poblada que Zamora, donde PREPAL presenta a Francisco Iglesias Carreño)",
+      "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
+    }
+  }
+]

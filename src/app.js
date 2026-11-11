@@ -42,12 +42,23 @@
 
   // ---------- Helpers ----------
   function P(id) { for (var i = 0; i < D.partidos.length; i++) if (D.partidos[i].id === id) return D.partidos[i]; return null; }
+  function corto(p) { return p.corto || p.siglas || p.nombre; }
+  // «del PP» / «de Vox»: el build decide el artículo (p.art) con una lista común.
+  function delNombre(p) { return (p.art ? 'del ' : 'de ') + corto(p); }
+  function alNombre(p) { return (p.art ? 'al ' : 'a ') + corto(p); }
+  function NC(id) { var l = D.no_concurren || []; for (var i = 0; i < l.length; i++) if (l[i].id === id) return l[i]; return null; }
+  function CAND(slug) { var l = D.candidatos || []; for (var i = 0; i < l.length; i++) if (l[i].slug === slug) return l[i]; return null; }
+  function updLine(d) { return '<p class="upd">Actualizado el ' + esc(fdate(d || D.generado)) + '</p>'; }
+  function lcFirst(t) { t = String(t || ''); return /^(Europa|España)\b/.test(t) ? t : t.charAt(0).toLowerCase() + t.slice(1); }
+  function hashStr(t) { var h = 2166136261; for (var i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  function navA(r, text, cls) { return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + partyPath(r) + '" data-nav="' + r + '">' + text + '</a>'; }
   function areaName(id) { for (var i = 0; i < D.areas.length; i++) if (D.areas[i].id === id) return D.areas[i].nombre; return id; }
   function siteUrl() { return (D.meta && D.meta.site_url) || location.origin; }
   function routeUrl(r) {
     if (!r || r === 'inicio') return siteUrl() + '/';
     var m;
     if ((m = r.match(/^partido-([a-z0-9]+)/))) return siteUrl() + '/partido/' + m[1] + '/';
+    if ((m = r.match(/^candidato-([a-z0-9-]+)$/))) return siteUrl() + '/candidato/' + m[1] + '/';
     if ((m = r.match(/^tema-([a-z]+)/))) return siteUrl() + '/tema/' + m[1] + '/';
     if (r === 'importa') return siteUrl() + '/datos/';
     if ((m = r.match(/^importa-([a-z0-9-]+)$/))) return siteUrl() + '/datos/' + m[1] + '/';
@@ -198,21 +209,26 @@
   function parse(r) {
     r = (r || '').replace(/^#/, '') || 'inicio';
     var m;
-    if ((m = r.match(/^partido-([a-z0-9]+)(?:-(propuestas|criticas))?$/))) return { view: 'partido', id: m[1], tab: m[2] || null, depth: 1, tabId: 'inicio' };
+    if ((m = r.match(/^partido-([a-z0-9]+)(?:-(propuestas|criticas|candidato))?$/))) return { view: 'partido', id: m[1], tab: m[2] || null, depth: 1, tabId: 'inicio' };
     if ((m = r.match(/^tema-([a-z]+)$/))) return { view: 'tema', id: m[1], depth: 0, tabId: 'comparar' };
     if (r === 'metodologia') return { view: 'metodologia', depth: 1, tabId: null };
     if (r === 'partidos') return { view: 'partidos', depth: 1, tabId: 'inicio' };
+    if (r === 'candidatos') return { view: 'candidatos', depth: 1, tabId: 'inicio' };
+    if ((m = r.match(/^candidato-([a-z0-9-]+)$/))) return { view: 'candidato', id: m[1], depth: 2, tabId: 'inicio' };
+    if (r === 'quienes-somos') return { view: 'quienes', depth: 1, tabId: null };
     if ((m = r.match(/^importa-([a-z0-9-]+)$/))) return { view: 'importaTema', id: m[1], depth: 1, tabId: 'importa' };
     for (var i = 0; i < TABS.length; i++) if (TABS[i].id === r) return { view: r, depth: 0, tabId: r };
+    if (MODE === 'site' && r !== 'inicio') return { view: 'notfound', depth: 1, tabId: null };
     return { view: 'inicio', depth: 0, tabId: 'inicio' };
   }
   function routeFromLocation() {
     if (MODE === 'site') {
-      var p = location.pathname.replace(/\/+$/, '');
+      var p = location.pathname.replace(/\/index\.html$/, '').replace(/\/+$/, '');
       var m;
       if (!p) return 'inicio';
       if ((m = p.match(/^\/partido\/([a-z0-9]+)$/))) return 'partido-' + m[1];
       if ((m = p.match(/^\/tema\/([a-z]+)$/))) return 'tema-' + m[1];
+      if ((m = p.match(/^\/candidato\/([a-z0-9-]+)$/))) return 'candidato-' + m[1];
       if (p === '/datos' || p === '/importa') return 'importa';
       if ((m = p.match(/^\/datos\/([a-z0-9-]+)$/))) return 'importa-' + m[1];
       return p.replace(/^\//, '');
@@ -267,15 +283,19 @@
     var html = '', title = '';
     try {
       switch (rt.view) {
-        case 'partido': { var p = P(rt.id); if (!p) { html = empty('No encontramos ese partido.'); break; } title = p.siglas; html = viewPartido(p, rt.tab); break; }
+        case 'partido': { var p = P(rt.id); if (!p) { var nc = NC(rt.id); if (nc) { title = nc.corto; html = viewNoConcurre(nc); break; } html = empty('No encontramos ese partido.'); break; } title = corto(p); html = viewPartido(p, rt.tab); break; }
+        case 'candidato': { var cc = CAND(rt.id); if (!cc || !P(cc.party)) { html = empty('No encontramos ese candidato.'); break; } title = cc.nombre; html = viewCandidato(cc); break; }
+        case 'quienes': title = 'Quiénes somos'; html = viewQuienes(); break;
         case 'tema': title = 'Comparar'; html = viewTema(rt.id); break;
         case 'partidos': title = 'Partidos'; html = viewPartidos(); break;
+        case 'candidatos': title = 'Candidatos'; html = viewCandidatos(); break;
         case 'comparar': title = 'Comparar'; html = viewComparar(); break;
         case 'test': title = '¿Con quién coincides?'; html = viewTest(); break;
         case 'deuda': title = 'Deuda pública'; html = viewDeuda(); break;
         case 'importa': title = 'Datos clave'; html = viewImporta(); break;
         case 'importaTema': { var tt = temaById(rt.id); title = tt ? tt.titulo : 'Datos clave'; html = viewImportaTema(rt.id); break; }
         case 'metodologia': title = 'Metodología'; html = viewMetodologia(); break;
+        case 'notfound': title = 'Página no encontrada'; html = viewNotFound(); break;
         default: title = ''; html = viewInicio();
       }
     } catch (e) { console.error(e); html = empty('Algo ha fallado al cargar esta pantalla. Vuelve al inicio e inténtalo de nuevo.'); }
@@ -357,9 +377,9 @@
     var fi = D.importa && D.importa.temas && D.importa.temas[0];
     var nProp = D.partidos.reduce(function (a, p) { return a + p.propuestas.length; }, 0);
     return '<section class="hero">' +
-      '<div class="hero-copy"><p class="kicker">Elecciones generales · 29 de noviembre de 2026</p>' +
-      '<h1 class="display">' + esc((D.meta && D.meta.hero) || 'Lee lo que proponen. Decide tú.') + '</h1>' +
-      '<p class="lede">' + esc((D.meta && D.meta.lede) || 'Todas las propuestas de cada partido, resumidas y sin interpretar. Con las críticas que reciben, siempre con fuente.') + '</p>' +
+      '<div class="hero-copy"><h1 class="kicker">Elecciones generales 2026: qué propone cada partido</h1>' +
+      '<p class="display">' + esc((D.meta && D.meta.hero) || 'Lee lo que proponen. Decide tú.') + '</p>' +
+      '<p class="lede">' + esc((D.meta && D.meta.lede) || 'Todas las propuestas de cada partido, resumidas y sin interpretar. Con las críticas que reciben, siempre con fuente.') + '</p>' + updLine(D.generado) +
       '<div class="hero-stats"><div><b>' + d + '</b><span>días para votar</span></div><div><b>' + D.partidos.length + '</b><span>partidos</span></div><div><b>' + fmt(nProp, 0) + '</b><span>propuestas</span></div></div></div>' +
       (D.veda ? '<div class="veda"><b>Veda de encuestas</b><p>La ley electoral prohíbe publicar sondeos entre el 24 y el 29 de noviembre (art. 69.7 de la LOREG). Hasta el cierre de los colegios, los partidos aparecen ordenados por los escaños que obtuvieron en 2023.</p></div>' : '<figure class="hero-hemi">' + hemicycle() + '<figcaption>Escaños estimados según la media de encuestas del ' + esc(fdate(D.encuestas.actualizado)) + '</figcaption></figure>') + '</section>' +
       '<section class="block"><div class="block-head"><h2>' + (D.veda ? 'Partidos' : 'Partidos por intención de voto') + '</h2><a class="more" href="' + partyPath('test') + '" data-nav="test">¿Con quién coincides?</a></div>' + searchBox('qParty', 'Busca un partido, candidato o comunidad') +
@@ -367,6 +387,7 @@
       '<p class="fine">Media de encuestas publicadas. ' + (D.encuestas.fuentes || []).map(function (f) { return src(f); }).join(' ') + '</p></section>' +
       '<section class="block feature-grid">' +
       '<a class="feature f-matter" href="' + partyPath('importa') + '" data-nav="importa"><span class="f-eyebrow">Datos clave' + (fi ? ' · ' + esc(fi.titulo) : '') + '</span><b class="f-big">' + esc(fi && fi.dato_clave ? fi.dato_clave.valor : 'Datos') + '</b><span>' + esc(fi && fi.dato_clave ? fi.dato_clave.etiqueta : 'Vivienda, empleo, sanidad, pensiones: los datos que afectan a tu día a día') + '</span><span class="f-cta">Ver todos los datos ' + icon('next', 16) + '</span></a>' +
+      '<a class="feature f-cands" href="' + partyPath('candidatos') + '" data-nav="candidatos"><span class="f-eyebrow">Candidatos</span><b class="f-big">Quién es quién</b><span>Formación, trayectoria, patrimonio declarado y causas judiciales de cada cabeza de lista</span><span class="f-cta">Ver candidatos ' + icon('next', 16) + '</span></a>' +
       '<a class="feature f-compare" href="' + partyPath('comparar') + '" data-nav="comparar"><span class="f-eyebrow">Comparador</span><b class="f-big">Tema a tema</b><span>Pon dos partidos frente a frente en vivienda, empleo o pensiones</span><span class="f-cta">Comparar ' + icon('next', 16) + '</span></a>' +
       '<a class="feature f-debt" href="' + partyPath('deuda') + '" data-nav="deuda"><span class="f-eyebrow">Deuda pública</span><b class="f-big">' + esc(dz ? dz.valor + (dz.unidad ? ' ' + dz.unidad : '') : 'Deuda') + '</b><span>' + esc(dz ? dz.etiqueta : 'Cuánto debemos, cuánto nos cuesta y cómo evoluciona') + '</span><span class="f-cta">Ver cómo funciona ' + icon('next', 16) + '</span></a>' +
       '</section>' +
@@ -385,11 +406,11 @@
   }
   function footer() {
     return '<footer class="foot"><p>' + esc((D.meta && D.meta.nombre) || 'Antes de Votar') + ' es una herramienta independiente y no partidista. Aplicamos los mismos criterios a todos los partidos y enlazamos cada dato a su fuente.</p>' +
-      '<a href="' + partyPath('metodologia') + '" data-nav="metodologia">Metodología, aviso y contacto</a><span>Actualizado el ' + esc(fdate(D.generado)) + '</span></footer>';
+      '<p class="foot-links"><a href="' + partyPath('metodologia') + '" data-nav="metodologia">Metodología, aviso y contacto</a> · <a href="' + partyPath('quienes-somos') + '" data-nav="quienes-somos">Quiénes somos</a></p><span>Actualizado el ' + esc(fdate(D.generado)) + '</span></footer>';
   }
 
   function viewPartidos() {
-    return '<section class="block first">' + searchBox('qParty', 'Busca un partido, candidato o comunidad') +
+    return '<section class="block first"><h1 class="h1">Partidos<span class="h1-tail"> que se presentan a las elecciones generales 2026</span></h1>' + searchBox('qParty', 'Busca un partido, candidato o comunidad') +
       '<div id="partyList">' + partyLists(D.partidos) + '</div>' +
       '<p class="fine">' + (D.veda ? 'Ordenados por escaños obtenidos en 2023 (veda de encuestas del 24 al 29 de noviembre).' : 'Ordenados por la media de encuestas del ' + esc(fdate(D.encuestas.actualizado)) + '.') + ' Los partidos que solo se presentan en una comunidad tienen menos voto nacional, aunque pueden ser decisivos.</p></section>' + footer();
   }
@@ -413,9 +434,12 @@
     if (lastParty !== p.id) { partyState = { area: 'todas', crit: 'economica', q: '' }; lastParty = p.id; }
     tab = tab || 'propuestas';
     var st = partyStats(p);
+    var h1n = p.h1n || p.nombre;
     var crits = p.criticas || {}; var nc = (crits.economica || []).length + (crits.social || []).length + (crits.cultural || []).length + (crits.derecho || []).length;
     var head = '<section class="phead" style="--pc:' + esc(p.color) + ';--pcfg:' + contrast(p.color) + '">' +
-      '<div class="phead-top">' + avatar(p, 'lg') + '<div class="phead-id"><h1>' + esc(p.nombre) + '</h1><p>' + esc(['Programa electoral 2026', p.candidato].filter(Boolean).join(' · ')) + '</p></div></div>' +
+      '<div class="phead-top">' + avatar(p, 'lg') + '<div class="phead-id"><h1><span class="h1-eyebrow">Programa electoral ' + (p.h1art ? 'del' : 'de') + '</span> ' + esc(h1n) + ' <span class="h1-tail">' + (h1n === p.nombre && p.nombre.indexOf(corto(p)) < 0 ? '(' + esc(corto(p)) + ') ' : '') + '2026</span></h1>' + (h1n !== p.nombre && h1n === corto(p) ? '<p class="phead-full">' + esc(p.nombre) + '</p>' : '') + (p.candidato ? '<p>' + esc(p.candidato) + '</p>' : '') + '</div></div>' +
+      updLine(p.actualizado) +
+      (p.seo && p.seo.resumen ? '<p class="phead-lead">' + esc(p.seo.resumen) + '</p>' : '') +
       (p.resumen ? '<p class="phead-sum">' + esc(p.resumen) + '</p>' : '') +
       (p.candidatura_nota ? '<p class="selfdef"><span>Candidatura</span> ' + esc(p.candidatura_nota) + (p.estado_fuente && p.estado_fuente.url ? ' ' + src(p.estado_fuente, 'Fuente') : '') + '</p>' : '') +
       (p.autodefinicion && p.autodefinicion.texto ? '<p class="selfdef"><span>Se define como</span> «' + esc(p.autodefinicion.texto) + '» ' + src(p.autodefinicion.fuente, 'Fuente') + '</p>' : '') +
@@ -430,9 +454,102 @@
       kpi(baseLabel(p)[0], baseLabel(p)[1]) +
       '</div>' + (p.concurre === false ? '<p class="warn">Este partido no concurre a estas elecciones con candidatura propia.</p>' : '') + '</section>';
     var seg = '<div class="seg sticky" role="tablist">' +
-      segBtn('propuestas', 'Propuestas', st.n, tab) + segBtn('criticas', 'Críticas', nc, tab) + '</div>';
-    var body = tab === 'criticas' ? partyCriticas(p) : partyPropuestas(p);
-    return head + seg + '<div class="ptab" id="ptab" data-party="' + p.id + '">' + body + '</div>' + footer();
+      segBtn('propuestas', 'Propuestas', st.n, tab) + segBtn('criticas', 'Críticas', nc, tab) + (p.cand ? segBtn('candidato', 'Candidato', '', tab) : '') + '</div>';
+    var body = partyTabBody(p, tab);
+    return head + seg + '<div class="ptab" id="ptab" data-party="' + p.id + '">' + body + '</div>' + partyRelated(p) + footer();
+  }
+  function otherParties(p) {
+    var top = D.partidos.filter(function (x) { return x.tier !== 'otros' && x.id !== p.id; }).slice(0, 7);
+    var rest = D.partidos.filter(function (x) { return x.id !== p.id && top.indexOf(x) < 0; })
+      .sort(function (a, b) { return hashStr(p.id + ':' + a.id) - hashStr(p.id + ':' + b.id); }).slice(0, 5);
+    return top.concat(rest);
+  }
+  function partyRelated(p) {
+    var areas = D.areas.filter(function (a) { return p.propuestas.some(function (x) { return x.area === a.id; }); });
+    return '<section class="block related">' +
+      (areas.length ? '<div class="block-head"><h2>Qué proponen otros partidos</h2></div><div class="chips wrap">' + areas.map(function (a) { return navA('tema-' + a.id, 'Propuestas sobre ' + esc(lcFirst(a.nombre)), 'chip'); }).join('') + '</div>' : '') +
+      '<p class="rel-links">' + navA('candidatos', (p.cand ? 'Candidatos: ' + esc(p.cand.nombre) + ' y el resto de cabezas de lista' : 'Candidatos de todos los partidos')) + ' · ' + navA('comparar', 'Comparar ' + esc(corto(p)) + ' con otro partido') + '</p>' +
+      '<div class="block-head sub"><h3>Programas de otros partidos</h3></div><div class="chips wrap">' + otherParties(p).map(function (x) { return navA('partido-' + x.id, 'Programa ' + esc(delNombre(x)), 'chip'); }).join('') + '</div>' +
+      '<p class="rel-links">' + navA('partidos', 'Todos los partidos que se presentan') + '</p></section>';
+  }
+
+  function partyTabBody(p, tab) { return tab === 'criticas' ? partyCriticas(p) : tab === 'candidato' && p.cand ? (p.cands || [p.cand]).map(function (c) { return candCard(p, c, true, true); }).join('') : partyPropuestas(p) + partyFaq(p); }
+  function partyFaq(p) {
+    var f = (p.seo && p.seo.faq) || [];
+    if (!f.length) return '';
+    return '<section class="faq"><h2>Preguntas frecuentes sobre ' + esc(corto(p)) + '</h2>' + f.map(function (x) { return '<h3>' + esc(x.q) + '</h3><p>' + esc(x.a) + '</p>'; }).join('') + '</section>';
+  }
+  function eur(n) { return n == null ? null : (Math.round(n)).toLocaleString('es-ES') + ' €'; }
+  function inmTxt(pt) {
+    var d = pt.inmuebles_detalle || [];
+    var n = pt.inmuebles_n != null ? pt.inmuebles_n : d.length;
+    if (!n) return pt.inmuebles_n === 0 ? 'Ninguno declarado' : null;
+    if (!d.length) return n + (n === 1 ? ' inmueble' : ' inmuebles');
+    var g = {}; d.forEach(function (x) { var t = (x.tipo || 'inmueble').toLowerCase(); (g[t] = g[t] || []).push(x.ubicacion); });
+    var parts = Object.keys(g).map(function (t) { var u = g[t].filter(Boolean); var k = g[t].length; var pl = k > 1 ? (/[aeiou]$/.test(t) ? t + 's' : t + 'es') : t; u = u.filter(function (x, i) { return u.indexOf(x) === i; }); return k + ' ' + pl + (u.length === 1 ? ' en ' + u[0] : u.length ? ' (' + u.join(', ') + ')' : ''); });
+    return n + (n === 1 ? ' inmueble: ' : ' inmuebles: ') + parts.join(', ');
+  }
+  function candPat(c) {
+    var pt = c.patrimonio || {};
+    if (pt.estado === 'solo_intereses') return '<p class="cand-none">Escaño en el Parlamento Europeo: la Eurocámara publica sus intereses económicos, pero no su patrimonio.' + (pt.url ? ' ' + src({ url: pt.url }, 'Ver declaración') : '') + '</p>';
+    if (pt.estado === 'sin_obligacion') return '<p class="cand-none">Sin obligación de publicar declaración de bienes: no ocupa un cargo que lo exija.</p>';
+    if (pt.estado === 'no_localizada' || !pt.declarado) return '<p class="cand-none">No hemos localizado declaración pública.</p>';
+    // Nunca se pinta el valor de los inmuebles (el build ni siquiera lo publica).
+    var rows = [];
+    var it = inmTxt(pt); if (it) rows.push(['Inmuebles', it]);
+    if (pt.depositos != null) rows.push(['Dinero en cuentas', eur(pt.depositos)]);
+    if (pt.otros_bienes != null) rows.push(['Inversiones y otros bienes', eur(pt.otros_bienes)]);
+    if (pt.deudas != null) rows.push(['Deudas', eur(pt.deudas)]);
+    var soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
+    var neto = soloNeto ? '<p class="cand-neto">Saldo declarado (cuentas, valores y otros bienes menos deudas; sin inmuebles ni vehículos): <b>' + esc(eur(pt.neto)) + '</b></p>' : '';
+    return (rows.length ? '<dl class="cand-dl">' + rows.map(function (r) { return '<div><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>'; }).join('') + '</dl>' : '') + neto + (!rows.length && !neto ? '<p class="cand-none">La declaración publicada no detalla importes.</p>' : '') +
+      '<p class="fine">' + esc([pt.organo, pt.fecha_declaracion ? 'declaración de ' + fdate(pt.fecha_declaracion) : ''].filter(Boolean).join(', ')) + (pt.url ? ' ' + src({ url: pt.url, nombre: 'Ver declaración' }, 'Ver declaración') : '') + '</p>';
+  }
+  function candCard(p, c, full, link) {
+    var tr = (c.trayectoria || []).slice(0, 5);
+    var sf = c.sentencias_firmes || [], pa = c.procedimientos_abiertos || [];
+    var yrs = c.anos_en_politica == null ? null : c.anos_en_politica === 0 ? 'Sin cargos públicos' : c.anos_en_politica + (c.anos_en_politica === 1 ? ' año' : ' años') + ' en cargos públicos';
+    return '<article class="cand' + (full ? ' full' : '') + '" style="--pc:' + esc(p.color) + '">' +
+      '<header class="cand-h">' + avatar(p) + '<div><h2>' + (link && c.slug ? navA('candidato-' + c.slug, esc(c.nombre), 'cand-link') : esc(c.nombre)) + '</h2><p>' + esc([c.rol, p.siglas].filter(Boolean).join(' · ')) + '</p></div></header>' +
+      (c.cargo_actual ? '<p class="cand-now">' + esc(c.cargo_actual) + '</p>' : '') +
+      '<h3>Formación</h3><p>' + esc(c.formacion || 'Sin datos acreditados') + '</p>' +
+      '<h3>Trayectoria</h3>' + (yrs || c.experiencia_fuera ? '<p>' + esc([yrs, c.experiencia_fuera ? 'Fuera de la política: ' + c.experiencia_fuera : ''].filter(Boolean).join('. ')) + '</p>' : '') +
+      (tr.length ? '<ul class="cand-tr">' + tr.map(function (t) { return '<li><span>' + esc(t.cargo) + '</span><small>' + esc([t.desde, t.hasta || (t.desde ? 'hoy' : '')].filter(Boolean).join('–')) + '</small></li>'; }).join('') + '</ul>' : (yrs || c.experiencia_fuera ? '' : '<p>Sin datos verificados</p>')) +
+      '<h3>Patrimonio declarado</h3>' + candPat(c) +
+      '<h3>Sentencias firmes</h3>' + (sf.length ? '<ul class="cand-j">' + sf.map(function (x) { return '<li>' + (x.persona && !/propio/.test(x.persona) ? '<b>' + esc(cap(x.persona)) + ':</b> ' : '') + esc(x.resumen) + (x.fecha ? ' <small>(' + fdate(x.fecha) + ')</small>' : '') + (x.url ? ' ' + src({ url: x.url }, 'Fuente') : '') + '</li>'; }).join('') + '</ul>' : '<p>Ninguna conocida</p>') +
+      (pa.length ? '<h3>Procedimientos judiciales en curso</h3><ul class="cand-j">' + pa.map(function (x) { return '<li>' + (x.persona && !/propio/.test(x.persona) ? '<b>' + esc(cap(x.persona)) + ':</b> ' : '') + esc(x.resumen) + (x.organo_judicial ? ' (' + esc(x.organo_judicial) + ')' : '') + '. <b>Fase: ' + esc(x.fase || 'en curso') + '.</b> Sin sentencia.' + (x.fecha_ultima_actuacion ? ' <small>' + fdate(x.fecha_ultima_actuacion) + '</small>' : '') + (x.url ? ' ' + src({ url: x.url }, 'Fuente') : '') + '</li>'; }).join('') + '</ul>' : '') +
+      '</article>';
+  }
+  function cap(t) { t = String(t || ''); return t.charAt(0).toUpperCase() + t.slice(1); }
+  function viewCandidatos() {
+    var list = [];
+    D.partidos.forEach(function (p) { if (p.concurre !== false) (p.cands || []).forEach(function (c) { list.push({ p: p, c: c }); }); });
+    return '<section class="block first"><h1 class="h1">Candidatos<span class="h1-tail"> a las elecciones generales 2026</span></h1><p class="lede small">Quién encabeza cada candidatura: formación, trayectoria, patrimonio declarado y causas judiciales. Solo datos de fuentes oficiales o prensa de referencia.</p>' +
+      updLine(D.partidos.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) + '<div class="cands">' + list.map(function (o) { var p = o.p, c = o.c; var sf = (c.sentencias_firmes || []).length, pa = (c.procedimientos_abiertos || []).length;
+        return '<details class="cand-row" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="cand-row-m"><b>' + esc(c.nombre) + '</b><small>' + esc(p.siglas + (c.rol ? ' · ' + c.rol : '')) + '</small></span>' +
+          '</summary><p class="cand-links top">' + navA('candidato-' + c.slug, 'Ficha completa de ' + esc(c.nombre) + ' ' + icon('next', 14), 'linkbtn') + '</p>' + candCard(p, c, false, true) + '<p class="cand-links">' + navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + '</p></details>'; }).join('') + '</div>' +
+      '<p class="fine">Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado. Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
+  }
+  function viewCandidato(c) {
+    var p = P(c.party);
+    return '<section class="block first"><h1 class="h1">' + esc(c.nombre) + '<span class="h1-tail">: formación, trayectoria y patrimonio</span></h1>' + updLine(p.actualizado) +
+      candCard(p, c, true) +
+      '<p class="cand-links">' + navA('partido-' + p.id, 'Programa electoral ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + navA('candidatos', 'Todos los candidatos ' + icon('next', 14), 'linkbtn') + '</p>' +
+      '<p class="fine">Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado. Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
+  }
+  function viewNoConcurre(q) {
+    var ef = q.estado_fuente;
+    var n = D.partidos.filter(function (p) { return p.concurre !== false; }).length;
+    return '<section class="block first"><h1 class="h1">' + esc(q.nombre) + '<span class="h1-tail"> no se presenta a las elecciones del 29N</span></h1>' + updLine(q.actualizado) +
+      (q.resumen ? '<p class="phead-lead">' + esc(q.resumen) + '</p>' : '') +
+      (q.candidatura_nota ? '<p class="selfdef"><span>Candidatura</span> ' + esc(q.candidatura_nota) + '</p>' : '') +
+      (ef ? '<p class="fine">Fuente: ' + src(ef, ef.nombre) + (ef.fecha ? ' (' + esc(fdate(ef.fecha)) + ')' : '') + '</p>' : '') +
+      '</section><section class="block related"><div class="block-head"><h2>Otras opciones</h2></div><div class="chips wrap">' + navA('partidos', 'Los ' + n + ' partidos que se presentan el 29N', 'chip') + navA('test', 'Test: ¿con qué partido coincides?', 'chip') + '</div></section>' + footer();
+  }
+  function viewQuienes() {
+    // El texto lo genera el build (mismo que el prerender); aquí solo se adaptan los enlaces internos al modo.
+    var h = String(D.quienes_html || '<h1>Quiénes somos</h1>').replace(/href="\/([a-z-]+)\/" data-nav="([a-z-]+)"/g, function (_, x, r) { return 'href="' + partyPath(r) + '" data-nav="' + r + '"'; }).replace('<h1>', '<h1 class="h1">');
+    return '<section class="block first quienes">' + h + '</section>' + footer();
   }
   function baseLabel(p) {
     var c = {}; p.propuestas.forEach(function (x) { c[x.origen] = (c[x.origen] || 0) + 1; });
@@ -441,7 +558,7 @@
     return ['Declaraciones', 'y documentos recientes; sin programa del 29N'];
   }
   function kpi(v, l, tip) { return '<div class="kpi"' + (tip ? ' title="' + esc(tip) + '"' : '') + '><b>' + esc(v) + '</b><span>' + esc(l) + '</span></div>'; }
-  function segBtn(id, label, n, cur) { return '<button type="button" role="tab" class="seg-btn' + (cur === id ? ' on' : '') + '" aria-selected="' + (cur === id) + '" data-ptab="' + id + '">' + esc(label) + '<span class="cnt">' + n + '</span></button>'; }
+  function segBtn(id, label, n, cur) { return '<button type="button" role="tab" class="seg-btn' + (cur === id ? ' on' : '') + '" aria-selected="' + (cur === id) + '" data-ptab="' + id + '">' + esc(label) + (n !== '' ? '<span class="cnt">' + n + '</span>' : '') + '</button>'; }
 
   function propItem(x, p, showParty) {
     var o = ORIGEN[x.origen] || x.origen || '';
@@ -519,7 +636,7 @@
   }
   function cmpSave() { store.set('cmp2', { sel: cmp.sel, area: cmp.area }); }
   function cmpHead(mode) {
-    return '<section class="block first"><h1 class="h1">' + (mode === 'todos' ? esc(areaName(cmp.area)) + ': qué propone cada partido' : 'Comparar partidos') + '</h1>' +
+    return '<section class="block first"><h1 class="h1">' + (mode === 'todos' ? esc(areaName(cmp.area)) + ': qué propone cada partido' : 'Comparar partidos tema a tema') + '</h1>' +
       '<div class="seg cmp-mode" role="tablist">' +
       '<a role="tab" class="seg-btn' + (mode === 'cmp' ? ' on' : '') + '" href="' + partyPath('comparar') + '" data-nav="comparar">Frente a frente</a>' +
       '<a role="tab" class="seg-btn' + (mode === 'todos' ? ' on' : '') + '" href="' + partyPath('tema-' + cmp.area) + '" data-nav="tema-' + cmp.area + '">Todos los partidos</a></div>' +
@@ -531,22 +648,25 @@
   }
   function viewComparar() {
     cmpInit();
-    return cmpHead('cmp') + '<div id="cmpOut">' + cmpOut() + '</div></section>' + footer();
+    return cmpHead('cmp') + '<div id="cmpOut">' + cmpOut() + '</div></section>' +
+      '<section class="block related"><div class="block-head"><h2>Qué propone cada partido, tema a tema</h2></div><div class="chips wrap">' + D.areas.map(function (a) { return navA('tema-' + a.id, esc(a.nombre) + ': todos los partidos', 'chip'); }).join('') + '</div></section>' + footer();
   }
   function viewTema(a) {
     cmpInit(); cmp.area = a; cmpSave();
     var ps = D.partidos.filter(function (p) { return p.propuestas.some(function (x) { return x.area === a; }); });
-    return cmpHead('todos') + temaHook(a) +
+    return cmpHead('todos') + updLine(ps.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) + temaHook(a) +
       '<p class="fine" style="margin:4px 0 6px">' + ps.length + ' partidos con propuestas sobre ' + esc(areaName(a).toLowerCase()) + '. Toca uno para desplegarlo.</p>' +
       ps.map(function (p, i) {
         var it = p.propuestas.filter(function (x) { return x.area === a; });
-        return '<details class="tparty"' + (i < 2 ? ' open' : '') + ' style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tp-name">' + esc(p.nombre) + '</span><span class="cnt">' + it.length + '</span></summary><ul class="props">' + it.map(function (x) { return propItem(x, p); }).join('') + '</ul></details>';
+        return '<details class="tparty"' + (i < 2 ? ' open' : '') + ' style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="tp-name">' + esc(p.nombre) + '</span><span class="cnt">' + it.length + '</span></summary><ul class="props">' + it.map(function (x) { return propItem(x, p); }).join('') + '</ul>' + navA('partido-' + p.id, 'Programa completo ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn tp-link') + '</details>';
       }).join('') + (ps.length ? '' : '<div class="empty"><p>Ningún partido tiene propuestas cargadas en este tema todavía.</p></div>') + '</section>' + footer();
   }
   function temaHook(a) {
-    var t = ((D.importa && D.importa.temas) || []).filter(function (x) { return x.area === a; })[0];
-    if (!t || !t.dato_clave) return '';
-    return '<a class="hook" href="' + partyPath('importa') + '" data-nav="importa"><b>' + esc(t.dato_clave.valor) + '</b><span>' + esc(t.dato_clave.etiqueta) + '</span></a>';
+    var ts = ((D.importa && D.importa.temas) || []).filter(function (x) { return x.area === a && x.dato_clave; });
+    return ts.map(function (t) {
+      var r = t.enlace === 'deuda' || t.id === 'deuda' ? 'deuda' : 'importa-' + t.id;
+      return navA(r, '<b>' + esc(t.dato_clave.valor) + '</b><span>' + esc(t.dato_clave.etiqueta) + ' <u>Datos clave: ' + esc(t.titulo) + '</u></span>', 'hook');
+    }).join('');
   }
   function partyOptions(sel, exclude) {
     return D.partidos.filter(function (p) { return p.id === sel || exclude.indexOf(p.id) < 0; }).map(function (p) { return '<option value="' + p.id + '"' + (p.id === sel ? ' selected' : '') + '>' + esc(p.siglas + ' · ' + p.nombre) + '</option>'; }).join('');
@@ -579,9 +699,9 @@
   function tbody() { return T.done ? testResult() : (!T.go && T.i === 0 && !Object.keys(T.ans).length ? testStart() : testQ()); }
   function testStart() {
     var n = D.test.afirmaciones.length;
-    return '<div class="dhero thero"><span class="kicker">Test · ' + n + ' afirmaciones · unos 5 minutos</span>' +
-      '<h1 class="display">¿Con qué partido coincides?</h1>' +
-      '<p class="lede">Di si estás de acuerdo con ' + n + ' afirmaciones y compáralas con lo que cada partido ha votado, hecho o propuesto.</p>' +
+    return '<div class="dhero thero">' +
+      '<h1 class="display"><span class="h1-eyebrow">Test electoral 2026<span class="sr">:</span></span> ¿Con qué partido coincides?</h1>' +
+      '<p class="lede">Di si estás de acuerdo con ' + n + ' afirmaciones y compáralas con lo que cada partido ha votado, hecho o propuesto. Unos 5 minutos.</p>' +
       '<button type="button" class="percap tgo" data-tgo><span>Empieza ahora</span><b>Hacer el test</b><small>Puedes saltar las que no tengas claras</small></button></div>' +
       '<ul class="tfacts">' +
       '<li><b>Primero lo que votan</b><span>Cada posición sale de votaciones, programas o declaraciones, con su fuente.</span></li>' +
@@ -724,12 +844,13 @@
   }
 
   // ----- Deuda -----
+  function deudaH1(d) { var t = d.titular_corto || d.titular || 'La deuda pública'; return /España/.test(t) ? t : t + ' de España'; }
   function viewDeuda() {
     var d = D.deuda;
     if (!d) return empty('La sección de deuda se está preparando.');
     var sp = (d.mecanica && d.mecanica.parametros_simulador) || {};
     var interesAnual = findInterest(d);
-    var html = '<section class="dhero"><h1 class="display">' + esc(d.titular_corto || d.titular) + '</h1><p class="lede">' + esc(d.entradilla_corta || d.entradilla) + '</p>' +
+    var html = '<section class="dhero"><h1 class="display">' + esc(deudaH1(d)) + '</h1><p class="lede">' + esc(d.entradilla_corta || d.entradilla) + '</p>' +
       (interesAnual ? '<div class="ticker"><span>Intereses pagados desde que abriste esta página</span><b id="ticker">0 €</b><small>Unos ' + fmt(interesAnual / (365 * 86400), 0) + ' euros por segundo, ' + fmt(interesAnual / 1e9, 1) + ' mil millones al año (IGAE, 2025).</small></div>' : '') + perCapita(d) + '</section>';
     if (d.te_afecta) html += '<section class="block"><div class="block-head"><h2>En qué te afecta</h2></div><div class="afecta">' + d.te_afecta.map(function (x) {
       return '<article class="af"><b>' + esc(x.valor) + '</b><h3>' + esc(x.titulo) + '</h3><p>' + esc(x.texto) + '</p>' + (x.url ? src({ nombre: x.fuente, url: x.url }) : '') + '</article>';
@@ -965,7 +1086,7 @@
   }
   function viewImporta() {
     var d = D.importa; if (!d) return empty('Esta sección se está preparando.');
-    var html = '<section class="block first"><h1 class="h1">Datos clave para los españoles</h1><p class="lede small">' + esc(d.entradilla || 'Los problemas con más impacto en la vida diaria, con datos y fuentes.') + '</p>';
+    var html = '<section class="block first"><h1 class="h1">Datos clave para los españoles</h1>' + updLine(D.generado) + '<p class="lede small">' + esc(d.entradilla || 'Los problemas con más impacto en la vida diaria, con datos y fuentes.') + '</p>';
     html += '<div class="mgrid">' + (d.temas || []).map(function (t) {
       var target = t.enlace === 'deuda' || t.id === 'deuda' ? 'deuda' : 'importa-' + t.id;
       return '<a class="mcard" href="' + partyPath(target) + '" data-nav="' + target + '"><span class="m-t">' + esc(t.titulo) + '</span><b class="m-v">' + esc(t.dato_clave && t.dato_clave.valor) + '</b><span class="m-l">' + esc(t.dato_clave && t.dato_clave.etiqueta) + '</span></a>';
@@ -995,7 +1116,8 @@
   function viewImportaTema(id) {
     var t = temaById(id); if (!t) return empty('No encontramos ese tema.');
     var dc = t.dato_clave || {};
-    var html = '<section class="block first"><h1 class="h1">' + esc(t.titulo) + '</h1>' +
+    var tail = t.titulo.indexOf(':') >= 0 ? ' · datos clave 2026' : ' en España: datos clave 2026';
+    var html = '<section class="block first"><h1 class="h1">' + esc(t.titulo) + '<span class="h1-tail">' + tail + '</span></h1>' + updLine(D.generado) +
       '<div class="sheet-big"><b>' + esc(dc.valor) + '</b><span>' + esc(dc.etiqueta) + '</span>' + src({ nombre: dc.fuente, url: dc.url }, (dc.fuente || '') + (dc.fecha ? ' · ' + dc.fecha : '')) + '</div>' +
       ((t.resumen || t.por_que_importa) ? '<p class="tema-res">' + esc(t.resumen || t.por_que_importa) + '</p>' : '') + '</section>';
     if ((t.datos || []).length) html += '<section class="block"><div class="block-head"><h2>Datos</h2></div><ul class="dlist">' + t.datos.map(function (x) { return '<li><b>' + esc(x.valor) + '</b><span>' + esc(x.etiqueta) + '</span>' + src({ nombre: x.fuente, url: x.url }, (x.fuente || 'Fuente') + (x.fecha ? ' · ' + x.fecha : '')) + '</li>'; }).join('') + '</ul></section>';
@@ -1005,7 +1127,12 @@
     });
     if (t.y_quien_lo_paga) html += '<section class="block"><div class="paga"><b>¿Y quién lo paga?</b><p>' + esc(t.y_quien_lo_paga) + '</p><a href="' + partyPath('deuda') + '" data-nav="deuda">Ver la deuda pública</a></div></section>';
     if ((t.preguntas || []).length) html += '<section class="block"><div class="block-head"><h2>Preguntas para los candidatos</h2></div><ul class="qs">' + t.preguntas.map(li).join('') + '</ul></section>';
-    if (t.area) html += '<section class="block"><a class="btn wide" href="' + partyPath('tema-' + t.area) + '" data-nav="tema-' + t.area + '">Ver qué proponen los partidos</a></section>';
+    if (t.area) {
+      var ps = D.partidos.filter(function (p) { return p.propuestas.some(function (x) { return x.area === t.area; }); });
+      var an = lcFirst(areaName(t.area));
+      html += '<section class="block related"><div class="block-head"><h2>Qué proponen los partidos sobre ' + esc(an) + '</h2></div>' + navA('tema-' + t.area, 'Propuestas sobre ' + esc(an) + ' de cada partido', 'btn wide') +
+        (ps.length ? '<div class="chips wrap rel-chips">' + ps.map(function (p) { return navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)), 'chip'); }).join('') + '</div>' : '') + '</section>';
+    }
     return html + footer();
   }
 
@@ -1021,7 +1148,13 @@
     return '<section class="block first"><h1 class="h1">Metodología y fuentes</h1>' + m.map(function (x) { return '<article class="meth"><h2>' + esc(x[0]) + '</h2><p>' + esc(x[1]) + '</p></article>'; }).join('') +
       '<article class="meth"><h2>Aviso</h2><p>Antes de Votar es un proyecto independiente. No está vinculado a ningún partido, candidatura, administración ni medio de comunicación, y no recibe financiación de ninguno de ellos. Su contenido es informativo y no es una recomendación de voto. Las propuestas son resúmenes: en caso de duda, prevalece el documento original del partido, enlazado en cada una. Las críticas recogen análisis publicados por terceros, con su fuente. Los nombres, siglas y colores de los partidos pertenecen a sus titulares y se usan solo para identificarlos. Puede haber errores: si encuentras uno, avísanos.</p></article>' +
       '<article class="meth" id="contacto"><h2>Contacto y correcciones</h2><p>Si ves un error, una fuente que no respalda lo que se dice o quieres pedir una rectificación, escríbenos. Revisamos todos los avisos y corregimos lo antes posible.</p>' + (D.meta && D.meta.form_url ? '<a class="btn" href="' + esc(D.meta.form_url) + '" target="_blank" rel="noopener">Avisar de un error</a>' : '<p class="fine">El formulario de contacto estará disponible próximamente.</p>') + '</article>' +
-      '<article class="meth"><h2>Encuestas</h2><p>' + esc(D.encuestas.metodo) + '</p>' + (D.encuestas.fuentes || []).map(function (f) { return src(f); }).join(' ') + '</article></section>' + footer();
+      '<article class="meth"><h2>Encuestas</h2><p>' + esc(D.encuestas.metodo) + '</p>' + (D.encuestas.fuentes || []).map(function (f) { return src(f); }).join(' ') + '</article>' +
+      (D.metodologia_html ? '<details class="meth-full"><summary>Metodología detallada</summary><div class="meth-doc">' + D.metodologia_html + '</div></details>' : '') + '</section>' + footer();
+  }
+  function viewNotFound() {
+    var links = [['inicio', 'Inicio'], ['partidos', 'Todos los partidos'], ['comparar', 'Comparar partidos por tema'], ['test', 'Test: ¿con qué partido coincides?'], ['candidatos', 'Candidatos'], ['importa', 'Datos clave'], ['deuda', 'Deuda pública']];
+    return '<section class="block first related"><h1 class="h1">Página no encontrada</h1><p class="lede small">Esta dirección no existe o ha cambiado. Puedes seguir por aquí:</p><div class="chips wrap">' +
+      links.map(function (l) { return navA(l[0], esc(l[1]), 'chip'); }).join('') + '</div></section>' + footer();
   }
 
   // ---------- After render: bind ----------
@@ -1056,7 +1189,7 @@
       var pid = $('#ptab').getAttribute('data-party'), tab = t.getAttribute('data-ptab'); store.set('ptab', tab);
       $$('.seg-btn').forEach(function (b) { b.classList.toggle('on', b === t); b.setAttribute('aria-selected', b === t); });
       var p = P(pid); var box = $('#ptab');
-      box.innerHTML = tab === 'criticas' ? partyCriticas(p) : partyPropuestas(p);
+      box.innerHTML = partyTabBody(p, tab);
       if (!reduced) { box.classList.remove('swap'); void box.offsetWidth; box.classList.add('swap'); }
       afterRender({ view: 'partido-tab' });
       var seg = $('.seg'); if (seg && seg.getBoundingClientRect().top < 0) seg.scrollIntoView({ block: 'start' });
@@ -1083,7 +1216,7 @@
     if ((t = e.target.closest('#cmpShare'))) { var ps = cmp.sel.map(P); share(ps.map(function (p) { return p.siglas; }).join(' vs ') + ' en ' + areaName(cmp.area).toLowerCase() + ': ' + (ps.length > 1 ? 'compara sus propuestas' : 'mira sus propuestas') + ' antes del 29N', siteUrl() + '/tema/' + cmp.area + '/', cmpCard(ps)); return; }
     if ((t = e.target.closest('[data-share-prop]'))) {
       var parts = t.getAttribute('data-share-prop').split('|'), pp = P(parts[0]), x = pp.propuestas.filter(function (y) { return y.id === parts[1]; })[0];
-      share('Propuesta de ' + pp.siglas + ': «' + x.texto + '»', siteUrl() + '/partido/' + pp.id + '/', propCard(pp, x)); return;
+      share('Propuesta ' + delNombre(pp) + ': «' + x.texto + '»', siteUrl() + '/partido/' + pp.id + '/', propCard(pp, x)); return;
     }
     if ((t = e.target.closest('#shareTop'))) { if (parse(current).view === 'test' && D.test) { tload(); shareTest(); return; } if (parse(current).view === 'deuda') { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; } share(shareText(), routeUrl(current)); return; }
     if ((t = e.target.closest('#shareCap'))) { share(debtShareText(), siteUrl() + '/deuda/', debtCard(), { live: liveShareTicker, image: drawDebtImage }); return; }
@@ -1127,7 +1260,8 @@
   function closeSheetIfOpen() { if (!$('#sheet').hidden) closeSheet(); }
   function shareText() {
     var rt = parse(current);
-    if (rt.view === 'partido') { var p = P(rt.id); return 'Todas las propuestas de ' + p.siglas + ' para el 29N, con sus críticas y fuentes:'; }
+    if (rt.view === 'partido') { var p = P(rt.id); if (!p) return 'Antes de votar el 29N, lee lo que proponen todos los partidos:'; return 'Todas las propuestas ' + delNombre(p) + ' para el 29N, con sus críticas y fuentes:'; }
+    if (rt.view === 'candidato') { var cs = CAND(rt.id); if (cs) return cs.nombre + ': formación, trayectoria y patrimonio declarado, con fuentes:'; }
     if (rt.view === 'tema') return 'Qué propone cada partido sobre ' + areaName(rt.id).toLowerCase() + ' para el 29N:';
     if (rt.view === 'deuda') return 'La deuda pública, explicada para todos:';
     if (rt.view === 'importa') return 'Datos clave para los españoles en estas elecciones, con sus fuentes:';
@@ -1156,7 +1290,8 @@
   function boot(data) {
     D = data;
     if (enVeda()) { D.veda = true; D.partidos.forEach(function (p) { p.encuesta = null; }); D.encuestas = { actualizado: null, metodo: '', fuentes: [] }; }
-    D.partidos.forEach(function (p, i) { p._o = i; });
+    D.partidos.forEach(function (p, i) { p._o = i; p.cand = null; p.cands = []; });
+    (D.candidatos || []).forEach(function (c) { var p = P(c.party); if (p) { p.cands.push(c); if (!p.cand) p.cand = c; } });
     D.partidos.sort(function (a, b) { var ta = a.tier === 'otros' ? 1 : 0, tb = b.tier === 'otros' ? 1 : 0; if (ta !== tb) return ta - tb; if (ta) return a._o - b._o; if (D.veda) return ((b.escanos_2023 || 0) - (a.escanos_2023 || 0)) || a.nombre.localeCompare(b.nombre, 'es'); return ((b.encuesta && b.encuesta.voto) || 0) - ((a.encuesta && a.encuesta.voto) || 0); });
     current = routeFromLocation();
     try { history.replaceState({ r: current }, '', MODE === 'site' ? location.pathname : (location.hash ? location.hash : location.pathname + location.search)); } catch (e) {}
