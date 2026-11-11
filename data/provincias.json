@@ -1,0 +1,3256 @@
+[
+  {
+    "id": "albacete",
+    "nombre": "Albacete",
+    "ccaa": "Castilla-La Mancha",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 39.99,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 34.46,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/albacete.html"
+  },
+  {
+    "id": "alicante",
+    "nombre": "Alicante/Alacant",
+    "ccaa": "Comunitat Valenciana",
+    "escanos_2026": 12,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 36.77,
+        "escanos": 5
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 31.99,
+        "escanos": 4
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 16.26,
+        "escanos": 2
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-Compromís",
+        "votos_pct": 12.84,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "autonomos",
+        "nombre": "Lydia Cañedo Oliver",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "autonomos",
+      "compromis",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/alicante-alacant.html"
+  },
+  {
+    "id": "almeria",
+    "nombre": "Almería",
+    "ccaa": "Andalucía",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 41.04,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 28.97,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 21.35,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "escanosenblanco",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/almeria.html"
+  },
+  {
+    "id": "alava",
+    "nombre": "Araba/Álava",
+    "ccaa": "País Vasco",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSE-EE",
+        "votos_pct": 27.65,
+        "escanos": 1
+      },
+      {
+        "partido": "bildu",
+        "candidatura": "BILDU",
+        "votos_pct": 19.54,
+        "escanos": 1
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 17.84,
+        "escanos": 1
+      },
+      {
+        "partido": "pnv",
+        "candidatura": "PNV",
+        "votos_pct": 16.62,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "feministas",
+        "nombre": "Zuriñe Ojeda Santiago",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          },
+          {
+            "titulo": "Gasteiz Hoy, partidos que se presentan por Álava el 29N",
+            "url": "https://www.gasteizhoy.com/elecciones-29n-partidos-posliticos-alava-candidaturas/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "bildu",
+      "escanosenblanco",
+      "feministas",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "pnv",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/araba-alava.html"
+  },
+  {
+    "id": "asturias",
+    "nombre": "Asturias",
+    "ccaa": "Asturias",
+    "escanos_2026": 7,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 35.61,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 34.37,
+        "escanos": 2
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 14.87,
+        "escanos": 1
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 12.48,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/asturias.html"
+  },
+  {
+    "id": "avila",
+    "nombre": "Ávila",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 43.36,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 27.27,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "mundojusto",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/avila.html"
+  },
+  {
+    "id": "badajoz",
+    "nombre": "Badajoz",
+    "ccaa": "Extremadura",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 39.2,
+        "escanos": 2
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.86,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 13.66,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "mundojusto",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/badajoz.html"
+  },
+  {
+    "id": "illes-balears",
+    "nombre": "Illes Balears",
+    "ccaa": "Illes Balears",
+    "escanos_2026": 8,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 35.64,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSIB",
+        "votos_pct": 30.14,
+        "escanos": 3
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar / Més per Mallorca / Més per Menorca",
+        "votos_pct": 16.57,
+        "escanos": 1
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.21,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "mes",
+        "nombre": "Carme (Carmen) Gomila",
+        "fuente": {
+          "titulo": "La Voz de Ibiza: candidatos al Congreso y al Senado en Baleares",
+          "url": "https://lavozdeibiza.com/baleares/elecciones-del-29n-en-baleares-quienes-son-los-candidatos-al-congreso-y-al-senado-y-las-sorpresas-de-las-listas/?swcfpc=1",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "La Voz de Ibiza: candidatos al Congreso y al Senado en Baleares",
+            "url": "https://lavozdeibiza.com/baleares/elecciones-del-29n-en-baleares-quienes-son-los-candidatos-al-congreso-y-al-senado-y-las-sorpresas-de-las-listas/?swcfpc=1"
+          },
+          {
+            "titulo": "Ara Balears: Carme Gomila leaves the Manacor town hall",
+            "url": "https://en.arabalears.cat/politics/carme-gomila-leaves-the-manacor-city-council-to-seek-new-professional-challenges_1_5623156.html"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "frenteobrero",
+      "mes",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/illes-balears.html"
+  },
+  {
+    "id": "barcelona",
+    "nombre": "Barcelona",
+    "ccaa": "Cataluña",
+    "escanos_2026": 32,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSC",
+        "votos_pct": 35.74,
+        "escanos": 13
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-ECP",
+        "votos_pct": 15.2,
+        "escanos": 5
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 13.74,
+        "escanos": 5
+      },
+      {
+        "partido": "erc",
+        "candidatura": "ERC",
+        "votos_pct": 12.33,
+        "escanos": 4
+      },
+      {
+        "partido": "junts",
+        "candidatura": "JUNTS",
+        "votos_pct": 9.68,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 7.56,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "erc",
+        "nombre": "Gabriel Rufián Romero",
+        "fuente": {
+          "titulo": "Congreso, ficha de Gabriel Rufián (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=312&idLegislatura=XV",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso, ficha de Gabriel Rufián (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=312&idLegislatura=XV"
+          },
+          {
+            "titulo": "Congreso, declaración de bienes 28-01-2026 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000299/000299_001_e_0096087_20260128.pdf"
+          },
+          {
+            "titulo": "ARA, 17-01-2025 (concejal)",
+            "url": "https://es.ara.cat/politica/rufian-pliega-concejal-santa-coloma-gramenet_1_5257643.html"
+          },
+          {
+            "titulo": "Demócrata, buscador de listas 29N (BOE)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+          }
+        ]
+      },
+      {
+        "party": "junts",
+        "nombre": "Míriam Nogueras i Camero",
+        "fuente": {
+          "titulo": "Congreso, ficha de Míriam Nogueras (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=241&idLegislatura=XV",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso, ficha de Míriam Nogueras (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=241&idLegislatura=XV"
+          },
+          {
+            "titulo": "Congreso, declaración de bienes 10-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000228/000228_000_e_0000971_20230810.pdf"
+          },
+          {
+            "titulo": "Demócrata, buscador de listas 29N (BOE)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+          }
+        ]
+      },
+      {
+        "party": "d21",
+        "nombre": "Miriam González Durántez",
+        "fuente": {
+          "titulo": "Euronews: quién es Miriam González",
+          "url": "https://es.euronews.com/2026/10/12/quien-es-miriam-gonzalez-desafia-al-bipartidismo-con-democracia-21-en-elecciones-espana",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Euronews: quién es Miriam González",
+            "url": "https://es.euronews.com/2026/10/12/quien-es-miriam-gonzalez-desafia-al-bipartidismo-con-democracia-21-en-elecciones-espana"
+          },
+          {
+            "titulo": "Demócrata: Democracia 21 concurrirá en Madrid y Barcelona",
+            "url": "https://www.democrata.es/politica/democracia-21-concurrira-en-madrid-y-barcelona-con-la-abogada-miriam-gonzalez-como-cabeza-de-lista/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "alhora",
+      "d21",
+      "erc",
+      "frenteobrero",
+      "junts",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ]
+  },
+  {
+    "id": "bizkaia",
+    "nombre": "Bizkaia",
+    "ccaa": "País Vasco",
+    "escanos_2026": 8,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pnv",
+        "candidatura": "PNV",
+        "votos_pct": 26.97,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSE-EE",
+        "votos_pct": 25.84,
+        "escanos": 2
+      },
+      {
+        "partido": "bildu",
+        "candidatura": "BILDU",
+        "votos_pct": 20.69,
+        "escanos": 2
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 11.51,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 10.91,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "bildu",
+        "nombre": "Oskar Matute García de Jalón",
+        "fuente": {
+          "titulo": "Congreso, ficha de Oskar Matute (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=287&idLegislatura=XV",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso, ficha de Oskar Matute (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=287&idLegislatura=XV"
+          },
+          {
+            "titulo": "Congreso, declaración de bienes 14-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000282/000282_000_e_0001187_20230814.pdf"
+          },
+          {
+            "titulo": "Moncloa.com, listas de EH Bildu (16-10-2026)",
+            "url": "https://www.moncloa.com/2026/10/16/eh-bildu-candidatos-generales-29n-3449751/"
+          },
+          {
+            "titulo": "Demócrata, buscador de listas 29N (BOE)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+          }
+        ]
+      },
+      {
+        "party": "pnv",
+        "nombre": "Idoia Sagastizabal Unzetabarrenetxea",
+        "fuente": {
+          "titulo": "Congreso, ficha de Idoia Sagastizabal (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=309&idLegislatura=XV",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso, ficha de Idoia Sagastizabal (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=309&idLegislatura=XV"
+          },
+          {
+            "titulo": "Congreso, declaración de bienes 16-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000298/000298_000_e_0001246_20230816.pdf"
+          },
+          {
+            "titulo": "Moncloa.com, listas del PNV (17-10-2026)",
+            "url": "https://www.moncloa.com/2026/10/17/listas-pnv-congreso-29n-3450355/"
+          },
+          {
+            "titulo": "Demócrata, buscador de listas 29N (BOE)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "bildu",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "pnv",
+      "podemos",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ]
+  },
+  {
+    "id": "burgos",
+    "nombre": "Burgos",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 40.72,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 34.45,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/burgos.html"
+  },
+  {
+    "id": "caceres",
+    "nombre": "Cáceres",
+    "ccaa": "Extremadura",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 38.85,
+        "escanos": 2
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 38.09,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/caceres.html"
+  },
+  {
+    "id": "cadiz",
+    "nombre": "Cádiz",
+    "ccaa": "Andalucía",
+    "escanos_2026": 8,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 34.82,
+        "escanos": 4
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.18,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.18,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 12.84,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "nota_escanos": "Tenía 9 escaños en 2023; el reparto de 2026 le asigna 8.",
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/cadiz.html"
+  },
+  {
+    "id": "cantabria",
+    "nombre": "Cantabria",
+    "ccaa": "Cantabria",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 42.09,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.33,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 14.07,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/cantabria.html"
+  },
+  {
+    "id": "castellon",
+    "nombre": "Castellón/Castelló",
+    "ccaa": "Comunitat Valenciana",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 35.18,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.58,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.91,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "autonomos",
+      "compromis",
+      "falange",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/castellon-castello.html"
+  },
+  {
+    "id": "ciudad-real",
+    "nombre": "Ciudad Real",
+    "ccaa": "Castilla-La Mancha",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 40.56,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 35.37,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 16.28,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/ciudad-real.html"
+  },
+  {
+    "id": "cordoba",
+    "nombre": "Córdoba",
+    "ccaa": "Andalucía",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.94,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.1,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 13.95,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 13.68,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "escanosenblanco",
+      "falange",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/cordoba.html"
+  },
+  {
+    "id": "a-coruna",
+    "nombre": "A Coruña",
+    "ccaa": "Galicia",
+    "escanos_2026": 8,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 43.14,
+        "escanos": 4
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSdeG",
+        "votos_pct": 28.19,
+        "escanos": 2
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 12.18,
+        "escanos": 1
+      },
+      {
+        "partido": "bng",
+        "candidatura": "BNG",
+        "votos_pct": 10.03,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "bng",
+        "nombre": "Néstor Rego Candamil",
+        "fuente": {
+          "titulo": "Congreso, ficha de Néstor Rego (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=238&idLegislatura=XV",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso, ficha de Néstor Rego (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=238&idLegislatura=XV"
+          },
+          {
+            "titulo": "Congreso, declaración de bienes 10-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000224/000224_000_e_0000944_20230810.pdf"
+          },
+          {
+            "titulo": "Moncloa.com, listas del BNG (25-10-2026)",
+            "url": "https://www.moncloa.com/2026/10/25/bng-listas-29n-olalla-rodil-lugo-3455123/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "bng",
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ]
+  },
+  {
+    "id": "cuenca",
+    "nombre": "Cuenca",
+    "ccaa": "Castilla-La Mancha",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 39.8,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 37.33,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/cuenca.html"
+  },
+  {
+    "id": "gipuzkoa",
+    "nombre": "Gipuzkoa",
+    "ccaa": "País Vasco",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "bildu",
+        "candidatura": "BILDU",
+        "votos_pct": 31.26,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSE-EE",
+        "votos_pct": 23.28,
+        "escanos": 2
+      },
+      {
+        "partido": "pnv",
+        "candidatura": "PNV",
+        "votos_pct": 22.65,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "bildu",
+      "escanosenblanco",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "pnv",
+      "podemos",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/gipuzkoa.html"
+  },
+  {
+    "id": "girona",
+    "nombre": "Girona",
+    "ccaa": "Cataluña",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSC",
+        "votos_pct": 28.9,
+        "escanos": 2
+      },
+      {
+        "partido": "junts",
+        "candidatura": "JUNTS",
+        "votos_pct": 19.6,
+        "escanos": 2
+      },
+      {
+        "partido": "erc",
+        "candidatura": "ERC",
+        "votos_pct": 14.74,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-ECP",
+        "votos_pct": 10.96,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "alhora",
+      "erc",
+      "frenteobrero",
+      "junts",
+      "pacma",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/girona.html"
+  },
+  {
+    "id": "granada",
+    "nombre": "Granada",
+    "ccaa": "Andalucía",
+    "escanos_2026": 7,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.04,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.99,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 16.15,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 11.61,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/granada.html"
+  },
+  {
+    "id": "guadalajara",
+    "nombre": "Guadalajara",
+    "ccaa": "Castilla-La Mancha",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 36.38,
+        "escanos": 1
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.96,
+        "escanos": 1
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 19.25,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "falange",
+      "frenteobrero",
+      "mundojusto",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/guadalajara.html"
+  },
+  {
+    "id": "huelva",
+    "nombre": "Huelva",
+    "ccaa": "Andalucía",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 36.46,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 35.95,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 14.63,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/huelva.html"
+  },
+  {
+    "id": "huesca",
+    "nombre": "Huesca",
+    "ccaa": "Aragón",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 38.3,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.54,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/huesca.html"
+  },
+  {
+    "id": "jaen",
+    "nombre": "Jaén",
+    "ccaa": "Andalucía",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.35,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 36.29,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 14.76,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/jaen.html"
+  },
+  {
+    "id": "leon",
+    "nombre": "León",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 36.98,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.63,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "prepal",
+        "nombre": "Manuela Iglesias Carreño",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "escanosenblanco",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "prepal",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/leon.html"
+  },
+  {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "ccaa": "Cataluña",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSC",
+        "votos_pct": 29.45,
+        "escanos": 2
+      },
+      {
+        "partido": "erc",
+        "candidatura": "ERC",
+        "votos_pct": 18.62,
+        "escanos": 1
+      },
+      {
+        "partido": "junts",
+        "candidatura": "JUNTS",
+        "votos_pct": 18.04,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "alhora",
+      "erc",
+      "frenteobrero",
+      "junts",
+      "pacma",
+      "pp",
+      "psoe",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/lleida.html"
+  },
+  {
+    "id": "lugo",
+    "nombre": "Lugo",
+    "ccaa": "Galicia",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 50.35,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSdeG",
+        "votos_pct": 30.31,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "bng",
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/lugo.html"
+  },
+  {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "ccaa": "Comunidad de Madrid",
+    "escanos_2026": 38,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 40.51,
+        "escanos": 16
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 27.88,
+        "escanos": 10
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 15.44,
+        "escanos": 6
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 14.02,
+        "escanos": 5
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "podemos",
+        "nombre": "Irene Montero Gil",
+        "fuente": {
+          "titulo": "Parlamento Europeo, ficha de Irene Montero",
+          "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/home",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Parlamento Europeo, ficha de Irene Montero",
+            "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/home"
+          },
+          {
+            "titulo": "Parlamento Europeo, CV",
+            "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/cv"
+          },
+          {
+            "titulo": "Parlamento Europeo, declaraciones",
+            "url": "https://www.europarl.europa.eu/meps/en/245770/IRENE_MONTERO/declarations"
+          },
+          {
+            "titulo": "Parlamento Europeo, declaración de intereses privados (revisión 1, 05-08-2024)",
+            "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/ba8a6f22-8a91-46bb-bc98-3f7ddb436829_1725006001313.pdf"
+          },
+          {
+            "titulo": "Diari de Tarragona, Podemos y Frente Amplio en Madrid y Cataluña",
+            "url": "https://www.diaridetarragona.com/espana/273314/frente-amplio-concurriran-separado-catalunya-madrid.html"
+          },
+          {
+            "titulo": "Vozpópuli, 19-10-2026",
+            "url": "https://www.vozpopuli.com/espana/politica/montero-retiene-su-escano-y-su-sueldo-europeo-mientras-fia-al-personalismo-la-supervivencia-de-podemos-el-29-n.html"
+          },
+          {
+            "titulo": "The Objective, 06-11-2023 (firmeza)",
+            "url": "https://theobjective.com/espana/tribunales/2023-11-06/constitucional-recurso-irene-montero-condena/"
+          },
+          {
+            "titulo": "The Objective, 26-07-2023",
+            "url": "https://theobjective.com/espana/tribunales/2023-07-26/irene-montero-supremo-sentencia-rafael-marcos/"
+          },
+          {
+            "titulo": "Onda Vasca, 09-06-2023",
+            "url": "https://www.ondavasca.com/el-ts-condena-a-irene-montero-a-pagar-18-000-euros-a-la-expareja-de-maria-sevilla-por-presentarle-como-maltratrador/"
+          }
+        ]
+      },
+      {
+        "party": "salf",
+        "nombre": "Luis Pérez Fernández (Alvise Pérez)",
+        "fuente": {
+          "titulo": "Parlamento Europeo, ficha de Alvise Pérez",
+          "url": "https://www.europarl.europa.eu/meps/en/257019/ALVISE_PEREZ/home",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Parlamento Europeo, ficha de Alvise Pérez",
+            "url": "https://www.europarl.europa.eu/meps/en/257019/ALVISE_PEREZ/home"
+          },
+          {
+            "titulo": "Parlamento Europeo, declaraciones",
+            "url": "https://www.europarl.europa.eu/meps/en/257019/ALVISE_PEREZ/declarations"
+          },
+          {
+            "titulo": "Parlamento Europeo, declaración de intereses privados (revisión 3, 06-07-2026)",
+            "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/9108d7b8-2687-4c2e-ab04-ff7931788ad9_1783411203718.pdf"
+          },
+          {
+            "titulo": "Demócrata, Alvise cabeza de lista por Madrid (05-10-2026)",
+            "url": "https://www.democrata.es/fr/politique/luis-alvise-perez-sera-tete-de-liste-de-salf-par-madrid-aux-generales-du-29-novembre/"
+          },
+          {
+            "titulo": "RTVC, condena firme (09-10-2026)",
+            "url": "https://rtvc.es/supremo-confirma-condena-alvise-mensajes-jefe-policia-canarias-9-octubre-2026/"
+          },
+          {
+            "titulo": "Moncloa.com, seis causas en el Supremo (04-10-2026)",
+            "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+          }
+        ]
+      },
+      {
+        "party": "d21",
+        "nombre": "Miriam González Durántez",
+        "fuente": {
+          "titulo": "Euronews: quién es Miriam González",
+          "url": "https://es.euronews.com/2026/10/12/quien-es-miriam-gonzalez-desafia-al-bipartidismo-con-democracia-21-en-elecciones-espana",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Euronews: quién es Miriam González",
+            "url": "https://es.euronews.com/2026/10/12/quien-es-miriam-gonzalez-desafia-al-bipartidismo-con-democracia-21-en-elecciones-espana"
+          },
+          {
+            "titulo": "Demócrata: Democracia 21 concurrirá en Madrid y Barcelona",
+            "url": "https://www.democrata.es/politica/democracia-21-concurrira-en-madrid-y-barcelona-con-la-abogada-miriam-gonzalez-como-cabeza-de-lista/"
+          }
+        ]
+      },
+      {
+        "party": "falange",
+        "nombre": "Norberto Pedro Pico Sanabria",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      },
+      {
+        "party": "frenteobrero",
+        "nombre": "Roberto Vaquero Arribas",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          },
+          {
+            "titulo": "CGPJ, nota de prensa 31-10-2018: Audiencia Nacional condena a cinco de seis acusados de Reconstrucción Comunista",
+            "url": "https://www.poderjudicial.es/cgpj/es/Poder-Judicial/Sala-de-Prensa/Notas-de-prensa/La-Audiencia-Nacional-condena-a-cinco-de-los-seis-acusados-de-Reconstruccion-Comunista-a-penas-de-entre-seis-meses-y-tres-anos-y-medio-de-carcel"
+          },
+          {
+            "titulo": "Demócrata, Frente Obrero y UGT",
+            "url": "https://www.democrata.es/politica/frente-obrero-pancarta-sede-ugt-madrid-protesta/"
+          }
+        ]
+      },
+      {
+        "party": "mundojusto",
+        "nombre": "José Manuel Romero Melero",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      },
+      {
+        "party": "pcte",
+        "nombre": "Eva García de Madariaga Delgado",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "d21",
+      "falange",
+      "frenteobrero",
+      "iustitia",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "nota_escanos": "Tenía 37 escaños en 2023; el reparto de 2026 le asigna 38."
+  },
+  {
+    "id": "malaga",
+    "nombre": "Málaga",
+    "ccaa": "Andalucía",
+    "escanos_2026": 11,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 38.34,
+        "escanos": 5
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 30.28,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 16.48,
+        "escanos": 2
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 12.22,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/malaga.html"
+  },
+  {
+    "id": "murcia",
+    "nombre": "Murcia",
+    "ccaa": "Región de Murcia",
+    "escanos_2026": 10,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 41.24,
+        "escanos": 4
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 25.25,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 21.83,
+        "escanos": 2
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 9.52,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "escanosenblanco",
+        "nombre": "Ángel María Rey Albesa",
+        "fuente": {
+          "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "escanosenblanco",
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/murcia.html"
+  },
+  {
+    "id": "navarra",
+    "nombre": "Navarra",
+    "ccaa": "Navarra",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSN",
+        "votos_pct": 27.38,
+        "escanos": 2
+      },
+      {
+        "partido": "bildu",
+        "candidatura": "BILDU",
+        "votos_pct": 17.31,
+        "escanos": 1
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 16.66,
+        "escanos": 1
+      },
+      {
+        "partido": "upn",
+        "candidatura": "UPN",
+        "votos_pct": 15.27,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "upn",
+        "nombre": "Leticia San Martín Rodríguez",
+        "fuente": {
+          "titulo": "Naiz: UPN elige a Leticia San Martín y Javier Esparza",
+          "url": "https://www.naiz.eus/info/noticia/20261023/upn-elige-a-leticia-san-martin-y-javier-esparza-como-cabezas-de-lista-al-congreso-y-al-senado",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Naiz: UPN elige a Leticia San Martín y Javier Esparza",
+            "url": "https://www.naiz.eus/info/noticia/20261023/upn-elige-a-leticia-san-martin-y-javier-esparza-como-cabezas-de-lista-al-congreso-y-al-senado"
+          },
+          {
+            "titulo": "OKDiario Navarra: UPN y PP cierran sus listas",
+            "url": "https://navarra.okdiario.com/articulo/politica/upn-pp-cierran-listas-29-noviembre-leticia-liderara-congreso-javier-esparza-senado/20261023175908664996.html"
+          },
+          {
+            "titulo": "Parlamento de Navarra: declaración de actividades 2024",
+            "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/San%20Mart%C3%ADn%20Rodr%C3%ADguez%2C%20Leticia%20-%202024%20A.pdf"
+          },
+          {
+            "titulo": "Parlamento de Navarra: modificación de bienes 2024",
+            "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/San%20Mart%C3%ADn%20Rodr%C3%ADguez%2C%20Leticia%20-%202024%20B%20para%20publicar.pdf"
+          }
+        ]
+      },
+      {
+        "party": "geroabai",
+        "nombre": "Pablo Azcona Molinet",
+        "fuente": {
+          "titulo": "orain.eus: Pablo Azcona and Mayte Espinosa will head Geroa Bai's lists",
+          "url": "https://orain.eus/en/politics/elections/hauteskunde-orokorrak/2026/10/23/pablo-azcona-and-mayte-espinosa-will-head-geroa-bais-list-to-congress-and-the-senate/",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "orain.eus: Pablo Azcona and Mayte Espinosa will head Geroa Bai's lists",
+            "url": "https://orain.eus/en/politics/elections/hauteskunde-orokorrak/2026/10/23/pablo-azcona-and-mayte-espinosa-will-head-geroa-bais-list-to-congress-and-the-senate/"
+          },
+          {
+            "titulo": "Parlamento de Navarra: modificación de bienes 2024",
+            "url": "https://parlamentodenavarra.es/sites/default/files/archivos-varios/Azcona%20Molinet%2C%20Pablo%20-%202024%20B.pdf"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "bildu",
+      "frenteobrero",
+      "geroabai",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "upn",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/navarra.html"
+  },
+  {
+    "id": "ourense",
+    "nombre": "Ourense",
+    "ccaa": "Galicia",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 49.92,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSdeG",
+        "votos_pct": 30.4,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "bng",
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/ourense.html"
+  },
+  {
+    "id": "palencia",
+    "nombre": "Palencia",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 41.85,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 34.49,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "escanosenblanco",
+      "falange",
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/palencia.html"
+  },
+  {
+    "id": "las-palmas",
+    "nombre": "Las Palmas",
+    "ccaa": "Canarias",
+    "escanos_2026": 8,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.17,
+        "escanos": 3
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 25.86,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 14.61,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 10.24,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "cc",
+        "nombre": "Teodoro Sosa",
+        "fuente": {
+          "titulo": "RTVC: Primero Canarias y CC cierran el acuerdo (14-10-2026)",
+          "url": "https://rtvc.es/primero-canarias-coalicion-canaria-cierran-acuerdo-candidatura-unidad-canaria-29-n-14-octubre-2026/",
+          "fecha": "2026-10-14"
+        },
+        "fuentes": [
+          {
+            "titulo": "RTVC: Primero Canarias y CC cierran el acuerdo (14-10-2026)",
+            "url": "https://rtvc.es/primero-canarias-coalicion-canaria-cierran-acuerdo-candidatura-unidad-canaria-29-n-14-octubre-2026/"
+          },
+          {
+            "titulo": "RTVC: Sosa, el partido de ida es en Madrid (17-10-2026)",
+            "url": "https://rtvc.es/sosa-el-partido-de-ida-es-en-madrid-el-de-vuelta-en-canarias-en-2027-y-no-me-excluyo-17-de-octubre-de-2026/"
+          },
+          {
+            "titulo": "RTVC: BNR nombra a Teodoro Sosa presidente (20-11-2025)",
+            "url": "https://rtvc.es/bnr-teodoro-sosa-presidente-ejecutiva-nacional-20-noviembre-2025/"
+          },
+          {
+            "titulo": "Ayuntamiento de Gáldar: biografía (no legible)",
+            "url": "https://transparencia.galdar.es/storage/uploads/1689507912CV Teodoro Claret Sosa Monzón.odt"
+          }
+        ]
+      },
+      {
+        "party": "upc",
+        "nombre": "Luis Alberto Campos Jiménez",
+        "fuente": {
+          "titulo": "RTVC: Luis Campos y Marisol Collado, cabezas de lista de UPC (26-10-2026)",
+          "url": "https://rtvc.es/luis-campos-marisol-collado-cabezas-lista-congreso-unidad-pueblo-canario-26-octubre-2026/",
+          "fecha": "2026-10-26"
+        },
+        "fuentes": [
+          {
+            "titulo": "RTVC: Luis Campos y Marisol Collado, cabezas de lista de UPC (26-10-2026)",
+            "url": "https://rtvc.es/luis-campos-marisol-collado-cabezas-lista-congreso-unidad-pueblo-canario-26-octubre-2026/"
+          },
+          {
+            "titulo": "Parlamento de Canarias: ficha y biografía",
+            "url": "https://www.parcan.es/composicion/diputados/diputado/11023/biografia/"
+          },
+          {
+            "titulo": "Parlamento de Canarias: declaración de bienes",
+            "url": "https://www.parcan.es/composicion/diputados/diputado/11023/declaracion_bienes/"
+          },
+          {
+            "titulo": "La Voz de Lanzarote: Luis Campos replaces Román Rodríguez as general secretary",
+            "url": "https://www.lavozdelanzarote.com/en/news/politics/luis-campos-replaces-roman-rodriguez-as-general-secretary-of-nueva-canarias_236679_102.html"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "cc",
+      "drago",
+      "escanosenblanco",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "upc",
+      "vox"
+    ]
+  },
+  {
+    "id": "pontevedra",
+    "nombre": "Pontevedra",
+    "ccaa": "Galicia",
+    "escanos_2026": 7,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 39.61,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSdeG",
+        "votos_pct": 31.44,
+        "escanos": 3
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 13.24,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "bng",
+      "escanosenblanco",
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/pontevedra.html"
+  },
+  {
+    "id": "la-rioja",
+    "nombre": "La Rioja",
+    "ccaa": "La Rioja",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 45.66,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 35.73,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/la-rioja.html"
+  },
+  {
+    "id": "salamanca",
+    "nombre": "Salamanca",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 4,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 47.03,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 30.4,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "prepal",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/salamanca.html"
+  },
+  {
+    "id": "santa-cruz-de-tenerife",
+    "nombre": "Santa Cruz de Tenerife",
+    "ccaa": "Canarias",
+    "escanos_2026": 7,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 35.35,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 33.58,
+        "escanos": 3
+      },
+      {
+        "partido": "cc",
+        "candidatura": "CC",
+        "votos_pct": 16.61,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "cc",
+        "nombre": "Cristina Valido García",
+        "fuente": {
+          "titulo": "Congreso: registro de intereses (actividades)",
+          "url": "https://www.congreso.es/docinte/registro_intereses_diputado_38.pdf",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Congreso: registro de intereses (actividades)",
+            "url": "https://www.congreso.es/docinte/registro_intereses_diputado_38.pdf"
+          },
+          {
+            "titulo": "Congreso: declaración de bienes (PDF)",
+            "url": "https://www.congreso.es/docbienes/leg15/000033/000033_001_e_0086940_20251029.pdf"
+          },
+          {
+            "titulo": "El Congreso en tu Mano: directorio de diputados",
+            "url": "https://elcongresoentumano.es/diputados"
+          },
+          {
+            "titulo": "RTVC: Cristina Valido y María Fernández de CC al Congreso",
+            "url": "https://rtvc.es/cristina-valido-y-maria-fernandez-de-cc-al-congreso/"
+          }
+        ]
+      },
+      {
+        "party": "drago",
+        "nombre": "Alberto Rodríguez Rodríguez",
+        "fuente": {
+          "titulo": "RTVC: Drago Canarias presenta sus candidaturas completas (28-10-2026)",
+          "url": "https://rtvc.es/drago-canarias-candidaturas-28-octubre-2026/",
+          "fecha": "2026-10-28"
+        },
+        "fuentes": [
+          {
+            "titulo": "RTVC: Drago Canarias presenta sus candidaturas completas (28-10-2026)",
+            "url": "https://rtvc.es/drago-canarias-candidaturas-28-octubre-2026/"
+          },
+          {
+            "titulo": "Ayuntamiento de La Laguna: biografía oficial",
+            "url": "https://www.aytolalaguna.es/ayuntamiento/.galleries/DOCUMENTOS-Corporacion-Municipal/DOCUMENTOS-Alberto-Rodriguez-Rodriguez/UTF-8Bio-para-transparencia-y-web-Ayuntamiento-LL.odt"
+          },
+          {
+            "titulo": "eldiario.es: el Supremo condena a Alberto Rodríguez (7-10-2021)",
+            "url": "https://www.eldiario.es/politica/condena-mes-medio-carcel-alberto-rodriguez-agredir-policia_1_8350486.amp.html"
+          },
+          {
+            "titulo": "Onda Vasca/Europa Press: condenado a 1 mes y 15 días",
+            "url": "https://www.ondavasca.com/el-diputado-de-podemos-alberto-rodriguez-condenado-a-1-mes-y-15-dias-de-prision-por-agredir-a-un-policia/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "autonomos",
+      "cc",
+      "drago",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "upc",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/santa-cruz-de-tenerife.html"
+  },
+  {
+    "id": "segovia",
+    "nombre": "Segovia",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 45.13,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 30.51,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/segovia.html"
+  },
+  {
+    "id": "sevilla",
+    "nombre": "Sevilla",
+    "ccaa": "Andalucía",
+    "escanos_2026": 12,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 36.63,
+        "escanos": 5
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 33.37,
+        "escanos": 4
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar",
+        "votos_pct": 14.0,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 13.32,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "aa",
+        "nombre": "Luis de los Santos",
+        "fuente": {
+          "titulo": "Demócrata: Adelante elige a siete mujeres y un hombre sin experiencia institucional como cabezas de lista",
+          "url": "https://www.democrata.es/elecciones-generales-espana/adelante-elige-a-siete-mujeres-y-un-hombre-sin-experiencia-institucional-como-cabezas-de-lista-al-congreso/",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "Demócrata: Adelante elige a siete mujeres y un hombre sin experiencia institucional como cabezas de lista",
+            "url": "https://www.democrata.es/elecciones-generales-espana/adelante-elige-a-siete-mujeres-y-un-hombre-sin-experiencia-institucional-como-cabezas-de-lista-al-congreso/"
+          },
+          {
+            "titulo": "Demócrata (EN): Adelante launches its heads of list",
+            "url": "https://www.democrata.es/en/general-elections-spain/adelante-launches-its-heads-of-list-and-attacks-the-speculation-that-turns-andalusia-into-a-set/"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "aa",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ]
+  },
+  {
+    "id": "soria",
+    "nombre": "Soria",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 2,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.21,
+        "escanos": 1
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 29.49,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "sorianya",
+        "nombre": "Juan Antonio (Toño) Palomar Sicilia",
+        "fuente": {
+          "titulo": "El Debate: Soria ¡Ya! elige a Juan Antonio Palomar",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261019/soria-elige-juan-antonio-palomar-liderar-lista-congreso-david-romera-senado_471237.html",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "El Debate: Soria ¡Ya! elige a Juan Antonio Palomar",
+            "url": "https://www.eldebate.com/espana/castilla-y-leon/20261019/soria-elige-juan-antonio-palomar-liderar-lista-congreso-david-romera-senado_471237.html"
+          },
+          {
+            "titulo": "El Mirón de Soria: Palomar, nuevo presidente de Soria ¡Ya! (9-10-2023)",
+            "url": "https://elmirondesoria.es/soria/capital/palomar-nuevo-presidente-de-soria-ya/amp"
+          },
+          {
+            "titulo": "eldiario.es: Palomar y Romera encabezarán las listas",
+            "url": "https://www.eldiario.es/castilla-y-leon/politica/palomar-romera-encabezaran-listas-soria-congreso-senado_1_13597356.html"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "escanosenblanco",
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sorianya",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/soria.html"
+  },
+  {
+    "id": "tarragona",
+    "nombre": "Tarragona",
+    "ccaa": "Cataluña",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "psoe",
+        "candidatura": "PSC",
+        "votos_pct": 32.9,
+        "escanos": 2
+      },
+      {
+        "partido": "erc",
+        "candidatura": "ERC",
+        "votos_pct": 15.07,
+        "escanos": 1
+      },
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 13.87,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-ECP",
+        "votos_pct": 11.33,
+        "escanos": 1
+      },
+      {
+        "partido": "junts",
+        "candidatura": "JUNTS",
+        "votos_pct": 11.08,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "alhora",
+      "erc",
+      "frenteobrero",
+      "junts",
+      "pacma",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/tarragona.html"
+  },
+  {
+    "id": "teruel",
+    "nombre": "Teruel",
+    "ccaa": "Aragón",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 35.1,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 29.21,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "existe",
+        "nombre": "Tomás Guitarte",
+        "fuente": {
+          "titulo": "La Comarca: Tomás Guitarte volverá a encabezar la candidatura",
+          "url": "https://www.lacomarca.net/tomas-guitarte-volvera-encabezar-candidatura-teruel-existe-congreso-elecciones-29n/",
+          "fecha": null
+        },
+        "fuentes": [
+          {
+            "titulo": "La Comarca: Tomás Guitarte volverá a encabezar la candidatura",
+            "url": "https://www.lacomarca.net/tomas-guitarte-volvera-encabezar-candidatura-teruel-existe-congreso-elecciones-29n/"
+          },
+          {
+            "titulo": "La Comarca: el juez archiva provisionalmente la causa (16-2-2026)",
+            "url": "https://www.lacomarca.net/juez-archiva-provisionalmente-teruel-causa-ex-jefa-gabinete-diputacion-provincial-falta-indicios/"
+          },
+          {
+            "titulo": "Última Hora: Izquierdo (PAR) pide la suspensión de empleo (5-2-2026)",
+            "url": "https://www.ultimahora.es/noticias/comunidades/2026/02/05/2564419/izquierdo-par-pide-suspension-empleo-mujer-guitarte-teruel-existe-dpt.html"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "existe",
+      "falange",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/teruel.html"
+  },
+  {
+    "id": "toledo",
+    "nombre": "Toledo",
+    "ccaa": "Castilla-La Mancha",
+    "escanos_2026": 6,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 37.87,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.53,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 19.66,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "falange",
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/toledo.html"
+  },
+  {
+    "id": "valencia",
+    "nombre": "València/Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "escanos_2026": 16,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 33.67,
+        "escanos": 6
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.1,
+        "escanos": 5
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-Compromís",
+        "votos_pct": 16.83,
+        "escanos": 3
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.22,
+        "escanos": 2
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [
+      {
+        "party": "compromis",
+        "nombre": "Àgueda Micó Micó",
+        "fuente": {
+          "titulo": "eldiario.es: la izquierda valenciana irá unida (16-10-2026)",
+          "url": "https://www.eldiario.es/comunitat-valenciana/politica/izquierda-valenciana-ira-unida-elecciones-generales-papeleta-compromis-front-valencia_1_13591005.html",
+          "fecha": "2026-10-16"
+        },
+        "fuentes": [
+          {
+            "titulo": "eldiario.es: la izquierda valenciana irá unida (16-10-2026)",
+            "url": "https://www.eldiario.es/comunitat-valenciana/politica/izquierda-valenciana-ira-unida-elecciones-generales-papeleta-compromis-front-valencia_1_13591005.html"
+          },
+          {
+            "titulo": "Actualidad Valencia: Compromís confirma a Micó como número 1",
+            "url": "https://actualidadvalencia.com/compromis-mico-numero-1-valencia-podem-alicante/"
+          },
+          {
+            "titulo": "El Congreso en tu Mano: ficha de Micó",
+            "url": "https://elcongresoentumano.es/diputado/164"
+          },
+          {
+            "titulo": "Congreso: declaración de bienes (PDF)",
+            "url": "https://www.congreso.es/docbienes/leg15/000158/000158_000_e_0000678_20230808.pdf"
+          }
+        ]
+      }
+    ],
+    "candidaturas": [
+      "compromis",
+      "falange",
+      "frenteobrero",
+      "mundojusto",
+      "pacma",
+      "pcte",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ]
+  },
+  {
+    "id": "valladolid",
+    "nombre": "Valladolid",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 5,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 40.85,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.74,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.18,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "escanosenblanco",
+      "falange",
+      "frenteobrero",
+      "pacma",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/valladolid.html"
+  },
+  {
+    "id": "zamora",
+    "nombre": "Zamora",
+    "ccaa": "Castilla y León",
+    "escanos_2026": 3,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 44.79,
+        "escanos": 2
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 32.45,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "prepal",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/zamora.html"
+  },
+  {
+    "id": "zaragoza",
+    "nombre": "Zaragoza",
+    "ccaa": "Aragón",
+    "escanos_2026": 7,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 36.05,
+        "escanos": 3
+      },
+      {
+        "partido": "psoe",
+        "candidatura": "PSOE",
+        "votos_pct": 30.79,
+        "escanos": 2
+      },
+      {
+        "partido": "vox",
+        "candidatura": "VOX",
+        "votos_pct": 15.33,
+        "escanos": 1
+      },
+      {
+        "partido": "sumar",
+        "candidatura": "Sumar-Aragón",
+        "votos_pct": 13.45,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pcte",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "sumar",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/zaragoza.html"
+  },
+  {
+    "id": "ceuta",
+    "nombre": "Ceuta",
+    "ccaa": "Ceuta",
+    "escanos_2026": 1,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 38.76,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "podemos",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/ceuta.html"
+  },
+  {
+    "id": "melilla",
+    "nombre": "Melilla",
+    "ccaa": "Melilla",
+    "escanos_2026": 1,
+    "escanos_fuente": {
+      "titulo": "La Moncloa, Referencia del Consejo de Ministros de 05/10/2026 (Real Decreto 806/2026 de convocatoria; tabla de diputados por circunscripción, art. 162 LOREG)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261005-referencia-convocatoria-elecciones.aspx",
+      "fecha": "2026-10-05"
+    },
+    "resultados_2023": [
+      {
+        "partido": "pp",
+        "candidatura": "PP",
+        "votos_pct": 49.19,
+        "escanos": 1
+      }
+    ],
+    "resultados_2023_fuente": {
+      "titulo": "Ministerio del Interior, resultados provinciales del Congreso, elecciones generales 23-07-2023 (escrutinio 24/07/2023; copia en PDF alojada en aytoconsuegra.es)",
+      "url": "https://aytoconsuegra.es/wp-content/uploads/2023/07/congreso_23J23-resultados-prov.pdf",
+      "fecha": "2023-07-24"
+    },
+    "cabezas_lista": [],
+    "candidaturas": [
+      "frenteobrero",
+      "pp",
+      "psoe",
+      "salf",
+      "vox"
+    ],
+    "resultados_2023_verificado": "https://www.ultimahora.es/elecciones/23j/congreso/melilla.html"
+  }
+]

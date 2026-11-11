@@ -2,13 +2,13 @@
  "id": "bildu",
  "nombre": "Euskal Herria Bildu",
  "siglas": "EH Bildu",
- "candidato": "Oskar Matute (cabeza de lista por Bizkaia; pendiente de ratificación por la militancia)",
+ "candidato": "Oskar Matute (cabeza de lista por Bizkaia)",
  "ideologia": "Izquierda independentista vasca (abertzale)",
  "ambito": "País Vasco y Navarra",
  "color": "#00A8A9",
  "web": "https://ehbildu.eus",
  "escanos_2023": 6,
- "resumen": "Coalición de la izquierda independentista vasca (Sortu, EA, Alternatiba, Aralar) coordinada por Arnaldo Otegi, que apoyó la investidura de Sánchez en 2023. Prioriza el reconocimiento nacional y el derecho a decidir, la vivienda pública y el control de alquileres, la subida de salarios y pensiones mínimas y la fiscalidad progresiva.",
+ "resumen": "Propone hacer permanentes los impuestos a banca, energéticas y grandes fortunas, recuperar la prórroga automática e indefinida de los contratos de alquiler y reconocer a Euskal Herria como nación. Fuente: programa 2023.",
  "fuentes_programa": [
   {
    "nombre": "EH Bildu, 'Compromiso de Euskal Herria Bildu' (Generales 23J)",
@@ -728,7 +728,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21",
+ "actualizado": "2026-11-11",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [

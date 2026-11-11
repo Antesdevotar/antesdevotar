@@ -72,7 +72,22 @@ Recoge los problemas con más impacto en la calidad de vida según datos oficial
 
 Cada tema incluye un dato principal, datos de contexto, las causas que señalan los expertos y, cuando las soluciones habituales implican más gasto público, una nota sobre cómo se financiaría.
 
-## 8. Correcciones y actualizaciones
+## 7 bis. Resúmenes y preguntas frecuentes de cada partido
+
+- El resumen de cabecera recoge siempre tres propuestas, elegidas con la misma regla para todos: la primera propuesta del partido en economía, empleo e impuestos; la primera en vivienda (o, si no tiene, en servicios públicos); y la primera del área en la que el partido tiene más propuestas, excluidas las dos anteriores. «Primera» significa la primera en el orden de su programa o de la fuente; no se elige por su atractivo.
+- Las preguntas frecuentes sobre propuestas tratan los mismos temas para todos los partidos: vivienda, economía e impuestos, e inmigración (o sanidad, si el partido no tiene propuestas de inmigración).
+
+## 8. Candidatos
+
+- Hay una ficha por candidatura: la persona candidata a la Presidencia del Gobierno o, si el partido no presenta ninguna, su cabeza de lista en la circunscripción más poblada en la que se presenta.
+- **Formación:** solo la acreditada en fuentes oficiales (ficha del Congreso, Senado, Parlamento Europeo o parlamentos autonómicos) o en el currículum publicado por el propio partido. Si no consta, se indica «Sin datos acreditados».
+- **Trayectoria:** cargos públicos con sus fechas y un resumen muy breve de la experiencia fuera de la política.
+- **Patrimonio:** el de la última declaración pública obligatoria. Los inmuebles se muestran solo por número, tipo y ubicación, sin valor, porque el valor declarado es el catastral y está muy por debajo del de mercado. Cuentas, inversiones y deudas se muestran en euros. Si solo está disponible el saldo total, se muestra ese saldo y se explica qué incluye. Si la persona no tiene obligación de declarar o no se ha localizado su declaración, se indica así.
+- **Sentencias firmes:** las de la persona candidata o de su familia directa que guarden relación con su actividad pública.
+- **Procedimientos judiciales abiertos:** con el mismo criterio de relación con la actividad pública, se describen los hechos, el órgano judicial y la fase en que está el procedimiento («Fase: X. Sin sentencia.»; si hay una condena recurrida, «Sin sentencia firme.»). Los procedimientos abiertos no se usan en las críticas a los partidos (apartado 4).
+- No se ordena ni se compara a los candidatos por patrimonio.
+
+## 9. Correcciones y actualizaciones
 
 - Los errores se corrigen lo antes posible y las correcciones relevantes se registran públicamente.
 - Las fuentes, las fechas de actualización y el historial de cambios están en este repositorio.

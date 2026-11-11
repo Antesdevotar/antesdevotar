@@ -8,7 +8,7 @@
  "color": "#63BE21",
  "web": "https://www.voxespana.es",
  "escanos_2023": 33,
- "resumen": "Partido fundado en 2013 y presidido por Santiago Abascal, tercera fuerza en las encuestas para el 29N. Según sus propios documentos, prioriza el control de la inmigración («prioridad nacional» y repatriaciones), bajadas de impuestos y desregulación, la recentralización del Estado y la derogación de leyes como las de vivienda, violencia de género, memoria y cambio climático.",
+ "resumen": "Propone aplicar un IRPF estatal de dos tipos, del 15 % y del 25 %, derogar la Ley de Vivienda de 2023 y expulsar de inmediato a quien entre ilegalmente. Fuente: programa 2023 y declaraciones.",
  "fuentes_programa": [
   {
    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
@@ -456,7 +456,7 @@
   {
    "id": "vox-inm-01",
    "area": "inmigracion",
-   "texto": "Expulsión inmediata de quien entre «ilegalmente» (de forma irregular); ningún inmigrante en situación irregular podrá regularizarse.",
+   "texto": "Expulsión inmediata de quien entre «ilegalmente»; ningún inmigrante en situación irregular podrá regularizarse.",
    "origen": "programa-2023",
    "fuente": {
     "nombre": "Programa Vox 2023, medida 202, 206",
@@ -1165,7 +1165,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21",
+ "actualizado": "2026-11-11",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [

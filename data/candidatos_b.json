@@ -42,7 +42,8 @@
       "cargo_actual": "Abogado; sin cargo institucional (cabeza de lista al Congreso por Sevilla)",
       "experiencia_fuera": "Abogado especializado en derechos humanos (una versión de la misma noticia añade derecho penal).",
       "patrimonio_nota": "No ocupa ni ha ocupado cargo que obligue a presentar declaración de bienes ante un registro público; no hay declaración oficial. No se han localizado formación ni trayectoria adicionales en fuentes abiertas."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "cc",
@@ -110,7 +111,8 @@
       "rol": "Cabeza de lista de la candidatura CC-Primero Canarias por Las Palmas (circunscripción más poblada de Canarias). En Santa Cruz de Tenerife encabeza Cristina Valido (ver ficha siguiente). No hay candidato a la Presidencia del Gobierno.",
       "cargo_actual": "Segundo vicepresidente del Cabildo de Gran Canaria y presidente del Bloque Nacionalista Rural (BNR), según RTVC. RTVC (17-10-2026) lo cita además como alcalde de Gáldar, pero otra nota de RTVC (20-11-2025) sugiere que el alcalde es Julio Mateo Castillo: dato discrepante, no confirmado.",
       "patrimonio_nota": "No localizada declaración pública (Cabildo de Gran Canaria / Ayuntamiento de Gáldar). Como cargo local está obligado a declarar; la ausencia de hallazgo no implica que no exista."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "cc",
@@ -119,18 +121,23 @@
     "cargo_actual": "Diputada por Santa Cruz de Tenerife (Grupo Mixto) hasta la disolución de las Cortes; concejal de El Rosario",
     "trayectoria": [
       {
+        "cargo": "Concejal del Ayuntamiento de La Orotava (Juventud)",
+        "desde": "1999",
+        "hasta": "2003"
+      },
+      {
         "cargo": "Vicepresidenta y consejera de Asuntos Sociales del Cabildo de Tenerife",
-        "desde": null,
-        "hasta": null
+        "desde": "2003",
+        "hasta": "2017"
       },
       {
         "cargo": "Consejera de Empleo, Asuntos Sociales y Vivienda del Gobierno de Canarias",
-        "desde": null,
+        "desde": "2017-01",
         "hasta": "2023"
       },
       {
         "cargo": "Diputada del Parlamento de Canarias",
-        "desde": null,
+        "desde": "2019",
         "hasta": "2023-08-02"
       },
       {
@@ -144,10 +151,10 @@
         "hasta": null
       }
     ],
-    "anos_en_politica": null,
-    "anos_base": "No constan fechas de inicio de sus cargos en las fuentes abiertas consultadas (RTVC 2023 no da años).",
+    "anos_en_politica": 27,
+    "anos_base": "Primer cargo electo: concejal de La Orotava desde 1999 (Diario de Avisos, 04-01-2017); 2026-1999=27.",
     "experiencia_fuera": null,
-    "formacion": "Estudió Filología; experta universitaria en Gobernabilidad y Desarrollo Local y en Gestión de Políticas Públicas; técnica especialista en Administración de Empresas.",
+    "formacion": "Estudios de Filología (no consta titulación); experta universitaria en Gobernabilidad y Desarrollo Local; experta universitaria en Gestión de Políticas Públicas; técnica especialista en Administración de Empresas.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -182,6 +189,10 @@
       {
         "nombre": "RTVC: Cristina Valido y María Fernández de CC al Congreso",
         "url": "https://rtvc.es/cristina-valido-y-maria-fernandez-de-cc-al-congreso/"
+      },
+      {
+        "nombre": "Diario de Avisos, Pablo Rodríguez y Cristina Valido, nuevos consejeros del Gobierno de Canarias (04-01-2017)",
+        "url": "https://diariodeavisos.elespanol.com/2017/01/pablo-rodriguez-baltar-valido-barragan-nuevos-consejeros-del-gobierno-canarias/"
       }
     ],
     "notas_internas": {
@@ -189,7 +200,8 @@
       "cargo_actual": "Diputada por Santa Cruz de Tenerife (Grupo Mixto, XV Legislatura) hasta la disolución; concejal de El Rosario",
       "formacion": "Estudió Filología; experta universitaria en Gobernabilidad y Desarrollo Local y en Gestión de Políticas Públicas; técnica especialista en Administración de Empresas (sin centro ni año; RTVC 2023).",
       "patrimonio_nota": "Fecha tomada del nombre del PDF oficial (versión 001); el PDF no pudo leerse. Las cifras (0 inmuebles; patrimonio neto -3.933 EUR, 'deuda > cuentas', sin casas ni coches) proceden de El Congreso en tu Mano, que reproduce la declaración oficial: se citan como prensa/agregador. Desglose de depósitos, otros bienes y deudas no verificable. Neto = -3.933 (dato del agregador, no calculado)."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "upn",
@@ -281,7 +293,8 @@
           "porcentaje": null
         }
       ]
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "compromis",
@@ -323,7 +336,7 @@
     "anos_en_politica": 23,
     "anos_base": "2003 (concejal de L'Olleria) a 2026. Fuente: biografía reproducida por El Congreso en tu Mano a partir del Congreso.",
     "experiencia_fuera": "Profesora asociada de Ciencia Política en la Universitat de València (desde 2014).",
-    "formacion": "Licenciatura en Derecho (Universitat de València); licenciatura en Ciencias Políticas y de la Administración (UOC); Diploma de Estudios Avanzados (Universitat de València).",
+    "formacion": "Licenciada en Derecho, Universitat de València; licenciada en Ciencias Políticas y de la Administración, Universitat Oberta de Catalunya; Diploma de Estudios Avanzados, Universitat de València.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -365,7 +378,8 @@
       "cargo_actual": "Diputada por València (Grupo Mixto, XV Legislatura) hasta la disolución de las Cortes (6-10-2026, según El Congreso en tu Mano)",
       "formacion": "Licenciatura en Derecho (Universitat de València); licenciatura en Ciencias Políticas y de la Administración (UOC); Diploma de Estudios Avanzados (Universitat de València). Sin años (El Congreso en tu Mano).",
       "patrimonio_nota": "Declaración de toma de posesión (v.1); el PDF no pudo leerse. Según El Congreso en tu Mano (agregador que reproduce la declaración): 3 inmuebles y patrimonio neto de -115.905 EUR SIN incluir casas ni coches (las deudas declaradas superan a las cuentas). Valor de inmuebles, desglose de depósitos, otros bienes y deudas no verificados; neto total no calculable. Existe además declaración de intereses económicos de la misma fecha."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "mes",
@@ -420,7 +434,8 @@
       "rol": "Cabeza de lista de Ara Més-Front Ampli al Congreso por Baleares (coordinadora de la federación Ara Més, según La Voz de Ibiza)",
       "cargo_actual": "Presidenta de Esquerra Republicana de les Illes Balears y coordinadora de Ara Més; dejó la concejalía de Manacor en el pleno del 9-2-2026",
       "patrimonio_nota": "No localizada declaración pública (Ayuntamiento de Manacor). Como regidora estaba obligada a declarar; la ausencia de hallazgo no implica que no exista."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "upc",
@@ -457,7 +472,7 @@
     "anos_en_politica": 11,
     "anos_base": "2015 (primer cargo con año: diputado autonómico) a 2026; fue además concejal 12 años sin fechas, por lo que es un mínimo.",
     "experiencia_fuera": "Auxiliar de juego, técnico de juego, administrativo y asesor contable.",
-    "formacion": "Técnico Especialista en Comercio Exterior y grado universitario en Comunicación.",
+    "formacion": "Técnico especialista en Comercio Exterior; graduado en Comunicación.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -502,7 +517,8 @@
         "Concejal del Ayuntamiento de Santa Lucía (primer teniente de alcalde); 12 años, sin fechas"
       ],
       "patrimonio_nota": "Declaración inicial de bienes patrimoniales (XI Legislatura). El PDF oficial es un documento escaneado sin capa de texto y no pudo leerse con las herramientas disponibles; no se transcriben cifras. Sin inmuebles, depósitos, otros bienes ni deudas verificados; neto no calculable. No se muestran declaraciones posteriores en la página oficial."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "drago",
@@ -534,7 +550,7 @@
     "anos_en_politica": 10,
     "anos_base": "2016 (diputado del Congreso) a 2026, según su biografía oficial del Ayuntamiento de La Laguna.",
     "experiencia_fuera": "Refinería de Santa Cruz de Tenerife, más de 15 años y en activo; antes, Complejo Ambiental de Tenerife (Arico).",
-    "formacion": "Técnico Superior en Química Ambiental.",
+    "formacion": "Técnico superior en Química Ambiental.",
     "patrimonio": {
       "declarado": false,
       "estado": "no_localizada",
@@ -594,7 +610,8 @@
         }
       ],
       "patrimonio_nota": "No localizada declaración pública vigente (Ayuntamiento de La Laguna). Como concejal está obligado a declarar; la ausencia de hallazgo no implica que no exista."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "geroabai",
@@ -672,7 +689,8 @@
         "Presidente de la Federación Navarra de Municipios y Concejos (citado para 2015 y 2019)"
       ],
       "patrimonio_nota": "Solo se localizó el documento de modificaciones del 30-6-2024 (adquisición de un vehículo nuevo). No se localizó la declaración inicial de 2023; no constan inmuebles, depósitos, importes ni deudas. Neto no calculable."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "existe",
@@ -683,11 +701,11 @@
       {
         "cargo": "Diputado del Congreso por Teruel (Teruel Existe)",
         "desde": "2019",
-        "hasta": null
+        "hasta": "2023"
       },
       {
         "cargo": "Diputado de las Cortes de Aragón (Aragón-Teruel Existe)",
-        "desde": null,
+        "desde": "2023",
         "hasta": null
       }
     ],
@@ -730,7 +748,8 @@
     "notas_internas": {
       "rol": "Cabeza de lista de Teruel Existe al Congreso por Teruel (La Comarca)",
       "patrimonio_nota": "No localizada su declaración de bienes de las Cortes de Aragón (ni la de la etapa en el Congreso, ya no vigente). Como diputado autonómico está obligado a declarar; la ausencia de hallazgo no implica que no exista."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "sorianya",
@@ -740,8 +759,8 @@
     "trayectoria": [
       {
         "cargo": "Procurador en las Cortes de Castilla y León",
-        "desde": null,
-        "hasta": null
+        "desde": "2022",
+        "hasta": "2026"
       },
       {
         "cargo": "Presidente de Soria ¡Ya!",
@@ -792,7 +811,8 @@
         "Procurador en las Cortes de Castilla y León (cuatro años, según El Debate; sin fechas exactas)"
       ],
       "patrimonio_nota": "No localizada su declaración de bienes en las Cortes de Castilla y León (las publicadas son PDF escaneados sin identificar al declarante). Como procurador estuvo obligado a declarar; la ausencia de hallazgo no implica que no exista."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "d21",
@@ -803,7 +823,7 @@
     "anos_en_politica": 0,
     "anos_base": "Euronews (12-10-2026): no se le conoce cargo electo ni designado previo.",
     "experiencia_fuera": "Abogada especializada en comercio internacional; fundadora de Inspiring Girls; lideró la plataforma cívica España Mejor.",
-    "formacion": "Nacida en 1968 en Olmedo (Valladolid); formada en Bélgica con beca.",
+    "formacion": "Licenciada en Derecho, Universidad de Valladolid; máster en Asuntos Europeos, Colegio de Europa (Brujas).",
     "patrimonio": {
       "declarado": false,
       "estado": "sin_obligacion",
@@ -830,14 +850,23 @@
       {
         "nombre": "Demócrata: Democracia 21 concurrirá en Madrid y Barcelona",
         "url": "https://www.democrata.es/politica/democracia-21-concurrira-en-madrid-y-barcelona-con-la-abogada-miriam-gonzalez-como-cabeza-de-lista/"
+      },
+      {
+        "nombre": "CV de Miriam González Durántez (Fundación Euroamérica, 2016)",
+        "url": "https://www.euroamerica.org/wp-content/uploads/2016/03/GonzalezDurantez2016_CV.pdf"
+      },
+      {
+        "nombre": "El Debate, 26-05-2025 (formación en Valladolid y Colegio de Europa)",
+        "url": "https://www.eldebate.com/sociedad/20250526/miriam-gonzalez-premio-proyeccion-espana-ambito-cultura-politicas-estan-ahi-darle-solucion-ciudadanos-debemos-subir-liston-etica-pais_300746.html"
       }
     ],
     "notas_internas": {
       "rol": "Cabeza de lista de Democracia21 (concurre solo en Madrid y Barcelona; el título de Demócrata la nombra cabeza de lista en ambas). Sin candidato formal a la Presidencia.",
       "cargo_actual": "Abogada; candidata y impulsora de Democracia21 (sin cargo público)",
-      "formacion": "Nacida en 1968 en Olmedo (Valladolid); formada en Bélgica con beca (Euronews). No constan títulos, centros ni años en fuentes de referencia consultadas.",
+      "formacion": "Licenciatura en Derecho (Universidad de Valladolid) y máster en Asuntos Europeos (Colegio de Europa, Brujas), según su CV publicado por la Fundación Euroamérica (2016); El Debate (2025) confirma ambos centros. Sin años.",
       "experiencia_fuera": "Abogada especializada en comercio internacional; fundó la organización Inspiring Girls y lideró la plataforma cívica España Mejor (sin fechas en la fuente).",
       "patrimonio_nota": "No ocupa cargo público; no hay declaración oficial de bienes."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   }
 ]

@@ -7,7 +7,7 @@
     "trayectoria": [
       {
         "cargo": "Presidente de Alhora",
-        "desde": null,
+        "desde": "2024",
         "hasta": null
       }
     ],
@@ -55,7 +55,8 @@
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes",
       "anos_base": "Sin cargo público electo o designado verificado; es dirigente de partido (presidente de Alhora desde su fundación, año no verificado en fuentes distintas de una enciclopedia abierta no admitida como fuente).",
       "notas": "Profesión y formación constan en una enciclopedia abierta (no admitida como fuente); pendiente de fuente propia (web de universidad o CV oficial)."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "autonomos",
@@ -94,7 +95,8 @@
     "notas_internas": {
       "rol": "Cabeza de lista por Alicante (Valencia no proclamada; Alicante es la circunscripción más poblada donde se presenta; Castellón la encabeza Carolina Queral Recatalá)",
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "escanosenblanco",
@@ -133,7 +135,8 @@
     "notas_internas": {
       "rol": "Cabeza de lista por Murcia (circunscripción más poblada de las verificadas con candidatura proclamada: no figura en Madrid, Barcelona, Valencia, Sevilla ni Málaga)",
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "falange",
@@ -171,7 +174,8 @@
     "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación. (En Alicante, FE de las JONS figura como no proclamada.)",
     "notas_internas": {
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "feministas",
@@ -213,7 +217,8 @@
     "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación. Nombre no localizado en el texto consultado del BOE (la lista de Álava no se pudo leer completa); confirmado por Gasteiz Hoy y Demócrata.",
     "notas_internas": {
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "frenteobrero",
@@ -274,7 +279,8 @@
         "Condenado por el Tribunal Supremo a 1 año y 3 meses de prisión por pertenencia a grupo criminal; absuelto de asociación ilícita y organización criminal. La Audiencia Nacional lo había condenado en 2018."
       ],
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "iustitia",
@@ -284,14 +290,14 @@
     "trayectoria": [
       {
         "cargo": "Presidente de Iustitia Europa",
-        "desde": null,
+        "desde": "2023",
         "hasta": null
       }
     ],
     "anos_en_politica": null,
     "anos_base": "Sin cargo público electo o designado; dirigente de partido.",
     "experiencia_fuera": "Abogado; guardia civil en excedencia; antiguo taxista",
-    "formacion": "Graduado en Derecho (UNED); año no consta",
+    "formacion": "Graduado en Derecho, UNED.",
     "patrimonio": {
       "declarado": false,
       "estado": "sin_obligacion",
@@ -330,7 +336,8 @@
         "Presidente de Iustitia Europa; proclamado candidato a la Presidencia del Gobierno en septiembre de 2026"
       ],
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "mundojusto",
@@ -368,7 +375,8 @@
     "notas": "No se han hallado fuentes fiables y verificables (primarias o prensa de referencia) sobre su trayectoria, profesión o formación.",
     "notas_internas": {
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "pacma",
@@ -441,7 +449,8 @@
     "notas_internas": {
       "rol": "Candidato a la Presidencia del Gobierno; cabeza de lista por Madrid",
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "pcte",
@@ -480,7 +489,8 @@
     "notas_internas": {
       "rol": "Cabeza de lista por Madrid (la encabeza ella, no Ástor García, según el BOE)",
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "prepal",
@@ -519,6 +529,7 @@
     "notas_internas": {
       "rol": "Cabeza de lista por León (circunscripción más poblada que Zamora, donde PREPAL presenta a Francisco Iglesias Carreño)",
       "patrimonio_nota": "No ocupa cargo público con obligación de declarar bienes"
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   }
 ]

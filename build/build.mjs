@@ -46,6 +46,17 @@ const aNombre = (n) => (llevaArticulo(n) ? 'al ' : 'a ') + n;
 const delNombre = (p) => deNombre(p.corto);
 const alNombre = (p) => aNombre(p.corto);
 const SEO_P = rj('data/seo_partidos.json') || {};
+// Autodefinición: mayúsculas sostenidas a formato nombre propio (salvo siglas conocidas).
+const SIGLAS_KEEP = new Set(['PSOE', 'SALF', 'PACMA', 'PCTE', 'JONS', 'UPN', 'BNG', 'ERC', 'PNV', 'EAJ', 'EAJ-PNV', 'VOX', 'CC', 'PP', 'EH', 'UPC', 'NC', 'CUP', 'BOE', 'UE', 'ONU', 'OTAN', 'IU', 'PCE']);
+const MINUS = new Set(['de', 'del', 'la', 'las', 'los', 'el', 'per', 'i', 'y', 'e', 'en', 'a', 'al']);
+const fixCaps = (t) => String(t || '').replace(/(?<!\p{L})\p{Lu}[\p{Lu}-]+(?:\s+\p{Lu}[\p{Lu}-]*)*(?!\p{L})/gu, (run) => {
+  const ws = run.split(/(\s+)/);
+  if (!ws.some((w) => w.trim() && w.replace(/-/g, '').length >= 4 && !SIGLAS_KEEP.has(w))) return run;
+  let first = true;
+  return ws.map((w) => { if (!w.trim()) return w; const out = SIGLAS_KEEP.has(w) ? w : !first && MINUS.has(w.toLowerCase()) ? w.toLowerCase() : w.charAt(0) + w.slice(1).toLowerCase(); first = false; return out; }).join('');
+});
+// Rótulo único para todos los partidos: «En sus palabras». Sin texto, no hay fila.
+const autodef = (a) => (a && a.texto && String(a.texto).trim() ? { ...a, texto: fixCaps(a.texto), etiqueta: 'En sus palabras' } : null);
 const M_ES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const fdate = (s) => { const m = String(s || '').match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? `${+m[3]} de ${M_ES[+m[2] - 1]} de ${m[1]}` : String(s || ''); };
 const parties = [];
@@ -64,7 +75,7 @@ for (const id of [...order, ...extraIds]) {
   p.h1n = nombreH1(p);
   p.h1art = llevaArticulo(p.h1n) ? 1 : 0;
   p.seo = SEO_P[id] ? { resumen: SEO_P[id].resumen || '', faq: (SEO_P[id].faq || []).filter((x) => x && x.q && x.a) } : null;
-  if (identidad[id]) { p.autodefinicion = identidad[id].autodefinicion || null; p.ches = identidad[id].ches || null; }
+  if (identidad[id]) { p.autodefinicion = autodef(identidad[id].autodefinicion); p.ches = identidad[id].ches || null; }
   delete p.ideologia;
   const poll = encuestas.partidos.find((x) => x.id === id);
   p.encuesta = poll;
@@ -192,6 +203,38 @@ const ttl = (...cands) => {
   for (const c of cands) if (c.length <= 60) return c;
   return cands.reduce((x, y) => (x.length <= y.length ? x : y));
 };
+// Fichas de partido: un único patrón con marca para todos; si no cabe en 60, el nombre corto pasa a las siglas.
+const partyTitle = (p) => {
+  const t = (n) => `Programa electoral ${deNombre(n)} 2026${BRAND}`;
+  return t(p.corto).length <= 62 || !p.siglas ? t(p.corto) : t(p.siglas);
+};
+// Fichas de candidato: siempre «<Nombre>: quién es, patrimonio y trayectoria»; si no cabe en 60, nombre + primer apellido.
+const SEG_NOMBRE = new Set(['Antonio', 'Manuel', 'María', 'Alberto', 'Pedro', 'José', 'Carlos', 'Luis', 'Ángel', 'Javier', 'Ignacio', 'Miguel', 'Carmen', 'Pablo', 'Francisco', 'Jesús', 'Ramón', 'Luisa', 'Isabel', 'Teresa']);
+const PARTICULA = new Set(['de', 'del', 'la', 'las', 'los', 'san', 'santa']);
+const nombreApellido = (full) => {
+  const alias = (String(full).match(/\(([^)]+)\)/) || [])[1];
+  if (alias && alias.trim().split(/\s+/).length >= 2) return [alias.trim()];
+  const w = String(full).replace(/\s*\([^)]*\)/g, '').trim().split(/\s+/);
+  let i = 1;
+  if (w.length > 3 && SEG_NOMBRE.has(w[1])) i = 2;
+  const out = w.slice(0, i);
+  while (i < w.length && PARTICULA.has(w[i].toLowerCase())) out.push(w[i++]);
+  if (i < w.length) out.push(w[i++]);
+  // Apellido compuesto con partícula («García de Madariaga»): solo si sigue cabiendo.
+  const ext = out.slice(); let j = i;
+  while (j < w.length && PARTICULA.has(w[j].toLowerCase())) ext.push(w[j++]);
+  if (j > i && j < w.length) { ext.push(w[j]); return [ext.join(' '), out.join(' ')]; }
+  return [out.join(' ')];
+};
+const candTitle = (c) => {
+  const t = (n) => `${n}: quién es, patrimonio y trayectoria`;
+  if (t(c.nombre).length <= 60) return t(c.nombre);
+  const opts = nombreApellido(c.nombre).map(t);
+  return opts.find((x) => x.length <= 60) || opts[opts.length - 1];
+};
+// La app usa los mismos títulos al navegar.
+parties.forEach((p) => { p.titulo_pagina = partyTitle(p); });
+candidatos.forEach((c) => { c.titulo_pagina = candTitle(c); });
 const lcFirst = (t) => (/^(Europa|España)\b/.test(t) ? t : t.charAt(0).toLowerCase() + t.slice(1));
 
 // En modo sitio, CSS y JS van a ficheros con hash (caché inmutable); el artifact sigue siendo un único HTML.
@@ -202,7 +245,7 @@ const ASSET_JS = `assets/app.${hash(js)}.js`;
 const FONTS_SITE = '<link rel="preload" href="/fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:"Bricolage Grotesque";font-style:normal;font-display:swap;font-weight:200 800;font-stretch:75% 100%;src:url(/fonts/bricolage-grotesque-latin-opsz-normal.woff2) format("woff2-variations")}@font-face{font-family:"Instrument Sans";font-style:normal;font-display:swap;font-weight:400 700;src:url(/fonts/instrument-sans-latin-wght-normal.woff2) format("woff2-variations")}</style>';
 const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Instrument+Sans:wght@400..700&display=swap">';
 
-function page({ title, description, canonical, route, seoBody, mode, jsonld, og, ogAlt, noindex }) {
+function page({ title, description, canonical, route, seoBody, mode, jsonld, og, ogAlt, noindex, preload = true }) {
   const site = mode !== 'artifact';
   const dataTag = site
     ? `<script>window.__DATA_URL__='/data.json';</script>`
@@ -218,9 +261,10 @@ ${canonical ? `<link rel="canonical" href="${canonical}">` : ''}${robots}<meta n
 <meta property="og:description" content="${esc(description)}">${canonical ? `<meta property="og:url" content="${canonical}">` : ''}<meta property="og:image" content="${SITE_URL}/${ogImg}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(ogAlt || title)}">
 <meta property="og:locale" content="es_ES"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${SITE_URL}/${ogImg}"><meta name="twitter:image:alt" content="${esc(ogAlt || title)}">
 <link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/logo.png"><link rel="manifest" href="/manifest.webmanifest">
-<link rel="stylesheet" href="/${ASSET_CSS}"><link rel="preload" href="/data.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="/${ASSET_CSS}">${preload ? '<link rel="preload" href="/data.json" as="fetch" crossorigin>' : ''}
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>` : ''}`;
   let body = shell
+    .replace('<div id="app" class="app">', '<a class="skip-link" href="#view">Saltar al contenido</a>\n<div id="app" class="app">')
     .replace('{{FONTS}}', () => (site ? FONTS_SITE : FONTS))
     .replace('{{BRANDMARK}}', () => `<span class="brandword">${esc(NAME)}</span>`)
     .replace('{{CSS}}', () => (site ? '' : `<style>${css}</style>`))
@@ -294,31 +338,41 @@ function inmTxtB(pt) {
 function candPatB(c) {
   const pt = c.patrimonio || {};
   if (pt.estado === 'solo_intereses') return `<p class="cand-none">Escaño en el Parlamento Europeo: la Eurocámara publica sus intereses económicos, pero no su patrimonio.${pt.url ? ' ' + srcA(pt.url, 'Ver declaración') : ''}</p>`;
-  if (pt.estado === 'sin_obligacion') return '<p class="cand-none">Sin obligación de publicar declaración de bienes: no ocupa un cargo que lo exija.</p>';
+  if (pt.estado === 'sin_obligacion') return '<p class="cand-none">No tiene obligación de publicar declaración de bienes porque no ocupa ningún cargo público que lo exija.</p>';
   if (pt.estado === 'no_localizada' || !pt.declarado) return '<p class="cand-none">No hemos localizado declaración pública.</p>';
   const rows = [];
-  const it = inmTxtB(pt); if (it) rows.push(['Inmuebles', it]);
+  const soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
+  const it = inmTxtB(pt); if (it) rows.push(['Inmuebles', it]); else if (soloNeto) rows.push(['Inmuebles', 'La fuente consultada no desglosa inmuebles', 1]);
   if (pt.depositos != null) rows.push(['Dinero en cuentas', eurB(pt.depositos)]);
   if (pt.otros_bienes != null) rows.push(['Inversiones y otros bienes', eurB(pt.otros_bienes)]);
   if (pt.deudas != null) rows.push(['Deudas', eurB(pt.deudas)]);
-  const soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
   const neto = soloNeto ? `<p class="cand-neto">Saldo declarado (cuentas, valores y otros bienes menos deudas; sin inmuebles ni vehículos): <b>${esc(eurB(pt.neto))}</b></p>` : '';
-  return (rows.length ? `<dl class="cand-dl">${rows.map((r) => `<div><dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl>` : '') + neto + (!rows.length && !neto ? '<p class="cand-none">La declaración publicada no detalla importes.</p>' : '') +
+  return (rows.length ? `<dl class="cand-dl">${rows.map((r) => `<div><dt>${esc(r[0])}</dt><dd${r[2] ? ' class="muted"' : ''}>${esc(r[1])}</dd></div>`).join('')}</dl>` : '') + neto + (!rows.length && !neto ? '<p class="cand-none">La declaración publicada no detalla importes.</p>' : '') +
     `<p class="fine">${esc([pt.organo, pt.fecha_declaracion ? 'declaración de ' + fdate(pt.fecha_declaracion) : ''].filter(Boolean).join(', '))}${pt.url ? ' ' + srcA(pt.url, 'Ver declaración') : ''}</p>`;
 }
+const jMetaB = (parts, url) => { const m = parts.filter(Boolean).map(esc).join(' · '); return m || url ? ` <span class="cand-meta">${m}${url ? (m ? ' ' : '') + srcA(url, 'Fuente') : ''}</span>` : ''; };
+// Mismas reglas que esFamiliar()/famLabel()/candFecha() de la app.
+const FAM_RE = /^(esposa|esposo|marido|mujer|pareja|hermano|hermana|padre|madre|hijo|hija|cu[ñn]ado|cu[ñn]ada|suegro|suegra)\b/i;
+const esFamiliar = (x) => { if (x.familiar === true) return true; const w = x.quien || x.persona || ''; return w ? !/propi/i.test(w) : FAM_RE.test(String(x.resumen || '').trim()); };
+const famLabel = (c) => { const g = String(c.genero || '').toLowerCase(); return !g ? 'Familiar directo' : /^(f|mujer|femenino)/.test(g) ? 'Familiar, no la candidata' : 'Familiar, no el candidato'; };
+const revisadoB = (c) => (c.judicial_revisado ? ` (revisado el ${esc(fdate(c.judicial_revisado))})` : '');
+function candFecha(p, c) {
+  const ds = [p.actualizado, c.judicial_revisado, ...(c.fuentes || []).map((f) => f && f.fecha), ...(c.procedimientos_abiertos || []).flatMap((x) => [x.fecha_ultima_actuacion, x.fecha]), ...(c.sentencias_firmes || []).map((x) => x.fecha)];
+  return ds.filter((d) => /^\d{4}-\d{2}-\d{2}/.test(d || '') && String(d).slice(0, 10) <= DATA.generado).map((d) => String(d).slice(0, 10)).sort().pop() || p.actualizado || DATA.generado;
+}
 function candHtml(p, c) {
-  const tr = (c.trayectoria || []).slice(0, 5);
+  const tr = c.trayectoria || [];
   const sf = c.sentencias_firmes || [], pa = c.procedimientos_abiertos || [];
   const yrs = c.anos_en_politica == null ? null : c.anos_en_politica === 0 ? 'Sin cargos públicos' : c.anos_en_politica + (c.anos_en_politica === 1 ? ' año' : ' años') + ' en cargos públicos';
-  const who = (x) => (x.persona && !/propio/.test(x.persona) ? `<b>${esc(capB(x.persona))}:</b> ` : '');
-  return `<article class="cand full" style="--pc:${esc(p.color)}"><header class="cand-h"><div><h2>${esc(c.nombre)}</h2><p>${esc([c.rol, p.siglas].filter(Boolean).join(' · '))}</p></div></header>` +
+  const who = (x) => (esFamiliar(x) ? `<span class="fam-tag">${famLabel(c)}</span> ` : '') + (x.persona && !/propi/.test(x.persona) ? `<b>${esc(capB(x.persona))}:</b> ` : '');
+  return `<article class="cand full" style="--pc:${esc(p.color)}"><div class="cand-h"><div><h2>${esc(c.nombre)}</h2><p>${esc([c.rol, p.siglas].filter(Boolean).join(' · '))}</p></div></div>` +
     (c.cargo_actual ? `<p class="cand-now">${esc(c.cargo_actual)}</p>` : '') +
-    `<h3>Formación</h3><p>${esc(c.formacion || 'Sin datos acreditados')}</p>` +
+    `<h3>Formación</h3><p>${esc(c.formacion || 'No consta en fuentes oficiales')}</p>` +
     `<h3>Trayectoria</h3>${yrs || c.experiencia_fuera ? `<p>${esc([yrs, c.experiencia_fuera ? 'Fuera de la política: ' + c.experiencia_fuera : ''].filter(Boolean).join('. '))}</p>` : ''}` +
-    (tr.length ? `<ul class="cand-tr">${tr.map((t) => `<li><span>${esc(t.cargo)}</span><small>${esc([t.desde, t.hasta || (t.desde ? 'hoy' : '')].filter(Boolean).join('–'))}</small></li>`).join('')}</ul>` : (yrs || c.experiencia_fuera ? '' : '<p>Sin datos verificados</p>')) +
+    (tr.length ? `<ul class="cand-tr">${tr.map((t) => { const yy = [t.desde, t.hasta || (t.desde ? 'hoy' : '')].filter(Boolean).join('–'); return `<li><span>${esc(t.cargo)}</span>${yy ? `<small>${esc(yy)}</small>` : ''}</li>`; }).join('')}</ul>` : (yrs || c.experiencia_fuera ? '' : '<p>Sin datos verificados</p>')) +
     `<h3>Patrimonio declarado</h3>${candPatB(c)}` +
-    `<h3>Sentencias firmes</h3>${sf.length ? `<ul class="cand-j">${sf.map((x) => `<li>${who(x)}${esc(x.resumen)}${x.fecha ? ` <small>(${esc(fdate(x.fecha))})</small>` : ''}${x.url ? ' ' + srcA(x.url, 'Fuente') : ''}</li>`).join('')}</ul>` : '<p>Ninguna conocida</p>'}` +
-    (pa.length ? `<h3>Procedimientos judiciales en curso</h3><ul class="cand-j">${pa.map((x) => `<li>${who(x)}${esc(x.resumen)}${x.organo_judicial ? ` (${esc(x.organo_judicial)})` : ''}. <b>Fase: ${esc(x.fase || 'en curso')}.</b> Sin sentencia.${x.fecha_ultima_actuacion ? ` <small>${esc(fdate(x.fecha_ultima_actuacion))}</small>` : ''}${x.url ? ' ' + srcA(x.url, 'Fuente') : ''}</li>`).join('')}</ul>` : '') +
+    `<h3>Sentencias firmes</h3>${sf.length ? `<ul class="cand-j">${sf.map((x) => `<li>${who(x)}${esc(x.resumen)}${jMetaB([x.fecha ? fdate(x.fecha) : ''], x.url)}</li>`).join('')}</ul>` : `<p>Ninguna encontrada en las fuentes revisadas${revisadoB(c)}</p>`}` +
+    `<h3>Procedimientos judiciales en curso</h3>` + (pa.length ? `<ul class="cand-j">${pa.map((x) => { const r = String(x.resumen || '').trim(); return `<li>${who(x)}${esc(r)}${/[.!?»)]$/.test(r) ? '' : '.'} <b>Fase: ${esc(x.fase || 'en curso')}.</b> ${/condena/i.test(x.fase || '') ? 'Sin sentencia firme.' : 'Sin sentencia.'}${jMetaB([x.organo_judicial, x.fecha_ultima_actuacion ? fdate(x.fecha_ultima_actuacion) : ''], x.url)}</li>`; }).join('')}</ul>` : `<p>Ninguno encontrado en las fuentes revisadas${revisadoB(c)}</p>`) +
     '</article>';
 }
 // Partido que no concurre: H1, resumen, candidatura con fecha y fuente, y salidas neutrales (sin elegir afines a mano:
@@ -379,7 +433,7 @@ for (const p of parties) {
     og: ogFor(`partido-${p.id}.png`),
     ogAlt: `Programa electoral ${delNombre(p)} para las elecciones generales de ${YEAR}`,
     lastmod: p.actualizado || DATA.generado,
-    title: ttl(`Programa electoral ${delNombre(p)} 29N ${YEAR}`, `Programa ${delNombre(p)} para el 29N`, `Programa ${delNombre(p)} 29N ${YEAR}`, `${p.corto}: programa 29N`),
+    title: partyTitle(p),
     description: clip(`Las ${p.propuestas.length} propuestas ${delNombre(p)} para el 29N, con fuente, y las críticas que recibe: ${temas.slice(0, 4).join(', ')}…`),
     jsonld: webpage(h1, url, { dateModified: p.actualizado || DATA.generado, about: { '@type': 'PoliticalParty', '@id': url + '#party', name: p.nombre, alternateName: [...new Set([p.siglas, p.corto].filter((x) => x && x !== p.nombre))], url: p.web || undefined }, crumbs: [{ name: 'Partidos', url: SITE_URL + '/partidos/' }, { name: p.corto, url }], graph: faqNode }),
     seoBody: `<h1>${esc(h1)}</h1>${p.h1n !== p.nombre && nombreLista(p) ? `<p class="sub">${esc(p.nombre)}</p>` : ''}${upd(p.actualizado)}${p.seo && p.seo.resumen ? `<p class="phead-lead">${esc(p.seo.resumen)}</p>` : ''}${candLinks ? `<p>${(p.cands || []).length > 1 ? 'Candidatos' : 'Candidato'}: ${candLinks}.</p>` : p.candidato ? `<p>Candidato: ${esc(p.candidato)}.</p>` : ''}<p>${esc(p.resumen || '')}</p><h2>Propuestas ${esc(delNombre(p))}</h2>${byArea}${faqHtml}${crit ? `<h2>Críticas ${esc(alNombre(p))}</h2>${crit}` : ''}<h2>Qué proponen otros partidos</h2><ul>${areasP.map(([ar, n]) => `<li>${a(`/tema/${ar}/`, `Propuestas sobre ${lcFirst(n)}`)}</li>`).join('')}<li>${a('/candidatos/', 'Candidatos de todos los partidos')}</li></ul>${navLinks()}`,
@@ -467,11 +521,11 @@ if (DATA.test) {
       route: `candidato-${c.slug}`,
       og: ogFor(`partido-${p.id}.png`),
       ogAlt: `${c.nombre}, ${c.rol || 'candidato'} de ${p.corto}`,
-      lastmod: p.actualizado || DATA.generado,
-      title: ttl(`${c.nombre}: quién es, patrimonio y trayectoria`, `${c.nombre}: quién es y patrimonio`, `${c.nombre}: quién es`, c.nombre),
+      lastmod: candFecha(p, c),
+      title: candTitle(c),
       description: clip(`${c.nombre}${c.rol ? `, ${lcFirst(c.rol)} ${delNombre(p)}` : ` (${p.corto})`} el 29N: formación, trayectoria, patrimonio declarado y causas judiciales, con fuentes oficiales.`),
-      jsonld: webpage(ch1, curl, { type: 'ProfilePage', dateModified: p.actualizado || DATA.generado, mainEntity: { '@id': curl + '#person' }, crumbs: [{ name: 'Candidatos', url: SITE_URL + '/candidatos/' }, { name: c.nombre, url: curl }], graph: [{ '@type': 'Person', '@id': curl + '#person', name: c.nombre, url: curl, jobTitle: c.rol || c.cargo_actual || undefined, affiliation: { '@type': 'PoliticalParty', '@id': `${SITE_URL}/partido/${p.id}/#party`, name: p.nombre, url: `${SITE_URL}/partido/${p.id}/` } }] }),
-      seoBody: `<h1>${esc(ch1)}</h1>${upd(p.actualizado)}${candHtml(p, c)}<p>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)} · ${a('/candidatos/', 'Todos los candidatos')}</p>${navLinks()}`,
+      jsonld: webpage(ch1, curl, { type: 'ProfilePage', dateModified: candFecha(p, c), mainEntity: { '@id': curl + '#person' }, crumbs: [{ name: 'Candidatos', url: SITE_URL + '/candidatos/' }, { name: c.nombre, url: curl }], graph: [{ '@type': 'Person', '@id': curl + '#person', name: c.nombre, url: curl, jobTitle: c.rol || c.cargo_actual || undefined, affiliation: { '@type': 'PoliticalParty', '@id': `${SITE_URL}/partido/${p.id}/#party`, name: p.nombre, url: `${SITE_URL}/partido/${p.id}/` } }] }),
+      seoBody: `<h1>${esc(ch1)}</h1>${upd(candFecha(p, c))}${candHtml(p, c)}<p>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)} · ${a('/candidatos/', 'Todos los candidatos')}</p>${navLinks()}`,
     });
   }
 }
@@ -507,6 +561,7 @@ for (const q of noConcurren) {
     title: ttl(`${q.corto} no se presenta a las elecciones del 29N`, `${q.corto} no se presenta al 29N`, `${q.corto}: no concurre al 29N`),
     description: clip(`${q.nombre} no concurre a las elecciones generales del 29 de noviembre de ${YEAR}. ${q.resumen}`),
     jsonld: webpage(h1, url, { dateModified: q.actualizado || DATA.generado, about: { '@type': 'PoliticalParty', '@id': url + '#party', name: q.nombre, alternateName: [...new Set([q.siglas, q.corto].filter((x) => x && x !== q.nombre))], url: q.web || undefined }, crumbs: [{ name: 'Partidos', url: SITE_URL + '/partidos/' }, { name: q.corto, url }] }),
+    preload: false,
     seoBody: noConcurreHtml(q, true) + navLinks(),
   });
 }
@@ -515,17 +570,19 @@ emit('quienes-somos', {
   title: ttl('Quiénes somos', 'Quiénes somos y cómo trabajamos'),
   description: clip(`${NAME} es un proyecto ciudadano independiente, sin afiliación a ningún partido, sin publicidad y sin ánimo de lucro. Cómo elaboramos los datos y corregimos errores.`),
   jsonld: webpage('Quiénes somos', SITE_URL + '/quienes-somos/', { type: 'AboutPage', about: { '@id': ORG_ID }, mainEntity: { '@id': ORG_ID }, crumbs: [{ name: 'Quiénes somos', url: SITE_URL + '/quienes-somos/' }] }),
+  preload: false,
   seoBody: quienesHtml() + navLinks(),
 });
 emit('metodologia', {
   route: 'metodologia',
   title: ttl('Metodología y fuentes', 'Metodología, fuentes y aviso'),
   description: clip('Cómo resumimos los programas, cómo seleccionamos las críticas, de dónde salen los datos, cómo funciona el test y cómo corregimos errores.'),
+  preload: false,
   jsonld: webpage('Metodología y fuentes', SITE_URL + '/metodologia/', { crumbs: [{ name: 'Metodología', url: SITE_URL + '/metodologia/' }] }),
   seoBody: `<h1>Metodología y fuentes</h1>${DATA.metodologia_html || '<p>Neutralidad de método: los mismos criterios, públicos y explícitos, para todos los partidos. Cada dato enlaza a su fuente.</p>'}${navLinks()}`,
 });
 
-fs.writeFileSync(path.join(SITE, '404.html'), page({ mode: 'site', route: 'notfound', canonical: null, noindex: true, title: `Página no encontrada | ${NAME}`, description: 'Esta página no existe.', jsonld: null, seoBody: `<h1>Página no encontrada</h1><p>${a('/', 'Volver al inicio')}</p>${navLinks()}` }));
+fs.writeFileSync(path.join(SITE, '404.html'), page({ mode: 'site', route: 'notfound', canonical: null, noindex: true, preload: false, title: `Página no encontrada | ${NAME}`, description: 'Esta página no existe.', jsonld: null, seoBody: `<h1>Página no encontrada</h1><p>${a('/', 'Volver al inicio')}</p>${navLinks()}` }));
 fs.writeFileSync(path.join(SITE, 'llms.txt'), `# ${NAME}\n\n> Herramienta independiente y no partidista para las elecciones generales de España del 29 de noviembre de ${YEAR}: propuestas de cada partido resumidas sin interpretar y con fuente, críticas con fuente, un test de afinidad basado en lo que cada partido ha votado, la deuda pública explicada y datos clave.\n\n## Partidos\n${parties.map((p) => `- [Programa electoral de ${nombreH1(p)}](${SITE_URL}/partido/${p.id}/)`).join('\n')}\n\n## Candidatos\n${candidatos.map((c) => `- [${c.nombre}: quién es, patrimonio y trayectoria](${SITE_URL}/candidato/${c.slug}/)`).join('\n')}\n\n## Temas\n${AREAS.map(([id, n]) => `- [${n}: qué propone cada partido](${SITE_URL}/tema/${id}/)`).join('\n')}\n\n## Datos clave\n${IM_TEMAS.filter((t) => !t.enlace).map((t) => `- [${datosTitle(t)}](${SITE_URL}/datos/${t.id}/)`).join('\n')}\n\n## Otras secciones\n- [Test: ¿con qué partido coincides?](${SITE_URL}/test/)\n- [Candidatos](${SITE_URL}/candidatos/)\n- [Deuda pública de España](${SITE_URL}/deuda/)\n- [Datos clave](${SITE_URL}/datos/)\n- [Metodología](${SITE_URL}/metodologia/)\n- [Quiénes somos](${SITE_URL}/quienes-somos/)\n- [Datos en JSON](${SITE_URL}/data.json)\n`);
 fs.writeFileSync(path.join(SITE, '_redirects'), `/importa /datos/ 301\n/importa/ /datos/ 301\n/importa-* /datos/:splat 301\n`);
 fs.writeFileSync(path.join(SITE, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')}\n</urlset>\n`);

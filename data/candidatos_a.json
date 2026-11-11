@@ -8,7 +8,7 @@
       {
         "cargo": "Técnico Superior de la Xunta de Galicia (funcionario)",
         "desde": "1985",
-        "hasta": null
+        "hasta": "1991"
       },
       {
         "cargo": "Alto cargo de la Xunta de Galicia",
@@ -47,9 +47,9 @@
       }
     ],
     "anos_en_politica": 35,
-    "anos_base": "Primer cargo designado: alto cargo de la Xunta en 1991 (ficha del Congreso); 2026-1991=35.",
-    "experiencia_fuera": "Funcionario del Cuerpo Técnico Superior de la Xunta de Galicia desde 1985; no consta otra profesión fuera de la Administración.",
-    "formacion": "Licenciado en Derecho, Universidad de Santiago de Compostela (1979-1984).",
+    "anos_base": "Desde su primer alto cargo, en la Xunta de Galicia en 1991 (ficha del Congreso); 2026-1991=35. La etapa de funcionario (1985-1991) figura como experiencia fuera de la política y no se cuenta.",
+    "experiencia_fuera": "Funcionario del Cuerpo Técnico Superior de la Xunta de Galicia, 1985-1991.",
+    "formacion": "Licenciado en Derecho, Universidad de Santiago de Compostela, 1984.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -179,8 +179,10 @@
           "porcentaje": "pleno dominio",
           "fuente": "Senado (The Objective)"
         }
-      ]
-    }
+      ],
+      "judicial_descartados": "Descartado: contencioso-administrativo de su pareja (Eva Cárdenas) ante la Audiencia Nacional por la concesión de 215 m2 en la playa de O Con (Moaña), sin elemento penal ni relación con su actividad pública (eldiario.es, 02-10-2025). Denuncias sobre el chalet remitidas por la Fiscalía de Galicia al Supremo sin constancia de investigación judicial abierta (El Periódico de Ceuta, 15-01-2025). Bulo/no verificado: 'tres familiares investigados por contratos a dedo' (Maldita, 20-07-2026)."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "psoe",
@@ -194,8 +196,8 @@
         "hasta": "2009"
       },
       {
-        "cargo": "Diputado por Madrid",
-        "desde": null,
+        "cargo": "Diputado por Madrid (XIII, XIV y XV Legislaturas)",
+        "desde": "2019",
         "hasta": null
       },
       {
@@ -217,7 +219,7 @@
     "anos_en_politica": 22,
     "anos_base": "Primer cargo electo: concejal de Madrid desde 2004 (ficha del Congreso); 2026-2004=22. Militante del PSOE desde 1993.",
     "experiencia_fuera": "Profesor de Economía en la Universidad Camilo José Cela; asesor en el Parlamento Europeo; miembro del gabinete del Alto Representante de la ONU en Bosnia y Herzegovina.",
-    "formacion": "Licenciado en Ciencias Económicas y Empresariales (Real Colegio Universitario María Cristina, adscrito a la Complutense, 1995); máster en Economía de la UE (Université libre de Bruxelles); Diploma de Estudios Avanzados en Integración Económica y Monetaria Europea (Instituto Universitario Ortega y Gasset); doctor en Economía (Universidad Camilo José Cela, 2012).",
+    "formacion": "Licenciado en Ciencias Económicas y Empresariales, Real Colegio Universitario María Cristina, centro adscrito a la Universidad Complutense de Madrid, 1995; máster en Economía de la Unión Europea, Université libre de Bruxelles; Diploma de Estudios Avanzados en Integración Económica y Monetaria Europea, Instituto Universitario Ortega y Gasset; doctor en Economía, Universidad Camilo José Cela, 2012.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -365,7 +367,8 @@
           "porcentaje": "100%"
         }
       ]
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "vox",
@@ -389,8 +392,18 @@
         "hasta": "2009"
       },
       {
+        "cargo": "Director de la Agencia de Protección de Datos de la Comunidad de Madrid",
+        "desde": "2010",
+        "hasta": "2012"
+      },
+      {
+        "cargo": "Director de la Fundación para el Mecenazgo y el Patrocinio Social de la Comunidad de Madrid",
+        "desde": "2013",
+        "hasta": "2014"
+      },
+      {
         "cargo": "Presidente de Vox",
-        "desde": null,
+        "desde": "2014",
         "hasta": null
       },
       {
@@ -401,8 +414,8 @@
     ],
     "anos_en_politica": 27,
     "anos_base": "Primer cargo electo: concejal de Llodio desde 1999 (Vozpópuli); 2026-1999=27.",
-    "experiencia_fuera": null,
-    "formacion": "Licenciado en Sociología, Universidad de Deusto (2003).",
+    "experiencia_fuera": "Presidente de la Fundación para la Defensa de la Nación Española (DENAES), que creó en 2006, hasta 2014; negocio de hostelería en Vitoria-Gasteiz con su entonces esposa (años no constan).",
+    "formacion": "Licenciado en Sociología, Universidad de Deusto, 2003.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -457,6 +470,14 @@
       {
         "nombre": "Vozpópuli, listas de Vox 29N (22-10-2026)",
         "url": "https://www.vozpopuli.com/espana/politica/vox-elige-a-sus-cabezas-de-lista-para-el-29-n-estos-son-los-lideres-por-cada-provincia.html"
+      },
+      {
+        "nombre": "Valencia Plaza, Abascal reelegido presidente de Vox hasta 2028 (presidente desde septiembre de 2014)",
+        "url": "https://valenciaplaza.com/santiago-abascal-reelegido-presidente-de-vox-sin-oposicion-y-hasta-2028"
+      },
+      {
+        "nombre": "The Objective, negocio de hostelería con su exmujer (25-04-2026)",
+        "url": "https://theobjective.com/gente/2026-04-25/ana-belen-sanchez-cenador-la-primera-mujer-de-santiago-abascal-ocho-anos-casados-un-divorcio-duro-dos-hijos-y-una-empresa-fallida/"
       }
     ],
     "notas_internas": {
@@ -470,8 +491,11 @@
           "ubicacion": "Madrid (según prensa)",
           "porcentaje": null
         }
-      ]
-    }
+      ],
+      "judicial_descartados": "Sin hallazgos. Querellas contra él en el Supremo inadmitidas (PSOE, 'colgar de los pies', 17-09-2025, poderjudicial.es/El Independiente).",
+      "experiencia_fuera": "DENAES (creada en 2006, presidida hasta 2014) y cargos designados en la Comunidad de Madrid (Agencia de Protección de Datos 2010-2012; Fundación para el Mecenazgo 2013-2014): Vozpópuli. Los cargos designados se listan en trayectoria (cargos públicos), no como experiencia fuera de la política. Negocio de hostelería (Heineken Urban Concept, Vitoria) con su exmujer, sin fechas: The Objective 25-04-2026."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "sumar",
@@ -492,7 +516,7 @@
       {
         "cargo": "Líder de Catalunya en Comú",
         "desde": "2017",
-        "hasta": null
+        "hasta": "2024"
       },
       {
         "cargo": "Concejala del Ayuntamiento de Barcelona",
@@ -503,7 +527,7 @@
     "anos_en_politica": 11,
     "anos_base": "Primer cargo electo: alcaldesa de Barcelona, elegida el 13-06-2015 (CIDOB); 2026-2015=11. La PAH (2009) fue cargo orgánico no público.",
     "experiencia_fuera": "Técnica de cooperación en el Observatori DESC desde 2007; trabajos en consultoría de comunicación, producción de televisión y traducción e interpretación de italiano.",
-    "formacion": "Estudios de Filosofía en la Universitat de Barcelona (desde 1992); no concluyó la licenciatura.",
+    "formacion": "Estudios de Filosofía (sin finalizar), Universitat de Barcelona, desde 1992.",
     "patrimonio": {
       "declarado": false,
       "estado": "sin_obligacion",
@@ -547,6 +571,10 @@
       {
         "nombre": "3Cat, causa archivada definitivamente",
         "url": "https://www.3cat.cat/3catinfo/arxivada-definitivament-la-causa-contra-colau-per-les-subvencions-a-entitats-socials/noticia-amp/3340512/"
+      },
+      {
+        "nombre": "3Cat, los Comuns renuevan su dirección con el tándem López-Tarafa (17-11-2024)",
+        "url": "https://www.3cat.cat/3catinfo/els-comuns-renoven-la-direccio-amb-un-vot-critic-a-la-gestio-dels-ultims-tres-anys/noticia-amp/3322235/"
       }
     ],
     "notas_internas": {
@@ -557,8 +585,11 @@
       "trayectoria": [
         "Cofundadora y portavoz de la Plataforma de Afectados por la Hipoteca (cargo orgánico)"
       ],
-      "patrimonio_nota": "No ocupa cargo con obligación de declaración de bienes desde que dejó el Ayuntamiento de Barcelona en octubre de 2024 (anunciado el 09-09-2024, Catalan News). No se localizó una declaración oficial publicada y vigente de la candidata."
-    }
+      "patrimonio_nota": "No ocupa cargo con obligación de declaración de bienes desde que dejó el Ayuntamiento de Barcelona en octubre de 2024 (anunciado el 09-09-2024, Catalan News). No se localizó una declaración oficial publicada y vigente de la candidata.",
+      "judicial_descartados": "Descartadas por archivo firme: subvenciones a entidades afines (archivo definitivo, 3Cat 12-03-2025); querella por suspender hermanamiento con Tel Aviv (archivada, VilaWeb); superilles (archivada, eldiario.es 12-2023); querella Bloc Llavors (archivada, BTV).",
+      "lider_comuns": "Dejó la dirección de Catalunya en Comú en noviembre de 2024: la asamblea proclamó coordinadoras a Candela López y Gemma Tarafa y Colau pasó a copresidir la fundación Sentit Comú (3Cat, 17-11-2024)."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "podemos",
@@ -590,7 +621,7 @@
     "anos_en_politica": 10,
     "anos_base": "Primer cargo público electo: diputada desde 2016 (CV del Parlamento Europeo); 2026-2016=10. Cargo orgánico en Podemos desde 2014.",
     "experiencia_fuera": "Cajera en Saturn (2010-2011); becaria del programa de formación del profesorado universitario (2013-2015).",
-    "formacion": "Estudios en la Universidad Autónoma de Madrid (2006-2013).",
+    "formacion": "Licenciada en Psicología, Universidad Autónoma de Madrid, 2011; máster en Psicología de la Educación, Universidad Autónoma de Madrid.",
     "patrimonio": {
       "declarado": false,
       "estado": "solo_intereses",
@@ -653,18 +684,24 @@
       {
         "nombre": "Onda Vasca, 09-06-2023",
         "url": "https://www.ondavasca.com/el-ts-condena-a-irene-montero-a-pagar-18-000-euros-a-la-expareja-de-maria-sevilla-por-presentarle-como-maltratrador/"
+      },
+      {
+        "nombre": "La Moncloa, biografía de Irene Montero (formación)",
+        "url": "https://www.lamoncloa.gob.es/gobierno/paginas/130120-irenemariamonterog.aspx"
       }
     ],
     "notas_internas": {
       "rol": "Cabeza de lista de Podemos por Madrid (ganó las primarias con el 90,7 % de los votos emitidos)",
       "cargo_actual": "Eurodiputada (The Left, vicepresidenta del grupo); secretaria política y de Internacional de Podemos",
-      "formacion": "Universidad Autónoma de Madrid, 2006-2011 y 2011-2013; el CV del Parlamento Europeo no indica los títulos.",
+      "formacion": "Licenciada en Psicología (UAM, 2011) y máster en Psicología de la Educación (UAM), según la biografía oficial de La Moncloa.",
       "experiencia_fuera": "Cajera en Saturn (2010-2011); becaria del programa de formación del profesorado universitario (2013-2015) (CV del Parlamento Europeo).",
       "sentencias": [
         "Sentencia de la Sala Primera del Tribunal Supremo que la condena a indemnizar con 18.000 € por daño moral a Rafael Marcos (expareja de María Sevilla) por intromisión ilegítima en su honor al calificarlo de 'maltratador' en declaraciones del 25-05-2022, además de borrar el tuit y publicar el fallo. El Tribunal Constitucional inadmitió el recurso de amparo, con lo que la sentencia es firme. Condena civil, no penal."
       ],
-      "patrimonio_nota": "El Parlamento Europeo publica la declaración de intereses económicos, no el patrimonio. La declaración (original 16-07-2024; revisión 1 de 05-08-2024) recoge: ministra de Igualdad 01/2020-11/2023, 77.478 € anuales; diputada XIV Legislatura; actividad remunerada durante el mandato: libro para Editorial Navona S.L., 20.000 € en un pago; secretaria política de Podemos desde 12/2023 y secretaria política y de Internacional desde 07/2024 sin ingresos; sin participaciones societarias. No se localizó una declaración de bienes en el Congreso o en el Gobierno de la candidata."
-    }
+      "patrimonio_nota": "El Parlamento Europeo publica la declaración de intereses económicos, no el patrimonio. La declaración (original 16-07-2024; revisión 1 de 05-08-2024) recoge: ministra de Igualdad 01/2020-11/2023, 77.478 € anuales; diputada XIV Legislatura; actividad remunerada durante el mandato: libro para Editorial Navona S.L., 20.000 € en un pago; secretaria política de Podemos desde 12/2023 y secretaria política y de Internacional desde 07/2024 sin ingresos; sin participaciones societarias. No se localizó una declaración de bienes en el Congreso o en el Gobierno de la candidata.",
+      "judicial_descartados": "Descartada por archivo: 'caso niñera' (archivado 07-2022, El Independiente 29-07-2022). Mantiene la sentencia civil firme de 2023."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "erc",
@@ -691,7 +728,7 @@
     "anos_en_politica": 10,
     "anos_base": "Primer cargo documentado: diputado desde la XI Legislatura (2016, ficha del Congreso); no se ha verificado un cargo anterior. 2026-2016=10.",
     "experiencia_fuera": null,
-    "formacion": "Diplomatura en Relaciones Laborales y máster en Dirección de Recursos Humanos, Universitat Pompeu Fabra.",
+    "formacion": "Diplomado en Relaciones Laborales, Universitat Pompeu Fabra; máster en Dirección de Recursos Humanos, Universitat Pompeu Fabra.",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -749,8 +786,10 @@
       "rol": "Cabeza de lista de ERC por Barcelona",
       "cargo_actual": "Diputado por Barcelona (Grupo Republicano); portavoz de ERC en el Congreso",
       "formacion": "Diplomatura en Relaciones Laborales y Máster en Dirección de Recursos Humanos, Universitat Pompeu Fabra (ficha del Congreso; años no consignados).",
-      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Declaración más reciente (modificación de 28-01-2026); la inicial es de 16-08-2023 (https://www.congreso.es/docbienes/leg15/000299/000299_000_e_0001249_20230816.pdf). No se localizó prensa de 2023-2026 que cite cifras. Importes, inmuebles y deudas: null."
-    }
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. Declaración más reciente (modificación de 28-01-2026); la inicial es de 16-08-2023 (https://www.congreso.es/docbienes/leg15/000299/000299_000_e_0001249_20230816.pdf). No se localizó prensa de 2023-2026 que cite cifras. Importes, inmuebles y deudas: null.",
+      "judicial_descartados": "Descartada: querella por injurias del juez Peinado (noticiada 07-10-2025, Nació Digital/El Confidencial); sin constancia de admisión a trámite ni suplicatorio."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "salf",
@@ -797,25 +836,24 @@
         "persona": "el propio candidato",
         "resumen": "Presunta financiación ilegal de SALF: estafa, apropiación indebida, blanqueo de capitales y falsedad documental.",
         "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Julián Sánchez Melgar)",
-        "fase": "en instrucción en el Tribunal Supremo",
-        "fecha_ultima_actuacion": "2025-04-11",
-        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
-      },
-      {
-        "persona": "el propio candidato",
-        "resumen": "Difusión de una prueba PCR falsa atribuida a Salvador Illa.",
-        "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Javier Hernández)",
-        "fase": "en instrucción en el Tribunal Supremo",
-        "fecha_ultima_actuacion": "2025-04-11",
-        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+        "fase": "en instrucción en el Tribunal Supremo; el Parlamento Europeo levantó la inmunidad el 19-05-2026 y el instructor ordenó diligencias policiales el 10-07-2026",
+        "fecha_ultima_actuacion": "2026-07-10",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356",
+        "fuentes_adicionales": [
+          "https://es.euronews.com/my-europe/2026/05/19/luis-alvise-perez-se-vuelve-a-quedar-sin-inmunidad-la-eurocamara-se-la-retira-de-nuevo",
+          "https://www.moncloa.com/2026/07/12/alvise-policia-nacional-financiacion-ilegal-3398395/"
+        ]
       },
       {
         "persona": "el propio candidato",
         "resumen": "Presunto acoso a la fiscal Susana Gisbert.",
         "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Eduardo de Porres)",
-        "fase": "en instrucción en el Tribunal Supremo",
-        "fecha_ultima_actuacion": "2025-05",
-        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+        "fase": "en instrucción en el Tribunal Supremo; el Parlamento Europeo levantó la inmunidad el 28-04-2026",
+        "fecha_ultima_actuacion": "2026-04-28",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356",
+        "fuentes_adicionales": [
+          "https://www.eldiario.es/politica/parlamento-europeo-retira-inmunidad-alvise-sea-juzgado-acosar-fiscal_1_13176601.amp.html"
+        ]
       },
       {
         "persona": "el propio candidato",
@@ -829,17 +867,23 @@
         "persona": "el propio candidato",
         "resumen": "Presuntas amenazas contra el alcalde de Algeciras y senador José Ignacio Landaluce.",
         "organo_judicial": "Tribunal Supremo, Sala Segunda (instructor Antonio del Moral)",
-        "fase": "en instrucción en el Tribunal Supremo",
-        "fecha_ultima_actuacion": "2026-03",
-        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+        "fase": "en instrucción en el Tribunal Supremo; el 21-07-2026 el instructor pidió al Parlamento Europeo el suplicatorio para levantar la inmunidad (pendiente)",
+        "fecha_ultima_actuacion": "2026-07-21",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356",
+        "fuentes_adicionales": [
+          "https://www.ondavasca.com/el-supremo-pide-al-parlamento-europeo-retirar-la-inmunidad-a-alvise-para-investigarle-por-presuntas-amenazas/"
+        ]
       },
       {
         "persona": "el propio candidato",
         "resumen": "Presunto desorden público por mensajes en Telegram durante las protestas agrícolas de 2024.",
         "organo_judicial": "Tribunal Supremo, Sala Segunda (instructora Carmen Lamela)",
-        "fase": "en instrucción en el Tribunal Supremo",
-        "fecha_ultima_actuacion": null,
-        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356"
+        "fase": "en instrucción en el Tribunal Supremo; el 05-11-2026 la instructora pidió al Parlamento Europeo el suplicatorio para levantar la inmunidad (pendiente)",
+        "fecha_ultima_actuacion": "2026-11-05",
+        "url": "https://moncloa.com/2026/10/04/alvise-perez-supremo-seis-causas-3442356",
+        "fuentes_adicionales": [
+          "https://www.moncloa.com/2026/11/05/supremo-alvise-perez-3462062/"
+        ]
       }
     ],
     "nota": "Estado de las seis causas según Moncloa.com (04-10-2026): ninguna ha alcanzado juicio oral; el Parlamento Europeo levantó la inmunidad en dos de ellas (la fuente no dice cuáles). Algún titular menciona siete causas; solo se enumeran seis con fuente abierta. Fecha de la resolución del Supremo en la condena civil: no consta; se usa la fecha de la noticia. No se identificó proceso del entorno familiar directo.",
@@ -907,8 +951,11 @@
           "organo_judicial": "Tribunal Supremo, Sala Segunda (instructora Carmen Lamela)"
         }
       ],
-      "patrimonio_nota": "El Parlamento Europeo publica intereses económicos, no patrimonio. Revisión 3 (06-07-2026): ingresos como influencer 2021-2024 (incl. 100.000 € por una charla el 06-04-2024); durante el mandato, suscripciones de Instagram (722 €) y Patreon (14.242 €), consultoría freelance (288.044 €) y derechos de autor (146.792 €); titular único de Resistencia Popular S.L. y de AP Desarrollo y Gestión S.L. No hay declaración de bienes accesible."
-    }
+      "patrimonio_nota": "El Parlamento Europeo publica intereses económicos, no patrimonio. Revisión 3 (06-07-2026): ingresos como influencer 2021-2024 (incl. 100.000 € por una charla el 06-04-2024); durante el mandato, suscripciones de Instagram (722 €) y Patreon (14.242 €), consultoría freelance (288.044 €) y derechos de autor (146.792 €); titular único de Resistencia Popular S.L. y de AP Desarrollo y Gestión S.L. No hay declaración de bienes accesible.",
+      "judicial_actualizacion": "Revisado 11-11-2026. Causa PCR Illa: auto de sobreseimiento de 05-11-2026, recurrible, por eso se mantiene con la fase actualizada; retirar si queda firme.",
+      "pcr_illa": "Retirada: sobreseída por auto del Supremo de 05-11-2026 (criterio: no se recogen causas archivadas)."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "junts",
@@ -966,8 +1013,10 @@
     ],
     "notas_internas": {
       "rol": "Cabeza de lista de Junts por Barcelona",
-      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
-    }
+      "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null.",
+      "judicial_descartados": "Sin hallazgos propios. Las causas de Puigdemont afectan al partido, no a la candidata ni a su familia directa."
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "bildu",
@@ -977,8 +1026,8 @@
     "trayectoria": [
       {
         "cargo": "Miembro del Parlamento Vasco",
-        "desde": null,
-        "hasta": null
+        "desde": "2002",
+        "hasta": "2009"
       },
       {
         "cargo": "Diputado por Bizkaia (XII a XV Legislaturas)",
@@ -991,10 +1040,10 @@
         "hasta": "2026"
       }
     ],
-    "anos_en_politica": null,
-    "anos_base": "Consta cargo previo en el Parlamento Vasco sin años en las fuentes abiertas; el primer cargo con fecha es diputado desde 2016 (10 años como mínimo documentado).",
+    "anos_en_politica": 24,
+    "anos_base": "Primer cargo: miembro del Parlamento Vasco desde 2002 (Moncloa.com, 09-10-2026); 2026-2002=24.",
     "experiencia_fuera": null,
-    "formacion": "Estudios de Empresariales (sin titulación acreditada).",
+    "formacion": "Estudios de Empresariales (no consta titulación).",
     "patrimonio": {
       "declarado": true,
       "estado": "publicada",
@@ -1030,6 +1079,10 @@
       {
         "nombre": "Demócrata, buscador de listas 29N (BOE)",
         "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+      },
+      {
+        "nombre": "Moncloa.com, Matute se muestra dispuesto a repetir como candidato (09-10-2026)",
+        "url": "https://www.moncloa.com/2026/10/09/matute-eh-bildu-29n-candidato-3444892/"
       }
     ],
     "notas_internas": {
@@ -1039,7 +1092,8 @@
         "Miembro del Parlamento Vasco (años no consignados)"
       ],
       "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "pnv",
@@ -1117,7 +1171,8 @@
         "Concejala de Lekeitio (año de inicio no consignado)"
       ],
       "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   },
   {
     "party": "bng",
@@ -1182,6 +1237,7 @@
         "Portavoz titular en la Junta de Portavoces (periodos de la XV Legislatura)"
       ],
       "patrimonio_nota": "El PDF oficial del Congreso es un documento escaneado sin capa de texto; las herramientas disponibles solo recuperaron el sello de registro, por lo que no se pudieron leer los importes. No se localizó prensa que cite cifras. Importes, inmuebles y deudas: null."
-    }
+    },
+    "judicial_revisado": "2026-11-11"
   }
 ]

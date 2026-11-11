@@ -1,0 +1,916 @@
+{
+ "categorias": [
+  {
+   "id": "irpf",
+   "nombre": "IRPF"
+  },
+  {
+   "id": "iva",
+   "nombre": "IVA"
+  },
+  {
+   "id": "sociedades",
+   "nombre": "Impuesto de Sociedades"
+  },
+  {
+   "id": "patrimonio",
+   "nombre": "Patrimonio, grandes fortunas y sucesiones"
+  },
+  {
+   "id": "autonomos",
+   "nombre": "Autónomos y cotizaciones"
+  },
+  {
+   "id": "vivienda",
+   "nombre": "Fiscalidad de la vivienda"
+  },
+  {
+   "id": "otros",
+   "nombre": "Otros impuestos"
+  }
+ ],
+ "partidos": {
+  "aa": [
+   {
+    "cat": "sociedades",
+    "ref": "aa-eco-01",
+    "texto": "Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "aa-eco-02",
+    "texto": "Impuesto a grandes fortunas y grandes propiedades inmobiliarias y agrícolas."
+   },
+   {
+    "cat": "otros",
+    "ref": "aa-eco-03",
+    "texto": "Crear una tasa turística."
+   },
+   {
+    "cat": "otros",
+    "ref": "aa-san-03",
+    "texto": "Impuesto de retorno sanitario sobre el beneficio de la sanidad privada."
+   }
+  ],
+  "alhora": [
+   {
+    "cat": "patrimonio",
+    "ref": "alhora-eco-03",
+    "texto": "Revisar el impuesto sobre el patrimonio para que no perjudique a la clase media."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "alhora-viv-04",
+    "texto": "Penalizar en el impuesto de transmisiones patrimoniales las compraventas de no residentes de menos de dos años en zonas de alta presión especulativa."
+   },
+   {
+    "cat": "otros",
+    "ref": "alhora-eco-02",
+    "texto": "Multiplicar la tasa turística para alejarse del «monocultivo turístico»."
+   },
+   {
+    "cat": "otros",
+    "ref": "alhora-eco-04",
+    "texto": "Destinar la tasa turística a educación en lugar de a promoción turística."
+   }
+  ],
+  "autonomos": [
+   {
+    "cat": "autonomos",
+    "ref": "autonomos-emp-02",
+    "texto": "Que un autónomo cuyos ingresos no lleguen al salario mínimo interprofesional no tenga que pagar cuota."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "autonomos-eco-01",
+    "texto": "Hacer una reforma fiscal «justa y proporcional», con cuotas ajustadas a los ingresos reales de cada autónomo."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "autonomos-eco-02",
+    "texto": "Revisar los límites a los gastos deducibles de los autónomos, que el partido considera excesivos."
+   }
+  ],
+  "bildu": [
+   {
+    "cat": "patrimonio",
+    "ref": "bildu-eco-01",
+    "texto": "Hacer permanentes los impuestos a banca, energéticas y grandes fortunas, gestionados por las haciendas forales."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "bildu-viv-04",
+    "texto": "Gravar las viviendas vacías (IBI y canon anual), alquiler forzoso en zonas tensionadas y expropiación del uso en emergencias."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "bildu-viv-05",
+    "texto": "Subir el ITP a terceras viviendas y grandes tenedores y un recargo del 20% al alquiler turístico y de temporada."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "bildu-viv-06",
+    "texto": "Revisar la deducción fiscal por compra de vivienda para destinar esos recursos a vivienda pública."
+   },
+   {
+    "cat": "otros",
+    "ref": "bildu-eco-02",
+    "texto": "Crear un impuesto especial sobre los beneficios de las grandes cadenas de distribución alimentaria."
+   }
+  ],
+  "bng": [
+   {
+    "cat": "irpf",
+    "ref": "bng-eco-03",
+    "texto": "IRPF más progresivo, con menor gravamen a las rentas del trabajo que a las del capital y tarifas deflactadas según la inflación gallega."
+   },
+   {
+    "cat": "iva",
+    "ref": "bng-eco-05",
+    "texto": "Rebaja permanente del IVA en alimentación básica, productos del mar e higiene y tipo superreducido para bienes culturales."
+   },
+   {
+    "cat": "iva",
+    "ref": "bng-eco-06",
+    "texto": "IVA del 5 % para electricidad, gas, biomasa y leña, y rebaja del impuesto eléctrico del 5,1 % al 0,5 %."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "bng-eco-04",
+    "texto": "Que tributen en Galicia por Sociedades las empresas que operan allí aunque tengan la sede fuera."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "bng-viv-03",
+    "texto": "Ampliar el recargo del IBI sobre la vivienda vacía y alargar la duración de los contratos de alquiler."
+   },
+   {
+    "cat": "otros",
+    "ref": "bng-eco-01",
+    "texto": "Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado."
+   },
+   {
+    "cat": "otros",
+    "ref": "bng-eco-02",
+    "texto": "Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia."
+   }
+  ],
+  "cc": [
+   {
+    "cat": "autonomos",
+    "ref": "cc-emp-02",
+    "texto": "Bonificaciones a la Seguridad Social para contratos indefinidos de jóvenes, mayores de 45 años y mujeres en ocupaciones subrepresentadas."
+   },
+   {
+    "cat": "otros",
+    "ref": "cc-eco-01",
+    "texto": "Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan."
+   },
+   {
+    "cat": "otros",
+    "ref": "cc-eco-07",
+    "texto": "Eximir a Canarias de la tasa europea de emisiones a los vuelos dentro del Espacio Económico Europeo."
+   },
+   {
+    "cat": "otros",
+    "ref": "cc-cul-01",
+    "texto": "Recuperar las ayudas a la movilidad de artistas extrapeninsulares y mantener los incentivos fiscales al rodaje en Canarias."
+   }
+  ],
+  "compromis": [
+   {
+    "cat": "otros",
+    "ref": "compromis-eco-01",
+    "texto": "Tasa turística y nuevos impuestos a las empresas más contaminantes y a aviones y embarcaciones privadas; rebajas fiscales en municipios en despoblación."
+   }
+  ],
+  "d21": [
+   {
+    "cat": "vivienda",
+    "ref": "d21-viv-02",
+    "texto": "Eliminar todos los impuestos ligados a la vivienda para los menores de 35 años mientras no se garantice el acceso a alquileres asequibles."
+   }
+  ],
+  "drago": [
+   {
+    "cat": "vivienda",
+    "ref": "drago-viv-03",
+    "texto": "Medidas fiscales en vivienda, que considera ausentes en los gobiernos de coalición."
+   }
+  ],
+  "erc": [
+   {
+    "cat": "irpf",
+    "ref": "erc-ter-05",
+    "texto": "Reformar la LOFCA y otras dos leyes para que la Agència Tributària de Catalunya, y cualquier comunidad que lo pida, recaude el IRPF por delegación."
+   },
+   {
+    "cat": "irpf",
+    "ref": "erc-ter-06",
+    "texto": "Elevar la recaudación del IRPF gestionada por la Generalitat de unos 5.000 a unos 30.000 millones de euros anuales lo antes posible."
+   },
+   {
+    "cat": "irpf",
+    "ref": "erc-eco-04",
+    "texto": "Reducir la tributación de las rentas del trabajo inferiores a 35.000 euros anuales."
+   },
+   {
+    "cat": "iva",
+    "ref": "erc-viv-06",
+    "texto": "Elevar al 21% el IVA de los alquileres turísticos."
+   },
+   {
+    "cat": "otros",
+    "ref": "erc-ter-03",
+    "texto": "Que la Agència Tributària de Catalunya asuma progresivamente la recaudación de todos los tributos estatales generados en Cataluña."
+   },
+   {
+    "cat": "otros",
+    "ref": "erc-ter-07",
+    "texto": "Un sistema de financiación basado en la recaudación de los impuestos generados en Cataluña, con una participación del Estado para sufragar sus competencias y respetando el principio de ordinalidad."
+   }
+  ],
+  "escanosenblanco": [],
+  "existe": [
+   {
+    "cat": "vivienda",
+    "ref": "existe-eco-02",
+    "texto": "Exención del IBI para residentes de rentas bajas y medias en municipios despoblados de menos de 5.000 habitantes, con compensación estatal a los ayuntamientos."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "existe-viv-01",
+    "texto": "Reducir un 80% el impuesto de transmisiones patrimoniales en la compra de vivienda en esas localidades."
+   }
+  ],
+  "falange": [
+   {
+    "cat": "irpf",
+    "ref": "falange-dem-01",
+    "texto": "«Coeficiente familiar» en el IRPF, con rebajas y exenciones para las familias."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "falange-eco-05",
+    "texto": "Exenciones y rebajas fiscales para pymes y autónomos."
+   },
+   {
+    "cat": "otros",
+    "ref": "falange-eco-04",
+    "texto": "«Rebaja fiscal drástica», con optimización de sanidad, educación y transporte públicos."
+   }
+  ],
+  "feministas": [],
+  "frenteobrero": [
+   {
+    "cat": "irpf",
+    "ref": "frenteobrero-eco-03",
+    "texto": "Bajar el IRPF a las rentas bajas y subirlo a las altas, con más tramos y tipos."
+   },
+   {
+    "cat": "irpf",
+    "ref": "frenteobrero-dem-01",
+    "texto": "Planes de natalidad con ventajas fiscales y ayudas a familias numerosas, con el objetivo de más de 2 hijos por mujer."
+   },
+   {
+    "cat": "iva",
+    "ref": "frenteobrero-eco-04",
+    "texto": "Reducir el peso del IVA y llevar progresivamente los bienes básicos al tipo superreducido."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "frenteobrero-eco-06",
+    "texto": "Subir sociedades y patrimonio a las grandes empresas, centralizar sucesiones y patrimonio y eliminar sucesiones a rentas bajas."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "frenteobrero-emp-07",
+    "texto": "Eximir de cotizar a los autónomos que ingresen menos del SMI, bajar sus cuotas, cubrir al 100 % su baja por enfermedad y acabar con los «falsos autónomos»."
+   },
+   {
+    "cat": "otros",
+    "ref": "frenteobrero-eco-05",
+    "texto": "Multas y, si es necesario, expropiación a las empresas que cometan fraude fiscal o tributen en el extranjero."
+   },
+   {
+    "cat": "otros",
+    "ref": "frenteobrero-ene-03",
+    "texto": "Regular de inmediato los precios de la electricidad y los carburantes, incluidos sus impuestos."
+   },
+   {
+    "cat": "otros",
+    "ref": "frenteobrero-ter-01",
+    "texto": "Igualar las competencias y el régimen fiscal de todas las comunidades y recentralizar sanidad, educación y emergencias."
+   }
+  ],
+  "geroabai": [
+   {
+    "cat": "irpf",
+    "ref": "geroabai-emp-03",
+    "texto": "Más presupuesto para el plan de desamiantado y exención de IRPF a las personas afectadas por el amianto."
+   },
+   {
+    "cat": "otros",
+    "ref": "geroabai-ter-01",
+    "texto": "Actualizar el Convenio Económico para ampliar la autonomía de Navarra en los tributos convenidos."
+   },
+   {
+    "cat": "otros",
+    "ref": "geroabai-eco-02",
+    "texto": "Más capacidad normativa en impuestos medioambientales (hidrocarburos, electricidad, gases fluorados) y estudiar impuestos al cambio de uso del suelo y a la ganadería intensiva."
+   },
+   {
+    "cat": "otros",
+    "ref": "geroabai-eco-03",
+    "texto": "Control de cajas registradoras similar al TicketBAI vasco y nuevo plan de lucha contra el fraude fiscal con otras haciendas."
+   },
+   {
+    "cat": "otros",
+    "ref": "geroabai-rur-02",
+    "texto": "Ley Foral contra la Despoblación con fiscalidad especial e índice de despoblación."
+   }
+  ],
+  "iustitia": [
+   {
+    "cat": "autonomos",
+    "ref": "iustitia-emp-01",
+    "texto": "Cuota cero a la Seguridad Social para los autónomos durante cuatro años."
+   }
+  ],
+  "junts": [
+   {
+    "cat": "patrimonio",
+    "ref": "junts-eco-01",
+    "texto": "Eliminar el impuesto de sucesiones."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "junts-eco-02",
+    "texto": "Reducir la cuota de cotización de los trabajadores autónomos."
+   },
+   {
+    "cat": "otros",
+    "ref": "junts-ter-03",
+    "texto": "Concierto económico para Cataluña: cesión del 100% de los tributos que se pagan en Cataluña."
+   },
+   {
+    "cat": "otros",
+    "ref": "junts-eco-03",
+    "texto": "Bajar impuestos para 'dar aire a la gente'."
+   }
+  ],
+  "mes": [
+   {
+    "cat": "iva",
+    "ref": "mes-eco-03",
+    "texto": "Un tipo de IVA diferenciado para Baleares."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "mes-viv-06",
+    "texto": "Más impuestos a las viviendas vacías, recargo a las segundas residencias y subir el ITP en compras para uso no residencial."
+   },
+   {
+    "cat": "otros",
+    "ref": "mes-eco-02",
+    "texto": "Duplicar el impuesto de turismo sostenible y destinar al menos un 25% a diversificación económica, territorio y transición energética."
+   }
+  ],
+  "mundojusto": [
+   {
+    "cat": "sociedades",
+    "ref": "mundojusto-eco-02",
+    "texto": "Impulsar acuerdos internacionales para que las multinacionales paguen más impuestos y no usen paraísos fiscales."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "mundojusto-eco-03",
+    "texto": "Revertir la reducción del impuesto de sociedades y combatir la evasión fiscal, para que las grandes empresas contribuyan según sus beneficios."
+   },
+   {
+    "cat": "otros",
+    "ref": "mundojusto-eco-01",
+    "texto": "Crear tributos transnacionales sobre las ganancias del mercado financiero internacional."
+   },
+   {
+    "cat": "otros",
+    "ref": "mundojusto-cul-01",
+    "texto": "Apoyar a la Iglesia católica en igualdad con otras asociaciones, sin privilegios tributarios, sin asignación de la recaudación y sin financiar la asignatura de religión."
+   }
+  ],
+  "pacma": [
+   {
+    "cat": "iva",
+    "ref": "pacma-eco-01",
+    "texto": "Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%."
+   },
+   {
+    "cat": "otros",
+    "ref": "pacma-eco-02",
+    "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar daños."
+   },
+   {
+    "cat": "otros",
+    "ref": "pacma-eco-03",
+    "texto": "Impuesto climático a las explotaciones ganaderas y avícolas."
+   }
+  ],
+  "pcte": [],
+  "pnv": [
+   {
+    "cat": "iva",
+    "ref": "pnv-eco-01",
+    "texto": "Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA."
+   },
+   {
+    "cat": "otros",
+    "ref": "pnv-eco-02",
+    "texto": "Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular."
+   },
+   {
+    "cat": "otros",
+    "ref": "pnv-eco-03",
+    "texto": "Tramitar como impuestos, y no como prestaciones patrimoniales, los gravámenes temporales a energéticas y banca, para que puedan concertarse."
+   },
+   {
+    "cat": "otros",
+    "ref": "pnv-eco-04",
+    "texto": "Concertar el Impuesto sobre la Renta de No Residentes (acuerdo de investidura)."
+   }
+  ],
+  "podemos": [
+   {
+    "cat": "irpf",
+    "ref": "podemos-eco-03",
+    "texto": "Igualar la tributación en el IRPF de las rentas del capital y del trabajo."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "podemos-eco-01",
+    "texto": "Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "podemos-viv-06",
+    "texto": "Impuesto de 20 puntos sobre la venta de viviendas compradas en los dos años anteriores."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "podemos-viv-07",
+    "texto": "Impuesto a las viviendas vacías y número máximo de viviendas por propietario."
+   },
+   {
+    "cat": "otros",
+    "ref": "podemos-eco-02",
+    "texto": "Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas."
+   },
+   {
+    "cat": "otros",
+    "ref": "podemos-eco-04",
+    "texto": "Impuestos al lujo (jets privados, yates, coches de alta cilindrada) y más personal en la Agencia Tributaria; no subir impuestos a trabajadores, autónomos ni pymes."
+   },
+   {
+    "cat": "otros",
+    "ref": "podemos-edu-04",
+    "texto": "Escuela pública laica, fin del Concordato y de los beneficios fiscales de la Iglesia."
+   },
+   {
+    "cat": "otros",
+    "ref": "podemos-ter-02",
+    "texto": "Reconocer una «ultraperiferia demográfica interior» con fiscalidad propia para zonas despobladas."
+   }
+  ],
+  "pp": [
+   {
+    "cat": "irpf",
+    "ref": "pp-eco-04",
+    "texto": "Deflactar la tarifa del IRPF para evitar subidas de impuestos encubiertas por la inflación."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-eco-07",
+    "texto": "Elevar los mínimos personales y familiares del IRPF y que quien cobre el salario mínimo no pague IRPF, con un umbral ligado al SMI."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-eco-10",
+    "texto": "Reducir el IRPF a los jóvenes de 18 a 35 años: un 100% el primer año de tributación, un 75% el segundo, un 50% el tercero y un 25% el cuarto."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-san-09",
+    "texto": "Fondo Estatal para enfermedades raras y terapias avanzadas, y deducción en el IRPF por gastos de tratamiento de cáncer, ELA y otras enfermedades graves."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-igu-05",
+    "texto": "Pacto de Estado por la Dependencia: aportación estatal del 50%, deducción del 40% por atención profesional y cotización del Estado por quien deje de trabajar para cuidar."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-tec-03",
+    "texto": "Atraer investigadores con una tributación del 20% durante seis años y dar continuidad a la financiación de la I+D."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-dem-01",
+    "texto": "Duplicar el mínimo por descendientes en el IRPF: de 2.400 a 4.800 € el primer hijo, de 2.700 a 5.400 € el segundo, de 4.000 a 8.000 € el tercero y de 4.500 a 9.000 € los siguientes."
+   },
+   {
+    "cat": "irpf",
+    "ref": "pp-dem-06",
+    "texto": "Refundir las deducciones familiares del IRPF en una sola, reembolsable y de abono mensual, que llegue también a quien no tenga cuota, y actualizar los mínimos con la inflación."
+   },
+   {
+    "cat": "iva",
+    "ref": "pp-eco-02",
+    "texto": "Aplicar un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas, mientras persista la crisis de inflación."
+   },
+   {
+    "cat": "iva",
+    "ref": "pp-eco-03",
+    "texto": "Bajar el IVA de la electricidad y el gas del 21% al 10%."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "pp-eco-11",
+    "texto": "Libertad de amortización para que las inversiones se deduzcan el mismo año, y eliminar «los impuestos que frenan la inversión», sin concretar cuáles."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "pp-tec-04",
+    "texto": "Mayor deducción por I+D+i, compra pública innovadora, trámites de 30 días para proyectos de IA y zonas de innovación con trato fiscal favorable siete años («no serán zonas francas»)."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "pp-eco-05",
+    "texto": "Eximir de la obligación de IVA a los autónomos que facturen menos de 85.000 € al año y pasar a declaraciones semestrales."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "pp-emp-02",
+    "texto": "Que los nuevos autónomos no paguen cuota el primer año de actividad y tengan su vivienda habitual protegida por defecto."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "pp-emp-05",
+    "texto": "Cheque de formación para cada trabajador, que conservará al cambiar de empresa, y cuota bonificada para el autónomo de baja por enfermedad desde el primer día."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "pp-dem-07",
+    "texto": "Más flexibilidad para repartir el permiso por nacimiento, bancos de horas y teletrabajo, y cuota de autónomo bonificada al 100% dos años tras el permiso."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pp-viv-06",
+    "texto": "Bajar del 10% al 4% el IVA de la primera vivienda para compradores menores de 40 años, con posibilidad de pago fraccionado."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pp-viv-10",
+    "texto": "Impulsar la vivienda industrializada, la rehabilitación con IVA del 4% y un «agente rehabilitador», y la regeneración urbana con más edificabilidad y remontas."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pp-viv-13",
+    "texto": "«Hucha Hogar Joven»: aportaciones de hasta 2.000 € al año para comprar vivienda, con una deducción del 20% y un tope de 40.000 €."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pp-viv-14",
+    "texto": "«Tres años+»: deducciones para el inquilino y para el propietario particular que renueve el contrato tres años con una subida inferior al IPC."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pp-rur-02",
+    "texto": "Que los jóvenes no paguen impuestos por comprar su vivienda habitual en municipios despoblados, dentro de una rebaja fiscal para el medio rural."
+   },
+   {
+    "cat": "otros",
+    "ref": "pp-eco-01",
+    "texto": "Rebajar los impuestos y revisar una a una las que cifra en más de cien subidas fiscales aprobadas en los últimos años."
+   },
+   {
+    "cat": "otros",
+    "ref": "pp-eco-12",
+    "texto": "Que las comunidades autónomas puedan fijar y bajar sus impuestos sin que ningún Gobierno las obligue a subirlos."
+   },
+   {
+    "cat": "otros",
+    "ref": "pp-ene-02",
+    "texto": "Eliminar de inmediato el impuesto del 7% a la producción eléctrica y crear una Tarifa Social Única."
+   }
+  ],
+  "prepal": [],
+  "psoe": [
+   {
+    "cat": "irpf",
+    "ref": "psoe-eco-01",
+    "texto": "Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales."
+   },
+   {
+    "cat": "irpf",
+    "ref": "psoe-dem-02",
+    "texto": "Aumentar en el IRPF los incentivos por hijo y por dependencia."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "psoe-viv-06",
+    "texto": "Deducción estatal del 10% del alquiler en el IRPF para inquilinos con rentas inferiores a 33.007 €."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "psoe-viv-08",
+    "texto": "IVA del 10% para pisos turísticos y alquileres de hasta 30 noches, y recargos de IBI de hasta el 150% a alojamientos turísticos y viviendas vacías."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "psoe-viv-09",
+    "texto": "Subir del 15% al 25% el gravamen de las SOCIMI sobre beneficios del alquiler, con rebajas si ofrecen vivienda asequible."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "psoe-viv-10",
+    "texto": "IVA del 4% para la construcción de vivienda protegida permanente."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "psoe-viv-14",
+    "texto": "Cuenta de ahorro con ventajas fiscales para la primera vivienda de jóvenes de hasta 39 años, con hasta 30.000 € libres de tributación."
+   },
+   {
+    "cat": "otros",
+    "ref": "psoe-eco-03",
+    "texto": "Reducir el déficit estructural y combatir el fraude y la economía sumergida sin subir los impuestos con carácter general."
+   },
+   {
+    "cat": "otros",
+    "ref": "psoe-eco-04",
+    "texto": "Pacto de Estado contra el Fraude Fiscal y mejor fiscalidad para autónomos y pymes."
+   },
+   {
+    "cat": "otros",
+    "ref": "psoe-eco-05",
+    "texto": "Mantener el gravamen sobre el margen de intereses de la banca."
+   },
+   {
+    "cat": "otros",
+    "ref": "psoe-ter-01",
+    "texto": "Nuevo modelo de financiación autonómica: 20.975 M€ más en 2027 y cesión del 55% del IRPF y el 56,5% del IVA, de adhesión voluntaria."
+   }
+  ],
+  "salf": [
+   {
+    "cat": "irpf",
+    "ref": "salf-eco-01",
+    "texto": "IRPF del 0 % para quienes ingresen menos de 35.000 euros al año."
+   },
+   {
+    "cat": "irpf",
+    "ref": "salf-eco-02",
+    "texto": "Rebajar cinco puntos el IRPF por cada hijo a cargo."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "salf-eco-03",
+    "texto": "Suprimir el impuesto de sucesiones y donaciones y el impuesto de patrimonio."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "salf-eco-04",
+    "texto": "Cuota cero a la Seguridad Social para nuevos autónomos durante tres años, financiada por la Administración."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "salf-viv-02",
+    "texto": "Cero impuestos en la compra de la primera vivienda y licencias rápidas."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "salf-viv-03",
+    "texto": "Ley «antiokupación» con desalojo policial en 24 horas y deducción en el IRPF para los propietarios afectados."
+   },
+   {
+    "cat": "otros",
+    "ref": "salf-deu-05",
+    "texto": "Fijar límites a la presión fiscal y al endeudamiento autonómicos y no condonar deuda autonómica salvo catástrofe."
+   },
+   {
+    "cat": "otros",
+    "ref": "salf-rur-02",
+    "texto": "Eliminar el cuaderno digital de explotación agraria y bonificar el gasóleo agrícola."
+   }
+  ],
+  "sorianya": [
+   {
+    "cat": "irpf",
+    "ref": "sorianya-edu-02",
+    "texto": "Becas y deducciones en el IRPF con criterio de procedencia de zonas despobladas, y más puntos en los concursos docentes para plazas en zonas poco pobladas."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "sorianya-eco-03",
+    "texto": "Tarifa plana de 80 euros para los autónomos que se establezcan en territorios despoblados."
+   },
+   {
+    "cat": "otros",
+    "ref": "sorianya-eco-02",
+    "texto": "Reducir un 50% la cuota íntegra de los principales impuestos para trabajadores y empresas de Soria, Cuenca y Teruel."
+   },
+   {
+    "cat": "otros",
+    "ref": "sorianya-eco-04",
+    "texto": "Para el comercio de municipios de menos de 500 habitantes: deducciones fiscales, tarifas eléctricas reducidas y bonificación del combustible para la venta ambulante."
+   },
+   {
+    "cat": "otros",
+    "ref": "sorianya-eco-07",
+    "texto": "Atraer «nómadas digitales» con oficinas de retorno y la ampliación de los regímenes fiscales especiales."
+   },
+   {
+    "cat": "otros",
+    "ref": "sorianya-ene-01",
+    "texto": "Que las provincias «donantes de energía» renovable obtengan beneficios fiscales y económicos y que el valor de sus recursos ambientales revierta en el territorio, para que no sea un «territorio de sacrificio»."
+   },
+   {
+    "cat": "otros",
+    "ref": "sorianya-ene-02",
+    "texto": "Reconocer la masa forestal como sumidero de CO2 y compensarla según el principio «quien contamina paga», vinculando beneficios fiscales a beneficios ambientales."
+   }
+  ],
+  "sumar": [
+   {
+    "cat": "irpf",
+    "ref": "sumar-eco-04",
+    "texto": "Nuevos tramos de IRPF desde 120.000 € y elevar el tipo marginal máximo del 45% al 52% a partir de 300.000 €."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "sumar-eco-02",
+    "texto": "Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "sumar-eco-01",
+    "texto": "Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "sumar-eco-07",
+    "texto": "Impuesto estatal sobre herencias y donaciones superiores a 1 millón de euros (proposición de ley de Sumar e IU, mayo de 2026)."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "sumar-emp-09",
+    "texto": "Cotización fija bonificada para autónomos con ingresos inferiores al SMI y compensación de pérdidas sin límite temporal."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "sumar-viv-05",
+    "texto": "Recargo en el Impuesto de Sociedades a los fondos que alquilen por encima del precio de referencia o destinen viviendas a uso turístico."
+   },
+   {
+    "cat": "otros",
+    "ref": "sumar-eco-12",
+    "texto": "Reforzar la fiscalidad sobre las compañías energéticas (anunciado por Ernest Urtasun en la presentación de Frente Amplio)."
+   },
+   {
+    "cat": "otros",
+    "ref": "sumar-ter-02",
+    "texto": "Reformar la financiación autonómica con un suelo fiscal común que evite la competencia fiscal a la baja entre comunidades."
+   }
+  ],
+  "upc": [
+   {
+    "cat": "autonomos",
+    "ref": "upc-emp-01",
+    "texto": "Bonificar las cotizaciones sociales en periodos de crisis y en actividades prioritarias."
+   },
+   {
+    "cat": "otros",
+    "ref": "upc-eco-01",
+    "texto": "Que el Estado no modifique el Régimen Económico y Fiscal (REF) sin acuerdo con Canarias y aumente en los PGE sus programas económicos."
+   },
+   {
+    "cat": "otros",
+    "ref": "upc-eco-02",
+    "texto": "Extender al REF el tratamiento diferenciado frente a la tributación mínima global del 15%."
+   },
+   {
+    "cat": "otros",
+    "ref": "upc-eco-03",
+    "texto": "Vincular los incentivos fiscales del REF a la creación de empleo y la diversificación, y reorientar la RIC hacia la sostenibilidad."
+   },
+   {
+    "cat": "otros",
+    "ref": "upc-eco-04",
+    "texto": "Que la Agencia Tributaria Canaria gestione los incentivos del REF mediante convenio con el Estado."
+   }
+  ],
+  "upn": [
+   {
+    "cat": "irpf",
+    "ref": "upn-eco-02",
+    "texto": "Bajar impuestos y deflactar la tarifa del IRPF para compensar la inflación."
+   },
+   {
+    "cat": "otros",
+    "ref": "upn-eco-01",
+    "texto": "Defender el Convenio Económico con una aportación al Estado calculada según renta y no población y reflejada en los PGE."
+   }
+  ],
+  "vox": [
+   {
+    "cat": "irpf",
+    "ref": "vox-eco-01",
+    "texto": "IRPF estatal con dos tipos: 15% para bases de hasta 70.000 € y 25% por encima."
+   },
+   {
+    "cat": "irpf",
+    "ref": "vox-eco-02",
+    "texto": "Dejar exentos de IRPF los primeros 22.000 € anuales de rentas del trabajo, con uno o varios pagadores."
+   },
+   {
+    "cat": "irpf",
+    "ref": "vox-eco-03",
+    "texto": "Eliminar buena parte de las deducciones y bonificaciones del IRPF y compensar la rebaja suprimiendo subvenciones superiores a 100.000 € anuales."
+   },
+   {
+    "cat": "irpf",
+    "ref": "vox-pen-02",
+    "texto": "Eximir del IRPF las pensiones contributivas."
+   },
+   {
+    "cat": "irpf",
+    "ref": "vox-dem-01",
+    "texto": "Reducir cuatro puntos el tipo de IRPF por cada hijo."
+   },
+   {
+    "cat": "irpf",
+    "ref": "vox-dem-02",
+    "texto": "Deducción por nacimiento o adopción de 1.200 €, 1.600 €, 2.500 € y 2.750 € (del primer al cuarto hijo)."
+   },
+   {
+    "cat": "iva",
+    "ref": "vox-eco-04",
+    "texto": "Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%."
+   },
+   {
+    "cat": "iva",
+    "ref": "vox-eco-05",
+    "texto": "Aplicar de forma permanente un IVA del 4% a la electricidad, el gas y el agua de los hogares."
+   },
+   {
+    "cat": "iva",
+    "ref": "vox-dem-03",
+    "texto": "IVA del 4% en pañales, biberones, leches de fórmula y productos farmacéuticos infantiles y geriátricos."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "vox-eco-06",
+    "texto": "Rebajar el Impuesto de Sociedades hasta el 15%."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "vox-eco-07",
+    "texto": "Suprimir los impuestos de Patrimonio, Sucesiones y Donaciones y la plusvalía municipal en toda España."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "vox-emp-03",
+    "texto": "Bonificar el 100% de las cotizaciones de los nuevos contratos indefinidos el primer año y el 50% el segundo."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "vox-emp-04",
+    "texto": "Cuota cero para los autónomos cuyos ingresos netos no lleguen al SMI y derogar la cotización por ingresos reales."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-03",
+    "texto": "IVA del 0% en la compra de la primera vivienda habitual."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-04",
+    "texto": "Recuperar la deducción por inversión en vivienda habitual y extender la deducción por alquiler a todo el territorio."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-06",
+    "texto": "Desalojo policial de ocupantes ilegales en 24 horas y que el propietario deje de pagar IBI y suministros durante la ocupación."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-07",
+    "texto": "Liberar suelo no protegido con una nueva Ley del Suelo y reducir tributos y trámites del proceso edificatorio."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-rur-02",
+    "texto": "Aranceles a productos agrícolas marroquíes y más controles fronterizos a productos de terceros países."
+   }
+  ]
+ }
+}

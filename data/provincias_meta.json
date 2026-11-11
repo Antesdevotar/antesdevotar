@@ -1,0 +1,58 @@
+{
+ "pendientes": [],
+ "notas": [
+  {
+   "party": "sumar",
+   "nota": "Frente Amplio/Sumar figura en la papeleta (BOE) en 43 circunscripciones con marcas Frente Amplio (FA), Frente Amplio Andaluz, Frente Amplio-Fronte Ampla (Galicia), Frente Amplio-Fronte Zabala (Álava y Navarra), Comuns-Front Ampli (Barcelona, Girona, Lleida, Tarragona) y CHA-IU-MS-Frente Amplio (Huesca y Zaragoza). En Alicante, Castellón y Valencia la marca es Compromís (id compromis), en Illes Balears Ara Més (id mes) y en Las Palmas y Santa Cruz de Tenerife UPC (id upc), que ya tienen fichero propio: no se ha añadido 'sumar' en esas 6 (con ellas son las 49 de parties/sumar.json; no concurre en Ceuta, Melilla ni Teruel)."
+  },
+  {
+   "party": "podemos",
+   "nota": "Lista propia en 41 circunscripciones (coincide con parties/podemos.json). Va dentro de Compromís (Alicante, Castellón, Valencia), UPC (Canarias) y sin lista propia en Illes Balears, Melilla y las cuatro catalanas; Ceuta figura como PODEMOS (PAZ, CASA Y TRABAJO)."
+  },
+  {
+   "party": "salf",
+   "nota": "Lista en 46 circunscripciones (coincide con parties/salf.json). No concurre en Bizkaia, Gipuzkoa, Cantabria, Girona, Lleida ni Ciudad Real."
+  },
+  {
+   "party": "pcte",
+   "nota": "PCTE (incluye ELAK/PCTE en Álava, Bizkaia y Gipuzkoa) en 39 circunscripciones; parties/pcte.json dice 37 y Civio dice 39 (el conteo del BOE da 39). Las listas PCTG (A Coruña, Ourense, Pontevedra) y PCTC (Barcelona, Girona, Lleida, Tarragona) son partidos distintos y no se cuentan."
+  },
+  {
+   "party": "pacma",
+   "nota": "Lista en 30 circunscripciones (coincide con parties/pacma.json). Marcadas 'No proclamada': Illes Balears, Barcelona, A Coruña, Murcia, Ourense, Salamanca, Zaragoza."
+  }
+ ],
+ "fuentes_candidaturas": [
+  {
+   "titulo": "BOE, candidaturas proclamadas a las elecciones al Congreso y al Senado del 29-11-2026 (BOE-A-2026-23103)",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+   "fecha": "2026-11-03"
+  },
+  {
+   "titulo": "Civio, candidaturas proclamadas al 29N (contraste de recuentos)",
+   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
+   "fecha": "2026-11-03"
+  }
+ ],
+ "verificacion_resultados_2023": {
+  "fuente_contraste": {
+   "titulo": "Última Hora, escrutinio Congreso 23J (100 %)",
+   "url": "https://www.ultimahora.es/elecciones/23j/congreso/madrid.html"
+  },
+  "provincias_contrastadas": [
+   "madrid",
+   "barcelona",
+   "sevilla",
+   "valencia",
+   "bizkaia",
+   "a-coruna",
+   "las-palmas",
+   "soria"
+  ],
+  "correcciones": [
+   "madrid: escaños PP 15->16, PSOE 11->10",
+   "soria: votos_pct PP 37.21->30.98, PSOE 29.49->33.43 (Soria ¡Ya! 23.34 %, 0 escaños, no incluido en resultados_2023)"
+  ],
+  "resultados_2023_fuente": "No cambiada: infoelectoral.interior.gob.es y resultados.generales23j.es bloquean la lectura automática (robots), no se pudo verificar que los datos coincidan."
+ }
+}

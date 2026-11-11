@@ -78,7 +78,10 @@
     var r = parseInt(h.substr(0, 2), 16), g = parseInt(h.substr(2, 2), 16), b = parseInt(h.substr(4, 2), 16);
     var Lf = function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
     var Y = 0.2126 * Lf(r) + 0.7152 * Lf(g) + 0.0722 * Lf(b);
-    return (Y + 0.05) / 0.0607 > 1.05 / (Y + 0.05) ? '#14161c' : '#ffffff';
+    var dk = (Y + 0.05) / 0.0579, wh = 1.05 / (Y + 0.05);
+    if (dk >= 4.5 && dk >= wh) return '#14161c';
+    if (wh >= 4.5) return '#ffffff';
+    return (Y + 0.05) / 0.05 > wh ? '#000000' : '#ffffff';
   }
   function src(f, label) {
     if (!f) return '';
@@ -87,7 +90,7 @@
     return url ? '<a class="src" href="' + esc(url) + '" target="_blank" rel="noopener">' + icon('link', 14) + '<span>' + esc(label || name) + '</span></a>' : '<span class="src">' + esc(label || name) + '</span>';
   }
   function partyDot(p, size) { return '<span class="pdot" style="--pc:' + esc(p.color || '#888') + ';width:' + (size || 10) + 'px;height:' + (size || 10) + 'px"></span>'; }
-  function avatar(p, cls) { return '<span class="pav ' + (cls || '') + '" style="--pc:' + esc(p.color || '#888') + ';color:' + contrast(p.color) + '">' + esc((p.siglas || p.id).replace(/\s.*/, '').slice(0, 5)) + '</span>'; }
+  function avatar(p, cls) { var lb = (p.siglas || p.id).replace(/\s.*/, '').slice(0, 5); return '<span class="pav ' + (cls || '') + (lb.length > 4 ? ' l5' : '') + '" style="--pc:' + esc(p.color || '#888') + ';color:' + contrast(p.color) + '">' + esc(lb) + '</span>'; }
   var ORIGEN = { 'programa-2026': 'Programa 29N', 'programa-2023': 'Programa 2023', 'declaracion': 'Declaración', 'accion': 'Actuación' };
 
   // ---------- Toast / sheet / share ----------
@@ -300,7 +303,8 @@
       }
     } catch (e) { console.error(e); html = empty('Algo ha fallado al cargar esta pantalla. Vuelve al inicio e inténtalo de nuevo.'); }
     $('#topTitle').innerHTML = title ? esc(title) : brandWord();
-    if (MODE === 'site' && !titledOnce) titledOnce = true; else document.title = (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
+    var docTitle = rt.view === 'partido' && P(rt.id) && P(rt.id).titulo_pagina ? P(rt.id).titulo_pagina : rt.view === 'candidato' && CAND(rt.id) && CAND(rt.id).titulo_pagina ? CAND(rt.id).titulo_pagina : (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
+    if (MODE === 'site' && !titledOnce) titledOnce = true; else document.title = docTitle;
     v.classList.remove('push', 'pop', 'fade');
     void v.offsetWidth;
     v.innerHTML = html;
@@ -442,21 +446,22 @@
       (p.seo && p.seo.resumen ? '<p class="phead-lead">' + esc(p.seo.resumen) + '</p>' : '') +
       (p.resumen ? '<p class="phead-sum">' + esc(p.resumen) + '</p>' : '') +
       (p.candidatura_nota ? '<p class="selfdef"><span>Candidatura</span> ' + esc(p.candidatura_nota) + (p.estado_fuente && p.estado_fuente.url ? ' ' + src(p.estado_fuente, 'Fuente') : '') + '</p>' : '') +
-      (p.autodefinicion && p.autodefinicion.texto ? '<p class="selfdef"><span>Se define como</span> «' + esc(p.autodefinicion.texto) + '» ' + src(p.autodefinicion.fuente, 'Fuente') + '</p>' : '') +
-      (p.ches && p.ches.lrgen != null ? '<div class="ches"><span class="ches-l">Izquierda</span><span class="ches-t"><i style="left:' + (p.ches.lrgen * 10).toFixed(1) + '%"></i></span><span class="ches-l">Derecha</span><small>Posición según expertos: ' + fmt(p.ches.lrgen, 1) + ' sobre 10 · ' + src(p.ches.fuente, 'Chapel Hill Expert Survey ' + (p.ches.anio || '')) + '</small></div>' : '') +
+      (p.autodefinicion && p.autodefinicion.texto && String(p.autodefinicion.texto).trim() ? '<p class="selfdef"><span>En sus palabras</span> «' + esc(p.autodefinicion.texto) + '» ' + src(p.autodefinicion.fuente, 'Fuente') + '</p>' : '') +
+      (p.ches && p.ches.lrgen != null ? '<div class="ches"><span class="ches-l">Izquierda</span><span class="ches-t"><i style="left:' + (p.ches.lrgen * 10).toFixed(1) + '%"></i></span><span class="ches-l">Derecha</span><small>Posición según expertos: ' + fmt(p.ches.lrgen, 1) + ' sobre 10 · ' + src(p.ches.fuente, 'Chapel Hill Expert Survey ' + (p.ches.anio || '')) + '</small></div>'
+        : '<div class="ches nd"><span class="ches-l">Izquierda</span><span class="ches-t" aria-hidden="true"></span><span class="ches-l">Derecha</span><small>Posición según expertos: sin dato en el estudio de referencia</small></div>') +
       '<div class="pkpis">' +
       (p.tier === 'otros' ? kpi(p.referencia_voto && p.referencia_voto.porcentaje != null ? fmt(p.referencia_voto.porcentaje, 2) + '%' : '–', p.referencia_voto ? 'en ' + p.referencia_voto.eleccion + (p.referencia_voto.ambito && p.referencia_voto.ambito !== 'España' ? ' (' + p.referencia_voto.ambito + ')' : '') : 'primera vez') +
         kpi(p.estado_candidatura || '–', (p.circunscripciones || []).join(', ') || 'candidatura') :
       (D.veda ? kpi(p.escanos_2023 != null ? String(p.escanos_2023) : '–', 'escaños en 2023') + kpi('–', 'sin encuestas (veda)') :
       kpi(fmt(p.encuesta && p.encuesta.voto, 1) + '%', p.encuesta && p.encuesta.fuente ? 'en ' + p.encuesta.fuente : 'en la media de encuestas') +
       kpi((p.encuesta && p.encuesta.escanos != null ? p.encuesta.escanos : '–') + '', 'escaños est.' + (p.escanos_2023 != null ? ' (hoy ' + p.escanos_2023 + ')' : '')))) +
-      kpi(String(st.n), 'propuestas') +
+      kpi(String(st.n), 'propuestas', '', propOrigen(p)) +
       kpi(baseLabel(p)[0], baseLabel(p)[1]) +
       '</div>' + (p.concurre === false ? '<p class="warn">Este partido no concurre a estas elecciones con candidatura propia.</p>' : '') + '</section>';
-    var seg = '<div class="seg sticky" role="tablist">' +
+    var seg = '<div class="seg sticky" role="tablist" aria-label="Secciones ' + esc(delNombre(p)) + '">' +
       segBtn('propuestas', 'Propuestas', st.n, tab) + segBtn('criticas', 'Críticas', nc, tab) + (p.cand ? segBtn('candidato', 'Candidato', '', tab) : '') + '</div>';
     var body = partyTabBody(p, tab);
-    return head + seg + '<div class="ptab" id="ptab" data-party="' + p.id + '">' + body + '</div>' + partyRelated(p) + footer();
+    return head + seg + '<div class="ptab" id="ptab" role="tabpanel" tabindex="0" aria-labelledby="tab-' + tab + '" data-party="' + p.id + '">' + body + '</div>' + partyRelated(p) + footer();
   }
   function otherParties(p) {
     var top = D.partidos.filter(function (x) { return x.tier !== 'otros' && x.id !== p.id; }).slice(0, 7);
@@ -473,7 +478,7 @@
       '<p class="rel-links">' + navA('partidos', 'Todos los partidos que se presentan') + '</p></section>';
   }
 
-  function partyTabBody(p, tab) { return tab === 'criticas' ? partyCriticas(p) : tab === 'candidato' && p.cand ? (p.cands || [p.cand]).map(function (c) { return candCard(p, c, true, true); }).join('') : partyPropuestas(p) + partyFaq(p); }
+  function partyTabBody(p, tab) { return tab === 'criticas' ? '<h2 class="seo">Críticas a ' + esc(corto(p)) + '</h2>' + partyCriticas(p) : tab === 'candidato' && p.cand ? (p.cands || [p.cand]).map(function (c) { return candSummary(p, c); }).join('') : '<h2 class="seo">Propuestas de ' + esc(corto(p)) + '</h2>' + partyPropuestas(p) + partyFaq(p); }
   function partyFaq(p) {
     var f = (p.seo && p.seo.faq) || [];
     if (!f.length) return '';
@@ -492,50 +497,132 @@
   function candPat(c) {
     var pt = c.patrimonio || {};
     if (pt.estado === 'solo_intereses') return '<p class="cand-none">Escaño en el Parlamento Europeo: la Eurocámara publica sus intereses económicos, pero no su patrimonio.' + (pt.url ? ' ' + src({ url: pt.url }, 'Ver declaración') : '') + '</p>';
-    if (pt.estado === 'sin_obligacion') return '<p class="cand-none">Sin obligación de publicar declaración de bienes: no ocupa un cargo que lo exija.</p>';
+    if (pt.estado === 'sin_obligacion') return '<p class="cand-none">No tiene obligación de publicar declaración de bienes porque no ocupa ningún cargo público que lo exija.</p>';
     if (pt.estado === 'no_localizada' || !pt.declarado) return '<p class="cand-none">No hemos localizado declaración pública.</p>';
     // Nunca se pinta el valor de los inmuebles (el build ni siquiera lo publica).
     var rows = [];
-    var it = inmTxt(pt); if (it) rows.push(['Inmuebles', it]);
+    var soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
+    var it = inmTxt(pt); if (it) rows.push(['Inmuebles', it]); else if (soloNeto) rows.push(['Inmuebles', 'La fuente consultada no desglosa inmuebles', 1]);
     if (pt.depositos != null) rows.push(['Dinero en cuentas', eur(pt.depositos)]);
     if (pt.otros_bienes != null) rows.push(['Inversiones y otros bienes', eur(pt.otros_bienes)]);
     if (pt.deudas != null) rows.push(['Deudas', eur(pt.deudas)]);
-    var soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
     var neto = soloNeto ? '<p class="cand-neto">Saldo declarado (cuentas, valores y otros bienes menos deudas; sin inmuebles ni vehículos): <b>' + esc(eur(pt.neto)) + '</b></p>' : '';
-    return (rows.length ? '<dl class="cand-dl">' + rows.map(function (r) { return '<div><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>'; }).join('') + '</dl>' : '') + neto + (!rows.length && !neto ? '<p class="cand-none">La declaración publicada no detalla importes.</p>' : '') +
+    return (rows.length ? '<dl class="cand-dl">' + rows.map(function (r) { return '<div' + (String(r[1]).length > 26 ? ' class="long"' : '') + '><dt>' + esc(r[0]) + '</dt><dd' + (r[2] ? ' class="muted"' : '') + '>' + esc(r[1]) + '</dd></div>'; }).join('') + '</dl>' : '') + neto + (!rows.length && !neto ? '<p class="cand-none">La declaración publicada no detalla importes.</p>' : '') +
       '<p class="fine">' + esc([pt.organo, pt.fecha_declaracion ? 'declaración de ' + fdate(pt.fecha_declaracion) : ''].filter(Boolean).join(', ')) + (pt.url ? ' ' + src({ url: pt.url, nombre: 'Ver declaración' }, 'Ver declaración') : '') + '</p>';
   }
-  function candCard(p, c, full, link) {
-    var tr = (c.trayectoria || []).slice(0, 5);
+  function jMeta(parts, url) {
+    var m = parts.filter(Boolean).map(esc).join(' · ');
+    return m || url ? '<span class="cand-meta">' + m + (url ? (m ? ' ' : '') + src({ url: url }, 'Fuente') : '') + '</span>' : '';
+  }
+  // Procedimientos o sentencias de un familiar (no del propio candidato): etiqueta visible.
+  var FAM_RE = /^(esposa|esposo|marido|mujer|pareja|hermano|hermana|padre|madre|hijo|hija|cu[ñn]ado|cu[ñn]ada|suegro|suegra)\b/i;
+  function esFamiliar(x) {
+    if (x.familiar === true) return true;
+    var w = x.quien || x.persona || '';
+    if (w) return !/propi/i.test(w);
+    return FAM_RE.test(String(x.resumen || '').trim());
+  }
+  function famLabel(c) {
+    var g = String(c.genero || '').toLowerCase();
+    return !g ? 'Familiar directo' : /^(f|mujer|femenino)/.test(g) ? 'Familiar, no la candidata' : 'Familiar, no el candidato';
+  }
+  function revisado(c) { return c.judicial_revisado ? ' (revisado el ' + esc(fdate(c.judicial_revisado)) + ')' : ''; }
+  // Fecha visible de la ficha: la más reciente entre el partido, la revisión judicial y las fechas de fuentes y causas (nunca posterior al build).
+  function candFecha(p, c) {
+    var ds = [p.actualizado, c.judicial_revisado];
+    (c.fuentes || []).forEach(function (f) { ds.push(f && f.fecha); });
+    (c.procedimientos_abiertos || []).forEach(function (x) { ds.push(x.fecha_ultima_actuacion, x.fecha); });
+    (c.sentencias_firmes || []).forEach(function (x) { ds.push(x.fecha); });
+    var ok = ds.filter(function (d) { return /^\d{4}-\d{2}-\d{2}/.test(d || '') && String(d).slice(0, 10) <= D.generado; }).map(function (d) { return String(d).slice(0, 10); }).sort();
+    return ok.pop() || p.actualizado || D.generado;
+  }
+  // Línea temporal de cargos (solo visual; el texto sigue en la lista).
+  function candTimeline(tr) {
+    var now = +String(D.generado).slice(0, 4);
+    var it = tr.map(function (t) { var s = parseInt(t.desde, 10), e = t.hasta ? parseInt(t.hasta, 10) : now; if (isNaN(s) && t.hasta && !isNaN(e)) return { s: e, e: e, open: false }; return isNaN(s) ? null : { s: s, e: isNaN(e) ? s : Math.max(s, e), open: !t.hasta }; });
+    var ok = it.filter(Boolean); if (ok.length < 2) return null;
+    var min = Math.min.apply(null, ok.map(function (x) { return x.s; })), span = Math.max(1, now - min + 1);
+    var pc = function (y) { return Math.round((y - min) / span * 1000) / 10; };
+    var ticks = []; for (var y = Math.ceil((min + 1) / 10) * 10; y < now; y += 10) if (pc(y) >= 13 && pc(y) <= 87) ticks.push(y);
+    return { bars: it.map(function (x) { return x ? '<span class="tl-bar' + (x.open ? ' open' : '') + '" style="--s:' + pc(x.s) + '%;--w:' + Math.max(1.6, pc(x.e + 1) - pc(x.s)) + '%"></span>' : ''; }),
+      axis: '<div class="tl-axis" aria-hidden="true"><span style="--x:0%">' + min + '</span>' + ticks.map(function (y) { return '<span class="tick" style="--x:' + pc(y) + '%">' + y + '</span>'; }).join('') + '<span class="end" style="--x:100%">Hoy</span></div>' };
+  }
+  function candCard(p, c, full, link, ficha) {
+    var tr = ficha ? (c.trayectoria || []) : (c.trayectoria || []).slice(0, 5);
+    var tl = ficha ? candTimeline(tr) : null;
     var sf = c.sentencias_firmes || [], pa = c.procedimientos_abiertos || [];
     var yrs = c.anos_en_politica == null ? null : c.anos_en_politica === 0 ? 'Sin cargos públicos' : c.anos_en_politica + (c.anos_en_politica === 1 ? ' año' : ' años') + ' en cargos públicos';
-    return '<article class="cand' + (full ? ' full' : '') + '" style="--pc:' + esc(p.color) + '">' +
-      '<header class="cand-h">' + avatar(p) + '<div><h2>' + (link && c.slug ? navA('candidato-' + c.slug, esc(c.nombre), 'cand-link') : esc(c.nombre)) + '</h2><p>' + esc([c.rol, p.siglas].filter(Boolean).join(' · ')) + '</p></div></header>' +
+    var H = ficha ? 'h2' : 'h3';
+    var h = function (t) { return '<' + H + ' class="cand-sh">' + t + '</' + H + '>'; };
+    var who = function (x) { return (esFamiliar(x) ? '<span class="fam-tag">' + famLabel(c) + '</span> ' : '') + (x.persona && !/propi/.test(x.persona) ? '<b>' + esc(cap(x.persona)) + ':</b> ' : ''); };
+    var role = esc([c.rol, p.siglas].filter(Boolean).join(' · '));
+    return '<article class="cand' + (full ? ' full' : '') + (ficha ? ' ficha-card' : '') + '" style="--pc:' + esc(p.color) + '">' +
+      '<div class="cand-h">' + avatar(p) + '<div>' + (ficha ? '<p class="cand-role">' + role + '</p>' : '<h2>' + (link && c.slug ? navA('candidato-' + c.slug, esc(c.nombre), 'cand-link') : esc(c.nombre)) + '</h2><p>' + role + '</p>') + (ficha && c.cargo_actual ? '<p class="cand-now">' + esc(c.cargo_actual) + '</p>' : '') + '</div></div>' +
+      (!ficha && c.cargo_actual ? '<p class="cand-now">' + esc(c.cargo_actual) + '</p>' : '') +
+      h('Formación') + '<p>' + esc(c.formacion || 'No consta en fuentes oficiales') + '</p>' +
+      h('Trayectoria') + (yrs || c.experiencia_fuera ? '<p>' + esc([yrs, c.experiencia_fuera ? 'Fuera de la política: ' + c.experiencia_fuera : ''].filter(Boolean).join('. ')) + '</p>' : '') +
+      (tr.length ? (tl ? tl.axis : '') + '<ul class="cand-tr' + (tl ? ' tl' : '') + '">' + tr.map(function (t, i) { var yy = [t.desde, t.hasta || (t.desde ? 'hoy' : '')].filter(Boolean).join('–'), bar = tl ? tl.bars[i] : ''; return '<li' + (tl && !bar ? ' class="nb"' : '') + '>' + bar + '<span>' + esc(t.cargo) + '</span>' + (yy ? '<small>' + esc(yy) + '</small>' : '') + '</li>'; }).join('') + '</ul>' : (yrs || c.experiencia_fuera ? '' : '<p>Sin datos verificados</p>')) +
+      h('Patrimonio declarado') + candPat(c) +
+      h('Sentencias firmes') + (sf.length ? '<ul class="cand-j">' + sf.map(function (x) { return '<li>' + who(x) + esc(x.resumen) + jMeta([x.fecha ? fdate(x.fecha) : ''], x.url) + '</li>'; }).join('') + '</ul>' : '<p class="cand-none">Ninguna encontrada en las fuentes revisadas' + revisado(c) + '</p>') +
+      h('Procedimientos judiciales en curso') + (pa.length ? '' + '<ul class="cand-j">' + pa.map(function (x) { return '<li>' + who(x) + esc(String(x.resumen || '').replace(/\s+$/, '')) + (/[.!?»)]$/.test(String(x.resumen || '').trim()) ? '' : '.') + ' <b>Fase: ' + esc(x.fase || 'en curso') + '.</b> ' + (/condena/i.test(x.fase || '') ? 'Sin sentencia firme.' : 'Sin sentencia.') + jMeta([x.organo_judicial, x.fecha_ultima_actuacion ? fdate(x.fecha_ultima_actuacion) : ''], x.url) + '</li>'; }).join('') + '</ul>' : '<p class="cand-none">Ninguno encontrado en las fuentes revisadas' + revisado(c) + '</p>') +
+      '</article>';
+  }
+  // Pestaña «Candidato» de la ficha de partido: resumen y enlace a la ficha completa (sin repetirla).
+  function patLinea(c) {
+    var pt = c.patrimonio || {};
+    if (pt.estado === 'solo_intereses') return 'Solo intereses económicos (Parlamento Europeo)';
+    if (pt.estado === 'sin_obligacion') return 'Sin obligación de publicar declaración';
+    if (pt.estado === 'no_localizada' || !pt.declarado) return 'No hemos localizado declaración pública';
+    var n = pt.inmuebles_n != null ? pt.inmuebles_n : (pt.inmuebles_detalle || []).length;
+    var soloNeto = pt.neto != null && pt.depositos == null && pt.otros_bienes == null && pt.deudas == null;
+    var parts = [];
+    if (n) parts.push(n + (n === 1 ? ' inmueble' : ' inmuebles')); else if (pt.inmuebles_n === 0) parts.push('sin inmuebles');
+    if (soloNeto) parts.push('saldo declarado ' + eur(pt.neto) + ' (sin inmuebles ni vehículos)');
+    if (pt.depositos != null) parts.push(eur(pt.depositos) + ' en cuentas');
+    if (pt.otros_bienes != null) parts.push(eur(pt.otros_bienes) + ' en inversiones y otros bienes');
+    if (pt.deudas != null) parts.push(eur(pt.deudas) + ' de deudas');
+    return parts.length ? cap(parts.join(' · ')) : 'Declaración sin importes detallados';
+  }
+  function candSummary(p, c) {
+    var yrs = c.anos_en_politica == null ? 'Sin datos verificados' : c.anos_en_politica === 0 ? 'Sin cargos públicos' : c.anos_en_politica + (c.anos_en_politica === 1 ? ' año' : ' años') + ' en cargos públicos';
+    var rows = [['Formación', c.formacion || 'No consta en fuentes oficiales'], ['Trayectoria', yrs], ['Patrimonio', patLinea(c)]];
+    return '<article class="cand cand-sum" style="--pc:' + esc(p.color) + '">' +
+      '<div class="cand-h">' + avatar(p) + '<div><h2>' + esc(c.nombre) + '</h2><p>' + esc([c.rol, p.siglas].filter(Boolean).join(' · ')) + '</p></div></div>' +
       (c.cargo_actual ? '<p class="cand-now">' + esc(c.cargo_actual) + '</p>' : '') +
-      '<h3>Formación</h3><p>' + esc(c.formacion || 'Sin datos acreditados') + '</p>' +
-      '<h3>Trayectoria</h3>' + (yrs || c.experiencia_fuera ? '<p>' + esc([yrs, c.experiencia_fuera ? 'Fuera de la política: ' + c.experiencia_fuera : ''].filter(Boolean).join('. ')) + '</p>' : '') +
-      (tr.length ? '<ul class="cand-tr">' + tr.map(function (t) { return '<li><span>' + esc(t.cargo) + '</span><small>' + esc([t.desde, t.hasta || (t.desde ? 'hoy' : '')].filter(Boolean).join('–')) + '</small></li>'; }).join('') + '</ul>' : (yrs || c.experiencia_fuera ? '' : '<p>Sin datos verificados</p>')) +
-      '<h3>Patrimonio declarado</h3>' + candPat(c) +
-      '<h3>Sentencias firmes</h3>' + (sf.length ? '<ul class="cand-j">' + sf.map(function (x) { return '<li>' + (x.persona && !/propio/.test(x.persona) ? '<b>' + esc(cap(x.persona)) + ':</b> ' : '') + esc(x.resumen) + (x.fecha ? ' <small>(' + fdate(x.fecha) + ')</small>' : '') + (x.url ? ' ' + src({ url: x.url }, 'Fuente') : '') + '</li>'; }).join('') + '</ul>' : '<p>Ninguna conocida</p>') +
-      (pa.length ? '<h3>Procedimientos judiciales en curso</h3><ul class="cand-j">' + pa.map(function (x) { return '<li>' + (x.persona && !/propio/.test(x.persona) ? '<b>' + esc(cap(x.persona)) + ':</b> ' : '') + esc(x.resumen) + (x.organo_judicial ? ' (' + esc(x.organo_judicial) + ')' : '') + '. <b>Fase: ' + esc(x.fase || 'en curso') + '.</b> Sin sentencia.' + (x.fecha_ultima_actuacion ? ' <small>' + fdate(x.fecha_ultima_actuacion) + '</small>' : '') + (x.url ? ' ' + src({ url: x.url }, 'Fuente') : '') + '</li>'; }).join('') + '</ul>' : '') +
+      '<dl class="cand-sum-dl">' + rows.map(function (r, i) { return '<div><dt>' + esc(r[0]) + '</dt><dd' + (i === 0 ? ' class="one" title="' + esc(r[1]) + '"' : '') + '>' + esc(r[1]) + '</dd></div>'; }).join('') + '</dl>' +
+      (c.slug ? navA('candidato-' + c.slug, 'Ver ficha completa de ' + esc(c.nombre) + ' ' + icon('next', 16), 'btn wide cand-cta') : '') +
       '</article>';
   }
   function cap(t) { t = String(t || ''); return t.charAt(0).toUpperCase() + t.slice(1); }
   function viewCandidatos() {
     var list = [];
     D.partidos.forEach(function (p) { if (p.concurre !== false) (p.cands || []).forEach(function (c) { list.push({ p: p, c: c }); }); });
-    return '<section class="block first"><h1 class="h1">Candidatos<span class="h1-tail"> a las elecciones generales 2026</span></h1><p class="lede small">Quién encabeza cada candidatura: formación, trayectoria, patrimonio declarado y causas judiciales. Solo datos de fuentes oficiales o prensa de referencia.</p>' +
-      updLine(D.partidos.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) + '<div class="cands">' + list.map(function (o) { var p = o.p, c = o.c; var sf = (c.sentencias_firmes || []).length, pa = (c.procedimientos_abiertos || []).length;
-        return '<details class="cand-row" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="cand-row-m"><b>' + esc(c.nombre) + '</b><small>' + esc(p.siglas + (c.rol ? ' · ' + c.rol : '')) + '</small></span>' +
-          '</summary><p class="cand-links top">' + navA('candidato-' + c.slug, 'Ficha completa de ' + esc(c.nombre) + ' ' + icon('next', 14), 'linkbtn') + '</p>' + candCard(p, c, false, true) + '<p class="cand-links">' + navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + '</p></details>'; }).join('') + '</div>' +
-      '<p class="fine">Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado. Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
+    return '<section class="block first cands-page"><h1 class="h1">Candidatos<span class="h1-tail"> a las elecciones generales 2026</span></h1><p class="lede small">Quién encabeza cada candidatura: formación, trayectoria, patrimonio declarado y causas judiciales. Solo datos de fuentes oficiales o prensa de referencia.</p>' +
+      updLine(D.partidos.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) +
+      candResumen(list) +
+      '<div class="cfilter"><label class="cfilter-lab" for="qCand">Buscar por nombre, partido o provincia</label>' + searchBox('qCand', 'Ej.: Sánchez, PP, Barcelona') + '<p class="cfilter-n" id="qCandN" aria-live="polite" aria-atomic="true">' + candCount(list.length, list.length) + '</p></div>' +
+      '<div class="cands" id="candList">' + list.map(function (o) { var p = o.p, c = o.c;
+        var hay = norm([c.nombre, c.rol, c.cargo_actual, p.nombre, p.siglas, corto(p), p.ambito, (p.circunscripciones || []).join(' ')].join(' '));
+        return '<details class="cand-row" data-q="' + esc(hay) + '" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="cand-row-m"><span class="cand-row-n">' + esc(c.nombre) + '</span><small>' + esc(p.siglas + (c.rol ? ' · ' + c.rol : '')) + '</small></span>' + icon('chev', 18) +
+          '</summary><p class="cand-links top">' + navA('candidato-' + c.slug, 'Ficha completa de ' + esc(c.nombre) + ' ' + icon('next', 14), 'linkbtn') + '</p>' + candCard(p, c, false, true) + '<p class="cand-links">' + navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + '</p></details>'; }).join('') + '</div><div class="empty cand-empty" id="candEmpty" hidden><p id="candEmptyMsg"></p><button type="button" class="btn ghost" id="candClear">Borrar búsqueda</button></div>' +
+      '<p class="fine">' + (list.some(function (o) { return hasInmDet(o.c); }) ? INM_NOTA + ' ' : '') + 'Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
   }
+  var INM_NOTA = 'Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado.';
+  function hasInmDet(c) { var pt = c.patrimonio || {}; return !!pt.declarado && ['sin_obligacion', 'solo_intereses', 'no_localizada'].indexOf(pt.estado) < 0 && (pt.inmuebles_detalle || []).length > 0; }
+  var NUM = ['', 'una', 'dos', 'tres', 'cuatro', 'cinco'];
+  function candResumen(list) {
+    var by = {}, ids = [];
+    list.forEach(function (o) { if (!by[o.p.id]) { by[o.p.id] = 0; ids.push(o.p.id); } by[o.p.id]++; });
+    var multi = ids.filter(function (id) { return by[id] > 1; }).map(function (id) { var pp = P(id); return (/[,(]/.test(pp.nombre) || pp.nombre.length > 32 ? corto(pp) : pp.nombre) + ' presenta ' + (NUM[by[id]] || by[id]) + ' cabezas de lista'; });
+    return '<p class="cfilter-n">' + list.length + (list.length === 1 ? ' ficha' : ' fichas') + ' de ' + ids.length + (ids.length === 1 ? ' candidatura' : ' candidaturas') + (multi.length ? ' (' + esc(multi.join('; ')) + ')' : '') + '.</p>';
+  }
+  function candCount(n, tot) { return n === tot ? '' : n === 1 ? '1 ficha de ' + tot : n + ' fichas de ' + tot; }
   function viewCandidato(c) {
     var p = P(c.party);
-    return '<section class="block first"><h1 class="h1">' + esc(c.nombre) + '<span class="h1-tail">: formación, trayectoria y patrimonio</span></h1>' + updLine(p.actualizado) +
-      candCard(p, c, true) +
+    return '<section class="block first ficha"><h1 class="h1">' + esc(c.nombre) + '<span class="h1-tail"><span class="seo">: </span>formación, trayectoria y patrimonio</span></h1>' + updLine(candFecha(p, c)) +
+      candCard(p, c, true, false, true) +
       '<p class="cand-links">' + navA('partido-' + p.id, 'Programa electoral ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + navA('candidatos', 'Todos los candidatos ' + icon('next', 14), 'linkbtn') + '</p>' +
-      '<p class="fine">Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado. Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
+      '<p class="fine">' + (hasInmDet(c) ? INM_NOTA + ' ' : '') + 'Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
   }
   function viewNoConcurre(q) {
     var ef = q.estado_fuente;
@@ -557,8 +644,18 @@
     if ((c['programa-2023'] || 0) > p.propuestas.length / 2) return ['Programa 2023', 'hasta que publique el del 29N'];
     return ['Declaraciones', 'y documentos recientes; sin programa del 29N'];
   }
-  function kpi(v, l, tip) { return '<div class="kpi"' + (tip ? ' title="' + esc(tip) + '"' : '') + '><b>' + esc(v) + '</b><span>' + esc(l) + '</span></div>'; }
-  function segBtn(id, label, n, cur) { return '<button type="button" role="tab" class="seg-btn' + (cur === id ? ' on' : '') + '" aria-selected="' + (cur === id) + '" data-ptab="' + id + '">' + esc(label) + (n !== '' ? '<span class="cnt">' + n + '</span>' : '') + '</button>'; }
+  function kpi(v, l, tip, note) { return '<div class="kpi"' + (tip ? ' title="' + esc(tip) + '"' : '') + '><b>' + esc(v) + '</b><span>' + esc(l) + '</span>' + (note ? '<small class="kpi-note">' + esc(note) + '</small>' : '') + '</div>'; }
+  // De dónde salen las propuestas (para que la cifra no se lea como medida de ambición).
+  function propOrigen(p) {
+    if (!p.propuestas.length) return '';
+    var c = {}; p.propuestas.forEach(function (x) { c[x.origen] = (c[x.origen] || 0) + 1; });
+    var progs = ['2026', '2023'].filter(function (y) { return c['programa-' + y]; });
+    var otros = [c.declaracion ? 'declaraciones' : '', c.accion ? 'actuaciones' : ''].filter(Boolean);
+    var parts = (progs.length ? [(progs.length > 1 ? 'sus programas ' + progs.join(' y ') : 'su programa ' + progs[0])] : []).concat(otros);
+    if (!parts.length) return '';
+    return 'de ' + (parts.length > 1 ? parts.slice(0, -1).join(', ') + ' y ' + parts[parts.length - 1] : parts[0]);
+  }
+  function segBtn(id, label, n, cur) { return '<button type="button" role="tab" id="tab-' + id + '" aria-controls="ptab" tabindex="' + (cur === id ? 0 : -1) + '" class="seg-btn' + (cur === id ? ' on' : '') + '" aria-selected="' + (cur === id) + '" data-ptab="' + id + '">' + esc(label) + (n !== '' ? '<span class="cnt">' + n + '</span>' : '') + '</button>'; }
 
   function propItem(x, p, showParty) {
     var o = ORIGEN[x.origen] || x.origen || '';
@@ -573,14 +670,14 @@
     var cur = partyState.area;
     if (cur !== 'todas' && cur !== 'clave' && !areas.some(function (a) { return a.id === cur; })) cur = partyState.area = 'todas';
     var keys = p.propuestas.filter(function (x) { return x.destacada; });
-    var chips = '<div class="chips scroll" role="tablist" aria-label="Filtrar por tema">' +
+    var chips = '<div class="chips scroll" role="group" aria-label="Filtrar por tema">' +
       chip('todas', 'Todas', p.propuestas.length, cur) + (keys.length ? chip('clave', 'Lo esencial', keys.length, cur) : '') +
       areas.map(function (a) { return chip(a.id, a.nombre, p.propuestas.filter(function (x) { return x.area === a.id; }).length, cur); }).join('') + '</div>';
     if (!p.propuestas.length) return '<div class="empty"><p>Aún no hemos cargado propuestas de este partido.</p></div>';
     return '<div class="tools">' + searchBox('qProp', 'Busca en sus propuestas') + chips + '</div><div id="propList">' + propList(p, cur, partyState.q) + '</div>' +
       '<p class="fine">Resumimos cada propuesta sin interpretarla. Pulsa la fuente para leer el original.</p>';
   }
-  function chip(id, label, n, cur) { return '<button type="button" class="chip' + (cur === id ? ' on' : '') + '" data-area="' + id + '">' + esc(label) + (n != null ? ' <span class="cnt">' + n + '</span>' : '') + '</button>'; }
+  function chip(id, label, n, cur) { return '<button type="button" class="chip' + (cur === id ? ' on' : '') + '" aria-pressed="' + (cur === id) + '" data-area="' + id + '">' + esc(label) + (n != null ? ' <span class="cnt">' + n + '</span>' : '') + '</button>'; }
   function propList(p, area, q) {
     var items = p.propuestas.filter(function (x) {
       if (area === 'clave' && !x.destacada) return false;
@@ -1173,31 +1270,66 @@
       ['input', 'search', 'keyup', 'change'].forEach(function (ev) { qp.addEventListener(ev, runQ); });
       var lab = qp.closest('form'); if (lab) lab.addEventListener('submit', function (ev) { ev.preventDefault(); runQ(); });
     }
+    var qc = $('#qCand');
+    if (qc) {
+      var runC = function () {
+        var words = norm(qc.value).trim().split(/\s+/).filter(Boolean), rows = $$('#candList > .cand-row'), n = 0;
+        rows.forEach(function (r) { var hay = r.getAttribute('data-q'); var ok = words.every(function (w) { return hay.indexOf(w) >= 0; }); r.hidden = !ok; if (ok) n++; });
+        $('#qCandN').textContent = candCount(n, rows.length); $('#candEmpty').hidden = n > 0;
+        if (!n) $('#candEmptyMsg').textContent = 'Ningún candidato coincide con «' + qc.value.trim() + '».';
+      };
+      var cl = $('#candClear'); if (cl) cl.addEventListener('click', function () { qc.value = ''; runC(); qc.focus(); });
+      qc.addEventListener('input', runC); qc.addEventListener('search', runC);
+      var fm = qc.closest('form'); if (fm) fm.addEventListener('submit', function (ev) { ev.preventDefault(); });
+    }
     var qprop = $('#qProp');
     if (qprop) { qprop.value = partyState.q; qprop.addEventListener('input', function () { partyState.q = qprop.value; var p = P($('#ptab').getAttribute('data-party')); $('#propList').innerHTML = propList(p, partyState.area, partyState.q); }); }
     var co = $('#cmpOut'); if (co && !co._b) { co._b = 1; co.addEventListener('change', function (ev) { var s = ev.target.closest('[data-cmp-idx]'); if (!s) return; cmp.sel[+s.getAttribute('data-cmp-idx')] = s.value; cmpSave(); co.innerHTML = cmpOut(); }); }
     $$('.slider input').forEach(function (el) { el.addEventListener('input', simulate); });
-    var top = $('#view'); top.focus({ preventScroll: true });
+    // En la primera carga el foco se queda al principio para que el primer Tab llegue a «Saltar al contenido».
+    if (!rt.keepFocus && rendered) { var top = $('#view'); top.focus({ preventScroll: true }); }
+    rendered = true;
   }
+  var rendered = false;
+
+  // Pestañas de partido (patrón ARIA tablist, activación automática). Si las pestañas están fijadas arriba,
+  // el panel nuevo empieza justo debajo de ellas (no a mitad de scroll).
+  function selectPartyTab(t, focus) {
+    var box = $('#ptab'); if (!box) return;
+    var tab = t.getAttribute('data-ptab'), seg = t.closest('.seg'), view = $('#view');
+    if (focus) t.focus();
+    if (t.getAttribute('aria-selected') === 'true') return;
+    store.set('ptab', tab);
+    $$('[data-ptab]', seg).forEach(function (b) { var on = b === t; b.classList.toggle('on', on); b.setAttribute('aria-selected', on); b.tabIndex = on ? 0 : -1; });
+    var vr = view.getBoundingClientRect(), segH = seg.offsetHeight, stuckAt = parseFloat(getComputedStyle(seg).top) || 0;
+    var panelTop = box.getBoundingClientRect().top - vr.top + view.scrollTop;
+    var target = Math.max(0, panelTop - segH - stuckAt - 8);
+    var wasPast = view.scrollTop > target;
+    box.innerHTML = partyTabBody(P(box.getAttribute('data-party')), tab);
+    box.setAttribute('aria-labelledby', t.id);
+    if (!reduced) { box.classList.remove('swap'); void box.offsetWidth; box.classList.add('swap'); }
+    afterRender({ view: 'partido-tab', keepFocus: true });
+    if (wasPast) view.scrollTop = target;
+  }
+  document.addEventListener('keydown', function (e) {
+    var t = e.target.closest && e.target.closest('[role="tab"][data-ptab]'); if (!t) return;
+    var tabs = $$('[role="tab"][data-ptab]', t.closest('[role="tablist"]')), i = tabs.indexOf(t), n = tabs.length, j = -1;
+    if (e.key === 'ArrowRight') j = (i + 1) % n; else if (e.key === 'ArrowLeft') j = (i - 1 + n) % n; else if (e.key === 'Home') j = 0; else if (e.key === 'End') j = n - 1;
+    if (j < 0) return;
+    e.preventDefault(); selectPartyTab(tabs[j], true);
+  });
 
   // ---------- Global click delegation ----------
   document.addEventListener('click', function (e) {
+    var sk = e.target.closest && e.target.closest('.skip-link');
+    if (sk) { e.preventDefault(); var vw = $('#view'); var h = vw && vw.querySelector('h1'); if (h && !h.hasAttribute('tabindex')) h.setAttribute('tabindex', '-1'); (h || vw).focus({ preventScroll: false }); return; }
     var a = e.target.closest('[data-nav]');
     if (a && !e.metaKey && !e.ctrlKey) { e.preventDefault(); closeSheetIfOpen(); go(a.getAttribute('data-nav')); return; }
     var t;
-    if ((t = e.target.closest('[data-ptab]'))) {
-      var pid = $('#ptab').getAttribute('data-party'), tab = t.getAttribute('data-ptab'); store.set('ptab', tab);
-      $$('.seg-btn').forEach(function (b) { b.classList.toggle('on', b === t); b.setAttribute('aria-selected', b === t); });
-      var p = P(pid); var box = $('#ptab');
-      box.innerHTML = partyTabBody(p, tab);
-      if (!reduced) { box.classList.remove('swap'); void box.offsetWidth; box.classList.add('swap'); }
-      afterRender({ view: 'partido-tab' });
-      var seg = $('.seg'); if (seg && seg.getBoundingClientRect().top < 0) seg.scrollIntoView({ block: 'start' });
-      return;
-    }
+    if ((t = e.target.closest('[data-ptab]'))) { selectPartyTab(t, false); return; }
     if ((t = e.target.closest('[data-area]'))) {
       partyState.area = t.getAttribute('data-area');
-      $$('[data-area]').forEach(function (b) { b.classList.toggle('on', b === t); });
+      $$('[data-area]').forEach(function (b) { b.classList.toggle('on', b === t); b.setAttribute('aria-pressed', b === t); });
       var p2 = P($('#ptab').getAttribute('data-party'));
       $('#propList').innerHTML = propList(p2, partyState.area, partyState.q);
       t.scrollIntoView({ inline: 'center', block: 'nearest', behavior: reduced ? 'auto' : 'smooth' });

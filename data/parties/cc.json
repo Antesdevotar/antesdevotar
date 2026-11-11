@@ -9,7 +9,7 @@
  "color": "#FFD700",
  "web": "https://coalicioncanaria.org/",
  "escanos_2023": 1,
- "resumen": "Partido nacionalista canario que gobierna Canarias con Fernando Clavijo y concurre al 29N en candidatura conjunta con Primero Canarias («Coalición Canaria–Primero Canarias» en Santa Cruz de Tenerife y «Primero Canarias–Coalición Canaria» en Las Palmas). Prioriza la Agenda Canaria: defensa del REF, financiación, vivienda, migración y transporte, buscando grupo propio en el Congreso.",
+ "resumen": "Propone defender el REF sin reformas unilaterales del Estado, financiar con fondos estatales vivienda pública en Canarias y financiar con el REF la lucha contra la pobreza. Fuente: programa 2023 y declaraciones.",
  "fuentes_programa": [
   {
    "titulo": "Doce ejes para Madrid: acuerdo CC–Primero Canarias para el 29N",
@@ -33,7 +33,7 @@
    "id": "cc-viv-01",
    "area": "vivienda",
    "texto": "Financiación estatal para vivienda pública y asequible en Canarias y aprobación de una Ley de Residencia para Canarias.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -45,7 +45,7 @@
    "id": "cc-ter-01",
    "area": "territorio",
    "texto": "Pleno desarrollo del Estatuto de Autonomía, incluidas las competencias sobre costas, puertos y aeropuertos.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -57,7 +57,7 @@
    "id": "cc-ter-02",
    "area": "territorio",
    "texto": "Reconocimiento del hecho diferencial canario y de su condición de región ultraperiférica, también en una eventual reforma constitucional.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -80,7 +80,7 @@
    "id": "cc-eco-01",
    "area": "economia",
    "texto": "Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -92,7 +92,7 @@
    "id": "cc-eco-02",
    "area": "economia",
    "texto": "Nuevo sistema de financiación autonómica separado de los recursos del REF que pondere insularidad y pobreza.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
     "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
@@ -136,7 +136,7 @@
    "id": "cc-inm-01",
    "area": "inmigracion",
    "texto": "Gestión migratoria que active el cupo de solidaridad para que todas las comunidades acojan menores migrantes no acompañados.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -170,7 +170,7 @@
    "id": "cc-ext-01",
    "area": "exterior",
    "texto": "Presencia de las instituciones canarias en la política exterior que afecte al archipiélago, incluida la delimitación marítima con Marruecos.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -192,7 +192,7 @@
    "id": "cc-eco-04",
    "area": "economia",
    "texto": "Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -237,7 +237,7 @@
    "id": "cc-rur-01",
    "area": "rural",
    "texto": "Mantener íntegramente el POSEI con el 100 % de la aportación estatal, los seguros agrarios y el transporte de mercancías agrícolas.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -348,7 +348,7 @@
    "id": "cc-igu-04",
    "area": "igualdad",
    "texto": "Escudo social, redistribución de la renta e igualdad de oportunidades como ejes de la candidatura.",
-   "origen": "programa-2026",
+   "origen": "declaracion",
    "fuente": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -519,7 +519,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-10-21",
+ "actualizado": "2026-11-11",
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "Las Palmas",

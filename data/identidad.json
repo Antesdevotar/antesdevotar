@@ -34,13 +34,7 @@
   }
  },
  "vox": {
-  "autodefinicion": {
-   "texto": "VOX es el partido del sentido común, el que pone voz a lo que piensan millones de españoles",
-   "fuente": {
-    "nombre": "Web oficial de VOX, «¿Qué es VOX?»",
-    "url": "https://www.voxespana.es/espana/que-es-vox"
-   }
-  },
+  "autodefinicion": null,
   "ches": {
    "lrgen": 9.38,
    "anio": 2024,
@@ -48,16 +42,11 @@
     "nombre": "Chapel Hill Expert Survey 2024 (CHES_2024_final_v2), variable lrgen",
     "url": "https://www.chesdata.eu/ches-europe"
    }
-  }
+  },
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase de la web oficial era un eslogan, no una definición ideológica; los estatutos de 2024 (art. 3) solo enumeran fines. No se encontró autodefinición ideológica literal verificable. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "sumar": {
-  "autodefinicion": {
-   "texto": "MOVIMIENTO SUMAR se concibe como un movimiento democrático ciudadano",
-   "fuente": {
-    "nombre": "Estatutos de Movimiento Sumar (2023), art. 3.2 (copia en Party Statutes Database)",
-    "url": "https://www.politicalpartydb.org/wp-content/uploads/2025/06/SPAIN_MovimientoSumar_2023.pdf"
-   }
-  },
+  "autodefinicion": null,
   "ches": {
    "lrgen": 2.31,
    "anio": 2024,
@@ -66,7 +55,7 @@
     "url": "https://www.chesdata.eu/ches-europe"
    }
   },
-  "nota": "Frente Amplio es una coalición sin autodefinición publicada en su web (frenteamplio.info). Autodefinición y CHES corresponden a Sumar, partido principal de la coalición. Otro socio, IU, figura en CHES 2024 con lrgen 1,73."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la cita anterior describía a Movimiento Sumar, no al Frente Amplio. El Frente Amplio no tiene autodefinición literal verificable en su web ni en prensa de referencia. El CHES corresponde a Sumar, partido principal de la coalición; otro socio, IU, figura en CHES 2024 con lrgen 1,73. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "podemos": {
   "autodefinicion": null,
@@ -78,7 +67,7 @@
     "url": "https://www.chesdata.eu/ches-europe"
    }
   },
-  "nota": "Los estatutos no incluyen una etiqueta ideológica; es la autodefinición literal disponible en un documento oficial accesible. Autodefinición retirada: el texto disponible era un fin estatutario, no una definición."
+  "nota": "No se encontró autodefinición ideológica literal verificable en documentos oficiales accesibles (estatutos; documento político «La fuerza para seguir transformando», 2023). El texto que figuraba antes era un fin estatutario. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "erc": {
   "autodefinicion": {
@@ -98,13 +87,7 @@
   }
  },
  "salf": {
-  "autodefinicion": {
-   "texto": "Forma parte del mayor movimiento civil contra la corrupción y la partitocracia de la historia de España",
-   "fuente": {
-    "nombre": "Web oficial de Se Acabó La Fiesta (portada)",
-    "url": "https://www.seacabolafiesta.com/"
-   }
-  },
+  "autodefinicion": null,
   "ches": {
    "lrgen": 8.93,
    "anio": 2024,
@@ -113,7 +96,7 @@
     "url": "https://www.chesdata.eu/ches-europe"
    }
   },
-  "nota": "Sus estatutos (art. 3) solo enumeran fines genéricos; la frase procede de la portada de la web oficial."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase de la portada de su web es un eslogan, no una definición ideológica; sus estatutos (art. 3) solo enumeran fines genéricos. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "junts": {
   "autodefinicion": null,
@@ -225,26 +208,14 @@
   "nota": "Concurre el 29N en coalición con el PP; el CHES puntúa a UPN por separado."
  },
  "mes": {
-  "autodefinicion": {
-   "texto": "MÉS PER MALLORCA, com a organització plural, oberta i participativa",
-   "fuente": {
-    "nombre": "MÉS per Mallorca, Codi ètic i de conducta (aprobado en Asamblea General, 13-12-2025), apartado 3",
-    "url": "https://media.timtul.com/media/web_mespermallorca/2025.12.13_aprovat_AG_CODI%20%20ETIC%20I%20DE%20CONDUCTA%20Maquetat_20260216092412.pdf"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "Coalición Ara MÉS – Front Ampli: autodefinición de MÉS per Mallorca, partido principal. Ni MÉS ni la coalición figuran en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase citada era un fragmento del código ético de MÉS per Mallorca (partido integrante), sin contenido ideológico, y no de la coalición Ara Més. Ni MÉS ni la coalición figuran en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "existe": {
-  "autodefinicion": {
-   "texto": "El Movimiento ciudadano Teruel Existe lleva más de 23 años luchando por la supervivencia de nuestra provincia",
-   "fuente": {
-    "nombre": "Web oficial de Teruel Existe (portada)",
-    "url": "https://teruelexiste.info"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "Coalición Existe: autodefinición de Teruel Existe, partido principal. No incluido en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase de la portada describía la trayectoria del movimiento, no una definición ideológica. No incluido en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "compromis": {
   "autodefinicion": {
@@ -258,15 +229,9 @@
   "nota": "Ni Compromís ni sus partidos integrantes figuran en el CHES 2019 ni 2024."
  },
  "upc": {
-  "autodefinicion": {
-   "texto": "Una organización nacionalista y progresista que defiende los intereses de Canarias",
-   "fuente": {
-    "nombre": "Web oficial de Nueva Canarias-Bloque Canarista, «¿Qué somos?»",
-    "url": "http://www.nuevacanariasbc.org/sobre-nosotros/"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "Coalición Unidad del Pueblo Canario: autodefinición de Nueva Canarias-BC, partido principal. Ni la coalición ni NC figuran en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase citada describe a Nueva Canarias-BC (partido integrante), no a la coalición Unidad del Pueblo Canario. Ni la coalición ni NC figuran en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "drago": {
   "autodefinicion": null,
@@ -274,15 +239,9 @@
   "nota": "Web oficial no accesible para verificación (bloqueo a lectores automáticos); no se encontró autodefinición literal verificable. No incluido en el CHES."
  },
  "geroabai": {
-  "autodefinicion": {
-   "texto": "Es en sí misma la expresión de una nueva cultura política que se pretende trasladar a la sociedad navarra",
-   "fuente": {
-    "nombre": "Web oficial de Geroa Bai, «Conócenos»",
-    "url": "https://geroabai.eus/es/conocenos"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "No incluido en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase de su web era una descripción genérica, no una definición ideológica. No incluido en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "pacma": {
   "autodefinicion": {
@@ -317,15 +276,9 @@
   "nota": "Web oficial no accesible para verificación (bloqueo a lectores automáticos); no se encontró autodefinición literal verificable. No incluido en el CHES."
  },
  "iustitia": {
-  "autodefinicion": {
-   "texto": "Somos el partido político de la sociedad civil.",
-   "fuente": {
-    "nombre": "Web oficial de Iustitia Europa",
-    "url": "https://iustitiaeuropa.es/es/somos-partido-politico-sociedad-civil"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "No incluido en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase de su web es un eslogan, no una definición ideológica. No incluido en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "pcte": {
   "autodefinicion": {
@@ -339,15 +292,9 @@
   "nota": "No incluido en el CHES."
  },
  "escanosenblanco": {
-  "autodefinicion": {
-   "texto": "un grupo de ciudadanos hemos decidido concurrir a las elecciones con la intención de dejar vacío cualquier escaño",
-   "fuente": {
-    "nombre": "Manifiesto de Escaños en Blanco (web oficial)",
-    "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/"
-   }
-  },
+  "autodefinicion": null,
   "ches": null,
-  "nota": "No incluido en el CHES."
+  "nota": "Autodefinición retirada (revisión 11-11-2026): la frase del manifiesto describe su objetivo (dejar escaños vacíos), no una definición ideológica. No incluido en el CHES. Criterio: solo se publica una autodefinición ideológica literal del propio partido o coalición, con fuente; no eslóganes, fines estatutarios ni frases de un partido integrante."
  },
  "falange": {
   "autodefinicion": {

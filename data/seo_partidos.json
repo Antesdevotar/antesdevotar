@@ -4,7 +4,7 @@
     "faq": [
       {
         "q": "¿Se presenta Adelante Andalucía a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Adelante Andalucía fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 8 circunscripciones (Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga, Sevilla)."
+        "a": "Sí. La candidatura de Adelante Andalucía fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 8 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Adelante Andalucía?",
@@ -19,12 +19,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Adelante Andalucía no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Adelante Andalucía sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Crear una banca pública andaluza y una empresa pública de energía renovable. Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza."
+        "q": "¿Qué propone Adelante Andalucía sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona. Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar."
       },
       {
-        "q": "¿Qué propone Adelante Andalucía sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona. Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar."
+        "q": "¿Qué propone Adelante Andalucía sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza. Impuesto a grandes fortunas y grandes propiedades inmobiliarias y agrícolas."
+      },
+      {
+        "q": "¿Qué propone Adelante Andalucía sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Rechazar que se culpe a inmigrantes y pobres del malestar social y dirigir la crítica hacia los poderosos."
       }
     ]
   },
@@ -33,7 +37,7 @@
     "faq": [
       {
         "q": "¿Se presenta Alhora a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Alhora fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+        "a": "Sí. La candidatura de Alhora fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Alhora?",
@@ -48,21 +52,25 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Alhora no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Alhora sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Presentarse al Congreso con el lema «Fora Espanya» para «bloquear la política española» y «evitar que el poder lo ocupen otros». Votar «no a todo» en el Congreso, sin acuerdos con PSOE ni PP, y forzar elecciones si es necesario."
+        "q": "¿Qué propone Alhora sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Restringir las licencias de viviendas de uso turístico y endurecer las condiciones de renovación. Reformar la ley del 30% de vivienda protegida para dar apoyo financiero a los promotores, y que las viviendas acabadas pasen a ser de propiedad pública."
       },
       {
-        "q": "¿Qué propone Alhora sobre cultura?",
-        "a": "Entre sus propuestas sobre cultura, de sus declaraciones: Eliminar el uso del castellano en TV3 y Catalunya Ràdio. Invertir 1.000 millones de euros en un plan de enseñanza del catalán para adultos."
+        "q": "¿Qué propone Alhora sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Oponerse a los macroproyectos Hard Rock y Juegos Olímpicos de invierno. Multiplicar la tasa turística para alejarse del monocultivo turístico."
+      },
+      {
+        "q": "¿Qué propone Alhora sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Ofrecer formación catalanizadora remunerada a las personas inmigrantes, con cursos intensivos de inmersión y ayudas económicas. Aprobar leyes e incentivos para que empresas y trabajadores de la Administración puedan comunicarse en catalán, y que ese uso sea requisito para acceder a empleos públicos y servicios."
       }
     ]
   },
   "autonomos": {
-    "resumen": "El Partido Autónomos es un partido que se define como ni de izquierdas ni de derechas. Se presenta el 29N en Alicante, Castellón y Santa Cruz de Tenerife. Lydia Cañedo Oliver figura como cabeza de lista por Alicante. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "El Partido Autónomos es un partido que se define como ni de izquierdas ni de derechas. Se presenta el 29N en Alicante, Castellón y Santa Cruz de Tenerife. Lydia Cañedo Oliver encabeza la lista por Alicante. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta el Partido Autónomos a las elecciones del 29N?",
-        "a": "Sí. La candidatura del Partido Autónomos fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Alicante, Castellón, Santa Cruz de Tenerife)."
+        "a": "Sí. La candidatura del Partido Autónomos fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta el Partido Autónomos?",
@@ -77,21 +85,25 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, el Partido Autónomos no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone el Partido Autónomos sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Hacer una reforma fiscal «justa y proporcional», con cuotas ajustadas a los ingresos reales de cada autónomo. Que la Ley de Segunda Oportunidad permita perdonar también las deudas con Hacienda y la Seguridad Social."
+        "q": "¿Qué propone el Partido Autónomos sobre vivienda?",
+        "a": "No constan propuestas del Partido Autónomos sobre vivienda en las fuentes revisadas."
       },
       {
-        "q": "¿Qué propone el Partido Autónomos sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Despolitizar la Administración y las entidades públicas, que deberían estar gestionadas por profesionales sin influencias ideológicas. Evaluar el desempeño de los empleados públicos para sancionar la ineficiencia y premiar la excelencia."
+        "q": "¿Qué propone el Partido Autónomos sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Hacer una reforma fiscal justa y proporcional, con cuotas ajustadas a los ingresos reales de cada autónomo. Revisar los límites a los gastos deducibles de los autónomos, que el partido considera excesivos."
+      },
+      {
+        "q": "¿Qué propone el Partido Autónomos sobre justicia, instituciones y corrupción?",
+        "a": "Entre sus propuestas sobre justicia, instituciones y corrupción (declaraciones): Despolitizar la Administración y las entidades públicas, que deberían estar gestionadas por profesionales sin influencias ideológicas. Evaluar el desempeño de los empleados públicos para sancionar la ineficiencia y premiar la excelencia."
       }
     ]
   },
   "bildu": {
-    "resumen": "EH Bildu es una coalición de la izquierda independentista vasca. Se presenta el 29N en Álava, Bizkaia, Gipuzkoa y Navarra. Oskar Matute es cabeza de lista por Bizkaia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "EH Bildu es una coalición de la izquierda independentista vasca. Se presenta el 29N en Álava, Bizkaia, Gipuzkoa y Navarra. Oskar Matute encabeza la lista por Bizkaia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta EH Bildu a las elecciones del 29N?",
-        "a": "Sí. La candidatura de EH Bildu fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Álava, Bizkaia, Gipuzkoa, Navarra)."
+        "a": "Sí. La candidatura de EH Bildu fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta EH Bildu?",
@@ -99,28 +111,32 @@
       },
       {
         "q": "¿Quién es el candidato de EH Bildu?",
-        "a": "Oskar Matute es el cabeza de lista de EH Bildu por Bizkaia, pendiente de ratificación por la militancia."
+        "a": "Oskar Matute encabeza la lista de EH Bildu por Bizkaia."
       },
       {
         "q": "¿Ha publicado EH Bildu su programa electoral 2026?",
         "a": "No consta. A fecha de la última revisión de esta ficha, EH Bildu no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone EH Bildu sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Reconocer a Euskal Herria como nación y el carácter político del conflicto con el Estado. Reconocer el derecho a decidir, con ratificación por la ciudadanía vasca de cualquier acuerdo."
+        "q": "¿Qué propone EH Bildu sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023 y declaraciones): Recuperar la prórroga automática e indefinida de los contratos de alquiler en las mismas condiciones. Plan de vivienda 2026-2036: 30.000 viviendas protegidas sobre todo en alquiler y un fondo público-privado de 3.000 M€ con mayoría pública."
       },
       {
-        "q": "¿Qué propone EH Bildu sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones y su programa de 2023: Plan de vivienda 2026-2036: 30.000 viviendas protegidas sobre todo en alquiler y un fondo público-privado de 3.000 M€ con mayoría pública. Recuperar la prórroga automática e indefinida de los contratos de alquiler en las mismas condiciones."
+        "q": "¿Qué propone EH Bildu sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Hacer permanentes los impuestos a banca, energéticas y grandes fortunas, gestionados por las haciendas forales. Crear un impuesto especial sobre los beneficios de las grandes cadenas de distribución alimentaria."
+      },
+      {
+        "q": "¿Qué propone EH Bildu sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Derogar la Ley de Extranjería y sustituirla por una ley basada en derechos. Crear vías seguras de migración y acabar con las devoluciones en caliente."
       }
     ]
   },
   "bng": {
-    "resumen": "El BNG es un frente nacionalista gallego de izquierdas. Se presenta el 29N en A Coruña, Lugo, Ourense y Pontevedra. Néstor Rego ha sido su cabeza de lista por A Coruña (pendiente de confirmar). No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "El BNG es un frente nacionalista gallego de izquierdas. Se presenta el 29N en A Coruña, Lugo, Ourense y Pontevedra. Néstor Rego encabeza la lista por A Coruña. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta el BNG a las elecciones del 29N?",
-        "a": "Sí. La candidatura del BNG fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (A Coruña, Lugo, Ourense, Pontevedra)."
+        "a": "Sí. La candidatura del BNG fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta el BNG?",
@@ -128,28 +144,32 @@
       },
       {
         "q": "¿Quién es el candidato del BNG?",
-        "a": "Está pendiente de confirmar a 21-10-2026. Néstor Rego, diputado desde 2019, ha sido su cabeza de lista por A Coruña."
+        "a": "Néstor Rego, diputado desde 2019, encabeza la lista del BNG por A Coruña."
       },
       {
         "q": "¿Ha publicado el BNG su programa electoral 2026?",
         "a": "No consta. A fecha de la última revisión de esta ficha, el BNG no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone el BNG sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado. Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia."
+        "q": "¿Qué propone el BNG sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Elevar la inversión pública en vivienda hasta 250 euros por habitante. Traspasar gratuitamente a Galicia los activos de la Sareb para crear una bolsa de vivienda pública."
       },
       {
-        "q": "¿Qué propone el BNG sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Jornada máxima de 35 horas semanales sin reducción salarial. Derogar la reforma laboral de 2021 y recuperar la indemnización de 45 días por despido improcedente y los salarios de tramitación."
+        "q": "¿Qué propone el BNG sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Nuevo modelo de financiación basado en un concierto económico: Galicia recaudaría todos los impuestos y pactaría bilateralmente con el Estado. Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia."
+      },
+      {
+        "q": "¿Qué propone el BNG sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Cerrar los centros de internamiento de extranjeros (CIE) y acabar con las deportaciones."
       }
     ]
   },
   "cc": {
-    "resumen": "Coalición Canaria es un partido nacionalista canario de centro. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Cristina Valido encabeza Santa Cruz de Tenerife y Teodoro Sosa, Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y su programa de 2026.",
+    "resumen": "Coalición Canaria es un partido nacionalista canario de centro. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Cristina Valido encabeza la lista por Santa Cruz de Tenerife y Teodoro Sosa, la de Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y del acuerdo programático con Primero Canarias.",
     "faq": [
       {
         "q": "¿Se presenta Coalición Canaria a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Coalición Canaria fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+        "a": "Sí. La candidatura de Coalición Canaria fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Coalición Canaria?",
@@ -161,15 +181,19 @@
       },
       {
         "q": "¿Ha publicado Coalición Canaria su programa electoral 2026?",
-        "a": "No consta. A fecha de la última revisión de esta ficha, Coalición Canaria no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y su programa de 2026."
+        "a": "No consta. A fecha de la última revisión de esta ficha, Coalición Canaria no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y del acuerdo programático con Primero Canarias."
+      },
+      {
+        "q": "¿Qué propone Coalición Canaria sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Financiación estatal para vivienda pública y asequible en Canarias y aprobación de una Ley de Residencia para Canarias."
       },
       {
         "q": "¿Qué propone Coalición Canaria sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2026: Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan. Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público."
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan. Nuevo sistema de financiación autonómica separado de los recursos del REF que pondere insularidad y pobreza."
       },
       {
-        "q": "¿Qué propone Coalición Canaria sobre igualdad?",
-        "a": "Entre sus propuestas sobre igualdad, de su programa de 2023: Financiación del REF contra la pobreza cada año mientras Canarias supere la media estatal de pobreza. Que el Estado asuma el 50 % de la financiación de la dependencia con carácter finalista."
+        "q": "¿Qué propone Coalición Canaria sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023 y declaraciones): Gestión migratoria que active el cupo de solidaridad para que todas las comunidades acojan menores migrantes no acompañados. Más coordinación y apoyo europeo en el rescate en el mar, especialmente en la ruta atlántica."
       }
     ]
   },
@@ -178,7 +202,7 @@
     "faq": [
       {
         "q": "¿Se presenta Compromís a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Compromís fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Valencia, Alicante, Castellón)."
+        "a": "Sí. La candidatura de Compromís fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Compromís?",
@@ -193,12 +217,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Compromís no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus declaraciones."
       },
       {
-        "q": "¿Qué propone Compromís sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Nuevo modelo de financiación autonómica y, mientras llega, un fondo de nivelación que sitúe a la Comunitat Valenciana en la media estatal. No apoyar una financiación singular para Cataluña si no se aborda también la infrafinanciación valenciana."
+        "q": "¿Qué propone Compromís sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Regular por ley los precios del alquiler. Que las viviendas de la Sareb en la Comunitat pasen a ser vivienda pública."
+      },
+      {
+        "q": "¿Qué propone Compromís sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Tasa turística y nuevos impuestos a las empresas más contaminantes y a aviones y embarcaciones privadas; rebajas fiscales en municipios en despoblación. Convertir el Instituto Valenciano de Finanzas en una banca pública."
       },
       {
         "q": "¿Qué propone Compromís sobre sanidad?",
-        "a": "Entre sus propuestas sobre sanidad, de sus declaraciones y su programa de 2023: Reclamar al Estado 800 millones de euros para la atención primaria valenciana. Pasar a gestión pública los hospitales y servicios sanitarios privatizados, incluido el transporte sanitario."
+        "a": "Entre sus propuestas sobre sanidad (programa 2023 y declaraciones): Reclamar al Estado 800 millones de euros para la atención primaria valenciana. Pasar a gestión pública los hospitales y servicios sanitarios privatizados, incluido el transporte sanitario."
       }
     ]
   },
@@ -207,7 +235,7 @@
     "faq": [
       {
         "q": "¿Se presenta Democracia 21 a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Democracia 21 fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Madrid, Barcelona)."
+        "a": "Sí. La candidatura de Democracia 21 fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Democracia 21?",
@@ -222,12 +250,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Democracia 21 no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Democracia 21 sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones y su programa de 2026: Reducir un 90 % los asesores políticos, «de golpe». Tipificar como delito el «enchufismo» ampliando el art. 405 del Código Penal."
+        "q": "¿Qué propone Democracia 21 sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Plan Nacional de Construcción de Barrios pactado entre partidos, con diez años de seguridad jurídica para promotores y administraciones. Eliminar todos los impuestos ligados a la vivienda para los menores de 35 años mientras no se garantice el acceso a alquileres asequibles."
       },
       {
-        "q": "¿Qué propone Democracia 21 sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Plan Nacional de Construcción de Barrios pactado entre partidos, con diez años de seguridad jurídica para promotores y administraciones. Eliminar todos los impuestos ligados a la vivienda para los menores de 35 años mientras no se garantice el acceso a alquileres asequibles."
+        "q": "¿Qué propone Democracia 21 sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Facilitar el emprendimiento, reducir obligaciones a autónomos y pymes y eliminar normas obsoletas; que los impuestos solo financien buenos servicios públicos."
+      },
+      {
+        "q": "¿Qué propone Democracia 21 sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Que el Estado controle la inmigración: nosotros decidimos quién entra, cómo entra, cuándo entra, con llegada regulada de trabajadores. Considerar la inmigración un activo económico y social y rechazar los discursos xenófobos."
       }
     ]
   },
@@ -236,7 +268,7 @@
     "faq": [
       {
         "q": "¿Se presenta Democracia Nacional a las elecciones del 29N?",
-        "a": "No. Según los datos de Antes de Votar, Democracia Nacional no figura en las candidaturas proclamadas para el 29N (BOE del 3-11-2026, según Civio)."
+        "a": "No. Según los datos de Antes de Votar, Democracia Nacional no figura en las candidaturas proclamadas para el 29N."
       },
       {
         "q": "¿Dónde se presenta Democracia Nacional?",
@@ -251,21 +283,25 @@
         "a": "No consta. Democracia Nacional no concurre al 29N y, según los datos de Antes de Votar (actualizados el 21-10-2026), no tiene programa electoral para esas elecciones; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Democracia Nacional sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de sus declaraciones: Política migratoria «radical» basada en el «retorno y la expulsión masiva de extranjeros» y en la defensa de las fronteras. «Deportaciones masivas» de inmigrantes, a los que atribuye la saturación del mercado de la vivienda, sobre todo del alquiler."
+        "q": "¿Qué propone Democracia Nacional sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Vivienda protegida de calidad y ampliación del parque protegido con acceso para familias, parejas, jóvenes y emprendedores españoles autóctonos, y más ayudas sociales para ellos. Perseguir con eficacia a los especuladores inmobiliarios y las prácticas especulativas que encarecen la vivienda."
       },
       {
         "q": "¿Qué propone Democracia Nacional sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Recuperar la soberanía monetaria saliendo del euro y volviendo a la peseta. Usar el déficit público para alcanzar el pleno empleo con «tipos de interés nominales nulos»."
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Recuperar la soberanía monetaria saliendo del euro y volviendo a la peseta. Usar el déficit público para alcanzar el pleno empleo con tipos de interés nominales nulos."
+      },
+      {
+        "q": "¿Qué propone Democracia Nacional sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Política migratoria radical basada en el retorno y la expulsión masiva de extranjeros y en la defensa de las fronteras. Deportaciones masivas de inmigrantes, a los que atribuye la saturación del mercado de la vivienda, sobre todo del alquiler."
       }
     ]
   },
   "drago": {
-    "resumen": "Drago Canarias es un partido soberanista canario de izquierda verde. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Alberto Rodríguez encabeza Santa Cruz de Tenerife y Héctor Morán, Las Palmas. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Drago Canarias es un partido soberanista canario de izquierda verde. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Alberto Rodríguez encabeza la lista por Santa Cruz de Tenerife y Héctor Morán, la de Las Palmas. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Drago Canarias a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Drago Canarias fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+        "a": "Sí. La candidatura de Drago Canarias fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Drago Canarias?",
@@ -281,11 +317,15 @@
       },
       {
         "q": "¿Qué propone Drago Canarias sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Limitar la compra de vivienda con fines especulativos. Declarar zona de mercado residencial tensionado a los 88 municipios de Canarias."
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Limitar la compra de vivienda con fines especulativos. Declarar zona de mercado residencial tensionado a los 88 municipios de Canarias."
       },
       {
-        "q": "¿Qué propone Drago Canarias sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Aprobar una Ley de Residencia para Canarias. Limitar a tres meses la estancia en Canarias de quienes no son residentes permanentes, por la «capacidad de carga» del territorio, sin distinguir por origen."
+        "q": "¿Qué propone Drago Canarias sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Impulsar el decrecimiento turístico en Canarias. Diversificar la economía canaria para reducir la dependencia del turismo."
+      },
+      {
+        "q": "¿Qué propone Drago Canarias sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Rechazar que Canarias sea la frontera sur externalizada de la UE por la aplicación estricta de la política migratoria europea."
       }
     ]
   },
@@ -294,7 +334,7 @@
     "faq": [
       {
         "q": "¿Se presenta ERC a las elecciones del 29N?",
-        "a": "Sí. La candidatura de ERC fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+        "a": "Sí. La candidatura de ERC fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta ERC?",
@@ -309,12 +349,16 @@
         "a": "Sí. Su programa electoral para el 29N figura publicado, según Demócrata (5-11-2026)."
       },
       {
-        "q": "¿Qué propone ERC sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2026: Que la Agència Tributària de Catalunya asuma progresivamente la recaudación de todos los tributos estatales generados en Cataluña. Completar el traspaso integral de Rodalies, tanto de la gestión del servicio como de las infraestructuras, incluidas las líneas R1, R2 Sud, R3, R4 Nord y R16."
+        "q": "¿Qué propone ERC sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2026): Destinar al menos el 1,5% del PIB estatal a políticas públicas de vivienda. Que el Estado delegue en la Generalitat la capacidad de aprobar una Ley de Arrendamientos Urbanos propia."
       },
       {
-        "q": "¿Qué propone ERC sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de su programa de 2026: Establecer un salario mínimo catalán de 1.460 euros. Reducir la jornada máxima a 37,5 horas semanales sin rebaja salarial."
+        "q": "¿Qué propone ERC sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2026): Convertir en permanentes los gravámenes extraordinarios sobre las grandes fortunas, la banca y las energéticas. Elevar del 30% al 35% el tipo máximo de las ganancias de capital."
+      },
+      {
+        "q": "¿Qué propone ERC sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2026): Traspasar a la Generalitat la gestión integral de la migración y el asilo."
       }
     ]
   },
@@ -323,7 +367,7 @@
     "faq": [
       {
         "q": "¿Se presenta Escaños en Blanco a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Escaños en Blanco fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 12 circunscripciones; constan confirmadas 11 (Álava, Gipuzkoa, Pontevedra, Las Palmas, Almería, Córdoba, León, Palencia, Soria, Valladolid, Murcia)."
+        "a": "Sí. La candidatura de Escaños en Blanco fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 12 circunscripciones; constan confirmadas 11."
       },
       {
         "q": "¿Dónde se presenta Escaños en Blanco?",
@@ -338,13 +382,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Escaños en Blanco no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Escaños en Blanco sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Dejar vacíos los escaños que obtenga: sus electos no tomarían posesión ni adquirirían la condición plena de diputado. Renunciar a sueldo, dietas y complementos de los escaños obtenidos."
+        "q": "¿Qué propone Escaños en Blanco sobre vivienda?",
+        "a": "No constan propuestas de Escaños en Blanco sobre vivienda en las fuentes revisadas."
+      },
+      {
+        "q": "¿Qué propone Escaños en Blanco sobre economía e impuestos?",
+        "a": "No constan propuestas de Escaños en Blanco sobre economía e impuestos en las fuentes revisadas."
+      },
+      {
+        "q": "¿Qué propone Escaños en Blanco sobre justicia, instituciones y corrupción?",
+        "a": "Entre sus propuestas sobre justicia, instituciones y corrupción (declaraciones): Dejar vacíos los escaños que obtenga: sus electos no tomarían posesión ni adquirirían la condición plena de diputado. Renunciar a sueldo, dietas y complementos de los escaños obtenidos."
       }
     ]
   },
   "existe": {
-    "resumen": "Teruel Existe es una coalición regionalista de la «España Vaciada». Se presenta el 29N en Teruel. Tomás Guitarte figura como cabeza de lista por Teruel. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "Teruel Existe es una coalición regionalista de la «España Vaciada». Se presenta el 29N en Teruel. Tomás Guitarte encabeza la lista por Teruel. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta Teruel Existe a las elecciones del 29N?",
@@ -363,21 +415,25 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Teruel Existe no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone Teruel Existe sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Pacto de Estado por el Desarrollo Rural y la Repoblación con un mecanismo estable de financiación. Que todas las localidades estén a un máximo de 30 minutos de los servicios públicos básicos."
+        "q": "¿Qué propone Teruel Existe sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Reducir un 80% el impuesto de transmisiones patrimoniales en la compra de vivienda en esas localidades. Rehabilitación de vivienda rural vinculada a su puesta en alquiler y vivienda pública rural de alquiler."
+      },
+      {
+        "q": "¿Qué propone Teruel Existe sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Ayudas al funcionamiento de empresas en su nivel máximo para Teruel y para las comarcas de Huesca y Zaragoza con menos de 12,5 hab/km². Exención del IBI para residentes de rentas bajas y medias en municipios despoblados de menos de 5.000 habitantes, con compensación estatal a los ayuntamientos."
       },
       {
         "q": "¿Qué propone Teruel Existe sobre sanidad?",
-        "a": "Entre sus propuestas sobre sanidad, de su programa de 2023: Subir la atención primaria al 25% del presupuesto sanitario, con llegada efectiva al medio rural. Transporte sanitario urgente 24 horas todo el año integrado en el Sistema Nacional de Salud."
+        "a": "Entre sus propuestas sobre sanidad (programa 2023): Subir la atención primaria al 25% del presupuesto sanitario, con llegada efectiva al medio rural. Transporte sanitario urgente 24 horas todo el año integrado en el Sistema Nacional de Salud."
       }
     ]
   },
   "falange": {
-    "resumen": "Falange es un partido falangista y nacionalsindicalista. Se presenta el 29N en 9 circunscripciones. Norberto Pedro Pico Sanabria figura como cabeza de lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Falange es un partido falangista y nacionalsindicalista. Se presenta el 29N en 9 circunscripciones. Norberto Pedro Pico Sanabria encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Falange a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Falange fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 9 circunscripciones (Madrid, Teruel, Valencia, Castellón, Guadalajara, Toledo, Córdoba, Palencia, Valladolid)."
+        "a": "Sí. La candidatura de Falange fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 9 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Falange?",
@@ -392,17 +448,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Falange no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Falange sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Modelo «nacionalsindicalista» que sitúe al trabajador en el centro y desmonte gradualmente el capitalismo, sin «terapias de choque». Nacionalizar la banca y el crédito para controlar el dinero en circulación y facilitar créditos para vivienda y emprendimiento."
+        "q": "¿Qué propone Falange sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Vivienda como derecho social y no como activo especulativo; la vivienda social es una de sus prioridades de campaña."
       },
       {
-        "q": "¿Qué propone Falange sobre política exterior?",
-        "a": "Entre sus propuestas sobre política exterior, de sus declaraciones: Salir de la Unión Europea, del euro y de la OTAN. Revisar todos los tratados internacionales y abandonar los que perjudiquen la «independencia política y económica» de España."
+        "q": "¿Qué propone Falange sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Modelo nacionalsindicalista que sitúe al trabajador en el centro y desmonte gradualmente el capitalismo, sin terapias de choque. Nacionalizar la banca y el crédito para controlar el dinero en circulación y facilitar créditos para vivienda y emprendimiento."
+      },
+      {
+        "q": "¿Qué propone Falange sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Remigración: devolver a sus países de origen a millones de personas que considera no integradas. Frenar lo que llama invasión migratoria, acabar con la política de puertas abiertas y las regularizaciones y defender las fronteras."
       }
     ]
   },
   "feministas": {
-    "resumen": "Feministas al Congreso es un partido feminista abolicionista. Se presenta el 29N en Álava. Zuriñe Ojeda Santiago es la cabeza de lista por Álava. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Feministas al Congreso es un partido feminista abolicionista. Se presenta el 29N en Álava. Zuriñe Ojeda Santiago encabeza la lista por Álava. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Feministas al Congreso a las elecciones del 29N?",
@@ -421,12 +481,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Feministas al Congreso no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Feministas al Congreso sobre igualdad?",
-        "a": "Entre sus propuestas sobre igualdad, de sus declaraciones: Ley abolicionista de la prostitución que proteja a las mujeres, persiga penalmente a los proxenetas y sancione al cliente. Derogar la «ley trans»."
+        "q": "¿Qué propone Feministas al Congreso sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Proteger el derecho a la vivienda frente al mercado."
       },
       {
-        "q": "¿Qué propone Feministas al Congreso sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de sus declaraciones: Medidas contra la brecha salarial, la precariedad laboral de las mujeres y las dificultades de conciliación. Estudiar y mejorar las condiciones laborales de las cuidadoras."
+        "q": "¿Qué propone Feministas al Congreso sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Reforzar los servicios públicos y revertir recortes y privatizaciones."
+      },
+      {
+        "q": "¿Qué propone Feministas al Congreso sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (declaraciones): Reconocer la endometriosis como enfermedad invalidante, con servicios para detectarla, y atender la fibromialgia y otros problemas de salud de las mujeres."
       }
     ]
   },
@@ -450,17 +514,21 @@
         "a": "Sí. Es el programa «Un programa para recuperar España»."
       },
       {
-        "q": "¿Qué propone Frente Obrero sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de su programa de 2026: «Control absoluto» de las fronteras terrestres y marítimas y «lucha obstinada» contra las mafias de la inmigración. Expulsión inmediata de los inmigrantes en situación irregular y de los que delinquen de forma reiterada; sin regularización para quien intentó entrar ilegalmente."
+        "q": "¿Qué propone Frente Obrero sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Construir vivienda pública de calidad a precios asequibles. Frenar los desahucios de familias trabajadoras vulnerables hasta que tengan alternativa y garantizar la dación en pago."
       },
       {
-        "q": "¿Qué propone Frente Obrero sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de su programa de 2026: Subidas salariales generales ligadas al coste de la vida. Representación obligatoria de los trabajadores en todas las empresas de 10 o más empleados."
+        "q": "¿Qué propone Frente Obrero sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2026): Nacionalizar los sectores estratégicos de la economía, con una fuerte intervención del Estado. Reindustrializar el país priorizando industrias estratégicas y recursos nacionales, y reducir la dependencia de la UE y del turismo."
+      },
+      {
+        "q": "¿Qué propone Frente Obrero sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2026): Control absoluto de las fronteras terrestres y marítimas y lucha obstinada contra las mafias de la inmigración. Expulsión inmediata de los inmigrantes en situación irregular y de los que delinquen de forma reiterada; sin regularización para quien intentó entrar ilegalmente."
       }
     ]
   },
   "geroabai": {
-    "resumen": "Geroa Bai es una coalición navarra de nacionalismo vasco de centroizquierda. Se presenta el 29N en Navarra. Pablo Azcona Molinet figura como cabeza de lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "Geroa Bai es una coalición navarra de nacionalismo vasco de centroizquierda. Se presenta el 29N en Navarra. Pablo Azcona Molinet encabeza la lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta Geroa Bai a las elecciones del 29N?",
@@ -479,17 +547,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Geroa Bai no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone Geroa Bai sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Actualizar el Convenio Económico para ampliar la autonomía de Navarra en los tributos convenidos. Exigir el cumplimiento íntegro del Amejoramiento (LORAFNA) y completar los traspasos pendientes: I+D, becas, Policía Foral, prisiones y Seguridad Social."
+        "q": "¿Qué propone Geroa Bai sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Seguir ampliando el derecho subjetivo a la vivienda de los programas de alquiler para jóvenes (DaVid y EmanZipa)."
       },
       {
-        "q": "¿Qué propone Geroa Bai sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Asumir a medio plazo competencias plenas en políticas activas de empleo, Inspección de Trabajo y Seguridad Social. Explorar la semana laboral de cuatro días y reducciones de jornada, con permisos parcialmente retribuidos y sustitución por personas desempleadas."
+        "q": "¿Qué propone Geroa Bai sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Plan de Transformación Ecológica y Digital de 1.000 millones de euros en la legislatura. Más capacidad normativa en impuestos medioambientales (hidrocarburos, electricidad, gases fluorados) y estudiar impuestos al cambio de uso del suelo y a la ganadería intensiva."
+      },
+      {
+        "q": "¿Qué propone Geroa Bai sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (programa 2023): Plan Estratégico de Atención Primaria y medidas de choque contra las listas de espera."
       }
     ]
   },
   "iustitia": {
-    "resumen": "Iustitia Europa es un partido que se define como «antipartido». Se presenta el 29N en Madrid. Luis María Pardo encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Iustitia Europa es un partido político. Se presenta el 29N en Madrid. Luis María Pardo encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Iustitia Europa a las elecciones del 29N?",
@@ -508,12 +580,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Iustitia Europa no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Iustitia Europa sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Reformar la Constitución de 1978 para «superar el régimen del 78» y la «despartidización del Estado». Elección directa del presidente del Gobierno."
+        "q": "¿Qué propone Iustitia Europa sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Priorizar la propiedad privada frente a la intervención del mercado de la vivienda."
+      },
+      {
+        "q": "¿Qué propone Iustitia Europa sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Tijeretazo al gasto político y administrativo y revisión del sistema de subvenciones."
       },
       {
         "q": "¿Qué propone Iustitia Europa sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de sus declaraciones: Deportaciones masivas de inmigrantes en situación irregular. Desplegar el Ejército y la Armada en fronteras, puertos y costas para interceptar entradas irregulares y frenar a los barcos de ONG, a los que llama «taxis ilegales»."
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Reforma integral de la Ley de Extranjería y cambio del procedimiento de asilo. Deportaciones masivas de inmigrantes en situación irregular."
       }
     ]
   },
@@ -522,7 +598,7 @@
     "faq": [
       {
         "q": "¿Se presenta Junts a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Junts fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones (Barcelona, Girona, Lleida, Tarragona)."
+        "a": "Sí. La candidatura de Junts fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 4 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Junts?",
@@ -537,17 +613,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Junts no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus actuaciones, su programa de 2023 y sus declaraciones."
       },
       {
-        "q": "¿Qué propone Junts sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones y su programa de 2023: No investir a ningún presidente del Gobierno que no reconozca el derecho a la autodeterminación de Cataluña y la amnistía. La independencia de Cataluña como objetivo fundacional del partido."
+        "q": "¿Qué propone Junts sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (actuaciones): Reformar la Ley de Enjuiciamiento Criminal para desalojar en 48 horas a ocupantes de viviendas que no acrediten título legítimo. Permitir a las comunidades de propietarios actuar contra pisos ocupados que causen problemas de convivencia, y sancionar a grandes tenedores que no actúen."
       },
       {
-        "q": "¿Qué propone Junts sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus actuaciones y su programa de 2023: Ley de amnistía para los encausados por el procés, incluida su aplicación completa a Carles Puigdemont. Defender a los dirigentes del procés que residen fuera de España, a los que llama «exiliados», y su retorno libre."
+        "q": "¿Qué propone Junts sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Eliminar el impuesto de sucesiones. Reducir la cuota de cotización de los trabajadores autónomos."
+      },
+      {
+        "q": "¿Qué propone Junts sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (actuaciones): Delegación integral a la Generalitat de las competencias de inmigración mediante ley orgánica (art. 150.2 CE). Que la Generalitat gestione los permisos de residencia y el NIE y que los Mossos estén presentes en la frontera."
       }
     ]
   },
   "mes": {
-    "resumen": "Ara Més es una candidatura nacionalista balear de izquierda verde. Se presenta el 29N en Illes Balears. Carme Gomila figura como cabeza de lista por Baleares. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Ara Més es una candidatura nacionalista balear de izquierda verde. Se presenta el 29N en Illes Balears. Carme Gomila encabeza la lista por Baleares. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Ara Més a las elecciones del 29N?",
@@ -567,20 +647,24 @@
       },
       {
         "q": "¿Qué propone Ara Més sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Declarar el acceso a la vivienda «emergencia nacional». Abolir el alquiler turístico: prohibir nuevos usos turísticos de viviendas y eliminar de forma progresiva los existentes."
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Declarar el acceso a la vivienda emergencia nacional. Abolir el alquiler turístico: prohibir nuevos usos turísticos de viviendas y eliminar de forma progresiva los existentes."
       },
       {
         "q": "¿Qué propone Ara Més sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Retirar 130.000 plazas turísticas en Mallorca a medio plazo, con compra pública de plazas obsoletas. Duplicar el impuesto de turismo sostenible y destinar al menos un 25% a diversificación económica, territorio y transición energética."
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Retirar 130.000 plazas turísticas en Mallorca a medio plazo, con compra pública de plazas obsoletas. Duplicar el impuesto de turismo sostenible y destinar al menos un 25% a diversificación económica, territorio y transición energética."
+      },
+      {
+        "q": "¿Qué propone Ara Més sobre modelo territorial?",
+        "a": "Entre sus propuestas sobre modelo territorial (declaraciones): Oponerse a la ampliación de los aeropuertos y no financiar nuevas rutas aéreas turísticas. Afrontar los sobrecostes de la insularidad para trabajadores públicos, autónomos y pequeñas empresas."
       }
     ]
   },
   "mundojusto": {
-    "resumen": "Por un Mundo Más Justo es un partido que se define como humanista y transversal. Se presenta el 29N en 13 circunscripciones. En Madrid encabeza la lista José Manuel Romero Melero. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "Por un Mundo Más Justo es un partido que se define como humanista y transversal. Se presenta el 29N en 13 circunscripciones. José Manuel Romero Melero encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta Por un Mundo Más Justo a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Por un Mundo Más Justo fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 13 circunscripciones (Álava, Bizkaia, Albacete, Almería, Asturias, Ávila, Badajoz, Cuenca, Granada, Guadalajara, Las Palmas, Madrid, Valencia)."
+        "a": "Sí. La candidatura de Por un Mundo Más Justo fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 13 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Por un Mundo Más Justo?",
@@ -595,17 +679,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Por un Mundo Más Justo no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone Por un Mundo Más Justo sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de su programa de 2023 y sus actuaciones: Prohibir las concertinas, las pelotas de goma, el gas pimienta y las «devoluciones en caliente» en las fronteras. Apoyar la Iniciativa Legislativa Popular para una regularización extraordinaria de personas extranjeras."
+        "q": "¿Qué propone Por un Mundo Más Justo sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Priorizar la vivienda social de promoción pública frente a la vivienda libre y el derecho a la vivienda frente a su uso como inversión. Priorizar la rehabilitación de vivienda frente a la construcción nueva."
       },
       {
         "q": "¿Qué propone Por un Mundo Más Justo sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Revertir la reducción del impuesto de sociedades y combatir la evasión fiscal, para que las grandes empresas contribuyan según sus beneficios. Crear tributos transnacionales sobre las ganancias del mercado financiero internacional."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Crear tributos transnacionales sobre las ganancias del mercado financiero internacional. Impulsar acuerdos internacionales para que las multinacionales paguen más impuestos y no usen paraísos fiscales."
+      },
+      {
+        "q": "¿Qué propone Por un Mundo Más Justo sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Prohibir las concertinas, las pelotas de goma, el gas pimienta y las devoluciones en caliente en las fronteras. Suprimir los Centros de Internamiento de Extranjeros (CIE)."
       }
     ]
   },
   "pacma": {
-    "resumen": "PACMA es un partido animalista. Se presenta el 29N en 30 circunscripciones. Asier Esparza es el aspirante a la presidencia. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "PACMA es un partido animalista. Se presenta el 29N en 30 circunscripciones. Asier Esparza es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta PACMA a las elecciones del 29N?",
@@ -624,17 +712,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, PACMA no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone PACMA sobre protección de los animales?",
-        "a": "Entre sus propuestas sobre protección de los animales, de su programa de 2023: Aprobar una ley general de protección que ampare a todos los animales sin exclusiones (la «Ley Cero»). Suprimir la multa como alternativa a la prisión en el maltrato animal y elevar a más de cinco años la pena del tipo agravado."
+        "q": "¿Qué propone PACMA sobre vivienda?",
+        "a": "No constan propuestas de PACMA sobre vivienda en las fuentes revisadas."
       },
       {
-        "q": "¿Qué propone PACMA sobre caza y ganadería?",
-        "a": "Entre sus propuestas sobre caza y ganadería, de su programa de 2023: Prohibir la caza y el uso de animales como instrumentos de caza; mientras, limitar los cotos y prohibir la munición de plomo. Catalogar al lobo como especie en peligro de extinción y hacer censos."
+        "q": "¿Qué propone PACMA sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%. Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar daños."
+      },
+      {
+        "q": "¿Qué propone PACMA sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (programa 2023): Permitir el acceso de animales de compañía a hospitales, en zonas habilitadas, y regular su acceso al transporte público y residencias."
       }
     ]
   },
   "pcte": {
-    "resumen": "El PCTE es un partido comunista marxista-leninista. Se presenta el 29N en 37 circunscripciones. Eva García de Madariaga Delgado figura como cabeza de lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "El PCTE es un partido comunista marxista-leninista. Se presenta el 29N en 37 circunscripciones. Eva García de Madariaga Delgado encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta el PCTE a las elecciones del 29N?",
@@ -653,21 +745,25 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, el PCTE no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone el PCTE sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de su programa de 2023: Reducir la jornada en todos los sectores sin pérdida salarial, con una semana máxima de 35 horas que se iría reduciendo progresivamente. Acabar con la precariedad y suprimir las modalidades de contratación flexible: empleo estable con plenos derechos laborales."
+        "q": "¿Qué propone el PCTE sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Prohibir los desahucios de familias trabajadoras y los cortes de suministros básicos. Expropiación sin indemnización de las viviendas vacías de bancos y fondos de inversión."
       },
       {
-        "q": "¿Qué propone el PCTE sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de su programa de 2023: Prohibir los desahucios de familias trabajadoras y los cortes de suministros básicos. «Expropiación sin indemnización» de las viviendas vacías de bancos y fondos de inversión."
+        "q": "¿Qué propone el PCTE sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Control obrero de la industria y de los sectores estratégicos y socialización de los medios de producción, con el socialismo-comunismo como horizonte. Rechazar la deslocalización de empresas y cualquier desmantelamiento o reestructuración de sectores estratégicos."
+      },
+      {
+        "q": "¿Qué propone el PCTE sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Cerrar los Centros de Internamiento de Extranjeros (CIE). Plenos derechos para todas las personas que viven y trabajan en España y para los refugiados."
       }
     ]
   },
   "pnv": {
-    "resumen": "El PNV es un partido nacionalista vasco de centro. Se presenta el 29N en Álava, Bizkaia y Gipuzkoa. Maribel Vaquero encabeza Gipuzkoa. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "El PNV es un partido nacionalista vasco de centro. Se presenta el 29N en Álava, Bizkaia y Gipuzkoa. Maribel Vaquero encabeza la lista por Gipuzkoa. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta el PNV a las elecciones del 29N?",
-        "a": "Sí. La candidatura del PNV fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (Álava, Bizkaia, Gipuzkoa)."
+        "a": "Sí. La candidatura del PNV fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta el PNV?",
@@ -682,12 +778,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, el PNV no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone el PNV sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023 y sus declaraciones: Reconocer la nación vasca y la bilateralidad en la relación con el Estado. Un nuevo Estatuto para Euskadi acordado en el Parlamento Vasco y ratificado por Congreso y Senado."
+        "q": "¿Qué propone el PNV sobre vivienda?",
+        "a": "No constan propuestas del PNV sobre vivienda en las fuentes revisadas."
       },
       {
         "q": "¿Qué propone el PNV sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA. Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA. Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular."
+      },
+      {
+        "q": "¿Qué propone el PNV sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Transferir a la CAV las políticas migratorias. Una política europea común de inmigración y asilo y reparto equitativo de los menores migrantes no acompañados."
       }
     ]
   },
@@ -700,7 +800,7 @@
       },
       {
         "q": "¿Dónde se presenta Podemos?",
-        "a": "Podemos se presenta en 41 circunscripciones. En solitario en 41 circunscripciones. En la Comunitat Valenciana va en Compromís-Front Valencià y en Canarias en Unidad del Pueblo Canario. No se presenta en Cataluña (lleva candidatos en la lista de ERC por Barcelona)."
+        "a": "Podemos se presenta en solitario en 41 circunscripciones. En la Comunitat Valenciana va en Compromís-Front Valencià y en Canarias en Unidad del Pueblo Canario. No se presenta en Cataluña (lleva candidatos en la lista de ERC por Barcelona)."
       },
       {
         "q": "¿Quién es el candidato de Podemos?",
@@ -712,11 +812,15 @@
       },
       {
         "q": "¿Qué propone Podemos sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus declaraciones: Bajar por ley un 40% los alquileres en contratos renovados o prorrogados y fijar los nuevos en el 60% del índice de referencia. Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada."
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Bajar por ley un 40% los alquileres en contratos renovados o prorrogados y fijar los nuevos en el 60% del índice de referencia. Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada."
       },
       {
         "q": "¿Qué propone Podemos sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas. Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades."
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades. Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas."
+      },
+      {
+        "q": "¿Qué propone Podemos sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Regularizar a quienes viven y trabajan en España y conceder la nacionalidad por carta de naturaleza con derecho a voto. Derogar la Ley de Extranjería y cerrar los Centros de Internamiento de Extranjeros."
       }
     ]
   },
@@ -740,12 +844,16 @@
         "a": "Sí. Es el programa «Reconstrucción Nacional», con 249 medidas."
       },
       {
-        "q": "¿Qué propone el PP sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de su programa de 2026: Que los jueces de todas las categorías elijan a los doce vocales judiciales del CGPJ, y que las plazas del Supremo se cubran por concurso de méritos. Que los candidatos al Constitucional no hayan tenido cargos políticos en los cinco años previos y que el TC resuelva en 90 días los recursos sobre derechos fundamentales."
+        "q": "¿Qué propone el PP sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2026 y declaraciones): Construir un millón de viviendas movilizando suelo público y privado, y publicar cada año las viviendas iniciadas y terminadas. Poner a la venta todo el suelo público disponible, con viviendas hasta un 30% por debajo del precio de mercado."
+      },
+      {
+        "q": "¿Qué propone el PP sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2026 y declaraciones): Rebajar los impuestos y revisar una a una las que cifra en más de cien subidas fiscales aprobadas en los últimos años. Aplicar un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas, mientras persista la crisis de inflación."
       },
       {
         "q": "¿Qué propone el PP sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de su programa de 2026: Reforzar efectivos y medios en las fronteras, con apoyo de las Fuerzas Armadas si la seguridad lo exige, y extender el rechazo en frontera a las entradas a nado en Ceuta y Melilla. Visados por puntos y dos vías legales de acceso laboral, con homologación de títulos con garantías."
+        "a": "Entre sus propuestas sobre inmigración (programa 2026): Visados por puntos y dos vías legales de acceso laboral, con homologación de títulos con garantías. Cupos anuales de inmigración laboral por sectores, solo para países que colaboren en los retornos."
       }
     ]
   },
@@ -754,7 +862,7 @@
     "faq": [
       {
         "q": "¿Se presenta PREPAL a las elecciones del 29N?",
-        "a": "Sí. La candidatura de PREPAL fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones (León, Salamanca, Zamora)."
+        "a": "Sí. La candidatura de PREPAL fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 3 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta PREPAL?",
@@ -769,17 +877,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, PREPAL no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone PREPAL sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones: Que el Gobierno presente a las Cortes Generales un proyecto de Estatuto de Autonomía para la Región Leonesa, para su debate, votación y publicación en el BOE. Tomar como base de ese Estatuto el anteproyecto aprobado por la XXVIII Asamblea General del partido el 28 de enero de 2022."
+        "q": "¿Qué propone PREPAL sobre vivienda?",
+        "a": "No constan propuestas de PREPAL sobre vivienda en las fuentes revisadas."
       },
       {
-        "q": "¿Qué propone PREPAL sobre instituciones?",
-        "a": "Entre sus propuestas sobre instituciones, de sus declaraciones: Que todo el proceso autonómico leonés sea «tutelado por la Corona Española» y se haga dentro del marco legal vigente, «con la Constitución española en la mano». Apoyo «directo y fijo» a la Constitución y que cualquier reforma constitucional se someta siempre a referéndum."
+        "q": "¿Qué propone PREPAL sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Que el Gobierno ejecute sin más demora las 115 medidas del Plan Oeste, y que la oposición también lo exija."
+      },
+      {
+        "q": "¿Qué propone PREPAL sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (declaraciones): Construir nuevos hospitales en Salamanca, Zamora y León, en lugares accesibles y menos congestionados, en vez de reformar los existentes. Construir hospitales comarcales en Ciudad Rodrigo (Salamanca), Benavente (Zamora) y Astorga (León)."
       }
     ]
   },
   "psoe": {
-    "resumen": "El PSOE es un partido socialdemócrata. Se presenta el 29N en todas las circunscripciones. Pedro Sánchez es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus actuaciones.",
+    "resumen": "El PSOE es un partido de centroizquierda socialdemócrata. Se presenta el 29N en todas las circunscripciones. Pedro Sánchez es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus actuaciones.",
     "faq": [
       {
         "q": "¿Se presenta el PSOE a las elecciones del 29N?",
@@ -799,16 +911,20 @@
       },
       {
         "q": "¿Qué propone el PSOE sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda, de sus actuaciones: Programa TU CASA: préstamos ICO al 0% de hasta el 20% del precio (máx. 50.000 €) para la primera vivienda, con 10.000 M€ y carencia hasta el fin de la hipoteca. Prórroga extraordinaria de hasta dos años de los contratos de alquiler que venzan antes de finales de 2028, para inquilinos al corriente de pago."
+        "a": "Entre sus propuestas sobre vivienda (actuaciones): Programa TU CASA: préstamos ICO al 0% de hasta el 20% del precio (máx. 50.000 €) para la primera vivienda, con 10.000 M€ y carencia hasta el fin de la hipoteca. Prórroga extraordinaria de hasta dos años de los contratos de alquiler que venzan antes de finales de 2028, para inquilinos al corriente de pago."
       },
       {
         "q": "¿Qué propone el PSOE sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales. Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas."
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales. Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas."
+      },
+      {
+        "q": "¿Qué propone el PSOE sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (actuaciones): Mantener la regularización extraordinaria de inmigrantes en situación irregular, con 1.174.978 solicitudes hasta junio de 2026. Reparto obligatorio entre comunidades de los menores migrantes no acompañados."
       }
     ]
   },
   "salf": {
-    "resumen": "Se Acabó La Fiesta es un partido liberal en lo económico. Se presenta el 29N en 46 circunscripciones. Alvise Pérez encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Se Acabó La Fiesta es un partido de derecha liberal en lo económico. Se presenta el 29N en 46 circunscripciones. Alvise Pérez encabeza la lista por Madrid. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Se Acabó La Fiesta a las elecciones del 29N?",
@@ -827,12 +943,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Se Acabó La Fiesta no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
       },
       {
-        "q": "¿Qué propone Se Acabó La Fiesta sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: IRPF del 0 % para quienes ingresen menos de 35.000 euros al año. Rebajar cinco puntos el IRPF por cada hijo a cargo."
+        "q": "¿Qué propone Se Acabó La Fiesta sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones): Declarar edificable todo el suelo salvo que existan razones objetivas en contra. Cero impuestos en la compra de la primera vivienda y licencias rápidas."
       },
       {
-        "q": "¿Qué propone Se Acabó La Fiesta sobre gasto público?",
-        "a": "Entre sus propuestas sobre gasto público, de sus declaraciones: Reducir al menos un 70 % los altos cargos y asesores y fusionar departamentos considerados redundantes. Eliminar las subvenciones públicas a partidos políticos, sindicatos y patronales."
+        "q": "¿Qué propone Se Acabó La Fiesta sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): IRPF del 0 % para quienes ingresen menos de 35.000 euros al año. Rebajar cinco puntos el IRPF por cada hijo a cargo."
+      },
+      {
+        "q": "¿Qué propone Se Acabó La Fiesta sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (declaraciones): Plan de deportación masiva de inmigrantes irregulares financiado con fondos de cooperación internacional, empezando por Marruecos. Prioridad para españoles y residentes legales en ayudas, vivienda protegida y plazas de guardería."
       }
     ]
   },
@@ -856,12 +976,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Soria ¡Ya! no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone Soria ¡Ya! sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Pacto de Estado y ley contra la despoblación, con un compromiso de inversión del 1% del PIB al año. Crear un Fondo de Inversiones de Soria similar al Fondo de Inversiones de Teruel (FITE)."
+        "q": "¿Qué propone Soria ¡Ya! sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Banco de viviendas de alquiler, ayudas a la rehabilitación, construcción de VPO, agilizar los expedientes de ruina y convertir edificios públicos en desuso en viviendas o espacios de coworking."
       },
       {
         "q": "¿Qué propone Soria ¡Ya! sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Reducir un 50% la cuota íntegra de los principales impuestos para trabajadores y empresas de Soria, Cuenca y Teruel. Tarifa plana de 80 euros para los autónomos que se establezcan en territorios despoblados."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Aplicar plenamente las ayudas al funcionamiento para empresas y autónomos de Soria, Teruel y Cuenca, hasta el 20% de los costes laborales, y extenderlas a empresas con teletrabajadores residentes en zonas despobladas. Reducir un 50% la cuota íntegra de los principales impuestos para trabajadores y empresas de Soria, Cuenca y Teruel."
+      },
+      {
+        "q": "¿Qué propone Soria ¡Ya! sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (programa 2023): Más plazas MIR y EIR, agilizar la convalidación de títulos y financiar la sanidad atendiendo a la dispersión y extensión del territorio."
       }
     ]
   },
@@ -885,21 +1009,25 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, el Frente Amplio (Sumar) no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone el Frente Amplio (Sumar) sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos. Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+        "q": "¿Qué propone el Frente Amplio (Sumar) sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023 y declaraciones): Invertir el 1% del PIB durante diez años para crear dos millones de viviendas públicas de alquiler asequible. Prohibir la compra de vivienda por empresas y fondos de inversión que no sea para uso residencial y derogar el régimen de las SOCIMI."
       },
       {
-        "q": "¿Qué propone el Frente Amplio (Sumar) sobre empleo?",
-        "a": "Entre sus propuestas sobre empleo, de sus actuaciones: Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto rechazado por el Congreso el 10-9-2025). SMI de 1.221 € en 14 pagas en 2026 y, como mínimo, del 60% del salario medio; seguir subiéndolo."
+        "q": "¿Qué propone el Frente Amplio (Sumar) sobre economía e impuestos?",
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos. Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+      },
+      {
+        "q": "¿Qué propone el Frente Amplio (Sumar) sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023 y actuaciones): Regularización extraordinaria de inmigrantes que estuvieran en España antes del 1-1-2026 (Real Decreto 316/2026). Mecanismo permanente de regularización y ley integral contra el racismo."
       }
     ]
   },
   "upc": {
-    "resumen": "Unidad del Pueblo Canario es una coalición de nacionalismo canario de izquierda. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Luis Alberto Campos Jiménez figura por Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "Unidad del Pueblo Canario es una coalición de nacionalismo canario de izquierda. Se presenta el 29N en Las Palmas y Santa Cruz de Tenerife. Luis Alberto Campos Jiménez encabeza la lista por Las Palmas. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta Unidad del Pueblo Canario a las elecciones del 29N?",
-        "a": "Sí. La candidatura de Unidad del Pueblo Canario fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones (Las Palmas, Santa Cruz de Tenerife)."
+        "a": "Sí. La candidatura de Unidad del Pueblo Canario fue proclamada para el 29N (BOE del 3-11-2026, según Civio) y se presenta en 2 circunscripciones."
       },
       {
         "q": "¿Dónde se presenta Unidad del Pueblo Canario?",
@@ -914,17 +1042,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Unidad del Pueblo Canario no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone Unidad del Pueblo Canario sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de sus declaraciones y su programa de 2023: Defender los intereses de Canarias y de cada isla con una voz «fuerte y propia» en el Congreso. Mantener a Canarias fuera del régimen común de financiación, con relación bilateral con el Estado, y ponderar más la insularidad y la pobreza."
+        "q": "¿Qué propone Unidad del Pueblo Canario sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023 y declaraciones): Garantizar el derecho a la vivienda. Construir al menos 5.000 viviendas protegidas en la legislatura y limitar el alquiler en zonas tensionadas."
       },
       {
         "q": "¿Qué propone Unidad del Pueblo Canario sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Que el Estado no modifique el Régimen Económico y Fiscal (REF) sin acuerdo con Canarias y aumente en los PGE sus programas económicos. Extender al REF el tratamiento diferenciado frente a la tributación mínima global del 15%."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Que el Estado no modifique el Régimen Económico y Fiscal (REF) sin acuerdo con Canarias y aumente en los PGE sus programas económicos. Extender al REF el tratamiento diferenciado frente a la tributación mínima global del 15%."
+      },
+      {
+        "q": "¿Qué propone Unidad del Pueblo Canario sobre inmigración?",
+        "a": "Entre sus propuestas sobre inmigración (programa 2023): Políticas migratorias europeas respetuosas con los derechos humanos, con vías legales y seguras."
       }
     ]
   },
   "upn": {
-    "resumen": "UPN es un partido regionalista y foralista navarro de centroderecha. Se presenta el 29N en Navarra. Leticia San Martín Rodríguez figura como cabeza de lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
+    "resumen": "UPN es un partido regionalista y foralista navarro de centroderecha. Se presenta el 29N en Navarra. Leticia San Martín Rodríguez encabeza la lista por Navarra. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023.",
     "faq": [
       {
         "q": "¿Se presenta UPN a las elecciones del 29N?",
@@ -943,17 +1075,21 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, UPN no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023."
       },
       {
-        "q": "¿Qué propone UPN sobre organización territorial?",
-        "a": "Entre sus propuestas sobre organización territorial, de su programa de 2023: Defender a Navarra como comunidad foral diferenciada dentro de España y Europa frente al nacionalismo vasco. Suprimir la Disposición Transitoria Cuarta de la Constitución (posible incorporación de Navarra a Euskadi) en una eventual reforma."
+        "q": "¿Qué propone UPN sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (programa 2023): Derogar la Ley estatal de Vivienda y respetar las competencias de Navarra en la materia. Garantizar la propiedad privada y luchar contra la ocupación ilegal de viviendas."
       },
       {
         "q": "¿Qué propone UPN sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de su programa de 2023: Defender el Convenio Económico con una aportación al Estado calculada según renta y no población y reflejada en los PGE. Bajar impuestos y deflactar la tarifa del IRPF para compensar la inflación."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023): Defender el Convenio Económico con una aportación al Estado calculada según renta y no población y reflejada en los PGE. Bajar impuestos y deflactar la tarifa del IRPF para compensar la inflación."
+      },
+      {
+        "q": "¿Qué propone UPN sobre sanidad?",
+        "a": "Entre sus propuestas sobre sanidad (programa 2023): Plan Nacional de Prevención del Suicidio y normativa específica para ELA, enfermedades raras y cuidados paliativos."
       }
     ]
   },
   "vox": {
-    "resumen": "Vox es un partido nacionalconservador. Se presenta el 29N en todas las circunscripciones. Santiago Abascal es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus declaraciones.",
+    "resumen": "Vox es un partido de derecha nacionalconservadora. Se presenta el 29N en todas las circunscripciones. Santiago Abascal es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus declaraciones.",
     "faq": [
       {
         "q": "¿Se presenta Vox a las elecciones del 29N?",
@@ -972,12 +1108,16 @@
         "a": "No consta. A fecha de la última revisión de esta ficha, Vox no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus declaraciones."
       },
       {
+        "q": "¿Qué propone Vox sobre vivienda?",
+        "a": "Entre sus propuestas sobre vivienda (declaraciones y actuaciones): Derogar la Ley 12/2023 por el Derecho a la Vivienda, incluido el control de precios del alquiler en zonas tensionadas. Aplicar el principio de prioridad nacional en la vivienda protegida, el alquiler social y las ayudas a la vivienda."
+      },
+      {
         "q": "¿Qué propone Vox sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos, de sus declaraciones: IRPF estatal con dos tipos: 15% para bases de hasta 70.000 € y 25% por encima. Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2023 y declaraciones): IRPF estatal con dos tipos: 15% para bases de hasta 70.000 € y 25% por encima. Dejar exentos de IRPF los primeros 22.000 € anuales de rentas del trabajo, con uno o varios pagadores."
       },
       {
         "q": "¿Qué propone Vox sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración, de su programa de 2023 y sus declaraciones: Expulsión inmediata de quien entre «ilegalmente» (de forma irregular); ningún inmigrante en situación irregular podrá regularizarse. Procesos de «remigración» para extranjeros que vivan de ayudas públicas sin trabajar ni cotizar."
+        "a": "Entre sus propuestas sobre inmigración (programa 2023 y actuaciones): Expulsión inmediata de quien entre ilegalmente; ningún inmigrante en situación irregular podrá regularizarse. Deportar a los extranjeros que cometan delitos, con independencia de su situación administrativa."
       }
     ]
   }

@@ -9,7 +9,7 @@
  "color_aproximado": true,
  "web": "https://soriaya.org",
  "escanos_2023": 0,
- "resumen": "Plataforma ciudadana soriana convertida en partido, integrada en el movimiento de la «España Vaciada»; en 2023 se quedó sin escaño en el Congreso con el 19,2% en Soria, y en las autonómicas de marzo de 2026 bajó de tres procuradores a uno (Ángel Ceña) en las Cortes de Castilla y León; no concurrió a las municipales de 2023, por lo que no tiene diputados provinciales. Prioriza la lucha contra la despoblación, las autovías A-11 y A-15, el ferrocarril y las ventajas fiscales para las provincias menos pobladas; sus propuestas proceden del programa de las generales de 2023, porque no ha publicado uno para el 29N.",
+ "resumen": "Propone dar teletrabajo permanente a empleados públicos de zonas despobladas, crear un banco de viviendas de alquiler y aprobar una ley contra la despoblación con el 1 % del PIB al año. Fuente: programa 2023.",
  "fuentes_resumen": [
   {
    "nombre": "Diario de Valladolid, 16-3-2026: Soria Ya pierde dos de sus tres procuradores (Ceña conserva el escaño)",
@@ -605,5 +605,5 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-10-30"
+ "actualizado": "2026-11-11"
 }

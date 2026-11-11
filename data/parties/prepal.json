@@ -9,7 +9,7 @@
  "color_aproximado": true,
  "web": "https://www.prepal.eu",
  "escanos_2023": 0,
- "resumen": "Partido regionalista leonesista legalizado en 1980 y presidido por Francisco Iglesias Carreño, sin representación en el Congreso. No debe confundirse con UPL, que no se presenta el 29N. Prioriza crear una comunidad autónoma propia para León, Zamora y Salamanca mediante un Estatuto aprobado por las Cortes, ejecutar el Plan Oeste y construir nuevos hospitales y conexiones ferroviarias en esas provincias.",
+ "resumen": "Propone exigir la ejecución de las 115 medidas del Plan Oeste, construir nuevos hospitales en Salamanca, Zamora y León y crear una comunidad autónoma propia formada por León, Zamora y Salamanca. Fuente: declaraciones.",
  "fuentes_programa": [
   {
    "nombre": "Heraldo de León, 6-3-2026: Prepal reclama al Gobierno impulsar la autonomía de la Región Leonesa",
@@ -356,5 +356,6 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-10-30"
+ "actualizado": "2026-11-11",
+ "candidatura_nota": "No debe confundirse con UPL (Unión del Pueblo Leonés), que no se presenta el 29N."
 }
