@@ -235,6 +235,58 @@ const candTitle = (c) => {
 // La app usa los mismos títulos al navegar.
 parties.forEach((p) => { p.titulo_pagina = partyTitle(p); });
 candidatos.forEach((c) => { c.titulo_pagina = candTitle(c); });
+
+// ---------- Impuestos, provincias, comparativas y novedades ----------
+const PBY = Object.fromEntries(parties.map((p) => [p.id, p]));
+const IMP = rj('data/impuestos.json') || { categorias: [], partidos: {} };
+const IMP_P = {};
+for (const p of parties) {
+  const its = (IMP.partidos[p.id] || []).filter((it) => it && it.texto && (IMP.categorias || []).some((c) => c.id === it.cat));
+  if (its.length) IMP_P[p.id] = its.map((it) => ({ cat: it.cat, ref: it.ref, texto: it.texto }));
+}
+const propByRef = (p, ref) => p.propuestas.find((x) => x.id === ref) || null;
+const PROV_META = rj('data/provincias_meta.json') || {};
+const PROV_CONTRASTE = (PROV_META.verificacion_resultados_2023 && PROV_META.verificacion_resultados_2023.fuente_contraste) || null;
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+const fuenteP = (f) => (f && (f.titulo || f.url) ? { titulo: f.titulo || hostOf(f.url), url: f.url || null, fecha: f.fecha || null } : null);
+const PROVS = (rj('data/provincias.json') || []).map((v) => {
+  const ver = v.resultados_2023_verificado || null;
+  return {
+    id: v.id, nombre: v.nombre, ccaa: v.ccaa, escanos_2026: v.escanos_2026, escanos_fuente: fuenteP(v.escanos_fuente), nota_escanos: v.nota_escanos || null,
+    candidaturas: parties.filter((p) => (v.candidaturas || []).includes(p.id)).map((p) => p.id),
+    cabezas_lista: (v.cabezas_lista || []).filter((c) => c && c.nombre && PBY[c.party]).sort((x, y) => parties.indexOf(PBY[x.party]) - parties.indexOf(PBY[y.party])).map((c) => {
+      const m = candidatos.find((k) => k.party === c.party && (k.nombre === c.nombre || slugify(k.nombre) === slugify(c.nombre)));
+      return { party: c.party, nombre: c.nombre, slug: m ? m.slug : null, fuente: fuenteP(c.fuente || (c.fuentes || [])[0]) };
+    }),
+    resultados_2023: (v.resultados_2023 || []).map((r) => ({ partido: PBY[r.partido] ? r.partido : null, candidatura: r.candidatura, votos_pct: r.votos_pct, escanos: r.escanos })),
+    resultados_2023_fuente: fuenteP(v.resultados_2023_fuente),
+    resultados_2023_verificado: ver ? { url: ver, titulo: PROV_CONTRASTE && hostOf(PROV_CONTRASTE.url) === hostOf(ver) ? PROV_CONTRASTE.titulo : hostOf(ver) } : null,
+  };
+});
+const PROV_FUENTES = (PROV_META.fuentes_candidaturas || []).map(fuenteP).filter(Boolean);
+const provFecha = (v) => maxDate([v.escanos_fuente && v.escanos_fuente.fecha, ...PROV_FUENTES.map((f) => f.fecha), ...v.cabezas_lista.map((c) => c.fuente && c.fuente.fecha)].filter((d) => /^\d{4}-\d{2}-\d{2}/.test(d || '') && d.slice(0, 10) <= DATA.generado).map((d) => d.slice(0, 10)));
+const provTitle = (v) => ttl(`Candidatos por ${v.nombre} el 29N: listas al Congreso`, `Candidatos por ${v.nombre} el 29N`, `Listas al Congreso por ${v.nombre} (29N)`, `Candidatos por ${v.nombre} (29N)`);
+const provH1 = (v) => `Candidatos por ${v.nombre} el 29N: listas al Congreso`;
+const COMPARES = [['pp', 'psoe'], ['pp', 'vox'], ['psoe', 'sumar'], ['sumar', 'podemos'], ['erc', 'junts'], ['pnv', 'bildu'], ['vox', 'salf']].filter(([x, y]) => PBY[x] && PBY[y]);
+// Columnas y título siempre en orden alfabético por nombre corto (la URL conserva el orden del par).
+const cmpPair = ([x, y]) => [PBY[x], PBY[y]].sort((p, q) => p.corto.localeCompare(q.corto, 'es', { sensitivity: 'base' }));
+const cmpSlug = ([x, y]) => `${x}-vs-${y}`;
+const cmpName = (pr) => { const [A, B] = cmpPair(pr); return `${A.corto} vs ${B.corto}`; };
+const cmpTitle = (pr) => ttl(`${cmpName(pr)}: qué propone cada uno (29N 2026)`, `${cmpName(pr)}: qué propone cada uno`);
+const cmpResumen = (A, B) => (A.seo && A.seo.resumen && B.seo && B.seo.resumen ? [A.seo.resumen, B.seo.resumen] : [A.resumen || '', B.resumen || '']);
+const NOVEDADES = (rj('data/novedades.json') || []).filter((n) => n && n.fecha && n.titulo).sort((x, y) => (x.fecha < y.fecha ? 1 : x.fecha > y.fecha ? -1 : 0));
+DATA.impuestos = { categorias: IMP.categorias || [], partidos: IMP_P };
+DATA.provincias = PROVS;
+DATA.provincias_fuentes = PROV_FUENTES;
+DATA.comparativas = COMPARES;
+DATA.novedades = NOVEDADES;
+DATA.titulos = {
+  impuestos: ttl('Impuestos: qué propone cada partido (IRPF, IVA…) 29N', 'Impuestos: qué propone cada partido (29N)'),
+  provincias: ttl('Candidatos al Congreso por provincia (29N)', 'Candidatos por provincia (29N)'),
+  novedades: ttl('Novedades y cambios', 'Novedades'),
+};
+PROVS.forEach((v) => { DATA.titulos['provincia-' + v.id] = provTitle(v); });
+COMPARES.forEach((pr) => { DATA.titulos['comparar-' + cmpSlug(pr)] = cmpTitle(pr); });
 const lcFirst = (t) => (/^(Europa|España)\b/.test(t) ? t : t.charAt(0).toLowerCase() + t.slice(1));
 
 // En modo sitio, CSS y JS van a ficheros con hash (caché inmutable); el artifact sigue siendo un único HTML.
@@ -260,7 +312,7 @@ ${canonical ? `<link rel="canonical" href="${canonical}">` : ''}${robots}<meta n
 <meta property="og:type" content="website"><meta property="og:site_name" content="${esc(NAME)}"><meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">${canonical ? `<meta property="og:url" content="${canonical}">` : ''}<meta property="og:image" content="${SITE_URL}/${ogImg}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(ogAlt || title)}">
 <meta property="og:locale" content="es_ES"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${SITE_URL}/${ogImg}"><meta name="twitter:image:alt" content="${esc(ogAlt || title)}">
-<link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/logo.png"><link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/logo.png"><link rel="manifest" href="/manifest.webmanifest"><link rel="alternate" type="application/rss+xml" title="${esc(`Novedades de ${NAME}`)}" href="/novedades.xml">
 <link rel="stylesheet" href="/${ASSET_CSS}">${preload ? '<link rel="preload" href="/data.json" as="fetch" crossorigin>' : ''}
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>` : ''}`;
   let body = shell
@@ -400,7 +452,7 @@ function quienesHtml() {
 }
 const pctTxt = (p) => (VEDA ? `${p.escanos_2023 ?? 0} escaños en 2023` : p.encuesta ? `${p.encuesta.voto}% en la media de encuestas` : '');
 const upd = (d) => `<p class="upd">Actualizado el ${esc(fdate(d || DATA.generado))}</p>`;
-const navLinks = () => `<nav><h2>Partidos</h2><ul>${parties.map((p) => `<li>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)}</li>`).join('')}</ul><h2>Temas</h2><ul>${AREAS.map(([id, n]) => `<li>${a(`/tema/${id}/`, `${n}: qué propone cada partido`)}</li>`).join('')}</ul><p>${a('/test/', 'Test: ¿con qué partido coincides?')} · ${a('/candidatos/', 'Candidatos')} · ${a('/deuda/', 'La deuda pública explicada')} · ${a('/datos/', 'Datos clave')} · ${a('/metodologia/', 'Metodología')} · ${a('/quienes-somos/', 'Quiénes somos')}</p></nav>`;
+const navLinks = () => `<nav><h2>Partidos</h2><ul>${parties.map((p) => `<li>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)}</li>`).join('')}</ul><h2>Temas</h2><ul>${AREAS.map(([id, n]) => `<li>${a(`/tema/${id}/`, `${n}: qué propone cada partido`)}</li>`).join('')}</ul><p>${a('/test/', 'Test: ¿con qué partido coincides?')} · ${a('/candidatos/', 'Candidatos')} · ${a('/provincias/', 'Candidatos por provincia')} · ${a('/impuestos/', 'Impuestos: qué propone cada partido')} · ${a('/deuda/', 'La deuda pública explicada')} · ${a('/datos/', 'Datos clave')} · ${a('/metodologia/', 'Metodología')} · ${a('/quienes-somos/', 'Quiénes somos')} · ${a('/novedades/', 'Novedades')}</p></nav>`;
 const DIMS = [['economica', 'Críticas económicas'], ['social', 'Críticas sociales'], ['cultural', 'Críticas culturales'], ['derecho', 'Estado de derecho y derechos fundamentales']];
 const main = parties.filter((p) => p.tier === 'principal').map((p) => p.corto);
 const IM_TEMAS = ((DATA.importa && DATA.importa.temas) || []);
@@ -436,7 +488,7 @@ for (const p of parties) {
     title: partyTitle(p),
     description: clip(`Las ${p.propuestas.length} propuestas ${delNombre(p)} para el 29N, con fuente, y las críticas que recibe: ${temas.slice(0, 4).join(', ')}…`),
     jsonld: webpage(h1, url, { dateModified: p.actualizado || DATA.generado, about: { '@type': 'PoliticalParty', '@id': url + '#party', name: p.nombre, alternateName: [...new Set([p.siglas, p.corto].filter((x) => x && x !== p.nombre))], url: p.web || undefined }, crumbs: [{ name: 'Partidos', url: SITE_URL + '/partidos/' }, { name: p.corto, url }], graph: faqNode }),
-    seoBody: `<h1>${esc(h1)}</h1>${p.h1n !== p.nombre && nombreLista(p) ? `<p class="sub">${esc(p.nombre)}</p>` : ''}${upd(p.actualizado)}${p.seo && p.seo.resumen ? `<p class="phead-lead">${esc(p.seo.resumen)}</p>` : ''}${candLinks ? `<p>${(p.cands || []).length > 1 ? 'Candidatos' : 'Candidato'}: ${candLinks}.</p>` : p.candidato ? `<p>Candidato: ${esc(p.candidato)}.</p>` : ''}<p>${esc(p.resumen || '')}</p><h2>Propuestas ${esc(delNombre(p))}</h2>${byArea}${faqHtml}${crit ? `<h2>Críticas ${esc(alNombre(p))}</h2>${crit}` : ''}<h2>Qué proponen otros partidos</h2><ul>${areasP.map(([ar, n]) => `<li>${a(`/tema/${ar}/`, `Propuestas sobre ${lcFirst(n)}`)}</li>`).join('')}<li>${a('/candidatos/', 'Candidatos de todos los partidos')}</li></ul>${navLinks()}`,
+    seoBody: `<h1>${esc(h1)}</h1>${p.h1n !== p.nombre && nombreLista(p) ? `<p class="sub">${esc(p.nombre)}</p>` : ''}${upd(p.actualizado)}${p.seo && p.seo.resumen ? `<p class="phead-lead">${esc(p.seo.resumen)}</p>` : ''}${candLinks ? `<p>${(p.cands || []).length > 1 ? 'Candidatos' : 'Candidato'}: ${candLinks}.</p>` : p.candidato ? `<p>Candidato: ${esc(p.candidato)}.</p>` : ''}<p>${esc(p.resumen || '')}</p><h2>Propuestas ${esc(delNombre(p))}</h2>${byArea}${faqHtml}${crit ? `<h2>Críticas ${esc(alNombre(p))}</h2>${crit}` : ''}<h2>Qué proponen otros partidos</h2><ul>${areasP.map(([ar, n]) => `<li>${a(`/tema/${ar}/`, `Propuestas sobre ${lcFirst(n)}`)}</li>`).join('')}<li>${a('/impuestos/', 'Impuestos: qué propone cada partido (IRPF, IVA…)')}</li>${COMPARES.filter((pr) => pr.includes(p.id)).map((pr) => `<li>${a(`/comparar/${cmpSlug(pr)}/`, `${cmpName(pr)}: qué propone cada uno`)}</li>`).join('')}<li>${a('/provincias/', 'Candidaturas por provincia')}</li><li>${a('/candidatos/', 'Candidatos de todos los partidos')}</li></ul>${navLinks()}`,
   });
 }
 for (const [ar, n] of AREAS) {
@@ -450,7 +502,7 @@ for (const [ar, n] of AREAS) {
     title: ttl(`${n}: qué propone cada partido (29N)`, `${n}: propuestas de cada partido`, `${n}: qué proponen (29N)`, `${n}: propuestas 29N`),
     description: clip(`Propuestas sobre ${lcFirst(n)} de ${ps.slice(0, 5).map((p) => p.corto).join(', ')}${ps.length > 5 ? ` y ${ps.length - 5} partidos más` : ''} para las elecciones generales del 29N, lado a lado y con fuente.`),
     jsonld: webpage(h1, url, { dateModified: maxDate(ps.map((p) => p.actualizado)), crumbs: [{ name: 'Comparar', url: SITE_URL + '/comparar/' }, { name: n, url }] }),
-    seoBody: `<h1>${esc(h1)}</h1>${upd(maxDate(ps.map((p) => p.actualizado)))}<p>Propuestas de ${ps.length} partidos sobre ${esc(lcFirst(n))}, resumidas sin interpretar.</p>${rel.length ? `<p>${rel.map((t) => a(datosHref(t), `Datos clave: ${t.titulo}`)).join(' · ')}</p>` : ''}${ps.map((p) => { const it = p.propuestas.filter((x) => x.area === ar); return `<h2>${a(`/partido/${p.id}/`, nombreH1(p))}</h2>${list(it.map((i) => i.texto))}<p>${a(`/partido/${p.id}/`, `Programa ${delNombre(p)}`)}</p>`; }).join('')}${navLinks()}`,
+    seoBody: `<h1>${esc(h1)}</h1>${upd(maxDate(ps.map((p) => p.actualizado)))}<p>Propuestas de ${ps.length} partidos sobre ${esc(lcFirst(n))}, resumidas sin interpretar.</p>${rel.length ? `<p>${rel.map((t) => a(datosHref(t), `Datos clave: ${t.titulo}`)).join(' · ')}</p>` : ''}${ar === 'economia' ? `<p>${a('/impuestos/', 'Impuestos: qué propone cada partido sobre IRPF, IVA, sociedades y patrimonio')}</p>` : ''}${ps.map((p) => { const it = p.propuestas.filter((x) => x.area === ar); return `<h2>${a(`/partido/${p.id}/`, nombreH1(p))}</h2>${list(it.map((i) => i.texto))}<p>${a(`/partido/${p.id}/`, `Programa ${delNombre(p)}`)}</p>`; }).join('')}${navLinks()}`,
   });
 }
 const deudaH1 = (d) => { const t = d.titular_corto || d.titular || 'La deuda pública'; return /España/.test(t) ? t : `${t} de España`; };
@@ -512,7 +564,7 @@ if (DATA.test) {
     title: ttl(h1, `Candidatos elecciones generales ${YEAR}`),
     description: clip(`Quién encabeza cada candidatura el 29N: formación, trayectoria, patrimonio declarado y causas judiciales de ${cs.slice(0, 3).map((p) => p.cand.nombre).join(', ')} y el resto.`),
     jsonld: webpage(h1, url, { type: 'CollectionPage', mainEntity: { '@id': url + '#lista' }, graph: [people], crumbs: [{ name: 'Candidatos', url }] }),
-    seoBody: `<h1>${esc(h1)}</h1>${upd(maxDate(cs.map((p) => p.actualizado)))}<ul>${all.map(({ p, c }) => `<li>${a(`/candidato/${c.slug}/`, c.nombre)} (${a(`/partido/${p.id}/`, `programa ${delNombre(p)}`)})${c.formacion ? ' — ' + esc(c.formacion) : ''}</li>`).join('')}</ul>${navLinks()}`,
+    seoBody: `<h1>${esc(h1)}</h1>${upd(maxDate(cs.map((p) => p.actualizado)))}<ul>${all.map(({ p, c }) => `<li>${a(`/candidato/${c.slug}/`, c.nombre)} (${a(`/partido/${p.id}/`, `programa ${delNombre(p)}`)})${c.formacion ? ' — ' + esc(c.formacion) : ''}</li>`).join('')}</ul><p>${a('/provincias/', 'Candidaturas y cabezas de lista por provincia')}</p>${navLinks()}`,
   });
   for (const { p, c } of all) {
     const curl = `${SITE_URL}/candidato/${c.slug}/`;
@@ -525,7 +577,7 @@ if (DATA.test) {
       title: candTitle(c),
       description: clip(`${c.nombre}${c.rol ? `, ${lcFirst(c.rol)} ${delNombre(p)}` : ` (${p.corto})`} el 29N: formación, trayectoria, patrimonio declarado y causas judiciales, con fuentes oficiales.`),
       jsonld: webpage(ch1, curl, { type: 'ProfilePage', dateModified: candFecha(p, c), mainEntity: { '@id': curl + '#person' }, crumbs: [{ name: 'Candidatos', url: SITE_URL + '/candidatos/' }, { name: c.nombre, url: curl }], graph: [{ '@type': 'Person', '@id': curl + '#person', name: c.nombre, url: curl, jobTitle: c.rol || c.cargo_actual || undefined, affiliation: { '@type': 'PoliticalParty', '@id': `${SITE_URL}/partido/${p.id}/#party`, name: p.nombre, url: `${SITE_URL}/partido/${p.id}/` } }] }),
-      seoBody: `<h1>${esc(ch1)}</h1>${upd(candFecha(p, c))}${candHtml(p, c)}<p>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)} · ${a('/candidatos/', 'Todos los candidatos')}</p>${navLinks()}`,
+      seoBody: `<h1>${esc(ch1)}</h1>${upd(candFecha(p, c))}${candHtml(p, c)}<p>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)}${PROVS.filter((v) => v.cabezas_lista.some((k) => k.slug === c.slug)).map((v) => ' · ' + a(`/provincia/${v.id}/`, `Candidatos por ${v.nombre}`)).join('')} · ${a('/candidatos/', 'Todos los candidatos')}</p>${navLinks()}`,
     });
   }
 }
@@ -549,8 +601,115 @@ if (DATA.test) {
     title: ttl(`Comparar programas electorales ${YEAR}`, `Comparar programas electorales ${YEAR} tema a tema`),
     description: clip('Compara las propuestas de dos o tres partidos en vivienda, empleo, pensiones, sanidad, inmigración y cualquier otro tema, con fuentes.'),
     jsonld: webpage(h1, url, { crumbs: [{ name: 'Comparar', url }] }),
-    seoBody: `<h1>${esc(h1)}</h1><p>El comparador pone frente a frente las propuestas de dos o tres partidos sobre un mismo tema, en columnas y con la fuente de cada propuesta. También puedes ver de una vez lo que proponen todos los partidos sobre cada tema. Las propuestas están resumidas sin interpretar; en caso de duda, prevalece el documento original del partido.</p><h2>Qué propone cada partido, tema a tema</h2><ul>${AREAS.map(([id, n]) => { const k = parties.filter((p) => p.propuestas.some((x) => x.area === id)).length; return `<li>${a(`/tema/${id}/`, `${n}: qué propone cada partido`)} (propuestas de ${k} partidos)</li>`; }).join('')}</ul>${navLinks()}`,
+    seoBody: `<h1>${esc(h1)}</h1><p>El comparador pone frente a frente las propuestas de dos o tres partidos sobre un mismo tema, en columnas y con la fuente de cada propuesta. También puedes ver de una vez lo que proponen todos los partidos sobre cada tema. Las propuestas están resumidas sin interpretar; en caso de duda, prevalece el documento original del partido.</p><h2>Qué propone cada partido, tema a tema</h2><ul>${AREAS.map(([id, n]) => { const k = parties.filter((p) => p.propuestas.some((x) => x.area === id)).length; return `<li>${a(`/tema/${id}/`, `${n}: qué propone cada partido`)} (propuestas de ${k} partidos)</li>`; }).join('')}</ul><h2>Comparativas frente a frente</h2><ul>${COMPARES.map((pr) => `<li>${a(`/comparar/${cmpSlug(pr)}/`, `${cmpName(pr)}: qué propone cada uno`)}</li>`).join('')}</ul><p>${a('/impuestos/', 'Impuestos: qué propone cada partido')}</p>${navLinks()}`,
   });
+}
+// Propuesta con su origen y fuente (mismo texto que en la ficha del partido).
+const ORIGEN_B = { 'programa-2026': 'Programa 29N', 'programa-2023': 'Programa 2023', declaracion: 'Declaración', accion: 'Actuación' };
+const origenB = (x) => {
+  if (!x) return '';
+  const o = ORIGEN_B[x.origen] || x.origen || '';
+  const f = x.fuente || {};
+  const fn = [f.nombre, f.fecha].filter(Boolean).join(' · ');
+  const parts = [o ? esc(o) : '', f.url ? srcA(f.url, fn || 'Fuente') : fn ? esc(fn) : ''].filter(Boolean);
+  return parts.length ? ` <span class="cand-meta">${parts.join(' · ')}</span>` : '';
+};
+// ----- Impuestos -----
+{
+  const url = SITE_URL + '/impuestos/';
+  const h1 = 'Impuestos: qué propone cada partido (IRPF, IVA…)';
+  const con = parties.filter((p) => IMP_P[p.id]);
+  const fecha = maxDate(con.map((p) => p.actualizado));
+  const cats = DATA.impuestos.categorias.filter((c) => con.some((p) => IMP_P[p.id].some((it) => it.cat === c.id)));
+  emit('impuestos', {
+    route: 'impuestos',
+    lastmod: fecha,
+    title: DATA.titulos.impuestos,
+    description: clip(`Propuestas fiscales de ${con.length} partidos para el 29N, por impuesto: IRPF, IVA, sociedades, patrimonio y sucesiones, autónomos y vivienda. Con su fuente.`),
+    jsonld: webpage(h1, url, { dateModified: fecha, crumbs: [{ name: 'Comparar', url: SITE_URL + '/comparar/' }, { name: 'Impuestos', url }] }),
+    seoBody: `<h1>${esc(h1)}</h1>${upd(fecha)}<p>Propuestas sobre impuestos de ${con.length} partidos, agrupadas por tipo de impuesto. El texto es el mismo que en la ficha de cada partido, con su origen y su fuente.</p><p>Se recogen las propuestas fiscales literales de cada partido. La cantidad refleja lo que cada partido ha publicado, no una valoración.</p><nav aria-label="Índice de categorías"><ul>${cats.map((c) => `<li><a href="#imp-${c.id}">${esc(c.nombre)}</a></li>`).join('')}</ul></nav>` +
+      cats.map((c) => `<details id="imp-${c.id}" open><summary><h2>${esc(c.nombre)}</h2></summary>` + con.filter((p) => IMP_P[p.id].some((it) => it.cat === c.id)).map((p) => `<h3>${a(`/partido/${p.id}/`, nombreH1(p))}</h3><ul>${IMP_P[p.id].filter((it) => it.cat === c.id).map((it) => `<li>${esc(it.texto)}${origenB(propByRef(p, it.ref))}</li>`).join('')}</ul>`).join('') + (() => { const sc = parties.filter((p) => !IMP_P[p.id] || !IMP_P[p.id].some((it) => it.cat === c.id)); return sc.length ? `<p>Sin propuestas recogidas en esta categoría: ${sc.map((p) => a(`/partido/${p.id}/`, p.corto)).join(', ')}.</p>` : ''; })() + `</details>`).join('') +
+      `<h2>Más sobre economía</h2><ul><li>${a('/tema/economia/', 'Economía y fiscalidad: qué propone cada partido')}</li><li>${a('/deuda/', 'La deuda pública explicada')}</li></ul>${navLinks()}`,
+  });
+}
+// ----- Provincias -----
+{
+  const url = SITE_URL + '/provincias/';
+  const h1 = 'Candidatos al Congreso por provincia: 29N 2026';
+  const ccaas = [...new Set(PROVS.map((v) => v.ccaa))].sort((x, y) => x.localeCompare(y, 'es'));
+  const byName = (x, y) => x.nombre.localeCompare(y.nombre, 'es');
+  const fecha = maxDate(PROVS.map(provFecha));
+  const fc = PROV_FUENTES[0];
+  emit('provincias', {
+    route: 'provincias',
+    lastmod: fecha,
+    title: DATA.titulos.provincias,
+    description: clip(`Candidaturas al Congreso en las ${PROVS.length} circunscripciones el 29N: escaños en juego, partidos que se presentan, cabezas de lista y resultados de 2023.`),
+    jsonld: webpage(h1, url, { type: 'CollectionPage', dateModified: fecha, mainEntity: { '@id': url + '#lista' }, crumbs: [{ name: 'Provincias', url }], graph: [{ '@type': 'ItemList', '@id': url + '#lista', name: h1, numberOfItems: PROVS.length, itemListElement: PROVS.slice().sort(byName).map((v, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}/provincia/${v.id}/`, name: provH1(v) })) }] }),
+    seoBody: `<h1>${esc(h1)}</h1>${upd(fecha)}<p>Los 350 escaños del Congreso se reparten en ${PROVS.length} circunscripciones. En cada una puedes ver los escaños en juego, las candidaturas que se presentan, los cabezas de lista que constan y los resultados de 2023.</p>${fc ? `<p class="fine">Candidaturas: ${srcA(fc.url, fc.titulo)}</p>` : ''}` +
+      ccaas.map((cc) => `<h2>${esc(cc)}</h2><ul>${PROVS.filter((v) => v.ccaa === cc).sort(byName).map((v) => `<li>${a(`/provincia/${v.id}/`, `Candidatos por ${v.nombre}`)} (${v.escanos_2026} ${v.escanos_2026 === 1 ? 'escaño' : 'escaños'})</li>`).join('')}</ul>`).join('') + navLinks(),
+  });
+  for (const v of PROVS) {
+    const purl = `${SITE_URL}/provincia/${v.id}/`;
+    const ph1 = provH1(v);
+    const pf = provFecha(v);
+    const cs = v.candidaturas.map((id) => PBY[id]);
+    const res = v.resultados_2023;
+    const soloEsc = res.length && res.every((r) => r.escanos > 0);
+    const ef = v.escanos_fuente, rf = v.resultados_2023_fuente;
+    emit(`provincia/${v.id}`, {
+      route: `provincia-${v.id}`,
+      lastmod: pf,
+      title: provTitle(v),
+      description: clip(`${v.nombre} elige ${v.escanos_2026} ${v.escanos_2026 === 1 ? 'diputado' : 'diputados'} el 29N. Las ${cs.length} candidaturas al Congreso que se presentan, cabezas de lista y resultados de 2023, con fuentes.`),
+      jsonld: webpage(ph1, purl, { dateModified: pf, mainEntity: { '@id': purl + '#candidaturas' }, crumbs: [{ name: 'Provincias', url }, { name: v.nombre, url: purl }], graph: [{ '@type': 'ItemList', '@id': purl + '#candidaturas', name: `Candidaturas al Congreso por ${v.nombre} el 29N`, numberOfItems: cs.length, itemListElement: cs.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}/partido/${p.id}/`, name: p.nombre })) }] }),
+      seoBody: `<h1>${esc(ph1)}</h1>${upd(pf)}<p><strong>${v.escanos_2026} ${v.escanos_2026 === 1 ? 'escaño' : 'escaños'} en juego</strong> en ${esc(v.nombre)} (${esc(v.ccaa)}).${ef ? ' ' + srcA(ef.url, ef.titulo) : ''}</p>${v.nota_escanos ? `<p>${esc(v.nota_escanos)}</p>` : ''}` +
+        `<h2>Candidaturas que se presentan (${cs.length})</h2><ul>${cs.map((p) => { const ks = v.cabezas_lista.filter((k) => k.party === p.id); return `<li>${a(`/partido/${p.id}/`, nombreH1(p))}. ` + (ks.length ? ks.map((k) => `Cabeza de lista: ${k.slug ? a(`/candidato/${k.slug}/`, k.nombre) : esc(k.nombre)}${k.fuente && k.fuente.url ? ' ' + srcA(k.fuente.url, 'Fuente') : ''}`).join('; ') : 'Cabeza de lista: sin dato recogido') + `</li>`; }).join('')}</ul>${PROV_FUENTES[0] ? `<p class="fine">Fuente: ${srcA(PROV_FUENTES[0].url, PROV_FUENTES[0].titulo)}</p>` : ''}` +
+        (res.length ? `<h2>Resultados de 2023 en ${esc(v.nombre)}${soloEsc ? ' (candidaturas con escaño)' : ''}</h2><table><thead><tr><th scope="col">Candidatura</th><th scope="col">Votos</th><th scope="col">Escaños</th></tr></thead><tbody>${res.map((r) => `<tr><th scope="row">${r.partido ? a(`/partido/${r.partido}/`, r.candidatura) : esc(r.candidatura)}</th><td>${esc(String(r.votos_pct).replace('.', ','))} %</td><td>${r.escanos}</td></tr>`).join('')}</tbody></table><p class="fine">${rf ? `Fuente: ${srcA(rf.url, rf.titulo)}` : ''}</p>` : '') +
+        `<p>${a('/provincias/', 'Candidatos en las otras provincias')} · ${a('/candidatos/', 'Fichas de los candidatos')}</p>${navLinks()}`,
+    });
+  }
+}
+// ----- Comparativas -----
+for (const pr of COMPARES) {
+  const [A, B] = cmpPair(pr);
+  const slug = cmpSlug(pr);
+  const url = `${SITE_URL}/comparar/${slug}/`;
+  const name = cmpName(pr);
+  const h1 = `${name}: qué propone cada uno`;
+  const fecha = maxDate([A.actualizado, B.actualizado]);
+  const areas = AREAS.filter(([ar]) => A.propuestas.some((x) => x.area === ar) || B.propuestas.some((x) => x.area === ar));
+  const [rA, rB] = cmpResumen(A, B);
+  const cell = (p, ar) => { const it = p.propuestas.filter((x) => x.area === ar); return it.length ? `<ul>${it.slice(0, 3).map((x) => `<li>${esc(x.texto)}${origenB(x)}</li>`).join('')}</ul>${it.length > 3 ? `<p>${a(`/partido/${p.id}/`, `${it.length - 3} más en el programa ${delNombre(p)}`)}</p>` : ''}` : '<p>Sin propuestas recogidas sobre este tema.</p>'; };
+  emit(`comparar/${slug}`, {
+    route: `comparar-${slug}`,
+    lastmod: fecha,
+    title: cmpTitle(pr),
+    description: clip(`${name} el 29N: sus propuestas tema a tema, lado a lado y con fuente, en ${areas.slice(0, 4).map(([, n]) => lcFirst(n)).join(', ')} y más.`),
+    jsonld: webpage(h1, url, { dateModified: fecha, about: [A, B].map((p) => ({ '@type': 'PoliticalParty', '@id': `${SITE_URL}/partido/${p.id}/#party`, name: p.nombre, url: `${SITE_URL}/partido/${p.id}/` })), crumbs: [{ name: 'Comparar', url: SITE_URL + '/comparar/' }, { name, url }] }),
+    seoBody: `<h1>${esc(h1)}</h1>${upd(fecha)}<p>Hasta tres propuestas de cada partido por tema, en el orden de su ficha y con su fuente. Partidos en orden alfabético.</p>` +
+      [[A, rA], [B, rB]].map(([p, r]) => `<h2>${esc(nombreH1(p))}</h2>${r ? `<p>${esc(r)}</p>` : ''}<p>${a(`/partido/${p.id}/`, `Programa electoral ${delNombre(p)}`)}</p>`).join('') +
+      `<h2>Tema a tema</h2><table><thead><tr><th scope="col">${esc(A.corto)}</th><th scope="col">${esc(B.corto)}</th></tr></thead>${areas.map(([ar, n]) => `<tbody><tr><th colspan="2" scope="colgroup">${a(`/tema/${ar}/`, n)}</th></tr><tr><td>${cell(A, ar)}</td><td>${cell(B, ar)}</td></tr></tbody>`).join('')}</table>` +
+      `<p>${a('/comparar/', 'Comparar otros partidos')}</p>${navLinks()}`,
+  });
+}
+// ----- Novedades -----
+{
+  const url = SITE_URL + '/novedades/';
+  const h1 = 'Novedades';
+  const fecha = NOVEDADES.length ? NOVEDADES[0].fecha : DATA.generado;
+  emit('novedades', {
+    route: 'novedades',
+    lastmod: fecha,
+    title: DATA.titulos.novedades,
+    description: clip(`Cambios fechados en ${NAME}: nuevas fichas, programas incorporados, nuevas páginas y datos actualizados para las elecciones generales del 29N.`),
+    preload: false,
+    jsonld: webpage(h1, url, { dateModified: fecha, crumbs: [{ name: 'Novedades', url }] }),
+    seoBody: `<h1>${esc(h1)}</h1>${upd(fecha)}<p>Cambios en la web, de más reciente a más antiguo. ${a('/novedades.xml', 'Suscríbete por RSS')}.</p><ul>${NOVEDADES.map((n) => `<li><time datetime="${esc(n.fecha)}">${esc(fdate(n.fecha))}</time>: ${esc(n.titulo)}. ${n.enlace ? a(n.enlace, n.enlace_texto || 'Ver') : ''}${(n.enlaces_extra || []).map((x) => ' ' + a(x.enlace, x.texto)).join('')}</li>`).join('')}</ul>${navLinks()}`,
+  });
+  const xe = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
+  const rfc = (d) => new Date(`${d}T09:00:00+01:00`).toUTCString();
+  fs.writeFileSync(path.join(SITE, 'novedades.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n<title>${xe(`Novedades de ${NAME}`)}</title>\n<link>${xe(url)}</link>\n<description>${xe(`Cambios fechados en ${NAME}, elecciones generales del 29N.`)}</description>\n<language>es-ES</language>\n<lastBuildDate>${rfc(fecha)}</lastBuildDate>\n<atom:link href="${xe(SITE_URL + '/novedades.xml')}" rel="self" type="application/rss+xml"/>\n${NOVEDADES.map((n) => `<item>\n<title>${xe(n.titulo)}</title>\n<link>${xe(SITE_URL + (n.enlace || '/novedades/'))}</link>\n<guid isPermaLink="false">${xe(`${SITE_URL}/novedades/#${n.fecha}-${n.id || slugify(n.titulo)}`)}</guid>\n<pubDate>${rfc(n.fecha)}</pubDate>\n<description>${xe(n.titulo + '.')}</description>\n</item>`).join('\n')}\n</channel>\n</rss>\n`);
 }
 for (const q of noConcurren) {
   const url = `${SITE_URL}/partido/${q.id}/`;
@@ -583,7 +742,7 @@ emit('metodologia', {
 });
 
 fs.writeFileSync(path.join(SITE, '404.html'), page({ mode: 'site', route: 'notfound', canonical: null, noindex: true, preload: false, title: `Página no encontrada | ${NAME}`, description: 'Esta página no existe.', jsonld: null, seoBody: `<h1>Página no encontrada</h1><p>${a('/', 'Volver al inicio')}</p>${navLinks()}` }));
-fs.writeFileSync(path.join(SITE, 'llms.txt'), `# ${NAME}\n\n> Herramienta independiente y no partidista para las elecciones generales de España del 29 de noviembre de ${YEAR}: propuestas de cada partido resumidas sin interpretar y con fuente, críticas con fuente, un test de afinidad basado en lo que cada partido ha votado, la deuda pública explicada y datos clave.\n\n## Partidos\n${parties.map((p) => `- [Programa electoral de ${nombreH1(p)}](${SITE_URL}/partido/${p.id}/)`).join('\n')}\n\n## Candidatos\n${candidatos.map((c) => `- [${c.nombre}: quién es, patrimonio y trayectoria](${SITE_URL}/candidato/${c.slug}/)`).join('\n')}\n\n## Temas\n${AREAS.map(([id, n]) => `- [${n}: qué propone cada partido](${SITE_URL}/tema/${id}/)`).join('\n')}\n\n## Datos clave\n${IM_TEMAS.filter((t) => !t.enlace).map((t) => `- [${datosTitle(t)}](${SITE_URL}/datos/${t.id}/)`).join('\n')}\n\n## Otras secciones\n- [Test: ¿con qué partido coincides?](${SITE_URL}/test/)\n- [Candidatos](${SITE_URL}/candidatos/)\n- [Deuda pública de España](${SITE_URL}/deuda/)\n- [Datos clave](${SITE_URL}/datos/)\n- [Metodología](${SITE_URL}/metodologia/)\n- [Quiénes somos](${SITE_URL}/quienes-somos/)\n- [Datos en JSON](${SITE_URL}/data.json)\n`);
+fs.writeFileSync(path.join(SITE, 'llms.txt'), `# ${NAME}\n\n> Herramienta independiente y no partidista para las elecciones generales de España del 29 de noviembre de ${YEAR}: propuestas de cada partido resumidas sin interpretar y con fuente, críticas con fuente, un test de afinidad basado en lo que cada partido ha votado, la deuda pública explicada y datos clave.\n\n## Partidos\n${parties.map((p) => `- [Programa electoral de ${nombreH1(p)}](${SITE_URL}/partido/${p.id}/)`).join('\n')}\n\n## Candidatos\n${candidatos.map((c) => `- [${c.nombre}: quién es, patrimonio y trayectoria](${SITE_URL}/candidato/${c.slug}/)`).join('\n')}\n\n## Temas\n${AREAS.map(([id, n]) => `- [${n}: qué propone cada partido](${SITE_URL}/tema/${id}/)`).join('\n')}\n\n## Datos clave\n${IM_TEMAS.filter((t) => !t.enlace).map((t) => `- [${datosTitle(t)}](${SITE_URL}/datos/${t.id}/)`).join('\n')}\n\n## Impuestos\n- [Impuestos: qué propone cada partido (IRPF, IVA…)](${SITE_URL}/impuestos/)\n\n## Comparativas\n${COMPARES.map((pr) => `- [${cmpName(pr)}: qué propone cada uno](${SITE_URL}/comparar/${cmpSlug(pr)}/)`).join('\n')}\n\n## Candidatos por provincia\n- [Candidatos al Congreso por provincia](${SITE_URL}/provincias/)\n${PROVS.slice().sort((x, y) => x.nombre.localeCompare(y.nombre, 'es')).map((v) => `- [${provH1(v)}](${SITE_URL}/provincia/${v.id}/)`).join('\n')}\n\n## Otras secciones\n- [Novedades](${SITE_URL}/novedades/) ([RSS](${SITE_URL}/novedades.xml))\n- [Test: ¿con qué partido coincides?](${SITE_URL}/test/)\n- [Candidatos](${SITE_URL}/candidatos/)\n- [Deuda pública de España](${SITE_URL}/deuda/)\n- [Datos clave](${SITE_URL}/datos/)\n- [Metodología](${SITE_URL}/metodologia/)\n- [Quiénes somos](${SITE_URL}/quienes-somos/)\n- [Datos en JSON](${SITE_URL}/data.json)\n`);
 fs.writeFileSync(path.join(SITE, '_redirects'), `/importa /datos/ 301\n/importa/ /datos/ 301\n/importa-* /datos/:splat 301\n`);
 fs.writeFileSync(path.join(SITE, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(SITE, 'robots.txt'), LANZADA ? `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n` : 'User-agent: *\nDisallow: /\n');

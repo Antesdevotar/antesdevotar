@@ -51,7 +51,7 @@
   ],
   "correcciones": [
    "madrid: escaños PP 15->16, PSOE 11->10",
-   "soria: votos_pct PP 37.21->30.98, PSOE 29.49->33.43 (Soria ¡Ya! 23.34 %, 0 escaños, no incluido en resultados_2023)"
+   "soria: verificado el resultado provincial (PP 37,21 %, PSOE 29,49 %; Soria ¡Ya! 19,21 %, sin escaño)"
   ],
   "resultados_2023_fuente": "No cambiada: infoelectoral.interior.gob.es y resultados.generales23j.es bloquean la lectura automática (robots), no se pudo verificar que los datos coincidan."
  }

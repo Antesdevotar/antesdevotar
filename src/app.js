@@ -28,7 +28,9 @@
     next: '<path d="M5 12h14M13 6l6 6-6 6"/>',
     prev: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
     test: '<path d="M9 11l2.5 2.5L16 9"/><rect x="3.5" y="3.5" width="17" height="17" rx="4"/>',
-    star: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>'
+    star: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+    tax: '<path d="M19 5 5 19"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/>',
+    map: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>'
   };
   function icon(n, s) { return '<svg class="ic" viewBox="0 0 24 24" width="' + (s || 22) + '" height="' + (s || 22) + '" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">' + I[n] + '</svg>'; }
 
@@ -62,6 +64,8 @@
     if ((m = r.match(/^tema-([a-z]+)/))) return siteUrl() + '/tema/' + m[1] + '/';
     if (r === 'importa') return siteUrl() + '/datos/';
     if ((m = r.match(/^importa-([a-z0-9-]+)$/))) return siteUrl() + '/datos/' + m[1] + '/';
+    if ((m = r.match(/^provincia-([a-z0-9-]+)$/))) return siteUrl() + '/provincia/' + m[1] + '/';
+    if ((m = r.match(/^comparar-([a-z0-9]+-vs-[a-z0-9]+)$/))) return siteUrl() + '/comparar/' + m[1] + '/';
     return siteUrl() + '/' + r + '/';
   }
   function partyPath(r) {
@@ -219,16 +223,27 @@
     if (r === 'candidatos') return { view: 'candidatos', depth: 1, tabId: 'inicio' };
     if ((m = r.match(/^candidato-([a-z0-9-]+)$/))) return { view: 'candidato', id: m[1], depth: 2, tabId: 'inicio' };
     if (r === 'quienes-somos') return { view: 'quienes', depth: 1, tabId: null };
+    if (r === 'impuestos') return { view: 'impuestos', depth: 1, tabId: 'comparar' };
+    if (r === 'provincias') return { view: 'provincias', depth: 1, tabId: null };
+    if ((m = r.match(/^provincia-([a-z0-9-]+)$/))) return { view: 'provincia', id: m[1], depth: 2, tabId: null };
+    if ((m = r.match(/^comparar-([a-z0-9]+)-vs-([a-z0-9]+)$/))) return { view: 'comparativa', id: m[1] + '-vs-' + m[2], a: m[1], b: m[2], depth: 1, tabId: 'comparar' };
+    if (r === 'novedades') return { view: 'novedades', depth: 1, tabId: null };
     if ((m = r.match(/^importa-([a-z0-9-]+)$/))) return { view: 'importaTema', id: m[1], depth: 1, tabId: 'importa' };
     for (var i = 0; i < TABS.length; i++) if (TABS[i].id === r) return { view: r, depth: 0, tabId: r };
     if (MODE === 'site' && r !== 'inicio') return { view: 'notfound', depth: 1, tabId: null };
     return { view: 'inicio', depth: 0, tabId: 'inicio' };
   }
   function routeFromLocation() {
-    if (MODE === 'site') {
-      var p = location.pathname.replace(/\/index\.html$/, '').replace(/\/+$/, '');
+    if (MODE === 'site') return pathRoute(location.pathname);
+    return (location.hash || '').replace(/^#/, '') || (window.__ROUTE__ || 'inicio');
+  }
+  function pathRoute(path) {
+    {
+      var p = String(path || '').replace(/#.*$/, '').replace(/\/index\.html$/, '').replace(/\/+$/, '');
       var m;
       if (!p) return 'inicio';
+      if ((m = p.match(/^\/provincia\/([a-z0-9-]+)$/))) return 'provincia-' + m[1];
+      if ((m = p.match(/^\/comparar\/([a-z0-9]+-vs-[a-z0-9]+)$/))) return 'comparar-' + m[1];
       if ((m = p.match(/^\/partido\/([a-z0-9]+)$/))) return 'partido-' + m[1];
       if ((m = p.match(/^\/tema\/([a-z]+)$/))) return 'tema-' + m[1];
       if ((m = p.match(/^\/candidato\/([a-z0-9-]+)$/))) return 'candidato-' + m[1];
@@ -236,7 +251,6 @@
       if ((m = p.match(/^\/datos\/([a-z0-9-]+)$/))) return 'importa-' + m[1];
       return p.replace(/^\//, '');
     }
-    return (location.hash || '').replace(/^#/, '') || (window.__ROUTE__ || 'inicio');
   }
   function go(r, opts) {
     opts = opts || {};
@@ -275,7 +289,7 @@
     $('#tabbar').innerHTML = tabs;
     $('#railNav').innerHTML = TABS.filter(function (t) { return t.id !== 'test' || (D.test && D.test.afirmaciones); }).map(function (t) {
       return '<a href="' + partyPath(t.id) + '" data-nav="' + t.id + '" class="rail-link' + (rt.tabId === t.id ? ' on' : '') + '">' + icon(t.icon, 20) + '<span>' + esc(t.label) + '</span></a>';
-    }).join('') + '<a href="' + partyPath('partidos') + '" data-nav="partidos" class="rail-link sub' + (rt.view === 'partidos' || rt.view === 'partido' ? ' on' : '') + '">' + icon('parties', 20) + '<span>Todos los partidos</span></a><a href="' + partyPath('metodologia') + '" data-nav="metodologia" class="rail-link' + (rt.view === 'metodologia' ? ' on' : '') + '">' + icon('info', 20) + '<span>Metodología y contacto</span></a>';
+    }).join('') + '<a href="' + partyPath('partidos') + '" data-nav="partidos" class="rail-link sub' + (rt.view === 'partidos' || rt.view === 'partido' ? ' on' : '') + '">' + icon('parties', 20) + '<span>Todos los partidos</span></a><a href="' + partyPath('impuestos') + '" data-nav="impuestos" class="rail-link' + (rt.view === 'impuestos' ? ' on' : '') + '">' + icon('tax', 20) + '<span>Impuestos</span></a><a href="' + partyPath('provincias') + '" data-nav="provincias" class="rail-link' + (rt.view === 'provincias' || rt.view === 'provincia' ? ' on' : '') + '">' + icon('map', 20) + '<span>Candidatos por provincia</span></a><a href="' + partyPath('metodologia') + '" data-nav="metodologia" class="rail-link' + (rt.view === 'metodologia' ? ' on' : '') + '">' + icon('info', 20) + '<span>Metodología y contacto</span></a>';
     $('#railFoot').innerHTML = '<div class="countdown-mini"><b>' + daysLeft() + '</b><span>días para votar<br>29 de noviembre</span></div>';
     $('#backBtn').hidden = rt.depth === 0;
   }
@@ -298,12 +312,17 @@
         case 'importa': title = 'Datos clave'; html = viewImporta(); break;
         case 'importaTema': { var tt = temaById(rt.id); title = tt ? tt.titulo : 'Datos clave'; html = viewImportaTema(rt.id); break; }
         case 'metodologia': title = 'Metodología'; html = viewMetodologia(); break;
+        case 'impuestos': title = 'Impuestos'; html = viewImpuestos(); break;
+        case 'provincias': title = 'Provincias'; html = viewProvincias(); break;
+        case 'provincia': { var pv = PROV(rt.id); if (!pv) { html = empty('No encontramos esa provincia.'); break; } title = pv.nombre; html = viewProvincia(pv); break; }
+        case 'comparativa': { var pr = cmpPairOf(rt.a, rt.b); if (!pr) { html = empty('No encontramos esa comparativa.'); break; } title = corto(pr[0]) + ' vs ' + corto(pr[1]); html = viewComparativa(pr, rt.id); break; }
+        case 'novedades': title = 'Novedades'; html = viewNovedades(); break;
         case 'notfound': title = 'Página no encontrada'; html = viewNotFound(); break;
         default: title = ''; html = viewInicio();
       }
     } catch (e) { console.error(e); html = empty('Algo ha fallado al cargar esta pantalla. Vuelve al inicio e inténtalo de nuevo.'); }
     $('#topTitle').innerHTML = title ? esc(title) : brandWord();
-    var docTitle = rt.view === 'partido' && P(rt.id) && P(rt.id).titulo_pagina ? P(rt.id).titulo_pagina : rt.view === 'candidato' && CAND(rt.id) && CAND(rt.id).titulo_pagina ? CAND(rt.id).titulo_pagina : (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
+    var docTitle = rt.view === 'partido' && P(rt.id) && P(rt.id).titulo_pagina ? P(rt.id).titulo_pagina : rt.view === 'candidato' && CAND(rt.id) && CAND(rt.id).titulo_pagina ? CAND(rt.id).titulo_pagina : D.titulos && D.titulos[current] ? D.titulos[current] : (title ? title + ' · ' : '') + ((D.meta && D.meta.nombre) || 'Antes de Votar');
     if (MODE === 'site' && !titledOnce) titledOnce = true; else document.title = docTitle;
     v.classList.remove('push', 'pop', 'fade');
     void v.offsetWidth;
@@ -410,6 +429,7 @@
   }
   function footer() {
     return '<footer class="foot"><p>' + esc((D.meta && D.meta.nombre) || 'Antes de Votar') + ' es una herramienta independiente y no partidista. Aplicamos los mismos criterios a todos los partidos y enlazamos cada dato a su fuente.</p>' +
+      '<p class="foot-links">' + navA('impuestos', 'Impuestos') + ' · ' + navA('provincias', 'Candidatos por provincia') + ' · ' + navA('comparar', 'Comparar partidos') + ' · ' + navA('novedades', 'Novedades') + '</p>' +
       '<p class="foot-links"><a href="' + partyPath('metodologia') + '" data-nav="metodologia">Metodología, aviso y contacto</a> · <a href="' + partyPath('quienes-somos') + '" data-nav="quienes-somos">Quiénes somos</a></p><span>Actualizado el ' + esc(fdate(D.generado)) + '</span></footer>';
   }
 
@@ -474,6 +494,7 @@
     return '<section class="block related">' +
       (areas.length ? '<div class="block-head"><h2>Qué proponen otros partidos</h2></div><div class="chips wrap">' + areas.map(function (a) { return navA('tema-' + a.id, 'Propuestas sobre ' + esc(lcFirst(a.nombre)), 'chip'); }).join('') + '</div>' : '') +
       '<p class="rel-links">' + navA('candidatos', (p.cand ? 'Candidatos: ' + esc(p.cand.nombre) + ' y el resto de cabezas de lista' : 'Candidatos de todos los partidos')) + ' · ' + navA('comparar', 'Comparar ' + esc(corto(p)) + ' con otro partido') + '</p>' +
+      '<p class="rel-links">' + [navA('impuestos', 'Impuestos: qué propone cada partido')].concat((D.comparativas || []).filter(function (x) { return x.indexOf(p.id) >= 0; }).map(function (x) { var pr = cmpPairOf(x[0], x[1]); return pr ? navA('comparar-' + x[0] + '-vs-' + x[1], esc(corto(pr[0]) + ' vs ' + corto(pr[1])) + ': qué propone cada uno') : ''; }).filter(Boolean)).concat([navA('provincias', 'Candidaturas por provincia')]).join(' · ') + '</p>' +
       '<div class="block-head sub"><h3>Programas de otros partidos</h3></div><div class="chips wrap">' + otherParties(p).map(function (x) { return navA('partido-' + x.id, 'Programa ' + esc(delNombre(x)), 'chip'); }).join('') + '</div>' +
       '<p class="rel-links">' + navA('partidos', 'Todos los partidos que se presentan') + '</p></section>';
   }
@@ -605,7 +626,7 @@
         var hay = norm([c.nombre, c.rol, c.cargo_actual, p.nombre, p.siglas, corto(p), p.ambito, (p.circunscripciones || []).join(' ')].join(' '));
         return '<details class="cand-row" data-q="' + esc(hay) + '" style="--pc:' + esc(p.color) + '"><summary>' + avatar(p) + '<span class="cand-row-m"><span class="cand-row-n">' + esc(c.nombre) + '</span><small>' + esc(p.siglas + (c.rol ? ' · ' + c.rol : '')) + '</small></span>' + icon('chev', 18) +
           '</summary><p class="cand-links top">' + navA('candidato-' + c.slug, 'Ficha completa de ' + esc(c.nombre) + ' ' + icon('next', 14), 'linkbtn') + '</p>' + candCard(p, c, false, true) + '<p class="cand-links">' + navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + '</p></details>'; }).join('') + '</div><div class="empty cand-empty" id="candEmpty" hidden><p id="candEmptyMsg"></p><button type="button" class="btn ghost" id="candClear">Borrar búsqueda</button></div>' +
-      '<p class="fine">' + (list.some(function (o) { return hasInmDet(o.c); }) ? INM_NOTA + ' ' : '') + 'Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
+      '<p class="fine">' + (list.some(function (o) { return hasInmDet(o.c); }) ? INM_NOTA + ' ' : '') + 'Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p><p class="rel-links">' + navA('provincias', 'Candidaturas y cabezas de lista por provincia') + '</p></section>' + footer();
   }
   var INM_NOTA = 'Los inmuebles se muestran por número, tipo y ubicación, sin valor: el valor declarado es el catastral, muy inferior al de mercado.';
   function hasInmDet(c) { var pt = c.patrimonio || {}; return !!pt.declarado && ['sin_obligacion', 'solo_intereses', 'no_localizada'].indexOf(pt.estado) < 0 && (pt.inmuebles_detalle || []).length > 0; }
@@ -621,7 +642,7 @@
     var p = P(c.party);
     return '<section class="block first ficha"><h1 class="h1">' + esc(c.nombre) + '<span class="h1-tail"><span class="seo">: </span>formación, trayectoria y patrimonio</span></h1>' + updLine(candFecha(p, c)) +
       candCard(p, c, true, false, true) +
-      '<p class="cand-links">' + navA('partido-' + p.id, 'Programa electoral ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + navA('candidatos', 'Todos los candidatos ' + icon('next', 14), 'linkbtn') + '</p>' +
+      '<p class="cand-links">' + navA('partido-' + p.id, 'Programa electoral ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + (D.provincias || []).filter(function (v) { return v.cabezas_lista.some(function (k) { return k.slug === c.slug; }); }).map(function (v) { return navA('provincia-' + v.id, 'Candidatos por ' + esc(v.nombre) + ' ' + icon('next', 14), 'linkbtn'); }).join('') + navA('candidatos', 'Todos los candidatos ' + icon('next', 14), 'linkbtn') + '</p>' +
       '<p class="fine">' + (hasInmDet(c) ? INM_NOTA + ' ' : '') + 'Las causas abiertas solo se recogen si afectan al candidato o a su familia directa y guardan relación con su actividad pública.</p></section>' + footer();
   }
   function viewNoConcurre(q) {
@@ -661,7 +682,7 @@
     var o = ORIGEN[x.origen] || x.origen || '';
     return '<li class="prop' + (x.destacada ? ' key' : '') + '" id="' + esc(x.id || '') + '">' +
       (showParty ? '<span class="prop-party">' + partyDot(p) + esc(p.siglas) + '</span>' : '') +
-      '<p>' + esc(x.texto) + '</p><div class="prop-meta">' + (o ? '<span class="tag t-' + esc(x.origen) + '">' + esc(o) + '</span>' : '') +
+      '<p>' + esc(x.texto) + '</p><div class="prop-meta">' + (o ? '<span class="tag">' + esc(o) + '</span>' : '') +
       (x.fuente ? src(x.fuente, (x.fuente.nombre || 'Fuente') + (x.fuente.fecha ? ' · ' + x.fuente.fecha : '')) : '') +
       '<button type="button" class="mini share-prop" data-share-prop="' + esc(p.id) + '|' + esc(x.id || '') + '" aria-label="Compartir esta propuesta">' + icon('share', 15) + '</button></div></li>';
   }
@@ -746,12 +767,14 @@
   function viewComparar() {
     cmpInit();
     return cmpHead('cmp') + '<div id="cmpOut">' + cmpOut() + '</div></section>' +
+      ((D.comparativas || []).length ? '<section class="block related"><div class="block-head"><h2>Comparativas frente a frente</h2></div><div class="chips wrap">' + D.comparativas.map(function (x) { var pr = cmpPairOf(x[0], x[1]); return pr ? navA('comparar-' + x[0] + '-vs-' + x[1], esc(corto(pr[0]) + ' vs ' + corto(pr[1])) + ': qué propone cada uno', 'chip') : ''; }).join('') + '</div><p class="rel-links">' + navA('impuestos', 'Impuestos: qué propone cada partido') + '</p></section>' : '') +
       '<section class="block related"><div class="block-head"><h2>Qué propone cada partido, tema a tema</h2></div><div class="chips wrap">' + D.areas.map(function (a) { return navA('tema-' + a.id, esc(a.nombre) + ': todos los partidos', 'chip'); }).join('') + '</div></section>' + footer();
   }
   function viewTema(a) {
     cmpInit(); cmp.area = a; cmpSave();
     var ps = D.partidos.filter(function (p) { return p.propuestas.some(function (x) { return x.area === a; }); });
     return cmpHead('todos') + updLine(ps.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) + temaHook(a) +
+      (a === 'economia' ? '<p class="rel-links">' + navA('impuestos', 'Impuestos: qué propone cada partido sobre IRPF, IVA, sociedades y patrimonio') + '</p>' : '') +
       '<p class="fine" style="margin:4px 0 6px">' + ps.length + ' partidos con propuestas sobre ' + esc(areaName(a).toLowerCase()) + '. Toca uno para desplegarlo.</p>' +
       ps.map(function (p, i) {
         var it = p.propuestas.filter(function (x) { return x.area === a; });
@@ -1233,6 +1256,110 @@
     return html + footer();
   }
 
+  // ----- Impuestos, provincias, comparativas y novedades -----
+  function PROV(id) { var l = D.provincias || []; for (var i = 0; i < l.length; i++) if (l[i].id === id) return l[i]; return null; }
+  function cmpPairOf(a, b) {
+    var ok = (D.comparativas || []).some(function (x) { return x[0] === a && x[1] === b; });
+    var A = P(a), B = P(b); if (!ok || !A || !B) return null;
+    return [A, B].sort(function (x, y) { return corto(x).localeCompare(corto(y), 'es', { sensitivity: 'base' }); });
+  }
+  function propRef(p, ref) { for (var i = 0; i < p.propuestas.length; i++) if (p.propuestas[i].id === ref) return p.propuestas[i]; return null; }
+  function origenMeta(x) {
+    if (!x) return '';
+    var o = ORIGEN[x.origen] || x.origen || '';
+    return (o ? '<span class="tag">' + esc(o) + '</span>' : '') + (x.fuente ? src(x.fuente, (x.fuente.nombre || 'Fuente') + (x.fuente.fecha ? ' · ' + x.fuente.fecha : '')) : '');
+  }
+  function litItem(texto, x) { var m = origenMeta(x); return '<li class="prop"><p>' + esc(texto) + '</p>' + (m ? '<div class="prop-meta">' + m + '</div>' : '') + '</li>'; }
+  function partyHead(p, tag) { return '<' + tag + ' class="xp-h" style="--pc:' + esc(p.color) + '">' + avatar(p) + navA('partido-' + p.id, esc(p.h1n || p.nombre)) + '</' + tag + '>'; }
+  function taxData() { return (D.impuestos && D.impuestos.partidos) || {}; }
+  function taxList() {
+    var T = taxData(), cats = (D.impuestos && D.impuestos.categorias) || [];
+    return cats.map(function (c) {
+      var ps = D.partidos.filter(function (p) { return (T[p.id] || []).some(function (it) { return it.cat === c.id; }); });
+      if (!ps.length) return '';
+      var sinC = D.partidos.filter(function (p) { return ps.indexOf(p) < 0; });
+      return '<details class="xcat xfold" id="imp-' + esc(c.id) + '" open><summary class="xcat-h"><span>' + esc(c.nombre) + '</span><span class="cnt">' + ps.length + '</span>' + icon('chev', 18) + '</summary>' + ps.map(function (p) {
+        return '<div class="xp">' + partyHead(p, 'h3') + '<ul class="props">' + T[p.id].filter(function (it) { return it.cat === c.id; }).map(function (it) { return litItem(it.texto, propRef(p, it.ref)); }).join('') + '</ul></div>';
+      }).join('') + (sinC.length ? '<p class="xnote xsin">Sin propuestas recogidas en esta categoría: ' + sinC.map(function (p) { return navA('partido-' + p.id, esc(corto(p))); }).join(', ') + '</p>' : '') + '</details>';
+    }).join('');
+  }
+  function viewImpuestos() {
+    var T = taxData(), cats = (D.impuestos && D.impuestos.categorias) || [];
+    var con = D.partidos.filter(function (p) { return T[p.id]; });
+    var n = function (cid) { return con.filter(function (p) { return T[p.id].some(function (it) { return it.cat === cid; }); }).length; };
+    cats = cats.filter(function (c) { return n(c.id); });
+    return '<section class="block first"><h1 class="h1">Impuestos<span class="h1-tail">: qué propone cada partido (IRPF, IVA…)</span></h1>' + updLine(con.map(function (p) { return p.actualizado; }).filter(Boolean).sort().pop()) +
+      '<p class="lede small">Propuestas sobre impuestos de ' + con.length + ' partidos, agrupadas por tipo de impuesto. El texto es el mismo que en la ficha de cada partido, con su origen y su fuente.</p>' +
+      '<p class="xnote">Se recogen las propuestas fiscales literales de cada partido. La cantidad refleja lo que cada partido ha publicado, no una valoración.</p>' +
+      '<nav class="chips wrap xindex" aria-label="Índice de categorías">' +
+      cats.map(function (c) { return '<a class="chip" href="#imp-' + esc(c.id) + '" data-anchor="imp-' + esc(c.id) + '">' + esc(c.nombre) + ' <span class="cnt">' + n(c.id) + '</span></a>'; }).join('') + '</nav>' +
+      '<div id="taxList">' + taxList() + '</div>' +
+      '</section><section class="block related"><div class="block-head"><h2>Más sobre economía</h2></div><div class="chips wrap">' + navA('tema-economia', 'Economía y fiscalidad: qué propone cada partido', 'chip') + navA('deuda', 'La deuda pública explicada', 'chip') + navA('comparar', 'Comparar partidos tema a tema', 'chip') + '</div></section>' + footer();
+  }
+  function provFecha(v) {
+    var ds = [v.escanos_fuente && v.escanos_fuente.fecha].concat((D.provincias_fuentes || []).map(function (f) { return f.fecha; })).concat(v.cabezas_lista.map(function (c) { return c.fuente && c.fuente.fecha; }));
+    return ds.filter(function (d) { return /^\d{4}-\d{2}-\d{2}/.test(d || '') && String(d).slice(0, 10) <= D.generado; }).map(function (d) { return String(d).slice(0, 10); }).sort().pop() || D.generado;
+  }
+  function fuenteLink(f, label) { return f ? (f.url ? src({ url: f.url, nombre: f.titulo }, label || f.titulo) : '<span class="src">' + esc(label || f.titulo) + '</span>') : ''; }
+  function esc1(n, s, pl) { return n + ' ' + (n === 1 ? s : pl); }
+  function viewProvincias() {
+    var L = D.provincias || [];
+    var ccaas = L.map(function (v) { return v.ccaa; }).filter(function (x, i, a) { return a.indexOf(x) === i; }).sort(function (x, y) { return x.localeCompare(y, 'es'); });
+    var fc = (D.provincias_fuentes || [])[0];
+    return '<section class="block first"><h1 class="h1">Candidatos al Congreso por provincia<span class="h1-tail">: 29N 2026</span></h1>' + updLine(L.map(provFecha).sort().pop()) +
+      '<p class="lede small">Los 350 escaños del Congreso se reparten en ' + L.length + ' circunscripciones. En cada una puedes ver los escaños en juego, las candidaturas que se presentan, los cabezas de lista que constan y los resultados de 2023.</p>' +
+      ccaas.map(function (cc) {
+        return '<section class="xcat"><h2 class="xcat-h">' + esc(cc) + '</h2><ul class="xlinks">' + L.filter(function (v) { return v.ccaa === cc; }).sort(function (x, y) { return x.nombre.localeCompare(y.nombre, 'es'); }).map(function (v) {
+          return '<li>' + navA('provincia-' + v.id, '<span>Candidatos por ' + esc(v.nombre) + '</span><small>' + esc1(v.escanos_2026, 'escaño', 'escaños') + ' · ' + esc1(v.candidaturas.length, 'candidatura', 'candidaturas') + '</small>' + icon('chev', 18), 'xlink') + '</li>';
+        }).join('') + '</ul></section>';
+      }).join('') + (fc ? '<p class="fine">Candidaturas: ' + fuenteLink(fc) + '</p>' : '') + '</section>' + footer();
+  }
+  function viewProvincia(v) {
+    var cs = v.candidaturas.map(P).filter(Boolean), res = v.resultados_2023 || [];
+    var soloEsc = res.length && res.every(function (r) { return r.escanos > 0; });
+    var fc = (D.provincias_fuentes || [])[0];
+    return '<section class="block first"><h1 class="h1">Candidatos por ' + esc(v.nombre) + ' el 29N<span class="h1-tail">: listas al Congreso</span></h1>' + updLine(provFecha(v)) +
+      '<div class="xseats"><b>' + v.escanos_2026 + '</b><span>' + (v.escanos_2026 === 1 ? 'escaño en juego' : 'escaños en juego') + ' en ' + esc(v.nombre) + ' (' + esc(v.ccaa) + ')</span></div>' +
+      (v.escanos_fuente ? '<p class="fine">Fuente: ' + fuenteLink(v.escanos_fuente) + '</p>' : '') +
+      (v.nota_escanos ? '<p class="xnote">' + esc(v.nota_escanos) + '</p>' : '') +
+      '<section class="xcat"><h2 class="xcat-h">Candidaturas que se presentan<span class="cnt">' + cs.length + '</span></h2><ul class="xheads">' + cs.map(function (p) {
+        var ks = v.cabezas_lista.filter(function (k) { return k.party === p.id; });
+        var heads = ks.length ? ks.map(function (k) { return '<small>Cabeza de lista: ' + (k.slug ? navA('candidato-' + k.slug, esc(k.nombre)) : '<b>' + esc(k.nombre) + '</b>') + '</small>'; }).join('') : '<small class="nodata">Cabeza de lista: sin dato recogido</small>';
+        var fu = ks.filter(function (k) { return k.fuente && k.fuente.url; })[0];
+        return '<li style="--pc:' + esc(p.color) + '">' + avatar(p) + '<span class="xh-m">' + navA('partido-' + p.id, esc(p.h1n || p.nombre), 'xh-p') + heads + '</span>' + (fu ? src({ url: fu.fuente.url, nombre: fu.fuente.titulo }, 'Fuente') : '') + '</li>';
+      }).join('') + '</ul>' + (fc ? '<p class="fine">Fuente: ' + fuenteLink(fc) + '</p>' : '') + '</section>' +
+      (res.length ? '<section class="xcat"><h2 class="xcat-h">Resultados de 2023 en ' + esc(v.nombre) + (soloEsc ? ' <span class="h1-tail">(candidaturas con escaño)</span>' : '') + '</h2><table class="xtable"><thead><tr><th scope="col">Candidatura</th><th scope="col" class="num">Votos</th><th scope="col" class="num">Escaños</th></tr></thead><tbody>' + res.map(function (r) {
+        var p = r.partido ? P(r.partido) : null;
+        return '<tr><th scope="row">' + (p ? navA('partido-' + p.id, esc(r.candidatura)) : esc(r.candidatura)) + '</th><td class="num">' + fmt(r.votos_pct, 2) + ' %</td><td class="num">' + r.escanos + '</td></tr>';
+      }).join('') + '</tbody></table><p class="fine">' + (v.resultados_2023_fuente ? 'Fuente: ' + fuenteLink(v.resultados_2023_fuente) : '')  + '</p></section>' : '') +
+      '</section><section class="block related"><div class="block-head"><h2>Más candidatos</h2></div><div class="chips wrap">' + navA('provincias', 'Candidatos en las otras provincias', 'chip') + navA('candidatos', 'Fichas de los candidatos', 'chip') + '</div></section>' + footer();
+  }
+  function viewComparativa(pr, slug) {
+    var A = pr[0], B = pr[1];
+    var rs = A.seo && A.seo.resumen && B.seo && B.seo.resumen ? [A.seo.resumen, B.seo.resumen] : [A.resumen || '', B.resumen || ''];
+    var areas = D.areas.filter(function (a) { return A.propuestas.some(function (x) { return x.area === a.id; }) || B.propuestas.some(function (x) { return x.area === a.id; }); });
+    var cell = function (p, ar) {
+      var it = p.propuestas.filter(function (x) { return x.area === ar; });
+      return it.length ? '<ul class="props">' + it.slice(0, 3).map(function (x) { return litItem(x.texto, x); }).join('') + '</ul>' + (it.length > 3 ? navA('partido-' + p.id, (it.length - 3) + ' más en el programa ' + esc(delNombre(p)), 'linkbtn') : '') : '<p class="xnote">Sin propuestas recogidas sobre este tema.</p>';
+    };
+    return '<section class="block first"><h1 class="h1">' + esc(corto(A) + ' vs ' + corto(B)) + '<span class="h1-tail">: qué propone cada uno</span></h1>' + updLine([A.actualizado, B.actualizado].filter(Boolean).sort().pop()) +
+      '<p class="lede small">Hasta tres propuestas de cada partido por tema, en el orden de su ficha y con su fuente. Partidos en orden alfabético.</p>' +
+      '<div class="xvs">' + [[A, rs[0]], [B, rs[1]]].map(function (o) { var p = o[0]; return '<div class="xvs-c" style="--pc:' + esc(p.color) + '"><h2 class="xp-h">' + avatar(p) + '<span>' + esc(p.h1n || p.nombre) + '</span></h2>' + (o[1] ? '<p>' + esc(o[1]) + '</p>' : '') + navA('partido-' + p.id, 'Programa ' + esc(delNombre(p)) + ' ' + icon('next', 14), 'linkbtn') + '</div>'; }).join('') + '</div>' +
+      '<h2 class="xcat-h">Tema a tema</h2><table class="xtable vs"><thead><tr><th scope="col" style="--pc:' + esc(A.color) + '">' + esc(corto(A)) + '</th><th scope="col" style="--pc:' + esc(B.color) + '">' + esc(corto(B)) + '</th></tr></thead>' +
+      areas.map(function (a) { return '<tbody><tr><th colspan="2" scope="colgroup" class="xarea">' + navA('tema-' + a.id, esc(a.nombre)) + '</th></tr><tr><td style="--pc:' + esc(A.color) + '"><p class="vs-ph">' + esc(corto(A)) + '</p>' + cell(A, a.id) + '</td><td style="--pc:' + esc(B.color) + '"><p class="vs-ph">' + esc(corto(B)) + '</p>' + cell(B, a.id) + '</td></tr></tbody>'; }).join('') + '</table>' +
+      '</section><section class="block related"><div class="block-head"><h2>Otras comparativas</h2></div><div class="chips wrap">' + navA('comparar', 'Comparar otros partidos', 'chip') + (D.comparativas || []).filter(function (x) { return x[0] + '-vs-' + x[1] !== slug; }).map(function (x) { var q = cmpPairOf(x[0], x[1]); return q ? navA('comparar-' + x[0] + '-vs-' + x[1], esc(corto(q[0]) + ' vs ' + corto(q[1])), 'chip') : ''; }).join('') + '</div></section>' + footer();
+  }
+  function viewNovedades() {
+    var L = D.novedades || [];
+    var lk = function (href, text) { var r = pathRoute(href); return navA(r, esc(text)); };
+    return '<section class="block first"><h1 class="h1">Novedades</h1>' + updLine(L.length ? L[0].fecha : D.generado) +
+      '<p class="lede small">Cambios en la web, de más reciente a más antiguo.</p>' +
+      '<ol class="xnews">' + L.map(function (n) {
+        return '<li><time datetime="' + esc(n.fecha) + '">' + esc(fdate(n.fecha)) + '</time><p>' + esc(n.titulo) + '</p>' + (n.enlace ? '<p class="xnews-l">' + lk(n.enlace, n.enlace_texto || 'Ver') + (n.enlaces_extra || []).map(function (x) { return lk(x.enlace, x.texto); }).join('') + '</p>' : '') + '</li>';
+      }).join('') + '</ol>' +
+      (MODE === 'site' ? '<p class="rel-links"><a href="/novedades.xml">Suscríbete por RSS</a></p>' : '') + '</section>' + footer();
+  }
+
   function viewMetodologia() {
     var m = (D.meta && D.meta.metodologia) || [
       ['Propuestas', 'Resumimos cada propuesta en una frase y quitamos la paja, pero no la interpretamos ni la valoramos. Usamos el programa para el 29N cuando el partido lo ha publicado; si no, el de las generales de 2023 junto con declaraciones y actuaciones públicas recientes, siempre con fecha y fuente. Cuando se publiquen los nuevos programas, se actualizarán.'],
@@ -1335,6 +1462,7 @@
       t.scrollIntoView({ inline: 'center', block: 'nearest', behavior: reduced ? 'auto' : 'smooth' });
       return;
     }
+    if ((t = e.target.closest('[data-anchor]'))) { e.preventDefault(); var tg = document.getElementById(t.getAttribute('data-anchor')); if (tg) { tg.open = true; tg.scrollIntoView({ block: 'start', behavior: reduced ? 'auto' : 'smooth' }); } return; }
     if ((t = e.target.closest('[data-crit]'))) { partyState.crit = t.getAttribute('data-crit'); var p3 = P($('#ptab').getAttribute('data-party')); $('#ptab').innerHTML = partyCriticas(p3); return; }
     if ((t = e.target.closest('[data-cmp-del]'))) { cmp.sel.splice(+t.getAttribute('data-cmp-del'), 1); cmpSave(); $('#cmpOut').innerHTML = cmpOut(); return; }
     if ((t = e.target.closest('#cmpAdd'))) { var nx = D.partidos.filter(function (p) { return cmp.sel.indexOf(p.id) < 0; })[0]; if (nx) { cmp.sel.push(nx.id); cmpSave(); $('#cmpOut').innerHTML = cmpOut(); var ls = $$('[data-cmp-idx]'); if (ls.length) ls[ls.length - 1].focus(); } return; }

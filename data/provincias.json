@@ -587,6 +587,66 @@
             "url": "https://www.democrata.es/politica/democracia-21-concurrira-en-madrid-y-barcelona-con-la-abogada-miriam-gonzalez-como-cabeza-de-lista/"
           }
         ]
+      },
+      {
+        "party": "sumar",
+        "nombre": "Ada Colau Ballano",
+        "fuente": {
+          "nombre": "CIDOB, Ada Colau Ballano",
+          "url": "https://www.cidob.org/lider-politico/ada-colau-ballano"
+        },
+        "fuentes": [
+          {
+            "nombre": "CIDOB, Ada Colau Ballano",
+            "url": "https://www.cidob.org/lider-politico/ada-colau-ballano"
+          },
+          {
+            "nombre": "Demócrata, Frente Amplio elige a Colau (12-10-2026)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/frente-amplio-elige-a-ada-colau-como-candidata-para-las-elecciones-del-29n/"
+          },
+          {
+            "nombre": "Diari de Tarragona, Frente Amplio separado en Catalunya y Madrid",
+            "url": "https://www.diaridetarragona.com/espana/273314/frente-amplio-concurriran-separado-catalunya-madrid.html"
+          },
+          {
+            "nombre": "Demócrata, buscador de listas 29N (BOE)",
+            "url": "https://www.democrata.es/elecciones-generales-espana/listas-electorales-29n-buscador-candidatos-congreso-provincias/"
+          },
+          {
+            "nombre": "Catalan News, Colau deja el consistorio",
+            "url": "https://www.catalannews.com/politics/item/former-mayor-ada-colau-to-leave-barcelona-council"
+          },
+          {
+            "nombre": "3Cat, causa archivada definitivamente",
+            "url": "https://www.3cat.cat/3catinfo/arxivada-definitivament-la-causa-contra-colau-per-les-subvencions-a-entitats-socials/noticia-amp/3340512/"
+          },
+          {
+            "nombre": "3Cat, los Comuns renuevan su dirección con el tándem López-Tarafa (17-11-2024)",
+            "url": "https://www.3cat.cat/3catinfo/els-comuns-renoven-la-direccio-amb-un-vot-critic-a-la-gestio-dels-ultims-tres-anys/noticia-amp/3322235/"
+          }
+        ]
+      },
+      {
+        "party": "alhora",
+        "nombre": "Jordi Graupera i Garcia Milà",
+        "fuente": {
+          "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        "fuentes": [
+          {
+            "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          },
+          {
+            "nombre": "Ara, entrevista a Jordi Graupera (29-N)",
+            "url": "https://en.ara.cat/politics/someone-has-to-say-no-to-pp-and-psoe-at-the-same-time-it-will-be-punishment-vote-for-29-n_1_5892513.html"
+          },
+          {
+            "nombre": "NacióDigital, listas de Alhora 29-N",
+            "url": "https://naciodigital.cat/politica/llistes-dalhora-a-les-eleccions-espanyoles-del-29-n-qui-acompanya-jordi-graupera.html"
+          }
+        ]
       }
     ],
     "candidaturas": [
@@ -1898,6 +1958,176 @@
           {
             "titulo": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
             "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          }
+        ]
+      },
+      {
+        "party": "pp",
+        "nombre": "Alberto Núñez Feijóo",
+        "fuente": {
+          "nombre": "Congreso de los Diputados, ficha de Alberto Núñez Feijóo (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=346&idLegislatura=XV"
+        },
+        "fuentes": [
+          {
+            "nombre": "Congreso de los Diputados, ficha de Alberto Núñez Feijóo (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=346&idLegislatura=XV"
+          },
+          {
+            "nombre": "Congreso, declaración de bienes y rentas 16-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000332/000332_000_e_0001389_20230816.pdf"
+          },
+          {
+            "nombre": "Qué!, 14-07-2026",
+            "url": "https://www.que.es/2026/07/14/feijoo-oculta-ingresos-pp-congreso/"
+          },
+          {
+            "nombre": "The Objective, 01-09-2023",
+            "url": "https://theobjective.com/espana/politica/2023-09-01/feijoo-casa-acciones-inditex-ahorros/"
+          },
+          {
+            "nombre": "The Objective, 02-07-2026",
+            "url": "https://theobjective.com/espana/politica/2026-07-02/psoe-congreso-vote-exigir-feijoo-explique-paga-vivienda/"
+          },
+          {
+            "nombre": "Xunta de Galicia, biografía del presidente (Alfonso Rueda, presidente desde mayo de 2022)",
+            "url": "https://www.xunta.gal/a-presidencia/biografia-do-presidente"
+          },
+          {
+            "nombre": "Partido Popular, página del presidente (7-10 nov 2026)",
+            "url": "https://www.pp.es/presidente/"
+          },
+          {
+            "nombre": "Moncloa.com, lista PP Madrid 29N, 27-10-2026",
+            "url": "https://www.moncloa.com/2026/10/27/feijoo-lista-pp-madrid-29n-3456056/"
+          },
+          {
+            "nombre": "Público, 18-11-2024",
+            "url": "https://www.publico.es/politica/fiscalia-archiva-denuncia-contratos-xunta-hermana-feijoo.html"
+          }
+        ]
+      },
+      {
+        "party": "psoe",
+        "nombre": "Pedro Sánchez Pérez-Castejón",
+        "fuente": {
+          "nombre": "Congreso, ficha de Pedro Sánchez (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=189&idLegislatura=XV"
+        },
+        "fuentes": [
+          {
+            "nombre": "Congreso, ficha de Pedro Sánchez (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=189&idLegislatura=XV"
+          },
+          {
+            "nombre": "Congreso, declaración de bienes 09-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000177/000177_000_e_0000756_20230809.pdf"
+          },
+          {
+            "nombre": "La Moncloa, biografía del presidente",
+            "url": "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"
+          },
+          {
+            "nombre": "The Objective, 01-08-2023",
+            "url": "https://theobjective.com/espana/politica/2023-08-01/pedro-sanchez-fondo-inversion-hipoteca/"
+          },
+          {
+            "nombre": "ARA, agosto 2023",
+            "url": "https://es.ara.cat/politica/cambiado-patrimonio-pedro-sanchez-presidente_1_4770546.html"
+          },
+          {
+            "nombre": "Qué!, 18-07-2026",
+            "url": "https://www.que.es/2026/07/18/juicio-begona-gomez-confirmado/"
+          },
+          {
+            "nombre": "Vozpopuli, 19-10-2026",
+            "url": "https://www.vozpopuli.com/tribunales/la-justicia-madrilena-congela-el-juicio-a-begona-gomez-y-ni-siquiera-elige-al-juez-que-presidira-el-jurado.html"
+          },
+          {
+            "nombre": "Euronews, 14-07-2026",
+            "url": "https://es.euronews.com/2026/07/14/david-sanchez-condenado-a-nueve-anos-de-inhabilitacion-por-prevaricacion"
+          }
+        ]
+      },
+      {
+        "party": "vox",
+        "nombre": "Santiago Abascal Conde",
+        "fuente": {
+          "nombre": "Congreso, ficha de Santiago Abascal (XV Legislatura)",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=317&idLegislatura=XV"
+        },
+        "fuentes": [
+          {
+            "nombre": "Congreso, ficha de Santiago Abascal (XV Legislatura)",
+            "url": "https://www.congreso.es/es/busqueda-de-diputados?mostrarFicha=true&codParlamentario=317&idLegislatura=XV"
+          },
+          {
+            "nombre": "Congreso, declaración de bienes 16-08-2023 (PDF escaneado)",
+            "url": "https://www.congreso.es/docbienes/leg15/000316/000316_000_e_0001326_20230816.pdf"
+          },
+          {
+            "nombre": "The Objective, 06-09-2023",
+            "url": "https://theobjective.com/espana/politica/2023-09-06/abascal-sueldo-vox/"
+          },
+          {
+            "nombre": "Vozpópuli, trayectoria y estudios",
+            "url": "https://www.vozpopuli.com/dolcevita/santiago-abascal-vox-joven-pasado-estudios-familia-mujer_0_1299470552.html"
+          },
+          {
+            "nombre": "Vozpópuli, listas de Vox 29N (22-10-2026)",
+            "url": "https://www.vozpopuli.com/espana/politica/vox-elige-a-sus-cabezas-de-lista-para-el-29-n-estos-son-los-lideres-por-cada-provincia.html"
+          },
+          {
+            "nombre": "Valencia Plaza, Abascal reelegido presidente de Vox hasta 2028 (presidente desde septiembre de 2014)",
+            "url": "https://valenciaplaza.com/santiago-abascal-reelegido-presidente-de-vox-sin-oposicion-y-hasta-2028"
+          },
+          {
+            "nombre": "The Objective, negocio de hostelería con su exmujer (25-04-2026)",
+            "url": "https://theobjective.com/gente/2026-04-25/ana-belen-sanchez-cenador-la-primera-mujer-de-santiago-abascal-ocho-anos-casados-un-divorcio-duro-dos-hijos-y-una-empresa-fallida/"
+          }
+        ]
+      },
+      {
+        "party": "iustitia",
+        "nombre": "Luis María Pardo Rodríguez",
+        "fuente": {
+          "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        "fuentes": [
+          {
+            "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          },
+          {
+            "nombre": "Moncloa.com, Iustitia Europa consigue avales y se presenta en Madrid (27-10-2026)",
+            "url": "https://www.moncloa.com/2026/10/27/iustitia-europa-avales-29n-3456311/"
+          },
+          {
+            "nombre": "Vozpópuli, perfil de Iustitia Europa",
+            "url": "https://www.vozpopuli.com/espana/luis-maria-pardo-iustitia-europa.html"
+          }
+        ]
+      },
+      {
+        "party": "pacma",
+        "nombre": "Asier Esparza Billalabeitia",
+        "fuente": {
+          "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        "fuentes": [
+          {
+            "nombre": "BOE-A-2026-23103, Candidaturas proclamadas Congreso y Senado (RD 806/2026)",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+          },
+          {
+            "nombre": "Demócrata, PACMA elige a Asier Esparza como aspirante a la Presidencia",
+            "url": "https://www.democrata.es/politica/pacma-elige-al-donostiarra-asier-esparza-como-aspirante-a-la-presidencia-del-gobierno/"
+          },
+          {
+            "nombre": "Gasteiz Hoy, PACMA anuncia cabezas de lista (19-03-2024)",
+            "url": "https://www.gasteizhoy.com/pacma-anuncia-a-su-candidata-por-alava/"
           }
         ]
       }

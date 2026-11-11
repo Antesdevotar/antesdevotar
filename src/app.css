@@ -223,9 +223,7 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .prop-party{font-size:12.5px;font-weight:650;color:var(--ink-2)}
 .prop-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
 .prop-meta .src{flex:1 1 140px}
-.tag{font-size:12px;font-weight:650;padding:3px 8px;border-radius:6px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
-.tag.t-programa-2026{background:var(--hi);color:var(--on-hi)}
-.tag.t-accion{background:color-mix(in srgb,var(--prop) 16%,transparent);color:var(--prop)}
+.tag{font-size:12px;font-weight:650;padding:3px 8px;border-radius:6px;background:var(--surface-2);border:1px solid var(--line-2);color:var(--ink-2);white-space:nowrap}
 .mini{margin-left:auto;width:40px;height:40px;display:grid;place-items:center;border-radius:10px;border:0;background:transparent;color:var(--ink-2)}
 .mini:hover,.mini:active{background:var(--surface-2);color:var(--ink)}
 
@@ -846,3 +844,104 @@ a.src:hover span{color:var(--ink);border-color:var(--ink)}
 .pre nav a{display:inline-flex;align-items:center;min-height:44px}
 .cand-tr small{font-size:12px}
 #simSvg .axl,#trapSvg .axl,#defSvg .axl{font-size:11.5px}
+
+/* ---------- Impuestos, provincias, comparativas y novedades ---------- */
+.related .chip{min-height:44px}
+.xcat{margin-top:22px}
+.xcat-h{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;font:750 20px/1.2 var(--f-display);letter-spacing:-.01em;margin:22px 0 10px}
+.xcat-h .h1-tail{font-size:13px}
+.xnote{font-size:14px;color:var(--ink-2);margin:6px 0 10px;line-height:1.45}
+.xp{margin:0 0 14px}
+.xp-h{display:flex;align-items:center;gap:10px;font:700 16px/1.25 var(--f-display);margin:0 0 8px;min-width:0}
+.xp-h a{color:var(--ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;border-bottom:0}
+.xp-h a:hover{text-decoration:underline}
+.xp-h .pav,.xheads .pav,.xlink .pav{flex:none}
+.xlinks{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+@media (min-width:720px){.xlinks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.xlink{display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 12px;border-radius:var(--r-m);background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--ink);min-width:0}
+.xlink:hover{border-color:var(--line-2)}
+.xlink>span{flex:1;min-width:0;font-weight:650;font-size:15px;line-height:1.3}
+.xlink small{font-size:13px;color:var(--ink-2);white-space:nowrap}
+.xlink .ic{flex:none;color:var(--ink-2)}
+.xseats{display:flex;align-items:baseline;gap:10px;margin:14px 0 2px;flex-wrap:wrap}
+.xseats b{font:800 44px/1 var(--f-display);letter-spacing:-.03em}
+.xseats span{font-size:15px;color:var(--ink-2)}
+.xheads{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.xheads li{display:flex;align-items:center;gap:10px;padding:6px 12px;border-radius:var(--r-m);background:var(--surface);border:1px solid var(--line);min-width:0}
+.xh-m{flex:1;min-width:0;display:flex;flex-direction:column}
+.xh-m a{color:var(--ink);font-weight:650;min-height:44px;display:inline-flex;align-items:center}
+.xh-m small a{min-height:44px;font-weight:600;color:var(--ink-2);font-size:13px}
+.xh-m b{font-weight:650;min-height:44px;display:inline-flex;align-items:center}
+.xheads .src{flex:none}
+.xtable{width:100%;border-collapse:collapse;font-size:15px;margin:4px 0 0;table-layout:fixed}
+.xtable th,.xtable td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
+.xtable thead th{font-size:13px;font-weight:700;color:var(--ink-2);border-bottom:2px solid var(--line-2)}
+.xtable .num{text-align:right;font-variant-numeric:tabular-nums;width:6.5em}
+.xtable tbody th a{color:var(--ink);font-weight:650;min-height:44px;display:inline-flex;align-items:center}
+.xtable.vs thead th{font:750 16px var(--f-display);color:var(--ink);border-bottom:3px solid var(--pc,var(--line-2));width:50%}
+.xtable.vs td{padding:8px 4px}
+.xtable.vs td:first-child{padding-right:6px}
+.xtable.vs td:last-child{padding-left:6px}
+.xtable .xarea{padding-top:18px;border-bottom:0}
+.xtable .xarea a{font:750 15px var(--f-display);color:var(--ink);min-height:44px;display:inline-flex;align-items:center}
+.xtable.vs .prop{padding:10px 10px 6px}
+.xtable.vs .prop p{font-size:14px}
+.xtable.vs .prop-meta{flex-wrap:wrap}
+@media (max-width:520px){.xtable.vs .prop p{font-size:13.5px}.xtable.vs .prop-meta .src span{max-width:110px}.xtable.vs .prop{padding:8px 8px 4px}}
+.xvs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0 6px}
+@media (max-width:560px){.xvs{grid-template-columns:minmax(0,1fr)}}
+.xvs-c{padding:14px;border-radius:var(--r-m);background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--pc);min-width:0}
+.xvs-c p{font-size:14.5px;line-height:1.45;margin:0 0 6px}
+.xnews{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+.xnews li{padding:12px 14px;border-radius:var(--r-m);background:var(--surface);border:1px solid var(--line)}
+.xnews time{font-size:13px;font-weight:650;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.xnews p{margin:4px 0 0;font-size:15.5px;line-height:1.4}
+.xnews .xnews-l{font-size:14px}
+.xnews-l a{font-weight:650;color:var(--ink);min-height:44px;display:inline-flex;align-items:center}
+.pre table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px}
+.pre th,.pre td{text-align:left;vertical-align:top;padding:6px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.pre td ul{padding-left:16px}
+.xtable td,.xtable td .prop p{font-weight:400}
+
+/* ---------- Ajustes: impuestos plegables, provincias, comparativas, táctil ---------- */
+.xfold>summary{list-style:none;cursor:pointer;min-height:44px;margin:22px 0 10px;align-items:center}
+.xfold>summary::-webkit-details-marker{display:none}
+.xfold>summary>span:first-child{flex:1;min-width:0}
+.xfold>summary .ic{flex:none;color:var(--ink-2);transform:rotate(90deg);transition:transform .2s}
+.xfold[open]>summary .ic{transform:rotate(-90deg)}
+.xfold:not(:first-of-type){margin-top:8px}
+.xsin{padding-top:2px}
+.xsin a,.xnote a{display:inline-flex;align-items:center;min-height:44px;padding-inline:2px;color:var(--ink);font-weight:650}
+.xindex{margin:10px 0 4px}
+.xindex .chip{white-space:normal;height:auto;min-height:44px;padding:6px 14px;line-height:1.25}
+.xheads .xh-m{gap:0}
+.xh-m a.xh-p{min-height:44px;margin-block:-4px}
+.xh-m small{display:flex;align-items:center;flex-wrap:wrap;gap:4px;font-size:13px;color:var(--ink-2)}
+.xh-m small a{min-height:44px;margin-block:-6px;color:var(--ink);font-weight:650}
+.xh-m small b{min-height:0;font-weight:650;color:var(--ink)}
+.xh-m small.nodata{color:var(--ink-2);min-height:0}
+.xheads .src{flex:none;max-width:40%}
+.xtable.vs td .vs-ph{display:none}
+.xnews .xnews-l{display:flex;flex-wrap:wrap;column-gap:16px}
+.xnews li time{display:block}
+.pre details>summary{min-height:44px;cursor:pointer}
+.pre details>summary h2{display:inline}
+.pre .cand-meta a,.pre p a,.pre li a{display:inline-block;padding-block:12px;margin-block:-12px}
+@media (max-width:599px){
+  .xtable.vs,.xtable.vs tbody,.xtable.vs tr,.xtable.vs td,.xtable.vs th{display:block;width:auto}
+  .xtable.vs thead{display:none}
+  .xtable.vs{table-layout:auto}
+  .xtable.vs td{padding:0 0 10px;border-bottom:0}
+  .xtable.vs td:first-child,.xtable.vs td:last-child{padding-inline:0}
+  .xtable.vs td .vs-ph{display:block;margin:10px 0 6px;padding:6px 10px;font:750 15px var(--f-display);color:var(--ink);border-left:4px solid var(--pc,var(--line-2));background:var(--surface-2);border-radius:6px}
+  .xtable.vs .xarea{padding-top:14px}
+  .xtable.vs tbody{border-bottom:1px solid var(--line)}
+  .xtable.vs .prop p{font-size:14px}
+  .xtable.vs .prop-meta .src span,.cmp-col .prop-meta .src span{max-width:none;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+  .xtable.vs .prop-meta .src{flex:1 1 100%}
+  .src span{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+  .src{align-items:flex-start}
+  a.src{margin-block:0;padding-block:12px;min-height:44px}
+  p>a.src,.fine a.src{display:inline-flex}
+}
+.rel-links a{display:inline-flex;align-items:center;min-height:44px}

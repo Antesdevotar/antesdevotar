@@ -1,0 +1,8 @@
+[
+  { "id": "fichas-cabezas-lista", "fecha": "2026-11-11", "titulo": "Fichas de los 34 cabezas de lista: formación, trayectoria, patrimonio declarado y causas judiciales con fuente", "enlace": "/candidatos/", "enlace_texto": "Candidatos a las elecciones generales 2026" },
+  { "id": "resumen-faq-partidos", "fecha": "2026-11-11", "titulo": "Resumen y preguntas frecuentes de cada partido con una regla única para todos", "enlace": "/partidos/", "enlace_texto": "Partidos que se presentan al 29N" },
+  { "id": "paginas-impuestos-provincias-comparativas", "fecha": "2026-11-11", "titulo": "Nuevas páginas: impuestos, provincias y comparativas", "enlace": "/impuestos/", "enlace_texto": "Impuestos: qué propone cada partido", "enlaces_extra": [{ "enlace": "/provincias/", "texto": "Candidatos por provincia" }, { "enlace": "/comparar/", "texto": "Comparativas entre partidos" }] },
+  { "id": "programa-pp-2026", "fecha": "2026-11-05", "titulo": "Programa 2026 del PP («Reconstrucción Nacional») incorporado", "enlace": "/partido/pp/", "enlace_texto": "Programa electoral del PP 2026" },
+  { "id": "programa-erc-2026", "fecha": "2026-11-05", "titulo": "Programa 2026 de ERC incorporado", "enlace": "/partido/erc/", "enlace_texto": "Programa electoral de ERC 2026" },
+  { "id": "candidaturas-proclamadas", "fecha": "2026-11-03", "titulo": "Candidaturas proclamadas: 33 partidos concurren el 29N", "enlace": "/provincias/", "enlace_texto": "Candidaturas por provincia" }
+]
