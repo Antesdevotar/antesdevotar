@@ -7,7 +7,7 @@
  },
  "partidos": {
   "pp": {
-   "valoracion": "Preocupaciones serias en derechos de las personas migrantes (devoluciones inmediatas y acceso a servicios) y en memoria democrática, y un historial de bloqueo del CGPJ durante cinco años. Su propuesta actual para el CGPJ, en cambio, coincide con el estándar europeo.",
+   "valoracion": "Preocupaciones serias en derechos de las personas migrantes (rechazo en frontera ampliado a las entradas a nado y devoluciones aceleradas, y prioridad en ayudas por «vínculo con España») y en memoria democrática, y un historial de bloqueo del CGPJ durante cinco años. Su propuesta actual para el CGPJ, en cambio, coincide con el estándar europeo.",
    "criticas": [
     {
      "titulo": "Cinco años de bloqueo del CGPJ (2018-2024)",
@@ -23,12 +23,13 @@
      }
     },
     {
-     "titulo": "Devolución «inmediata» de quien entre de forma irregular",
-     "texto": "Una devolución inmediata y generalizada choca con la prohibición de expulsiones colectivas y con el principio de no devolución si no hay examen individual. El TC solo admite el rechazo en frontera en Ceuta y Melilla si hay acceso real a vías legales de protección, se respeta la no devolución y se atiende a las personas vulnerables, y el TEDH exige lo mismo.",
+     "titulo": "Rechazo en frontera de las entradas a nado y retornos acelerados",
+     "texto": "El programa propone identificar en siete días y «retornar cuanto antes» a quien haya entrado ilegalmente, y extender el rechazo en frontera de Ceuta y Melilla, que hoy la ley limita a quien intenta superar las vallas, a las entradas a nado. El TC (STC 172/2020) y el TEDH solo admiten ese rechazo si hay acceso real a vías legales de protección, se respeta la no devolución y se atiende a las personas vulnerables; sin examen individual chocaría con la prohibición de expulsiones colectivas.",
      "gravedad": "media",
-     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, N.D. y N.T. c. España (Gran Sala, 2020); STC 172/2020; Carta UE, art. 19",
+     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, N.D. y N.T. c. España (Gran Sala, 2020); STC 172/2020; LO 4/2000, disp. adic. 10.ª; Carta UE, art. 19",
      "sobre": [
-      "pp-inm-10"
+      "pp-inm-10",
+      "pp-inm-12"
      ],
      "fuente": {
       "nombre": "STC 172/2020 sobre el rechazo en frontera (Moncloa.com)",
@@ -36,11 +37,12 @@
      }
     },
     {
-     "titulo": "Acceso a ayudas: arraigo de diez años y padrón solo estadístico",
-     "texto": "Los pactos autonómicos PP-Vox de 2026 (Extremadura, Aragón) exigen diez años de empadronamiento para comprar vivienda pública, y el TJUE ha declarado que un requisito de diez años de residencia discrimina de forma indirecta a los residentes de larga duración. Quitar efectos al padrón choca con la obligación legal de empadronarse de todo residente y con su función de puerta a servicios. Un dato a su favor: a diferencia de Vox, el PP no distingue por nacionalidad.",
+     "titulo": "Prioridad en ayudas por «vínculo con España» y arraigo de diez años",
+     "texto": "El programa da prioridad en ayudas y recursos públicos al «vínculo con España» (empadronamiento, cotización, permanencia) y precisa que no se basará solo en la nacionalidad, pero no fija años ni pesos. Los pactos autonómicos PP-Vox de 2026 (Extremadura, Aragón) exigen diez años de empadronamiento para comprar vivienda pública, y el TJUE ha declarado que un requisito de diez años de residencia discrimina de forma indirecta a los residentes de larga duración. A diferencia de Vox, el PP no distingue por nacionalidad.",
      "gravedad": "media",
      "criterio": "Directiva 2003/109/CE, art. 11; TJUE, C-112/22 y C-223/22 (2024); Ley 7/1985, art. 15",
      "sobre": [
+      "pp-inm-15",
       "pp-inm-05"
      ],
      "fuente": {
@@ -693,5 +695,5 @@
    "avales": []
   }
  },
- "actualizado": "2026-10-21"
+ "actualizado": "2026-11-11"
 }

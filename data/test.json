@@ -223,7 +223,7 @@
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone eliminar las zonas tensionadas y sus topes. Votó contra los decretos de abril y octubre de 2026 que limitaban las subidas."
+     "nota": "Su programa propone derogar la Ley de Vivienda, incluidas las zonas tensionadas y el índice de precios. Votó contra los decretos de abril y octubre de 2026 que limitaban las subidas."
     },
     "psoe": {
      "valor": 1,
@@ -454,7 +454,7 @@
       "nombre": "Toma en consideración de la ley de Junts contra la ocupación, Congreso, 18-3-2025 (Ara)",
       "url": "https://es.ara.cat/sociedad/vivienda/ofensiva-junts-ocupacion-abre-paso-congreso_1_5319983.amp.html"
      },
-     "nota": "Propone una ley de desalojo en 48 horas. Votó a favor de tramitar la de Junts."
+     "nota": "Su programa propone recuperar en 48 horas por orden judicial la vivienda ocupada. Votó a favor de tramitar la ley de Junts."
     },
     "psoe": {
      "valor": 0,
@@ -1129,12 +1129,13 @@
     "pp": {
      "valor": 1,
      "ref": [
-      "pp-eco-07",
       "pp-eco-04",
+      "pp-eco-07",
+      "pp-eco-10",
       "pp-eco-01"
      ],
      "fuente": null,
-     "nota": "Propone bajar el IRPF a rentas de menos de 40.000 € y deflactar la tarifa."
+     "nota": "Su programa propone deflactar la tarifa, elevar los mínimos, eximir del IRPF a quien cobre el SMI y rebajarlo a los jóvenes de 18 a 35 años."
     },
     "psoe": {
      "valor": -1,
@@ -1349,14 +1350,12 @@
     },
     "pp": {
      "valor": -1,
-     "ref": [
-      "pp-eco-08"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Aprobación de los gravámenes a banca, energéticas y grandes fortunas, Congreso, 24-11-2022 (Menorca.info/Europa Press)",
       "url": "https://www.menorca.info/actualidad/nacional/2022/11/24/1835095/pleno-del-congreso-aprueba-gravamenes-banca-energeticas-ricos.html"
      },
-     "nota": "Propone suprimir el impuesto de grandes fortunas. Votó en contra de crearlo en 2022."
+     "nota": "Votó en contra de crearlo en 2022. Su programa de 2026 promete eliminar «los impuestos que frenan la inversión», sin nombrarlos."
     },
     "psoe": {
      "valor": 1,
@@ -1997,7 +1996,7 @@
       "pp-cul-01"
      ],
      "fuente": null,
-     "nota": "Propone garantizar la enseñanza en castellano en toda España."
+     "nota": "Su programa garantiza el derecho a recibir enseñanza en castellano en todas las etapas educativas."
     },
     "psoe": {
      "valor": null,
@@ -2204,12 +2203,14 @@
     },
     "pp": {
      "valor": -1,
-     "ref": [],
+     "ref": [
+      "pp-deu-05"
+     ],
      "fuente": {
       "nombre": "Enmiendas a la totalidad a la ley de condonación de deuda autonómica, Congreso, julio de 2026 (Qué!)",
       "url": "https://www.que.es/2026/07/24/condonacion-deuda-autonomica-congreso/"
      },
-     "nota": "Presentó enmienda a la totalidad contra la ley de condonación (julio de 2026)."
+     "nota": "Presentó enmienda a la totalidad contra la ley de condonación (julio de 2026). Su programa dice que cada comunidad responderá de su deuda, con una reestructuración multilateral."
     },
     "psoe": {
      "valor": 1,
@@ -2443,8 +2444,8 @@
       "nombre": "Toma en consideración de la ILP de regularización, Congreso, 9-4-2024: 310 a favor, 33 en contra (El Salto)",
       "url": "https://www.elsaltodiario.com/migracion/ilp-regularizacion-personas-migrantes-entra-congreso-mayoritario-grupo"
      },
-     "nota": "Propone prohibirlas por ley, pero votó a favor de tramitar la ILP de regularización en 2024.",
-     "contradiccion": "Su propuesta actual es prohibir las regularizaciones por ley, pero votó a favor de tramitar la ILP de regularización de unas 500.000 personas el 9-4-2024 (El Salto)."
+     "nota": "Su programa (medida 42) propone prohibir por ley las regularizaciones «masivas e indiscriminadas», pero votó a favor de tramitar la ILP de regularización en 2024.",
+     "contradiccion": "Su programa para el 29N propone prohibir por ley las regularizaciones «masivas e indiscriminadas», pero votó a favor de tramitar la ILP de regularización de unas 500.000 personas el 9-4-2024 (El Salto)."
     },
     "psoe": {
      "valor": -1,
@@ -2655,13 +2656,15 @@
     },
     "pp": {
      "valor": -1,
-     "ref": [],
+     "ref": [
+      "pp-inm-15"
+     ],
      "fuente": {
       "nombre": "Moción de Vox sobre 'prioridad nacional', Congreso, 22-4-2026 (Vozpópuli)",
       "url": "https://www.vozpopuli.com/espana/politica/el-pp-abre-un-nuevo-frente-con-vox-y-vota-en-contra-de-la-prioridad-nacional-en-el-congreso.html"
      },
-     "nota": "Votó contra la moción de Vox sobre prioridad nacional; defiende criterios de arraigo 'con independencia' de la nacionalidad.",
-     "contradiccion": "Votó contra la 'prioridad nacional' en el Congreso (22-4-2026), pero firmó con Vox en Extremadura un pacto que usa ese término, ligado al arraigo (EFE, 22-4-2026)."
+     "nota": "Votó contra la moción de Vox sobre «prioridad nacional». Su programa (medida 98) da prioridad en ayudas al «vínculo con España» (empadronamiento, cotización, permanencia) y precisa que no se basará solo en la nacionalidad.",
+     "contradiccion": "Votó contra la «prioridad nacional» en el Congreso (22-4-2026) y su programa rechaza basar la prioridad solo en la nacionalidad, pero firmó con Vox en Extremadura un pacto que usa ese término, ligado al arraigo (EFE, 22-4-2026)."
     },
     "psoe": {
      "valor": -1,
@@ -2877,12 +2880,14 @@
     },
     "pp": {
      "valor": -1,
-     "ref": [],
+     "ref": [
+      "pp-inm-09"
+     ],
      "fuente": {
       "nombre": "Convalidación del decreto de reparto de menores migrantes, Congreso, 10-4-2025: solo PP y Vox en contra (Nueve Cuatro Uno)",
       "url": "https://nuevecuatrouno.com/2025/04/10/congreso-refrenda-decreto-ley-reubicar-menores-migrantes-no-pp/"
      },
-     "nota": "Votó contra el decreto de reparto obligatorio (10-4-2025)."
+     "nota": "Votó contra el decreto de reparto obligatorio (10-4-2025). Su programa prioriza la reunificación familiar y el retorno de los menores."
     },
     "psoe": {
      "valor": 1,
@@ -4198,7 +4203,7 @@
       "pp-igu-01"
      ],
      "fuente": null,
-     "nota": "Propone endurecer las penas por violencia machista dentro del marco actual."
+     "nota": "Su programa refuerza la protección de las víctimas de violencia machista dentro del marco actual (dispositivos de Interior y VioGen)."
     },
     "psoe": {
      "valor": -1,
@@ -4641,7 +4646,7 @@
       "pp-seg-05"
      ],
      "fuente": null,
-     "nota": "Propone cumplir los compromisos con la OTAN y ampliar las Fuerzas Armadas."
+     "nota": "Su programa propone una ley de programación y financiación plurianual de la defensa y más efectivos en las Fuerzas Armadas, sin fijar un porcentaje del PIB."
     },
     "psoe": {
      "valor": 0,
@@ -5501,7 +5506,7 @@
       "nombre": "PNL del PP contra el calendario de cierre nuclear, Congreso, febrero de 2025: 171 a favor, 164 en contra, 14 abstenciones (Energías Renovables)",
       "url": "https://www.energias-renovables.com/panorama/psoe-y-sumar-podr-an-haber-evitado-20251113"
      },
-     "nota": "Propone cancelar el calendario de cierre; su PNL se aprobó en 2025."
+     "nota": "Su programa propone eliminar el calendario de cierre y tramitar la extensión en los primeros cien días; su PNL se aprobó en 2025."
     },
     "psoe": {
      "valor": -1,
@@ -5953,14 +5958,15 @@
     "pp": {
      "valor": 1,
      "ref": [
-      "pp-ext-03"
+      "pp-ext-03",
+      "pp-rur-05"
      ],
      "fuente": {
       "nombre": "Votación del Parlamento Europeo para remitir el acuerdo UE-Mercosur al TJUE, 21-1-2026 (El Debate)",
       "url": "https://www.eldebate.com/campo-y-caza/20260121/parlamento-europeo-bloquea-entrada-vigor-trato-mercosur-menos-ano_376697.html"
      },
-     "nota": "Apoya el acuerdo; sus eurodiputados votaron contra frenarlo y en el Congreso contra la PNL de Sumar.",
-     "contradiccion": "Feijóo dijo en enero de 2026 que 'los agricultores tienen razón' y condicionó su apoyo a salvaguardas, pero sus eurodiputados votaron contra remitir el acuerdo al TJUE (21-1-2026) y en el Congreso contra la PNL para frenarlo (25-2-2026)."
+     "nota": "Apoya el acuerdo; sus eurodiputados votaron contra frenarlo y en el Congreso contra la PNL de Sumar. Su programa no lo menciona, pero exige requisitos equivalentes a las importaciones.",
+     "contradiccion": "Feijóo dijo en enero de 2026 que 'los agricultores tienen razón' y condicionó su apoyo a salvaguardas, y su programa exige que los alimentos importados cumplan requisitos equivalentes, pero sus eurodiputados votaron contra remitir el acuerdo al TJUE (21-1-2026) y en el Congreso contra la PNL para frenarlo (25-2-2026)."
     },
     "psoe": {
      "valor": 1,
