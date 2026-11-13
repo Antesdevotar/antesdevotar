@@ -11,8 +11,13 @@
  "color_aproximado": true,
  "web": "https://iustitiaeuropa.es/",
  "escanos_2023": 0,
- "resumen": "Propone recortar el gasto político y administrativo, priorizar la propiedad privada frente a la intervención del mercado de la vivienda y reformar la Constitución para superar el régimen del 78. Fuente: declaraciones.",
+ "resumen": "Propone aplicar un tijeretazo al gasto político y administrativo, crear un plan de acceso a la primera vivienda y hacer vinculante el Contrato Electoral con pérdida del cargo. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "«Contrato Electoral» de Iustitia Europa (PDF, 27 páginas, web oficial del partido)",
+   "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+   "fecha": "2026-11-11"
+  },
   {
    "titulo": "Qué defiende Iustitia Europa (El Nacional.cat)",
    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
@@ -29,7 +34,7 @@
    "fecha": "2026-09-02"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "estado_candidatura": "Proclamada",
  "estado_fuente": {
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
@@ -51,68 +56,33 @@
  },
  "propuestas": [
   {
-   "id": "iustitia-ins-01",
-   "area": "instituciones",
-   "texto": "Reformar la Constitución de 1978 para «superar el régimen del 78» y la «despartidización del Estado».",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "El Nacional.cat (prensa), 9-10-2026",
-    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
-    "fecha": "2026-10-09"
-   },
-   "destacada": true
-  },
-  {
-   "id": "iustitia-ins-02",
-   "area": "instituciones",
-   "texto": "Elección directa del presidente del Gobierno.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
-    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
-    "fecha": "2026-09-27"
-   },
-   "destacada": true
-  },
-  {
-   "id": "iustitia-ins-03",
-   "area": "instituciones",
-   "texto": "Sustituir las listas cerradas por una elección más directa de diputados y senadores.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
-    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
-    "fecha": "2026-09-27"
-   }
-  },
-  {
-   "id": "iustitia-ins-04",
-   "area": "instituciones",
-   "texto": "Limitar los mandatos de los cargos políticos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
-    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
-    "fecha": "2026-09-27"
-   }
-  },
-  {
-   "id": "iustitia-ins-05",
-   "area": "instituciones",
-   "texto": "Referéndums vinculantes, también sobre la permanencia de España en la UE y la OTAN.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "El Nacional.cat (prensa), 9-10-2026",
-    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
-    "fecha": "2026-10-09"
-   }
-  },
-  {
    "id": "iustitia-ins-06",
    "area": "instituciones",
-   "texto": "Hacer jurídicamente vinculantes las promesas electorales («Contrato Electoral»), con pérdida de sueldo, subvenciones o cargo si se incumplen.",
-   "origen": "declaracion",
+   "texto": "Hacer jurídicamente vinculante el «Contrato Electoral»: quien incumpla perdería sueldos, subsidios, dietas y ayudas y podría ser destituido.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-01",
+   "area": "instituciones",
+   "texto": "Superar el «régimen del 78» mediante la reforma de la Constitución y la «despartidización del Estado».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 7-10",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "El Nacional.cat (prensa), 9-10-2026",
     "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
     "fecha": "2026-10-09"
@@ -122,53 +92,251 @@
   {
    "id": "iustitia-ins-07",
    "area": "instituciones",
-   "texto": "Suprimir los aforamientos y las inmunidades de los cargos públicos.",
-   "origen": "declaracion",
+   "texto": "Suprimir la inmunidad parlamentaria y los aforamientos de diputados, senadores y ministros, que serían juzgados por tribunales ordinarios.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
     "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
     "fecha": "2026-09-27"
    }
   },
   {
-   "id": "iustitia-ins-08",
+   "id": "iustitia-ins-02",
    "area": "instituciones",
-   "texto": "Que los jueces elijan a los vocales del CGPJ y reformar la elección del Tribunal Constitucional y de la Fiscalía General.",
-   "origen": "declaracion",
+   "texto": "Elección directa del presidente del Gobierno por sufragio universal cada cuatro años.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
     "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
     "fecha": "2026-09-27"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ins-13",
+   "area": "instituciones",
+   "texto": "Referéndum vinculante y obligatorio, que podría convocarse por iniciativa ciudadana con recogida de firmas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
    }
   },
   {
-   "id": "iustitia-ins-09",
+   "id": "iustitia-ins-03",
    "area": "instituciones",
-   "texto": "Reforzar en la Constitución la acusación popular para que ciudadanos, asociaciones y partidos puedan personarse en causas de interés general.",
-   "origen": "declaracion",
+   "texto": "Circunscripciones uninominales con listas abiertas para Congreso y Senado, en lugar del sistema proporcional y las listas cerradas.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
     "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
     "fecha": "2026-09-27"
-   }
+   },
+   "cambio": "Antes: Sustituir las listas cerradas por una elección más directa de diputados y senadores."
   },
   {
    "id": "iustitia-ins-10",
    "area": "instituciones",
-   "texto": "Eliminar la financiación pública de los partidos; el partido renuncia a subvenciones.",
-   "origen": "declaracion",
+   "texto": "Eliminar la financiación pública de los partidos; el partido rechaza la subvención pública.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Bilbao Hiria (prensa), 9-10-2026",
     "url": "https://bilbaohiria.com/actualidad/que-es-iustitia-europa-partido-luis-maria-pardo-29n",
     "fecha": "2026-10-09"
    }
   },
   {
+   "id": "iustitia-ins-04",
+   "area": "instituciones",
+   "texto": "Limitar los mandatos de los cargos electos; el presidente del Gobierno no podría ejercer más de dos mandatos completos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   },
+   "cambio": "Antes: Limitar los mandatos de los cargos políticos."
+  },
+  {
+   "id": "iustitia-ins-14",
+   "area": "instituciones",
+   "texto": "Elegir a los magistrados del Tribunal Constitucional por votación entre juristas con más de 25 años de ejercicio y sin militancia en 30 años, con ratificación por referéndum vinculante.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-15",
+   "area": "instituciones",
+   "texto": "Mandato de nueve años no renovable para los magistrados del Tribunal Constitucional y prohibición de aceptar cargos privados durante 15 años tras dejar el tribunal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-08",
+   "area": "instituciones",
+   "texto": "Que los jueces elijan a los vocales del CGPJ: diez miembros con más de 20 años de experiencia, por sufragio directo y secreto entre jueces y magistrados en activo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 10-11",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   },
+   "cambio": "Antes: Que los jueces elijan a los vocales del CGPJ y reformar la elección del Tribunal Constitucional y de la Fiscalía General."
+  },
+  {
+   "id": "iustitia-ins-16",
+   "area": "instituciones",
+   "texto": "Fiscal General del Estado nombrado por el CGPJ entre fiscales con más de 20 años de ejercicio, por nueve años no renovables y sin instrucciones del Poder Ejecutivo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-17",
+   "area": "instituciones",
+   "texto": "Juntas Electorales permanentes (nuevo art. 81 bis CE) formadas por ciudadanos sorteados del censo, con mandato de cinco años y deliberaciones públicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-18",
+   "area": "instituciones",
+   "texto": "Suprimir los privilegios de los altos cargos (oficinas, chóferes, asesores, escoltas), las pensiones vitalicias y los coches oficiales de por vida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 11, 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-19",
+   "area": "instituciones",
+   "texto": "Inhabilitar cinco años para incorporarse a empresas contratistas del Estado y exigir declaración de actividades y patrimonio durante cinco años tras el cese.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 11-12",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-09",
+   "area": "instituciones",
+   "texto": "Reformar el art. 125 de la Constitución para reconocer un derecho «inalienable» a la acción popular a ciudadanos, asociaciones, partidos y plataformas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 12-13",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   }
+  },
+  {
+   "id": "iustitia-ext-01",
+   "area": "exterior",
+   "texto": "«Más España y menos Unión Europea»: recuperar la soberanía cedida a la UE.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 13-14",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "iustitia-ext-02",
+   "area": "exterior",
+   "texto": "Abandonar los alineamientos estratégicos con la OTAN y no participar en guerras extranjeras ni financiar la defensa de otros países.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 13-14",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-05",
+   "area": "instituciones",
+   "texto": "Referéndums vinculantes sobre la permanencia de España en la UE y en la OTAN.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
    "id": "iustitia-eco-01",
    "area": "economia",
-   "texto": "«Tijeretazo» al gasto político y administrativo y revisión del sistema de subvenciones.",
-   "origen": "declaracion",
+   "texto": "Aplicar un «tijeretazo» al gasto político y administrativo y a las subvenciones.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
@@ -176,44 +344,380 @@
    "destacada": true
   },
   {
+   "id": "iustitia-eco-02",
+   "area": "economia",
+   "texto": "Reducir los ministerios a un máximo de siete.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-03",
+   "area": "economia",
+   "texto": "Eliminar el 75 % de los asesores políticos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-04",
+   "area": "economia",
+   "texto": "Congelar los sueldos políticos y recortarlos un 20 %.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-05",
+   "area": "economia",
+   "texto": "Eliminar toda la financiación pública a sindicatos y patronales, que solo se sostendrían con cuotas de afiliados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-06",
+   "area": "economia",
+   "texto": "Cerrar de inmediato más de 2.000 «chiringuitos», fundaciones, observatorios y organismos, que el partido cifra en más de 6.000 millones de euros al año.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-07",
+   "area": "economia",
+   "texto": "Prohibir todas las subvenciones a ONG.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-08",
+   "area": "economia",
+   "texto": "Fusionar organismos duplicados y reducir un 40 % los más de 600 entes públicos con competencias superpuestas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ter-01",
+   "area": "territorio",
+   "texto": "Suprimir las diputaciones provinciales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-09",
+   "area": "economia",
+   "texto": "Cerrar las empresas públicas con pérdidas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-10",
+   "area": "economia",
+   "texto": "Eliminar el 80 % de las subvenciones, incluidas las dirigidas a organizaciones ideológicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-emp-02",
+   "area": "empleo",
+   "texto": "Transformar los subsidios en incentivos al empleo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-deu-01",
+   "area": "deuda",
+   "texto": "Crear una «Auditoría Independiente del Gasto Público» y publicar todas las partidas de gasto en un portal público consultable en tiempo real.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-20",
+   "area": "instituciones",
+   "texto": "Reformar la Ley de Contratos del Sector Público para eliminar la adjudicación «a dedo» y las adjudicaciones opacas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-pen-01",
+   "area": "pensiones",
+   "texto": "Eliminar el «factor de sostenibilidad» y sustituirlo por un sistema de contribución «realista» que no dependa solo de ingresos fiscales coyunturales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-pen-02",
+   "area": "pensiones",
+   "texto": "Impulsar un modelo mixto en el que los trabajadores complementen su pensión con ahorro privado, sin reducir la parte pública.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-pen-03",
+   "area": "pensiones",
+   "texto": "Prohibir congelar o reducir las pensiones sin compensaciones directas y sin transparencia presupuestaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
    "id": "iustitia-emp-01",
    "area": "empleo",
-   "texto": "Cuota cero a la Seguridad Social para los autónomos durante cuatro años.",
-   "origen": "declaracion",
+   "texto": "«Cuota cero» a la Seguridad Social para los autónomos durante los primeros cuatro años de actividad.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "El Nacional.cat (prensa), 9-10-2026",
     "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
     "fecha": "2026-10-09"
+   },
+   "cambio": "Antes: Cuota cero a la Seguridad Social para los autónomos durante cuatro años."
+  },
+  {
+   "id": "iustitia-emp-03",
+   "area": "empleo",
+   "texto": "Eliminar la obligación de pagar cuotas en los meses sin ingresos, con un modelo basado en ingresos reales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-11",
+   "area": "economia",
+   "texto": "Suprimir los módulos y simplificar el sistema tributario de los autónomos para reducir burocracia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-emp-04",
+   "area": "empleo",
+   "texto": "Incentivar el empleo autónomo con desgravaciones fiscales, sin depender de subvenciones públicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-12",
+   "area": "economia",
+   "texto": "Sustituir las subvenciones directas a empresas y sectores no estratégicos por reducciones fiscales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-eco-13",
+   "area": "economia",
+   "texto": "Prohibir las subvenciones encadenadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-viv-02",
+   "area": "vivienda",
+   "texto": "Crear un plan de acceso a la primera vivienda para jóvenes y familias, con incentivos fiscales y menos cargas burocráticas para la compra.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-viv-03",
+   "area": "vivienda",
+   "texto": "Suprimir el IVA en la compra de la primera vivienda.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
    }
   },
   {
    "id": "iustitia-viv-01",
    "area": "vivienda",
-   "texto": "Priorizar la propiedad privada frente a la intervención del mercado de la vivienda.",
-   "origen": "declaracion",
+   "texto": "Eliminar las políticas de control de alquiler.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "El Nacional.cat (prensa), 9-10-2026",
     "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
     "fecha": "2026-10-09"
+   },
+   "cambio": "Antes: Priorizar la propiedad privada frente a la intervención del mercado de la vivienda."
+  },
+  {
+   "id": "iustitia-viv-04",
+   "area": "vivienda",
+   "texto": "Proteger la propiedad frente a la ocupación con penas más duras y desalojo en menos de 24 horas desde la denuncia ante las fuerzas de seguridad del Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ext-03",
+   "area": "exterior",
+   "texto": "Revisar todos los fondos recibidos de la UE y sus condiciones para evaluar si benefician a España.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ext-04",
+   "area": "exterior",
+   "texto": "Prohibir las ayudas que supongan destruir sectores estratégicos a cambio de fondos temporales y recuperar el control de la política industrial y agrícola.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
    }
   },
   {
    "id": "iustitia-inm-01",
    "area": "inmigracion",
    "texto": "Reforma integral de la Ley de Extranjería y cambio del procedimiento de asilo.",
-   "origen": "declaracion",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, pp. 20-21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
    }
   },
   {
+   "id": "iustitia-inm-06",
+   "area": "inmigracion",
+   "texto": "Cerrar por completo la frontera sur y reforzar con las Fuerzas Armadas la valla de Ceuta y Melilla.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
+    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
+    "fecha": "2026-09-27"
+   },
+   "cambio": "Antes: Reforzar las vallas de Ceuta y Melilla."
+  },
+  {
+   "id": "iustitia-inm-07",
+   "area": "inmigracion",
+   "texto": "Destinar a Canarias toda la flota de la Armada de Ferrol para patrullar el mar territorial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 20-21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
    "id": "iustitia-inm-02",
    "area": "inmigracion",
-   "texto": "Deportaciones masivas de inmigrantes en situación irregular.",
-   "origen": "declaracion",
+   "texto": "Deportaciones masivas de inmigrantes en situación irregular, sin regularización («Fin de los papeles para todos»).",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
@@ -223,9 +727,14 @@
   {
    "id": "iustitia-inm-03",
    "area": "inmigracion",
-   "texto": "Expulsión inmediata de los inmigrantes que cometan delitos graves o reincidan.",
-   "origen": "declaracion",
+   "texto": "Expulsión inmediata de los extranjeros que cometan delitos graves o reincidan.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
@@ -235,8 +744,13 @@
    "id": "iustitia-inm-04",
    "area": "inmigracion",
    "texto": "Suprimir las ayudas y subvenciones a los inmigrantes en situación irregular.",
-   "origen": "declaracion",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
@@ -245,9 +759,14 @@
   {
    "id": "iustitia-inm-05",
    "area": "inmigracion",
-   "texto": "Desplegar el Ejército y la Armada en fronteras, puertos y costas para interceptar entradas irregulares y frenar a los barcos de ONG, a los que llama «taxis ilegales».",
-   "origen": "declaracion",
+   "texto": "Desplegar el Ejército y la Armada en fronteras, puertos y costas para interceptar entradas ilegales y que la Armada impida la actuación de barcos de ONG, a los que llama «taxis ilegales».",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "Público (prensa), 2-9-2026",
     "url": "https://www.publico.es/politica/iustitia-europa-antipartido-llevo-crisis-ceuta-tribunales-presentara-generales.html",
     "fecha": "2026-09-02"
@@ -255,61 +774,295 @@
    "destacada": true
   },
   {
-   "id": "iustitia-inm-06",
+   "id": "iustitia-inm-08",
    "area": "inmigracion",
-   "texto": "Reforzar las vallas de Ceuta y Melilla.",
-   "origen": "declaracion",
+   "texto": "Interceptar las pateras de forma inmediata y devolverlas automáticamente.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "ESdiario (prensa), presentación del «Contrato Electoral», 27-9-2026",
-    "url": "https://www.esdiario.com/nacional/260927/198801/iustitia-europa-presenta-partido-sociedad-civil-pone-contrato-electoral-centro.html",
-    "fecha": "2026-09-27"
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
    }
   },
   {
-   "id": "iustitia-ene-01",
-   "area": "energia",
-   "texto": "Salir del Pacto Verde Europeo, retirar las subvenciones a las renovables y apostar por la nuclear y el gas.",
-   "origen": "declaracion",
+   "id": "iustitia-inm-09",
+   "area": "inmigracion",
+   "texto": "Coordinarse con los países de origen para cerrar rutas y acordar repatriaciones inmediatas, y sancionar a los países que no colaboren.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "El Nacional.cat (prensa), 9-10-2026",
-    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
-    "fecha": "2026-10-09"
-   },
-   "destacada": true
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
   },
   {
-   "id": "iustitia-san-01",
-   "area": "sanidad",
-   "texto": "Incorporar las terapias naturales al sistema público de salud.",
-   "origen": "declaracion",
+   "id": "iustitia-seg-01",
+   "area": "seguridad",
+   "texto": "Retirar del Código Penal Militar las conductas de los agentes de la Guardia Civil.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "El Nacional.cat (prensa), 9-10-2026",
-    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
-    "fecha": "2026-10-09"
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-seg-02",
+   "area": "seguridad",
+   "texto": "Referéndum interno en la Guardia Civil para elegir entre desmilitarizarse como policía civil o mantener su naturaleza militar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-seg-03",
+   "area": "seguridad",
+   "texto": "Reorganizar la Policía Nacional y la Guardia Civil para adaptarlas a las «nuevas realidades sociales» y al territorio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-seg-04",
+   "area": "seguridad",
+   "texto": "Garantizar que los sueldos de la Policía Nacional y la Guardia Civil no sean inferiores a los de las policías autonómicas o locales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
    }
   },
   {
    "id": "iustitia-edu-01",
    "area": "educacion",
-   "texto": "Educación «sin ideología», sin contenidos de género ni de la Agenda 2030.",
-   "origen": "declaracion",
+   "texto": "Retirar la Agenda 2030 de los centros educativos y eliminar los contenidos ideológicos de la escuela pública, entre ellos género, «ecologismo radical» e «inmigración descontrolada».",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, pp. 22-23",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "El Nacional.cat (prensa), 9-10-2026",
     "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
     "fecha": "2026-10-09"
    }
   },
   {
-   "id": "iustitia-ext-01",
-   "area": "exterior",
-   "texto": "«Más España y menos Unión Europea»: recuperar la soberanía cedida a la UE.",
-   "origen": "declaracion",
+   "id": "iustitia-edu-02",
+   "area": "educacion",
+   "texto": "Reformar el currículo para centrarlo en conocimientos y competencias, con educación en esfuerzo, disciplina y mérito.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 23",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-edu-03",
+   "area": "educacion",
+   "texto": "Reforzar la autoridad del profesorado y garantizar la libertad educativa de las familias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-edu-04",
+   "area": "educacion",
+   "texto": "Reformar la Ley de Universidades para eliminar el sectarismo ideológico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-san-01",
+   "area": "sanidad",
+   "texto": "Incorporar legalmente las terapias naturales al sistema de salud y eliminar barreras para el reconocimiento profesional de sus terapeutas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
+    "nombre": "El Nacional.cat (prensa), 9-10-2026",
+    "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
+    "fecha": "2026-10-09"
+   }
+  },
+  {
+   "id": "iustitia-san-02",
+   "area": "sanidad",
+   "texto": "Aplicar IVA cero a los terapeutas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-san-03",
+   "area": "sanidad",
+   "texto": "Poner fin al «monopolio farmacéutico».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-21",
+   "area": "instituciones",
+   "texto": "Sustituir los juzgados unipersonales por Tribunales de Instancia, con reparto interno de asuntos y especialización.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-22",
+   "area": "instituciones",
+   "texto": "Crear una Oficina Judicial digital y profesionalizada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-23",
+   "area": "instituciones",
+   "texto": "Convertir el Ministerio de Justicia en «Ministerio del Sistema Jurídico», con evaluación de la calidad de las leyes y coordinación de las profesiones jurídicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 24-25",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ene-01",
+   "area": "energia",
+   "texto": "Salir del Pacto Verde Europeo, eliminar las subvenciones a las renovables y apostar por la energía nuclear, el gas y los recursos propios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   },
+   "fuente_anterior": {
     "nombre": "El Nacional.cat (prensa), 9-10-2026",
     "url": "https://www.elnacional.cat/es/politica/iustitia-europa-partido-quiere-reiniciar-espana-quien-hay-detras-defiende-defiende_1707781_102.html",
     "fecha": "2026-10-09"
    },
    "destacada": true
+  },
+  {
+   "id": "iustitia-ene-02",
+   "area": "energia",
+   "texto": "Nacionalizar las tierras raras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-rur-01",
+   "area": "rural",
+   "texto": "Exigir la derogación inmediata del Pacto Verde Europeo y derogar la Política Agraria Común y la Ley de Restauración de la Naturaleza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 25-26",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-rur-02",
+   "area": "rural",
+   "texto": "Derogar la Ley de Bienestar Animal y la Ley de Quemas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-rur-03",
+   "area": "rural",
+   "texto": "Derogar la Ley de Estructuras Agrarias, la Ley de Prevención de Pérdidas y Desperdicio Alimentario y la Ley de la Cadena Alimentaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-rur-04",
+   "area": "rural",
+   "texto": "Derogar la obligatoriedad del cuaderno digital.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ext-05",
+   "area": "exterior",
+   "texto": "Desvincular a España de cualquier política derivada de los objetivos de desarrollo sostenible y poner fin al control supranacional de las políticas internas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-ins-24",
+   "area": "instituciones",
+   "texto": "Blindar los derechos de expresión, información, ideológico, integridad física, libre circulación, individual y de asociación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
+  },
+  {
+   "id": "iustitia-tec-01",
+   "area": "tecnologia",
+   "texto": "Rechazar el euro digital, el control biométrico, el reconocimiento facial, las zonas de bajas emisiones y las restricciones pandémicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+    "fecha": "2026-11-11"
+   }
   },
   {
    "id": "iustitia-ins-11",
@@ -431,7 +1184,8 @@
     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa y otros c. Italia (Gran Sala, 2012); Convención de Ginebra 1951, art. 33; Carta UE, art. 19",
     "sobre": [
      "iustitia-inm-02",
-     "iustitia-inm-05"
+     "iustitia-inm-05",
+     "iustitia-inm-08"
     ],
     "fuente": {
      "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
@@ -495,5 +1249,11 @@
    "url": "https://www.eldiario.es/politica/supremo-rechaza-teorias-conspiracion-ultimas-elecciones-europeas_1_11562529.html"
   }
  ],
- "actualizado": "2026-11-11"
+ "actualizado": "2026-11-13",
+ "programa_2026": {
+  "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+  "fecha_publicacion": "2026-11-11",
+  "paginas": 27,
+  "incorporado": "2026-11-13"
+ }
 }

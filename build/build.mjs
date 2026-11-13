@@ -79,7 +79,7 @@ for (const id of [...order, ...extraIds]) {
   delete p.ideologia;
   const poll = encuestas.partidos.find((x) => x.id === id);
   p.encuesta = poll;
-  p.propuestas = (p.propuestas || []).filter((x) => x && x.texto);
+  p.propuestas = (p.propuestas || []).filter((x) => x && x.texto && x.estado !== 'no-reiterada' && x.estado !== 'contradicha');
   p.criticas = p.criticas || { economica: [], social: [], cultural: [] };
   const dz = (derecho.partidos && derecho.partidos[id]) || p.derecho;
   p.criticas.derecho = (dz && dz.criticas) || [];

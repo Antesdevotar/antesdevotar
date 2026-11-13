@@ -25,6 +25,11 @@
    "titulo": "Listas de la izquierda para el 29N: el BNG concurre con candidatura propia (Infobae)",
    "url": "https://www.infobae.com/espana/2026/10/17/asi-quedan-los-acuerdos-de-la-izquierda-para-las-elecciones-generales-del-29-n-estas-son-las-listas-a-la-izquierda-del-psoe-en-cada-comunidad-autonoma/",
    "fecha": "2026-10-17"
+  },
+  {
+   "titulo": "Decálogo de compromisos del BNG para el 29N (Nós Diario)",
+   "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+   "fecha": "2026-11-07"
   }
  ],
  "programa_2026_publicado": false,
@@ -584,6 +589,106 @@
     "url": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf",
     "fecha": "2023-07"
    }
+  },
+  {
+   "id": "bng-viv-04",
+   "area": "vivienda",
+   "texto": "Limitar por ley los precios del alquiler, renovar automáticamente los contratos y prohibir los desahucios de personas en situación de vulnerabilidad.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "bng-viv-05",
+   "area": "vivienda",
+   "texto": "Destinar el 3 % de los presupuestos a un parque público de alquiler permanente.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-viv-06",
+   "area": "vivienda",
+   "texto": "Mantener de forma permanente como públicas las viviendas construidas con financiación pública.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Santiago, 07-11-2026 (diez compromisos del BNG para el 29N)",
+    "url": "https://www.diariodesantiago.es/galicia/el-bng-presenta-diez-compromisos-para-el-29n-y-pide-mayor-peso-politico-de-galicia-en-madrid/",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-eco-09",
+   "area": "economia",
+   "texto": "Impulsar una «reindustrialización racional» con una fiscalidad en la que «pague más quien más tiene».",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-ene-05",
+   "area": "energia",
+   "texto": "Acabar con los privilegios de las eléctricas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-ter-05",
+   "area": "territorio",
+   "texto": "Realizar una auditoría independiente de la seguridad de la red ferroviaria.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-ter-06",
+   "area": "territorio",
+   "texto": "Reconocer a Galicia como nación y transferirle más competencias.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Santiago, 07-11-2026 (diez compromisos del BNG para el 29N)",
+    "url": "https://www.diariodesantiago.es/galicia/el-bng-presenta-diez-compromisos-para-el-29n-y-pide-mayor-peso-politico-de-galicia-en-madrid/",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-igu-05",
+   "area": "igualdad",
+   "texto": "Acabar con la privatización de los recursos para víctimas de violencia de género y blindar por ley que no pasen a manos privadas.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Nós Diario, 07-11-2026 (decálogo de compromisos del BNG para el 29N)",
+    "url": "https://www.nosdiario.gal/politica/bng-presenta-axenda-galega-defender-galiza-madrid-avanzar-dereitos-mellorar-vida-das-persoas/20261107171236271220.html",
+    "fecha": "2026-11-07"
+   }
+  },
+  {
+   "id": "bng-ins-04",
+   "area": "instituciones",
+   "texto": "Devolver los bienes incautados durante el franquismo.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Diario de Santiago, 07-11-2026 (diez compromisos del BNG para el 29N)",
+    "url": "https://www.diariodesantiago.es/galicia/el-bng-presenta-diez-compromisos-para-el-29n-y-pide-mayor-peso-politico-de-galicia-en-madrid/",
+    "fecha": "2026-11-07"
+   }
   }
  ],
  "criticas": {
@@ -674,7 +779,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-13",
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "A Coruña",

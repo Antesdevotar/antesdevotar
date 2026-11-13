@@ -623,16 +623,15 @@
    "avales": []
   },
   "aa": {
-   "valoracion": "Preocupaciones puntuales: dar o quitar fondos públicos según lo que una organización publica u opina compromete la neutralidad que exigen la libertad de información y el pluralismo.",
+   "valoracion": "Preocupaciones puntuales: dar o quitar publicidad institucional según lo que un medio publica compromete la neutralidad que exigen la libertad de información y el pluralismo.",
    "criticas": [
     {
-     "titulo": "Fondos públicos condicionados a la línea editorial o ideológica",
-     "texto": "Prohibir la publicidad institucional en medios «que difundan desinformación», sin un órgano independiente ni criterios tasados, da a la Administración un poder de premio o castigo sobre la prensa. El derecho europeo exige que esa publicidad se reparta con criterios transparentes, objetivos y no discriminatorios. Retirar fondos a organizaciones por su postura sobre los derechos reproductivos plantea el mismo problema de discriminación por opinión.",
+     "titulo": "Publicidad institucional condicionada a lo que publica un medio",
+     "texto": "Excluir de la publicidad institucional a medios «que difundan bulos de forma reiterada», sin un órgano independiente ni criterios tasados para decidirlo, da a la Administración un poder de premio o castigo sobre la prensa. El derecho europeo exige que esa publicidad se reparta con criterios transparentes, objetivos y no discriminatorios.",
      "gravedad": "baja",
-     "criterio": "Arts. 14, 20 y 22 CE; Reglamento (UE) 2024/1083 (EMFA), art. 25",
+     "criterio": "Arts. 14 y 20 CE; Reglamento (UE) 2024/1083 (EMFA), art. 25",
      "sobre": [
-      "aa-ins-02",
-      "aa-igu-01"
+      "aa-ins-02"
      ],
      "fuente": {
       "nombre": "Reglamento (UE) 2024/1083 (EUR-Lex)",

@@ -32,24 +32,64 @@
  "partidos": {
   "aa": [
    {
+    "cat": "irpf",
+    "ref": "aa-eco-09",
+    "texto": "IRPF más progresivo: rebaja para rentas bajas, tipos más altos desde 100.000 euros al año y menos deducciones para rentas altas."
+   },
+   {
+    "cat": "iva",
+    "ref": "aa-eco-12",
+    "texto": "IVA superreducido para electricidad, agua, alimentos básicos, productos menstruales y cultura."
+   },
+   {
+    "cat": "iva",
+    "ref": "aa-eco-13",
+    "texto": "Aplicar un IVA del 21 % al alquiler turístico."
+   },
+   {
     "cat": "sociedades",
     "ref": "aa-eco-01",
-    "texto": "Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza."
+    "texto": "Que las grandes empresas, incluidas las cadenas hoteleras, tributen según su actividad y empleo en cada territorio y no según su sede."
    },
    {
     "cat": "patrimonio",
     "ref": "aa-eco-02",
-    "texto": "Impuesto a grandes fortunas y grandes propiedades inmobiliarias y agrícolas."
+    "texto": "Crear un impuesto sobre la riqueza y la tierra que sustituya a Patrimonio y grave grandes fortunas, gran propiedad inmobiliaria y latifundios."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "aa-eco-10",
+    "texto": "Fijar una tributación mínima en sucesiones y donaciones en todo el Estado."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "aa-pen-05",
+    "texto": "Financiar las pensiones con cotización proporcional a los ingresos reales, sin topes."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "aa-eco-06",
+    "texto": "Cuota de autónomos según ingresos reales, bonificada en vacaciones y al 100 % en permisos por nacimiento, y organismo público gratuito de gestión para los de menos ingresos."
    },
    {
     "cat": "otros",
-    "ref": "aa-eco-03",
-    "texto": "Crear una tasa turística."
+    "ref": "aa-eco-11",
+    "texto": "Gravamen permanente sobre los beneficios extraordinarios de la banca y las energéticas."
    },
    {
     "cat": "otros",
     "ref": "aa-san-03",
-    "texto": "Impuesto de retorno sanitario sobre el beneficio de la sanidad privada."
+    "texto": "Gravar los beneficios de la sanidad privada obtenidos con conciertos, con destino a investigación pública contra el cáncer."
+   },
+   {
+    "cat": "otros",
+    "ref": "aa-eco-03",
+    "texto": "Crear una tasa turística finalista."
+   },
+   {
+    "cat": "otros",
+    "ref": "aa-ins-03",
+    "texto": "Ninguna confesión tendrá privilegios fiscales ni simbólicos."
    }
   ],
   "alhora": [
@@ -153,6 +193,11 @@
     "cat": "otros",
     "ref": "bng-eco-02",
     "texto": "Crear una Hacienda gallega (Facenda Galega) con plena capacidad para una política fiscal propia."
+   },
+   {
+    "cat": "otros",
+    "ref": "bng-eco-09",
+    "texto": "Impulsar una «reindustrialización racional» con una fiscalidad en la que «pague más quien más tiene»."
    }
   ],
   "cc": [
@@ -332,9 +377,44 @@
   ],
   "iustitia": [
    {
+    "cat": "iva",
+    "ref": "iustitia-san-02",
+    "texto": "Aplicar IVA cero a los terapeutas."
+   },
+   {
     "cat": "autonomos",
     "ref": "iustitia-emp-01",
-    "texto": "Cuota cero a la Seguridad Social para los autónomos durante cuatro años."
+    "texto": "«Cuota cero» a la Seguridad Social para los autónomos durante los primeros cuatro años de actividad."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "iustitia-emp-03",
+    "texto": "Eliminar la obligación de pagar cuotas en los meses sin ingresos, con un modelo basado en ingresos reales."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "iustitia-eco-11",
+    "texto": "Suprimir los módulos y simplificar el sistema tributario de los autónomos para reducir burocracia."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "iustitia-emp-04",
+    "texto": "Incentivar el empleo autónomo con desgravaciones fiscales, sin depender de subvenciones públicas."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "iustitia-viv-02",
+    "texto": "Crear un plan de acceso a la primera vivienda para jóvenes y familias, con incentivos fiscales y menos cargas burocráticas para la compra."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "iustitia-viv-03",
+    "texto": "Suprimir el IVA en la compra de la primera vivienda."
+   },
+   {
+    "cat": "otros",
+    "ref": "iustitia-eco-12",
+    "texto": "Sustituir las subvenciones directas a empresas y sectores no estratégicos por reducciones fiscales."
    }
   ],
   "junts": [

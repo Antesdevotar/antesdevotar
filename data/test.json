@@ -38,7 +38,7 @@
       "aa-viv-01"
      ],
      "fuente": null,
-     "nota": "Propone limitar por ley el alquiler al 20% del salario medio de la zona."
+     "nota": "Propone un índice de referencia para que ningún alquiler supere el 20 % de la renta media de la zona."
     },
     "bildu": {
      "valor": 1,
@@ -396,10 +396,12 @@
      "nota": "Sin posición documentada"
     },
     "iustitia": {
-     "valor": null,
-     "ref": [],
+     "valor": 1,
+     "ref": [
+      "iustitia-viv-04"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone el desalojo en menos de 24 horas desde la denuncia y penas más duras contra la ocupación."
     },
     "junts": {
      "valor": 1,
@@ -516,10 +518,10 @@
     "aa": {
      "valor": 1,
      "ref": [
-      "aa-viv-02"
+      "aa-viv-11"
      ],
      "fuente": null,
-     "nota": "Propone expropiar el uso de viviendas vacías de bancos y fondos."
+     "nota": "Propone prohibir la compra de vivienda por fondos y sociedades mercantiles, salvo cooperativas y entidades sin ánimo de lucro."
     },
     "bildu": {
      "valor": 1,
@@ -1415,10 +1417,12 @@
    "contexto": "Es un impuesto cedido: varias comunidades lo han bonificado casi por completo y otras lo mantienen.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": -1,
+     "ref": [
+      "aa-eco-10"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone una tributación mínima en sucesiones y donaciones en todo el Estado."
     },
     "bildu": {
      "valor": -1,
@@ -2267,10 +2271,12 @@
    "contexto": "En 2026 el Gobierno aprobó por real decreto una regularización extraordinaria; en 2024 el Congreso tramitó una ILP con el mismo fin.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": -1,
+     "ref": [
+      "aa-inm-03"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone una regularización extraordinaria de personas migrantes."
     },
     "bildu": {
      "valor": -1,
@@ -2508,14 +2514,6 @@
    "texto": "Los españoles deberían tener prioridad sobre los extranjeros con residencia legal en el acceso a vivienda protegida y ayudas sociales.",
    "contexto": "Es la llamada 'prioridad nacional'. El Gobierno la considera contraria a la Constitución, que prohíbe discriminar por origen.",
    "posiciones": {
-    "aa": {
-     "valor": -1,
-     "ref": [
-      "aa-inm-01"
-     ],
-     "fuente": null,
-     "nota": "Rechaza culpar a los inmigrantes del malestar social."
-    },
     "bildu": {
      "valor": -1,
      "ref": [
@@ -3825,10 +3823,12 @@
    "contexto": "El aborto es legal en España desde 1985 (plazos desde 2010); en 2026 el Gobierno propuso incluirlo en el artículo 43.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": 1,
+     "ref": [
+      "aa-igu-04"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone blindar el derecho al aborto en la Constitución."
     },
     "bildu": {
      "valor": 1,
@@ -4257,10 +4257,12 @@
    "contexto": "Conocida como 'ley mordaza'; su reforma se tramitó desde 2024 pero no llegó a aprobarse.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": 1,
+     "ref": [
+      "aa-seg-02"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone derogar la «ley mordaza»."
     },
     "bildu": {
      "valor": 1,
@@ -4484,10 +4486,12 @@
    "contexto": "España alcanzó en 2025 el 2,1% del PIB y rechazó el objetivo del 5% acordado en la OTAN.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": -1,
+     "ref": [
+      "aa-ext-01"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Rechaza el plan europeo de «rearme» y el 5 % del PIB en gasto militar."
     },
     "bildu": {
      "valor": -1,
@@ -4706,10 +4710,12 @@
    "contexto": "España entró en la OTAN en 1982 y lo ratificó en referéndum en 1986; Podemos llevó al Congreso un nuevo referéndum en 2026.",
    "posiciones": {
     "aa": {
-     "valor": null,
-     "ref": [],
+     "valor": 1,
+     "ref": [
+      "aa-ext-02"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone un proceso que termine en un referéndum sobre la permanencia en la OTAN."
     },
     "bildu": {
      "valor": 1,
@@ -5576,10 +5582,10 @@
     "aa": {
      "valor": 1,
      "ref": [
-      "aa-eco-04"
+      "aa-ene-03"
      ],
      "fuente": null,
-     "nota": "Propone una empresa pública andaluza de energía renovable."
+     "nota": "Propone una empresa pública de energía renovable con filial andaluza."
     },
     "bildu": {
      "valor": 1,

@@ -9,8 +9,13 @@
  "color": "#38423F",
  "web": "https://adelanteandalucia.org/",
  "escanos_2023": 0,
- "resumen": "Propone gravar en Andalucía a las grandes empresas según lo que facturan allí, limitar por ley el alquiler al 20 % del salario medio de cada zona y eliminar los conciertos sanitarios. Fuente: declaraciones.",
+ "resumen": "Propone hacer el IRPF más progresivo, reformar el artículo 47 de la Constitución para que la vivienda sea derecho fundamental y crear un impuesto sobre la riqueza y la tierra. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Programa electoral Adelante Andalucía para el 29N (PDF, 719 medidas y «Las 29 del 29N»)",
+   "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+   "fecha": "2026-11-10"
+  },
   {
    "titulo": "Programa Adelante Andalucía 2026 (andaluzas): 50 medidas",
    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
@@ -27,38 +32,362 @@
    "fecha": "2026-10-16"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
-   "id": "aa-viv-01",
-   "area": "vivienda",
-   "texto": "Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona.",
-   "origen": "declaracion",
+   "id": "aa-san-05",
+   "area": "sanidad",
+   "texto": "Fijar por ley un gasto sanitario mínimo del 8 % del PIB y un gasto por habitante no inferior a la media de la UE.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "José Ignacio García, entrevista Europa Press (Última Hora)",
-    "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/28/2678649/adelante-andalucia-gobierno-sanchez-sera-fallido-arregla-problema-vivienda.html",
-    "fecha": "2026-07-28"
-   },
-   "destacada": true
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
   },
   {
-   "id": "aa-viv-02",
-   "area": "vivienda",
-   "texto": "Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar.",
-   "origen": "declaracion",
+   "id": "aa-san-06",
+   "area": "sanidad",
+   "texto": "Derogar la Ley 15/1997 y volver a la gestión pública de lo privatizado.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-01",
+   "area": "sanidad",
+   "texto": "Poner fin a los conciertos y externalizaciones sanitarias, con internalización de limpieza, mantenimiento, gestión telefónica y transporte sanitario urgente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
    },
+   "cambio": "Antes: Eliminar los conciertos y externalizaciones sanitarias y destinar el 100 % del presupuesto a la sanidad pública.",
    "destacada": true
+  },
+  {
+   "id": "aa-san-07",
+   "area": "sanidad",
+   "texto": "Integrar progresivamente MUFACE, ISFAS y MUGEJU en el Sistema Nacional de Salud.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-02",
+   "area": "sanidad",
+   "texto": "Ley de garantías de atención primaria: cita en 48 horas como máximo, 10 minutos mínimos por consulta y 1.500 pacientes como máximo por profesional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-san-08",
+   "area": "sanidad",
+   "texto": "Fijar por ley que el 25 % del gasto sanitario vaya a atención primaria y el 2 % a salud pública.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-09",
+   "area": "sanidad",
+   "texto": "Tiempos máximos estatales: 30 días para la primera consulta con especialista, 15 para una prueba diagnóstica y 120 para operarse.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-04",
+   "area": "sanidad",
+   "texto": "Incluir dentista, óptica, podología y nutrición en la cartera pública y garantizar el tratamiento del cáncer en 21 días como máximo desde el diagnóstico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 38-39",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-san-10",
+   "area": "sanidad",
+   "texto": "Cita en salud mental comunitaria en 15 días como máximo desde la derivación y hasta 18 psicólogos por 100.000 habitantes en atención primaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-01",
+   "area": "igualdad",
+   "texto": "Aborto en centros públicos de todas las provincias, sin conciertos ni copago, y sin subvenciones a quienes acosan a las mujeres que abortan.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Garantizar la interrupción voluntaria del embarazo en la sanidad pública y retirar fondos a organizaciones contrarias a los derechos reproductivos."
+  },
+  {
+   "id": "aa-igu-04",
+   "area": "igualdad",
+   "texto": "Blindar el derecho al aborto en la Constitución.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-11",
+   "area": "sanidad",
+   "texto": "Crear una farmacéutica pública estatal con sede en Andalucía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-04",
+   "area": "educacion",
+   "texto": "Subir la inversión por estudiante de 6.687 a 8.246 euros al final de la legislatura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-05",
+   "area": "educacion",
+   "texto": "Crear una sola red pública revisando los conciertos, retirando los de centros que segregan y eliminando progresivamente la concertada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-06",
+   "area": "educacion",
+   "texto": "Sacar la religión confesional del horario lectivo y del currículo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-07",
+   "area": "educacion",
+   "texto": "Gratuidad real: libros desde Infantil, transporte para Bachillerato, FP y universidad, y comedores gratuitos para rentas bajas y medias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-08",
+   "area": "educacion",
+   "texto": "Ratios máximas de 15 escolares en Infantil y Primaria, 20 en ESO, 25 en Bachillerato y 12 en FP.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-03",
+   "area": "educacion",
+   "texto": "Enfermera presencial en cada centro durante toda la jornada y comedores escolares con cocina en el centro, personal público y producto de cercanía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 44-45",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-edu-09",
+   "area": "educacion",
+   "texto": "Escuela infantil de 0 a 3 años universal, pública y gratuita, sin nuevos conciertos y con cuidado nocturno para familias con turnos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-02",
+   "area": "educacion",
+   "texto": "Plazas públicas de FP para toda la demanda, sin plazas privadas pagadas con dinero público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Blindar la FP pública y paralizar nuevas plazas de FP privada."
+  },
+  {
+   "id": "aa-edu-10",
+   "area": "educacion",
+   "texto": "Matrícula universitaria gratuita de forma progresiva, empezando por el grado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 47",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-edu-01",
+   "area": "educacion",
+   "texto": "Financiar las universidades públicas con el 2 % del PIB y la I+D+i con el 3 %, con al menos el 90 % ejecutado, y no autorizar universidades privadas nuevas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 47-48",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-viv-05",
+   "area": "vivienda",
+   "texto": "Reformar el artículo 47 de la Constitución para que la vivienda sea un derecho fundamental con recurso de amparo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-viv-06",
+   "area": "vivienda",
+   "texto": "Paralizar los lanzamientos de hogares vulnerables sin alternativa e ilegalizar la «desokupación».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-viv-07",
+   "area": "vivienda",
+   "texto": "Crear una constructora pública y reformar la VPO para evitar la especulación y que sea accesible.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, medida 01, p. 4",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-viv-01",
+   "area": "vivienda",
+   "texto": "Índice estatal de referencia por barrio o municipio para que ningún alquiler supere el 20 % de la renta media de la zona.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "José Ignacio García, entrevista Europa Press (Última Hora)",
+    "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/28/2678649/adelante-andalucia-gobierno-sanchez-sera-fallido-arregla-problema-vivienda.html",
+    "fecha": "2026-07-28"
+   },
+   "cambio": "Antes: Limitar por ley el alquiler a un máximo del 20 % del salario medio de cada zona.",
+   "destacada": true
+  },
+  {
+   "id": "aa-viv-08",
+   "area": "vivienda",
+   "texto": "Ampliar el parque público de alquiler hasta la media europea, con el 20 % en las zonas de más demanda y un gasto del 1,5 % del PIB.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
   },
   {
    "id": "aa-viv-03",
    "area": "vivienda",
-   "texto": "Incorporar el 100 % de los inmuebles de la Sareb al parque público de alquiler.",
-   "origen": "declaracion",
+   "texto": "Pasar el 100 % de las viviendas y suelos de la Sareb al alquiler asequible con gestión pública.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
@@ -67,120 +396,647 @@
   {
    "id": "aa-viv-04",
    "area": "vivienda",
-   "texto": "Obligar a que el 50 % de las viviendas de nuevas promociones privadas sean protegidas y reformar el modelo de VPO para hacerlo accesible.",
-   "origen": "declaracion",
+   "texto": "Que al menos la mitad de cada nueva promoción sea protegida y, de esa parte, un 60 % en alquiler social.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
+   },
+   "cambio": "Antes: Obligar a que el 50 % de las viviendas de nuevas promociones privadas sean protegidas y reformar el modelo de VPO para hacerlo accesible."
+  },
+  {
+   "id": "aa-viv-02",
+   "area": "vivienda",
+   "texto": "Alquilar a precio limitado, o pasar al parque público, las viviendas vacías más de un año de grandes tenedores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Expropiar el uso de viviendas vacías de grandes propietarios, bancos y fondos para alquilarlas a un máximo del 20 % de la renta del hogar."
+  },
+  {
+   "id": "aa-viv-09",
+   "area": "vivienda",
+   "texto": "Ninguna licencia de vivienda turística nueva en zonas tensionadas y retirada progresiva de las existentes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-viv-10",
+   "area": "vivienda",
+   "texto": "Prohibir nuevas hipotecas a tipo variable para la vivienda habitual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-viv-11",
+   "area": "vivienda",
+   "texto": "Prohibir la compra de vivienda por fondos y sociedades mercantiles, salvo cooperativas y entidades sin ánimo de lucro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-05",
+   "area": "igualdad",
+   "texto": "Pacto de Estado por la dependencia: el Estado financia el 50 % del sistema hasta llegar al 1,7 % del PIB.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-03",
+   "area": "igualdad",
+   "texto": "Valorar la dependencia en 150 días como máximo, con silencio positivo, y garantizar ayuda a domicilio pública según la necesidad real, sin minutaje.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Recuperar como servicios públicos los externalizados (112, 061, ayuda a domicilio) y valorar la dependencia en un máximo de 150 días."
+  },
+  {
+   "id": "aa-dem-03",
+   "area": "demografia",
+   "texto": "Prestación universal de 100 a 200 euros al mes por hijo hasta los 18 años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 54",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-pen-02",
+   "area": "pensiones",
+   "texto": "Revalorizar las pensiones con el IPC real por ley y blindar el sistema público en la Constitución.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-pen-03",
+   "area": "pensiones",
+   "texto": "Complemento estatal para que las pensiones mínimas igualen el SMI neto de 2026 (1.221 euros brutos en 14 pagas).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-pen-04",
+   "area": "pensiones",
+   "texto": "Jubilación completa sin coeficientes reductores con 40 años cotizados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-pen-01",
+   "area": "pensiones",
+   "texto": "Fijar la jubilación ordinaria a los 64 años y permitir la anticipada desde los 55 con contrato de relevo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "cambio": "Antes: Fijar la edad de jubilación en 62 años.",
+   "destacada": true
+  },
+  {
+   "id": "aa-pen-05",
+   "area": "pensiones",
+   "texto": "Financiar las pensiones con cotización proporcional a los ingresos reales, sin topes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-04",
+   "area": "instituciones",
+   "texto": "Suprimir la tasa de reposición, con el 100 % en servicios esenciales, y acabar con las subcontratas en el empleo público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 56",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-09",
+   "area": "economia",
+   "texto": "IRPF más progresivo: rebaja para rentas bajas, tipos más altos desde 100.000 euros al año y menos deducciones para rentas altas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "aa-eco-02",
+   "area": "economia",
+   "texto": "Crear un impuesto sobre la riqueza y la tierra que sustituya a Patrimonio y grave grandes fortunas, gran propiedad inmobiliaria y latifundios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-eco-10",
+   "area": "economia",
+   "texto": "Fijar una tributación mínima en sucesiones y donaciones en todo el Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-11",
+   "area": "economia",
+   "texto": "Gravamen permanente sobre los beneficios extraordinarios de la banca y las energéticas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
    }
   },
   {
    "id": "aa-eco-01",
    "area": "economia",
-   "texto": "Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza.",
-   "origen": "declaracion",
+   "texto": "Que las grandes empresas, incluidas las cadenas hoteleras, tributen según su actividad y empleo en cada territorio y no según su sede.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-eco-02",
-   "area": "economia",
-   "texto": "Impuesto a grandes fortunas y grandes propiedades inmobiliarias y agrícolas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-eco-03",
-   "area": "economia",
-   "texto": "Crear una tasa turística.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-eco-04",
-   "area": "economia",
-   "texto": "Crear una banca pública andaluza y una empresa pública de energía renovable.",
-   "origen": "declaracion",
-   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
    },
-   "destacada": true
+   "cambio": "Antes: Que las grandes empresas tributen en Andalucía en proporción a su facturación andaluza."
   },
   {
-   "id": "aa-eco-05",
+   "id": "aa-eco-12",
    "area": "economia",
-   "texto": "Red de supermercados públicos frente a la subida de precios de los alimentos.",
-   "origen": "declaracion",
+   "texto": "IVA superreducido para electricidad, agua, alimentos básicos, productos menstruales y cultura.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-13",
+   "area": "economia",
+   "texto": "Aplicar un IVA del 21 % al alquiler turístico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-san-03",
+   "area": "sanidad",
+   "texto": "Gravar los beneficios de la sanidad privada obtenidos con conciertos, con destino a investigación pública contra el cáncer.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
    }
   },
   {
-   "id": "aa-eco-06",
+   "id": "aa-eco-14",
    "area": "economia",
-   "texto": "Plan de protección a autónomos con vacaciones, permisos, ventanilla única y un marketplace andaluz.",
-   "origen": "declaracion",
+   "texto": "Excluir de la contratación pública a las empresas con filiales o cuentas en paraísos fiscales.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-eco-07",
-   "area": "economia",
-   "texto": "Plan de industrialización ecosocialista en las comarcas con más paro y revertir el cierre de Airbus en Puerto Real.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   }
-  },
-  {
-   "id": "aa-eco-08",
-   "area": "economia",
-   "texto": "Nuevo modelo turístico con reparto de beneficios, cooperativas turísticas y vacaciones subvencionadas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
+    "nombre": "Programa electoral 29N, p. 60",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
    }
   },
   {
    "id": "aa-deu-01",
    "area": "deuda",
-   "texto": "Auditoría de la deuda andaluza para identificar la parte considerada ilegítima.",
-   "origen": "declaracion",
+   "texto": "Auditoría ciudadana para identificar la deuda ilegítima por corrupción o por rescates privados.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 60",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
    }
   },
   {
+   "id": "aa-deu-02",
+   "area": "deuda",
+   "texto": "Reformar la senda de estabilidad para que no obligue a recortar servicios públicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 60",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-04",
+   "area": "economia",
+   "texto": "Crear una entidad de banca pública con control democrático que dé crédito a pymes, autónomos, cooperativas y vivienda pública.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 61",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Crear una banca pública andaluza y una empresa pública de energía renovable.",
+   "destacada": true
+  },
+  {
+   "id": "aa-eco-15",
+   "area": "economia",
+   "texto": "Presencia pública en energía, farmacia, alimentación y telecomunicaciones, y servicio funerario público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 61",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-07",
+   "area": "economia",
+   "texto": "Plan estatal de reindustrialización verde con inversión pública en las comarcas con más paro, pedidos públicos para astilleros y futuro para Airbus Puerto Real.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 62 y 125",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "cambio": "Antes: Plan de industrialización ecosocialista en las comarcas con más paro y revertir el cierre de Airbus en Puerto Real."
+  },
+  {
+   "id": "aa-eco-03",
+   "area": "economia",
+   "texto": "Crear una tasa turística finalista.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 62",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-eco-08",
+   "area": "economia",
+   "texto": "Plan de turismo para todas y todos: tributación de las cadenas hoteleras donde ganan, reparto de beneficios con sus plantillas, cooperativas turísticas y programa tipo Imserso para todas las edades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, medida 28, p. 31",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-emp-01",
+   "area": "empleo",
+   "texto": "Jornada de 32 horas sin rebaja de sueldo, en dos años para grandes empresas y cuatro para pymes, y prohibición del turno partido sin rebaja.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "aa-emp-03",
+   "area": "empleo",
+   "texto": "Indexar por ley los salarios y el salario mínimo a la inflación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-04",
+   "area": "empleo",
+   "texto": "Encarecer el despido: 50 días por año en el indefinido y 60 en el temporal, con autorización de la Inspección.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-05",
+   "area": "empleo",
+   "texto": "Que el convenio sectorial prevalezca y el de empresa solo pueda mejorarlo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-06",
+   "area": "empleo",
+   "texto": "Prohibir las horas extra salvo emergencia o fuerza mayor, con registro horario real.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-07",
+   "area": "empleo",
+   "texto": "Que ninguna persona cobre más de cinco veces el salario más bajo de su empresa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-08",
+   "area": "empleo",
+   "texto": "Mismo salario en toda la cadena de subcontratación y paso a la plantilla principal tras un año en el mismo centro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-09",
+   "area": "empleo",
+   "texto": "Repartir la productividad de la IA y los robots con menos jornada y cotización a la Seguridad Social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-02",
+   "area": "empleo",
+   "texto": "Más inspección de trabajo, con plan extraordinario en hostelería y turismo, y sin contratos públicos para empresas condenadas por abusos laborales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 64",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "cambio": "Antes: Plan de calidad del empleo en hostelería y turismo y más inspección en la subcontratación naval."
+  },
+  {
+   "id": "aa-igu-06",
+   "area": "igualdad",
+   "texto": "Renta básica universal e incondicional igual al umbral de la pobreza, financiada con la reforma fiscal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 66",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-emp-10",
+   "area": "empleo",
+   "texto": "Incapacidad temporal pagada al 100 % desde el primer día, sin depender del convenio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 66",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-06",
+   "area": "economia",
+   "texto": "Cuota de autónomos según ingresos reales, bonificada en vacaciones y al 100 % en permisos por nacimiento, y organismo público gratuito de gestión para los de menos ingresos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 67",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Plan de protección a autónomos con vacaciones, permisos, ventanilla única y un marketplace andaluz."
+  },
+  {
+   "id": "aa-eco-16",
+   "area": "economia",
+   "texto": "Protección por cese de actividad de los autónomos equivalente a la de los asalariados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 67",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-05",
+   "area": "economia",
+   "texto": "Crear una red de supermercados públicos de productos de cercanía sin intermediarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-rur-02",
+   "area": "rural",
+   "texto": "Prohibir de forma efectiva la venta a pérdidas y fijar precios justos en origen en la cadena alimentaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "cambio": "Antes: Limitar lo que considera abusos de la gran distribución y favorecer a pequeños agricultores frente a grandes propietarios y fondos."
+  },
+  {
+   "id": "aa-rur-03",
+   "area": "rural",
+   "texto": "Ligar las ayudas de la PAC al empleo y al territorio y no a las hectáreas, y dividir Andalucía en varias regiones productivas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-rur-01",
+   "area": "rural",
+   "texto": "Ley de soberanía alimentaria con uso cooperativo de las tierras infrautilizadas de grandes propietarios y fondos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Ley de soberanía alimentaria con expropiación de tierras de grandes terratenientes y fondos."
+  },
+  {
+   "id": "aa-rur-04",
+   "area": "rural",
+   "texto": "Paralizar la expansión del olivar superintensivo hasta evaluar agua e insumos y no dar ayudas a fondos de inversión.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
    "id": "aa-ter-01",
    "area": "territorio",
-   "texto": "Reformar la financiación autonómica por infrafinanciación de Andalucía, rechazando el principio de ordinalidad.",
-   "origen": "declaracion",
+   "texto": "Reformar la financiación autonómica sin ordinalidad, de modo que las comunidades más ricas no sigan recibiendo más, y con población ajustada por criterios sociales.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 72",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
@@ -188,25 +1044,747 @@
    "destacada": true
   },
   {
+   "id": "aa-ter-05",
+   "area": "territorio",
+   "texto": "Destinar al fondo de garantía autonómico al menos el 55 % del IRPF y el 70 % del IVA e impuestos especiales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-deu-03",
+   "area": "deuda",
+   "texto": "Condonar la parte de la deuda causada por la infrafinanciación y llevar sus intereses hacia el 0 %.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-06",
+   "area": "territorio",
+   "texto": "Máximo nivel de autonomía, competencias y financiación para Andalucía como «nacionalidad histórica» en cualquier reforma constitucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 73",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-07",
+   "area": "territorio",
+   "texto": "Plantear como horizonte un modelo confederal, un Estado de pueblos libres e iguales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 73",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-03",
+   "area": "territorio",
+   "texto": "Traspasar Cercanías y media distancia a Andalucía con financiación, y dotar de cercanías o media distancia a las localidades de más de 20.000 habitantes en diez años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 73 y 78",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-ter-08",
+   "area": "territorio",
+   "texto": "Gestión exclusiva de la cuenca del Guadalquivir por la Junta de Andalucía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 73",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-seg-01",
+   "area": "seguridad",
+   "texto": "Desplegar progresivamente una policía autonómica andaluza coordinada con otros cuerpos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 73",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-09",
+   "area": "territorio",
+   "texto": "Traspasar la Inspección de Trabajo a Andalucía, coordinada con la estatal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 73",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
    "id": "aa-ter-02",
    "area": "territorio",
-   "texto": "Más inversión estatal en Andalucía y cumplimiento de lo presupuestado, frente a una ejecución que cifra en el 42 %.",
-   "origen": "programa-2023",
+   "texto": "Inversión estatal en Andalucía según población y ejecutada, con partidas identificables, comisión de seguimiento e informe anual al Congreso, y plan para compensar el déficit acumulado.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 75",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
+    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
+    "fecha": "2023-07-10"
+   },
+   "cambio": "Antes: Más inversión estatal en Andalucía y cumplimiento de lo presupuestado, frente a una ejecución que cifra en el 42 %."
+  },
+  {
+   "id": "aa-dem-01",
+   "area": "demografia",
+   "texto": "Plan retorno con apoyo y descuentos en el transporte para andaluces emigrados que quieran volver.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 76",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Plan de retorno para andaluces emigrados con subvención del 50 % en los billetes de transporte."
+  },
+  {
+   "id": "aa-ter-10",
+   "area": "territorio",
+   "texto": "Priorizar el tren convencional: recuperar líneas en desuso, destinar la mitad de los fondos de alta velocidad a cercanías y mantenimiento y cercanías cada 15 minutos en hora punta.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 78",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-11",
+   "area": "territorio",
+   "texto": "Cercanías en las ocho provincias andaluzas: mejorar Sevilla, Málaga y Cádiz e implantarlas en Córdoba, Almería, Granada, Huelva y Jaén.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 78",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-eco-17",
+   "area": "economia",
+   "texto": "Desprivatizar el sistema ferroviario: revertir la liberalización, acabar con las externalizaciones y aumentar la plantilla en Adif y Renfe.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 78",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "destacada": true
+  },
+  {
+   "id": "aa-ter-12",
+   "area": "territorio",
+   "texto": "Abono único andaluz para autobús, metro, cercanías, media distancia y Avant, con descuentos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 80",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-02",
+   "area": "energia",
+   "texto": "Ley de emergencia climática con objetivos anuales verificables de emisiones y un mínimo del 2 % del PIB para políticas ambientales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-03",
+   "area": "energia",
+   "texto": "Crear una empresa pública de energía renovable con filial andaluza y recuperar para lo público redes y grandes centrales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-04",
+   "area": "energia",
+   "texto": "Prohibir cortar luz y gas por impago a hogares vulnerables y conceder de oficio el bono social al 100 %.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-01",
+   "area": "energia",
+   "texto": "Planificar las renovables con zonas de exclusión y moratoria a las macroplantas en suelo rural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Planificación democrática de las renovables y transformación local de minerales para abandonar el modelo extractivo."
+  },
+  {
+   "id": "aa-ene-05",
+   "area": "energia",
+   "texto": "Salir del gas en el sistema eléctrico en 2030 y descarbonizar la industria en 2035, sin nuevas infraestructuras gasistas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-06",
+   "area": "energia",
+   "texto": "Fin de las subvenciones a fósiles y nuclear, Andalucía libre de fracking y cierre ordenado de El Cabril.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-07",
+   "area": "energia",
+   "texto": "Ley del ciclo del agua con caudales ecológicos, freno al regadío intensivo, sin trasvases ni compraventa de derechos y con cierre de pozos ilegales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 84",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ene-08",
+   "area": "energia",
+   "texto": "Ley de Doñana de protección frente a la sobreexplotación del agua y personalidad jurídica propia para el espacio, como la del Mar Menor.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 85",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-rur-05",
+   "area": "rural",
+   "texto": "Crear un banco público de tierras para facilitar el acceso a jóvenes y mujeres.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 87",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-01",
+   "area": "instituciones",
+   "texto": "Ley contra los «privilegios políticos»: cargos que cobran lo que cobraban, mandatos limitados y revocables, dietas con factura y fin de las pagas vitalicias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-ins-05",
+   "area": "instituciones",
+   "texto": "Limitar y hacer revocables los mandatos de los cargos públicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-06",
+   "area": "instituciones",
+   "texto": "Suprimir los aforamientos de Congreso, Senado, Gobierno y Corona mediante reforma constitucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-07",
+   "area": "instituciones",
+   "texto": "Crear una autoridad independiente contra la corrupción, con protección para quien denuncie.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 91",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-08",
+   "area": "instituciones",
+   "texto": "Prohibir el indulto en delitos de corrupción.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 91",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-09",
+   "area": "instituciones",
+   "texto": "Elección directa del CGPJ y, mientras tanto, mejorar la elección parlamentaria con mérito, capacidad y paridad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-10",
+   "area": "instituciones",
+   "texto": "Fiscal General elegido por el Congreso por mayoría reforzada, con mandato largo y no renovable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ter-13",
+   "area": "territorio",
+   "texto": "Convertir el Senado en una cámara de comunidades y nacionalidades cuyos miembros rindan cuentas a sus parlamentos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-seg-02",
+   "area": "seguridad",
+   "texto": "Derogar la ley mordaza y anular las sanciones por protestar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 94",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-seg-03",
+   "area": "seguridad",
+   "texto": "Prohibir las pelotas de goma y acabar con la presunción de veracidad policial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 94",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-seg-04",
+   "area": "seguridad",
+   "texto": "Disolver los grupos neonazis y las entidades que glorifiquen el nazismo, el fascismo o el franquismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 94",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-11",
+   "area": "instituciones",
+   "texto": "Derogar la prisión permanente revisable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 94",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-cul-03",
+   "area": "cultura",
+   "texto": "RTVE independiente, con nombramientos por mérito y mayorías amplias y financiación plurianual estable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 95",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-02",
+   "area": "instituciones",
+   "texto": "Publicidad institucional con criterios objetivos y portal público, y sin contratos con medios que difundan bulos de forma reiterada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 95",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "aa-cul-04",
+   "area": "cultura",
+   "texto": "Prohibir que los bancos y su accionariado controlen medios de comunicación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 95",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ins-03",
+   "area": "instituciones",
+   "texto": "Ninguna confesión tendrá privilegios fiscales ni simbólicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 96",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
     "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
     "fecha": "2023-07-10"
    }
   },
   {
-   "id": "aa-ter-03",
-   "area": "territorio",
-   "texto": "Reclamar las competencias ferroviarias del Estatuto y tren para localidades de más de 20.000 habitantes.",
-   "origen": "declaracion",
+   "id": "aa-ins-12",
+   "area": "instituciones",
+   "texto": "Suprimir el delito de ofensa religiosa del Código Penal.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 96",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-07",
+   "area": "igualdad",
+   "texto": "Pacto de Estado contra la violencia machista con financiación finalista y plurianual que llegue a los ayuntamientos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 98",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-08",
+   "area": "igualdad",
+   "texto": "Tipificar el feminicidio como delito propio en el Código Penal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 98",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-09",
+   "area": "igualdad",
+   "texto": "Prohibir la gestación subrogada y reforzar la adopción pública.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 98",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-10",
+   "area": "igualdad",
+   "texto": "Permisos de nacimiento iguales, intransferibles y pagados al 100 %: seis meses y, después, un año.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 100",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-igu-02",
+   "area": "igualdad",
+   "texto": "Plan estatal contra la LGTBIfobia con protección a víctimas y protocolos en centros educativos, deporte y residencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 104",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
+   },
+   "cambio": "Antes: Plan para eliminar la LGTBIfobia y crear un departamento de Feminismos."
+  },
+  {
+   "id": "aa-igu-11",
+   "area": "igualdad",
+   "texto": "Reservar el 1 % de las plazas de la Administración General del Estado para personas trans.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 104",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-02",
+   "area": "inmigracion",
+   "texto": "Derogar la Ley de Extranjería y aprobar una nueva ley basada en derechos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-03",
+   "area": "inmigracion",
+   "texto": "Regularización extraordinaria de personas migrantes, en la línea de la iniciativa popular «¡Regularización Ya!».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-04",
+   "area": "inmigracion",
+   "texto": "Poner fin a las devoluciones en caliente suprimiendo la disposición que las ampara.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-05",
+   "area": "inmigracion",
+   "texto": "Cerrar los CIE, empezando por el de Algeciras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-06",
+   "area": "inmigracion",
+   "texto": "Tutela automática de la infancia migrante, pacto de Estado con financiación y permiso de residencia al cumplir los 18 años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-inm-07",
+   "area": "inmigracion",
+   "texto": "Voto en elecciones locales para las personas extranjeras residentes mediante la ratificación del convenio europeo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 106",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-01",
+   "area": "exterior",
+   "texto": "Rechazar el plan europeo de «rearme» y el 5 % del PIB en gasto militar de la OTAN, y publicar el gasto militar real.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 109",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-02",
+   "area": "exterior",
+   "texto": "Abrir un proceso que termine en un referéndum sobre la permanencia de España en la OTAN.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 109",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-03",
+   "area": "exterior",
+   "texto": "Renegociar los convenios para cerrar las bases de Rota y Morón y adherir España al Tratado sobre la Prohibición de las Armas Nucleares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 109",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-04",
+   "area": "exterior",
+   "texto": "Romper relaciones con Israel mientras dure la ocupación y juzgar a sus dirigentes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, medida 29, p. 32",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-05",
+   "area": "exterior",
+   "texto": "Embargo total de armas a Israel, incluido el material de doble uso, y suspensión del acuerdo entre la UE e Israel.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 109",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-ext-06",
+   "area": "exterior",
+   "texto": "Volver a la posición española sobre el Sáhara anterior a 2022 y respetar las sentencias europeas, también en pesca.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 109",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-cul-02",
+   "area": "cultura",
+   "texto": "Devolver, o compartir la custodia de, la Dama de Baza y los Murillo de Santa María la Blanca y Los Venerables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 114",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
+    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
+    "fecha": "2026-05"
+   },
+   "cambio": "Antes: Reclamar la devolución de obras de arte andaluzas fuera de Andalucía, red de salas de conciertos y escuela pública de cine andaluz."
+  },
+  {
+   "id": "aa-cul-05",
+   "area": "cultura",
+   "texto": "Crear una institución de las hablas andaluzas que las estudie, documente y promueva, sin imponer una sola forma de hablar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 115",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-tec-01",
+   "area": "tecnologia",
+   "texto": "Software libre y estándares abiertos en las administraciones, con repositorio público de código.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 116",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-tec-02",
+   "area": "tecnologia",
+   "texto": "Registro público de algoritmos de la administración y auditoría independiente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 116",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
+   }
+  },
+  {
+   "id": "aa-cul-06",
+   "area": "cultura",
+   "texto": "Derogar la Ley 18/2013 sobre la tauromaquia y retirar toda subvención pública, incluida la de las escuelas taurinas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 120",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "fecha": "2026-11-10"
    }
   },
   {
@@ -222,151 +1800,6 @@
    "destacada": true
   },
   {
-   "id": "aa-emp-01",
-   "area": "empleo",
-   "texto": "Semana laboral de 32 horas sin reducción de sueldo.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   },
-   "destacada": true
-  },
-  {
-   "id": "aa-emp-02",
-   "area": "empleo",
-   "texto": "Plan de calidad del empleo en hostelería y turismo y más inspección en la subcontratación naval.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   }
-  },
-  {
-   "id": "aa-pen-01",
-   "area": "pensiones",
-   "texto": "Fijar la edad de jubilación en 62 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   },
-   "destacada": true
-  },
-  {
-   "id": "aa-san-01",
-   "area": "sanidad",
-   "texto": "Eliminar los conciertos y externalizaciones sanitarias y destinar el 100 % del presupuesto a la sanidad pública.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-san-02",
-   "area": "sanidad",
-   "texto": "Atención primaria con un mínimo de 10 minutos por consulta, máximo de 1.500 pacientes por profesional y cita en 48 horas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-san-03",
-   "area": "sanidad",
-   "texto": "Impuesto de retorno sanitario sobre el beneficio de la sanidad privada.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-san-04",
-   "area": "sanidad",
-   "texto": "Incluir salud visual, dental, podología y nutrición en la sanidad pública, y tratamiento del cáncer en 21 días desde su detección.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-edu-01",
-   "area": "educacion",
-   "texto": "Financiación de las universidades públicas y prohibición de nuevas universidades privadas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-edu-02",
-   "area": "educacion",
-   "texto": "Blindar la FP pública y paralizar nuevas plazas de FP privada.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-edu-03",
-   "area": "educacion",
-   "texto": "Comedores escolares públicos con cocina propia y enfermería escolar presencial en cada centro.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-igu-01",
-   "area": "igualdad",
-   "texto": "Garantizar la interrupción voluntaria del embarazo en la sanidad pública y retirar fondos a organizaciones contrarias a los derechos reproductivos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-igu-02",
-   "area": "igualdad",
-   "texto": "Plan para eliminar la LGTBIfobia y crear un departamento de Feminismos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-igu-03",
-   "area": "igualdad",
-   "texto": "Recuperar como servicios públicos los externalizados (112, 061, ayuda a domicilio) y valorar la dependencia en un máximo de 150 días.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
    "id": "aa-inm-01",
    "area": "inmigracion",
    "texto": "Rechazar que se culpe a inmigrantes y pobres del malestar social y dirigir la crítica hacia los poderosos.",
@@ -375,74 +1808,9 @@
     "nombre": "elDiario.es, 16-10-2026",
     "url": "https://www.eldiario.es/andalucia/adelante-andalucia-prescinde-fichajes-estrella-tira-militantes-base-candidatura-solitario-generales_1_13590162.html",
     "fecha": "2026-10-16"
-   }
-  },
-  {
-   "id": "aa-rur-01",
-   "area": "rural",
-   "texto": "Ley de soberanía alimentaria con expropiación de tierras de grandes terratenientes y fondos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
    },
-   "destacada": true
-  },
-  {
-   "id": "aa-rur-02",
-   "area": "rural",
-   "texto": "Limitar lo que considera abusos de la gran distribución y favorecer a pequeños agricultores frente a grandes propietarios y fondos.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   }
-  },
-  {
-   "id": "aa-ene-01",
-   "area": "energia",
-   "texto": "Planificación democrática de las renovables y transformación local de minerales para abandonar el modelo extractivo.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-ins-01",
-   "area": "instituciones",
-   "texto": "Ley contra los «privilegios políticos» con limitación de mandatos, transparencia salarial y justificación de dietas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-ins-02",
-   "area": "instituciones",
-   "texto": "Prohibir la contratación de publicidad institucional con medios que difundan desinformación.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-ins-03",
-   "area": "instituciones",
-   "texto": "Acabar con lo que califica de privilegios de la jerarquía de la Iglesia católica.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía generales 23J (Diario Bahía de Cádiz)",
-    "url": "https://diariobahiadecadiz.com/el-resto-del-mundo/programa-electoral-de-adelante-andalucia-para-elecciones-generales-2023",
-    "fecha": "2023-07-10"
-   }
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "aa-cul-01",
@@ -453,29 +1821,9 @@
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-cul-02",
-   "area": "cultura",
-   "texto": "Reclamar la devolución de obras de arte andaluzas fuera de Andalucía, red de salas de conciertos y escuela pública de cine andaluz.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
-  },
-  {
-   "id": "aa-dem-01",
-   "area": "demografia",
-   "texto": "Plan de retorno para andaluces emigrados con subvención del 50 % en los billetes de transporte.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
-    "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
-    "fecha": "2026-05"
-   }
+   },
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "aa-dem-02",
@@ -486,14 +1834,16 @@
     "nombre": "Programa Adelante Andalucía 2026 (andaluzas 17M): 50 medidas",
     "url": "https://www.lavozdelsur.es/uploads/s1/34/80/94/5/50-medidas-que-juanma-no-hari-a-adelante-andaluci-a.pdf",
     "fecha": "2026-05"
-   }
+   },
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   }
  ],
  "criticas": {
   "economica": [
    {
     "titulo": "Topes al alquiler y caída de la oferta",
-    "texto": "Un balance empírico de Fedea sobre la Ley de Vivienda en Cataluña encuentra que los topes moderaron las subidas pero redujeron la oferta de alquiler más de un 20 % y multiplicaron la competencia por cada vivienda, perjudicando a quienes buscan piso. Un tope del 20 % del salario medio sería aún más restrictivo.",
+    "texto": "Un balance empírico de Fedea sobre la Ley de Vivienda en Cataluña encuentra que los topes moderaron las subidas pero redujeron la oferta de alquiler más de un 20 % y multiplicaron la competencia por cada vivienda, perjudicando a quienes buscan piso. Un tope del 20 % de la renta media de la zona sería aún más restrictivo.",
     "sobre": [
      "aa-viv-01"
     ],
@@ -503,10 +1853,11 @@
     }
    },
    {
-    "titulo": "Jubilación a los 62 años",
-    "texto": "Fedea calcula que el sistema ya promete pensiones que superan en torno a un 25 % a las cotizaciones en valor presente; adelantar la edad ordinaria cinco años elevaría mucho el gasto y reduciría la población ocupada en pleno envejecimiento.",
+    "titulo": "Jubilación ordinaria a los 64 años",
+    "texto": "Fedea calcula que el sistema ya promete pensiones que superan en torno a un 25 % a las cotizaciones en valor presente. Fijar la edad ordinaria en 64 años (hoy camina hacia los 67, o 65 con carreras largas), permitir la anticipada desde los 55 con contrato de relevo y la completa con 40 años cotizados elevaría el gasto y reduciría la población ocupada en pleno envejecimiento.",
     "sobre": [
-     "aa-pen-01"
+     "aa-pen-01",
+     "aa-pen-04"
     ],
     "fuente": {
      "nombre": "Devesa et al., Fedea (2025)",
@@ -527,11 +1878,10 @@
   ],
   "social": [
    {
-    "titulo": "Expropiaciones y seguridad jurídica",
-    "texto": "La expropiación del uso de viviendas y tierras exige indemnización conforme al art. 33 de la Constitución; el programa no cuantifica ese coste y la incertidumbre regulatoria puede retraer la inversión en vivienda en alquiler, como advierte el Banco de España.",
+    "titulo": "Veto a la compra de vivienda por empresas y seguridad jurídica",
+    "texto": "Prohibir que fondos y sociedades mercantiles compren vivienda limita el derecho de propiedad y la libertad de empresa (arts. 33 y 38 de la Constitución), que la ley puede delimitar por su función social sin vaciarlos de contenido. El programa no evalúa su efecto sobre la oferta, y la incertidumbre regulatoria puede retraer la inversión en vivienda en alquiler, como advierte el Banco de España.",
     "sobre": [
-     "aa-viv-02",
-     "aa-rur-01"
+     "aa-viv-11"
     ],
     "fuente": {
      "nombre": "Banco de España, Informe Anual 2023, cap. 4 (mercado de la vivienda)",
@@ -551,11 +1901,10 @@
   ],
   "cultural": [
    {
-    "titulo": "Prohibir universidades y FP privadas",
-    "texto": "Prohibir nuevas universidades y plazas de FP privadas choca con la libertad de creación de centros docentes del art. 27.6 de la Constitución y limitaría la oferta en titulaciones con alta demanda insatisfecha en la red pública.",
+    "titulo": "No autorizar universidades privadas nuevas",
+    "texto": "No autorizar ninguna universidad privada nueva choca con la libertad de creación de centros docentes del art. 27.6 de la Constitución, que la ley puede someter a requisitos pero no suprimir, y limitaría la oferta en titulaciones con alta demanda insatisfecha en la red pública.",
     "sobre": [
-     "aa-edu-01",
-     "aa-edu-02"
+     "aa-edu-01"
     ],
     "fuente": {
      "nombre": "Constitución Española, art. 27.6",
@@ -564,7 +1913,7 @@
    },
    {
     "titulo": "Publicidad institucional y desinformación",
-    "texto": "Excluir de la publicidad institucional a medios que «difundan desinformación» requiere un órgano que decida qué es desinformación, lo que plantea riesgos de discrecionalidad y de condicionar la línea editorial.",
+    "texto": "Excluir de los contratos de publicidad institucional a medios que «difundan bulos de forma reiterada» requiere un órgano que decida qué es un bulo, algo que el programa no concreta, lo que plantea riesgos de discrecionalidad y de condicionar la línea editorial.",
     "sobre": [
      "aa-ins-02"
     ],
@@ -575,7 +1924,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-13",
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "Almería",
@@ -591,5 +1940,11 @@
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
+ },
+ "programa_2026": {
+  "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+  "fecha_publicacion": "2026-11-10",
+  "paginas": 133,
+  "incorporado": "2026-11-13"
  }
 }
