@@ -167,55 +167,60 @@
    "avales": []
   },
   "vox": {
-   "valoracion": "Choque frontal con derechos fundamentales en inmigración y asilo (expulsiones colectivas, bloqueo naval, repatriación de menores sin examen individual) y en igualdad (preferencia por nacionalidad). También hay preocupaciones serias en pluralismo político, justicia juvenil, aborto y memoria. Dos avales: su propuesta para el CGPJ y la limitación sanitaria, que el TC ya admitió en 2016.",
+   "valoracion": "Choque frontal con derechos fundamentales en inmigración (expulsiones y repatriaciones generalizadas, «remigración», devolución de menores sin examen individual) y en igualdad (preferencia por nacionalidad en vivienda, ayudas y educación). También hay preocupaciones serias en pluralismo político, justicia juvenil y memoria. Dos avales: su propuesta para el CGPJ y, con matices, la limitación sanitaria, que el TC ya admitió en 2016.",
    "criticas": [
     {
-     "titulo": "Expulsiones colectivas, bloqueo naval y repatriación de menores",
-     "texto": "Interceptar y devolver embarcaciones en el mar sin examinar cada caso vulnera el principio de no devolución: el TEDH condenó a Italia por devolver a Libia a personas rescatadas en alta mar. Los «procesos de remigración» y las expulsiones generalizadas chocan con la prohibición de expulsiones colectivas y, en el caso de los residentes de larga duración, con su protección reforzada frente a la expulsión. Cerrar los centros y repatriar a los menores no acompañados sin valorar individualmente su interés superior es lo que el Supremo declaró ilegal en Ceuta (2024).",
+     "titulo": "Expulsiones colectivas, «remigración» y repatriación de menores",
+     "texto": "La repatriación de todos los que estén en situación irregular, los «procesos de remigración» y las deportaciones por delitos leves o por «imponer costumbres» chocan con la prohibición de expulsiones colectivas, que exige examinar cada caso, y, en el caso de los residentes de larga duración, con su protección reforzada frente a la expulsión. El programa invoca el «interés superior del menor» para devolver a los menores no acompañados, pero ese interés exige una valoración individual: las devoluciones de Ceuta sin ella fueron declaradas ilegales por el Supremo (2024).",
      "gravedad": "alta",
-     "criterio": "CEDH, Protocolo 4, art. 4; TEDH, Hirsi Jamaa y otros c. Italia (Gran Sala, 2012); Convención de Ginebra 1951, art. 33; Carta UE, art. 19; CDN, art. 3; Directiva 2003/109/CE, art. 12",
+     "criterio": "CEDH, Protocolo 4, art. 4; Convención de Ginebra 1951, art. 33; Carta UE, art. 19; CDN, art. 3; Directiva 2003/109/CE, art. 12",
      "sobre": [
-      "vox-inm-01",
       "vox-inm-03",
-      "vox-inm-04",
-      "vox-inm-06"
+      "vox-inm-06",
+      "vox-inm-12",
+      "vox-inm-13"
      ],
      "fuente": {
       "nombre": "Consejo de Europa, prohibición de expulsiones colectivas (jurisprudencia del TEDH)",
       "url": "https://www.coe.int/web/human-rights-convention/prohibition-of-collective-expulsions"
-     }
+     },
+     "revisado": "2026-11-13"
     },
     {
-     "titulo": "«Prioridad nacional» por nacionalidad y exclusión del padrón",
-     "texto": "Dar preferencia a los españoles en vivienda protegida y ayudas es una discriminación directa por nacionalidad. La Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en asistencia social y vivienda, y el TJUE considera discriminatorio incluso un requisito de residencia de diez años. Impedir el empadronamiento choca con la obligación legal de empadronarse y corta el acceso a servicios como la escolarización de menores, un derecho que el TC reconoce también a los extranjeros en situación irregular.",
+     "titulo": "«Prioridad nacional» por nacionalidad en vivienda, ayudas y educación",
+     "texto": "Dar preferencia a los españoles en vivienda protegida, ayudas sociales, Ingreso Mínimo Vital, guarderías, becas y elección de centro es una discriminación directa por nacionalidad. La Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en educación y becas, asistencia y protección social y vivienda, y el TJUE considera discriminatorio incluso un requisito de residencia de diez años.",
      "gravedad": "alta",
-     "criterio": "Arts. 13, 14 y 27 CE; STC 236/2007; Directiva 2003/109/CE, art. 11; TJUE, Kamberaj (C-571/10, 2012) y C-112/22 (2024); Ley 7/1985, art. 15",
+     "criterio": "Arts. 13 y 14 CE; Directiva 2003/109/CE, art. 11; TJUE, Kamberaj (C-571/10, 2012) y C-112/22 (2024)",
      "sobre": [
       "vox-viv-02",
-      "vox-inm-05"
+      "vox-viv-09",
+      "vox-inm-16",
+      "vox-inm-19",
+      "vox-edu-13"
      ],
      "fuente": {
       "nombre": "TJUE, comunicado sobre los asuntos C-112/22 y C-223/22",
       "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-07/cp240115en.pdf"
-     }
+     },
+     "revisado": "2026-11-13"
     },
     {
-     "titulo": "Ilegalizar partidos por sus fines y suspender autonomías",
-     "texto": "El TC estableció que España no es una «democracia militante»: solo se puede ilegalizar un partido por sus conductas (apoyo a la violencia o al terrorismo), no por defender fines como la independencia por vías pacíficas. El art. 155 CE permite medidas concretas y temporales, no suspender la autonomía como tal.",
+     "titulo": "Ilegalizar partidos «que atenten contra la soberanía»",
+     "texto": "El TC estableció que España no es una «democracia militante»: solo se puede ilegalizar un partido por sus conductas (apoyo a la violencia o al terrorismo), no por defender fines como la independencia por vías pacíficas. El programa no concreta qué conductas supondrían «atentar contra la soberanía».",
      "gravedad": "media",
-     "criterio": "Arts. 6, 22 y 155 CE; STC 48/2003; STC 42/2014; STC 89/2019",
+     "criterio": "Arts. 6 y 22 CE; STC 48/2003; STC 42/2014",
      "sobre": [
-      "vox-ter-03",
       "vox-ter-04"
      ],
      "fuente": {
       "nombre": "STC 48/2003 (BOE, Tribunal Constitucional)",
       "url": "https://hj.tribunalconstitucional.es/HJ/docs/BOE/BOE-T-2003-5300.pdf"
-     }
+     },
+     "revisado": "2026-11-13"
     },
     {
-     "titulo": "Bajar la edad penal a 12 años",
-     "texto": "El Comité de los Derechos del Niño de la ONU pide fijar la edad mínima de responsabilidad penal en al menos 14 años y no rebajarla donde ya es mayor. En España es de 14 años desde la LO 5/2000.",
+     "titulo": "Rebajar la edad de responsabilidad penal del menor",
+     "texto": "El Comité de los Derechos del Niño de la ONU pide fijar la edad mínima de responsabilidad penal en al menos 14 años y no rebajarla donde ya es mayor. En España es de 14 años desde la LO 5/2000; el programa propone reducirla, sin fijar edad, y estudiar eliminar la inimputabilidad en ciertos delitos violentos.",
      "gravedad": "media",
      "criterio": "Convención sobre los Derechos del Niño, art. 40.3; Comité DN, Observación general n.º 24 (2019), CRC/C/GC/24",
      "sobre": [
@@ -224,7 +229,8 @@
      "fuente": {
       "nombre": "ONU, Observación general n.º 24 (2019)",
       "url": "https://digitallibrary.un.org/record/3899429"
-     }
+     },
+     "revisado": "2026-11-13"
     },
     {
      "titulo": "Derogar la ley del aborto",
@@ -237,10 +243,12 @@
      "fuente": {
       "nombre": "LegalToday, 9-5-2023",
       "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-tribunal-constitucional-reconoce-el-derecho-al-aborto-dentro-de-las-primeras-catorce-semanas-de-gestacion-2023-05-09/"
-     }
+     },
+     "estado": "obsoleta",
+     "revisado": "2026-11-13"
     },
     {
-     "titulo": "Leyes de «concordia» y derogación de la memoria democrática",
+     "titulo": "Leyes de «concordia» y superación de la memoria democrática",
      "texto": "Vox impulsó con el PP las leyes de concordia de Aragón, Castilla y León y la Comunidad Valenciana. Tres procedimientos especiales de la ONU advirtieron en 2024 de que podían limitar el derecho a la verdad y a la reparación de las víctimas y el asociacionismo memorialista.",
      "gravedad": "media",
      "criterio": "Obligaciones internacionales de verdad, justicia, reparación y no repetición; comunicación conjunta de procedimientos especiales de la ONU (mayo de 2024)",
@@ -250,7 +258,8 @@
      "fuente": {
       "nombre": "El Independiente, 3-5-2024",
       "url": "https://www.elindependiente.com/espana/2024/05/03/la-onu-reprueba-a-espana-por-las-leyes-de-concordia-del-pp-y-vox/amp/"
-     }
+     },
+     "revisado": "2026-11-13"
     }
    ],
    "avales": [
@@ -267,8 +276,8 @@
      }
     },
     {
-     "titulo": "Limitar la sanidad de los inmigrantes en situación irregular a las urgencias",
-     "texto": "El TC (STC 139/2016) consideró constitucional excluir de la sanidad gratuita a los extranjeros sin residencia legal, siempre que se mantengan las urgencias, la atención al embarazo y parto y la atención completa a los menores. La propuesta solo menciona urgencias. Sus efectos sanitarios se valoran en la dimensión social.",
+     "titulo": "Excluir de la sanidad pública a los inmigrantes en situación irregular salvo urgencia grave",
+     "texto": "El TC (STC 139/2016) consideró constitucional excluir de la sanidad gratuita a los extranjeros sin residencia legal, siempre que se mantengan la urgencia por enfermedad grave o accidente, la atención al embarazo, parto y posparto y la atención completa a los menores. La propuesta solo menciona la «urgencia grave»: sin embarazo ni menores no cumpliría ese mínimo. Sus efectos sanitarios se valoran en la dimensión social.",
      "criterio": "Art. 43 CE; STC 139/2016",
      "sobre": [
       "vox-san-04"
@@ -276,7 +285,8 @@
      "fuente": {
       "nombre": "Economist & Jurist, 2-8-2016",
       "url": "https://www.economistjurist.es/noticias-juridicas/el-tc-avala-la-reforma-sanitaria-y-declara-que-la-universalidad-de-la-sanidad-no-implica-necesariamente-gratuidad"
-     }
+     },
+     "revisado": "2026-11-13"
     }
    ]
   },
@@ -642,20 +652,21 @@
    "avales": []
   },
   "cc": {
-   "valoracion": "Preocupaciones puntuales: una Ley de Residencia para Canarias, según cómo se concrete, podría chocar con la libertad de residencia. No hay más hallazgos. Votó en contra de la amnistía.",
+   "valoracion": "Preocupaciones puntuales: limitar la compra de vivienda por extranjeros y una Ley Canaria de Residencia, según cómo se concreten, podrían chocar con la libertad de residencia y la libre circulación europea. No hay más hallazgos. Votó en contra de la amnistía.",
    "criticas": [
     {
-     "titulo": "Ley de Residencia para Canarias",
-     "texto": "Limitar el derecho a residir en una comunidad a españoles de otras regiones o a ciudadanos de la UE choca con la libertad de residencia y circulación (arts. 19 y 139.2 CE) y con la libre circulación europea. Dependerá del texto: medidas fiscales o de vivienda vinculadas a la residencia previa podrían ser admisibles.",
+     "titulo": "Ley Canaria de Residencia y límites a la compra de vivienda por extranjeros",
+     "texto": "Limitar el derecho a residir en una comunidad a españoles de otras regiones o a ciudadanos de la UE, o su acceso a la compra de vivienda, choca con la libertad de residencia y circulación (arts. 19 y 139.2 CE) y con la libre circulación europea. El programa lo plantea mediante reformas en las Cortes y un régimen específico ante la UE; dependerá del texto: medidas fiscales o de vivienda vinculadas a la residencia previa podrían ser admisibles.",
      "gravedad": "baja",
      "criterio": "Arts. 19 y 139.2 CE; TFUE, art. 21; Directiva 2004/38/CE",
      "sobre": [
-      "cc-viv-01"
+      "cc-viv-05"
      ],
      "fuente": {
       "nombre": "Constitución Española (BOE)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-     }
+     },
+     "revisado": "2026-11-13"
     }
    ],
    "avales": []

@@ -80,11 +80,14 @@ for (const id of [...order, ...extraIds]) {
   const poll = encuestas.partidos.find((x) => x.id === id);
   p.encuesta = poll;
   p.propuestas = (p.propuestas || []).filter((x) => x && x.texto && x.estado !== 'no-reiterada' && x.estado !== 'contradicha');
+  // Críticas y avales marcados "estado":"obsoleta" (la propuesta criticada ya no está en el programa) no se publican.
+  const vigente = (x) => x && x.estado !== 'obsoleta';
   p.criticas = p.criticas || { economica: [], social: [], cultural: [] };
+  for (const k of Object.keys(p.criticas)) p.criticas[k] = (p.criticas[k] || []).filter(vigente);
   const dz = (derecho.partidos && derecho.partidos[id]) || p.derecho;
-  p.criticas.derecho = (dz && dz.criticas) || [];
+  p.criticas.derecho = ((dz && dz.criticas) || []).filter(vigente);
   p.valoracion_derecho = (dz && dz.valoracion) || null;
-  p.avales_derecho = (dz && dz.avales) || [];
+  p.avales_derecho = ((dz && dz.avales) || []).filter(vigente);
   p.mentiras = [];
   parties.push(p);
 }

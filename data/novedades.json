@@ -1,4 +1,7 @@
 [
+  {"id": "programa-vox-2026", "fecha": "2026-11-13", "titulo": "Programa 29N de Vox («Es sentido común») incorporado", "enlace": "/partido/vox/", "enlace_texto": "Programa electoral de Vox"},
+  {"id": "programa-pnv-2026", "fecha": "2026-11-13", "titulo": "Programa 29N del PNV incorporado", "enlace": "/partido/pnv/", "enlace_texto": "Programa electoral del PNV"},
+  {"id": "programa-cc-2026", "fecha": "2026-11-13", "titulo": "Manifiesto 29N de Coalición Canaria incorporado", "enlace": "/partido/cc/", "enlace_texto": "Programa electoral de Coalición Canaria"},
   {"id": "programa-aa-2026", "fecha": "2026-11-13", "titulo": "Programa 29N de Adelante Andalucía incorporado", "enlace": "/partido/aa/", "enlace_texto": "Programa electoral de Adelante Andalucía"},
   {"id": "programa-iustitia-2026", "fecha": "2026-11-13", "titulo": "«Contrato Electoral» de Iustitia Europa incorporado", "enlace": "/partido/iustitia/", "enlace_texto": "Programa electoral de Iustitia Europa"},
   {"id": "decalogo-bng-2026", "fecha": "2026-11-13", "titulo": "Decálogo de compromisos del BNG para el 29N incorporado", "enlace": "/partido/bng/", "enlace_texto": "Propuestas del BNG"},

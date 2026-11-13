@@ -193,15 +193,12 @@
     },
     "pnv": {
      "valor": 0,
-     "ref": [
-      "pnv-viv-01"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Se abstuvo en el decreto de abril de 2026 y votó un 'sí crítico' al de octubre, que limitaba las subidas.",
-     "contradiccion": "Critica la Ley de Vivienda de 2023 por sus efectos en el alquiler, pero votó a favor del decreto de octubre de 2026 que limitaba las subidas (Diputación Permanente, octubre de 2026)."
+     "nota": "Se abstuvo en el decreto de abril de 2026 y votó un 'sí crítico' al de octubre, que limitaba las subidas."
     },
     "podemos": {
      "valor": 1,
@@ -283,7 +280,7 @@
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone derogar la Ley de Vivienda y su control de precios. Votó contra los decretos de 2026."
+     "nota": "Propone derogar la Ley de Vivienda, que incluye el control de precios del alquiler. Votó contra los decretos de 2026."
     }
    }
   },
@@ -1182,11 +1179,10 @@
     "vox": {
      "valor": 1,
      "ref": [
-      "vox-eco-01",
-      "vox-eco-02"
+      "vox-eco-12"
      ],
      "fuente": null,
-     "nota": "Propone un IRPF de dos tipos (15% y 25%) y eximir los primeros 22.000 €."
+     "nota": "Propone simplificar y bajar el IRPF."
     }
    }
   },
@@ -1398,14 +1394,12 @@
     },
     "vox": {
      "valor": -1,
-     "ref": [
-      "vox-eco-07"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Aprobación de los gravámenes a banca, energéticas y grandes fortunas, Congreso, 24-11-2022 (Menorca.info/Europa Press)",
       "url": "https://www.menorca.info/actualidad/nacional/2022/11/24/1835095/pleno-del-congreso-aprueba-gravamenes-banca-energeticas-ricos.html"
      },
-     "nota": "Propone suprimir el Impuesto de Patrimonio. Votó en contra del de grandes fortunas en 2022."
+     "nota": "Votó en contra del impuesto de grandes fortunas en 2022."
     }
    }
   },
@@ -1627,14 +1621,12 @@
     },
     "vox": {
      "valor": 1,
-     "ref": [
-      "vox-eco-07"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Admisión a trámite de la ley de Vox para derogar Sucesiones y Donaciones, Congreso, 5-4-2022 (Mallorcadiario)",
       "url": "https://www.mallorcadiario.com/congreso-rechaza-derogar-impuesto-de-sucesiones"
      },
-     "nota": "Propone suprimirlo en toda España; llevó al Congreso su derogación en 2022."
+     "nota": "Llevó al Congreso en 2022 una ley para suprimirlo en toda España."
     }
    }
   },
@@ -2503,7 +2495,7 @@
       "nombre": "Toma en consideración de la ILP de regularización, Congreso, 9-4-2024: 310 a favor, 33 en contra (El Salto)",
       "url": "https://www.elsaltodiario.com/migracion/ilp-regularizacion-personas-migrantes-entra-congreso-mayoritario-grupo"
      },
-     "nota": "Propone que nadie en situación irregular pueda regularizarse; fue el único grupo que votó contra la ILP en 2024."
+     "nota": "Propone prohibir las regularizaciones masivas; fue el único grupo que votó contra la ILP en 2024."
     }
    }
   },
@@ -2705,13 +2697,15 @@
     "vox": {
      "valor": 1,
      "ref": [
-      "vox-viv-02"
+      "vox-viv-02",
+      "vox-viv-09",
+      "vox-inm-16"
      ],
      "fuente": {
       "nombre": "Moción de Vox sobre 'prioridad nacional', Congreso, 22-4-2026 (Vozpópuli)",
       "url": "https://www.vozpopuli.com/espana/politica/el-pp-abre-un-nuevo-frente-con-vox-y-vota-en-contra-de-la-prioridad-nacional-en-el-congreso.html"
      },
-     "nota": "Propone aplicar la 'prioridad nacional' en vivienda protegida y ayudas."
+     "nota": "Propone la 'prioridad nacional' en vivienda protegida, ayudas y servicios sociales."
     }
    }
   },
@@ -2752,7 +2746,7 @@
       "cc-inm-01"
      ],
      "fuente": null,
-     "nota": "Pide activar el cupo de solidaridad para que todas las comunidades acojan menores."
+     "nota": "Pide traslados automáticos a otras comunidades cuando un territorio de primera acogida supere los umbrales."
     },
     "compromis": {
      "valor": null,
@@ -2930,7 +2924,7 @@
       "nombre": "Convalidación del decreto de reparto de menores migrantes, Congreso, 10-4-2025: solo PP y Vox en contra (Nueve Cuatro Uno)",
       "url": "https://nuevecuatrouno.com/2025/04/10/congreso-refrenda-decreto-ley-reubicar-menores-migrantes-no-pp/"
      },
-     "nota": "Propone cerrar los centros de menores y repatriarlos; votó en contra del reparto."
+     "nota": "Propone devolver a los menores a sus padres o a instituciones de su país; votó en contra del reparto."
     }
    }
   },
@@ -3078,12 +3072,10 @@
      "nota": "Sin posición documentada"
     },
     "pnv": {
-     "valor": 0,
-     "ref": [
-      "pnv-ter-02"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Propone un nuevo Estatuto pactado en el Parlamento Vasco y ratificado por las Cortes, no un referéndum unilateral."
+     "nota": "Sin posición documentada"
     },
     "podemos": {
      "valor": 1,
@@ -3143,7 +3135,7 @@
       "vox-ter-04"
      ],
      "fuente": null,
-     "nota": "Propone recuperar el delito de referéndum ilegal e ilegalizar partidos secesionistas."
+     "nota": "Propone ilegalizar los partidos que atenten contra la soberanía y recuperar el delito de sedición."
     }
    }
   },
@@ -3184,7 +3176,7 @@
       "cc-ter-01"
      ],
      "fuente": null,
-     "nota": "Pide el pleno desarrollo del Estatuto canario."
+     "nota": "Pide completar los traspasos del Estatuto de Autonomía con un calendario verificable."
     },
     "compromis": {
      "valor": -1,
@@ -3363,13 +3355,10 @@
      "nota": "Defiende las competencias exclusivas de Navarra frente a leyes estatales."
     },
     "vox": {
-     "valor": 1,
-     "ref": [
-      "vox-ter-01",
-      "vox-san-01"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Propone devolver al Estado educación, sanidad, seguridad y justicia."
+     "nota": "Sin posición documentada"
     }
    }
   },
@@ -3594,14 +3583,12 @@
     },
     "vox": {
      "valor": -1,
-     "ref": [
-      "vox-ins-02"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Votación final de la Ley de Amnistía, Congreso, 30-5-2024: 177 a favor, 172 en contra (elDiario.es)",
       "url": "https://www.eldiario.es/canariasahora/politica/coalicion-canaria-separa-socio-europeas-vota-amnistia-pp-vox_1_11408467.html"
      },
-     "nota": "Propone derogarla. Votó en contra."
+     "nota": "Votó en contra de la Ley de Amnistía (30-5-2024)."
     }
    }
   },
@@ -4034,14 +4021,12 @@
     },
     "vox": {
      "valor": -1,
-     "ref": [
-      "vox-igu-04"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "Enmiendas a la totalidad de PP y Vox a la reforma constitucional del aborto, Congreso, 30-4-2026: 171 a favor, 177 en contra (El Salto)",
       "url": "https://www.elsaltodiario.com/derechos-reproductivos/congreso-rechaza-enmiendas-totalidad-pp-vox-incluir-aborto-constitucion"
      },
-     "nota": "Propone derogar la ley del aborto; presentó enmienda a la totalidad."
+     "nota": "Presentó enmienda a la totalidad contra la reforma constitucional (30-4-2026)."
     }
    }
   },
@@ -4080,7 +4065,7 @@
       "cc-igu-03"
      ],
      "fuente": null,
-     "nota": "Propone aplicar el Pacto de Estado contra la Violencia de Género."
+     "nota": "Pide financiación suficiente para aplicar el Pacto de Estado contra la Violencia de Género."
     },
     "compromis": {
      "valor": null,
@@ -4245,7 +4230,7 @@
       "vox-igu-01"
      ],
      "fuente": null,
-     "nota": "Propone derogar la ley de 2004 y aprobar una de violencia intrafamiliar."
+     "nota": "Propone derogar las leyes de género y sustituirlas por normas de protección de las víctimas."
     }
    }
   },
@@ -5115,12 +5100,10 @@
      "nota": "Sin posición documentada"
     },
     "vox": {
-     "valor": 1,
-     "ref": [
-      "vox-ext-03"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Propone un tratado que reconozca la primacía de la Constitución en asuntos de interés nacional."
+     "nota": "Sin posición documentada"
     }
    }
   },
@@ -5568,7 +5551,7 @@
       "nombre": "PNL del PP contra el calendario de cierre nuclear, Congreso, febrero de 2025: 171 a favor, 164 en contra, 14 abstenciones (Energías Renovables)",
       "url": "https://www.energias-renovables.com/panorama/psoe-y-sumar-podr-an-haber-evitado-20251113"
      },
-     "nota": "Propone alargar su vida útil; votó a favor de la PNL del PP."
+     "nota": "Propone derogar el calendario de cierre; votó a favor de la PNL del PP."
     }
    }
   },
@@ -6023,7 +6006,7 @@
       "nombre": "Votación del Parlamento Europeo para remitir el acuerdo UE-Mercosur al TJUE, 21-1-2026 (El Debate)",
       "url": "https://www.eldebate.com/campo-y-caza/20260121/parlamento-europeo-bloquea-entrada-vigor-trato-mercosur-menos-ano_376697.html"
      },
-     "nota": "Propone revertir el acuerdo; votó a favor de remitirlo al TJUE."
+     "nota": "Propone rechazar el acuerdo; votó a favor de remitirlo al TJUE."
     }
    }
   }

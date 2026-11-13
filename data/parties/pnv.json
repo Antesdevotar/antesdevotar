@@ -8,8 +8,13 @@
  "color": "#008135",
  "web": "https://www.eaj-pnv.eus",
  "escanos_2023": 5,
- "resumen": "Propone dar a las instituciones vascas capacidad normativa sobre el IVA, financiar las pensiones públicas con fuentes ciertas y reconocer la nación vasca y la bilateralidad con el Estado. Fuente: programa 2023.",
+ "resumen": "Propone reclamar un salario mínimo propio superior al estatal, agilizar los trámites urbanísticos para construir viviendas y aplicar la normativa europea de transparencia retributiva. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "nombre": "Programa electoral EAJ-PNV 29N «Euskadi zaindu. Defendemos Euskadi» (PDF, 42 páginas, 225 medidas)",
+   "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+   "fecha": "2026-11-09"
+  },
   {
    "nombre": "Programa EAJ-PNV 'Con voz propia', Generales 23J",
    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
@@ -31,19 +36,2559 @@
    "fecha": "2026-10"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
-   "id": "pnv-ter-01",
-   "area": "territorio",
-   "texto": "Reconocer la nación vasca y la bilateralidad en la relación con el Estado.",
-   "origen": "programa-2023",
+   "id": "pnv-viv-02",
+   "area": "vivienda",
+   "texto": "Agilizar los trámites urbanísticos para construir nuevas viviendas, con plazos razonables y garantías legales.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 7",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pnv-viv-03",
+   "area": "vivienda",
+   "texto": "Movilizar viviendas vacías y rehabilitar edificios para ampliar la oferta residencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 7",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-04",
+   "area": "vivienda",
+   "texto": "Impedir que los contratos de temporada se usen para eludir las garantías del alquiler de vivienda habitual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-05",
+   "area": "vivienda",
+   "texto": "Regular los alquileres de temporada y turísticos para que no resten viviendas al mercado residencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-06",
+   "area": "vivienda",
+   "texto": "Reducir las prácticas especulativas que encarecen el acceso a la vivienda y dar seguridad jurídica a inquilinos y pequeños propietarios para favorecer el alquiler habitual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-07",
+   "area": "vivienda",
+   "texto": "Ofrecer alternativas habitacionales a familias vulnerables sin cargar toda la responsabilidad sobre los pequeños propietarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-08",
+   "area": "vivienda",
+   "texto": "Facilitar a la juventud el acceso a su primera vivienda, en alquiler o en propiedad, con varias vías de emancipación y sin que el alquiler protegido sea la única.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-01",
+   "area": "educacion",
+   "texto": "Mejorar la conexión entre formación y empleo para que las personas jóvenes accedan a puestos de calidad acordes a su preparación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-viv-09",
+   "area": "vivienda",
+   "texto": "Tratar la emancipación juvenil como prioridad en las reformas estatales de vivienda, empleo, salarios y protección social, evaluando su impacto y con financiación estable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-05",
+   "area": "empleo",
+   "texto": "Reclamar la competencia plena para fijar un salario mínimo propio, superior al estatal y adaptado al coste de vida de Euskadi, definido mediante diálogo social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pnv-emp-01",
+   "area": "empleo",
+   "texto": "Proteger un marco propio de relaciones laborales y la prevalencia de los convenios colectivos vascos cuando sean más favorables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 29",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-06",
+   "area": "empleo",
+   "texto": "Impulsar la negociación colectiva para que las mejoras de productividad se traduzcan en salarios, poder adquisitivo y reparto equilibrado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-07",
+   "area": "empleo",
+   "texto": "Reforzar la Inspección de Trabajo para detectar y sancionar el fraude, la contratación irregular, los falsos autónomos y la economía sumergida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-08",
+   "area": "empleo",
+   "texto": "Mejorar la prevención de riesgos laborales y la salud física y mental, con coordinación entre servicios sanitarios, mutuas y Seguridad Social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-02",
+   "area": "igualdad",
+   "texto": "Aplicar la normativa europea de transparencia retributiva para corregir las desigualdades salariales entre mujeres y hombres.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-03",
+   "area": "igualdad",
+   "texto": "Reforzar la prevención y la actuación frente al acoso laboral, sexual y discriminatorio, con protocolos en las empresas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-09",
+   "area": "empleo",
+   "texto": "Facilitar la formación continua y la recualificación profesional ante los cambios tecnológicos y productivos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-10",
+   "area": "empleo",
+   "texto": "Regular las prácticas formativas para garantizar los derechos del alumnado y su carácter educativo, respetando las competencias vascas y la FP Dual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-02",
+   "area": "empleo",
+   "texto": "Ampliar la prestación por desempleo hasta un máximo de 36 meses, vinculada a la mejora de la empleabilidad y con refuerzo para quienes tienen más dificultades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 31",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-11",
+   "area": "empleo",
+   "texto": "Analizar con administraciones, sindicatos y empresas la productividad, el absentismo, la competitividad y los salarios, y proponer medidas de prevención y bienestar laboral.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-12",
+   "area": "empleo",
+   "texto": "Permitir, en casos estratégicos y justificados, actualizar el precio de los contratos públicos para cubrir mejoras salariales pactadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-02",
+   "area": "educacion",
+   "texto": "Preservar las competencias educativas de Euskadi y evitar interferencias estatales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-03",
+   "area": "educacion",
+   "texto": "Impulsar una educación inclusiva, plurilingüe e intercultural que garantice los derechos de la infancia y la adolescencia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-04",
+   "area": "educacion",
+   "texto": "Reforzar la coeducación y la educación afectivo-sexual en igualdad, para prevenir la discriminación y la violencia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-05",
+   "area": "educacion",
+   "texto": "Defender la capacidad normativa del Sistema Vasco de Becas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-03",
+   "area": "empleo",
+   "texto": "Fortalecer la FP Dual y la colaboración entre centros formativos y empresas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 30",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Extender la FP dual a todos los niveles.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-tec-01",
+   "area": "tecnologia",
+   "texto": "Favorecer la colaboración entre universidades y empresas en formación, investigación y empleo cualificado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-edu-06",
+   "area": "educacion",
+   "texto": "Defender la capacidad de Euskadi para decidir sobre la gobernanza de sus universidades e impulsar su participación en proyectos europeos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-05",
+   "area": "instituciones",
+   "texto": "Crear mecanismos para que la juventud participe en la elaboración, el seguimiento y la evaluación de las políticas públicas, con espacios donde sus propuestas sean escuchadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-06",
+   "area": "instituciones",
+   "texto": "Incorporar la perspectiva juvenil en las iniciativas legislativas estatales, en especial en vivienda, empleo, educación, investigación y protección social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-08",
+   "area": "economia",
+   "texto": "Fortalecer la industria vasca con una legislación industrial adaptada a su realidad, que facilite inversión, innovación y modernización productiva.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-09",
+   "area": "economia",
+   "texto": "Exigir al Estado que cumpla sus compromisos con empresas vascas con participación o financiación pública, para proteger actividad, empleo y centros de decisión en Euskadi.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-10",
+   "area": "economia",
+   "texto": "Proteger el futuro industrial de comarcas en crisis o transformación, citando Aiaraldea, con inversión, innovación, descarbonización y suelo industrial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-tec-02",
+   "area": "tecnologia",
+   "texto": "Adaptar los programas estatales de innovación y desarrollo tecnológico a la industria vasca, con financiación para digitalización, automatización e investigación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-tec-03",
+   "area": "tecnologia",
+   "texto": "Modernizar tecnológicamente las pymes con soluciones digitales, inteligencia artificial y procesos productivos más eficientes y sostenibles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-11",
+   "area": "economia",
+   "texto": "Proteger y promover el modelo cooperativo vasco y lograr que la legislación estatal reconozca sus particularidades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-12",
+   "area": "economia",
+   "texto": "Reforzar la internacionalización de las empresas vascas: nuevos mercados, diversificación de exportaciones y proveedores, y proyectos industriales europeos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-13",
+   "area": "economia",
+   "texto": "Reducir la burocracia y eliminar duplicidades administrativas en la creación, ampliación y gestión de empresas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-14",
+   "area": "economia",
+   "texto": "Mejorar el acceso de pymes y autónomos a financiación, reforzando las líneas del Instituto de Crédito Oficial y los instrumentos públicos de garantía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-15",
+   "area": "economia",
+   "texto": "Eliminar barreras regulatorias al crecimiento de las pymes y favorecer la cooperación empresarial y los proyectos compartidos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-13",
+   "area": "empleo",
+   "texto": "Acercar progresivamente la protección de autónomos al cese de actividad a la prestación por desempleo, simplificando requisitos en el cese involuntario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-14",
+   "area": "empleo",
+   "texto": "Permitir compatibilizar temporalmente la prestación por cese de actividad con un nuevo proyecto empresarial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-16",
+   "area": "economia",
+   "texto": "Facilitar el relevo generacional de empresas viables, en especial familiares, para evitar cierres por falta de continuidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-emp-15",
+   "area": "empleo",
+   "texto": "Facilitar que las plantillas asuman empresas viables como cooperativas o sociedades laborales, capitalizando la prestación por desempleo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-07",
+   "area": "energia",
+   "texto": "Acelerar las inversiones en redes eléctricas de Euskadi para nuevas industrias, ampliaciones, electrificación y demanda residencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-08",
+   "area": "energia",
+   "texto": "Revisar la planificación energética estatal y el Plan Nacional Integrado de Energía y Clima para incorporar necesidades industriales, seguridad de suministro y competitividad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-09",
+   "area": "energia",
+   "texto": "Establecer seguimiento, incentivos y penalizaciones para que las redes planificadas no acumulen retrasos injustificados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-10",
+   "area": "energia",
+   "texto": "Agilizar el acceso y la conexión a las redes, priorizando proyectos industriales viables y evitando la especulación con capacidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-11",
+   "area": "energia",
+   "texto": "Favorecer el almacenamiento energético y activar los mecanismos de capacidad necesarios para la estabilidad del sistema.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-12",
+   "area": "energia",
+   "texto": "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5 %, dentro de los límites de la normativa europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pnv-ene-13",
+   "area": "energia",
+   "texto": "Destinar a compensar los costes indirectos del CO₂ de la industria el máximo que permita la normativa europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-14",
+   "area": "energia",
+   "texto": "Asegurar un régimen transitorio de apoyo a la cogeneración industrial de alta eficiencia e impulsar nuevas subastas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-15",
+   "area": "energia",
+   "texto": "Reforzar las infraestructuras de gas natural en Euskadi para mejorar capacidad operativa, seguridad de abastecimiento y necesidades industriales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-03",
+   "area": "energia",
+   "texto": "Favorecer el biometano, el hidrógeno renovable y los combustibles de bajas emisiones en la industria y el transporte difícil de electrificar, con fiscalidad incentivadora.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 24",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Impulsar un sector propio de hidrógeno verde.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-01",
+   "area": "energia",
+   "texto": "Mantener la protección de consumidores vulnerables, incluidos los bonos sociales eléctrico y térmico, y preservar la Tarifa de Último Recurso del gas natural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 20",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-16",
+   "area": "energia",
+   "texto": "Culminar el restablecimiento de la Comisión Nacional de la Energía como regulador independiente, con más supervisión del mercado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-17",
+   "area": "energia",
+   "texto": "Favorecer la rehabilitación energética de edificios actualizando el Código Técnico de la Edificación y desarrollando el Plan Nacional de Renovación de Edificios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-02",
+   "area": "energia",
+   "texto": "Facilitar el autoconsumo compartido y las comunidades energéticas, reduciendo los plazos de tramitación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 21",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Prioridad de acceso a la red para las comunidades energéticas y contratos PPA con garantía del Estado.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-18",
+   "area": "energia",
+   "texto": "Apoyar la electrificación de la movilidad y la climatización con ayudas e incentivos fiscales compatibles con las competencias vascas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-19",
+   "area": "energia",
+   "texto": "Favorecer la economía circular: reparación, reciclaje, valorización de residuos y su uso en nuevos procesos industriales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-20",
+   "area": "energia",
+   "texto": "Favorecer la recuperación de suelos industriales degradados para nuevas actividades económicas y sociales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-21",
+   "area": "energia",
+   "texto": "Impulsar una estrategia de adaptación climática con financiación suficiente, priorizando inundaciones, temporales, incendios y fenómenos extremos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-22",
+   "area": "energia",
+   "texto": "Reforzar la protección y restauración de ríos, bosques, humedales, espacios naturales y ecosistemas marinos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-23",
+   "area": "energia",
+   "texto": "Reformar de forma integral la Ley de Costas, con seguridad jurídica y adaptación al cambio climático, y que Euskadi programe y ejecute las inversiones de interés general en su litoral.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-24",
+   "area": "energia",
+   "texto": "Aprobar un plan de adaptación y protección de la costa vasca frente a erosión, temporales, inundaciones y subida del nivel del mar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-25",
+   "area": "energia",
+   "texto": "Reforzar las inversiones en abastecimiento, saneamiento y depuración de aguas, con eficiencia de redes, seguridad de presas y prevención de la contaminación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-01",
+   "area": "rural",
+   "texto": "Política Agraria Común 2028-2034 con un Plan Estratégico propio para Euskadi, gestionado y controlado desde las instituciones vascas, con financiación suficiente y diferenciada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-02",
+   "area": "rural",
+   "texto": "Proteger frente a prácticas comerciales desleales y mejorar la capacidad negociadora de productores y cooperativas, con precios que cubran costes de producción.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-03",
+   "area": "rural",
+   "texto": "Facilitar el relevo generacional en agricultura y ganadería con cotizaciones reducidas para jóvenes, transmisión de explotaciones y apoyo al acceso a la tierra.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-04",
+   "area": "rural",
+   "texto": "Exigir condiciones equivalentes a los productos importados, con más controles, trazabilidad y protección de los sectores sensibles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-05",
+   "area": "rural",
+   "texto": "Financiar la sanidad animal, los seguros agrarios y las emergencias para que sus costes no recaigan solo en las instituciones vascas y las explotaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-06",
+   "area": "rural",
+   "texto": "Rioja Alavesa: medidas de rentabilidad y comercialización y mayor diferenciación del origen en el etiquetado e identificación de vinos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-07",
+   "area": "rural",
+   "texto": "Modernizar el sector forestal y la industria de la madera, con gestión sostenible, innovación y aprovechamiento de recursos locales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-08",
+   "area": "rural",
+   "texto": "Revisar la Política Pesquera Común para garantizar la viabilidad de la flota vasca, con financiación europea específica y estabilidad regulatoria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-09",
+   "area": "rural",
+   "texto": "Revisar las restricciones a la pesca de fondo en las 87 zonas del Atlántico nororiental del Reglamento (UE) 2022/1614, con evaluaciones científicas actualizadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-10",
+   "area": "rural",
+   "texto": "Repartir las cuotas pesqueras con criterios de capturas históricas y necesidades de cada modalidad, con más flexibilidad de gestión.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-11",
+   "area": "rural",
+   "texto": "Renovar la flota vasca usando la capacidad disponible (GT y kW), con mejoras en seguridad, condiciones laborales, eficiencia energética y habitabilidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-12",
+   "area": "rural",
+   "texto": "Establecer coeficientes reductores de jubilación para autónomos de la pesca y la comercialización, y medidas para las mujeres del sector.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-13",
+   "area": "rural",
+   "texto": "Ayudas ante incrementos extraordinarios de costes energéticos, vedas y paralizaciones, garantizando que lleguen a los colectivos afectados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-14",
+   "area": "rural",
+   "texto": "Luchar contra la pesca ilegal y la competencia desleal, con garantías equivalentes para las importaciones y refuerzo de la Ley de la Cadena Alimentaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-rur-15",
+   "area": "rural",
+   "texto": "Facilitar el relevo generacional y la formación marítimo-pesquera para el acceso de jóvenes a la pesca.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-08",
+   "area": "territorio",
+   "texto": "Terminar la Y vasca sin más demoras, con calendario verificable, respetando los accesos soterrados a Bilbao y Vitoria-Gasteiz y la conexión con Iruñea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-09",
+   "area": "territorio",
+   "texto": "Culminar la transferencia de las infraestructuras ferroviarias de cercanías que discurren íntegramente por Euskadi.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-10",
+   "area": "territorio",
+   "texto": "Exigir al Ministerio de Transportes eliminar los pasos a nivel pendientes, en especial en Enkarterri y Zalla, con plazos vinculantes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-11",
+   "area": "territorio",
+   "texto": "Impulsar el traslado del apeadero de Martutene y el nuevo viario en Donostia, y cumplir el acuerdo del intercambiador de Riberas de Loiola.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-12",
+   "area": "territorio",
+   "texto": "Favorecer Vía Irun 2030, integrando la transformación ferroviaria y urbana y liberando los espacios ferroviarios necesarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-13",
+   "area": "territorio",
+   "texto": "Garantizar la accesibilidad universal ferroviaria: eliminar barreras en estaciones y adaptar el material rodante.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-14",
+   "area": "territorio",
+   "texto": "Ejecutar las inversiones comprometidas en el Corredor Ferroviario Atlántico como conexión estratégica con Europa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-15",
+   "area": "territorio",
+   "texto": "Ejecutar con prioridad la Variante Sur Ferroviaria de Bilbao y impulsar la Plataforma Multimodal de Jundiz.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-16",
+   "area": "territorio",
+   "texto": "Conectar por ferrocarril los puertos de Bilbao y Pasaia y el nodo logístico de Lezo-Gaintxurizketa, con interoperabilidad con la red europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-17",
+   "area": "territorio",
+   "texto": "Más inversión y capacidad de desarrollo para el aeropuerto de Foronda, y un modelo aeroportuario vasco coordinado con mayor capacidad de decisión sobre Bilbao, Donostia y Vitoria-Gasteiz.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-18",
+   "area": "territorio",
+   "texto": "Mayor autonomía de gestión para los puertos de Bilbao y Pasaia, hacia su gestión integral desde Euskadi, y desclasificar Pasaia como puerto de interés general.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-19",
+   "area": "territorio",
+   "texto": "Regenerar la bahía de Pasaia mediante acuerdos entre instituciones y una planificación que integre necesidades urbanas, portuarias y ambientales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-26",
+   "area": "energia",
+   "texto": "Ayudas estables para vehículos electrificados, aplicables en el momento de la compra y respetando las competencias de gestión vascas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-27",
+   "area": "energia",
+   "texto": "Ayudas plurianuales para renovar flotas de transporte pesado y profesional: camiones, autobuses y vehículos de menores emisiones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ene-28",
+   "area": "energia",
+   "texto": "Acelerar el despliegue de puntos de recarga eléctrica, sobre todo en corredores estratégicos, áreas industriales y rutas de transporte pesado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-17",
+   "area": "economia",
+   "texto": "Modificar la Ley 15/2009 para que los costes de peajes de carretera puedan repercutirse a los clientes del transporte y no recaigan solo en los transportistas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-18",
+   "area": "economia",
+   "texto": "Reforma integral del IVA de bienes esenciales: estudiar tipos cero o superreducidos para alimentos básicos y productos específicos, y revisar el IVA de electricidad, gas, combustibles y transporte público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-19",
+   "area": "economia",
+   "texto": "Revisar el IVA cultural para favorecer a artistas y galerías, aprovechando la normativa europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-deu-01",
+   "area": "deuda",
+   "texto": "Dar más margen de inversión a las administraciones vascas: revisar la normativa de estabilidad presupuestaria, adaptarla al marco fiscal europeo y flexibilizar las reglas de gasto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Sendas de déficit diferenciadas por comunidad, negociadas bilateralmente e incluidas en la Ley de Estabilidad.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-deu-03",
+   "area": "deuda",
+   "texto": "Que ayuntamientos, diputaciones forales y Gobierno Vasco puedan usar sus superávits en inversiones prioritarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-20",
+   "area": "economia",
+   "texto": "Garantizar que las reformas fiscales y presupuestarias estatales respeten el Concierto Económico, la autonomía financiera vasca y sus mecanismos de coordinación con el Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 21 y 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-01",
+   "area": "economia",
+   "texto": "Ampliar la capacidad normativa de las Haciendas Forales en IVA e Impuestos Especiales mediante la actualización del Concierto Económico, dentro de los límites de armonización de la UE.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA.",
+   "destacada": true
+  },
+  {
+   "id": "pnv-seg-02",
+   "area": "seguridad",
+   "texto": "Reconocer a la Ertzaintza como policía integral de Euskadi, con capacidad para ejercer plenamente sus funciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-seg-03",
+   "area": "seguridad",
+   "texto": "Garantizar la participación directa de la Ertzaintza en los mecanismos europeos de cooperación policial y su acceso recíproco y pleno a las bases de datos policiales europeas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-seg-04",
+   "area": "seguridad",
+   "texto": "Reforzar la cooperación policial internacional contra la delincuencia organizada y transfronteriza, con intercambio de información y coordinación operativa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-seg-05",
+   "area": "seguridad",
+   "texto": "Impulsar reformas legales para una respuesta judicial ágil y proporcionada frente a la multirreincidencia, con protección de las víctimas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-01",
+   "area": "inmigracion",
+   "texto": "Ampliar las competencias vascas en migración y extranjería, abarcando llegada, acogida, residencia, trabajo e integración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 11",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Transferir a la CAV las políticas migratorias.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-04",
+   "area": "inmigracion",
+   "texto": "Reclamar que Euskadi sea reconocida como «frontera norte» en la planificación migratoria, con recursos y coordinación adecuados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-05",
+   "area": "inmigracion",
+   "texto": "Avanzar en que la Ertzaintza asuma competencias de extranjería mediante acuerdos y modificaciones normativas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-06",
+   "area": "inmigracion",
+   "texto": "Reforzar la planificación de los recursos de acogida e integración, con medios suficientes para anticipar necesidades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-07",
+   "area": "inmigracion",
+   "texto": "Pactar un modelo de acogida descentralizado para solicitantes de protección internacional, con financiación suficiente, y rechazar los grandes centros, como el previsto en Arana (Vitoria-Gasteiz).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-08",
+   "area": "inmigracion",
+   "texto": "Ampliar la gestión vasca de los procedimientos de residencia y trabajo para reducir plazos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-09",
+   "area": "inmigracion",
+   "texto": "Promover vías legales, seguras y ordenadas de migración, planificadas y respetuosas con los derechos humanos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-10",
+   "area": "inmigracion",
+   "texto": "Favorecer la contratación en origen ligada a las necesidades del mercado laboral vasco, con garantías para las personas trabajadoras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-11",
+   "area": "inmigracion",
+   "texto": "Avanzar en las regularizaciones previstas legalmente para quienes cumplan los requisitos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-12",
+   "area": "inmigracion",
+   "texto": "Agilizar la homologación y el reconocimiento de titulaciones y cualificaciones extranjeras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-13",
+   "area": "inmigracion",
+   "texto": "Mejorar y agilizar los procedimientos de protección internacional y asilo, garantizando derechos y garantías legales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-02",
+   "area": "inmigracion",
+   "texto": "Impulsar una política europea común de migración y asilo basada en la solidaridad, con reparto equilibrado de solicitantes de protección internacional y de menores migrantes no acompañados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-14",
+   "area": "inmigracion",
+   "texto": "Promover la integración social y laboral, la participación y el aprendizaje del euskera.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-04",
+   "area": "igualdad",
+   "texto": "Aplicar efectivamente las leyes de igualdad e incorporar la perspectiva de género en todas las fases de las políticas públicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-05",
+   "area": "igualdad",
+   "texto": "Transponer y aplicar las Directivas europeas 2024/1499 y 2024/1500, reforzando la independencia de los organismos de igualdad y respetando las competencias de Emakunde.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-06",
+   "area": "igualdad",
+   "texto": "Regular y reconocer la profesión de agente de igualdad, con reconocimiento de la formación universitaria especializada y de la experiencia acreditada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-07",
+   "area": "igualdad",
+   "texto": "Garantizar el acceso libre y seguro a los servicios sanitarios para ejercer los derechos sexuales y reproductivos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-08",
+   "area": "igualdad",
+   "texto": "Modificar la Ley de Seguridad Ciudadana para fijar perímetros de protección de al menos 150 metros alrededor de los centros donde se practica la interrupción voluntaria del embarazo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-09",
+   "area": "igualdad",
+   "texto": "Cumplir íntegramente las medidas estatales del Pacto de Estado contra la Violencia de Género renovado en 2025, en especial en violencia digital, económica y protección de víctimas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-10",
+   "area": "igualdad",
+   "texto": "Regular y definir la violencia vicaria, con prevención y tratamiento en los sistemas de protección.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-11",
+   "area": "igualdad",
+   "texto": "Reforzar la formación obligatoria en perspectiva de género de la judicatura y la Fiscalía, con calendarios y evaluaciones periódicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-12",
+   "area": "igualdad",
+   "texto": "Promover nuevos órganos judiciales especializados y reforzar las secciones de Violencia sobre la Mujer en Euskadi, en especial en Vitoria-Gasteiz y Barakaldo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-13",
+   "area": "igualdad",
+   "texto": "Equiparar los requisitos de las ayudas económicas estatales para víctimas de violencia de género y de violencias sexuales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-14",
+   "area": "igualdad",
+   "texto": "Hacer compatibles las indemnizaciones judiciales por violencia machista con las pensiones no contributivas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-15",
+   "area": "igualdad",
+   "texto": "Reconocer y reparar las vulneraciones de derechos de las mujeres durante el franquismo, en especial las del Patronato de Protección a la Mujer, con participación de las víctimas y de Gogora.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-16",
+   "area": "igualdad",
+   "texto": "Reforzar la prevención, investigación y persecución de los delitos de odio contra personas LGTBIQ+, con formación especializada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-17",
+   "area": "igualdad",
+   "texto": "Exigir a las plataformas digitales el cumplimiento del Reglamento europeo de Servicios Digitales frente a contenidos ilícitos de odio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-18",
+   "area": "igualdad",
+   "texto": "Garantizar la aplicación efectiva de los derechos LGTBIQ+ y proteger los avances frente a cualquier retroceso.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-19",
+   "area": "igualdad",
+   "texto": "Tipificar penalmente las prácticas de conversión dirigidas a modificar la orientación sexual, la identidad sexual o la expresión de género.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-20",
+   "area": "igualdad",
+   "texto": "Desarrollar reglamentariamente el artículo 50 de la Ley 4/2023 para adecuar la documentación de personas extranjeras trans a su identidad de género.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-07",
+   "area": "instituciones",
+   "texto": "Elaborar un Plan Estatal de Derechos Humanos con objetivos, medidas, plazos y mecanismos públicos de seguimiento y evaluación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-seg-01",
+   "area": "seguridad",
+   "texto": "Impulsar la reforma de la «ley mordaza» para eliminar restricciones desproporcionadas a derechos y libertades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
     "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-08",
+   "area": "instituciones",
+   "texto": "Reformar el Código Penal en los delitos de expresión de opiniones sobre la Corona, las instituciones y los símbolos del Estado, conforme a los estándares europeos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-09",
+   "area": "instituciones",
+   "texto": "Reformar la Ley Orgánica del Poder Judicial para recuperar una jurisdicción universal efectiva y promover la ratificación de los instrumentos internacionales correspondientes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-10",
+   "area": "instituciones",
+   "texto": "Rechazar la prisión permanente revisable y orientar el sistema penitenciario a la reeducación y la reinserción.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-inm-03",
+   "area": "inmigracion",
+   "texto": "Reforzar las garantías de migrantes y solicitantes de asilo en las fronteras, con alternativas a la privación de libertad en los CIE e investigación de posibles vulneraciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Alternativas a la privación de libertad en los CIE y trazabilidad de las devoluciones en frontera.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-03",
+   "area": "exterior",
+   "texto": "Promover una política exterior comprometida con los derechos humanos y el derecho internacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-04",
+   "area": "exterior",
+   "texto": "Reforzar la cooperación internacional para el desarrollo con recursos suficientes, respetando el modelo vasco de cooperación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-05",
+   "area": "exterior",
+   "texto": "Mantener el compromiso contra la pena de muerte, exigir garantías jurídicas para las personas condenadas y defender su abolición internacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-04",
+   "area": "pensiones",
+   "texto": "Revalorizar las pensiones cada año según el IPC para que no pierdan poder adquisitivo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
    "destacada": true
+  },
+  {
+   "id": "pnv-pen-05",
+   "area": "pensiones",
+   "texto": "Mejorar progresivamente las pensiones mínimas y no contributivas, priorizando a quienes tienen menos ingresos o están en vulnerabilidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-06",
+   "area": "pensiones",
+   "texto": "Eliminar las penalizaciones por jubilación anticipada para quienes tienen más de 40 años cotizados, y corregirlas también para personas ya jubiladas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-07",
+   "area": "pensiones",
+   "texto": "Reducir la brecha de género en las pensiones, compensando interrupciones laborales, reducciones de jornada y lagunas por cuidado de descendientes y familiares dependientes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-08",
+   "area": "pensiones",
+   "texto": "Reconocer en la Seguridad Social los periodos de cuidados familiares, tanto para acceder a la jubilación como para calcular su cuantía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-09",
+   "area": "pensiones",
+   "texto": "Establecer coeficientes reductores de la edad de jubilación para personas cuidadoras no profesionales acogidas al convenio especial de la Seguridad Social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-01",
+   "area": "pensiones",
+   "texto": "Defender un sistema público de pensiones sostenible y solidario entre generaciones, con más fuentes de financiación y acuerdos estables en el marco del Pacto de Toledo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Sistema público de pensiones con fuentes de financiación ciertas y prestaciones no contributivas a cargo del Estado.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-02",
+   "area": "pensiones",
+   "texto": "Extender la previsión social complementaria de empleo mediante la negociación colectiva, como complemento y nunca como sustituto de las pensiones públicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Desarrollar un sistema vasco de previsión social.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-03",
+   "area": "territorio",
+   "texto": "Culminar la transferencia a Euskadi de la gestión del régimen económico de la Seguridad Social, según el Estatuto de Gernika, respetando el carácter unitario del sistema.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 30-31",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-01",
+   "area": "sanidad",
+   "texto": "Formar más especialistas donde se necesitan, adaptando el sistema MIR a las necesidades reales, evitando plazas vacantes y coordinando la oferta con los sistemas públicos de salud.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-02",
+   "area": "sanidad",
+   "texto": "Valorar el conocimiento de las lenguas oficiales en el acceso a la formación sanitaria especializada, en territorios con más de una lengua oficial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-03",
+   "area": "sanidad",
+   "texto": "Garantizar la participación permanente de los Gobiernos Vasco y Navarro en los órganos estatales que autorizan, registran y fijan precios de medicamentos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-04",
+   "area": "sanidad",
+   "texto": "Favorecer la investigación y la atención a enfermedades raras y neurodegenerativas, incluido el Alzheimer, con acceso a medicamentos huérfanos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-05",
+   "area": "sanidad",
+   "texto": "Regular el uso medicinal del cannabis, con condiciones sanitarias y de seguridad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-06",
+   "area": "sanidad",
+   "texto": "Culminar las transferencias sanitarias pendientes: formación especializada, acreditación de plazas, control de incapacidades laborales y sanidad exterior.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-07",
+   "area": "sanidad",
+   "texto": "Negociar la reforma del Estatuto Marco de las profesiones sanitarias con profesionales, sindicatos y comunidades, con memoria económica que permita aplicar los acuerdos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-san-08",
+   "area": "sanidad",
+   "texto": "Buscar soluciones dialogadas a los conflictos laborales sanitarios, evitando que sus consecuencias recaigan en pacientes y servicios públicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 31-32",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-21",
+   "area": "igualdad",
+   "texto": "Prestación económica para cuidadores no profesionales que dejaron su empleo o redujeron jornada, con el salario mínimo como referencia y según la intensidad de los cuidados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 32-33",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-22",
+   "area": "igualdad",
+   "texto": "Hacer compatibles las prestaciones económicas con los servicios de apoyo a los cuidados y reforzar los servicios de respiro para familias cuidadoras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 32-33",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-23",
+   "area": "igualdad",
+   "texto": "Crear un Fondo Personal para Cuidados en la Comunidad que combine prestaciones, servicios y apoyos según las necesidades, respetando las competencias vascas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 32-33",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-24",
+   "area": "igualdad",
+   "texto": "Cumplir íntegramente y financiar suficientemente la Ley ELA.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-25",
+   "area": "igualdad",
+   "texto": "Promover un Real Decreto de Electrodependencia que proteja de cortes de suministro, con acceso al bono social como consumidor vulnerable severo y bonificaciones para equipos médicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-26",
+   "area": "igualdad",
+   "texto": "Evaluar cada año la prestación por cuidado de menores con cáncer u otras enfermedades graves (CUME), corregir las dificultades de acceso y estudiar extenderla al personal funcionario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 34",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-27",
+   "area": "igualdad",
+   "texto": "Reformar el Real Decreto 483/2025 para facilitar el acceso al fondo a todos los colectivos de la Ley 21/2022 y revisar las cuantías indemnizatorias, simplificando los procedimientos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 34",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-28",
+   "area": "igualdad",
+   "texto": "Modificar la Ley 35/2006 del IRPF para declarar exentas las indemnizaciones del Fondo de Compensación para las Víctimas del Amianto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 34",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-igu-29",
+   "area": "igualdad",
+   "texto": "Garantizar una dotación presupuestaria suficiente, plazos ágiles de resolución y criterios homogéneos en el fondo del amianto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 34",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-dem-01",
+   "area": "demografia",
+   "texto": "Reforzar la prevención y la lucha contra la pobreza infantil, respetando las competencias vascas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-dem-02",
+   "area": "demografia",
+   "texto": "Proteger a la infancia frente a la violencia y la explotación, con mejor coordinación entre administraciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-11",
+   "area": "instituciones",
+   "texto": "Promover órganos judiciales especializados en infancia y adolescencia en Euskadi, con profesionales formados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-tec-04",
+   "area": "tecnologia",
+   "texto": "Reforzar las obligaciones de las plataformas digitales frente al ciberacoso, la violencia sexual digital y el uso indebido de datos e imágenes de menores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-tec-05",
+   "area": "tecnologia",
+   "texto": "Establecer mecanismos proporcionados de verificación de edad, denuncia y retirada de contenidos ilícitos, respetando la privacidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-pen-10",
+   "area": "pensiones",
+   "texto": "Garantizar una financiación suficiente y sostenible del sistema público de protección social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-dem-03",
+   "area": "demografia",
+   "texto": "Impulsar acuerdos estables entre administraciones para afrontar los cambios demográficos, respetando las competencias de Euskadi.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 34-35",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-05",
+   "area": "territorio",
+   "texto": "Cumplir íntegramente el Estatuto de Gernika, culminar las transferencias pendientes con recursos suficientes y rechazar cualquier recentralización o vaciamiento de competencias vascas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 3",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pnv-ter-20",
+   "area": "territorio",
+   "texto": "Crear mecanismos bilaterales de negociación y seguimiento de los acuerdos entre Euskadi y el Estado, para verificar su cumplimiento y resolver diferencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-01",
+   "area": "territorio",
+   "texto": "Proteger los Derechos Históricos del Pueblo Vasco y el reconocimiento nacional de Euskadi como base de una relación de pacto y bilateralidad con el Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-21",
+   "area": "territorio",
+   "texto": "Defender junto a Geroa Bai el Amejoramiento del Fuero, el Convenio Económico y las instituciones propias de Navarra.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-06",
+   "area": "territorio",
+   "texto": "Apoyar que la ciudadanía de Trebiño y Villaverde Turtzioz se pronuncie democráticamente sobre su futuro, incluida una posible incorporación a Euskadi, por vías legales y con diálogo institucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Que los vecinos de Treviño y Villaverde de Trucíos puedan pronunciarse sobre su situación territorial.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-eco-21",
+   "area": "economia",
+   "texto": "Ampliar las capacidades financiero-fiscales mediante la modificación de la Ley del Concierto Económico y del Convenio Económico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-22",
+   "area": "territorio",
+   "texto": "Impulsar una nueva relación política basada en el reconocimiento de la «realidad nacional vasca» y la capacidad de decisión de sus instituciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ter-23",
+   "area": "territorio",
+   "texto": "Avanzar hacia un «Concierto Político» que lleve los principios de pacto y bilateralidad al ámbito institucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "pnv-ter-24",
+   "area": "territorio",
+   "texto": "Establecer mecanismos imparciales de prevención y resolución de conflictos entre Euskadi y el Estado, que eviten incumplimientos o modificaciones unilaterales de los acuerdos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-01",
+   "area": "instituciones",
+   "texto": "Culminar la organización judicial en el Tribunal Superior de Justicia del País Vasco, que agotaría las instancias salvo la reservada al Supremo, y crear un Consejo Vasco de Justicia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 9",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-seg-06",
+   "area": "seguridad",
+   "texto": "Reconocer a la Ertzaintza como Policía judicial en el ámbito vasco, con plena capacidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-02",
+   "area": "instituciones",
+   "texto": "Aprobar una nueva Ley de Secretos Oficiales con criterios objetivos de clasificación y plazos concretos de desclasificación automática.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 12",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Nueva Ley de Secretos Oficiales con desclasificación automática y actualización del marco legal del CNI.",
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-12",
+   "area": "instituciones",
+   "texto": "Desclasificar y facilitar el acceso a documentación oficial sobre los sucesos del 3 de marzo de 1976 en Vitoria-Gasteiz, Mikel Zabalza, el bar Aldana (1980) y los Sanfermines de 1978.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-13",
+   "area": "instituciones",
+   "texto": "Aplicar íntegramente la legislación de Memoria Histórica y Democrática, con verdad, justicia y reparación para las víctimas de la Guerra Civil y la dictadura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ins-14",
+   "area": "instituciones",
+   "texto": "Reforzar la transparencia y la rendición de cuentas de las administraciones, con información comprensible sobre decisiones, presupuestos y resultados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-01",
+   "area": "exterior",
+   "texto": "Asegurar la participación directa de Euskadi en las instituciones de la UE y una voz propia en formaciones del Consejo como ECOFIN y Justicia y Asuntos de Interior.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
+    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-06",
+   "area": "exterior",
+   "texto": "Favorecer el reconocimiento y la representación de las realidades nacionales en las instituciones europeas, incluido el Parlamento Europeo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-cul-03",
+   "area": "cultura",
+   "texto": "Promover la oficialidad del euskera, el catalán y el gallego en la UE, con presencia y uso efectivo en sus instituciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-07",
+   "area": "exterior",
+   "texto": "Impulsar una Europa más democrática, competitiva y social, con autonomía estratégica y protección de su industria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-08",
+   "area": "exterior",
+   "texto": "Crear una Macrorregión Atlántica Europea para cooperar en infraestructuras ferroviarias y energéticas, industria, digitalización, pesca, economía azul y relaciones con el Reino Unido.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-09",
+   "area": "exterior",
+   "texto": "Cumplir los plazos de las redes transeuropeas de transporte, en especial las conexiones ferroviarias transfronterizas de Euskadi con el resto de Europa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-10",
+   "area": "exterior",
+   "texto": "Garantizar la participación de Euskadi en la elaboración y gestión del Marco Financiero Plurianual europeo 2028-2034, incluidas las prioridades y el reparto de recursos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-11",
+   "area": "exterior",
+   "texto": "Impulsar la gestión descentralizada de los fondos europeos y la participación directa de Euskadi en su programación, ejecución y seguimiento, evitando la recentralización estatal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 41-42",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pnv-ext-12",
+   "area": "exterior",
+   "texto": "Lograr una financiación europea adecuada para las prioridades industriales, energéticas, tecnológicas, sociales y territoriales de Euskadi.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
   },
   {
    "id": "pnv-ter-02",
@@ -55,19 +2600,9 @@
     "url": "https://www.ondavasca.com/esteban-estrena-su-mandato-nombrando-a-vaquero-portavoz-del-pnv-en-madrid/",
     "fecha": "2025-03"
    },
-   "destacada": true
-  },
-  {
-   "id": "pnv-ter-03",
-   "area": "territorio",
-   "texto": "Transferir la gestión del régimen económico de la Seguridad Social, prevista en el Estatuto de Gernika.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": true
+   "destacada": true,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ter-04",
@@ -82,30 +2617,6 @@
    "destacada": false
   },
   {
-   "id": "pnv-ter-05",
-   "area": "territorio",
-   "texto": "Defender el Concierto Económico y el Estatuto de Gernika frente a la recentralización.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 3",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "pnv-ter-06",
-   "area": "territorio",
-   "texto": "Que los vecinos de Treviño y Villaverde de Trucíos puedan pronunciarse sobre su situación territorial.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
    "id": "pnv-ter-07",
    "area": "territorio",
    "texto": "Exigir el cumplimiento de todos los compromisos del Gobierno con Navarra, como el traspaso de I+D+i.",
@@ -115,43 +2626,9 @@
     "url": "https://www.eaj-pnv.eus/es/noticias",
     "fecha": "2026-10"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-inm-01",
-   "area": "inmigracion",
-   "texto": "Transferir a la CAV las políticas migratorias.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 11",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ins-01",
-   "area": "instituciones",
-   "texto": "Crear un Consejo Vasco de Justicia y que el TSJ del País Vasco sea la última instancia judicial en Euskadi.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 9",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-eco-01",
-   "area": "economia",
-   "texto": "Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-eco-02",
@@ -163,7 +2640,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-eco-03",
@@ -175,7 +2654,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-eco-04",
@@ -199,7 +2680,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-eco-06",
@@ -211,7 +2694,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-eco-07",
@@ -223,19 +2708,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-deu-01",
-   "area": "deuda",
-   "texto": "Sendas de déficit diferenciadas por comunidad, negociadas bilateralmente e incluidas en la Ley de Estabilidad.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 18",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-deu-02",
@@ -247,43 +2722,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-emp-01",
-   "area": "empleo",
-   "texto": "Marco propio vasco de relaciones laborales y prevalencia de los convenios autonómicos más favorables.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 29",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "pnv-emp-02",
-   "area": "empleo",
-   "texto": "Ampliar la cobertura por desempleo hasta 36 meses ligada a procesos de empleabilidad.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 31",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-emp-03",
-   "area": "empleo",
-   "texto": "Extender la FP dual a todos los niveles.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 30",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-emp-04",
@@ -295,31 +2736,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-pen-01",
-   "area": "pensiones",
-   "texto": "Sistema público de pensiones con fuentes de financiación ciertas y prestaciones no contributivas a cargo del Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-pen-02",
-   "area": "pensiones",
-   "texto": "Desarrollar un sistema vasco de previsión social.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 32",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-pen-03",
@@ -331,7 +2750,9 @@
     "url": "https://www.eaj-pnv.eus/es/noticias",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-viv-01",
@@ -343,43 +2764,9 @@
     "url": "https://www.eaj-pnv.eus/es/noticias",
     "fecha": "2026-10"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ene-01",
-   "area": "energia",
-   "texto": "Mantener el bono social eléctrico y el bono social térmico.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 20",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ene-02",
-   "area": "energia",
-   "texto": "Prioridad de acceso a la red para las comunidades energéticas y contratos PPA con garantía del Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 21",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ene-03",
-   "area": "energia",
-   "texto": "Impulsar un sector propio de hidrógeno verde.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 24",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ene-04",
@@ -391,7 +2778,9 @@
     "url": "https://www.eaj-pnv.eus/es/noticias",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ene-05",
@@ -403,7 +2792,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ene-06",
@@ -415,43 +2806,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-inm-02",
-   "area": "inmigracion",
-   "texto": "Una política europea común de inmigración y asilo y reparto equitativo de los menores migrantes no acompañados.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-inm-03",
-   "area": "inmigracion",
-   "texto": "Alternativas a la privación de libertad en los CIE y trazabilidad de las devoluciones en frontera.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 10",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ins-02",
-   "area": "instituciones",
-   "texto": "Nueva Ley de Secretos Oficiales con desclasificación automática y actualización del marco legal del CNI.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 12",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ins-03",
@@ -463,7 +2820,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ins-04",
@@ -475,19 +2834,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-seg-01",
-   "area": "seguridad",
-   "texto": "Reformar la Ley de Seguridad Ciudadana ('ley mordaza').",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-igu-01",
@@ -499,19 +2848,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "pnv-ext-01",
-   "area": "exterior",
-   "texto": "Participación directa de Euskadi en los órganos de decisión de la Unión Europea.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa EAJ-PNV 'Con voz propia' 23J, p. 7",
-    "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-ext-02",
@@ -523,7 +2862,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-cul-01",
@@ -535,7 +2876,9 @@
     "url": "https://eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "pnv-cul-02",
@@ -554,42 +2897,45 @@
   "economica": [
    {
     "titulo": "Un cupo calculado a la baja",
-    "texto": "Ángel de la Fuente (Fedea) estima que la base del cupo vasco está infravalorada en torno a un 30% y que los ajustes por IVA e impuestos especiales favorecen a la hacienda vasca, lo que da a Euskadi una financiación por habitante muy superior a la media sin contribuir en proporción a la nivelación.",
+    "texto": "Ampliar las capacidades fiscales vascas mediante la actualización del Concierto Económico parte de un sistema que ya favorece a Euskadi según Ángel de la Fuente (Fedea): estima que la base del cupo está infravalorada en torno a un 30% y que los ajustes por IVA e impuestos especiales favorecen a la hacienda vasca, lo que da a Euskadi una financiación por habitante muy superior a la media sin contribuir en proporción a la nivelación.",
     "sobre": [
      "pnv-ter-05",
-     "pnv-eco-01"
+     "pnv-eco-01",
+     "pnv-eco-21"
     ],
     "fuente": {
      "nombre": "Fedea, Sobre el sistema de financiación foral, FPP 2020/20",
      "url": "https://documentos.fedea.net/documento/fpp2020-20/texto"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Reglas fiscales a la carta",
-    "texto": "Sendas de déficit negociadas bilateralmente y excluir inversión de la regla de gasto debilitan la disciplina presupuestaria común y pueden chocar con las reglas fiscales europeas reformadas en 2024.",
+    "texto": "Revisar la normativa de estabilidad presupuestaria para dar más margen de gasto e inversión a las administraciones vascas y permitirles usar sus superávits debilita la disciplina presupuestaria común si se aplica de forma diferenciada a una comunidad, un riesgo que Fedea ya señaló ante las sendas de déficit bilaterales del acuerdo de investidura de 2023.",
     "sobre": [
      "pnv-deu-01",
-     "pnv-deu-02"
+     "pnv-deu-03"
     ],
     "fuente": {
      "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
      "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ],
   "social": [
    {
     "titulo": "La Seguridad Social y la caja única",
-    "texto": "Fedea recuerda que el TC (STC 124/1989 y 195/1996) limita el traspaso del régimen económico, y que el País Vasco tiene un déficit contributivo de unos 4.000 M€ cubierto por la caja común; su gestión propia plantea riesgos para la solidaridad interterritorial en pensiones.",
+    "texto": "Fedea recuerda que el TC (STC 124/1989 y 195/1996) limita el traspaso del régimen económico, y que el País Vasco tiene un déficit contributivo de unos 4.000 M€ cubierto por la caja común; aunque el programa dice respetar el carácter unitario del sistema, su gestión propia plantea riesgos para la solidaridad interterritorial en pensiones.",
     "sobre": [
      "pnv-ter-03",
-     "pnv-ter-04",
-     "pnv-pen-02"
+     "pnv-ter-04"
     ],
     "fuente": {
      "nombre": "Fedea, El contenido económico de los pactos de investidura, 2023",
      "url": "https://documentos.fedea.net/pubs/ap/2023/ap2023-21.pdf"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Marco laboral propio y desigualdad entre trabajadores",
@@ -605,14 +2951,16 @@
   "cultural": [
    {
     "titulo": "Nación y bilateralidad frente a igualdad territorial",
-    "texto": "Críticos constitucionalistas sostienen que una relación bilateral basada en el reconocimiento de la nación vasca consolida un estatus asimétrico respecto al resto de comunidades, difícil de encajar en un Estado autonómico basado en la igualdad de derechos.",
+    "texto": "Críticos constitucionalistas sostienen que una relación bilateral basada en el reconocimiento de la nación vasca, que el programa quiere llevar al ámbito institucional con un «Concierto Político», consolida un estatus asimétrico respecto al resto de comunidades, difícil de encajar en un Estado autonómico basado en la igualdad de derechos.",
     "sobre": [
      "pnv-ter-01",
-     "pnv-ter-02"
+     "pnv-ter-22",
+     "pnv-ter-23"
     ],
     "fuente": {
      "nombre": "Tribunal Constitucional, STC 31/2010 (valor jurídico del término 'nación' en el preámbulo estatutario)"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Ruptura de la unidad jurisdiccional",
@@ -627,7 +2975,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-13",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
@@ -639,5 +2987,11 @@
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
+ },
+ "programa_2026": {
+  "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+  "fecha_publicacion": "2026-11-09",
+  "paginas": 42,
+  "incorporado": "2026-11-13"
  }
 }

@@ -9,8 +9,13 @@
  "color": "#FFD700",
  "web": "https://coalicioncanaria.org/",
  "escanos_2023": 1,
- "resumen": "Propone defender el REF sin reformas unilaterales del Estado, financiar con fondos estatales vivienda pública en Canarias y financiar con el REF la lucha contra la pobreza. Fuente: programa 2023 y declaraciones.",
+ "resumen": "Propone defender el REF y rechazar reformas unilaterales del Estado, un fondo estatal de ocho años para vivienda pública y asequible y separar el REF de la financiación de los servicios públicos. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Manifiesto político «Canarias tiene que contar» y «Diez causas y cien acciones» de Coalición Canaria y Municipalistas Primero Canarias para el 29N (PDF)",
+   "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+   "fecha": "2026-11-09"
+  },
   {
    "titulo": "Doce ejes para Madrid: acuerdo CC–Primero Canarias para el 29N",
    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
@@ -27,42 +32,1404 @@
    "fecha": "2023-10"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
-  {
-   "id": "cc-viv-01",
-   "area": "vivienda",
-   "texto": "Financiación estatal para vivienda pública y asequible en Canarias y aprobación de una Ley de Residencia para Canarias.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
-   },
-   "destacada": true
-  },
   {
    "id": "cc-ter-01",
    "area": "territorio",
-   "texto": "Pleno desarrollo del Estatuto de Autonomía, incluidas las competencias sobre costas, puertos y aeropuertos.",
-   "origen": "declaracion",
+   "texto": "Exigir un calendario verificable para completar los traspasos del Estatuto de Autonomía, con medios suficientes, incluidos el transporte aéreo interinsular y las autorizaciones de trabajo de extranjeros.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 1",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
     "fecha": "2026-10-14"
    },
-   "destacada": true
+   "cambio": "Antes: Pleno desarrollo del Estatuto de Autonomía, incluidas las competencias sobre costas, puertos y aeropuertos."
+  },
+  {
+   "id": "cc-ter-04",
+   "area": "territorio",
+   "texto": "Reforzar la relación bilateral con el Estado, con participación de las instituciones canarias en las decisiones de impacto singular y acuerdo en infraestructuras científicas y nombramientos en organismos estatales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 2",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
   },
   {
    "id": "cc-ter-02",
    "area": "territorio",
-   "texto": "Reconocimiento del hecho diferencial canario y de su condición de región ultraperiférica, también en una eventual reforma constitucional.",
-   "origen": "declaracion",
+   "texto": "Recoger en una eventual reforma constitucional las singularidades derivadas de la lejanía, la insularidad y la ultraperiferia, con garantías que no dependan del Gobierno de turno.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 3",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Reconocimiento del hecho diferencial canario y de su condición de región ultraperiférica, también en una eventual reforma constitucional."
+  },
+  {
+   "id": "cc-eco-01",
+   "area": "economia",
+   "texto": "Defender la integridad del REF, o «fuero histórico», y rechazar reformas unilaterales del Estado sin participación del Gobierno y el Parlamento de Canarias; más capacidad canaria sobre sus instrumentos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 4",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan."
+  },
+  {
+   "id": "cc-eco-08",
+   "area": "economia",
+   "texto": "Impedir que los recursos del REF se computen como financiación ordinaria de la sanidad, la educación, la dependencia o los servicios sociales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 5",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-eco-02",
+   "area": "economia",
+   "texto": "Sistema de financiación autonómica suficiente y estable que reconozca el coste de un archipiélago alejado y considere población efectiva, fragmentación territorial, pobreza y envejecimiento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 6",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   },
+   "cambio": "Antes: Nuevo sistema de financiación autonómica separado de los recursos del REF que pondere insularidad y pobreza."
+  },
+  {
+   "id": "cc-eco-03",
+   "area": "economia",
+   "texto": "Exigir el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas, con financiación y plazos verificables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 7",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Garantizar en los Presupuestos del Estado una inversión en Canarias al menos igual a la media estatal y renovar los convenios de infraestructuras."
+  },
+  {
+   "id": "cc-ter-05",
+   "area": "territorio",
+   "texto": "Desarrollar el papel del Gobierno canario y los cabildos en la gestión de puertos y aeropuertos, aplicar el régimen específico de los aeropuertos canarios y negociar la gestión del Registro Especial de Buques.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 8",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ter-06",
+   "area": "territorio",
+   "texto": "Recuperar para uso civil terrenos e instalaciones militares, entre ellos el campo de tiro de Pájara, y negociar con el Estado su cesión a las administraciones canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender los derechos de Canarias», medida 9",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-san-01",
+   "area": "sanidad",
+   "texto": "Compensación estatal específica y actualizada por los sobrecostes sanitarios de la insularidad y la lejanía, y formación sanitaria especializada ajustada a las necesidades de Canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 10",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Compensar en la financiación el sobrecoste sanitario de la insularidad y reforzar la partida estatal de salud mental."
+  },
+  {
+   "id": "cc-san-02",
+   "area": "sanidad",
+   "texto": "Apoyo estatal a la movilidad de especialistas cuando resulte más eficiente desplazar el servicio que al paciente, y estudio de una cobertura reforzada de los desplazamientos interinsulares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 11",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-san-03",
+   "area": "sanidad",
+   "texto": "Reforzar en los Presupuestos Generales del Estado las partidas de salud mental en Canarias, para mejorar la atención primaria y los servicios especializados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 12",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-igu-02",
+   "area": "igualdad",
+   "texto": "Aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia, y estrategia de envejecimiento y cuidados de larga duración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 13",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Que el Estado asuma el 50 % de la financiación de la dependencia con carácter finalista."
+  },
+  {
+   "id": "cc-edu-03",
+   "area": "educacion",
+   "texto": "Reforzar la financiación estatal de plazas públicas gratuitas y de calidad de educación infantil de cero a tres años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 14",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-igu-01",
+   "area": "igualdad",
+   "texto": "Programas estatales específicos de reducción de la pobreza infantil mientras Canarias mantenga indicadores de pobreza superiores a la media estatal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 15",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   },
+   "cambio": "Antes: Financiación del REF contra la pobreza cada año mientras Canarias supere la media estatal de pobreza."
+  },
+  {
+   "id": "cc-dem-01",
+   "area": "demografia",
+   "texto": "Buscar consenso estatal para una política común de infancia: ayudas a la crianza, acceso a vivienda en hogares con menores, protección frente a la violencia digital y atención a la salud mental infantil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 15",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Umbral de pobreza estatal común para el comedor escolar gratuito, elevando la cobertura del 13 % al 29 %, y ayudas a la crianza."
+  },
+  {
+   "id": "cc-igu-05",
+   "area": "igualdad",
+   "texto": "Cooperación con el Estado para que Canarias tramite el ingreso mínimo vital, con coordinación con las prestaciones autonómicas y sin pérdida brusca de protección al aceptar un empleo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 16",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-igu-03",
+   "area": "igualdad",
+   "texto": "Financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas, con prevención y protección de víctimas y de sus hijos e hijas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 17",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Aplicar el Convenio de Estambul y el Pacto de Estado contra la Violencia de Género con más presupuesto, y medidas contra la LGTBIfobia."
+  },
+  {
+   "id": "cc-inm-03",
+   "area": "seguridad",
+   "texto": "Que el Estado financie las 1.400 plazas del Cuerpo General de la Policía Canaria previstas en la propuesta de Decreto Canarias, con desarrollo progresivo y complementario a los cuerpos estatales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 18",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Financiar plazas del Cuerpo General de la Policía Canaria equiparables a las del Estado."
+  },
+  {
+   "id": "cc-pen-02",
+   "area": "pensiones",
+   "texto": "Que los complementos de renta de Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación y no reduzcan la prestación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 19",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-igu-06",
+   "area": "igualdad",
+   "texto": "Incorporar las necesidades de las personas con discapacidad en los programas estatales y europeos de vivienda, transporte, empleo y servicios públicos destinados a Canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 20",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-edu-01",
+   "area": "educacion",
+   "texto": "Recuperar programas estatales de inversión para corregir los déficits de las infraestructuras educativas y adaptar los centros a las nuevas necesidades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestros servicios públicos y los cuidados», medida 21",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Convenio plurianual de infraestructuras educativas de al menos 42 millones anuales y gratuidad de 0 a 3 años."
+  },
+  {
+   "id": "cc-viv-01",
+   "area": "vivienda",
+   "texto": "Fondo estatal de ocho años para cofinanciar vivienda pública y asequible: construir, adquirir, rehabilitar y comprar suelo y edificios; inventario de suelos estatales y cesión a las administraciones canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 22",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Financiación estatal para vivienda pública y asequible en Canarias y aprobación de una Ley de Residencia para Canarias."
+  },
+  {
+   "id": "cc-viv-02",
+   "area": "vivienda",
+   "texto": "Plan estatal de reposición y regeneración de barrios, con demolición y reposición cuando la rehabilitación no baste, y más ayudas a ascensores, aislamiento, eficiencia energética y accesibilidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 23",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-viv-03",
+   "area": "vivienda",
+   "texto": "Mejorar los incentivos fiscales estatales a pequeños propietarios que pongan voluntariamente viviendas en alquiler asequible, con garantías públicas de cobro, y regulación estatal estable del alquiler de larga duración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 24",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-viv-04",
+   "area": "vivienda",
+   "texto": "Línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas, con fórmulas residenciales para estudiantes, alumnado de FP, jóvenes investigadores y trabajadores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 25",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-viv-05",
+   "area": "vivienda",
+   "texto": "Reformas en las Cortes para limitar la compra de vivienda en Canarias por extranjeros, régimen específico ante la UE y reformas para hacer viable una Ley Canaria de Residencia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 26",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true
+  },
+  {
+   "id": "cc-viv-06",
+   "area": "vivienda",
+   "texto": "Cobertura jurídica estatal y europea para que Canarias y sus municipios puedan modular y limitar el uso turístico de viviendas donde haya presión acreditada sobre la vivienda residencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 27",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-viv-07",
+   "area": "vivienda",
+   "texto": "Agilizar procedimientos estatales de vivienda protegida, incentivos fiscales a la primera vivienda para jóvenes y familias de ingresos medios y bajos, y apoyo a la construcción industrializada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 28",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-viv-08",
+   "area": "vivienda",
+   "texto": "Ayudas estatales para proteger del calor las viviendas de hogares con menos recursos: protección solar, aislamiento, ventilación y climatización eficiente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 29",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-09",
+   "area": "economia",
+   "texto": "Actualizar las compensaciones por los sobrecostes de la insularidad y evaluar su efecto en los precios finales de los productos básicos, corrigiendo las medidas que no alivien a las familias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el derecho a vivir y permanecer en Canarias», medida 30",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-emp-01",
+   "area": "empleo",
+   "texto": "Financiar el Plan Integral de Empleo de Canarias y los programas del REF mientras el empleo siga en clara desventaja frente a la media estatal, vinculando la formación a empleo estable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 31",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   },
+   "cambio": "Antes: Mantener el Plan Integral de Empleo de Canarias hasta igualar la media estatal y un plan de empleo para menores de 35 años."
+  },
+  {
+   "id": "cc-eco-10",
+   "area": "economia",
+   "texto": "Reforzar las ayudas estatales a quienes empiezan una actividad por cuenta propia y a los autónomos con menores rendimientos, ajustadas a las condiciones de las islas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 32",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-11",
+   "area": "economia",
+   "texto": "Adaptar los programas estatales de digitalización, innovación y financiación al tamaño y los costes logísticos de la microempresa canaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 33",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-tur-01",
+   "area": "economia",
+   "texto": "Cumplimiento del convenio de infraestructuras turísticas y programas estatales de renovación de destinos maduros, teniendo en cuenta la población real, incluida la no empadronada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 34",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Prolongar la financiación de la estrategia de resiliencia turística de Canarias."
+  },
+  {
+   "id": "cc-eco-12",
+   "area": "economia",
+   "texto": "Evaluar y actualizar los instrumentos del REF para atraer inversión productiva e innovadora que genere empleo estable, y mantener el diferencial fiscal canario para la producción audiovisual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 35",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-emp-02",
+   "area": "empleo",
+   "texto": "Incentivos fiscales y bonificaciones en las cotizaciones ligados a mejoras salariales pactadas y a la productividad, y medidas para las retribuciones públicas más bajas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 36",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Bonificaciones a la Seguridad Social para contratos indefinidos de jóvenes, mayores de 45 años y mujeres en ocupaciones subrepresentadas."
+  },
+  {
+   "id": "cc-eco-13",
+   "area": "economia",
+   "texto": "Acuerdo con el Estado y la UE para eliminar barreras y costes de intermediación en el comercio electrónico, y corregir los cobros indebidos de IVA cuando corresponda aplicar el IGIC.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 37",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-14",
+   "area": "economia",
+   "texto": "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro, con bonificación del 50 % de las cuotas empresariales a la Seguridad Social en las tres islas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 38",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-rur-01",
+   "area": "rural",
+   "texto": "Que España defienda íntegramente el POSEI y su dotación diferenciada en el nuevo presupuesto europeo, y reclamar cada año el 100 % de la aportación estatal a las ayudas adicionales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 39",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
     "fecha": "2026-10-14"
    }
+  },
+  {
+   "id": "cc-rur-03",
+   "area": "rural",
+   "texto": "Actualizar las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte, apoyar los seguros agrarios y financiar la prevención de plagas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 40",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-rur-04",
+   "area": "rural",
+   "texto": "Financiación estatal y europea para incorporar jóvenes a la agricultura, la ganadería y la pesca y mantener el suelo agrícola en uso.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 41",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-rur-02",
+   "area": "rural",
+   "texto": "Evaluar el impacto de los acuerdos comerciales sobre producciones sensibles, reglas para la flota artesanal y posibilidades de pesca suficientes, especialmente de atún rojo y patudo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 42",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Alcanzar al menos el 12 % de la cuota nacional de atún rojo para la flota canaria."
+  },
+  {
+   "id": "cc-ene-03",
+   "area": "energia",
+   "texto": "Corregir las reglas estatales para que el transporte entre islas de residuos destinados a reutilización o reciclaje no quede en desventaja frente a su envío a puertos peninsulares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 43",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-15",
+   "area": "economia",
+   "texto": "Orientar los programas estatales de innovación e industria hacia la reparación, la reutilización, el reciclaje y el aprovechamiento de residuos como actividad productiva en las islas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender a quienes levantan Canarias cada día», medida 44",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-emp-03",
+   "area": "empleo",
+   "texto": "Aportación estatal al plan cuatrienal de empleo para menores de 35 años previsto en la propuesta de Decreto Canarias, con seguimiento de acceso a empleo estable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 45",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-edu-04",
+   "area": "educacion",
+   "texto": "Financiación estatal para la formación profesional y dual, sus infraestructuras y las empresas que participan, y vías para el retorno del talento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 46",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-edu-02",
+   "area": "educacion",
+   "texto": "Cumplir y reforzar las previsiones del REF sobre becas para quienes deben desplazarse porque sus estudios no se ofrecen en su isla.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 47",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Becas de estudio y desplazamiento para estudiantes canarios y desarrollo de la FP dual."
+  },
+  {
+   "id": "cc-tec-01",
+   "area": "tecnologia",
+   "texto": "Criterios que corrijan las desventajas de la ultraperiferia en convocatorias estatales de I+D+i y financiación plurianual para universidades canarias, astrofísica, ciencias marinas y biotecnología.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 48",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Priorizar la I+D en astrofísica y espacio, ciencias marinas y biomedicina, y financiar un buque oceanográfico en Canarias."
+  },
+  {
+   "id": "cc-tec-02",
+   "area": "tecnologia",
+   "texto": "Reforzar la Plataforma Oceánica de Canarias (PLOCAN) como infraestructura científica y tecnológica española y europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 49",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-tec-03",
+   "area": "tecnologia",
+   "texto": "Programas estatales para energías marinas, biotecnología azul, robótica submarina, observación oceánica, acuicultura sostenible y tecnologías mar adentro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 50",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-tec-04",
+   "area": "tecnologia",
+   "texto": "Financiación estatal y europea para ensayar y demostrar en Canarias soluciones en energía, agua, océanos, biodiversidad, geotermia, economía circular y adaptación climática.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender el futuro de nuestros jóvenes y el conocimiento», medida 51",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ter-07",
+   "area": "territorio",
+   "texto": "Ampliar los traspasos de competencias ejecutivas y de gestión sobre el litoral previstos en el Estatuto y en la propuesta de Decreto Canarias, con medios suficientes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 52",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-01",
+   "area": "energia",
+   "texto": "Planificación estatal que sustituya progresivamente las instalaciones térmicas obsoletas por soluciones renovables y flexibles, manteniendo la seguridad del suministro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 53",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Medidas específicas para acelerar la transición energética en sistemas insulares, con modelos como Gorona del Viento y Chira-Soria."
+  },
+  {
+   "id": "cc-ene-04",
+   "area": "energia",
+   "texto": "Impulsar la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas a los sistemas insulares y con consenso social, político e institucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 54",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-05",
+   "area": "energia",
+   "texto": "Programa estatal extraordinario para redes de transporte y distribución, subestaciones, digitalización y nueva capacidad de conexión.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 55",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-06",
+   "area": "energia",
+   "texto": "Ayudas estatales y europeas para baterías y almacenamiento en baja y media tensión y proyectos de gran capacidad, incluido el bombeo de agua de mar en ciclo abierto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 56",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-07",
+   "area": "energia",
+   "texto": "Reformar la retribución de los sistemas eléctricos no peninsulares para valorar el almacenamiento, la flexibilidad y la reducción real de combustibles fósiles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 57",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-08",
+   "area": "energia",
+   "texto": "Marco estatal favorable al autoconsumo colectivo y las comunidades energéticas, con prioridad para sistemas de respaldo limpio en hospitales, desaladoras, depuradoras y telecomunicaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 58",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-09",
+   "area": "energia",
+   "texto": "Programas estatales estables de recarga de vehículos eléctricos, simplificación de trámites en comunidades de propietarios y reserva de potencia para recarga rápida en aeropuertos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 59",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-10",
+   "area": "energia",
+   "texto": "Ayudas reforzadas para taxis eléctricos y adaptación de los programas estatales para electrificar las flotas de vehículos de alquiler.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 60",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-11",
+   "area": "energia",
+   "texto": "Incorporar los puertos canarios a corredores marítimos verdes y crear un marco que permita a los barcos conectarse a la electricidad en puerto y apagar motores auxiliares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 61",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-12",
+   "area": "energia",
+   "texto": "Apoyo estatal y europeo a infraestructuras de metanol renovable, hidrógeno y otros combustibles sostenibles para la navegación, e incentivos a producir combustibles sostenibles de aviación (SAF) en las islas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 62",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-07",
+   "area": "economia",
+   "texto": "Que España defienda ante la UE adaptaciones de las políticas climáticas de aviación y navegación para no perjudicar de forma desproporcionada la conectividad de Canarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 63",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Eximir a Canarias de la tasa europea de emisiones a los vuelos dentro del Espacio Económico Europeo."
+  },
+  {
+   "id": "cc-ene-13",
+   "area": "energia",
+   "texto": "Programa estatal plurianual de saneamiento y depuración para acelerar obras prioritarias y eliminar vertidos sin tratamiento suficiente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 64",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-14",
+   "area": "energia",
+   "texto": "Que los convenios estatales de obras hidráulicas financien la regeneración del agua en nuevas depuradoras y grandes reformas, con inversiones para su uso agrícola y en zonas verdes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 65",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-02",
+   "area": "energia",
+   "texto": "Compensaciones actualizadas por el sobrecoste del agua desalada, regenerada y reutilizada, y financiación de eficiencia y renovables en desaladoras, depuradoras, bombeos y redes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 66",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   },
+   "cambio": "Antes: Compensación anual en los Presupuestos para igualar el precio del agua desalada y regenerada con la media estatal."
+  },
+  {
+   "id": "cc-tec-05",
+   "area": "tecnologia",
+   "texto": "Crear y financiar de forma estable el Centro Nacional de Vulcanología, con sede principal en La Palma, con aportación estatal del 50 % del coste de mantenimiento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 67",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-15",
+   "area": "energia",
+   "texto": "Fondo estatal para arbolado, corredores verdes, sombra, refugios climáticos, pavimentos permeables y drenaje urbano sostenible en pueblos y ciudades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 68",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-16",
+   "area": "energia",
+   "texto": "Financiación estatal para adaptar al calor centros educativos, hospitales, centros de salud y residencias, y para diagnósticos de vulnerabilidad que ordenen las inversiones según el clima futuro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 69",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-17",
+   "area": "energia",
+   "texto": "Contribución específica del Estado para cumplir en Canarias los objetivos europeos de restauración de la naturaleza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 71",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ene-18",
+   "area": "energia",
+   "texto": "Financiación estatal y europea para restaurar dunas, playas, humedales, barrancos y desembocaduras, priorizando soluciones basadas en la naturaleza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 72",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-seg-01",
+   "area": "seguridad",
+   "texto": "Cambios en el marco estatal para que Canarias pueda pedir la activación temprana de la Unidad Militar de Emergencias en incendios de nivel 1 y protocolos de despliegue preventivo ante episodios extremos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra tierra y nuestros recursos», medida 73",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-tec-06",
+   "area": "tecnologia",
+   "texto": "Exigir el Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto, dentro de la agenda digital estatal, para mejorar el acceso digital fuera de las grandes áreas urbanas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 74",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-04",
+   "area": "economia",
+   "texto": "Proteger la bonificación del 75 % en el transporte aéreo y marítimo de residentes y reforzar la supervisión y la transparencia para detectar subidas artificiales de tarifas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 75",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público."
+  },
+  {
+   "id": "cc-eco-16",
+   "area": "economia",
+   "texto": "Revisar las obligaciones de servicio público de las rutas esenciales para garantizar frecuencias, capacidad y precios razonables, y mantener las conexiones directas entre La Palma, La Gomera y El Hierro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 76",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-17",
+   "area": "economia",
+   "texto": "Desarrollar la quinta libertad aérea prevista en el REF para facilitar conexiones directas entre Canarias y terceros países.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 77",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-06",
+   "area": "economia",
+   "texto": "Financiación estatal estable para mantener la gratuidad de guaguas y tranvías, aportación estatal al déficit del sistema y 50 % de los proyectos de transporte por carretera en Lanzarote y Fuerteventura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 78",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Mantener la gratuidad de guaguas y tranvías e incluir los trenes de Gran Canaria y Tenerife en la red de ADIF."
+  },
+  {
+   "id": "cc-eco-18",
+   "area": "economia",
+   "texto": "Convenio estatal de diez años para ejecutar el Tren de Gran Canaria y tratamiento equivalente para los proyectos ferroviarios de Tenerife, como sistemas ferroviarios locales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 79",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-05",
+   "area": "economia",
+   "texto": "Actualizar las compensaciones estatales del transporte de mercancías hasta cubrir el 100 % del coste real subvencionable, incluido el tramo hasta la isla de destino final.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 80",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
+    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
+    "fecha": "2023-10"
+   },
+   "cambio": "Antes: Actualizar las ayudas al transporte de mercancías para que la cesta de la compra canaria no sea la más cara del Estado."
+  },
+  {
+   "id": "cc-ter-08",
+   "area": "territorio",
+   "texto": "Financiación sostenida para la recuperación de La Palma, continuidad del plan especial de empleo, reintegro de lo adelantado por Canarias y contratación de emergencia para reconstruir.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender las ocho islas», medida 81",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-inm-02",
+   "area": "inmigracion",
+   "texto": "Que el Estado y la UE asuman los costes extraordinarios del salvamento, la acogida y la atención humanitaria en la frontera atlántica, con financiación previsible y respeto a los derechos humanos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender una política migratoria solidaria y europea», medida 82",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Más coordinación y apoyo europeo en el rescate en el mar, especialmente en la ruta atlántica."
+  },
+  {
+   "id": "cc-inm-01",
+   "area": "inmigracion",
+   "texto": "Traslados y participación de otras comunidades activados de forma automática, con indicadores y plazos conocidos, cuando un territorio de primera acogida supere los umbrales previstos, sin negociación caso a caso.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender una política migratoria solidaria y europea», medida 83",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Gestión migratoria que active el cupo de solidaridad para que todas las comunidades acojan menores migrantes no acompañados."
+  },
+  {
+   "id": "cc-inm-04",
+   "area": "inmigracion",
+   "texto": "Financiación estatal suficiente y previsible para los menores extranjeros no acompañados acogidos en Canarias, con el interés superior del menor como guía de traslados y atención.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender una política migratoria solidaria y europea», medida 84",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-inm-05",
+   "area": "inmigracion",
+   "texto": "Reforzar la cooperación con Mauritania, Senegal, Marruecos, Cabo Verde y otros países en desarrollo, seguridad, formación y movilidad ordenada, y participación canaria en las políticas migratorias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender una política migratoria solidaria y europea», medida 85",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-inm-06",
+   "area": "inmigracion",
+   "texto": "Financiación estatal y europea para programas de integración, convivencia intercultural y prevención de conflictos en los territorios de primera acogida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender una política migratoria solidaria y europea», medida 86",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-cul-02",
+   "area": "cultura",
+   "texto": "Cooperación y recursos del Estado para la atención social y sanitaria de los canarios del exterior y apoyo a quienes quieran retornar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 87",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-cul-01",
+   "area": "cultura",
+   "texto": "Mantener ayudas estatales específicas para los desplazamientos de artistas y compañías canarias y eliminar obstáculos administrativos y fiscales a la circulación de sus obras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 88",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Recuperar las ayudas a la movilidad de artistas extrapeninsulares y mantener los incentivos fiscales al rodaje en Canarias."
+  },
+  {
+   "id": "cc-cul-03",
+   "area": "cultura",
+   "texto": "Financiación estatal suficiente para los desplazamientos de deportistas y clubes canarios a las competiciones oficiales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 89",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ext-03",
+   "area": "exterior",
+   "texto": "Que España defienda en el próximo marco financiero plurianual de la UE los instrumentos y dotaciones específicos para las regiones ultraperiféricas, y alianzas con ellas y con Francia y Portugal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 90",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ext-04",
+   "area": "exterior",
+   "texto": "Aplicar el artículo 349: evaluaciones y adaptaciones para las regiones ultraperiféricas cuando normas europeas de transporte, energía, emisiones, agricultura, residuos o industria les causen impactos desproporcionados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 91",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ext-05",
+   "area": "exterior",
+   "texto": "Continuidad y refuerzo de INTERREG, los programas de cooperación territorial con Madeira, Azores y África occidental.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 92",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ext-06",
+   "area": "exterior",
+   "texto": "Que España defienda reglas y recursos que faciliten la participación de universidades, centros y empresas canarias en Horizon y otros programas europeos de investigación e innovación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 93",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ext-02",
+   "area": "exterior",
+   "texto": "Reconocimiento estratégico europeo de la Macaronesia, mayor papel de Canarias en la cooperación con África occidental y nuevos cables submarinos para la seguridad de las telecomunicaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 94",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
+    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
+    "fecha": "2023-06-26"
+   },
+   "cambio": "Antes: Promover Canarias como plataforma de cooperación y negocios con África Occidental."
+  },
+  {
+   "id": "cc-ext-01",
+   "area": "exterior",
+   "texto": "Participación de las instituciones canarias en la política exterior con impacto directo en las islas, incluidas las negociaciones con Marruecos sobre delimitación marítima, recursos naturales y migración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 95",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
+    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
+    "fecha": "2026-10-14"
+   },
+   "cambio": "Antes: Presencia de las instituciones canarias en la política exterior que afecte al archipiélago, incluida la delimitación marítima con Marruecos."
+  },
+  {
+   "id": "cc-ext-07",
+   "area": "exterior",
+   "texto": "Defender ante el Estado y la UE una solución al conflicto del Sáhara Occidental conforme a las resoluciones de la ONU y el derecho del pueblo saharaui a decidir su futuro.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra identidad y nuestra posición en el Atlántico», medida 95",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ter-09",
+   "area": "territorio",
+   "texto": "Incorporar las propuestas de municipios y cabildos, recursos suficientes y competencias claras, y estabilidad en su participación en los tributos del Estado y en el Fondo de Compensación Interterritorial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra capacidad para decidir y exigir resultados», medida 96",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-deu-02",
+   "area": "deuda",
+   "texto": "Reformas y acuerdos estatales para que el Gobierno canario, los cabildos y los ayuntamientos empleen sus remanentes de tesorería en vivienda, sanidad, educación y bienestar social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra capacidad para decidir y exigir resultados», medida 97",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-eco-19",
+   "area": "economia",
+   "texto": "Cambios estatales para que el Instituto Canario de Estadística acceda a la información tributaria necesaria para evaluar el REF y las políticas de ultraperiferia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra capacidad para decidir y exigir resultados», medida 98",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ter-10",
+   "area": "territorio",
+   "texto": "Cumplimiento íntegro de la Agenda Canaria y de las medidas de la propuesta de Decreto Canarias, con financiación, plazos y responsables, aunque cambie el Gobierno del Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra capacidad para decidir y exigir resultados», medida 99",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
+  },
+  {
+   "id": "cc-ins-02",
+   "area": "instituciones",
+   "texto": "Informe público anual sobre las obligaciones estatales con Canarias, que distinga lo presupuestado, lo transferido y lo ejecutado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Manifiesto político 29N, apartado «Defender nuestra capacidad para decidir y exigir resultados», medida 100",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "fecha": "2026-11-09"
+   },
+   "destacada": false
   },
   {
    "id": "cc-ter-03",
@@ -74,41 +1441,9 @@
     "url": "https://rtvc.es/coalicion-canaria-propone-cristina-valido-candidata-congreso-explora-coaliciones-las-palmas-5-octubre-2026/",
     "fecha": "2026-10-05"
    },
-   "destacada": true
-  },
-  {
-   "id": "cc-eco-01",
-   "area": "economia",
-   "texto": "Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
-   },
-   "destacada": true
-  },
-  {
-   "id": "cc-eco-02",
-   "area": "economia",
-   "texto": "Nuevo sistema de financiación autonómica separado de los recursos del REF que pondere insularidad y pobreza.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
-    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
-    "fecha": "2023-10"
-   }
-  },
-  {
-   "id": "cc-eco-03",
-   "area": "economia",
-   "texto": "Garantizar en los Presupuestos del Estado una inversión en Canarias al menos igual a la media estatal y renovar los convenios de infraestructuras.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
+   "destacada": true,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "cc-deu-01",
@@ -119,7 +1454,9 @@
     "nombre": "RTVC, 25-05-2026",
     "url": "https://rtvc.es/coalicion-canaria-da-por-finiquitada-la-legislatura-y-pide-elecciones-25-mayo-2026/",
     "fecha": "2026-05-25"
-   }
+   },
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "cc-ins-01",
@@ -130,219 +1467,9 @@
     "nombre": "RTVC, 25-05-2026",
     "url": "https://rtvc.es/coalicion-canaria-da-por-finiquitada-la-legislatura-y-pide-elecciones-25-mayo-2026/",
     "fecha": "2026-05-25"
-   }
-  },
-  {
-   "id": "cc-inm-01",
-   "area": "inmigracion",
-   "texto": "Gestión migratoria que active el cupo de solidaridad para que todas las comunidades acojan menores migrantes no acompañados.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
    },
-   "destacada": true
-  },
-  {
-   "id": "cc-inm-02",
-   "area": "inmigracion",
-   "texto": "Más coordinación y apoyo europeo en el rescate en el mar, especialmente en la ruta atlántica.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-inm-03",
-   "area": "inmigracion",
-   "texto": "Financiar plazas del Cuerpo General de la Policía Canaria equiparables a las del Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-ext-01",
-   "area": "exterior",
-   "texto": "Presencia de las instituciones canarias en la política exterior que afecte al archipiélago, incluida la delimitación marítima con Marruecos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
-   }
-  },
-  {
-   "id": "cc-ext-02",
-   "area": "exterior",
-   "texto": "Promover Canarias como plataforma de cooperación y negocios con África Occidental.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-eco-04",
-   "area": "economia",
-   "texto": "Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y fijar precios máximos en rutas de servicio público.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
-   },
-   "destacada": true
-  },
-  {
-   "id": "cc-eco-05",
-   "area": "economia",
-   "texto": "Actualizar las ayudas al transporte de mercancías para que la cesta de la compra canaria no sea la más cara del Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
-    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
-    "fecha": "2023-10"
-   }
-  },
-  {
-   "id": "cc-eco-06",
-   "area": "economia",
-   "texto": "Mantener la gratuidad de guaguas y tranvías e incluir los trenes de Gran Canaria y Tenerife en la red de ADIF.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-eco-07",
-   "area": "economia",
-   "texto": "Eximir a Canarias de la tasa europea de emisiones a los vuelos dentro del Espacio Económico Europeo.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-rur-01",
-   "area": "rural",
-   "texto": "Mantener íntegramente el POSEI con el 100 % de la aportación estatal, los seguros agrarios y el transporte de mercancías agrícolas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
-    "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
-    "fecha": "2026-10-14"
-   },
-   "destacada": true
-  },
-  {
-   "id": "cc-rur-02",
-   "area": "rural",
-   "texto": "Alcanzar al menos el 12 % de la cuota nacional de atún rojo para la flota canaria.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-ene-01",
-   "area": "energia",
-   "texto": "Medidas específicas para acelerar la transición energética en sistemas insulares, con modelos como Gorona del Viento y Chira-Soria.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-ene-02",
-   "area": "energia",
-   "texto": "Compensación anual en los Presupuestos para igualar el precio del agua desalada y regenerada con la media estatal.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
-    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
-    "fecha": "2023-10"
-   }
-  },
-  {
-   "id": "cc-emp-01",
-   "area": "empleo",
-   "texto": "Mantener el Plan Integral de Empleo de Canarias hasta igualar la media estatal y un plan de empleo para menores de 35 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
-    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
-    "fecha": "2023-10"
-   }
-  },
-  {
-   "id": "cc-emp-02",
-   "area": "empleo",
-   "texto": "Bonificaciones a la Seguridad Social para contratos indefinidos de jóvenes, mayores de 45 años y mujeres en ocupaciones subrepresentadas.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-san-01",
-   "area": "sanidad",
-   "texto": "Compensar en la financiación el sobrecoste sanitario de la insularidad y reforzar la partida estatal de salud mental.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-igu-01",
-   "area": "igualdad",
-   "texto": "Financiación del REF contra la pobreza cada año mientras Canarias supere la media estatal de pobreza.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Acuerdo PSOE-CC y Agenda Canaria (2023)",
-    "url": "https://www.elindependiente.com/wp-content/uploads/2023/11/Acuerdo-PSOE-CC.pdf",
-    "fecha": "2023-10"
-   }
-  },
-  {
-   "id": "cc-igu-02",
-   "area": "igualdad",
-   "texto": "Que el Estado asuma el 50 % de la financiación de la dependencia con carácter finalista.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-igu-03",
-   "area": "igualdad",
-   "texto": "Aplicar el Convenio de Estambul y el Pacto de Estado contra la Violencia de Género con más presupuesto, y medidas contra la LGTBIfobia.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "cc-igu-04",
@@ -353,40 +1480,9 @@
     "nombre": "«Doce ejes para Madrid», acuerdo CC–Primero Canarias para el 29N (Diario de Avisos)",
     "url": "https://diariodeavisos.elespanol.com/2026/10/primero-canarias-y-coalicion-canaria-cierran-el-acuerdo-para-la-candidatura-del-29-n/",
     "fecha": "2026-10-14"
-   }
-  },
-  {
-   "id": "cc-edu-01",
-   "area": "educacion",
-   "texto": "Convenio plurianual de infraestructuras educativas de al menos 42 millones anuales y gratuidad de 0 a 3 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-edu-02",
-   "area": "educacion",
-   "texto": "Becas de estudio y desplazamiento para estudiantes canarios y desarrollo de la FP dual.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-dem-01",
-   "area": "demografia",
-   "texto": "Umbral de pobreza estatal común para el comedor escolar gratuito, elevando la cobertura del 13 % al 29 %, y ayudas a la crianza.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
+   },
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "cc-pen-01",
@@ -397,105 +1493,82 @@
     "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
     "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
     "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-tec-01",
-   "area": "tecnologia",
-   "texto": "Priorizar la I+D en astrofísica y espacio, ciencias marinas y biomedicina, y financiar un buque oceanográfico en Canarias.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-cul-01",
-   "area": "cultura",
-   "texto": "Recuperar las ayudas a la movilidad de artistas extrapeninsulares y mantener los incentivos fiscales al rodaje en Canarias.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
-  },
-  {
-   "id": "cc-tur-01",
-   "area": "economia",
-   "texto": "Prolongar la financiación de la estrategia de resiliencia turística de Canarias.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Manifiesto «Un objetivo común, la defensa de Canarias» (generales 23J 2023)",
-    "url": "https://www.redaccionmedica.com/contenido/images/00_COALICION%20POR%20CANARIAS.pdf",
-    "fecha": "2023-06-26"
-   }
+   },
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   }
  ],
  "criticas": {
   "economica": [
    {
     "titulo": "Dependencia de transferencias",
-    "texto": "Fedea calcula que en Canarias las transferencias del sistema de financiación equivalen al 96 % de sus ingresos tributarios homogéneos, de los porcentajes más altos de España. Separar íntegramente los recursos del REF del cálculo de financiación reforzaría esa posición a costa de las comunidades aportantes.",
+    "texto": "Fedea calcula que en Canarias las transferencias del sistema de financiación equivalen al 96 % de sus ingresos tributarios homogéneos, de los porcentajes más altos de España. Impedir que los recursos del REF se computen como financiación ordinaria reforzaría esa posición a costa de las comunidades aportantes.",
     "sobre": [
      "cc-eco-02",
+     "cc-eco-08",
      "cc-eco-01"
     ],
     "fuente": {
      "nombre": "Fedea, Liquidación 2024 del sistema de financiación autonómica (2026)",
      "url": "https://fedea.net/la-liquidacion-de-2024-del-sistema-de-financiacion-de-las-comunidades-autonomas-de-regimen-comun/"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Subvenciones al transporte y precios",
-    "texto": "Los descuentos porcentuales a residentes, sin tope de precio, pueden trasladarse en parte a mayores tarifas, de modo que una fracción de la ayuda acaba en las compañías y no en el viajero; su coste presupuestario crece con el precio del billete.",
+    "texto": "Los descuentos porcentuales a residentes pueden trasladarse en parte a mayores tarifas, de modo que una fracción de la ayuda acaba en las compañías y no en el viajero, y su coste presupuestario crece con el precio del billete. El programa propone más supervisión y transparencia para detectar subidas artificiales, pero no un tope de precio.",
     "sobre": [
      "cc-eco-04"
     ],
     "fuente": {
      "nombre": "Argumento de incidencia económica de las subvenciones ad valorem"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Política de pacto bilateral",
-    "texto": "La estrategia de apoyar Gobiernos a cambio de compromisos territoriales concretos genera derechos difíciles de revertir y presión para extender ventajas a otras comunidades, lo que complica una reforma global del modelo de financiación.",
+    "texto": "Fiar la financiación a compromisos bilaterales concretos con el Estado, como la Agenda Canaria y la propuesta de Decreto Canarias, que el programa quiere blindar aunque cambie el Gobierno, genera derechos difíciles de revertir y presión para extender ventajas a otras comunidades, lo que complica una reforma global del modelo de financiación.",
     "sobre": [
-     "cc-ter-03",
+     "cc-ter-04",
+     "cc-ter-10",
      "cc-eco-03"
     ],
     "fuente": {
      "nombre": "Argumento de economía política del federalismo fiscal"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ],
   "social": [
    {
     "titulo": "Ley de Residencia y libre circulación",
-    "texto": "Limitar el acceso a la vivienda o a la residencia en función del tiempo de empadronamiento chocaría con la libertad de residencia del art. 19 de la Constitución y con la libre circulación de ciudadanos de la UE, por lo que su alcance real es jurídicamente incierto.",
+    "texto": "Limitar la compra de vivienda por extranjeros o el acceso a la vivienda y a la residencia en función del tiempo de empadronamiento chocaría con la libertad de residencia del art. 19 de la Constitución y con la libre circulación de ciudadanos de la UE. El propio programa lo condiciona a reformas en las Cortes y a un régimen específico ante la UE, por lo que su alcance real es jurídicamente incierto.",
     "sobre": [
-     "cc-viv-01"
+     "cc-viv-05"
     ],
     "fuente": {
      "nombre": "Constitución Española, art. 19; Directiva 2004/38/CE",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Reparto de menores y capacidad de acogida",
-    "texto": "La redistribución obligatoria de menores migrantes depende de la capacidad y voluntad de otras comunidades; sin financiación suficiente y estable puede trasladar el problema sin mejorar la calidad de la atención a los menores.",
+    "texto": "Los traslados automáticos de menores migrantes cuando se superen los umbrales dependen de la capacidad real de acogida de otras comunidades. Aunque el programa pide financiación estatal suficiente y guiarse por el interés superior del menor, sin plazas y recursos efectivos en destino pueden trasladar el problema sin mejorar la calidad de la atención a los menores.",
     "sobre": [
-     "cc-inm-01"
+     "cc-inm-01",
+     "cc-inm-04"
     ],
     "fuente": {
      "nombre": "Argumento de política social; Ley Orgánica 1/1996 de Protección Jurídica del Menor"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ],
   "cultural": [
    {
     "titulo": "Asimetría territorial",
-    "texto": "Reforzar un estatus diferencial con competencias exclusivas, cupos propios y presencia en política exterior acentúa la asimetría del modelo autonómico, lo que otras comunidades pueden percibir como un trato de privilegio.",
+    "texto": "Reforzar un estatus diferencial con garantías constitucionales propias, más traspasos y participación en la política exterior acentúa la asimetría del modelo autonómico, lo que otras comunidades pueden percibir como un trato de privilegio.",
     "sobre": [
      "cc-ter-01",
      "cc-ter-02",
@@ -503,23 +1576,26 @@
     ],
     "fuente": {
      "nombre": "Argumento de teoría del federalismo y equidad interterritorial"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Turismo y medio ambiente",
-    "texto": "Las propuestas priorizan sostener el modelo turístico y su conectividad aérea subvencionada, mientras organizaciones sociales canarias han reclamado límites a la presión turística sobre el territorio y la vivienda.",
+    "texto": "Las propuestas sostienen el modelo turístico, con el convenio de infraestructuras turísticas, la renovación de destinos maduros y la conectividad aérea subvencionada. Piden cobertura para limitar el uso turístico de viviendas donde haya presión acreditada, pero no límites a la presión turística sobre el territorio como los que han reclamado organizaciones sociales canarias.",
     "sobre": [
      "cc-tur-01",
-     "cc-eco-04"
+     "cc-eco-04",
+     "cc-viv-06"
     ],
     "fuente": {
      "nombre": "Argumento derivado de las movilizaciones «Canarias tiene un límite» (2024)"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-13",
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
   "Las Palmas",
@@ -530,5 +1606,11 @@
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
  },
- "candidatura_nota": "En la papeleta: Coalición Canaria-Primero Canarias, con Municipalistas Primero Canarias y grupos insulares."
+ "candidatura_nota": "En la papeleta: Coalición Canaria-Primero Canarias, con Municipalistas Primero Canarias y grupos insulares.",
+ "programa_2026": {
+  "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+  "fecha_publicacion": "2026-11-09",
+  "paginas": "Sin paginar: manifiesto y diez causas con 100 acciones",
+  "incorporado": "2026-11-13"
+ }
 }

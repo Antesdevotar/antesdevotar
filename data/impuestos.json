@@ -202,24 +202,34 @@
   ],
   "cc": [
    {
+    "cat": "irpf",
+    "ref": "cc-eco-14",
+    "texto": "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro, con bonificación del 50 % de las cuotas empresariales a la Seguridad Social en las tres islas."
+   },
+   {
+    "cat": "irpf",
+    "ref": "cc-pen-02",
+    "texto": "Que los complementos de renta de Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación y no reduzcan la prestación."
+   },
+   {
     "cat": "autonomos",
     "ref": "cc-emp-02",
-    "texto": "Bonificaciones a la Seguridad Social para contratos indefinidos de jóvenes, mayores de 45 años y mujeres en ocupaciones subrepresentadas."
+    "texto": "Incentivos fiscales y bonificaciones en las cotizaciones ligados a mejoras salariales pactadas y a la productividad, y medidas para las retribuciones públicas más bajas."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "cc-viv-03",
+    "texto": "Mejorar los incentivos fiscales estatales a pequeños propietarios que pongan voluntariamente viviendas en alquiler asequible, con garantías públicas de cobro, y regulación estatal estable del alquiler de larga duración."
    },
    {
     "cat": "otros",
     "ref": "cc-eco-01",
-    "texto": "Defensa del Régimen Económico y Fiscal (REF) sin reformas unilaterales del Estado y no apoyar Presupuestos que lo incumplan."
+    "texto": "Defender la integridad del REF, o «fuero histórico», y rechazar reformas unilaterales del Estado sin participación del Gobierno y el Parlamento de Canarias; más capacidad canaria sobre sus instrumentos."
    },
    {
     "cat": "otros",
-    "ref": "cc-eco-07",
-    "texto": "Eximir a Canarias de la tasa europea de emisiones a los vuelos dentro del Espacio Económico Europeo."
-   },
-   {
-    "cat": "otros",
-    "ref": "cc-cul-01",
-    "texto": "Recuperar las ayudas a la movilidad de artistas extrapeninsulares y mantener los incentivos fiscales al rodaje en Canarias."
+    "ref": "cc-eco-12",
+    "texto": "Evaluar y actualizar los instrumentos del REF para atraer inversión productiva e innovadora que genere empleo estable, y mantener el diferencial fiscal canario para la producción audiovisual."
    }
   ],
   "compromis": [
@@ -498,19 +508,34 @@
   "pcte": [],
   "pnv": [
    {
+    "cat": "irpf",
+    "ref": "pnv-igu-28",
+    "texto": "Modificar la Ley 35/2006 del IRPF para declarar exentas las indemnizaciones del Fondo de Compensación para las Víctimas del Amianto."
+   },
+   {
     "cat": "iva",
     "ref": "pnv-eco-01",
-    "texto": "Capacidad normativa sobre el IVA para las instituciones vascas y revisión de tipos y bienes del IVA."
+    "texto": "Ampliar la capacidad normativa de las Haciendas Forales en IVA e Impuestos Especiales mediante la actualización del Concierto Económico, dentro de los límites de armonización de la UE."
+   },
+   {
+    "cat": "iva",
+    "ref": "pnv-eco-18",
+    "texto": "Reforma integral del IVA de bienes esenciales: estudiar tipos cero o superreducidos para alimentos básicos y productos específicos, y revisar el IVA de electricidad, gas, combustibles y transporte público."
+   },
+   {
+    "cat": "iva",
+    "ref": "pnv-eco-19",
+    "texto": "Revisar el IVA cultural para favorecer a artistas y galerías, aprovechando la normativa europea."
    },
    {
     "cat": "otros",
-    "ref": "pnv-eco-02",
-    "texto": "Reforma tributaria progresiva con figuras que los Territorios Históricos puedan modular."
+    "ref": "pnv-ene-12",
+    "texto": "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5 %, dentro de los límites de la normativa europea."
    },
    {
     "cat": "otros",
-    "ref": "pnv-eco-03",
-    "texto": "Tramitar como impuestos, y no como prestaciones patrimoniales, los gravámenes temporales a energéticas y banca, para que puedan concertarse."
+    "ref": "pnv-eco-21",
+    "texto": "Ampliar las capacidades financiero-fiscales mediante la modificación de la Ley del Concierto Económico y del Convenio Económico."
    },
    {
     "cat": "otros",
@@ -903,93 +928,98 @@
   "vox": [
    {
     "cat": "irpf",
-    "ref": "vox-eco-01",
-    "texto": "IRPF estatal con dos tipos: 15% para bases de hasta 70.000 € y 25% por encima."
-   },
-   {
-    "cat": "irpf",
-    "ref": "vox-eco-02",
-    "texto": "Dejar exentos de IRPF los primeros 22.000 € anuales de rentas del trabajo, con uno o varios pagadores."
-   },
-   {
-    "cat": "irpf",
-    "ref": "vox-eco-03",
-    "texto": "Eliminar buena parte de las deducciones y bonificaciones del IRPF y compensar la rebaja suprimiendo subvenciones superiores a 100.000 € anuales."
-   },
-   {
-    "cat": "irpf",
-    "ref": "vox-pen-02",
-    "texto": "Eximir del IRPF las pensiones contributivas."
+    "ref": "vox-eco-12",
+    "texto": "Simplificar y bajar el IRPF."
    },
    {
     "cat": "irpf",
     "ref": "vox-dem-01",
-    "texto": "Reducir cuatro puntos el tipo de IRPF por cada hijo."
-   },
-   {
-    "cat": "irpf",
-    "ref": "vox-dem-02",
-    "texto": "Deducción por nacimiento o adopción de 1.200 €, 1.600 €, 2.500 € y 2.750 € (del primer al cuarto hijo)."
+    "texto": "Reducir el tipo del IRPF de cada contribuyente o familia en función del número de hijos."
    },
    {
     "cat": "iva",
     "ref": "vox-eco-04",
-    "texto": "Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%."
-   },
-   {
-    "cat": "iva",
-    "ref": "vox-eco-05",
-    "texto": "Aplicar de forma permanente un IVA del 4% a la electricidad, el gas y el agua de los hogares."
-   },
-   {
-    "cat": "iva",
-    "ref": "vox-dem-03",
-    "texto": "IVA del 4% en pañales, biberones, leches de fórmula y productos farmacéuticos infantiles y geriátricos."
+    "texto": "Rebajar el IVA reducido y el general, con prioridad para los productos esenciales y de primera necesidad."
    },
    {
     "cat": "sociedades",
     "ref": "vox-eco-06",
-    "texto": "Rebajar el Impuesto de Sociedades hasta el 15%."
-   },
-   {
-    "cat": "patrimonio",
-    "ref": "vox-eco-07",
-    "texto": "Suprimir los impuestos de Patrimonio, Sucesiones y Donaciones y la plusvalía municipal en toda España."
-   },
-   {
-    "cat": "autonomos",
-    "ref": "vox-emp-03",
-    "texto": "Bonificar el 100% de las cotizaciones de los nuevos contratos indefinidos el primer año y el 50% el segundo."
+    "texto": "Reducir el tipo del Impuesto de Sociedades."
    },
    {
     "cat": "autonomos",
     "ref": "vox-emp-04",
-    "texto": "Cuota cero para los autónomos cuyos ingresos netos no lleguen al SMI y derogar la cotización por ingresos reales."
+    "texto": "Cuota de 0 € para los autónomos cuyos ingresos no lleguen al SMI y cuota progresiva desde 50 € por encima de ese umbral."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "vox-dem-07",
+    "texto": "Cotización a la Seguridad Social financiada por el Estado para quien cuida de hijos."
    },
    {
     "cat": "vivienda",
     "ref": "vox-viv-03",
-    "texto": "IVA del 0% en la compra de la primera vivienda habitual."
+    "texto": "En la primera vivienda habitual, IVA del 0% para la vivienda nueva y bonificación del 100% del ITP para la de segunda mano."
    },
    {
     "cat": "vivienda",
     "ref": "vox-viv-04",
-    "texto": "Recuperar la deducción por inversión en vivienda habitual y extender la deducción por alquiler a todo el territorio."
+    "texto": "Recuperar la deducción por inversión en vivienda habitual."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-10",
+    "texto": "Incentivos fiscales al alquiler de larga duración, deducciones para inquilinos españoles, regulación de las viviendas de uso turístico y más inspección de los pisos turísticos ilegales."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-12",
+    "texto": "Reducir de forma drástica los impuestos sobre el proceso edificatorio y mejorar la financiación de promotores y constructores."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "vox-viv-13",
+    "texto": "Fiscalidad «agravada y disuasoria» para compradores no comunitarios y operaciones especulativas de fondos o sociedades, con lo recaudado destinado a bonificaciones para comprar vivienda y a vivienda protegida."
    },
    {
     "cat": "vivienda",
     "ref": "vox-viv-06",
-    "texto": "Desalojo policial de ocupantes ilegales en 24 horas y que el propietario deje de pagar IBI y suministros durante la ocupación."
-   },
-   {
-    "cat": "vivienda",
-    "ref": "vox-viv-07",
-    "texto": "Liberar suelo no protegido con una nueva Ley del Suelo y reducir tributos y trámites del proceso edificatorio."
+    "texto": "Desalojo de okupas en menos de 24 horas, exención de impuestos y cargas de suministros al propietario durante la okupación y tipificar la «inquiocupación» como estafa."
    },
    {
     "cat": "otros",
-    "ref": "vox-rur-02",
-    "texto": "Aranceles a productos agrícolas marroquíes y más controles fronterizos a productos de terceros países."
+    "ref": "vox-eco-13",
+    "texto": "Revisar y reducir de forma sistemática los impuestos y las tasas."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-eco-05",
+    "texto": "Bajar los impuestos sobre la electricidad para familias, empresas e industria y poner fin a la «doble imposición»."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-dem-03",
+    "texto": "Reducir la carga fiscal de los productos de primera necesidad infantil."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-inm-18",
+    "texto": "Gravar las remesas enviadas al extranjero para que ese dinero revierta en la economía y los servicios de España."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-rur-04",
+    "texto": "Fijar tipos mínimos y reforzar bonificaciones y deducciones para residentes y para quienes se trasladen a zonas en riesgo de despoblación."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-ter-06",
+    "texto": "Actualizar el complemento de insularidad, rebajar el IGIC, suprimir el Arbitrio sobre Importaciones y Entregas de Mercancías en Canarias y mejorar las ayudas al transporte con la península."
+   },
+   {
+    "cat": "otros",
+    "ref": "vox-cul-10",
+    "texto": "Reducir los impuestos a las artes escénicas y a los espectáculos en vivo y aprobar una nueva Ley de Mecenazgo que eleve las deducciones del IRPF."
    }
   ]
  }

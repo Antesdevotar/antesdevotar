@@ -8,8 +8,13 @@
  "color": "#63BE21",
  "web": "https://www.voxespana.es",
  "escanos_2023": 33,
- "resumen": "Propone aplicar un IRPF estatal de dos tipos, del 15 % y del 25 %, derogar la Ley de Vivienda de 2023 y expulsar de inmediato a quien entre ilegalmente. Fuente: programa 2023 y declaraciones.",
+ "resumen": "Propone simplificar y bajar el IRPF, aplicar la prioridad nacional en la vivienda protegida y social y prohibir las regularizaciones masivas. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Programa electoral de Vox para el 29N, «Es sentido común» (PDF, 115 medidas, pp. 3-54, copia publicada por Demócrata)",
+   "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+   "fecha": "2026-11-12"
+  },
   {
    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
    "fecha": "2023-07",
@@ -31,8 +36,216 @@
    "titulo": "Resumen de posiciones 29N (PoliticaElectoral.com)"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
+  {
+   "id": "vox-eco-12",
+   "area": "economia",
+   "texto": "Simplificar y bajar el IRPF.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true
+  },
+  {
+   "id": "vox-eco-04",
+   "area": "economia",
+   "texto": "Rebajar el IVA reducido y el general, con prioridad para los productos esenciales y de primera necesidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
+    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
+    "fecha": "2024-04"
+   },
+   "cambio": "Antes: Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%."
+  },
+  {
+   "id": "vox-eco-06",
+   "area": "economia",
+   "texto": "Reducir el tipo del Impuesto de Sociedades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 150",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Rebajar el Impuesto de Sociedades hasta el 15%."
+  },
+  {
+   "id": "vox-eco-13",
+   "area": "economia",
+   "texto": "Revisar y reducir de forma sistemática los impuestos y las tasas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-05",
+   "area": "economia",
+   "texto": "Bajar los impuestos sobre la electricidad para familias, empresas e industria y poner fin a la «doble imposición».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
+    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
+    "fecha": "2024-04"
+   },
+   "cambio": "Antes: Aplicar de forma permanente un IVA del 4% a la electricidad, el gas y el agua de los hogares."
+  },
+  {
+   "id": "vox-eco-14",
+   "area": "economia",
+   "texto": "Plan Nacional de Reindustrialización contra las deslocalizaciones, la competencia desleal y la pérdida de empleo industrial, con atracción de inversiones estratégicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-15",
+   "area": "economia",
+   "texto": "Fomentar la industria turística con empleos de calidad, medidas fiscales y de promoción y apoyo al turismo rural, de montaña y de interior.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-16",
+   "area": "economia",
+   "texto": "Revisar de forma permanente la burocracia: «Lo que no sea estrictamente necesario, se suprime».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23, medida 36",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-11",
+   "area": "economia",
+   "texto": "Suprimir la cita previa, con atención presencial inmediata, y crear un expediente digital único y centralizado (ventanilla y dato único).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23, medida 38-39",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
+    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
+    "fecha": "2026-06"
+   }
+  },
+  {
+   "id": "vox-eco-10",
+   "area": "economia",
+   "texto": "Derogar tres normas vigentes por cada norma nueva: sin esa identificación, la norma no se tramita ni se aprueba.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24, medida 40",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
+    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
+    "fecha": "2026-06"
+   }
+  },
+  {
+   "id": "vox-eco-17",
+   "area": "economia",
+   "texto": "Establecer como regla general el silencio administrativo positivo y la declaración responsable, con excepciones en nacionalidad, residencia, permisos de trabajo a extranjeros e inmigración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24, medida 41",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-18",
+   "area": "economia",
+   "texto": "Ley de Unidad de Mercado: lo legal en una comunidad debe valer en toda España sin trámites adicionales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24-25, medida 42",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-19",
+   "area": "economia",
+   "texto": "Limitar las multas de tráfico y estacionamiento cuando la infracción no comprometa gravemente la seguridad vial y ajustar las sanciones a su gravedad, no a «criterios recaudatorios».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25-26, medida 45",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-20",
+   "area": "economia",
+   "texto": "Plan Nacional de Infraestructuras que incluya al menos carreteras, ferrocarril, obras hidráulicas, telecomunicaciones, nodos logísticos, transporte y puertos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 53, medida 112",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-eco-21",
+   "area": "economia",
+   "texto": "Trenes rápidos y seguros: auditoría del estado de la red, modernización y electrificación de las líneas convencionales y prioridad a Cercanías y Media Distancia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 53, medida 113",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
   {
    "id": "vox-eco-01",
    "area": "economia",
@@ -43,7 +256,9 @@
     "url": "https://www.moncloa.com/2026/10/11/figaredo-vox-pensiones-gasto-3446390/",
     "fecha": "2026-10"
    },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-eco-02",
@@ -55,7 +270,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-eco-03",
@@ -67,43 +284,9 @@
     "url": "https://www.moncloa.com/2026/10/11/figaredo-vox-pensiones-gasto-3446390/",
     "fecha": "2026-10"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-eco-04",
-   "area": "economia",
-   "texto": "Bajar el IVA general del 21% al 18% y el reducido del 10% al 8%.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
-    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
-    "fecha": "2024-04"
-   },
-   "destacada": true
-  },
-  {
-   "id": "vox-eco-05",
-   "area": "economia",
-   "texto": "Aplicar de forma permanente un IVA del 4% a la electricidad, el gas y el agua de los hogares.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
-    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-eco-06",
-   "area": "economia",
-   "texto": "Rebajar el Impuesto de Sociedades hasta el 15%.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 150",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-eco-07",
@@ -115,43 +298,63 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
-   "id": "vox-eco-10",
-   "area": "economia",
-   "texto": "Regla de «tres por uno»: cada nueva norma debe identificar tres normas vigentes a derogar o no se tramitará.",
-   "origen": "declaracion",
+   "id": "vox-emp-04",
+   "area": "empleo",
+   "texto": "Cuota de 0 € para los autónomos cuyos ingresos no lleguen al SMI y cuota progresiva desde 50 € por encima de ese umbral.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
-    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
-    "fecha": "2026-06"
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-eco-11",
-   "area": "economia",
-   "texto": "Suprimir la obligación de cita previa en la Administración y crear una base de datos única para todas las administraciones.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
-    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
-    "fecha": "2026-06"
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
    },
-   "destacada": false
+   "cambio": "Antes: Cuota cero para los autónomos cuyos ingresos netos no lleguen al SMI y derogar la cotización por ingresos reales."
   },
   {
    "id": "vox-emp-01",
    "area": "empleo",
-   "texto": "Derogar la reforma laboral de 2021 (Real Decreto-ley 32/2021).",
-   "origen": "declaracion",
+   "texto": "Derogar la legislación laboral vigente.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 11, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
-   "destacada": false
+   "cambio": "Antes: Derogar la reforma laboral de 2021 (Real Decreto-ley 32/2021)."
+  },
+  {
+   "id": "vox-emp-05",
+   "area": "empleo",
+   "texto": "Reducir progresivamente hasta su eliminación total las subvenciones a partidos, sindicatos, patronales, ONG y observatorios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, medida 43",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 43",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Eliminar las subvenciones públicas a sindicatos y patronales y reducir el número de liberados sindicales."
   },
   {
    "id": "vox-emp-02",
@@ -163,7 +366,9 @@
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-emp-03",
@@ -175,43 +380,175 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
-   "id": "vox-emp-04",
-   "area": "empleo",
-   "texto": "Cuota cero para los autónomos cuyos ingresos netos no lleguen al SMI y derogar la cotización por ingresos reales.",
-   "origen": "declaracion",
+   "id": "vox-viv-09",
+   "area": "vivienda",
+   "texto": "Prioridad nacional para acceder a la vivienda protegida, la vivienda social y las ayudas al alquiler, modificando las normas que lo dificulten («Las casas, en España, para los españoles»).",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 19, medida 27",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
-   "id": "vox-emp-05",
-   "area": "empleo",
-   "texto": "Eliminar las subvenciones públicas a sindicatos y patronales y reducir el número de liberados sindicales.",
-   "origen": "programa-2023",
+   "id": "vox-viv-07",
+   "area": "vivienda",
+   "texto": "Reformar la Ley del Suelo para aumentar de forma sostenida la construcción de vivienda nueva, con más suelo, procedimientos ágiles y menos trabas.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Vox 2023, medida 43",
+    "nombre": "Programa electoral 29N, p. 19, medida 28",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 65, 68",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "vox-viv-08",
+   "area": "vivienda",
+   "texto": "Aumentar con urgencia la inversión pública en vivienda por habitante mediante colaboración público-privada: cesiones de suelo, subvenciones, descuentos, avales y créditos blandos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19, medida 29",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 69-70",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Construir vivienda social pública con opción a compra, con colaboración público-privada y cesión de suelo público y de la Sareb."
   },
   {
    "id": "vox-viv-01",
    "area": "vivienda",
-   "texto": "Derogar la Ley 12/2023 por el Derecho a la Vivienda, incluido el control de precios del alquiler en zonas tensionadas.",
-   "origen": "declaracion",
+   "texto": "Derogar la Ley de Vivienda y recuperar la seguridad jurídica y un alquiler estable y asequible.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 19-20, medida 30",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
-   "destacada": true
+   "cambio": "Antes: Derogar la Ley 12/2023 por el Derecho a la Vivienda, incluido el control de precios del alquiler en zonas tensionadas."
+  },
+  {
+   "id": "vox-viv-10",
+   "area": "vivienda",
+   "texto": "Incentivos fiscales al alquiler de larga duración, deducciones para inquilinos españoles, regulación de las viviendas de uso turístico y más inspección de los pisos turísticos ilegales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19-20, medida 30",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-viv-06",
+   "area": "vivienda",
+   "texto": "Desalojo de okupas en menos de 24 horas, exención de impuestos y cargas de suministros al propietario durante la okupación y tipificar la «inquiocupación» como estafa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, medida 31",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "vox-viv-11",
+   "area": "vivienda",
+   "texto": "Prohibir el arrendamiento a inmigrantes en situación ilegal, exigir verificación previa de residencia legal en los contratos y acabar con los «pisos patera» y los domicilios ficticios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, medida 32",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-viv-12",
+   "area": "vivienda",
+   "texto": "Reducir de forma drástica los impuestos sobre el proceso edificatorio y mejorar la financiación de promotores y constructores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, medida 33",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-viv-03",
+   "area": "vivienda",
+   "texto": "En la primera vivienda habitual, IVA del 0% para la vivienda nueva y bonificación del 100% del ITP para la de segunda mano.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, medida 34",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
+    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
+    "fecha": "2024-04"
+   },
+   "cambio": "Antes: IVA del 0% en la compra de la primera vivienda habitual."
+  },
+  {
+   "id": "vox-viv-04",
+   "area": "vivienda",
+   "texto": "Recuperar la deducción por inversión en vivienda habitual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, medida 34",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 148.2-148.3",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Recuperar la deducción por inversión en vivienda habitual y extender la deducción por alquiler a todo el territorio."
+  },
+  {
+   "id": "vox-viv-13",
+   "area": "vivienda",
+   "texto": "Fiscalidad «agravada y disuasoria» para compradores no comunitarios y operaciones especulativas de fondos o sociedades, con lo recaudado destinado a bonificaciones para comprar vivienda y a vivienda protegida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21, medida 35",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
   },
   {
    "id": "vox-viv-02",
@@ -226,64 +563,22 @@
    "destacada": true
   },
   {
-   "id": "vox-viv-03",
-   "area": "vivienda",
-   "texto": "IVA del 0% en la compra de la primera vivienda habitual.",
-   "origen": "declaracion",
+   "id": "vox-pen-03",
+   "area": "pensiones",
+   "texto": "Garantizar la sostenibilidad de las pensiones con una economía más productiva, más empleo y salarios y medidas de apoyo a la familia, la natalidad y la crianza.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
-    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral 29N, p. 8-9, medida 7",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-viv-04",
-   "area": "vivienda",
-   "texto": "Recuperar la deducción por inversión en vivienda habitual y extender la deducción por alquiler a todo el territorio.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 148.2-148.3",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-viv-06",
-   "area": "vivienda",
-   "texto": "Desalojo policial de ocupantes ilegales en 24 horas y que el propietario deje de pagar IBI y suministros durante la ocupación.",
-   "origen": "declaracion",
-   "fuente": {
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-viv-07",
-   "area": "vivienda",
-   "texto": "Liberar suelo no protegido con una nueva Ley del Suelo y reducir tributos y trámites del proceso edificatorio.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 65, 68",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-viv-08",
-   "area": "vivienda",
-   "texto": "Construir vivienda social pública con opción a compra, con colaboración público-privada y cesión de suelo público y de la Sareb.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 69-70",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "cambio": "Antes: Garantizar el pago de las pensiones; Abascal niega que Vox plantee privatizar el sistema."
   },
   {
    "id": "vox-pen-01",
@@ -295,7 +590,9 @@
     "url": "https://www.moncloa.com/2026/10/11/figaredo-vox-pensiones-gasto-3446390/",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-pen-02",
@@ -307,41 +604,103 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-pen-03",
-   "area": "pensiones",
-   "texto": "Garantizar el pago de las pensiones; Abascal niega que Vox plantee privatizar el sistema.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-san-01",
-   "area": "sanidad",
-   "texto": "Devolver al Estado las competencias sanitarias: Sistema Nacional de Salud único, tarjeta sanitaria única e historia clínica digital común.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 101-102",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-san-04",
    "area": "sanidad",
-   "texto": "Limitar la atención sanitaria a inmigrantes en situación irregular a las urgencias.",
-   "origen": "declaracion",
+   "texto": "Excluir de la sanidad pública a los extranjeros en situación ilegal salvo «urgencia grave» y auditar el coste de la «inmigración masiva» en la sanidad.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 20",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
+   },
+   "cambio": "Antes: Limitar la atención sanitaria a inmigrantes en situación irregular a las urgencias."
+  },
+  {
+   "id": "vox-san-01",
+   "area": "sanidad",
+   "texto": "Atención sanitaria de igual calidad en todo el país, con tarjeta sanitaria única e historia clínica compartida en todo el territorio nacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32, medida 60",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 101-102",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Devolver al Estado las competencias sanitarias: Sistema Nacional de Salud único, tarjeta sanitaria única e historia clínica digital común."
+  },
+  {
+   "id": "vox-san-06",
+   "area": "sanidad",
+   "texto": "Reforzar la atención primaria y pediátrica, con atención especial a zonas rurales y de difícil cobertura y continuidad entre centros de salud, especialistas y hospitales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32, medida 61",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-san-07",
+   "area": "sanidad",
+   "texto": "Plan nacional de reducción de listas de espera, con colaboración público-privada solo si reduce demoras y publicación de indicadores periódicos y comparables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32, medida 62",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-san-08",
+   "area": "sanidad",
+   "texto": "Mejorar las retribuciones y condiciones de los profesionales sanitarios, con contratos estables, contratos puente tras la residencia, programa de retorno desde el extranjero y fin del «turismo sanitario».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32-33, medida 63",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-san-09",
+   "area": "sanidad",
+   "texto": "Reforzar la prevención y el diagnóstico precoz del cáncer de mama y ginecológicos y garantizar la atención en embarazo, parto y posparto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33, medida 64",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-san-10",
+   "area": "sanidad",
+   "texto": "Mapa de infraestructuras sanitarias urgentes, plan de inversiones, Red de Centros Nacionales de Oncología y refuerzo de las estrategias nacionales del cáncer y de salud mental.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33, medida 65",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -355,29 +714,150 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-edu-01",
    "area": "educacion",
-   "texto": "Ley Nacional de Educación con contenidos comunes y devolución de las competencias educativas al Estado.",
-   "origen": "programa-2023",
+   "texto": "Currículo unificado, evaluaciones nacionales, inspección, reválidas y una EVAU única en todo el país.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 35, medida 66",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 46-47",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Ley Nacional de Educación con contenidos comunes y devolución de las competencias educativas al Estado."
   },
   {
    "id": "vox-edu-02",
    "area": "educacion",
-   "texto": "Garantizar el derecho a ser educado en español en todo el territorio.",
-   "origen": "programa-2023",
+   "texto": "Garantizar la educación en español en todo el territorio nacional.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 35, medida 66",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 49",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "vox-edu-07",
+   "area": "educacion",
+   "texto": "Revisar las homologaciones de títulos extranjeros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35, medida 66",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-08",
+   "area": "educacion",
+   "texto": "Garantizar la libre elección de centro en todos los niveles, con distrito único y sin que la situación económica o social sea un impedimento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35-36, medida 67, 74",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-09",
+   "area": "educacion",
+   "texto": "Becas en las etapas preuniversitaria y universitaria para que ningún alumno abandone por falta de recursos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35, medida 68",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-10",
+   "area": "educacion",
+   "texto": "Derogar la LOMLOE, eliminar los contenidos ideológicos ajenos a las materias y recuperar una enseñanza basada en el esfuerzo, con más peso de matemáticas, lectura, humanidades y ciencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35-36, medida 69",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-11",
+   "area": "educacion",
+   "texto": "Prohibir los móviles en clase, reforzar la autoridad docente y crear un plan nacional contra el acoso escolar y el ciberacoso.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 69",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-12",
+   "area": "educacion",
+   "texto": "Fijar un máximo de alumnos por aula procedentes de otras culturas o con dominio insuficiente del español y crear aulas específicas de nivelación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 70",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-13",
+   "area": "educacion",
+   "texto": "Prioridad nacional para escoger centro y para acceder a ayudas educativas, guarderías, becas de comedor y transporte.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 74",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-14",
+   "area": "educacion",
+   "texto": "Apuesta decidida por la Formación Profesional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 74",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-edu-15",
+   "area": "educacion",
+   "texto": "Garantizar la libertad de cátedra del profesorado frente a las imposiciones de la «corrección política».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 75",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -391,7 +871,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-edu-05",
@@ -403,7 +885,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-edu-06",
@@ -415,29 +899,37 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-deu-01",
    "area": "deuda",
-   "texto": "Presupuestos de base cero y eliminación progresiva del déficit y la deuda.",
-   "origen": "programa-2023",
+   "texto": "Controlar el déficit y eliminar el gasto superfluo para compatibilizar la rebaja de impuestos con los servicios públicos.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 7-8, medida 3",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 146",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Presupuestos de base cero y eliminación progresiva del déficit y la deuda."
   },
   {
-   "id": "vox-deu-02",
+   "id": "vox-deu-05",
    "area": "deuda",
-   "texto": "Reducir los ministerios de 22 a 12 y aplicar un plan de reducción del gasto político.",
-   "origen": "declaracion",
+   "texto": "Auditar de forma sistemática los gastos no imprescindibles y reducir el tamaño de la Administración.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
-    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
-    "fecha": "2024-04"
+    "nombre": "Programa electoral 29N, p. 25, medida 43",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -454,16 +946,214 @@
    "destacada": false
   },
   {
+   "id": "vox-deu-02",
+   "area": "deuda",
+   "texto": "Reducir los ministerios de 22 a 12 y aplicar un plan de reducción del gasto político.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
+    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
+    "fecha": "2024-04"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
+  },
+  {
    "id": "vox-inm-01",
    "area": "inmigracion",
-   "texto": "Expulsión inmediata de quien entre «ilegalmente»; ningún inmigrante en situación irregular podrá regularizarse.",
-   "origen": "programa-2023",
+   "texto": "Prohibir las regularizaciones masivas y que quien entre ilegalmente pueda regularizarse nunca («Ni uno más»).",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 9",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 202, 206",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
+   "cambio": "Antes: Expulsión inmediata de quien entre «ilegalmente»; ningún inmigrante en situación irregular podrá regularizarse."
+  },
+  {
+   "id": "vox-inm-10",
+   "area": "inmigracion",
+   "texto": "Endurecer los requisitos de nacionalidad y revisar las concesiones «fraudulentas».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 10",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "vox-inm-11",
+   "area": "inmigracion",
+   "texto": "Ampliar los supuestos de pérdida de nacionalidad para los españoles no de origen condenados por delitos graves o reiterados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 10",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-05",
+   "area": "inmigracion",
+   "texto": "Suprimir el arraigo como vía de regularización de la inmigración irregular y revocar las «pasarelas rápidas» hacia la nacionalidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 11",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 212, 218",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Suprimir la figura del arraigo e impedir el empadronamiento de inmigrantes en situación irregular."
+  },
+  {
+   "id": "vox-inm-12",
+   "area": "inmigracion",
+   "texto": "Repatriar a quienes permanezcan en situación irregular.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 12",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-03",
+   "area": "inmigracion",
+   "texto": "Plan de «remigración» para facilitar el retorno de los extranjeros que no contribuyan o que vivan de subsidios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, medida 13",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Santiago Abascal, acto en Ceuta (Demócrata)",
+    "url": "https://www.democrata.es/actualidad/abascal-promete-repatriaciones-inmediatas-procesos-remigracion-si-vox-llega-gobierno/",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "vox-inm-13",
+   "area": "inmigracion",
+   "texto": "Deportar a quienes cometan delitos graves o hagan del delito leve «su forma de vida», y a quienes intenten imponer costumbres incompatibles con la dignidad de las mujeres.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, medida 14",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-06",
+   "area": "inmigracion",
+   "texto": "Devolver a los menores extranjeros no acompañados a sus padres o a instituciones de tutela de su país, atendiendo al «interés superior del menor».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, medida 15",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 207",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Cerrar los centros de menores extranjeros no acompañados y repatriarlos."
+  },
+  {
+   "id": "vox-inm-14",
+   "area": "inmigracion",
+   "texto": "Perseguir a las ONG o redes que participen en la sustracción o el secuestro de menores extranjeros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, medida 15",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-15",
+   "area": "inmigracion",
+   "texto": "Eliminar subvenciones, ayudas, convenios y conciertos con entidades que promuevan o sostengan la inmigración ilegal («Ni un euro a ONGs que colaboren con el efecto llamada»).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, medida 16",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-16",
+   "area": "inmigracion",
+   "texto": "Acceso preferente de los españoles a vivienda pública, guarderías, becas de comedor o transporte, ayudas y servicios sociales, modificando o derogando las normas que lo impidan («prioridad nacional»).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 18",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
    "destacada": true
+  },
+  {
+   "id": "vox-inm-17",
+   "area": "inmigracion",
+   "texto": "Suprimir toda ayuda y beneficio social a los inmigrantes en situación ilegal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 19",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-18",
+   "area": "inmigracion",
+   "texto": "Gravar las remesas enviadas al extranjero para que ese dinero revierta en la economía y los servicios de España.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 21",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-inm-19",
+   "area": "inmigracion",
+   "texto": "Limitar el Ingreso Mínimo Vital a los españoles con menos recursos y promover el retorno de los inmigrantes que cobren el IMV o sus complementos autonómicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 22",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
   },
   {
    "id": "vox-inm-02",
@@ -474,54 +1164,6 @@
     "nombre": "Moción de Vox en el Congreso sobre prioridad nacional en vivienda (Europa Press)",
     "url": "https://www.bolsamania.com/noticias/empresas/economia--el-pp-rechaza-en-el-congreso-la-propuesta-de-vox-de-exigir-la-prioridad-nacional-en-ayudas-para-vivienda--22776272.html",
     "fecha": "2026-06"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-inm-03",
-   "area": "inmigracion",
-   "texto": "Procesos de «remigración» para extranjeros que vivan de ayudas públicas sin trabajar ni cotizar.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Santiago Abascal, acto en Ceuta (Demócrata)",
-    "url": "https://www.democrata.es/actualidad/abascal-promete-repatriaciones-inmediatas-procesos-remigracion-si-vox-llega-gobierno/",
-    "fecha": "2026-10"
-   },
-   "destacada": true
-  },
-  {
-   "id": "vox-inm-04",
-   "area": "inmigracion",
-   "texto": "Bloqueo naval de las costas frente a la inmigración irregular.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 209",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-inm-05",
-   "area": "inmigracion",
-   "texto": "Suprimir la figura del arraigo e impedir el empadronamiento de inmigrantes en situación irregular.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 212, 218",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-inm-06",
-   "area": "inmigracion",
-   "texto": "Cerrar los centros de menores extranjeros no acompañados y repatriarlos.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 207",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
    },
    "destacada": false
   },
@@ -538,28 +1180,150 @@
    "destacada": false
   },
   {
-   "id": "vox-inm-10",
+   "id": "vox-inm-04",
    "area": "inmigracion",
-   "texto": "Reformar la nacionalidad para impedir su adquisición fraudulenta y auditar las nacionalidades concedidas.",
-   "origen": "declaracion",
+   "texto": "Bloqueo naval de las costas frente a la inmigración irregular.",
+   "origen": "programa-2023",
    "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
+    "nombre": "Programa Vox 2023, medida 209",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
+  },
+  {
+   "id": "vox-ene-06",
+   "area": "energia",
+   "texto": "Plan Nacional de Soberanía Energética para una energía «segura, cierta y asequible».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
-   "id": "vox-ene-01",
+   "id": "vox-ene-07",
    "area": "energia",
-   "texto": "Derogar la Ley 7/2021 de Cambio Climático y Transición Energética.",
-   "origen": "declaracion",
+   "texto": "Eliminar el tope regulatorio a la inversión en redes eléctricas y resolver las autorizaciones de líneas, subestaciones y conexiones en plazos máximos cerrados, con silencio administrativo positivo.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ene-03",
+   "area": "energia",
+   "texto": "Revertir las normas sobre motores de combustión y emisiones de CO2 que el programa atribuye al Pacto Verde Europeo y la Agenda 2030.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
+   "cambio": "Antes: Eliminar la prohibición europea de vender coches de combustión en 2035 y suprimir las medidas del Pacto Verde Europeo."
+  },
+  {
+   "id": "vox-ene-08",
+   "area": "energia",
+   "texto": "Eliminar las restricciones a la exploración, investigación y explotación de recursos naturales y yacimientos minerales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
    "destacada": false
+  },
+  {
+   "id": "vox-ene-04",
+   "area": "energia",
+   "texto": "Derogar el calendario de cierre de las centrales nucleares, estudiar con urgencia nuevas centrales y ejecutar los proyectos viables con la mayor brevedad posible.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Alargar la vida de las centrales nucleares y apostar por pequeños reactores modulares."
+  },
+  {
+   "id": "vox-ene-01",
+   "area": "energia",
+   "texto": "Derogar o modificar las leyes que frenan la prosperidad, incluidas las imposiciones climáticas y las zonas de bajas emisiones (ZBE).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, medida 44",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
+    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
+    "fecha": "2026-06"
+   },
+   "cambio": "Antes: Derogar la Ley 7/2021 de Cambio Climático y Transición Energética."
+  },
+  {
+   "id": "vox-ene-09",
+   "area": "energia",
+   "texto": "Frenar la instalación de macroplantas solares y eólicas que destruyan suelo agrícola y patrimonio natural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, medida 54",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ene-10",
+   "area": "energia",
+   "texto": "Obras contra las inundaciones: concluir las obras pendientes, conservar los cauces y desarrollar infraestructuras hidráulicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 53-54, medida 114",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ene-05",
+   "area": "energia",
+   "texto": "Plan Nacional del Agua con «interconexión de todas las cuencas» para una gestión eficiente, regadíos, producción de energía y seguridad frente a inundaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 53-54, medida 115",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 226-227",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Plan Hidrológico Nacional con interconexión de cuencas y fin de la demolición de presas y embalses."
   },
   {
    "id": "vox-ene-02",
@@ -571,55 +1335,69 @@
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
-   "id": "vox-ene-03",
-   "area": "energia",
-   "texto": "Eliminar la prohibición europea de vender coches de combustión en 2035 y suprimir las medidas del Pacto Verde Europeo.",
-   "origen": "declaracion",
+   "id": "vox-ter-05",
+   "area": "territorio",
+   "texto": "Plan de inversiones para Ceuta y Melilla y reparación de las consecuencias sociales, económicas y psicológicas.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
-    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
-    "fecha": "2026-06"
+    "nombre": "Programa electoral 29N, p. 5, medida 1",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
-   "id": "vox-ene-04",
-   "area": "energia",
-   "texto": "Alargar la vida de las centrales nucleares y apostar por pequeños reactores modulares.",
-   "origen": "declaracion",
+   "id": "vox-ter-06",
+   "area": "territorio",
+   "texto": "Actualizar el complemento de insularidad, rebajar el IGIC, suprimir el Arbitrio sobre Importaciones y Entregas de Mercancías en Canarias y mejorar las ayudas al transporte con la península.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-ene-05",
-   "area": "energia",
-   "texto": "Plan Hidrológico Nacional con interconexión de cuencas y fin de la demolición de presas y embalses.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 226-227",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 8, medida 4",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-ter-01",
    "area": "territorio",
-   "texto": "Estado unitario: devolver al Estado Educación, Sanidad, Seguridad y Justicia y limitar la capacidad legislativa autonómica.",
-   "origen": "programa-2023",
+   "texto": "Garantizar la calidad de los servicios públicos y la igualdad de derechos con independencia del lugar de residencia, especialmente en Educación, Sanidad, Seguridad y Justicia.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 17, medida 25",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 1-2",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": true
+   "cambio": "Antes: Estado unitario: devolver al Estado Educación, Sanidad, Seguridad y Justicia y limitar la capacidad legislativa autonómica."
+  },
+  {
+   "id": "vox-ter-04",
+   "area": "territorio",
+   "texto": "Ilegalizar los partidos políticos que atenten contra la soberanía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49, medida 103",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 21",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ilegalizar partidos y entidades que persigan la destrucción de la unidad territorial, previa consulta del art. 92 CE."
   },
   {
    "id": "vox-ter-02",
@@ -631,7 +1409,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-ter-03",
@@ -643,67 +1423,271 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
+  },
+  {
+   "id": "vox-ins-05",
+   "area": "instituciones",
+   "texto": "Pedir el procesamiento de Pedro Sánchez y su Gobierno por «traición».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 5, medida 1",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
    "destacada": false
   },
   {
-   "id": "vox-ter-04",
-   "area": "territorio",
-   "texto": "Ilegalizar partidos y entidades que persigan la destrucción de la unidad territorial, previa consulta del art. 92 CE.",
-   "origen": "programa-2023",
+   "id": "vox-ins-06",
+   "area": "instituciones",
+   "texto": "Que los directores generales de la Guardia Civil y de la Policía Nacional tengan amplia experiencia en seguridad y no sean militantes políticos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Vox 2023, medida 21",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 39, medida 82",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-ins-01",
    "area": "instituciones",
-   "texto": "Que los jueces elijan a todos los vocales judiciales del CGPJ.",
-   "origen": "declaracion",
+   "texto": "Reformar la LOPJ para que los doce vocales de procedencia judicial del CGPJ se elijan por voto «personal, directo y secreto», sin cuotas partidistas.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 48, medida 100",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "vox-ins-07",
+   "area": "instituciones",
+   "texto": "Liberar al Tribunal Constitucional de la influencia política.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 48, medida 101",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-08",
+   "area": "instituciones",
+   "texto": "Reforma integral de la Justicia para una Administración de Justicia rápida y eficiente, con más inversión en sedes judiciales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 48, medida 102",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-ins-02",
    "area": "instituciones",
-   "texto": "Derogar la Ley de Amnistía y recuperar los delitos de sedición y referéndum ilegal; agravar la malversación.",
-   "origen": "programa-2023",
+   "texto": "Recuperar el delito de sedición y agravar el delito de malversación de caudales públicos.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 48-49, medida 103",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 18",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": true
+   "cambio": "Antes: Derogar la Ley de Amnistía y recuperar los delitos de sedición y referéndum ilegal; agravar la malversación."
   },
   {
    "id": "vox-ins-04",
    "area": "instituciones",
-   "texto": "Prohibir los indultos por corrupción o por delitos contra la forma del Estado.",
-   "origen": "declaracion",
+   "texto": "Prohibir los indultos por corrupción política, contra la forma del Estado o contra la integridad territorial.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 49, medida 103",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "vox-ins-09",
+   "area": "instituciones",
+   "texto": "Máxima protección jurídica de la Bandera, el Escudo, el Himno y la Corona, con penas agravadas para que «ninguna afrenta a ellos quede impune».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49, medida 105",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-10",
+   "area": "instituciones",
+   "texto": "Dotar de más medios a juzgados y unidades especializadas anticorrupción de la Guardia Civil y la Policía Nacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49, medida 106",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-11",
+   "area": "instituciones",
+   "texto": "Responsabilidad patrimonial personal de los cargos condenados por corrupción, con «todos sus bienes presentes y futuros» hasta recuperar los fondos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50, medida 107",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-12",
+   "area": "instituciones",
+   "texto": "Auditar el patrimonio inmobiliario del Estado y aprobar un Plan Nacional de Rehabilitación del Patrimonio Inmobiliario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50, medida 108",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-13",
+   "area": "instituciones",
+   "texto": "Ley contra el enaltecimiento del terrorismo, declarar los crímenes de ETA «de lesa humanidad» y hacer imprescriptibles los delitos de terrorismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50, medida 109",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-14",
+   "area": "instituciones",
+   "texto": "Acabar con los «privilegios penitenciarios» de los condenados por terrorismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50, medida 109",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-15",
+   "area": "instituciones",
+   "texto": "Reforma integral de RTVE para eliminar los «comisarios políticos», acabar con el despilfarro y garantizar el derecho a recibir «información veraz».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51, medida 110",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ins-16",
+   "area": "instituciones",
+   "texto": "Garantizar la libertad de expresión frente a la «deriva censora del Gobierno de Sánchez».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51, medida 111",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-igu-07",
+   "area": "igualdad",
+   "texto": "Atender a los españoles más desfavorecidos y crear un plan de inversiones para revitalizar barrios, municipios y provincias abandonadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17, medida 24",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-igu-01",
    "area": "igualdad",
-   "texto": "Derogar la Ley Integral de Violencia de Género de 2004, sustituirla por una ley de violencia intrafamiliar y suprimir los juzgados especializados.",
-   "origen": "declaracion",
+   "texto": "Derogar las leyes de género y sustituirlas por normas de protección de las víctimas y de lucha contra las denuncias falsas.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 26, medida 47",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
    },
-   "destacada": true
+   "cambio": "Antes: Derogar la Ley Integral de Violencia de Género de 2004, sustituirla por una ley de violencia intrafamiliar y suprimir los juzgados especializados."
+  },
+  {
+   "id": "vox-igu-08",
+   "area": "igualdad",
+   "texto": "Proteger a las mujeres frente a la violencia y las agresiones sexuales con prevención, protección policial y judicial y asistencia integral.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40, medida 87",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-igu-09",
+   "area": "igualdad",
+   "texto": "Reforzar el presupuesto de dependencia, las ayudas al cuidado en el hogar y las plazas en residencias, atender la soledad no deseada y mejorar la atención a las personas con discapacidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45, medida 95",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-igu-10",
+   "area": "igualdad",
+   "texto": "Eliminar las trabas para que las ayudas de dependencia lleguen a los beneficiarios de manera rápida e íntegra.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45, medida 96",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
   },
   {
    "id": "vox-igu-02",
@@ -715,7 +1699,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-igu-03",
@@ -727,7 +1713,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-igu-04",
@@ -739,7 +1727,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-igu-05",
@@ -751,7 +1741,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-igu-06",
@@ -763,77 +1755,253 @@
     "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
     "fecha": "2026-06"
    },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
+  },
+  {
+   "id": "vox-seg-07",
+   "area": "seguridad",
+   "texto": "Recuperar Ceuta para los ceutíes: expulsión inmediata de los «invasores» y militarización de la frontera.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 5, medida 1",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": true
+  },
+  {
+   "id": "vox-seg-03",
+   "area": "seguridad",
+   "texto": "Reducir la edad de responsabilidad penal del menor y estudiar eliminar la inimputabilidad en ciertos delitos violentos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, medida 80",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Rebajar la edad penal a 12 años."
+  },
+  {
+   "id": "vox-seg-02",
+   "area": "seguridad",
+   "texto": "Ampliar la prisión permanente revisable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, medida 81",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Prisión permanente revisable para violadores y ampliación de sus supuestos."
+  },
+  {
+   "id": "vox-seg-08",
+   "area": "seguridad",
+   "texto": "Dotar de medios humanos, materiales, tecnológicos, jurídicos y presupuestarios a las Fuerzas Armadas, el CNI, la Guardia Civil, la Policía Nacional, Vigilancia Aduanera e Instituciones Penitenciarias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, medida 83",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
    "destacada": false
   },
   {
    "id": "vox-seg-01",
    "area": "seguridad",
-   "texto": "Presencia policial en todos los barrios y equiparación salarial de Fuerzas Armadas y cuerpos de seguridad.",
-   "origen": "programa-2023",
+   "texto": "Aumentar la inversión en Fuerzas y Cuerpos de Seguridad, equiparar salarios, modernizar formación y tecnología y declarar profesión de riesgo a la Guardia Civil y la Policía Nacional.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 40, medida 84",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 186, 200",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Presencia policial en todos los barrios y equiparación salarial de Fuerzas Armadas y cuerpos de seguridad."
   },
   {
-   "id": "vox-seg-02",
+   "id": "vox-seg-09",
    "area": "seguridad",
-   "texto": "Prisión permanente revisable para violadores y ampliación de sus supuestos.",
-   "origen": "declaracion",
+   "texto": "Protección integral para los funcionarios de prisiones: plantillas adecuadas, salarios, medios materiales, formación y reconocimiento de profesión de riesgo.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 40, medida 85",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
-   "id": "vox-seg-03",
+   "id": "vox-seg-10",
    "area": "seguridad",
-   "texto": "Rebajar la edad penal a 12 años.",
-   "origen": "declaracion",
+   "texto": "Reforzar con urgencia los medios contra el narcotráfico y restablecer de inmediato el Organismo de Coordinación del Narcotráfico (OCON Sur).",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-seg-05",
-   "area": "seguridad",
-   "texto": "Aumentar la inversión en Defensa y crear un servicio militar de reserva voluntaria.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Vox 2023, medida 190, 195",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 40, medida 86",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-seg-06",
    "area": "seguridad",
-   "texto": "Mando Integrado de Fronteras y despliegue militar permanente en Ceuta, Melilla y Canarias.",
-   "origen": "programa-2023",
+   "texto": "Nuevo modelo de protección permanente de las fronteras terrestres, marítimas y aéreas, con las Fuerzas Armadas apoyando a la Guardia Civil y la Policía Nacional, con énfasis en Ceuta y Melilla.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 40-41, medida 88",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 187",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Mando Integrado de Fronteras y despliegue militar permanente en Ceuta, Melilla y Canarias."
+  },
+  {
+   "id": "vox-seg-05",
+   "area": "seguridad",
+   "texto": "Aumentar la inversión en Defensa, con sueldos dignos, ayudas a movilidad y vivienda y reconocimiento de la profesión de riesgo para los militares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41, medida 89",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Vox 2023, medida 190, 195",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Aumentar la inversión en Defensa y crear un servicio militar de reserva voluntaria."
+  },
+  {
+   "id": "vox-seg-11",
+   "area": "seguridad",
+   "texto": "Reforzar el Sistema Nacional de Protección Civil ante incendios, inundaciones y catástrofes y la recuperación de las zonas afectadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41, medida 90",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-seg-12",
+   "area": "seguridad",
+   "texto": "Reforzar la ciberseguridad y la protección de las infraestructuras críticas frente a ciberataques, espionaje y sabotajes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41, medida 91",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-ext-01",
    "area": "exterior",
-   "texto": "Exigir a Marruecos que reconozca expresamente la soberanía española de Ceuta y Melilla y, si no, suspender el Tratado de Amistad de 1991.",
-   "origen": "declaracion",
+   "texto": "Revisar las relaciones con Marruecos hasta que respete las fronteras y la soberanía de España e impulsar sanciones y la suspensión de acuerdos internacionales.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 5, medida 1",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Vox para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
+   },
+   "cambio": "Antes: Exigir a Marruecos que reconozca expresamente la soberanía española de Ceuta y Melilla y, si no, suspender el Tratado de Amistad de 1991."
+  },
+  {
+   "id": "vox-ext-05",
+   "area": "exterior",
+   "texto": "Suspender en España los acuerdos internacionales que frenen el desarrollo productivo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10, medida 8",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ext-06",
+   "area": "exterior",
+   "texto": "Poner fin a la cooperación al desarrollo con países que no colaboren en la gestión de flujos migratorios y sancionar a los Estados que usen la inmigración como «arma de presión política».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, medida 17",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ext-04",
+   "area": "exterior",
+   "texto": "Rechazar el acuerdo UE-Mercosur.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28, medida 48",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
+    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
+    "fecha": "2026-06"
+   },
+   "cambio": "Antes: Revertir los acuerdos comerciales de la UE con Mercosur y Marruecos."
+  },
+  {
+   "id": "vox-ext-07",
+   "area": "exterior",
+   "texto": "Defender la soberanía ante injerencias extranjeras, con una posición internacional centrada en los intereses de los españoles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41, medida 92",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-ext-08",
+   "area": "exterior",
+   "texto": "Presión internacional para recuperar la soberanía sobre Gibraltar, desmantelar redes ilícitas, recuperar el control de las aguas españolas e invertir en el Campo de Gibraltar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42, medida 93",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -847,7 +2015,9 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-ext-03",
@@ -859,41 +2029,163 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/vox",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
-   "id": "vox-ext-04",
-   "area": "exterior",
-   "texto": "Revertir los acuerdos comerciales de la UE con Mercosur y Marruecos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
-    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
-    "fecha": "2026-06"
-   },
-   "destacada": false
-  },
-  {
-   "id": "vox-rur-01",
+   "id": "vox-rur-04",
    "area": "rural",
-   "texto": "Eliminar las exigencias medioambientales ligadas a las ayudas de la PAC y priorizar al productor nacional.",
-   "origen": "declaracion",
+   "texto": "Fijar tipos mínimos y reforzar bonificaciones y deducciones para residentes y para quienes se trasladen a zonas en riesgo de despoblación.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
-    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
-    "fecha": "2026-06"
+    "nombre": "Programa electoral 29N, p. 8, medida 6",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
   {
    "id": "vox-rur-02",
    "area": "rural",
-   "texto": "Aranceles a productos agrícolas marroquíes y más controles fronterizos a productos de terceros países.",
-   "origen": "programa-2023",
+   "texto": "Aplicar cláusulas espejo y preferencia comunitaria, reforzar los controles en frontera y combatir el fraude en el etiquetado agroalimentario.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 28, medida 48",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 79, 84",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Aranceles a productos agrícolas marroquíes y más controles fronterizos a productos de terceros países."
+  },
+  {
+   "id": "vox-rur-05",
+   "area": "rural",
+   "texto": "Derogar las normas que impongan cargas o sobrecostes a agricultores, ganaderos y pescadores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28, medida 49",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-06",
+   "area": "rural",
+   "texto": "Crear un fondo de compensación para el sector primario frente a las imposiciones de Bruselas, los desastres naturales y otras circunstancias adversas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28, medida 50",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-07",
+   "area": "rural",
+   "texto": "Poner fin a toda transferencia de fondos públicos a proyectos extracomunitarios que compitan de forma desleal con el sector primario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, medida 51",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-01",
+   "area": "rural",
+   "texto": "Rechazar recortes de la PAC, introducir una variable que prime la despoblación y eliminar las exigencias burocráticas y medioambientales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, medida 52",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Desregulación de Vox (presentado en su Asamblea General)",
+    "url": "https://theobjective.com/espana/politica/2026-06-27/desregulacion-motosierra-vox-podar-marana-burocratica/",
+    "fecha": "2026-06"
+   },
+   "cambio": "Antes: Eliminar las exigencias medioambientales ligadas a las ayudas de la PAC y priorizar al productor nacional."
+  },
+  {
+   "id": "vox-rur-08",
+   "area": "rural",
+   "texto": "Revisar la Política Pesquera Común, sus cuotas y restricciones, y modernizar la flota con relevo generacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, medida 53",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-09",
+   "area": "rural",
+   "texto": "Limpieza de montes, revisión de restricciones ambientales, protocolos comunes, más medios y penas más duras para los incendiarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, medida 55",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-10",
+   "area": "rural",
+   "texto": "Aplicar la declaración responsable y el silencio administrativo positivo en los trámites rurales y revisar el Sistema Español de Seguros Agrarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, medida 56",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-11",
+   "area": "rural",
+   "texto": "Aumentar la inversión para emergencias agrarias (inundaciones, granizadas, plagas animales y vegetales).",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, medida 57",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-12",
+   "area": "rural",
+   "texto": "Favorecer el relevo generacional y la incorporación de jóvenes al campo, apoyar a las cooperativas y potenciar la FP agraria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, medida 58",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-rur-13",
+   "area": "rural",
+   "texto": "Defender la caza como actividad esencial para el control poblacional y por su valor ambiental y económico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, medida 59",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -907,29 +2199,133 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-cul-01",
    "area": "cultura",
-   "texto": "Derogar la Ley de Memoria Democrática.",
-   "origen": "programa-2023",
+   "texto": "Superar las leyes «ideológicas», como la de Memoria Democrática, que según el programa tratan de imponer «una verdad oficial».",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 26, medida 46",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 26",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
+   "cambio": "Antes: Derogar la Ley de Memoria Democrática."
+  },
+  {
+   "id": "vox-cul-05",
+   "area": "cultura",
+   "texto": "Que el desconocimiento de las lenguas regionales no impida el acceso por oposición a plazas sanitarias ni perjudique a los pacientes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32, medida 60",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
    "destacada": false
   },
   {
-   "id": "vox-cul-02",
+   "id": "vox-cul-06",
    "area": "cultura",
-   "texto": "Garantizar el uso del español en todo el territorio y eliminar requisitos lingüísticos autonómicos en el acceso al empleo.",
-   "origen": "programa-2023",
+   "texto": "Prohibir el burka y el niqab en todos los espacios públicos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Vox 2023, medida 5, 180",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 36, medida 71",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-07",
+   "area": "cultura",
+   "texto": "Suprimir los menús halal en los comedores escolares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 72",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-08",
+   "area": "cultura",
+   "texto": "Eliminar el programa educativo de Lengua Árabe y Cultura Marroquí.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36, medida 73",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-09",
+   "area": "cultura",
+   "texto": "Promover la cultura nacional y conservar y rehabilitar el patrimonio, sobre todo en el medio rural (iglesias y monumentos), y protegerlo del vandalismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 36-37, medida 76",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-10",
+   "area": "cultura",
+   "texto": "Reducir los impuestos a las artes escénicas y a los espectáculos en vivo y aprobar una nueva Ley de Mecenazgo que eleve las deducciones del IRPF.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37, medida 76",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-11",
+   "area": "cultura",
+   "texto": "Defender la tauromaquia y promover su difusión y las actividades asociadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37, medida 77",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-12",
+   "area": "cultura",
+   "texto": "Despolitizar el deporte, regir el deporte femenino por «criterios biológicos y deportivos objetivos» y apoyar con becas, rebajas fiscales y ayudas a deportistas, clubes y federaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37, medida 78",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-cul-13",
+   "area": "cultura",
+   "texto": "Defender la identidad, las tradiciones y las costumbres frente a «cualquier intento de imposición ideológica» y promover la transmisión del patrimonio material y espiritual.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49, medida 104",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -946,6 +2342,56 @@
    "destacada": false
   },
   {
+   "id": "vox-cul-02",
+   "area": "cultura",
+   "texto": "Garantizar el uso del español en todo el territorio y eliminar requisitos lingüísticos autonómicos en el acceso al empleo.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa Vox 2023, medida 5, 180",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
+  },
+  {
+   "id": "vox-tec-02",
+   "area": "tecnologia",
+   "texto": "Reforzar la inversión en I+D+i, crear incentivos fiscales a la innovación, impulsar la colaboración entre centros y empresas y la transferencia a pymes, y un plan para recuperar talento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8, medida 5",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-tec-03",
+   "area": "tecnologia",
+   "texto": "Impulsar la inteligencia artificial en la economía, las empresas (sobre todo pymes y autónomos) y las administraciones, garantizando la atención presencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23, medida 37",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-tec-04",
+   "area": "tecnologia",
+   "texto": "Proteger a los menores en los entornos digitales frente a la adicción al juego, la pornografía y otros delitos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45, medida 97",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
    "id": "vox-tec-01",
    "area": "tecnologia",
    "texto": "Que las grandes tecnológicas coticen por los datos que generan los usuarios y reforzar la soberanía de los datos personales.",
@@ -955,17 +2401,127 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   },
   {
    "id": "vox-dem-01",
    "area": "demografia",
-   "texto": "Reducir cuatro puntos el tipo de IRPF por cada hijo.",
-   "origen": "programa-2023",
+   "texto": "Reducir el tipo del IRPF de cada contribuyente o familia en función del número de hijos.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, medida 2",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Vox 2023, medida 148.1",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Reducir cuatro puntos el tipo de IRPF por cada hijo."
+  },
+  {
+   "id": "vox-dem-04",
+   "area": "demografia",
+   "texto": "Plan de retorno para los españoles que se marcharon en los últimos años por falta de oportunidades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16, medida 23",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-03",
+   "area": "demografia",
+   "texto": "Reducir la carga fiscal de los productos de primera necesidad infantil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44, medida 94",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
+    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
+    "fecha": "2024-04"
+   },
+   "cambio": "Antes: IVA del 4% en pañales, biberones, leches de fórmula y productos farmacéuticos infantiles y geriátricos."
+  },
+  {
+   "id": "vox-dem-05",
+   "area": "demografia",
+   "texto": "Extender de forma progresiva a todas las familias, desde el primer hijo, los beneficios de las familias numerosas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44, medida 94",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-06",
+   "area": "demografia",
+   "texto": "Bonificar a las empresas por conciliación y bonificar el 100% de la ayuda en el hogar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44, medida 94",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-07",
+   "area": "demografia",
+   "texto": "Cotización a la Seguridad Social financiada por el Estado para quien cuida de hijos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44, medida 94",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-08",
+   "area": "demografia",
+   "texto": "Gratuidad real de la educación infantil de 0 a 3 años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44, medida 94",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-09",
+   "area": "demografia",
+   "texto": "Defender el derecho a la vida desde la concepción hasta la muerte natural, garantizar la objeción de conciencia sanitaria y potenciar los cuidados paliativos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45, medida 98",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "vox-dem-10",
+   "area": "demografia",
+   "texto": "Combatir la brecha maternal (formación, permanencia, promoción y reincorporación laboral), reforzar la conciliación y aumentar el presupuesto de conciliación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45-46, medida 99",
+    "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+    "fecha": "2026-11-12"
    },
    "destacada": false
   },
@@ -979,50 +2535,41 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/programa-vox-23j.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "vox-dem-03",
-   "area": "demografia",
-   "texto": "IVA del 4% en pañales, biberones, leches de fórmula y productos farmacéuticos infantiles y geriátricos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Plan fiscal de Vox presentado en el Congreso (moción)",
-    "url": "https://forbes.es/economia/452984/vox-presenta-en-el-congreso-su-plan-fiscal-reduccion-del-iva-dos-tipos-de-irpf-y-deducciones-por-hijo/",
-    "fecha": "2024-04"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-13"
   }
  ],
  "criticas": {
   "economica": [
    {
     "titulo": "Coste fiscal de la rebaja del IRPF",
-    "texto": "El propio Vox cifra la merma de recaudación de su IRPF en unos 46.000 M€ anuales (el Ministerio de Hacienda la eleva a 85.000 M€) y la compensación anunciada —suprimir subvenciones de más de 100.000 €— no está cuantificada partida a partida. El economista José María Rotellar (UFV), favorable a bajar impuestos, advirtió de que financiar rebajas así con deuda reproduce el error del plan Truss en Reino Unido.",
+    "texto": "El programa de 2026 promete «simplificar y bajar el IRPF» sin concretar tipos, tramos ni coste, ni cómo se compensaría la pérdida de recaudación. El economista José María Rotellar (UFV), favorable a bajar impuestos, advirtió a propósito de la rebaja del IRPF planteada antes por Vox de que financiar rebajas así con deuda reproduce el error del plan Truss en Reino Unido.",
     "sobre": [
-     "vox-eco-01",
-     "vox-eco-02",
-     "vox-eco-03"
+     "vox-eco-12"
     ],
     "fuente": {
-     "nombre": "Moncloa.com (cifras de Figaredo y Hacienda); José María Rotellar en El Debate",
+     "nombre": "José María Rotellar en El Debate",
      "url": "https://www.eldebate.com/economia/20240409/irpf-vox-examen-hasta-18000-millones-menos-recaudacion-algunas-asignaturas-pendientes_187404_amp.html"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Rebajas simultáneas en todos los grandes impuestos con deuda cercana al 100% del PIB",
-    "texto": "La propuesta combina bajar IRPF, IVA y Sociedades con suprimir Patrimonio y Sucesiones, mientras el FMI y la Comisión Europea piden a España un ajuste fiscal sostenido para reducir una deuda pública próxima al 100% del PIB. Las rebajas generalizadas de IVA, además, son una herramienta poco focalizada según la OCDE, porque benefician más en euros a los hogares que más consumen.",
+    "texto": "La propuesta combina bajar el IRPF, el IVA, el Impuesto de Sociedades y los impuestos sobre la electricidad con una reducción sistemática de impuestos y tasas, mientras el FMI y la Comisión Europea piden a España un ajuste fiscal sostenido para reducir una deuda pública próxima al 100% del PIB. Las rebajas generalizadas de IVA, además, son una herramienta poco focalizada según la OCDE, porque benefician más en euros a los hogares que más consumen.",
     "sobre": [
+     "vox-eco-12",
      "vox-eco-04",
      "vox-eco-05",
      "vox-eco-06",
-     "vox-eco-07",
+     "vox-eco-13",
      "vox-deu-01"
     ],
     "fuente": {
      "nombre": "FMI, consultas del Artículo IV con España; OCDE, Consumption Tax Trends",
      "url": "https://www.imf.org/en/Countries/ESP"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Transición a la capitalización: el problema del doble pago",
@@ -1034,77 +2581,89 @@
     "fuente": {
      "nombre": "Ara (declaraciones de Montserrat Guillén, UB)",
      "url": "https://en.ara.cat/politics/pensions-enter-the-campaign-how-the-spanish-system-works-and-what-vox-says_1_5872899.html"
-    }
+    },
+    "estado": "obsoleta",
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Menos inmigración, menos crecimiento y cotizantes",
-    "texto": "Según el Banco de España, la población inmigrante aportó unos 1,7 puntos al crecimiento medio anual del PIB (3,7%) entre 2022 y 2025. Restringir la entrada, suprimir el arraigo y promover la «remigración» reduciría la población activa en un país envejecido, con efectos sobre el crecimiento y sobre los ingresos de la Seguridad Social que Vox no cuantifica.",
+    "texto": "Según el Banco de España, la población inmigrante aportó unos 1,7 puntos al crecimiento medio anual del PIB (3,7%) entre 2022 y 2025. Restringir la entrada, suprimir el arraigo, repatriar a quienes estén en situación irregular y promover la «remigración» reduciría la población activa en un país envejecido, con efectos sobre el crecimiento y sobre los ingresos de la Seguridad Social que Vox no cuantifica.",
     "sobre": [
      "vox-inm-01",
      "vox-inm-03",
-     "vox-inm-05"
+     "vox-inm-05",
+     "vox-inm-12"
     ],
     "fuente": {
      "nombre": "Banco de España (Pilar Cuadrado) en jornada Fedea–Consejo General de Economistas, julio 2026",
      "url": "https://www.bolsamania.com/noticias/economia/economia--los-inmigrantes-aportaron-17-puntos-al-alza-del-pib-espanol-entre-2022-y-2025-y-05-puntos-al-pib-per-capita--22906098.html"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Desregulación climática y riesgo con la UE",
-    "texto": "Buena parte de la normativa que Vox quiere derogar (comercio de emisiones, residuos, eficiencia de edificios) transpone directivas europeas, por lo que suprimirla expondría a España a procedimientos de infracción y podría comprometer fondos europeos. La cifra de 90.000 M€ anuales de coste de la «hiperregulación» procede del propio partido y ha sido cuestionada por inflada.",
+    "texto": "Buena parte de la normativa climática y ambiental que Vox quiere derogar, modificar o revertir transpone o aplica normas europeas, por lo que suprimirla expondría a España a procedimientos de infracción y podría comprometer fondos europeos. La cifra de 90.000 M€ anuales de coste de la «hiperregulación» procede del propio partido y ha sido cuestionada por inflada.",
     "sobre": [
      "vox-eco-10",
      "vox-ene-01",
-     "vox-ene-02",
      "vox-ene-03"
     ],
     "fuente": {
      "nombre": "Que.es, análisis del plan de desregulación",
      "url": "https://www.que.es/2026/06/28/vox-derogacion-masiva-leyes/"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ],
   "social": [
    {
     "titulo": "«Prioridad nacional» y principio de igualdad",
-    "texto": "Dar preferencia por nacionalidad en vivienda protegida y ayudas choca con el principio de igualdad y con el derecho europeo: la Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en asistencia social y acceso a vivienda. La moción presentada por Vox en el Congreso en junio de 2026 fue rechazada por el resto de grupos.",
+    "texto": "Dar preferencia por nacionalidad en vivienda protegida, ayudas, becas, guarderías, servicios sociales y el Ingreso Mínimo Vital choca con el principio de igualdad y con el derecho europeo: la Directiva 2003/109/CE obliga a tratar igual a los residentes de larga duración en educación y becas, asistencia y protección social y acceso a la vivienda. La moción presentada por Vox en el Congreso en junio de 2026 fue rechazada por el resto de grupos.",
     "sobre": [
-     "vox-viv-02"
+     "vox-viv-02",
+     "vox-viv-09",
+     "vox-inm-16",
+     "vox-inm-19",
+     "vox-edu-13"
     ],
     "fuente": {
      "nombre": "Directiva 2003/109/CE (EUR-Lex)",
      "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32003L0109"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Restringir la sanidad a irregulares: el precedente de 2012",
-    "texto": "La exclusión de inmigrantes irregulares de la sanidad normalizada en 2012 se asoció a un aumento de la mortalidad de ese colectivo, según el estudio de Juanmartí Mestres, López-Casasnovas y Vall Castelló publicado en European Economic Review. Limitar la atención a urgencias deja fuera el seguimiento de enfermedades crónicas y contagiosas, con riesgos para la salud pública.",
+    "texto": "La exclusión de inmigrantes irregulares de la sanidad normalizada en 2012 se asoció a un aumento de la mortalidad de ese colectivo, según el estudio de Juanmartí Mestres, López-Casasnovas y Vall Castelló publicado en European Economic Review. Limitar la atención a la «urgencia grave» deja fuera el seguimiento de enfermedades crónicas y contagiosas, con riesgos para la salud pública.",
     "sobre": [
      "vox-san-04"
     ],
     "fuente": {
      "nombre": "Juanmarti Mestres, López-Casasnovas y Vall Castelló, 'The deadly effects of losing health insurance', European Economic Review"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
-    "titulo": "Derogar la ley de violencia de género",
-    "texto": "Sustituir la Ley Integral de 2004 por una ley de violencia intrafamiliar y suprimir los juzgados especializados contradice el enfoque del Convenio de Estambul, ratificado por España, que obliga a tratar la violencia contra las mujeres como violencia por razón de género y a contar con respuestas especializadas.",
+    "titulo": "Derogar las leyes de género",
+    "texto": "Derogar las leyes de género, entre ellas la Ley Integral de 2004, choca con el enfoque del Convenio de Estambul, ratificado por España, que obliga a tratar la violencia contra las mujeres como violencia por razón de género y a contar con respuestas especializadas. El programa no concreta qué normas las sustituirían más allá de la protección de las víctimas y la lucha contra las denuncias falsas.",
     "sobre": [
      "vox-igu-01"
     ],
     "fuente": {
      "nombre": "Convenio del Consejo de Europa de Estambul (2011), ratificado por España en 2014"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
-    "titulo": "Derogar la reforma laboral de 2021",
-    "texto": "Tras la reforma de 2021 la tasa de temporalidad en el sector privado se redujo aproximadamente a la mitad, según el Banco de España, que también señala dudas sobre el uso de los fijos discontinuos. Derogarla sin un modelo alternativo detallado podría reactivar la contratación temporal.",
+    "titulo": "Derogar la legislación laboral vigente",
+    "texto": "Vox propone derogar la legislación laboral vigente, que incluye la reforma de 2021. Tras esa reforma la tasa de temporalidad en el sector privado se redujo aproximadamente a la mitad, según el Banco de España, que también señala dudas sobre el uso de los fijos discontinuos. Derogarla sin un modelo alternativo detallado podría reactivar la contratación temporal.",
     "sobre": [
      "vox-emp-01"
     ],
     "fuente": {
      "nombre": "Banco de España, Informe Anual 2023 (capítulo sobre el mercado de trabajo)"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Rebaja fiscal concentrada en rentas altas",
@@ -1112,33 +2671,36 @@
     "sobre": [
      "vox-eco-01",
      "vox-eco-07"
-    ]
+    ],
+    "estado": "obsoleta",
+    "revisado": "2026-11-13"
    }
   ],
   "cultural": [
    {
     "titulo": "Expulsiones y «remigración»: límites jurídicos",
-    "texto": "El Convenio Europeo de Derechos Humanos (Protocolo 4, art. 4) prohíbe las expulsiones colectivas y exige examen individual, y expulsar por «imponer costumbres ajenas» carece de definición legal. Los procesos de remigración no tienen encaje en la Ley de Extranjería ni en el derecho de la UE.",
+    "texto": "El Convenio Europeo de Derechos Humanos (Protocolo 4, art. 4) prohíbe las expulsiones colectivas y exige examen individual, y deportar a quien «intente imponer costumbres incompatibles con la dignidad de las mujeres» o haga del delito leve «su forma de vida» carece de definición legal. Los procesos de remigración no tienen encaje en la Ley de Extranjería ni en el derecho de la UE.",
     "sobre": [
      "vox-inm-02",
-     "vox-inm-03"
+     "vox-inm-03",
+     "vox-inm-12",
+     "vox-inm-13"
     ],
     "fuente": {
      "nombre": "Convenio Europeo de Derechos Humanos, Protocolo n.º 4"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
-    "titulo": "Recentralizar el Estado exige reformar la Constitución",
-    "texto": "Devolver al Estado sanidad, educación y seguridad o suprimir las policías autonómicas exige reformar los Estatutos y probablemente la Constitución (Título VIII), con mayorías que Vox no tendría. El Tribunal Constitucional (STC 48/2003) dejó claro que España no es una «democracia militante»: solo se ilegalizan partidos por sus actividades, no por sus fines.",
+    "titulo": "Ilegalizar partidos «que atenten contra la soberanía»",
+    "texto": "El Tribunal Constitucional (STC 48/2003) dejó claro que España no es una «democracia militante»: solo se ilegalizan partidos por sus actividades, no por sus fines. El programa no concreta qué conductas supondrían «atentar contra la soberanía».",
     "sobre": [
-     "vox-ter-01",
-     "vox-ter-02",
-     "vox-ter-03",
      "vox-ter-04"
     ],
     "fuente": {
      "nombre": "Tribunal Constitucional, STC 48/2003 (Ley de Partidos)"
-    }
+    },
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Derogar aborto y eutanasia, leyes avaladas por el TC",
@@ -1149,23 +2711,25 @@
     ],
     "fuente": {
      "nombre": "Tribunal Constitucional, SSTC 44/2023 y 19/2023"
-    }
+    },
+    "estado": "obsoleta",
+    "revisado": "2026-11-13"
    },
    {
     "titulo": "Ruptura con Marruecos: riesgo para la cooperación",
-    "texto": "Suspender el Tratado de Amistad, negar visados o expulsar al embajador pondría en riesgo la cooperación migratoria y antiterrorista con Marruecos, de la que depende buena parte del control de la frontera sur, y el comercio con el que es el primer socio comercial de España en África.",
+    "texto": "Impulsar sanciones a Marruecos y la suspensión de acuerdos internacionales hasta que respete las fronteras y la soberanía de España pondría en riesgo la cooperación migratoria y antiterrorista con Marruecos, de la que depende buena parte del control de la frontera sur, y el comercio con el que es el primer socio comercial de España en África.",
     "sobre": [
-     "vox-ext-01",
-     "vox-ext-04"
+     "vox-ext-01"
     ],
     "fuente": {
      "nombre": "Real Instituto Elcano, análisis sobre las relaciones España-Marruecos"
-    }
+    },
+    "revisado": "2026-11-13"
    }
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-13",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
@@ -1175,5 +2739,11 @@
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
+ },
+ "programa_2026": {
+  "url": "https://www.democrata.es/uploads/s1/35/26/90/2/programa-elecct-vox.pdf",
+  "fecha_publicacion": "2026-11-12",
+  "paginas": "3-54",
+  "incorporado": "2026-11-13"
  }
 }
