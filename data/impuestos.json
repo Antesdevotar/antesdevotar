@@ -288,6 +288,11 @@
   "escanosenblanco": [],
   "existe": [
    {
+    "cat": "irpf",
+    "ref": "existe-eco-03",
+    "texto": "Rebaja del 25 % en el IRPF para quienes residan en los pueblos."
+   },
+   {
     "cat": "vivienda",
     "ref": "existe-eco-02",
     "texto": "Exención del IBI para residentes de rentas bajas y medias en municipios despoblados de menos de 5.000 habitantes, con compensación estatal a los ayuntamientos."
@@ -490,19 +495,54 @@
   ],
   "pacma": [
    {
+    "cat": "irpf",
+    "ref": "pacma-ins-13",
+    "texto": "Incluir la protección animal como actividad de interés social en la casilla del 0,7 % del IRPF."
+   },
+   {
     "cat": "iva",
     "ref": "pacma-eco-01",
-    "texto": "Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%."
+    "texto": "Reducir el IVA de los servicios veterinarios al 4 % o eximirlos, y crear una deducción en el IRPF de hasta el 10 % de los gastos veterinarios, con tope de ahorro de 500 € al año y límite de renta."
+   },
+   {
+    "cat": "iva",
+    "ref": "pacma-eco-05",
+    "texto": "Subir el tipo impositivo de los lácteos de origen animal y bajarlo para sus equivalentes vegetales, y subvencionar alimentos vegetales saludables."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "pacma-eco-08",
+    "texto": "Crear un fondo de financiación con líneas de crédito a interés cero y mayores bonificaciones fiscales para emprendedores, autónomos y pymes."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pacma-viv-05",
+    "texto": "Reducir temporalmente el ITP y el IVA en la compra de la primera vivienda."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pacma-viv-04",
+    "texto": "Bonificar el IRPF o eximir del IBI a pequeños propietarios que bajen el alquiler un 10 % o un 15 %, y ofrecer seguros o avales públicos ante impagos."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "pacma-viv-06",
+    "texto": "Aplicar recargos fiscales a la compra de vivienda por fondos de inversión y no residentes."
    },
    {
     "cat": "otros",
     "ref": "pacma-eco-02",
-    "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar daños."
+    "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar el daño climático."
    },
    {
     "cat": "otros",
     "ref": "pacma-eco-03",
     "texto": "Impuesto climático a las explotaciones ganaderas y avícolas."
+   },
+   {
+    "cat": "otros",
+    "ref": "pacma-cul-07",
+    "texto": "Incentivos fiscales para la producción cinematográfica y apoyo con subvenciones a artistas y entidades culturales."
    }
   ],
   "pcte": [],

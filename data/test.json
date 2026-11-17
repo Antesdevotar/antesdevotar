@@ -650,10 +650,12 @@
      "nota": "Propone impedir la compra de vivienda a no residentes."
     },
     "pacma": {
-     "valor": null,
-     "ref": [],
+     "valor": 0,
+     "ref": [
+      "pacma-viv-06"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone recargos fiscales a la compra de vivienda por fondos de inversión y no residentes, no un límite."
     },
     "pcte": {
      "valor": 1,
@@ -1756,10 +1758,12 @@
      "nota": "Sin posición documentada"
     },
     "pacma": {
-     "valor": null,
-     "ref": [],
+     "valor": 1,
+     "ref": [
+      "pacma-san-05"
+     ],
      "fuente": null,
-     "nota": "Sin posición documentada"
+     "nota": "Propone reintegrar al sistema público los servicios sanitarios privatizados."
     },
     "pcte": {
      "valor": 1,

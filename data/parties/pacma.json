@@ -10,8 +10,13 @@
  "color_aproximado": true,
  "web": "https://pacma.es",
  "escanos_2023": 0,
- "resumen": "Propone bajar el IVA veterinario del 21 % al 4 %, incluir el respeto y la protección animal en el currículo y aprobar una ley que proteja a todos los animales. Fuente: programa 2023.",
+ "resumen": "Propone reducir el IVA veterinario al 4 % o eximirlo, rehabilitar inmuebles en centros urbanos para ampliar la vivienda y aprobar una ley que proteja a todos los animales. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "nombre": "Programa electoral Generales 29N 2026 (PACMA)",
+   "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+   "fecha": "2026-11"
+  },
   {
    "nombre": "Programa electoral Generales 2023 (23J)",
    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
@@ -28,7 +33,7 @@
    "fecha": "2026-10"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "estado_candidatura": "Proclamada",
  "estado_fuente": {
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
@@ -51,9 +56,14 @@
   {
    "id": "pacma-ins-01",
    "area": "instituciones",
-   "texto": "Aprobar una ley general de protección que ampare a todos los animales sin exclusiones (la «Ley Cero»).",
-   "origen": "programa-2023",
+   "texto": "Aprobar una ley general de protección que ampare a todos los animales sin distinciones, excepciones ni exclusiones (la «Ley Cero», presentada en 2017).",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 7, apdo. 1.1.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 10",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
@@ -61,122 +71,130 @@
    "destacada": true
   },
   {
-   "id": "pacma-ins-02",
-   "area": "instituciones",
-   "texto": "Suprimir la multa como alternativa a la prisión en el maltrato animal y elevar a más de cinco años la pena del tipo agravado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 25",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "pacma-ins-03",
-   "area": "instituciones",
-   "texto": "Inhabilitación máxima para tener animales a quien sea condenado por maltrato.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 25",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-ins-04",
-   "area": "instituciones",
-   "texto": "Crear una Fiscalía especializada en protección animal y unidades especializadas en las Fuerzas y Cuerpos de Seguridad del Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 25-26",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-ins-05",
-   "area": "instituciones",
-   "texto": "Crear una Dirección General de Bienestar Animal dependiente del ministerio de Medio Ambiente.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 19",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
    "id": "pacma-ins-06",
    "area": "instituciones",
-   "texto": "Prohibir la compraventa y la exhibición comercial de animales de compañía, de modo que solo puedan adoptarse.",
-   "origen": "programa-2023",
+   "texto": "Prohibir la compraventa de animales de compañía y su exhibición comercial, de modo que solo puedan adoptarse.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 8, apdo. 1.1.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 11",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
    "id": "pacma-ins-07",
    "area": "instituciones",
-   "texto": "Esterilización obligatoria también para perros, con campañas públicas subvencionadas.",
-   "origen": "programa-2023",
+   "texto": "Extender la esterilización obligatoria a los perros, con campañas subvencionadas para protectoras y personas con pocos recursos.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 8, apdo. 1.1.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 12",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
    "id": "pacma-ins-08",
    "area": "instituciones",
-   "texto": "«Sacrificio cero» en los centros de recogida y acogida de animales.",
-   "origen": "programa-2023",
+   "texto": "«Sacrificio cero» en los centros de recogida y acogida de animales, distinguiéndolo de la eutanasia veterinaria en casos de sufrimiento irremediable.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 8-9, apdo. 1.1.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 12",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
    "id": "pacma-ins-09",
    "area": "instituciones",
-   "texto": "Gestionar las colonias felinas con el método CER (captura, esterilización y retorno) obligatorio.",
-   "origen": "programa-2023",
+   "texto": "Gestionar las colonias felinas con el método CER (captura, esterilización y retorno), con responsabilidad municipal también en las privadas y financiación estable.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 9, apdo. 1.1.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 13",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-ins-10",
-   "area": "instituciones",
-   "texto": "Reconocimiento legal de los santuarios de animales y declaración de utilidad pública de las protectoras que lo soliciten, con ayudas.",
-   "origen": "programa-2023",
+   "id": "pacma-cul-04",
+   "area": "cultura",
+   "texto": "Acabar con los zoológicos y acuarios con fines de entretenimiento y reconvertirlos en centros de recuperación o reservas.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 19",
+    "nombre": "Programa electoral 29N, p. 10, apdo. 1.1.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 13-14",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-ins-11",
-   "area": "instituciones",
-   "texto": "Protocolos obligatorios de evacuación y rescate de animales en catástrofes.",
-   "origen": "programa-2023",
+   "id": "pacma-cul-03",
+   "area": "cultura",
+   "texto": "Prohibir el uso de animales en espectáculos, tradiciones y festejos, públicos y privados, incluidos los circos con animales domésticos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 20",
+    "nombre": "Programa electoral 29N, p. 11, apdo. 1.1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 14",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-05",
+   "area": "cultura",
+   "texto": "Impulsar santuarios para cetáceos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 11, apdo. 1.1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
    "id": "pacma-cul-01",
    "area": "cultura",
    "texto": "Prohibir la tauromaquia y derogar la Ley 18/2013 que la declara patrimonio cultural.",
-   "origen": "programa-2023",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 11-12, apdo. 1.1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 15",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
@@ -187,153 +205,678 @@
    "id": "pacma-cul-02",
    "area": "cultura",
    "texto": "Retirar las subvenciones públicas a los espectáculos con animales y prohibir su retransmisión.",
-   "origen": "programa-2023",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 12, apdo. 1.1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 15",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-cul-03",
-   "area": "cultura",
-   "texto": "Prohibir los espectáculos con animales (circos, espectáculos acuáticos y similares).",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 14",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-cul-04",
-   "area": "cultura",
-   "texto": "Prohibir la cautividad con fines de entretenimiento y reconvertir los zoológicos en centros de rescate.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 13-14",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
    "id": "pacma-rur-01",
    "area": "rural",
-   "texto": "Prohibir la caza y el uso de animales como instrumentos de caza; mientras, limitar los cotos y prohibir la munición de plomo.",
-   "origen": "programa-2023",
+   "texto": "Abolir la caza y prohibir de forma definitiva los balines de plomo.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, apdo. 1.1.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 16-17",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
    },
+   "cambio": "Antes: Prohibir la caza y el uso de animales como instrumentos de caza; mientras, limitar los cotos y prohibir la munición de plomo.",
    "destacada": true
+  },
+  {
+   "id": "pacma-rur-11",
+   "area": "rural",
+   "texto": "Ampliar los perímetros de seguridad en torno a los terrenos cinegéticos, crear un registro nacional de accidentes de caza y controlar alcohol y drogas a los cazadores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13, apdo. 1.1.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-12",
+   "area": "rural",
+   "texto": "Prohibir el uso de animales como instrumentos de caza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13-14, apdo. 1.1.8.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-10",
+   "area": "rural",
+   "texto": "Incluir a los perros de caza en la Ley de Bienestar Animal mientras no se prohíba la caza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, apdo. 1.1.8.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Web de PACMA (campañas activas)",
+    "url": "https://pacma.es/",
+    "fecha": "2026-10-21"
+   },
+   "destacada": false
   },
   {
    "id": "pacma-rur-02",
    "area": "rural",
-   "texto": "Catalogar al lobo como especie en peligro de extinción y hacer censos.",
-   "origen": "programa-2023",
+   "texto": "Prohibir la caza del lobo y del zorro.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, apdo. 1.1.8.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 18",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "cambio": "Antes: Catalogar al lobo como especie en peligro de extinción y hacer censos.",
+   "destacada": false
   },
   {
    "id": "pacma-rur-03",
    "area": "rural",
-   "texto": "Prohibir las granjas peleteras.",
-   "origen": "programa-2023",
+   "texto": "Prohibir la cría de animales para aprovechar su piel (granjas peleteras).",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 15-16, apdo. 1.1.9",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 18",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-rur-04",
-   "area": "rural",
-   "texto": "Prohibir la alimentación forzosa y la venta de foie gras, y las amputaciones no curativas en explotaciones ganaderas.",
-   "origen": "programa-2023",
+   "id": "pacma-ins-05",
+   "area": "instituciones",
+   "texto": "Crear una Dirección General de Bienestar y Protección de los Animales, dependiente del ministerio de Medio Ambiente, que sustituya a la actual.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 27-28",
+    "nombre": "Programa electoral 29N, p. 16, apdo. 1.1.10",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 19",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-rur-05",
-   "area": "rural",
-   "texto": "Prohibir el sacrificio halal y kosher sin aturdimiento previo.",
-   "origen": "programa-2023",
+   "id": "pacma-ins-12",
+   "area": "instituciones",
+   "texto": "Establecer el deber legal de auxilio a animales desamparados, heridos o en peligro.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 28",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+    "nombre": "Programa electoral 29N, p. 16, apdo. 1.1.11",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-rur-06",
-   "area": "rural",
-   "texto": "Oponerse a nuevas piscifactorías intensivas y cerrar las existentes.",
-   "origen": "programa-2023",
+   "id": "pacma-ins-10",
+   "area": "instituciones",
+   "texto": "Reconocer legalmente los santuarios de animales y declarar de utilidad pública a las protectoras, con ayudas y condición de interesadas en los procedimientos sancionadores.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 29",
+    "nombre": "Programa electoral 29N, p. 16-17, apdo. 1.1.12-1.1.13",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 19",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-rur-07",
-   "area": "rural",
-   "texto": "Limitar el tamaño y el número de animales de las explotaciones ganaderas y avícolas («no a las macrogranjas»).",
-   "origen": "programa-2023",
+   "id": "pacma-ins-13",
+   "area": "instituciones",
+   "texto": "Incluir la protección animal como actividad de interés social en la casilla del 0,7 % del IRPF.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 35-37",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-rur-08",
-   "area": "rural",
-   "texto": "Prohibir el glifosato y otros herbicidas y plaguicidas peligrosos y fomentar la agricultura ecológica.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 36-38",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+    "nombre": "Programa electoral 29N, p. 16-17, apdo. 1.1.12",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
    "id": "pacma-rur-09",
    "area": "rural",
-   "texto": "Control reproductivo de la fauna silvestre solo con métodos no letales y red suficiente de centros de recuperación.",
-   "origen": "programa-2023",
+   "texto": "Controlar la población de fauna silvestre solo con métodos no letales (esterilización, anticonceptivos) y crear centros de recuperación y rescate suficientes.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 17-18, apdo. 1.1.14 y 1.1.17",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 20-21",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-eco-01",
-   "area": "economia",
-   "texto": "Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%.",
-   "origen": "programa-2023",
+   "id": "pacma-ins-11",
+   "area": "instituciones",
+   "texto": "Protocolos obligatorios de evacuación y rescate de animales en explotaciones, terrenos cinegéticos y centros ante desastres.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 30",
+    "nombre": "Programa electoral 29N, p. 17, apdo. 1.1.15",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 20",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-14",
+   "area": "instituciones",
+   "texto": "Protocolos obligatorios de asistencia a la fauna silvestre en condiciones climáticas extremas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18, apdo. 1.1.16",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-15",
+   "area": "instituciones",
+   "texto": "Fijar obligaciones mínimas a quien tenga animales: agua y alimento, alojamiento seguro, higiene, ejercicio, atención veterinaria y tratamientos preventivos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18, apdo. 1.1.18",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-16",
+   "area": "instituciones",
+   "texto": "Reformar los centros de acogida: formación del personal, atención veterinaria social a bajo coste para adoptantes y cursos de etología y educación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19, apdo. 1.1.19",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-01",
+   "area": "sanidad",
+   "texto": "Permitir el acceso de animales de compañía a hospitales, en una zona habilitada, y al transporte público, albergues y residencias de mayores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19, apdo. 1.1.20-1.1.21",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 21-22",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-13",
+   "area": "rural",
+   "texto": "Prohibir la importación de especies alóctonas para compañía, cría o caza y usar control no letal en las ya presentes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19-20, apdo. 1.1.22",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-17",
+   "area": "instituciones",
+   "texto": "Prohibir tener animales salvajes como mascotas, marcarlos a fuego, usarlos como blancos, en peleas, en atracciones feriales o como transporte, tracción o carga.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20-21, apdo. 1.1.23",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-18",
+   "area": "instituciones",
+   "texto": "Endurecer las sanciones por infracciones contra los animales, con multas más altas e inhabilitaciones más largas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22, apdo. 1.1.24",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-02",
+   "area": "instituciones",
+   "texto": "Suprimir la multa como alternativa a la prisión en el maltrato animal y elevar a más de cinco años la pena del tipo agravado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22-23, apdo. 1.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 25",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
    },
    "destacada": true
   },
   {
+   "id": "pacma-ins-03",
+   "area": "instituciones",
+   "texto": "Ampliar la inhabilitación para tener animales a quien sea condenado por maltrato.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22-23, apdo. 1.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 25",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Inhabilitación máxima para tener animales a quien sea condenado por maltrato.",
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-19",
+   "area": "instituciones",
+   "texto": "Proteger penalmente a invertebrados y cefalópodos en libertad y castigar la explotación sexual de animales sin exigir lesiones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22-23, apdo. 1.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-04",
+   "area": "instituciones",
+   "texto": "Crear una unidad especializada en protección animal en la Fiscalía General del Estado y unidades especializadas en las Fuerzas y Cuerpos de Seguridad, con equipamiento como dardos tranquilizantes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23-24, apdo. 1.2.2-1.2.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 25-26",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Crear una Fiscalía especializada en protección animal y unidades especializadas en las Fuerzas y Cuerpos de Seguridad del Estado.",
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-01",
+   "area": "educacion",
+   "texto": "Incluir contenidos de respeto y protección animal en los colegios y sustituir las visitas a «granjas escuela» por charlas de protectoras y visitas a refugios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 24, apdo. 1.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 26-27",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-14",
+   "area": "rural",
+   "texto": "Eliminar las jaulas en la ganadería, en línea con la iniciativa «End the Cage Age».",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, apdo. 1.4.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-04",
+   "area": "rural",
+   "texto": "Prohibir la alimentación forzosa y la comercialización del foie gras, y las amputaciones sin finalidad curativa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, apdo. 1.4.2-1.4.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 27-28",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-15",
+   "area": "rural",
+   "texto": "Eliminar los métodos de aturdimiento ineficaces u obsoletos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, apdo. 1.4.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-05",
+   "area": "rural",
+   "texto": "Prohibir los sacrificios halal y kosher y todo sacrificio ritual sin aturdimiento.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 26, apdo. 1.4.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 28",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-16",
+   "area": "rural",
+   "texto": "Prohibir la trituración de pollitos machos como método de sacrificio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27, apdo. 1.4.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-17",
+   "area": "rural",
+   "texto": "Etiquetar los productos de origen animal con el sistema de cría, el método de sacrificio y si proceden de animales clonados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27, apdo. 1.4.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-18",
+   "area": "rural",
+   "texto": "Acortar los traslados de animales, garantizar descansos con agua y comida en los viajes largos y fijar espacio mínimo por especie y límites por temperaturas extremas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 27-30, apdo. 1.4.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-19",
+   "area": "rural",
+   "texto": "Prohibir la exportación de animales vivos y eliminar las ayudas a los ganaderos por estas exportaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, apdo. 1.4.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-02",
+   "area": "tecnologia",
+   "texto": "Prohibir los ingredientes de origen animal en cosméticos y productos de higiene personal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29, apdo. 1.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 29",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-01",
+   "area": "tecnologia",
+   "texto": "Prohibir la experimentación científica con animales, con una Estrategia nacional para su fin y el desarrollo de métodos sustitutivos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29-30, apdo. 1.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 29-30",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Avanzar hacia la prohibición de la experimentación con animales, con una estrategia nacional de métodos alternativos.",
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-03",
+   "area": "tecnologia",
+   "texto": "Aumentar la financiación de métodos sustitutivos de la experimentación animal y obligar a la industria química y farmacéutica a financiar su investigación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29-30, apdo. 1.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-04",
+   "area": "tecnologia",
+   "texto": "Exigir la divulgación de los resultados de los experimentos con animales para evitar duplicidades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29-30, apdo. 1.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-20",
+   "area": "instituciones",
+   "texto": "Aprobar una Ley de Grandes Simios que proscriba su maltrato, cautividad, tráfico y comercialización.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30, apdo. 1.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-eco-01",
+   "area": "economia",
+   "texto": "Reducir el IVA de los servicios veterinarios al 4 % o eximirlos, y crear una deducción en el IRPF de hasta el 10 % de los gastos veterinarios, con tope de ahorro de 500 € al año y límite de renta.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 31, apdo. 1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 30",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Bajar el IVA de los servicios veterinarios para animales de compañía del 21% al 4%.",
+   "destacada": true
+  },
+  {
+   "id": "pacma-san-02",
+   "area": "sanidad",
+   "texto": "Reconocer las clínicas veterinarias como centros sanitarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 31, apdo. 1.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-03",
+   "area": "sanidad",
+   "texto": "Modificar el RD 666/2023: no exigir pruebas previas de sensibilidad para antibióticos restringidos y eximir de notificar prescripciones en animales de compañía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 31-32, apdo. 1.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-01",
+   "area": "energia",
+   "texto": "Apostar por un modelo energético eficiente y renovable e integrar las renovables en urbanismo, edificación y transporte.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33-35, apdo. 2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 32-33",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Modelo energético basado en renovables y contratación pública solo de energía renovable.",
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-04",
+   "area": "energia",
+   "texto": "Acelerar la transición hacia una economía libre de emisiones, con edificios de consumo casi nulo y traslado del transporte de mercancías al ferrocarril eléctrico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33-35, apdo. 2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-05",
+   "area": "energia",
+   "texto": "Elaborar un nuevo Plan Nacional de Mejora de la Calidad del Aire que actúe sobre la combustión fósil, la ganadería intensiva, el transporte y la calefacción residencial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35-36, apdo. 2.1.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-02",
+   "area": "energia",
+   "texto": "Reducir la demanda de transporte urbano fomentando al peatón, el transporte público y la bicicleta, y apostar por el ferrocarril electrificado en cercanías y medias distancias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35-36, apdo. 2.1.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 34",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ley de movilidad sostenible que priorice el transporte público, la bicicleta y el peatón.",
+   "destacada": false
+  },
+  {
+   "id": "pacma-emp-01",
+   "area": "empleo",
+   "texto": "Fomentar el teletrabajo con incentivos fiscales, ayudas directas y un servicio de intermediación, y crear centros de trabajo intermedios públicos en zonas a revitalizar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35-36, apdo. 2.1.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
    "id": "pacma-eco-02",
    "area": "economia",
-   "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar daños.",
-   "origen": "programa-2023",
+   "texto": "Impuesto climático a los productos de origen animal según sus emisiones, destinando lo recaudado a compensar el daño climático.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 37, apdo. 2.1.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 35",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
@@ -341,114 +884,1008 @@
    "destacada": true
   },
   {
+   "id": "pacma-eco-05",
+   "area": "economia",
+   "texto": "Subir el tipo impositivo de los lácteos de origen animal y bajarlo para sus equivalentes vegetales, y subvencionar alimentos vegetales saludables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38, apdo. 2.1.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-04",
+   "area": "sanidad",
+   "texto": "Etiquetar con la huella de carbono y advertir en las carnes procesadas declaradas cancerígenas por la OMS.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37-38, apdo. 2.1.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-20",
+   "area": "rural",
+   "texto": "Cesar las campañas institucionales de promoción del sector cárnico y lácteo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 37-38, apdo. 2.1.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-07",
+   "area": "rural",
+   "texto": "Aprobar una norma estatal que limite el tamaño y el número de animales de las explotaciones, exija estudios ambientales y planes de abonado y regule los purines, y cese nuevas autorizaciones y ampliaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, apdo. 2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 35-37",
+    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-21",
+   "area": "rural",
+   "texto": "Revisar las autorizaciones de explotaciones ganaderas con evaluaciones de impacto acumulado y reforzar las inspecciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, apdo. 2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
    "id": "pacma-eco-03",
    "area": "economia",
    "texto": "Impuesto climático a las explotaciones ganaderas y avícolas.",
-   "origen": "programa-2023",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 39, apdo. 2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 37",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
    "id": "pacma-eco-04",
    "area": "economia",
-   "texto": "Retirar las subvenciones a la ganadería y destinarlas a la agricultura y a los alimentos vegetales.",
-   "origen": "programa-2023",
+   "texto": "Retirar las subvenciones a la ganadería y destinarlas a la agricultura, con ayudas redistribuidas hacia explotaciones pequeñas y respetuosas con el medio ambiente.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 39 y 43-44, apdo. 2.2 y 2.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 36-39",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-tec-01",
-   "area": "tecnologia",
-   "texto": "Avanzar hacia la prohibición de la experimentación con animales, con una estrategia nacional de métodos alternativos.",
-   "origen": "programa-2023",
+   "id": "pacma-rur-06",
+   "area": "rural",
+   "texto": "Reconvertir la industria de piscifactorías hacia otros sectores y cesar las subvenciones al sector.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 29-30",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
-  },
-  {
-   "id": "pacma-tec-02",
-   "area": "tecnologia",
-   "texto": "Prohibir los ingredientes de origen animal en cosméticos y productos de higiene.",
-   "origen": "programa-2023",
-   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40, apdo. 2.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 29",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "cambio": "Antes: Oponerse a nuevas piscifactorías intensivas y cerrar las existentes.",
+   "destacada": false
   },
   {
-   "id": "pacma-ene-01",
-   "area": "energia",
-   "texto": "Modelo energético basado en renovables y contratación pública solo de energía renovable.",
-   "origen": "programa-2023",
+   "id": "pacma-rur-22",
+   "area": "rural",
+   "texto": "Acabar con la comercialización de carne y aletas de tiburón.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 32-33",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+    "nombre": "Programa electoral 29N, p. 40-41, apdo. 2.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-ene-02",
-   "area": "energia",
-   "texto": "Ley de movilidad sostenible que priorice el transporte público, la bicicleta y el peatón.",
-   "origen": "programa-2023",
+   "id": "pacma-rur-23",
+   "area": "rural",
+   "texto": "Prohibir la producción y la importación de pulpos criados en cautividad.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 34",
+    "nombre": "Programa electoral 29N, p. 41-42, apdo. 2.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-24",
+   "area": "rural",
+   "texto": "Prohibir mantener los crustáceos en hielo o con las pinzas atadas y cocerlos vivos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41-42, apdo. 2.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-08",
+   "area": "rural",
+   "texto": "Impulsar la prohibición del glifosato y de otros herbicidas y plaguicidas peligrosos y fomentar la producción ecológica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42-43, apdo. 2.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
+    "nombre": "Programa Generales 2023 (23J), p. 36-38",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-25",
+   "area": "rural",
+   "texto": "Desincentivar los monocultivos y reorientar hacia la agroecología, y abastecer con productos locales y ecológicos los comedores de dependencias públicas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 43-44, apdo. 2.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
    "id": "pacma-ene-03",
    "area": "energia",
-   "texto": "Sistema de depósito, devolución y retorno de envases con objetivos de recuperación del 80-90%.",
-   "origen": "programa-2023",
+   "texto": "Implantar un sistema de depósito, devolución y retorno de envases.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 44-45, apdo. 2.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "fuente_anterior": {
     "nombre": "Programa Generales 2023 (23J), p. 40",
     "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
     "fecha": "2023-07"
-   }
+   },
+   "cambio": "Antes: Sistema de depósito, devolución y retorno de envases con objetivos de recuperación del 80-90%.",
+   "destacada": false
   },
   {
-   "id": "pacma-edu-01",
-   "area": "educacion",
-   "texto": "Incluir el respeto y la protección animal en el currículo y sustituir las visitas a «granjas escuela» por visitas a refugios y santuarios.",
-   "origen": "programa-2023",
+   "id": "pacma-ene-06",
+   "area": "energia",
+   "texto": "Encarecer y limitar el sobreembalaje y los materiales no reciclables.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 26-27",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+    "nombre": "Programa electoral 29N, p. 44-45, apdo. 2.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-san-01",
-   "area": "sanidad",
-   "texto": "Permitir el acceso de animales de compañía a hospitales, en zonas habilitadas, y regular su acceso al transporte público y residencias.",
-   "origen": "programa-2023",
+   "id": "pacma-eco-06",
+   "area": "economia",
+   "texto": "Prohibir la obsolescencia programada, ampliar las garantías y permitir reparar en cualquier taller y no solo en servicios oficiales.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Generales 2023 (23J), p. 21-22",
-    "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
-    "fecha": "2023-07"
-   }
+    "nombre": "Programa electoral 29N, p. 44-45, apdo. 2.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   },
   {
-   "id": "pacma-rur-10",
+   "id": "pacma-ene-07",
+   "area": "energia",
+   "texto": "Garantizar caudales ambientales en los ríos y digitalizar las redes de agua, con IA para predecir consumos y detectar fugas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 45-46, apdo. 2.9",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-08",
+   "area": "energia",
+   "texto": "Ampliar las zonas protegidas del 18 % actual a al menos el 30 % en 2030 y hacer vinculante este objetivo a nivel nacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 46-47, apdo. 2.10",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-26",
    "area": "rural",
-   "texto": "Incluir a los perros de caza en la Ley de Bienestar Animal.",
-   "origen": "declaracion",
+   "texto": "Aprobar una norma que obligue a proteger la fauna en infraestructuras públicas y privadas: balsas de riego, carreteras, tendidos eléctricos, cristaleras y aerogeneradores.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Web de PACMA (campañas activas)",
-    "url": "https://pacma.es/",
-    "fecha": "2026-10-21"
-   }
+    "nombre": "Programa electoral 29N, p. 47-48, apdo. 2.11",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-09",
+   "area": "energia",
+   "texto": "Frenar la deforestación, combatir la tala ilegal y reforestar con especies autóctonas, con selvicultura preventiva y cortafuegos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 48-50, apdo. 2.12",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-27",
+   "area": "rural",
+   "texto": "Prohibir la caza durante 30 años en los terrenos quemados por intereses cinegéticos y en las zonas colindantes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 48-50, apdo. 2.12",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-10",
+   "area": "energia",
+   "texto": "Actualizar el Plan Director de la Red de Parques Nacionales y dar más representación a entidades ambientales, animalistas y municipios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51, apdo. 2.13",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-06",
+   "area": "cultura",
+   "texto": "Retirar la declaración de Fiesta de Interés Turístico a los eventos con animales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51-52, apdo. 2.14",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-eco-07",
+   "area": "economia",
+   "texto": "Aprobar una Estrategia nacional de turismo sostenible y crear un Observatorio de Turismo y Sostenibilidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51-52, apdo. 2.14",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-11",
+   "area": "energia",
+   "texto": "Prohibir los artificios pirotécnicos y sus simulaciones y aprobar normativa nacional contra la contaminación acústica y lumínica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52-53, apdo. 2.15",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-01",
+   "area": "igualdad",
+   "texto": "Aprobar una Estrategia Nacional de Seguridad Alimentaria y Nutrición, con economatos sociales y precios bonificados según renta.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 54-55, apdo. 3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-02",
+   "area": "igualdad",
+   "texto": "Garantizar un mínimo vital de agua y facilitar el acceso al bono social eléctrico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 54-55, apdo. 3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ene-12",
+   "area": "energia",
+   "texto": "Impulsar comunidades energéticas y cooperativas, especialmente en zonas rurales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 54-55, apdo. 3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-05",
+   "area": "sanidad",
+   "texto": "Reintegrar al sistema público los servicios sanitarios privatizados y reforzar la atención primaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 55-56, apdo. 3.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-06",
+   "area": "sanidad",
+   "texto": "Aprobar planes de mejora de las listas de espera y de atención sanitaria domiciliaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 56, apdo. 3.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-07",
+   "area": "sanidad",
+   "texto": "Oponerse al copago y mantener una sanidad pública sin costes adicionales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 56, apdo. 3.2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-emp-02",
+   "area": "empleo",
+   "texto": "Incluir la salud laboral en los convenios colectivos y ampliar las competencias de delegados y comités de prevención de riesgos laborales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 57, apdo. 3.2.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-08",
+   "area": "sanidad",
+   "texto": "Aumentar el número de psiquiatras y psicólogos en la sanidad pública y desarrollar programas de detección precoz de depresión y riesgo suicida.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 57-58, apdo. 3.2.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-09",
+   "area": "sanidad",
+   "texto": "Ofrecer atención bucodental básica gratuita a todas las personas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58-59, apdo. 3.2.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-02",
+   "area": "educacion",
+   "texto": "Aprobar un Pacto de Estado por la Educación con más fondos para becas, plazas públicas suficientes de 0 a 3 años y menor ratio de alumnos por profesor.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 59-60, apdo. 3.3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-03",
+   "area": "educacion",
+   "texto": "Garantizar libros de texto gratuitos y de acceso libre, y transporte y menú escolar gratuitos para familias vulnerables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 59-60, apdo. 3.3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-04",
+   "area": "educacion",
+   "texto": "Garantizar una escuela pública laica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 59-60, apdo. 3.3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-05",
+   "area": "educacion",
+   "texto": "Ofrecer un menú 100 % vegetal en los comedores escolares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 60, apdo. 3.3.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-06",
+   "area": "educacion",
+   "texto": "Revisar los criterios de concertación con la enseñanza privada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 60-61, apdo. 3.3.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-07",
+   "area": "educacion",
+   "texto": "Incluir en la educación la diversidad sexual, de género y familiar y la educación sexual con enfoque emocional y afectivo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 61-62, apdo. 3.3.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-07",
+   "area": "cultura",
+   "texto": "Incentivos fiscales para la producción cinematográfica y apoyo con subvenciones a artistas y entidades culturales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 62-63, apdo. 3.3.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-08",
+   "area": "cultura",
+   "texto": "Ofrecer actividades culturales gratuitas o a precios reducidos y garantizar la accesibilidad física y cognitiva de los espacios culturales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63, apdo. 3.3.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-03",
+   "area": "igualdad",
+   "texto": "Aprobar un Pacto de Estado por la Igualdad en el Empleo para combatir la discriminación laboral y salarial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 64-65, apdo. 3.4.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-dem-01",
+   "area": "demografia",
+   "texto": "Actualizar la ley de conciliación con planes de igualdad en empresas, jornadas flexibles, teletrabajo y permisos retribuidos por enfermedad grave o fallecimiento de familiares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 65-66, apdo. 3.4.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-dem-02",
+   "area": "demografia",
+   "texto": "Crear guarderías en los centros de trabajo, para niños y para animales de compañía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 65-66, apdo. 3.4.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-emp-03",
+   "area": "empleo",
+   "texto": "Aprobar un plan nacional de formación, empleo y accesibilidad universal para personas con discapacidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 66, apdo. 3.4.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-edu-08",
+   "area": "educacion",
+   "texto": "Crear un sistema de FP adaptado a las nuevas tecnologías, con becas, y agilizar la homologación de títulos extranjeros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 66-67, apdo. 3.4.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-01",
+   "area": "vivienda",
+   "texto": "Rehabilitar inmuebles en los centros urbanos para ampliar la oferta de vivienda evitando la gentrificación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68, apdo. 3.4.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-eco-08",
+   "area": "economia",
+   "texto": "Crear un fondo de financiación con líneas de crédito a interés cero y mayores bonificaciones fiscales para emprendedores, autónomos y pymes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 68-69, apdo. 3.4.9",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-02",
+   "area": "vivienda",
+   "texto": "Construir vivienda pública de forma masiva.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-03",
+   "area": "vivienda",
+   "texto": "Adquirir viviendas vacías para compra y alquiler social y pactar con entidades financieras alquileres a precios sociales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-04",
+   "area": "vivienda",
+   "texto": "Bonificar el IRPF o eximir del IBI a pequeños propietarios que bajen el alquiler un 10 % o un 15 %, y ofrecer seguros o avales públicos ante impagos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-05",
+   "area": "vivienda",
+   "texto": "Reducir temporalmente el ITP y el IVA en la compra de la primera vivienda.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-06",
+   "area": "vivienda",
+   "texto": "Aplicar recargos fiscales a la compra de vivienda por fondos de inversión y no residentes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-07",
+   "area": "vivienda",
+   "texto": "Restringir las licencias de pisos turísticos en los cascos históricos y registrar de forma obligatoria el alquiler por habitaciones y de temporada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-viv-08",
+   "area": "vivienda",
+   "texto": "Reformar la Ley de Arrendamientos Urbanos para anular las cláusulas que prohíban animales de compañía.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69-70, apdo. 3.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-rur-28",
+   "area": "rural",
+   "texto": "Aprobar un plan de recuperación rural con servicios públicos esenciales cercanos, conectividad y asesoramiento para quien quiera vivir y emprender en el medio rural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 70-71, apdo. 3.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-05",
+   "area": "tecnologia",
+   "texto": "Aumentar la inversión en I+D+i, considerarla sector prioritario y dar libre acceso a los resultados de la investigación financiada con fondos públicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 71-72, apdo. 3.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-tec-06",
+   "area": "tecnologia",
+   "texto": "Aumentar las ayudas predoctorales y postdoctorales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 71-72, apdo. 3.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-eco-09",
+   "area": "economia",
+   "texto": "Reforzar los controles contra el fraude fiscal con tecnología de detección y cooperación internacional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72, apdo. 3.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-deu-01",
+   "area": "deuda",
+   "texto": "Crear un sistema unificado de evaluación de la eficacia del gasto público, con publicación de resultados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72, apdo. 3.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-21",
+   "area": "instituciones",
+   "texto": "Eliminar los aforamientos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72-73, apdo. 3.9.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-22",
+   "area": "instituciones",
+   "texto": "Aprobar una Ley de Transparencia efectiva, con más control de la contratación pública y los sobrecostes, y cumplir las recomendaciones del GRECO.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72-73, apdo. 3.9.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-23",
+   "area": "instituciones",
+   "texto": "Publicar la liquidación de gastos e ingresos electorales en los tres meses siguientes a las elecciones y limitar y regular la contratación de personal de libre designación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72-73, apdo. 3.9.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-24",
+   "area": "instituciones",
+   "texto": "Reducir las firmas necesarias para la Iniciativa Legislativa Popular, ampliar el plazo, no excluir materias y obligar al Congreso a tomarla en consideración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 74, apdo. 3.9.2.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-25",
+   "area": "instituciones",
+   "texto": "Establecer una circunscripción única, sin barrera electoral y con reparto proporcional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 74-75, apdo. 3.9.2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-26",
+   "area": "instituciones",
+   "texto": "Eliminar el requisito de firmas para los partidos sin representación y repartir la subvención según los votos, con independencia de la representación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 74-75, apdo. 3.9.2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-27",
+   "area": "instituciones",
+   "texto": "Garantizar igualdad de tiempo y de cobertura informativa en los medios públicos durante la campaña.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 74-75, apdo. 3.9.2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-04",
+   "area": "igualdad",
+   "texto": "Exigir una composición equilibrada de las candidaturas, con al menos la mitad de mujeres.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 74-75, apdo. 3.9.2.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-ins-28",
+   "area": "instituciones",
+   "texto": "Despolitizar los medios públicos con concursos públicos para los consejos de las radiotelevisiones, financiación pública blindada y transparencia accionarial, y aplicar medidas antimonopolio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 75, apdo. 3.9.2.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-05",
+   "area": "igualdad",
+   "texto": "Crear unidades policiales especializadas en violencia contra la mujer disponibles las 24 horas y dar formación especializada a todos los estamentos judiciales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 76-77, apdo. 3.10.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-06",
+   "area": "igualdad",
+   "texto": "Reconocer legalmente la violencia vicaria contra animales y admitir animales en las casas de acogida y pisos tutelados para víctimas de violencia de género.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 76-77, apdo. 3.10.1",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-09",
+   "area": "cultura",
+   "texto": "Prohibir la asistencia y participación de menores en festejos y escuelas taurinas, modificando la LOPIVI, y en actividades violentas como la caza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 77-79, apdo. 3.10.2",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-pen-01",
+   "area": "pensiones",
+   "texto": "Reformar la Constitución para blindar las pensiones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 79-80, apdo. 3.10.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-07",
+   "area": "igualdad",
+   "texto": "Aumentar las plazas en residencias públicas y los centros de día para personas mayores y regular el acceso de animales de compañía a las residencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 79-80, apdo. 3.10.3",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-08",
+   "area": "igualdad",
+   "texto": "Prevenir el acoso por LGTBIfobia en los centros educativos y crear servicios de apoyo psicológico y social para jóvenes LGTBI+, incluidas las personas trans.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 80, apdo. 3.10.4",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-igu-09",
+   "area": "igualdad",
+   "texto": "Eliminar barreras arquitectónicas, mejorar el transporte accesible y garantizar la accesibilidad cognitiva con pictogramas y lectura fácil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 80-81, apdo. 3.10.5",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-inm-01",
+   "area": "inmigracion",
+   "texto": "Garantizar a las personas migrantes un acceso unificado a educación, sanidad y alojamiento y ampliar las plazas de acogida, en especial para menores no acompañados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 81, apdo. 3.10.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-inm-02",
+   "area": "inmigracion",
+   "texto": "Hacer campañas contra la xenofobia y el racismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 81, apdo. 3.10.6",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-cul-10",
+   "area": "cultura",
+   "texto": "Garantizar acceso libre a museos y monumentos y festivales de cine, música, danza y teatro gratuitos o asequibles para la juventud.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 81-82, apdo. 3.10.7",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
+  },
+  {
+   "id": "pacma-san-10",
+   "area": "sanidad",
+   "texto": "Ofrecer menús de origen vegetal en establecimientos y comedores públicos, con opciones sin ingredientes de origen animal en sus contratos, e incentivarlos en la restauración privada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82, apdo. 3.10.8",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "fecha": "2026-11"
+   },
+   "destacada": false
   }
  ],
  "criticas": {
@@ -464,17 +1901,19 @@
     ],
     "fuente": {
      "nombre": "Argumento de impacto sectorial y territorial; el programa no aporta memoria económica"
-    }
+    },
+    "revisado": "2026-11-17"
    },
    {
     "titulo": "IVA superreducido y recaudación",
-    "texto": "Bajar el IVA veterinario del 21% al 4% tiene un coste recaudatorio y la evidencia sobre rebajas de IVA indica que una parte puede no trasladarse al precio final. Además, el tipo del 4% está reservado por la normativa europea a bienes y servicios de primera necesidad tasados.",
+    "texto": "Bajar el IVA veterinario del 21% al 4% (o eximirlo) y añadir una deducción en el IRPF de hasta el 10% del gasto veterinario, con tope de 500 € al año, tiene un coste recaudatorio, y la evidencia sobre rebajas de IVA indica que una parte puede no trasladarse al precio final. Además, la normativa europea limita los tipos superreducidos y las exenciones de IVA a los bienes y servicios que enumera la Directiva.",
     "sobre": [
      "pacma-eco-01"
     ],
     "fuente": {
      "nombre": "Directiva 2006/112/CE del IVA (anexo III) y estudios sobre traslación de rebajas de IVA"
-    }
+    },
+    "revisado": "2026-11-17"
    },
    {
     "titulo": "Cosmética y mercado único",
@@ -485,45 +1924,50 @@
     "fuente": {
      "nombre": "Reglamento (CE) 1223/2009 sobre productos cosméticos",
      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32009R1223"
-    }
+    },
+    "revisado": "2026-11-17"
    }
   ],
   "social": [
    {
     "titulo": "Experimentación animal y medicina",
-    "texto": "La investigación biomédica y la normativa de autorización de medicamentos aún exigen ensayos con animales en muchos casos. Avanzar hacia su prohibición sin alternativas validadas podría retrasar tratamientos; la Directiva 2010/63/UE apuesta por reducir y sustituir, no por prohibir.",
+    "texto": "La investigación biomédica y la normativa de autorización de medicamentos aún exigen ensayos con animales en muchos casos. Prohibir la experimentación, aunque el programa prevea una estrategia nacional y métodos sustitutivos, sin alternativas validadas podría retrasar tratamientos; la Directiva 2010/63/UE apuesta por reducir y sustituir, no por prohibir.",
     "sobre": [
      "pacma-tec-01"
     ],
     "fuente": {
      "nombre": "Directiva 2010/63/UE relativa a la protección de los animales utilizados para fines científicos",
      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32010L0063"
-    }
+    },
+    "revisado": "2026-11-17"
    },
    {
     "titulo": "Gestión de fauna y daños agrarios",
-    "texto": "Prohibir la caza y limitar el control de fauna a métodos no letales deja sin herramientas inmediatas frente a la sobrepoblación de especies como el jabalí, ligada a daños agrícolas y accidentes de tráfico; los métodos anticonceptivos tienen eficacia limitada a gran escala.",
+    "texto": "Abolir la caza y limitar el control de fauna a métodos no letales deja sin herramientas inmediatas frente a la sobrepoblación de especies como el jabalí, ligada a daños agrícolas y accidentes de tráfico; los métodos anticonceptivos tienen eficacia limitada a gran escala.",
     "sobre": [
      "pacma-rur-01",
      "pacma-rur-09"
     ],
     "fuente": {
      "nombre": "Argumento de gestión cinegética y de fauna silvestre"
-    }
+    },
+    "revisado": "2026-11-17"
    }
   ],
   "cultural": [
    {
     "titulo": "Tradiciones con arraigo",
-    "texto": "La prohibición de la tauromaquia, la caza y los festejos con animales choca con prácticas de fuerte arraigo cultural en muchos territorios, y la eliminación de su protección como patrimonio cultural suscitaría un rechazo amplio en parte del medio rural.",
+    "texto": "La prohibición de la tauromaquia, la abolición de la caza y la prohibición de los festejos con animales chocan con prácticas de fuerte arraigo cultural en muchos territorios, y la eliminación de su protección como patrimonio cultural suscitaría un rechazo amplio en parte del medio rural.",
     "sobre": [
      "pacma-cul-01",
+     "pacma-cul-03",
      "pacma-rur-01"
     ],
     "fuente": {
      "nombre": "Argumento cultural; Ley 18/2013 de la tauromaquia como patrimonio cultural",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11938"
-    }
+    },
+    "revisado": "2026-11-17"
    },
    {
     "titulo": "Sacrificio ritual y minorías religiosas",
@@ -534,7 +1978,8 @@
     "fuente": {
      "nombre": "TEDH, Executief van de Moslims van België c. Bélgica (2024), comunicado",
      "url": "https://www.echr.coe.int/w/judgment-concerning-belgium-3"
-    }
+    },
+    "revisado": "2026-11-17"
    }
   ]
  },
@@ -572,5 +2017,11 @@
  },
  "tier": "otros",
  "mentiras": [],
- "actualizado": "2026-11-11"
+ "actualizado": "2026-11-17",
+ "programa_2026": {
+  "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+  "fecha_publicacion": "2026-11",
+  "paginas": "Hasta la p. 82 según la paginación del texto (total del PDF no confirmado)",
+  "incorporado": "2026-11-17"
+ }
 }
