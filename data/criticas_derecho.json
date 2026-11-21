@@ -106,16 +106,18 @@
     },
     {
      "titulo": "Fiscal instructor y un fiscal general aún próximo al Gobierno",
-     "texto": "Pasar la instrucción a los fiscales (psoe-ins-02) aumenta el riesgo de influencia gubernamental si no se refuerza antes la autonomía de la Fiscalía. El Informe sobre el Estado de Derecho 2026 califica de «avance significativo» el mandato de cinco años no renovable del proyecto, pero vuelve a recomendar desvincular al fiscal general del Gobierno. El fiscal general nombrado por el Gobierno siguió en el cargo mientras estaba procesado, y el Supremo lo condenó en noviembre de 2025; su recurso está pendiente ante el TC.",
+     "texto": "Pasar la instrucción a los fiscales aumenta el riesgo de influencia gubernamental si no se refuerza antes la autonomía de la Fiscalía. El programa propone un mandato de cinco años para el fiscal general y prohibir las instrucciones del Gobierno sobre casos concretos; el Informe sobre el Estado de Derecho 2026 calificó de «avance significativo» el mandato de cinco años no renovable del proyecto, pero vuelve a recomendar desvincular al fiscal general del Gobierno. El fiscal general nombrado por el Gobierno siguió en el cargo mientras estaba procesado, y el Supremo lo condenó en noviembre de 2025; su recurso está pendiente ante el TC.",
      "gravedad": "media",
      "criterio": "Art. 124 CE; Informe sobre el Estado de Derecho 2026, capítulo España; CM/Rec(2000)19",
      "sobre": [
-      "psoe-ins-02"
+      "psoe-ins-02",
+      "psoe-ins-06"
      ],
      "fuente": {
       "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
       "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
-     }
+     },
+     "revisado": "2026-11-21"
     },
     {
      "titulo": "Amnistía: avalada, con reparos de método",
@@ -323,20 +325,22 @@
    "avales": []
   },
   "podemos": {
-   "valoracion": "Preocupaciones puntuales: disolver empresas concretas por decisión política y prohibir organizaciones sin pasar por un juez, y un tope a la propiedad de medios que necesita justificarse. Su propuesta de república confederal, si se hace por reforma constitucional, es legítima según el TC (STC 42/2014).",
+   "valoracion": "Preocupaciones puntuales: prohibir por ley las empresas de desokupación necesita una definición precisa y proporcionada para no chocar con la libertad de empresa, y repartir el espacio audiovisual en tercios tiene que respetar las licencias vigentes. Su propuesta de una constitución republicana, si se hace por reforma constitucional, es legítima según el TC (STC 42/2014).",
    "criticas": [
     {
-     "titulo": "Disolver Desokupa y empresas similares",
-     "texto": "Una asociación solo puede disolverse por resolución judicial motivada (art. 22.4 CE), y una sociedad solo como pena impuesta por un juez a la persona jurídica tras un delito (art. 33.7 CP). Disolver por decisión política o por ley a una entidad concreta salta esas garantías. Las conductas delictivas, como las coacciones, ya pueden perseguirse por vía penal.",
-     "gravedad": "media",
-     "criterio": "Art. 22.4 CE; art. 24 CE; art. 33.7 CP",
+     "titulo": "Prohibir las empresas de desokupación",
+     "texto": "Prohibir por ley una actividad empresarial afecta a la libertad de empresa (art. 38 CE) y exige definir con precisión la conducta prohibida y justificar su proporcionalidad. Los desalojos sin orden judicial ya son ilícitos, y las coacciones o el allanamiento pueden perseguirse por vía penal. Si la prohibición se limita a la actividad de desalojar sin juez, como el programa la vincula a la prohibición de los desalojos extrajudiciales, la tensión es menor; si alcanza también a servicios lícitos de mediación o información, tendría difícil encaje.",
+     "gravedad": "baja",
+     "criterio": "Art. 38 CE; art. 9.3 CE; arts. 172 y 202 CP",
      "sobre": [
-      "podemos-ins-03"
+      "podemos-ins-03",
+      "podemos-viv-12"
      ],
      "fuente": {
       "nombre": "Constitución Española (BOE)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
-     }
+     },
+     "revisado": "2026-11-21"
     },
     {
      "titulo": "Prohibir grupos neonazis y neofascistas",
@@ -349,20 +353,23 @@
      "fuente": {
       "nombre": "Strasbourg Observers, sobre Vona c. Hungría",
       "url": "https://strasbourgobservers.com/2013/08/07/vona-v-hungary-freedom-of-association-and-assembly-can-be-restricted-to-protect-minority-rights/"
-     }
+     },
+     "estado": "obsoleta",
+     "revisado": "2026-11-21"
     },
     {
-     "titulo": "Tope del 10% a bancos, fondos y eléctricas en medios",
-     "texto": "Exigir transparencia sobre la propiedad de los medios va en línea con el Reglamento Europeo de Libertad de los Medios. Un tope accionarial según la actividad del inversor afecta a la libertad de empresa y de información, y necesita una justificación de proporcionalidad que la propuesta no aporta.",
+     "titulo": "Límites a la concentración y reparto del espacio audiovisual en tercios",
+     "texto": "Limitar la concentración de la propiedad de los medios es legítimo y va en línea con el Reglamento Europeo de Libertad de los Medios, que pide evaluar las concentraciones por su impacto en el pluralismo. Repartir el espacio audiovisual en tercios público, privado y comunitario obligaría a reducir el que hoy ocupan los operadores privados con licencia, lo que afecta a la libertad de empresa y de información y exige respetar las licencias vigentes y justificar su proporcionalidad.",
      "gravedad": "baja",
-     "criterio": "Arts. 20 y 38 CE; Reglamento (UE) 2024/1083 (EMFA), art. 6",
+     "criterio": "Arts. 20 y 38 CE; Reglamento (UE) 2024/1083 (EMFA), arts. 6 y 22",
      "sobre": [
       "podemos-ins-02"
      ],
      "fuente": {
       "nombre": "Reglamento (UE) 2024/1083 (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj"
-     }
+     },
+     "revisado": "2026-11-21"
     }
    ],
    "avales": []

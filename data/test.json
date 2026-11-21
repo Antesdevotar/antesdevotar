@@ -209,7 +209,7 @@
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone bajar por ley un 40% los alquileres renovados. Votó a favor de los decretos de 2026."
+     "nota": "Propone una rebaja extraordinaria del 40% del alquiler por ley. Votó a favor de los decretos de 2026."
     },
     "pp": {
      "valor": -1,
@@ -439,10 +439,11 @@
      "valor": -1,
      "ref": [
       "podemos-ins-03",
+      "podemos-viv-12",
       "podemos-viv-08"
      ],
      "fuente": null,
-     "nota": "Propone disolver las empresas de desokupación y que no haya desalojos sin alternativa habitacional."
+     "nota": "Propone prohibir los desalojos extrajudiciales y las empresas de desokupación, y los desahucios de personas vulnerables sin alternativa habitacional."
     },
     "pp": {
      "valor": 1,
@@ -677,13 +678,14 @@
     "podemos": {
      "valor": 1,
      "ref": [
-      "podemos-viv-03"
+      "podemos-viv-03",
+      "podemos-viv-10"
      ],
      "fuente": {
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone una moratoria a la compra de vivienda que no sea para residir. Votó a favor del decreto."
+     "nota": "Propone prohibir la compra de vivienda que no sea para residir y la expropiación de uso a los grandes tenedores. Votó a favor del decreto."
     },
     "pp": {
      "valor": -1,
@@ -904,12 +906,10 @@
      "nota": "Votó contra las enmiendas a la totalidad y lamentó que la ley no siguiera adelante."
     },
     "podemos": {
-     "valor": 1,
-     "ref": [
-      "podemos-emp-02"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Propone llegar a 30 horas semanales sin rebaja salarial."
+     "nota": "Sin posición documentada"
     },
     "pp": {
      "valor": -1,
@@ -1122,10 +1122,11 @@
     "podemos": {
      "valor": -1,
      "ref": [
+      "podemos-eco-07",
       "podemos-eco-03"
      ],
      "fuente": null,
-     "nota": "Propone igualar la tributación del capital y del trabajo; no subir a trabajadores ni pymes."
+     "nota": "Propone nuevos tramos del IRPF para las rentas altas e igualar la tributación del capital y del trabajo."
     },
     "pp": {
      "valor": 1,
@@ -1139,13 +1140,14 @@
      "nota": "Su programa propone deflactar la tarifa, elevar los mínimos, eximir del IRPF a quien cobre el SMI y rebajarlo a los jóvenes de 18 a 35 años."
     },
     "psoe": {
-     "valor": -1,
+     "valor": 0,
      "ref": [
-      "psoe-eco-01",
-      "psoe-eco-03"
+      "psoe-eco-10",
+      "psoe-eco-12",
+      "psoe-dem-02"
      ],
      "fuente": null,
-     "nota": "Propone un tipo del 50% para rentas de más de 300.000 € y no bajar impuestos con carácter general."
+     "nota": "Propone subir hasta el 35% los tramos altos de las rentas del capital y, a la vez, deducciones en el IRPF para rentas medias y bajas."
     },
     "salf": {
      "valor": 1,
@@ -1346,7 +1348,7 @@
       "podemos-eco-01"
      ],
      "fuente": null,
-     "nota": "Propone un impuesto a los grandes patrimonios."
+     "nota": "Propone extender el Impuesto a las Grandes Fortunas a todos los obligados del Impuesto sobre el Patrimonio."
     },
     "pp": {
      "valor": -1,
@@ -1785,7 +1787,7 @@
       "podemos-san-01"
      ],
      "fuente": null,
-     "nota": "Propone derogar la Ley 15/1997 y prohibir la gestión privada."
+     "nota": "Propone acabar con la privatización sanitaria y prohibir externalizaciones y prórrogas."
     },
     "pp": {
      "valor": -1,
@@ -2435,7 +2437,7 @@
       "podemos-inm-01"
      ],
      "fuente": null,
-     "nota": "Propone regularizar a quienes viven y trabajan en España."
+     "nota": "Propone un procedimiento permanente de regularización de personas migrantes."
     },
     "pp": {
      "valor": 0,
@@ -3082,12 +3084,10 @@
      "nota": "Sin posición documentada"
     },
     "podemos": {
-     "valor": 1,
-     "ref": [
-      "podemos-ter-01"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Defiende el derecho a decidir de los pueblos."
+     "nota": "Sin posición documentada"
     },
     "pp": {
      "valor": -1,
@@ -3312,7 +3312,7 @@
       "podemos-ter-01"
      ],
      "fuente": null,
-     "nota": "Defiende una república plurinacional y confederal."
+     "nota": "Propone una constitución republicana que reconozca la plurinacionalidad."
     },
     "pp": {
      "valor": null,
@@ -3321,12 +3321,10 @@
      "nota": "Sin posición documentada"
     },
     "psoe": {
-     "valor": -1,
-     "ref": [
-      "psoe-ter-02"
-     ],
+     "valor": null,
+     "ref": [],
      "fuente": null,
-     "nota": "Propone avanzar hacia un modelo federal."
+     "nota": "Sin posición documentada"
     },
     "salf": {
      "valor": 0,
@@ -4181,10 +4179,11 @@
     "podemos": {
      "valor": -1,
      "ref": [
-      "podemos-igu-01"
+      "podemos-igu-01",
+      "podemos-igu-06"
      ],
      "fuente": null,
-     "nota": "Defiende aplicar íntegramente la legislación contra la violencia machista."
+     "nota": "Propone desarrollar la Ley Orgánica 10/2022 y un fondo de 1.000 millones contra las violencias machistas."
     },
     "pp": {
      "valor": -1,
@@ -4200,7 +4199,7 @@
       "psoe-igu-03"
      ],
      "fuente": null,
-     "nota": "Propone renovar el Pacto de Estado contra la violencia de género."
+     "nota": "Propone aprobar una nueva Estrategia Estatal contra las violencias machistas."
     },
     "salf": {
      "valor": 1,
@@ -4425,7 +4424,7 @@
       "nombre": "Toma en consideración de la reforma de la Ley de Seguridad Ciudadana, Congreso, 29-10-2024 (Onda Vasca)",
       "url": "https://www.ondavasca.com/la-reforma-de-la-ley-mordaza-da-el-primer-paso-en-el-congreso/"
      },
-     "nota": "Propone reformarla; votó a favor de tramitar la reforma."
+     "nota": "Propone una nueva ley que sustituya a la de 2015; votó a favor de tramitar la reforma."
     },
     "salf": {
      "valor": null,
@@ -4624,13 +4623,14 @@
     "podemos": {
      "valor": -1,
      "ref": [
-      "podemos-seg-01"
+      "podemos-seg-01",
+      "podemos-seg-03"
      ],
      "fuente": {
       "nombre": "Reacciones de los socios del Gobierno al gasto militar del 2,1%, 23-6-2025 (RTVC)",
       "url": "https://rtvc.es/socios-sanchez-asumen-gasto-militar-evitar-5-23-junio-2025/"
      },
-     "nota": "Propone no aumentar el gasto militar."
+     "nota": "Propone congelar el gasto militar y revertir su aumento."
     },
     "pp": {
      "valor": 1,
@@ -5488,7 +5488,7 @@
       "nombre": "PNL del PP contra el calendario de cierre nuclear, Congreso, febrero de 2025: 171 a favor, 164 en contra, 14 abstenciones (Energías Renovables)",
       "url": "https://www.energias-renovables.com/panorama/psoe-y-sumar-podr-an-haber-evitado-20251113"
      },
-     "nota": "Propone abandonar la nuclear; votó en contra."
+     "nota": "Propone cumplir el calendario de cierre nuclear; votó en contra."
     },
     "pp": {
      "valor": 1,
@@ -5963,14 +5963,12 @@
     },
     "psoe": {
      "valor": 1,
-     "ref": [
-      "psoe-ext-04"
-     ],
+     "ref": [],
      "fuente": {
       "nombre": "PNL de Sumar para frenar el acuerdo UE-Mercosur, Comisión de Agricultura del Congreso, 25-2-2026 (Agronews Castilla y León)",
       "url": "https://www.agronewscastillayleon.com/congreso-diputados-mercosur"
      },
-     "nota": "Apoya el acuerdo; votó contra frenarlo en el Parlamento Europeo y en el Congreso."
+     "nota": "Votó contra la iniciativa para frenar el acuerdo en el Congreso (25-2-2026)."
     },
     "salf": {
      "valor": -1,

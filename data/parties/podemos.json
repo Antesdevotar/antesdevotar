@@ -8,8 +8,13 @@
  "color": "#6B2C91",
  "web": "https://podemos.info",
  "escanos_2023": null,
- "resumen": "Propone crear un impuesto a los grandes patrimonios, bajar por ley un 40 % los alquileres renovados o prorrogados y hacer gratuita la educación de 0 a 18 años. Fuente: declaraciones.",
+ "resumen": "Propone extender el Impuesto a las Grandes Fortunas a todos los obligados del Impuesto sobre el Patrimonio, reducir el alquiler un 40% por ley y poner contratos de alquiler indefinidos por defecto. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Programa electoral de Podemos 29N «Así de básico: paz, casa y trabajo» (PDF publicado por Demócrata, 17-11-2026)",
+   "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+   "fecha": "2026-11-17"
+  },
   {
    "titulo": "Resumen de posiciones de Podemos para el 29N (PoliticaElectoral.com)",
    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
@@ -21,103 +26,1243 @@
    "fecha": "2024-05"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
-   "id": "podemos-eco-01",
-   "area": "economia",
-   "texto": "Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades.",
-   "origen": "declaracion",
+   "id": "podemos-viv-01",
+   "area": "vivienda",
+   "texto": "Reducción extraordinaria del 40% del alquiler por ley, con un suelo del 60% del precio medio de la zona.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
+    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
+    "fecha": "2024-10"
+   }
+  },
+  {
+   "id": "podemos-viv-05",
+   "area": "vivienda",
+   "texto": "Contratos de alquiler indefinidos por defecto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Proposición de ley de vivienda de Podemos (El Debate)",
+    "url": "https://www.eldebate.com/economia/20240518/congelar-precios-prohibir-compras-subir-impuestos-podemos-lleva-europa-ley-vivienda_198093.html",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Contratos de alquiler de 10 años de duración mínima (12 si el propietario es una empresa)."
+  },
+  {
+   "id": "podemos-viv-03",
+   "area": "vivienda",
+   "texto": "Prohibir la compra de viviendas que no sean para residir y exigir una permanencia de 4 años tras la compra.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 8",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
+    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
+    "fecha": "2024-10"
+   },
+   "cambio": "Antes: Moratoria a la compra de vivienda que no sea para residir y exigir acreditar cuatro años de uso residencial antes de poder alquilarla."
+  },
+  {
+   "id": "podemos-viv-10",
+   "area": "vivienda",
+   "texto": "Expropiación de uso a los grandes tenedores con más de 10 viviendas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 8-9",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-viv-08",
+   "area": "vivienda",
+   "texto": "Prohibir los desahucios de personas vulnerables sin alternativa habitacional y ampliar el parque público de vivienda, con vivienda protegida de carácter permanente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 9-11",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
+   "cambio": "Antes: Elevar el parque público de vivienda mediante compras masivas, sin desalojos sin alternativa habitacional."
+  },
+  {
+   "id": "podemos-viv-12",
+   "area": "vivienda",
+   "texto": "Prohibir los desalojos extrajudiciales y las empresas de desokupación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 9",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
    "destacada": false
+  },
+  {
+   "id": "podemos-viv-02",
+   "area": "vivienda",
+   "texto": "Prohibición progresiva de los pisos turísticos con moratoria en zonas masificadas, y regulación inmediata de los alquileres de temporada y por habitaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 9-10",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada."
+  },
+  {
+   "id": "podemos-viv-11",
+   "area": "vivienda",
+   "texto": "Crear una Inmobiliaria Pública con una renta máxima del 30% de la renta media municipal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 10",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-viv-09",
+   "area": "vivienda",
+   "texto": "Interés máximo de euríbor más 0,1% en las hipotecas de hogares con ingresos inferiores a 3 veces el IPREM cuando el euríbor supere el 2%, durante 2 años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Propuesta de Podemos sobre hipotecas",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2026-03"
+   },
+   "cambio": "Antes: Limitar durante un año las hipotecas variables a euríbor + 0,1%."
+  },
+  {
+   "id": "podemos-eco-01",
+   "area": "economia",
+   "texto": "Extender el Impuesto a las Grandes Fortunas a todos los obligados del Impuesto sobre el Patrimonio y fijar un tipo efectivo mínimo del 19% en el Impuesto de Sociedades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
   },
   {
    "id": "podemos-eco-02",
    "area": "economia",
-   "texto": "Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas.",
-   "origen": "declaracion",
+   "texto": "Impuesto permanente a la banca de al menos el 50% de sus beneficios extraordinarios y recuperar los beneficios extra de eléctricas y petroleras.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
-   "destacada": true
+   "cambio": "Antes: Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas."
   },
   {
-   "id": "podemos-eco-03",
+   "id": "podemos-eco-08",
    "area": "economia",
-   "texto": "Igualar la tributación en el IRPF de las rentas del capital y del trabajo.",
-   "origen": "declaracion",
+   "texto": "Crear una Banca Pública que integre el ICO, el CDTI y ENISA.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
+    "nombre": "Programa electoral 29N, p. 17",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
    },
    "destacada": false
   },
   {
-   "id": "podemos-eco-04",
+   "id": "podemos-eco-09",
    "area": "economia",
-   "texto": "Impuestos al lujo (jets privados, yates, coches de alta cilindrada) y más personal en la Agencia Tributaria; no subir impuestos a trabajadores, autónomos ni pymes.",
-   "origen": "declaracion",
+   "texto": "Crear una red pública de supermercados sin margen de beneficio sobre el precio al público.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
+    "nombre": "Programa electoral 29N, pp. 17-18",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
    },
    "destacada": false
   },
   {
    "id": "podemos-eco-05",
    "area": "economia",
-   "texto": "Intervenir los márgenes empresariales en la alimentación para bajar el coste de la vida.",
-   "origen": "declaracion",
+   "texto": "Topar los márgenes comerciales de las grandes distribuidoras en los productos de primera necesidad.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
+   "cambio": "Antes: Intervenir los márgenes empresariales en la alimentación para bajar el coste de la vida."
+  },
+  {
+   "id": "podemos-ene-02",
+   "area": "energia",
+   "texto": "Crear una Empresa Pública de Energía que recupere las concesiones hidroeléctricas al revertir al Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-ene-05",
+   "area": "energia",
+   "texto": "Nacionalizar Repsol: Estado con la mayoría absoluta del accionariado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
    "destacada": false
+  },
+  {
+   "id": "podemos-ene-01",
+   "area": "energia",
+   "texto": "Pagar el MWh según su coste de producción y factura eléctrica progresiva por tramos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
   },
   {
    "id": "podemos-eco-06",
    "area": "economia",
-   "texto": "Mantener los descuentos en el transporte público.",
-   "origen": "declaracion",
+   "texto": "Gratuidad universal del transporte público con tarjeta única.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
+   "cambio": "Antes: Mantener los descuentos en el transporte público."
+  },
+  {
+   "id": "podemos-eco-04",
+   "area": "economia",
+   "texto": "Recargos sobre la matriculación y el uso de jets privados, grandes barcos de recreo y coches de alta cilindrada que usen combustibles fósiles.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Impuestos al lujo (jets privados, yates, coches de alta cilindrada) y más personal en la Agencia Tributaria; no subir impuestos a trabajadores, autónomos ni pymes."
+  },
+  {
+   "id": "podemos-eco-07",
+   "area": "economia",
+   "texto": "Nuevos tramos del IRPF: 23% entre 60.000 y 99.000 euros, hasta el 28,5% a partir de 500.000 euros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
    "destacada": false
   },
   {
-   "id": "podemos-emp-01",
-   "area": "empleo",
-   "texto": "Salario mínimo de 1.800 € al mes.",
-   "origen": "declaracion",
+   "id": "podemos-eco-03",
+   "area": "economia",
+   "texto": "Equiparar en una legislatura los tipos del IRPF del capital y del trabajo.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Ione Belarra en el Congreso",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2026-02"
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
    },
-   "destacada": true
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
   },
   {
-   "id": "podemos-emp-02",
-   "area": "empleo",
-   "texto": "Reducir la jornada sin rebaja salarial con el objetivo de llegar a 30 horas semanales.",
-   "origen": "declaracion",
+   "id": "podemos-eco-10",
+   "area": "economia",
+   "texto": "Derogar la Ley Beckham, que permite seis años de tributación reducida.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, pp. 21-22",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-viv-07",
+   "area": "vivienda",
+   "texto": "Impuesto estatal a las viviendas vacías igual al IBI con recargo y tramos del IBI según el número de viviendas del propietario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Impuesto a las viviendas vacías y número máximo de viviendas por propietario."
+  },
+  {
+   "id": "podemos-viv-06",
+   "area": "vivienda",
+   "texto": "Gravamen sobre las ganancias por la venta de inmuebles adquiridos en los dos ejercicios fiscales anteriores.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Proposición de ley de vivienda de Podemos (El Debate)",
+    "url": "https://www.eldebate.com/economia/20240518/congelar-precios-prohibir-compras-subir-impuestos-podemos-lleva-europa-ley-vivienda_198093.html",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Impuesto de 20 puntos sobre la venta de viviendas compradas en los dos años anteriores."
+  },
+  {
+   "id": "podemos-eco-11",
+   "area": "economia",
+   "texto": "Aumentar los efectivos de la Agencia Tributaria hasta la media europea.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-deu-01",
+   "area": "deuda",
+   "texto": "Derogar la reforma del artículo 135 de la Constitución.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 23",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-seg-01",
+   "area": "seguridad",
+   "texto": "Congelar el gasto militar durante la legislatura, revertir su aumento y cerrar las bases de Rota y Morón.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 28-29",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-ext-01",
+   "area": "exterior",
+   "texto": "Salida de España de la OTAN.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-ext-05",
+   "area": "exterior",
+   "texto": "Reforma constitucional contra la guerra y Estatuto de Neutralidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-seg-03",
+   "area": "seguridad",
+   "texto": "Rechazar el objetivo de la OTAN de un gasto militar del 5% del PIB en 2035.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-ext-04",
+   "area": "exterior",
+   "texto": "Abolición de las armas nucleares y prohibición de las armas autónomas letales sin control humano.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 29-30",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2024-05"
    },
+   "cambio": "Antes: Firmar el Tratado sobre la Prohibición de las Armas Nucleares."
+  },
+  {
+   "id": "podemos-inm-03",
+   "area": "inmigracion",
+   "texto": "Oponerse al Pacto de Migración y Asilo, abolir Frontex y crear un sistema público europeo de búsqueda y salvamento marítimo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 32-33",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   }
+  },
+  {
+   "id": "podemos-inm-04",
+   "area": "inmigracion",
+   "texto": "Vías legales y seguras de entrada, con visado de búsqueda de empleo y mayor flexibilidad en reagrupación y arraigo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Vías legales y seguras de migración y solicitud de asilo en embajadas y consulados."
+  },
+  {
+   "id": "podemos-ext-02",
+   "area": "exterior",
+   "texto": "Romper relaciones diplomáticas, culturales y comerciales con Israel y establecer un embargo de armas efectivo y verificable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 34",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
+    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
+    "fecha": "2024-10"
+   }
+  },
+  {
+   "id": "podemos-ext-03",
+   "area": "exterior",
+   "texto": "Acuerdo de paz, justicia y reconstrucción para Ucrania, con cancelación de su deuda externa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 37-38",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: No enviar armas a Ucrania y defender una salida negociada a la guerra."
+  },
+  {
+   "id": "podemos-emp-01",
+   "area": "empleo",
+   "texto": "Salario mínimo de 1.800 euros al mes en una legislatura, sin bajar del 75% del salario mediano.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Ione Belarra en el Congreso",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2026-02"
+   }
+  },
+  {
+   "id": "podemos-emp-06",
+   "area": "empleo",
+   "texto": "Subida salarial automática vinculada al coste de la vida cuando no haya pacto colectivo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
    "destacada": false
+  },
+  {
+   "id": "podemos-emp-02",
+   "area": "empleo",
+   "texto": "Jornada de 30 horas semanales durante la legislatura, empezando por 35 horas, y teletrabajo dos días a la semana.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   }
+  },
+  {
+   "id": "podemos-pen-04",
+   "area": "pensiones",
+   "texto": "Adelantar la edad ordinaria de jubilación a 63 años, financiada con los Presupuestos Generales del Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-emp-04",
+   "area": "empleo",
+   "texto": "Nuevo Estatuto de los Trabajadores que derogue los efectos de las reformas laborales de 2010 y 2012.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-emp-05",
+   "area": "empleo",
+   "texto": "Indemnización de 45 días por año en los despidos ilegales y recuperar la autorización previa para los ERE.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-pen-01",
+   "area": "pensiones",
+   "texto": "Pensión mínima contributiva equiparada al salario mínimo y pensión no contributiva del 80% del salario mínimo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Que ninguna pensión, contributiva o no contributiva, sea inferior al salario mínimo."
+  },
+  {
+   "id": "podemos-pen-03",
+   "area": "pensiones",
+   "texto": "Potenciar el Ingreso Mínimo Vital para convertirlo en una renta universal incondicionada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 46",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Subir y simplificar el Ingreso Mínimo Vital como paso hacia una renta básica incondicional."
+  },
+  {
+   "id": "podemos-igu-06",
+   "area": "igualdad",
+   "texto": "Fondo de 1.000 millones de euros contra las violencias machistas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 51-52",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-igu-03",
+   "area": "igualdad",
+   "texto": "Blindar el derecho al aborto en el Código Penal y en la Constitución.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Garantizar el aborto en la sanidad pública e incluirlo en la Carta de Derechos Fundamentales de la UE."
+  },
+  {
+   "id": "podemos-igu-04",
+   "area": "igualdad",
+   "texto": "Opción de género no binario en los documentos oficiales y cupo laboral trans en el empleo público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 52-53",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Mantener la ley trans, reconocer a las personas no binarias y prohibir las terapias de conversión."
+  },
+  {
+   "id": "podemos-igu-01",
+   "area": "igualdad",
+   "texto": "Desarrollar la Ley Orgánica 10/2022 y especializar la justicia en violencias sexuales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 55-56",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Aplicar íntegramente la ley del «solo sí es sí» y contabilizar todos los feminicidios."
+  },
+  {
+   "id": "podemos-igu-05",
+   "area": "igualdad",
+   "texto": "Ley integral contra la trata y la explotación, y combatir la explotación reproductiva y la publicidad de la gestación subrogada.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 56 y 58",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Avanzar hacia la abolición de la prostitución sin sancionar a las mujeres y perseguir los vientres de alquiler."
+  },
+  {
+   "id": "podemos-igu-02",
+   "area": "igualdad",
+   "texto": "Proteger a las madres protectoras frente a la violencia vicaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 57",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Reconocer la violencia vicaria y legislar bajo el principio de que un maltratador no puede ser un buen padre."
+  },
+  {
+   "id": "podemos-dem-02",
+   "area": "demografia",
+   "texto": "Permisos de nacimiento, adopción y acogimiento de 26 semanas por progenitor.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 61",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-igu-07",
+   "area": "igualdad",
+   "texto": "Crear un Sistema Estatal de Cuidados y Conciliación como cuarto pilar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-inm-02",
+   "area": "inmigracion",
+   "texto": "Derogar la Ley de Extranjería y cerrar los Centros de Internamiento de Extranjeros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 66",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-inm-01",
+   "area": "inmigracion",
+   "texto": "Procedimiento permanente de regularización de personas migrantes y reconocimiento de derechos de documentación, voto y nacionalidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 66-67",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Regularizar a quienes viven y trabajan en España y conceder la nacionalidad por carta de naturaleza con derecho a voto."
+  },
+  {
+   "id": "podemos-inm-05",
+   "area": "inmigracion",
+   "texto": "Aprobar una Ley Integral Antirracista.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 67-68",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-edu-02",
+   "area": "educacion",
+   "texto": "Ampliar la red pública gratuita de 0 a 3 años en un máximo de cuatro años y bajar las ratios en todas las etapas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 80-81",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-edu-06",
+   "area": "educacion",
+   "texto": "Inversión pública en educación del 7% del PIB.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 81",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-edu-01",
+   "area": "educacion",
+   "texto": "Gratuidad de libros de texto, material escolar y servicios complementarios, y gratuidad progresiva de los comedores escolares.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 83",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Gratuidad de la educación de 0 a 18 años, incluidos libros, material, comedor y transporte."
+  },
+  {
+   "id": "podemos-edu-03",
+   "area": "educacion",
+   "texto": "Gratuidad progresiva de las tasas de grado, máster y doctorado y becas-salario de hasta 800 euros al mes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 86",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Matrícula gratuita en la universidad pública, incluidos los másteres habilitantes."
+  },
+  {
+   "id": "podemos-tec-01",
+   "area": "tecnologia",
+   "texto": "Inversión pública en ciencia e innovación del 2% del PIB.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 88",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-san-01",
+   "area": "sanidad",
+   "texto": "Fin de la privatización sanitaria, con derogaciones y prohibición de externalizaciones y prórrogas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 89",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Campaña de Podemos sobre sanidad",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2026-02"
+   },
+   "cambio": "Antes: Derogar la Ley 15/1997 y prohibir la gestión privada de la sanidad pública."
+  },
+  {
+   "id": "podemos-san-03",
+   "area": "sanidad",
+   "texto": "Crear una industria farmacéutica pública, con una empresa de medicamentos genéricos y vacunas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 89-90",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Crear una farmacéutica pública y fijar topes al precio de los medicamentos."
+  },
+  {
+   "id": "podemos-san-02",
+   "area": "sanidad",
+   "texto": "Financiación del SNS de 2.900 euros por habitante y año, con mínimos del 30% para Atención Primaria y del 20% para salud mental.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Financiación adicional para atención primaria, sanidad rural y reducción de listas de espera."
+  },
+  {
+   "id": "podemos-san-05",
+   "area": "sanidad",
+   "texto": "Ley integral de Atención Primaria: 25% del presupuesto sanitario, máximo de 1.300 pacientes por médico de familia y cita en 48 horas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 91-92",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-san-04",
+   "area": "sanidad",
+   "texto": "Cobertura pública del 100% en salud bucodental, oftalmológica, auditiva, fisioterapia y psicológica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 92-93",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   }
+  },
+  {
+   "id": "podemos-ene-03",
+   "area": "energia",
+   "texto": "Sistema eléctrico con 95% de generación renovable en 2035 y descarbonizado en 2040, y cumplimiento del calendario de cierre nuclear.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 99 y 104",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: 100% renovable en 2040, abandono de la energía nuclear y prohibición del fracking."
+  },
+  {
+   "id": "podemos-ene-06",
+   "area": "energia",
+   "texto": "Participación pública del 100% del capital de Red Eléctrica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 99",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-rur-01",
+   "area": "rural",
+   "texto": "Moratoria a la compra de tierras fértiles por fondos y a los regadíos hiperintensivos, y plan estatal de transición agroecológica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 109-113",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-rur-03",
+   "area": "rural",
+   "texto": "Moratoria a las nuevas macrogranjas y a sus ampliaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 112",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-rur-02",
+   "area": "rural",
+   "texto": "Recuperar la protección del lobo y extender la Ley 7/2023 de protección animal a los perros de caza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 122 y 124",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-cul-02",
+   "area": "cultura",
+   "texto": "Derogar la ley que declara la tauromaquia patrimonio cultural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 125",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-ter-01",
+   "area": "territorio",
+   "texto": "Proceso constituyente y referéndum para elegir entre monarquía y república, con una constitución republicana que reconozca la plurinacionalidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 128-129",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: República plurinacional y confederal que reconozca el derecho a decidir de los pueblos."
+  },
+  {
+   "id": "podemos-ins-05",
+   "area": "instituciones",
+   "texto": "Eliminar la inviolabilidad del Rey y someter la Casa Real a transparencia.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 129",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-ins-06",
+   "area": "instituciones",
+   "texto": "Suprimir los aforamientos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 129",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false
+  },
+  {
+   "id": "podemos-ins-01",
+   "area": "instituciones",
+   "texto": "Renovar el CGPJ y el Tribunal Constitucional con mayorías reforzadas y cubrir la mitad de las plazas de la carrera judicial por concurso.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 130-131",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Democratizar el poder judicial y cambiar el sistema de acceso a la carrera judicial."
+  },
+  {
+   "id": "podemos-ins-03",
+   "area": "instituciones",
+   "texto": "Derogar la Ley Mordaza y prohibir las empresas de desokupación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 9 y 134",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   }
+  },
+  {
+   "id": "podemos-ins-04",
+   "area": "instituciones",
+   "texto": "Despenalizar el cannabis y regular su uso medicinal y recreativo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 134-135",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   }
+  },
+  {
+   "id": "podemos-edu-04",
+   "area": "educacion",
+   "texto": "Denunciar el Concordato con la Santa Sede, eliminar la exención del IBI de la Iglesia católica y suprimir la asignatura de religión.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 22, 84 y 135",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Escuela pública laica, fin del Concordato y de los beneficios fiscales de la Iglesia."
+  },
+  {
+   "id": "podemos-cul-01",
+   "area": "cultura",
+   "texto": "Cumplimiento efectivo de la Ley de Memoria Democrática, incluidas las exhumaciones, los símbolos franquistas y Cuelgamuros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 138-139",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2025-04"
+   },
+   "cambio": "Antes: Introducir la memoria democrática en las aulas."
+  },
+  {
+   "id": "podemos-ins-02",
+   "area": "instituciones",
+   "texto": "Límites a la concentración mediática y reparto del espacio audiovisual en tercios público, privado y comunitario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, pp. 139-140",
+    "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+    "fecha": "2026-11-17"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Proposición de ley de Podemos sobre medios",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
+    "fecha": "2024-05"
+   },
+   "cambio": "Antes: Limitar al 10% la participación de bancos, fondos y eléctricas en medios de comunicación y obligar a sus directivos a declarar bienes e intereses."
   },
   {
    "id": "podemos-emp-03",
@@ -129,43 +1274,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2024-05"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-01",
-   "area": "vivienda",
-   "texto": "Bajar por ley un 40% los alquileres en contratos renovados o prorrogados y fijar los nuevos en el 60% del índice de referencia.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
-    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
-    "fecha": "2024-10"
-   },
-   "destacada": true
-  },
-  {
-   "id": "podemos-viv-02",
-   "area": "vivienda",
-   "texto": "Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": true
-  },
-  {
-   "id": "podemos-viv-03",
-   "area": "vivienda",
-   "texto": "Moratoria a la compra de vivienda que no sea para residir y exigir acreditar cuatro años de uso residencial antes de poder alquilarla.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
-    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
-    "fecha": "2024-10"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-viv-04",
@@ -177,79 +1288,9 @@
     "url": "https://www.eldebate.com/economia/20240518/congelar-precios-prohibir-compras-subir-impuestos-podemos-lleva-europa-ley-vivienda_198093.html",
     "fecha": "2024-05"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-05",
-   "area": "vivienda",
-   "texto": "Contratos de alquiler de 10 años de duración mínima (12 si el propietario es una empresa).",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Proposición de ley de vivienda de Podemos (El Debate)",
-    "url": "https://www.eldebate.com/economia/20240518/congelar-precios-prohibir-compras-subir-impuestos-podemos-lleva-europa-ley-vivienda_198093.html",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-06",
-   "area": "vivienda",
-   "texto": "Impuesto de 20 puntos sobre la venta de viviendas compradas en los dos años anteriores.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Proposición de ley de vivienda de Podemos (El Debate)",
-    "url": "https://www.eldebate.com/economia/20240518/congelar-precios-prohibir-compras-subir-impuestos-podemos-lleva-europa-ley-vivienda_198093.html",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-07",
-   "area": "vivienda",
-   "texto": "Impuesto a las viviendas vacías y número máximo de viviendas por propietario.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-08",
-   "area": "vivienda",
-   "texto": "Elevar el parque público de vivienda mediante compras masivas, sin desalojos sin alternativa habitacional.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-viv-09",
-   "area": "vivienda",
-   "texto": "Limitar durante un año las hipotecas variables a euríbor + 0,1%.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Propuesta de Podemos sobre hipotecas",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2026-03"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-pen-01",
-   "area": "pensiones",
-   "texto": "Que ninguna pensión, contributiva o no contributiva, sea inferior al salario mínimo.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-pen-02",
@@ -261,115 +1302,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-pen-03",
-   "area": "pensiones",
-   "texto": "Subir y simplificar el Ingreso Mínimo Vital como paso hacia una renta básica incondicional.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-san-01",
-   "area": "sanidad",
-   "texto": "Derogar la Ley 15/1997 y prohibir la gestión privada de la sanidad pública.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Campaña de Podemos sobre sanidad",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2026-02"
-   },
-   "destacada": true
-  },
-  {
-   "id": "podemos-san-02",
-   "area": "sanidad",
-   "texto": "Financiación adicional para atención primaria, sanidad rural y reducción de listas de espera.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-san-03",
-   "area": "sanidad",
-   "texto": "Crear una farmacéutica pública y fijar topes al precio de los medicamentos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-san-04",
-   "area": "sanidad",
-   "texto": "Cobertura pública del 100% de la atención bucodental, oftalmológica, auditiva y fisioterapia, y ley integral de salud mental.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-edu-01",
-   "area": "educacion",
-   "texto": "Gratuidad de la educación de 0 a 18 años, incluidos libros, material, comedor y transporte.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-edu-02",
-   "area": "educacion",
-   "texto": "Educación infantil de 0 a 3 años pública, universal y gratuita, y bajada de ratios.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-edu-03",
-   "area": "educacion",
-   "texto": "Matrícula gratuita en la universidad pública, incluidos los másteres habilitantes.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-edu-04",
-   "area": "educacion",
-   "texto": "Escuela pública laica, fin del Concordato y de los beneficios fiscales de la Iglesia.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-edu-05",
@@ -381,91 +1316,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-inm-01",
-   "area": "inmigracion",
-   "texto": "Regularizar a quienes viven y trabajan en España y conceder la nacionalidad por carta de naturaleza con derecho a voto.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-inm-02",
-   "area": "inmigracion",
-   "texto": "Derogar la Ley de Extranjería y cerrar los Centros de Internamiento de Extranjeros.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-inm-03",
-   "area": "inmigracion",
-   "texto": "Derogar el Pacto Europeo de Migración y Asilo y sustituir Frontex por una agencia pública de salvamento marítimo.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-inm-04",
-   "area": "inmigracion",
-   "texto": "Vías legales y seguras de migración y solicitud de asilo en embajadas y consulados.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ene-01",
-   "area": "energia",
-   "texto": "Pagar cada MWh según su coste de producción (fin del precio marginalista) y factura eléctrica progresiva según consumo.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ene-02",
-   "area": "energia",
-   "texto": "Crear una empresa pública de energía.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ene-03",
-   "area": "energia",
-   "texto": "100% renovable en 2040, abandono de la energía nuclear y prohibición del fracking.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-ene-04",
@@ -477,19 +1330,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2025-04"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ter-01",
-   "area": "territorio",
-   "texto": "República plurinacional y confederal que reconozca el derecho a decidir de los pueblos.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-ter-02",
@@ -501,127 +1344,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2024-05"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ins-01",
-   "area": "instituciones",
-   "texto": "Democratizar el poder judicial y cambiar el sistema de acceso a la carrera judicial.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ins-02",
-   "area": "instituciones",
-   "texto": "Limitar al 10% la participación de bancos, fondos y eléctricas en medios de comunicación y obligar a sus directivos a declarar bienes e intereses.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Proposición de ley de Podemos sobre medios",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ins-03",
-   "area": "instituciones",
-   "texto": "Derogar la ley mordaza y disolver empresas de desocupación como Desokupa.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ins-04",
-   "area": "instituciones",
-   "texto": "Despenalizar y regular el cannabis.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-igu-01",
-   "area": "igualdad",
-   "texto": "Aplicar íntegramente la ley del «solo sí es sí» y contabilizar todos los feminicidios.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-igu-02",
-   "area": "igualdad",
-   "texto": "Reconocer la violencia vicaria y legislar bajo el principio de que un maltratador no puede ser un buen padre.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-igu-03",
-   "area": "igualdad",
-   "texto": "Garantizar el aborto en la sanidad pública e incluirlo en la Carta de Derechos Fundamentales de la UE.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-igu-04",
-   "area": "igualdad",
-   "texto": "Mantener la ley trans, reconocer a las personas no binarias y prohibir las terapias de conversión.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-igu-05",
-   "area": "igualdad",
-   "texto": "Avanzar hacia la abolición de la prostitución sin sancionar a las mujeres y perseguir los vientres de alquiler.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-seg-01",
-   "area": "seguridad",
-   "texto": "No aumentar el gasto militar y cerrar las bases de Rota y Morón.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-seg-02",
@@ -633,91 +1358,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2024-05"
    },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ext-01",
-   "area": "exterior",
-   "texto": "Salir de la OTAN lo antes posible (moción para un referéndum rechazada en abril de 2026).",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": true
-  },
-  {
-   "id": "podemos-ext-02",
-   "area": "exterior",
-   "texto": "Romper relaciones diplomáticas y comerciales con Israel y embargo total de armas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Consulta a las bases de Podemos sobre los Presupuestos (Onda Vasca)",
-    "url": "https://www.ondavasca.com/las-bases-de-podemos-apoyan-condicionar-el-apoyo-a-los-presupuestos-a-romper-con-israel-y-bajar-un-40-el-alquiler/",
-    "fecha": "2024-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ext-03",
-   "area": "exterior",
-   "texto": "No enviar armas a Ucrania y defender una salida negociada a la guerra.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-ext-04",
-   "area": "exterior",
-   "texto": "Firmar el Tratado sobre la Prohibición de las Armas Nucleares.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Programa de Podemos para las elecciones europeas de 2024 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2024-05"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-rur-01",
-   "area": "rural",
-   "texto": "Frenar la compra de tierras por fondos, retirar derechos de riego a fondos que califica de especulativos y avanzar hacia un modelo agroecológico.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-rur-02",
-   "area": "rural",
-   "texto": "Mantener la protección del lobo y ampliar la protección animal a los perros de caza.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
-  },
-  {
-   "id": "podemos-cul-01",
-   "area": "cultura",
-   "texto": "Introducir la memoria democrática en las aulas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Documento político de Podemos, abril 2025 (resumen PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
-    "fecha": "2025-04"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "podemos-dem-01",
@@ -729,14 +1372,16 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/podemos",
     "fecha": "2024-05"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   }
  ],
  "criticas": {
   "economica": [
    {
     "titulo": "Rebaja del 40% del alquiler por ley y caída de oferta",
-    "texto": "La evidencia sobre controles estrictos de rentas (San Francisco, Berlín) muestra que benefician a los inquilinos actuales pero reducen la oferta de alquiler y desplazan viviendas a otros usos. Una rebaja obligatoria del 40% sobre contratos vigentes podría plantear además problemas de seguridad jurídica, y el propio Gobierno la consideró inviable por no ser competencia estatal.",
+    "texto": "La evidencia sobre controles estrictos de rentas (San Francisco, Berlín) muestra que benefician a los inquilinos actuales pero reducen la oferta de alquiler y desplazan viviendas a otros usos. Una rebaja obligatoria del 40% sobre contratos vigentes podría plantear además problemas de seguridad jurídica, y el propio Gobierno la consideró inviable por no ser competencia estatal. Unida a contratos indefinidos por defecto, que limitan la posibilidad del propietario de recuperar la vivienda, puede acentuar la retirada de pisos del alquiler.",
     "sobre": [
      "podemos-viv-01",
      "podemos-viv-05"
@@ -744,7 +1389,8 @@
     "fuente": {
      "nombre": "Diamond, McQuade y Qian, American Economic Review (2019)",
      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181289"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "SMI de 1.800 € y efecto en el empleo",
@@ -758,19 +1404,20 @@
     }
    },
    {
-    "titulo": "Pensiones mínimas iguales al SMI: coste sin cuantificar",
-    "texto": "Elevar todas las pensiones, incluidas las no contributivas (unos 8.800 € al año en 2026), al nivel del SMI multiplicaría su coste y rompería la relación entre cotizaciones y prestaciones. Podemos no ha estimado su coste, y la AIReF ya prevé un aumento del gasto en pensiones de varios puntos del PIB hasta 2050.",
+    "titulo": "Pensión mínima igual al SMI: coste sin cuantificar",
+    "texto": "Equiparar la pensión mínima contributiva al SMI y llevar las no contributivas (unos 8.800 € al año en 2026) al 80% del SMI elevaría con fuerza su coste y debilitaría la relación entre cotizaciones y prestaciones. La propuesta no detalla su coste, y la AIReF ya prevé un aumento del gasto en pensiones de varios puntos del PIB hasta 2050.",
     "sobre": [
      "podemos-pen-01"
     ],
     "fuente": {
      "nombre": "AIReF, proyecciones de gasto en pensiones",
      "url": "https://www.airef.es"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Precio de la luz según coste de cada tecnología",
-    "texto": "Pagar cada MWh a su coste de producción exige rediseñar el mercado mayorista único de la UE y, según los reguladores europeos (ACER), puede debilitar las señales de inversión en renovables y almacenamiento. El cierre nuclear en paralelo aumentaría las necesidades de respaldo.",
+    "texto": "Pagar cada MWh a su coste de producción exige rediseñar el mercado mayorista único de la UE y, según los reguladores europeos (ACER), puede debilitar las señales de inversión en renovables y almacenamiento. Cumplir el calendario de cierre nuclear mientras se busca un 95% de generación renovable en 2035 aumentaría además las necesidades de respaldo y almacenamiento.",
     "sobre": [
      "podemos-ene-01",
      "podemos-ene-03"
@@ -778,33 +1425,38 @@
     "fuente": {
      "nombre": "ACER, evaluación final del diseño del mercado mayorista de electricidad (2022)",
      "url": "https://www.acer.europa.eu"
-    }
+    },
+    "revisado": "2026-11-21"
    }
   ],
   "social": [
    {
     "titulo": "Prohibir los pisos turísticos: efectos en el empleo local",
-    "texto": "Una prohibición general afectaría a rentas de pequeños propietarios y al empleo vinculado al turismo en zonas que dependen de él. Estudios sobre Barcelona y otras ciudades muestran que el alquiler turístico sí encarece el alquiler residencial, pero que su efecto global es moderado frente a factores de oferta y demanda.",
+    "texto": "Una prohibición, aunque sea progresiva, afectaría a rentas de pequeños propietarios y al empleo vinculado al turismo en zonas que dependen de él. Estudios sobre Barcelona y otras ciudades muestran que el alquiler turístico sí encarece el alquiler residencial, pero que su efecto global es moderado frente a factores de oferta y demanda.",
     "sobre": [
      "podemos-viv-02"
     ],
     "fuente": {
      "nombre": "García-López et al., 'Do short-term rental platforms affect housing markets? Evidence from Airbnb in Barcelona', Journal of Urban Economics (2020)"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
-    "titulo": "Prohibir la gestión privada en sanidad y capacidad asistencial",
-    "texto": "Varias comunidades dependen de conciertos y concesiones para reducir listas de espera. Eliminarlos de golpe exigiría una capacidad pública que hoy no existe, con riesgo de alargar los tiempos de espera a corto plazo.",
+    "titulo": "Fin de la gestión privada en sanidad y capacidad asistencial",
+    "texto": "Varias comunidades dependen de conciertos y concesiones para reducir listas de espera. Prohibir nuevas externalizaciones y las prórrogas de los contratos vigentes obligaría a asumir con medios públicos una actividad para la que hoy no hay capacidad propia suficiente, con riesgo de alargar los tiempos de espera a corto plazo.",
     "sobre": [
      "podemos-san-01"
-    ]
+    ],
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Nacionalidad por carta de naturaleza generalizada y derecho a voto",
     "texto": "Conceder la nacionalidad por carta de naturaleza de forma generalizada desvirtuaría una vía que la ley reserva a circunstancias excepcionales y ataría el derecho de voto a decisiones discrecionales del Gobierno, según sus críticos.",
     "sobre": [
      "podemos-inm-01"
-    ]
+    ],
+    "estado": "obsoleta",
+    "revisado": "2026-11-21"
    }
   ],
   "cultural": [
@@ -813,35 +1465,37 @@
     "texto": "Abandonar la OTAN y cerrar Rota y Morón dejaría a España fuera del principal sistema de defensa colectiva de sus socios de la UE en un contexto de guerra en Ucrania; la mayoría de los españoles apoya la pertenencia a la Alianza según el Real Instituto Elcano. Las bases tienen además peso económico en sus comarcas.",
     "sobre": [
      "podemos-ext-01",
-     "podemos-seg-01",
-     "podemos-ext-03"
+     "podemos-seg-01"
     ],
     "fuente": {
      "nombre": "Real Instituto Elcano, Barómetro",
      "url": "https://www.realinstitutoelcano.org/barometro/"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
-    "titulo": "República confederal y derecho a decidir",
-    "texto": "Una república confederal con derecho a decidir de los pueblos exige reformar los fundamentos de la Constitución (arts. 1 y 2) por el procedimiento agravado del art. 168, que requiere dos tercios de ambas cámaras, disolución y referéndum.",
+    "titulo": "Proceso constituyente y referéndum sobre la monarquía",
+    "texto": "Sustituir la monarquía parlamentaria (art. 1.3 y título II) por una república que reconozca la plurinacionalidad (art. 2) exige reformar la Constitución por el procedimiento agravado del art. 168, que requiere dos tercios de ambas cámaras, disolución de las Cortes, ratificación por las nuevas y referéndum.",
     "sobre": [
      "podemos-ter-01"
     ],
     "fuente": {
-     "nombre": "Constitución Española, art. 168"
-    }
+     "nombre": "Constitución Española, arts. 1, 2 y 168"
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Fin del Concordato y laicidad estricta",
-    "texto": "Denunciar los acuerdos con la Santa Sede afectaría a la enseñanza concertada y a la financiación de entidades sociales ligadas a la Iglesia, y supone abrir un conflicto diplomático con un tratado internacional en vigor.",
+    "texto": "Denunciar los Acuerdos con la Santa Sede afectaría a la enseñanza de la religión en la escuela, que el art. 27.3 CE vincula al derecho de los padres a que sus hijos reciban la formación religiosa que elijan, y a la financiación de la Iglesia y sus entidades sociales, incluida la exención del IBI. Supone además abrir un conflicto diplomático con un tratado internacional en vigor.",
     "sobre": [
      "podemos-edu-04"
-    ]
+    ],
+    "revisado": "2026-11-21"
    }
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-21",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
@@ -852,5 +1506,11 @@
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
  },
- "candidatura_nota": "En solitario en 41 circunscripciones. En la Comunitat Valenciana va en Compromís-Front Valencià y en Canarias en Unidad del Pueblo Canario. No se presenta en Cataluña (lleva candidatos en la lista de ERC por Barcelona)."
+ "candidatura_nota": "En solitario en 41 circunscripciones. En la Comunitat Valenciana va en Compromís-Front Valencià y en Canarias en Unidad del Pueblo Canario. No se presenta en Cataluña (lleva candidatos en la lista de ERC por Barcelona).",
+ "programa_2026": {
+  "url": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf",
+  "fecha_publicacion": "2026-11-17",
+  "paginas": 141,
+  "incorporado": "2026-11-21"
+ }
 }

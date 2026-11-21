@@ -8,8 +8,13 @@
  "color": "#E30613",
  "web": "https://www.psoe.es",
  "escanos_2023": 121,
- "resumen": "Propone fijar un IRPF del 50 % a partir de 300.000 €, dar préstamos al 0 % para la primera vivienda y dar matrícula universitaria gratis a quien apruebe a la primera. Fuente: programa 2023, declaraciones y actuaciones.",
+ "resumen": "Propone crear el Fondo España Crece de 120.000 M€, reformar la Constitución para que la vivienda sea un derecho fundamental y destinar cada año el 1% del PIB a vivienda. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Programa electoral del PSOE para el 29N, «La fuerza de seguir avanzando» (PDF, 114 páginas, 500 medidas)",
+   "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+   "fecha": "2026-11-15"
+  },
   {
    "titulo": "Reales decretos-leyes de vivienda (6-10-2026)",
    "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2026/decreto-vivienda-medidas.aspx",
@@ -31,173 +36,143 @@
    "fecha": "2026-10"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
-   "id": "psoe-eco-01",
+   "id": "psoe-eco-08",
    "area": "economia",
-   "texto": "Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales.",
-   "origen": "declaracion",
+   "texto": "Crear el Fondo España Crece para movilizar 120.000 M€ y sostener la modernización más allá de los fondos europeos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Ponencia del 41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-02",
-   "area": "economia",
-   "texto": "Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Ponencia del 41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-03",
-   "area": "economia",
-   "texto": "Reducir el déficit estructural y combatir el fraude y la economía sumergida sin subir los impuestos con carácter general.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-04",
-   "area": "economia",
-   "texto": "Pacto de Estado contra el Fraude Fiscal y mejor fiscalidad para autónomos y pymes.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-05",
-   "area": "economia",
-   "texto": "Mantener el gravamen sobre el margen de intereses de la banca.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Posiciones del PSOE, TuPapeleta.es",
-    "url": "https://tupapeleta.es/programa-electoral/psoe/",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-06",
-   "area": "economia",
-   "texto": "Crear la Autoridad de Defensa del Cliente Financiero, con resolución vinculante y gratuita de reclamaciones, y eliminar comisiones por sacar efectivo en ventanilla.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-eco-07",
-   "area": "economia",
-   "texto": "Ampliar a hipotecados con renta de hasta 37.800 € la ampliación de plazo de 7 años y la congelación de cuota durante 1 año.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023, p. 30",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-emp-01",
-   "area": "empleo",
-   "texto": "Subir el salario mínimo todos los años que gobierne.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Pedro Sánchez, 19-10-2026, vía eleccionesEspaña.com",
-    "url": "https://xn--eleccionesespaa-crb.com/programas",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": true
   },
   {
-   "id": "psoe-emp-02",
-   "area": "empleo",
-   "texto": "Fijar en la ley y en la Constitución que el SMI sea al menos el 60% del salario medio.",
-   "origen": "declaracion",
+   "id": "psoe-eco-09",
+   "area": "economia",
+   "texto": "Aprobar una Ley de Industria y Autonomía Estratégica y apoyar la industria limpia con nuevos concursos de acceso a red para renovables, hidrógeno, almacenamiento y economía circular.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 15",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-emp-03",
-   "area": "empleo",
-   "texto": "Jornada laboral media de 36 horas semanales en 2030.",
-   "origen": "declaracion",
+   "id": "psoe-tec-02",
+   "area": "tecnologia",
+   "texto": "Crear un ecosistema de microelectrónica y semiconductores con ayudas, instrumentos financieros y plan de talento, incluida la fotónica.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
-   "destacada": false
-  },
-  {
-   "id": "psoe-emp-04",
-   "area": "empleo",
-   "texto": "Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto de ley del Gobierno, no aprobado).",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Posiciones del PSOE, TuPapeleta.es",
-    "url": "https://tupapeleta.es/programa-electoral/psoe/",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-emp-05",
-   "area": "empleo",
-   "texto": "Pleno empleo: paro estructural por debajo del 8%.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023, p. 20-23",
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
     "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Proyectos estratégicos en semiconductores (PERTE Chip), computación cuántica e IA."
   },
   {
-   "id": "psoe-emp-06",
-   "area": "empleo",
-   "texto": "Plan de choque contra el paro juvenil con itinerarios de formación y empleo de 12 meses y prácticas para jóvenes con un año en paro.",
-   "origen": "programa-2023",
+   "id": "psoe-tec-03",
+   "area": "tecnologia",
+   "texto": "Plan de ayudas de banda ancha bajo demanda con despliegue de fibra y bonos de conectividad, y hoja de ruta 6G con pilotos.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa PSOE 2023, p. 24",
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
     "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Conectividad ultrarrápida en el 100% del territorio y despliegue de 5G y 6G."
+  },
+  {
+   "id": "psoe-viv-15",
+   "area": "vivienda",
+   "texto": "Reformar la Constitución para que la vivienda sea un derecho fundamental exigible ante los poderes públicos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": true
+  },
+  {
+   "id": "psoe-viv-16",
+   "area": "vivienda",
+   "texto": "Movilizar cada año el 1% del PIB para el acceso a la vivienda, con evaluación periódica de objetivos y aportación de las administraciones y del ICO.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 28",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-emp-07",
-   "area": "empleo",
-   "texto": "Incentivos a las empresas para jornadas híbridas y horarios flexibles.",
-   "origen": "programa-2023",
+   "id": "psoe-viv-13",
+   "area": "vivienda",
+   "texto": "Construir o adquirir un parque público estatal de 100.000 viviendas para venta o alquiler estable a precios asequibles, además del parque autonómico y local.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa PSOE 2023, Ara",
-    "url": "https://es.ara.cat/politica/elecciones-generales/sanchez-ignora-mesa-dialogo-no-incluye-propuesta-catalunya-programa_1_4754910.html",
+    "nombre": "Programa electoral 29N, p. 29",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, El Independiente",
+    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: 183.000 viviendas públicas de alquiler, la mitad para jóvenes."
+  },
+  {
+   "id": "psoe-viv-17",
+   "area": "vivienda",
+   "texto": "Crear un banco de suelo público estatal para operadores sociales y cooperativas y aprobar una Ley de Operadores Sociales de Vivienda.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-viv-18",
+   "area": "vivienda",
+   "texto": "Gravar los solares residenciales ociosos para movilizar suelo para vivienda.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 31",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-viv-19",
+   "area": "vivienda",
+   "texto": "Crear un impuesto progresivo sobre el patrimonio inmobiliario de grandes propietarios y fondos especulativos que no destinen las viviendas a alquiler asequible.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
@@ -346,18 +321,6 @@
    "destacada": false
   },
   {
-   "id": "psoe-viv-13",
-   "area": "vivienda",
-   "texto": "183.000 viviendas públicas de alquiler, la mitad para jóvenes.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023, El Independiente",
-    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
    "id": "psoe-viv-14",
    "area": "vivienda",
    "texto": "Cuenta de ahorro con ventajas fiscales para la primera vivienda de jóvenes de hasta 39 años, con hasta 30.000 € libres de tributación.",
@@ -367,19 +330,182 @@
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
    },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-emp-01",
+   "area": "empleo",
+   "texto": "Actualizar periódicamente el SMI según precios, salarios, productividad y necesidades de los trabajadores, para que cada subida aumente el salario neto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Pedro Sánchez, 19-10-2026, vía eleccionesEspaña.com",
+    "url": "https://xn--eleccionesespaa-crb.com/programas",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Subir el salario mínimo todos los años que gobierne."
+  },
+  {
+   "id": "psoe-emp-02",
+   "area": "empleo",
+   "texto": "Fijar por ley que el SMI sea superior al 60% del salario medio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Fijar en la ley y en la Constitución que el SMI sea al menos el 60% del salario medio."
+  },
+  {
+   "id": "psoe-eco-12",
+   "area": "economia",
+   "texto": "Crear un mecanismo que active una deducción estatal en el IRPF cuando suban los precios, progresiva y favorable a rentas medias y bajas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
    "destacada": false
+  },
+  {
+   "id": "psoe-eco-02",
+   "area": "economia",
+   "texto": "Fomentar el reparto de beneficios y productividad con los trabajadores en grandes empresas rentables y pymes, con un sello «Productividad Compartida» y ayudas a pymes ligadas a mejoras verificables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Ponencia del 41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas."
+  },
+  {
+   "id": "psoe-emp-08",
+   "area": "empleo",
+   "texto": "Pacto de Estado para mejorar salarios y poder adquisitivo, reforzando el diálogo social, la negociación colectiva y los acuerdos interconfederales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 39",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-eco-06",
+   "area": "economia",
+   "texto": "Crear la Autoridad de Defensa del Cliente Financiero, órgano único y gratuito que resolverá reclamaciones en un máximo de 90 días, con decisiones vinculantes para la banca por debajo de 20.000 €.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Crear la Autoridad de Defensa del Cliente Financiero, con resolución vinculante y gratuita de reclamaciones, y eliminar comisiones por sacar efectivo en ventanilla."
   },
   {
    "id": "psoe-pen-01",
    "area": "pensiones",
-   "texto": "Revalorizar las pensiones con el IPC durante otros cuatro años.",
-   "origen": "declaracion",
+   "texto": "Garantizar el poder adquisitivo de las pensiones actuales y futuras y converger las pensiones mínimas hacia los estándares de renta del conjunto de la sociedad.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Pedro Sánchez, mitin de Zaragoza (14-10-2026), vía PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": true
+   "cambio": "Antes: Revalorizar las pensiones con el IPC durante otros cuatro años."
+  },
+  {
+   "id": "psoe-pen-07",
+   "area": "pensiones",
+   "texto": "Completar durante la próxima legislatura la cuota de solidaridad y acordar en el Pacto de Toledo nuevas fuentes de financiación de la Seguridad Social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 40",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-pen-04",
+   "area": "pensiones",
+   "texto": "Incluir en la Constitución el sistema público de pensiones y su revalorización anual con el IPC.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41 y 90",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "psoe-pen-05",
+   "area": "pensiones",
+   "texto": "Reducir la brecha de género en las pensiones reforzando el complemento por hijo y computando un año adicional de cotización por hijo o adopción.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Subir un 10% el complemento de brecha de género en 2026-2027 y computar un año cotizado por hijo."
+  },
+  {
+   "id": "psoe-pen-08",
+   "area": "pensiones",
+   "texto": "Crear una incapacidad temporal especial para trabajadores con cáncer, con el 75% de la base reguladora desde el inicio y regreso progresivo a tiempo parcial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
   },
   {
    "id": "psoe-pen-02",
@@ -391,7 +517,9 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "psoe-pen-03",
@@ -406,30 +534,6 @@
    "destacada": false
   },
   {
-   "id": "psoe-pen-04",
-   "area": "pensiones",
-   "texto": "Garantizar en la Constitución la revalorización de las pensiones con el IPC.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-pen-05",
-   "area": "pensiones",
-   "texto": "Subir un 10% el complemento de brecha de género en 2026-2027 y computar un año cotizado por hijo.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
    "id": "psoe-pen-06",
    "area": "pensiones",
    "texto": "Aportar 5.000 M€ anuales a la «hucha» de las pensiones e impulsar los planes de pensiones de empleo.",
@@ -439,29 +543,388 @@
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
    },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-dem-01",
+   "area": "demografia",
+   "texto": "Prestación de la Seguridad Social de cuatro semanas de permiso parental al 100% de la base para hijos menores de ocho años, y una semana más de permiso para el segundo progenitor si no se solapan.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 41",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, El Independiente",
+    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ampliar el permiso por nacimiento de 16 a 20 semanas, con opción de disfrutarlo a tiempo parcial."
+  },
+  {
+   "id": "psoe-emp-03",
+   "area": "empleo",
+   "texto": "Impulsar por la negociación colectiva el paso hacia las 35 horas semanales, tras completar la reducción a 37,5 horas sin pérdida salarial, con calendario del diálogo social y plazos transitorios para pymes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Jornada laboral media de 36 horas semanales en 2030."
+  },
+  {
+   "id": "psoe-emp-09",
+   "area": "empleo",
+   "texto": "Eliminar las horas extra ilegales y no pagadas con un registro horario digital fiable, y hacer efectivos el descanso y la desconexión digital con más Inspección de Trabajo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
    "destacada": false
   },
   {
-   "id": "psoe-san-01",
-   "area": "sanidad",
-   "texto": "Ley con tiempos máximos de espera: 120 días para operarse, 60 para el especialista, 30 para pruebas y 15 para salud mental de menores de 21 años.",
+   "id": "psoe-emp-10",
+   "area": "empleo",
+   "texto": "Reformar la indemnización por despido improcedente para que sea reparadora, proporcionada y disuasoria, y restablecer los salarios de tramitación en los casos legalmente previstos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 42",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-emp-06",
+   "area": "empleo",
+   "texto": "Plan de consolidación del empleo juvenil y plan de emprendimiento joven con asesoramiento gratuito, apoyo administrativo, formación en gestión y acceso a financiación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 43",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, p. 24",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Plan de choque contra el paro juvenil con itinerarios de formación y empleo de 12 meses y prácticas para jóvenes con un año en paro."
+  },
+  {
+   "id": "psoe-emp-11",
+   "area": "empleo",
+   "texto": "Plan «Nuevo Rumbo»: incentivos a la contratación de mayores de 45 años, formación en sectores estratégicos para parados de larga duración y vía «Mujer 45+» para reducir un 20% el paro femenino de larga duración.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-emp-05",
+   "area": "empleo",
+   "texto": "Mejorar las políticas activas de empleo para alcanzar el pleno empleo, con evaluación periódica de resultados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 44",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, p. 20-23",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Pleno empleo: paro estructural por debajo del 8%."
+  },
+  {
+   "id": "psoe-emp-04",
+   "area": "empleo",
+   "texto": "Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto de ley del Gobierno, no aprobado).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Posiciones del PSOE, TuPapeleta.es",
+    "url": "https://tupapeleta.es/programa-electoral/psoe/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-emp-07",
+   "area": "empleo",
+   "texto": "Incentivos a las empresas para jornadas híbridas y horarios flexibles.",
    "origen": "programa-2023",
    "fuente": {
     "nombre": "Programa PSOE 2023, Ara",
     "url": "https://es.ara.cat/politica/elecciones-generales/sanchez-ignora-mesa-dialogo-no-incluye-propuesta-catalunya-programa_1_4754910.html",
     "fecha": "2023-07"
    },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-deu-03",
+   "area": "deuda",
+   "texto": "Presentar a la Comisión Europea en la primavera de 2027 un plan fiscal-estructural a medio plazo para la legislatura, basado en previsiones de la AIReF.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-deu-02",
+   "area": "deuda",
+   "texto": "Seguir reduciendo el déficit y la deuda sobre el PIB y mantener la inversión pública tras los fondos europeos, con prioridad para el mantenimiento y la seguridad de las infraestructuras.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "psoe-deu-01",
+   "area": "deuda",
+   "texto": "Condonar 83.252 M€ de deuda autonómica asumiéndola el Estado (ley que decae con la legislatura).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-eco-10",
+   "area": "economia",
+   "texto": "Mantener los dos primeros tramos de las rentas del capital (19% hasta 6.000 € y 21% hasta 50.000 €) y subir los superiores de forma progresiva hasta el 35% por encima de 300.000 €.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-eco-11",
+   "area": "economia",
+   "texto": "Ley de Salarios Justos: más impuesto de sociedades a las cotizadas cuya ratio entre el mayor sueldo directivo y el salario mediano supere 100 a 1, con un tramo superior por encima de 200 a 1.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-eco-01",
+   "area": "economia",
+   "texto": "Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales.",
+   "origen": "declaracion",
+   "fuente": {
+    "nombre": "Ponencia del 41 Congreso Federal del PSOE (2024), vía PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-eco-03",
+   "area": "economia",
+   "texto": "Reducir el déficit estructural y combatir el fraude y la economía sumergida sin subir los impuestos con carácter general.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-eco-04",
+   "area": "economia",
+   "texto": "Pacto de Estado contra el Fraude Fiscal y mejor fiscalidad para autónomos y pymes.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-eco-05",
+   "area": "economia",
+   "texto": "Mantener el gravamen sobre el margen de intereses de la banca.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Posiciones del PSOE, TuPapeleta.es",
+    "url": "https://tupapeleta.es/programa-electoral/psoe/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-eco-07",
+   "area": "economia",
+   "texto": "Ampliar a hipotecados con renta de hasta 37.800 € la ampliación de plazo de 7 años y la congelación de cuota durante 1 año.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PSOE 2023, p. 30",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-dem-02",
+   "area": "demografia",
+   "texto": "Convertir el mínimo por descendientes del IRPF en deducción reembolsable, que alcanzaría a unos 2 millones de hogares de rentas bajas y medias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Aumentar en el IRPF los incentivos por hijo y por dependencia."
+  },
+  {
+   "id": "psoe-san-01",
+   "area": "sanidad",
+   "texto": "Acabar con las listas de espera y reforzar el carácter público del SNS.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, Ara",
+    "url": "https://es.ara.cat/politica/elecciones-generales/sanchez-ignora-mesa-dialogo-no-incluye-propuesta-catalunya-programa_1_4754910.html",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ley con tiempos máximos de espera: 120 días para operarse, 60 para el especialista, 30 para pruebas y 15 para salud mental de menores de 21 años."
+  },
+  {
+   "id": "psoe-san-06",
+   "area": "sanidad",
+   "texto": "Acercar la financiación pública de la sanidad al 7% del PIB.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Destinar el 7% del PIB a sanidad."
   },
   {
    "id": "psoe-san-02",
    "area": "sanidad",
-   "texto": "Ampliar la cartera pública con salud bucodental, fisioterapia, oftalmología, psicología y psiquiatría clínica.",
-   "origen": "programa-2023",
+   "texto": "Plan Sonríe: incluir la atención dental básica de adultos en la cartera pública y, entretanto, ayuda directa de hasta 200 € por persona y año, empezando por hogares de rentas medias y bajas.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa PSOE 2023, El Independiente",
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ampliar la cartera pública con salud bucodental, fisioterapia, oftalmología, psicología y psiquiatría clínica."
+  },
+  {
+   "id": "psoe-san-07",
+   "area": "sanidad",
+   "texto": "Hacer de la gestión pública directa el modelo preferente en la sanidad y aprobar una Ley de Buen Gobierno y Gestión del SNS.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-san-05",
+   "area": "sanidad",
+   "texto": "Atención psicológica pública gratuita con primera cita en 30 días, más psicólogos clínicos en el SNS y ampliación de la salud mental infantil y juvenil y de la prevención del suicidio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Pacto por la Salud Mental y refuerzo de la línea 024 de atención a la conducta suicida."
+  },
+  {
+   "id": "psoe-san-08",
+   "area": "sanidad",
+   "texto": "Estrategia integral contra el cáncer con prevención, cribados, diagnóstico precoz, registro nacional de cáncer y derecho al olvido oncológico.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52-53",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
@@ -487,199 +950,183 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
-   "id": "psoe-san-05",
-   "area": "sanidad",
-   "texto": "Pacto por la Salud Mental y refuerzo de la línea 024 de atención a la conducta suicida.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-san-06",
-   "area": "sanidad",
-   "texto": "Destinar el 7% del PIB a sanidad.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-edu-01",
+   "id": "psoe-edu-04",
    "area": "educacion",
-   "texto": "Matrícula gratuita en la universidad y en FP superior para quien apruebe a la primera.",
-   "origen": "programa-2023",
+   "texto": "Universalizar la educación de 0 a 3 años con más escuelas infantiles públicas, menos alumnos por aula, mejores instalaciones y apoyo a la conciliación.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa PSOE 2023, El Independiente",
-    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 53",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
-   "destacada": true
-  },
-  {
-   "id": "psoe-edu-02",
-   "area": "educacion",
-   "texto": "Ratios máximas de 22 alumnos en Primaria y 25 en ESO, y menos horas lectivas docentes de forma gradual hasta 2031-32 (proyecto que decae).",
-   "origen": "accion",
-   "fuente": {
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
+   },
+   "cambio": "Antes: Plazas públicas gratuitas de 0 a 3 años y libros de texto gratuitos."
+  },
+  {
+   "id": "psoe-edu-08",
+   "area": "educacion",
+   "texto": "Reducir el abandono escolar temprano por debajo del 10% antes de 2030, con prevención, programas de segunda oportunidad y unidades de orientación familiar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 54",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
    "id": "psoe-edu-03",
    "area": "educacion",
-   "texto": "250.000 nuevas plazas de Formación Profesional.",
-   "origen": "programa-2023",
+   "texto": "Ampliar las plazas públicas de FP de grado medio y superior para que nadie quede sin formación por falta de oferta.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa PSOE 2023, El Independiente",
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: 250.000 nuevas plazas de Formación Profesional."
   },
   {
-   "id": "psoe-edu-04",
+   "id": "psoe-edu-09",
    "area": "educacion",
-   "texto": "Plazas públicas gratuitas de 0 a 3 años y libros de texto gratuitos.",
-   "origen": "programa-2023",
+   "texto": "Becas Erasmus de 1.000 a 1.500 € al mes según renta y consolidar las becas Luisa de Medrano para estudiar parte del grado en otra comunidad.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-edu-05",
+   "id": "psoe-edu-01",
    "area": "educacion",
-   "texto": "Destinar el 5% del PIB a educación.",
-   "origen": "programa-2023",
+   "texto": "Promover la matrícula gratuita del primer curso en las universidades públicas de todo el país.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 55",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
-   "destacada": false
-  },
-  {
-   "id": "psoe-edu-06",
-   "area": "educacion",
-   "texto": "Nueva regulación más exigente para crear universidades privadas.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Medidas del Gobierno en precampaña, Moncloa.com",
-    "url": "https://www.moncloa.com/2026/10/18/sanchez-decretos-campana-29n-3450823",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-edu-07",
-   "area": "educacion",
-   "texto": "Transporte público urbano gratuito para niños y estudiantes de hasta 24 años.",
-   "origen": "programa-2023",
-   "fuente": {
+   "destacada": true,
+   "fuente_anterior": {
     "nombre": "Programa PSOE 2023, El Independiente",
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Matrícula gratuita en la universidad y en FP superior para quien apruebe a la primera."
   },
   {
-   "id": "psoe-deu-01",
-   "area": "deuda",
-   "texto": "Condonar 83.252 M€ de deuda autonómica asumiéndola el Estado (ley que decae con la legislatura).",
-   "origen": "accion",
+   "id": "psoe-dem-05",
+   "area": "demografia",
+   "texto": "Prestación estatal por crianza para hogares con menores, con diseño redistributivo y más protección a familias de renta baja, financiada con nuevos impuestos a grandes fortunas y rentas del capital.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-deu-02",
-   "area": "deuda",
-   "texto": "Consolidación fiscal reduciendo déficit estructural y deuda según las reglas europeas, y aumentar el peso de la inversión pública.",
-   "origen": "programa-2023",
+   "id": "psoe-dem-06",
+   "area": "demografia",
+   "texto": "Crear una cuenta pública de inversión de 1.000 € por niño al nacer, con aportaciones anuales para hogares de renta baja, disponible a los 18 años.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-igu-08",
+   "area": "igualdad",
+   "texto": "Aprobar la primera Ley de Servicios Sociales, con cartera común y estándares de calidad acordados con las comunidades y financiación estable.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 59",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ene-07",
+   "area": "energia",
+   "texto": "Crear una Agencia Estatal de Protección Civil y Emergencias.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ene-05",
+   "area": "energia",
+   "texto": "Aprobar una Ley de Adaptación al Cambio Climático y dotar de más financiación y seguimiento al Plan Nacional de Adaptación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Pacto de Estado frente a la emergencia climática y leyes básicas de bomberos forestales y agentes forestales."
+  },
+  {
+   "id": "psoe-ene-08",
+   "area": "energia",
+   "texto": "Reconocer en la Constitución el acceso universal al agua potable, con garantías de calidad y asequibilidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 70",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ene-04",
+   "area": "energia",
+   "texto": "Ampliar la desalación y la reutilización de agua con energía renovable y crear bancos públicos del agua en las confederaciones hidrográficas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 70",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, El Independiente",
+    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "psoe-inm-01",
-   "area": "inmigracion",
-   "texto": "Mantener la regularización extraordinaria de inmigrantes en situación irregular, con 1.174.978 solicitudes hasta junio de 2026.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": true
-  },
-  {
-   "id": "psoe-inm-02",
-   "area": "inmigracion",
-   "texto": "Reparto obligatorio entre comunidades de los menores migrantes no acompañados.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Posiciones del PSOE, TuPapeleta.es",
-    "url": "https://tupapeleta.es/programa-electoral/psoe/",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-inm-03",
-   "area": "inmigracion",
-   "texto": "Reducir las llegadas irregulares, desmantelar mafias en origen y ampliar la migración circular.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-inm-04",
-   "area": "inmigracion",
-   "texto": "Nueva ley de nacionalidad.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-inm-05",
-   "area": "inmigracion",
-   "texto": "45,3 M€ para Ceuta por la atención a menores migrantes.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Medidas del Gobierno en precampaña, Moncloa.com",
-    "url": "https://www.moncloa.com/2026/10/18/sanchez-decretos-campana-29n-3450823",
-    "fecha": "2026-10"
-   },
-   "destacada": false
+   "cambio": "Antes: Duplicar la aportación de la desalación y ley que impida privatizar la gestión del agua en los municipios."
   },
   {
    "id": "psoe-ene-01",
@@ -715,31 +1162,9 @@
     "url": "https://es.ara.cat/politica/elecciones-generales/sanchez-ignora-mesa-dialogo-no-incluye-propuesta-catalunya-programa_1_4754910.html",
     "fecha": "2023-07"
    },
-   "destacada": false
-  },
-  {
-   "id": "psoe-ene-04",
-   "area": "energia",
-   "texto": "Duplicar la aportación de la desalación y ley que impida privatizar la gestión del agua en los municipios.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023, El Independiente",
-    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-ene-05",
-   "area": "energia",
-   "texto": "Pacto de Estado frente a la emergencia climática y leyes básicas de bomberos forestales y agentes forestales.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
    "id": "psoe-ene-06",
@@ -750,6 +1175,341 @@
     "nombre": "Programa PSOE 2023, El Independiente",
     "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
     "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-rur-03",
+   "area": "rural",
+   "texto": "Aprobar una Ley de Agricultura Familiar y Profesional que incluya modernización, seguros, integración cooperativa, relevo generacional y evitar que los fondos de inversión concentren tierra fértil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 71",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ter-03",
+   "area": "territorio",
+   "texto": "Garantizar servicios básicos y movilidad en todo el territorio, avanzando hacia un país de 30 minutos, y aplicar una perspectiva rural a leyes y presupuestos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 71",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ley de cohesión territorial y servicios básicos accesibles en un máximo de 30 minutos en el medio rural."
+  },
+  {
+   "id": "psoe-rur-01",
+   "area": "rural",
+   "texto": "Ampliar la vivienda asequible en el medio rural con alquiler para nuevos vecinos, rehabilitación de viviendas vacías y mayor parque público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Vivienda asequible en los pueblos y modernización de regadíos."
+  },
+  {
+   "id": "psoe-edu-07",
+   "area": "educacion",
+   "texto": "Mantener las ayudas al transporte público de los jóvenes, también durante las vacaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 72-73",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023, El Independiente",
+    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Transporte público urbano gratuito para niños y estudiantes de hasta 24 años."
+  },
+  {
+   "id": "psoe-edu-02",
+   "area": "educacion",
+   "texto": "Ratios máximas de 22 alumnos en Primaria y 25 en ESO, y menos horas lectivas docentes de forma gradual hasta 2031-32 (proyecto que decae).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-edu-05",
+   "area": "educacion",
+   "texto": "Destinar el 5% del PIB a educación.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-edu-06",
+   "area": "educacion",
+   "texto": "Nueva regulación más exigente para crear universidades privadas.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Medidas del Gobierno en precampaña, Moncloa.com",
+    "url": "https://www.moncloa.com/2026/10/18/sanchez-decretos-campana-29n-3450823",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-rur-02",
+   "area": "rural",
+   "texto": "Reforzar la autonomía económica de las mujeres rurales, incluida la titularidad compartida de las explotaciones.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 79-81",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Papel de las mujeres como motor del desarrollo rural y pueblos seguros con más seguridad ciudadana."
+  },
+  {
+   "id": "psoe-dem-04",
+   "area": "demografia",
+   "texto": "Profesionalizar los cuidados y subir hasta el SMI el salario del empleo doméstico y de cuidados, incluidos los cuidadores principales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 82",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Impulsar la economía de los cuidados con ayudas directas a las familias más vulnerables."
+  },
+  {
+   "id": "psoe-dem-03",
+   "area": "demografia",
+   "texto": "Ley de usos del tiempo y pacto para racionalizar horarios.",
+   "origen": "programa-2023",
+   "fuente": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
+  },
+  {
+   "id": "psoe-igu-05",
+   "area": "igualdad",
+   "texto": "Reforzar la prohibición de la gestación subrogada y perseguir a los intermediarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 83",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Rechazo a la gestación subrogada."
+  },
+  {
+   "id": "psoe-igu-03",
+   "area": "igualdad",
+   "texto": "Aprobar una nueva Estrategia Estatal contra las violencias machistas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 83",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Renovar el Pacto de Estado contra la violencia de género."
+  },
+  {
+   "id": "psoe-igu-04",
+   "area": "igualdad",
+   "texto": "Aprobar una ley orgánica contra la trata de seres humanos y una ley abolicionista del sistema prostitucional.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 84",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "psoe-igu-07",
+   "area": "igualdad",
+   "texto": "Tipificar como delito específico la creación y difusión de deepfakes sexuales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 85",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-igu-09",
+   "area": "igualdad",
+   "texto": "Crear en el Código Civil la «unión de amistad», un estatus para personas unidas por amistad que se comprometen a cuidarse mutuamente, con prestaciones asociadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90-91",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-igu-01",
+   "area": "igualdad",
+   "texto": "Incluir el derecho al aborto en el artículo 43 de la Constitución.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-igu-02",
+   "area": "igualdad",
+   "texto": "Ley orgánica contra la violencia vicaria.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-igu-06",
+   "area": "igualdad",
+   "texto": "Mantener la ley de paridad de 2024 en política y empresas.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ins-08",
+   "area": "instituciones",
+   "texto": "Bajar la edad de voto a 16 años y reforzar los consejos de juventud y los mecanismos de participación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 91",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ins-07",
+   "area": "instituciones",
+   "texto": "Suprimir los aforamientos por delitos no relacionados con el cargo público.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 91",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ter-02",
+   "area": "territorio",
+   "texto": "Reformar el Senado como cámara territorial, con circunscripciones que coincidan con las comunidades autónomas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Avanzar hacia un Senado territorial y un modelo federal."
+  },
+  {
+   "id": "psoe-ter-04",
+   "area": "territorio",
+   "texto": "Institucionalizar la Conferencia de Presidentes, con reuniones fijas y reglas de seguimiento de los acuerdos, y reforzar las conferencias sectoriales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-ter-05",
+   "area": "territorio",
+   "texto": "Usar las lenguas cooficiales en las Cortes Generales y en los servicios de la Administración del Estado en los territorios donde son oficiales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 92",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
@@ -766,26 +1526,162 @@
    "destacada": true
   },
   {
-   "id": "psoe-ter-02",
-   "area": "territorio",
-   "texto": "Avanzar hacia un Senado territorial y un modelo federal.",
-   "origen": "programa-2023",
+   "id": "psoe-inm-06",
+   "area": "inmigracion",
+   "texto": "Desplegar el Plan de Integración y Ciudadanía 2026-2030 con las administraciones y los agentes sociales, con 500 M€ iniciales.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 93",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-ter-03",
-   "area": "territorio",
-   "texto": "Ley de cohesión territorial y servicios básicos accesibles en un máximo de 30 minutos en el medio rural.",
-   "origen": "programa-2023",
+   "id": "psoe-inm-07",
+   "area": "inmigracion",
+   "texto": "Ampliar las vías legales y seguras de protección, con reasentamiento y visados humanitarios, y reforzar la acogida pública y el asilo con financiación estable.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 93",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-tec-04",
+   "area": "tecnologia",
+   "texto": "Fijar en 16 años la edad mínima para las redes sociales, aprobar en el primer año una ley de protección digital de menores y exigir verificación de edad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 96",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa PSOE 2023",
     "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Regular el acceso de los menores a redes sociales y protegerlos de la pornografía."
+  },
+  {
+   "id": "psoe-tec-01",
+   "area": "tecnologia",
+   "texto": "Dar rango legal a la Carta de Derechos Digitales de 2021 y garantizar atención humana en los servicios públicos, sin decisiones solo automatizadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 96-97",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Agencia Española de Supervisión de la Inteligencia Artificial y ampliación de la Carta de Derechos Digitales."
+  },
+  {
+   "id": "psoe-tec-05",
+   "area": "tecnologia",
+   "texto": "Aprobar una ley de gobernanza de la IA con supervisión humana, etiquetado obligatorio, prohibición de deepfakes no consentidos y protección de los derechos de autoría.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 97",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-tec-06",
+   "area": "tecnologia",
+   "texto": "Dar a la CNMC competencias para aplicar el Reglamento de Servicios Digitales y establecer responsabilidad penal de directivos de plataformas que mantengan contenido ilegal o de odio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 97",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-cul-01",
+   "area": "cultura",
+   "texto": "Completar el Plan de Exhumaciones y el Censo de Víctimas y ampliar el reconocimiento y la reparación.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 99",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "psoe-seg-02",
+   "area": "seguridad",
+   "texto": "Aumentar y redistribuir las plantillas de Policía Nacional y Guardia Civil según población y territorio, con más patrullas rurales y de proximidad y mejor respuesta con las policías locales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 100",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Ampliar las plantillas de Policía Nacional y Guardia Civil y reforzar VioGén y la seguridad rural."
+  },
+  {
+   "id": "psoe-seg-05",
+   "area": "seguridad",
+   "texto": "Aprobar el primer Plan Nacional Integral contra el narcotráfico y reforzar el plan del Campo de Gibraltar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 100",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-seg-03",
+   "area": "seguridad",
+   "texto": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la LO 4/2015, garantice el derecho de reunión e incorpore cámaras corporales con protección de datos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 100",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "psoe-ins-06",
+   "area": "instituciones",
+   "texto": "Fijar un mandato de cinco años para el Fiscal General del Estado y prohibir instrucciones del Gobierno sobre casos concretos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 101",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
@@ -850,81 +1746,87 @@
    "destacada": false
   },
   {
-   "id": "psoe-igu-01",
-   "area": "igualdad",
-   "texto": "Incluir el derecho al aborto en el artículo 43 de la Constitución.",
-   "origen": "accion",
+   "id": "psoe-cul-03",
+   "area": "cultura",
+   "texto": "Aprobar una Ley General de Cultura que garantice los derechos culturales y una financiación estable, y reformar la ley de mecenazgo.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 104",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
   {
-   "id": "psoe-igu-02",
-   "area": "igualdad",
-   "texto": "Ley orgánica contra la violencia vicaria.",
-   "origen": "accion",
+   "id": "psoe-ext-03",
+   "area": "exterior",
+   "texto": "Cerrar la brecha hasta el 0,7% de la renta nacional bruta en ayuda oficial al desarrollo.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 108",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
+   "cambio": "Antes: Ayuda oficial al desarrollo del 0,7% de la renta nacional bruta en 2030."
+  },
+  {
+   "id": "psoe-ext-05",
+   "area": "exterior",
+   "texto": "Impulsar la solución de dos Estados, con sanciones de la UE a quienes la obstaculicen, y apoyar a la Autoridad Palestina y la reconstrucción de Gaza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 110",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
    "destacada": false
   },
   {
-   "id": "psoe-igu-03",
-   "area": "igualdad",
-   "texto": "Renovar el Pacto de Estado contra la violencia de género.",
-   "origen": "programa-2023",
+   "id": "psoe-ext-04",
+   "area": "exterior",
+   "texto": "Reforzar la autonomía económica, industrial y tecnológica de la UE y mantener una relación estratégica con América Latina y el Caribe.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 110-111",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa PSOE 2023",
     "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Autonomía estratégica europea y América Latina como prioridad, apoyando acuerdos con Chile, México y Mercosur."
   },
   {
-   "id": "psoe-igu-04",
-   "area": "igualdad",
-   "texto": "Abolir la prostitución castigando el proxenetismo y aprobar una ley integral contra la trata.",
-   "origen": "programa-2023",
+   "id": "psoe-inm-03",
+   "area": "inmigracion",
+   "texto": "Impulsar una política migratoria europea ordenada que combine la lucha contra las mafias, la gestión eficaz de asilo y fronteras y las vías legales.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 111",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "cambio": "Antes: Reducir las llegadas irregulares, desmantelar mafias en origen y ampliar la migración circular."
   },
   {
-   "id": "psoe-igu-05",
-   "area": "igualdad",
-   "texto": "Rechazo a la gestación subrogada.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-igu-06",
-   "area": "igualdad",
-   "texto": "Mantener la ley de paridad de 2024 en política y empresas.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-seg-01",
-   "area": "seguridad",
-   "texto": "Gasto en defensa del 2,1% del PIB, sin asumir el objetivo del 5% de la OTAN.",
+   "id": "psoe-inm-01",
+   "area": "inmigracion",
+   "texto": "Mantener la regularización extraordinaria de inmigrantes en situación irregular, con 1.174.978 solicitudes hasta junio de 2026.",
    "origen": "accion",
    "fuente": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
@@ -934,50 +1836,70 @@
    "destacada": true
   },
   {
-   "id": "psoe-seg-02",
-   "area": "seguridad",
-   "texto": "Ampliar las plantillas de Policía Nacional y Guardia Civil y reforzar VioGén y la seguridad rural.",
+   "id": "psoe-inm-02",
+   "area": "inmigracion",
+   "texto": "Reparto obligatorio entre comunidades de los menores migrantes no acompañados.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Posiciones del PSOE, TuPapeleta.es",
+    "url": "https://tupapeleta.es/programa-electoral/psoe/",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-inm-04",
+   "area": "inmigracion",
+   "texto": "Nueva ley de nacionalidad.",
    "origen": "programa-2023",
    "fuente": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
-   "id": "psoe-seg-03",
-   "area": "seguridad",
-   "texto": "Reformar la Ley de Seguridad Ciudadana de 2015.",
-   "origen": "declaracion",
+   "id": "psoe-inm-05",
+   "area": "inmigracion",
+   "texto": "45,3 M€ para Ceuta por la atención a menores migrantes.",
+   "origen": "accion",
    "fuente": {
-    "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
+    "nombre": "Medidas del Gobierno en precampaña, Moncloa.com",
+    "url": "https://www.moncloa.com/2026/10/18/sanchez-decretos-campana-29n-3450823",
     "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-seg-04",
-   "area": "seguridad",
-   "texto": "Reforzar la ciberseguridad e impulsar la industria de defensa europea.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
    },
    "destacada": false
   },
   {
    "id": "psoe-ext-01",
    "area": "exterior",
-   "texto": "Seguir apoyando a Ucrania y su ingreso en la UE.",
-   "origen": "programa-2023",
+   "texto": "Respaldar la soberanía de Ucrania desde la acción exterior de la UE.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 111",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
+   },
+   "cambio": "Antes: Seguir apoyando a Ucrania y su ingreso en la UE."
+  },
+  {
+   "id": "psoe-ext-06",
+   "area": "exterior",
+   "texto": "Crear un Mecanismo Soberano Europeo que centralice parte de la emisión de deuda pública para crear un activo europeo seguro, sin aumentar la deuda total.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 112",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
    },
    "destacada": false
   },
@@ -994,172 +1916,64 @@
    "destacada": false
   },
   {
-   "id": "psoe-ext-03",
-   "area": "exterior",
-   "texto": "Ayuda oficial al desarrollo del 0,7% de la renta nacional bruta en 2030.",
-   "origen": "programa-2023",
+   "id": "psoe-cul-02",
+   "area": "cultura",
+   "texto": "Ampliar el Instituto Cervantes e impulsar el español en la ciencia y la inteligencia artificial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 112",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Impulsar la economía de la lengua española y las industrias culturales y creativas."
+  },
+  {
+   "id": "psoe-cul-04",
+   "area": "cultura",
+   "texto": "Impulsar el estatus oficial del catalán, el euskera y el gallego en la UE y su enseñanza mediante cátedras y lectorados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 112",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false
+  },
+  {
+   "id": "psoe-seg-04",
+   "area": "seguridad",
+   "texto": "Reforzar las capacidades de defensa de la UE con inversión más eficiente, compras conjuntas y cooperación industrial.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 113",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "fecha": "2026-11-15"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa PSOE 2023",
+    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Reforzar la ciberseguridad e impulsar la industria de defensa europea."
+  },
+  {
+   "id": "psoe-seg-01",
+   "area": "seguridad",
+   "texto": "Gasto en defensa del 2,1% del PIB, sin asumir el objetivo del 5% de la OTAN.",
+   "origen": "accion",
    "fuente": {
     "nombre": "Resumen de posiciones del PSOE para el 29N, PoliticaElectoral.com",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe",
     "fecha": "2026-10"
    },
-   "destacada": false
-  },
-  {
-   "id": "psoe-ext-04",
-   "area": "exterior",
-   "texto": "Autonomía estratégica europea y América Latina como prioridad, apoyando acuerdos con Chile, México y Mercosur.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-rur-01",
-   "area": "rural",
-   "texto": "Vivienda asequible en los pueblos y modernización de regadíos.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-rur-02",
-   "area": "rural",
-   "texto": "Papel de las mujeres como motor del desarrollo rural y pueblos seguros con más seguridad ciudadana.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-cul-01",
-   "area": "cultura",
-   "texto": "Memoria democrática como política de Estado.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-cul-02",
-   "area": "cultura",
-   "texto": "Impulsar la economía de la lengua española y las industrias culturales y creativas.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-tec-01",
-   "area": "tecnologia",
-   "texto": "Agencia Española de Supervisión de la Inteligencia Artificial y ampliación de la Carta de Derechos Digitales.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-tec-02",
-   "area": "tecnologia",
-   "texto": "Proyectos estratégicos en semiconductores (PERTE Chip), computación cuántica e IA.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-tec-03",
-   "area": "tecnologia",
-   "texto": "Conectividad ultrarrápida en el 100% del territorio y despliegue de 5G y 6G.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-tec-04",
-   "area": "tecnologia",
-   "texto": "Regular el acceso de los menores a redes sociales y protegerlos de la pornografía.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-dem-01",
-   "area": "demografia",
-   "texto": "Ampliar el permiso por nacimiento de 16 a 20 semanas, con opción de disfrutarlo a tiempo parcial.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023, El Independiente",
-    "url": "https://www.elindependiente.com/espana/2023/07/07/el-psoe-promete-universidad-gratis-para-los-que-aprueben-a-la-primera-y-que-ninos-y-estudiantes-no-paguen-transporte/amp/",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-dem-02",
-   "area": "demografia",
-   "texto": "Aumentar en el IRPF los incentivos por hijo y por dependencia.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-dem-03",
-   "area": "demografia",
-   "texto": "Ley de usos del tiempo y pacto para racionalizar horarios.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "psoe-dem-04",
-   "area": "demografia",
-   "texto": "Impulsar la economía de los cuidados con ayudas directas a las familias más vulnerables.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa PSOE 2023",
-    "url": "https://static.poder360.com.br/2023/07/programa_psoe.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": true
   }
  ],
  "criticas": {
@@ -1191,7 +2005,7 @@
    },
    {
     "titulo": "Gasto en pensiones y equidad entre generaciones",
-    "texto": "Fedea estima que, con la reforma de 2021-23 (revalorización con el IPC y MEI), el gasto en pensiones superará el 18% del PIB hacia 2050, con un aumento de unos 5 puntos frente a los menos de 2,5 que calcula el Ministerio. Según el estudio, la reforma beneficia a los ya jubilados a costa de las cohortes jóvenes y debería revisarse.",
+    "texto": "Fedea estima que, con la reforma de 2021-23 (revalorización con el IPC y MEI), el gasto en pensiones superará el 18% del PIB hacia 2050, con un aumento de unos 5 puntos frente a los menos de 2,5 que calcula el Ministerio. Según el estudio, la reforma beneficia a los ya jubilados a costa de las cohortes jóvenes y debería revisarse. El programa propone además llevar a la Constitución la revalorización anual con el IPC y converger las pensiones mínimas hacia los estándares de renta del conjunto de la sociedad, lo que elevaría ese gasto.",
     "sobre": [
      "psoe-pen-01",
      "psoe-pen-03",
@@ -1200,7 +2014,8 @@
     "fuente": {
      "nombre": "Fedea, «Los efectos de la reforma de pensiones de 2021-23» (Sánchez, De la Fuente y García, 2025)",
      "url": "https://fedea.net/el-impacto-de-la-reforma-de-pensiones-de-2021-23/"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Condonación y nueva financiación: incentivos y coste para el Estado",
@@ -1265,7 +2080,7 @@
    },
    {
     "titulo": "Reducción de jornada por ley y pymes",
-    "texto": "Jesús Lahera y José Ignacio Conde-Ruiz (Fedea) consideran que la reducción de la jornada legal planteada es rígida, sin periodo transitorio y con poco espacio para la negociación colectiva. Señalan que pesa más sobre las pymes y los sectores intensivos en mano de obra, y proponen 19 enmiendas para flexibilizarla.",
+    "texto": "Jesús Lahera y José Ignacio Conde-Ruiz (Fedea) consideraron que el proyecto de ley de 37,5 horas era rígido, sin periodo transitorio y con poco espacio para la negociación colectiva, y que pesaba más sobre las pymes y los sectores intensivos en mano de obra. El programa propone ahora completar esa reducción con plazos transitorios para pymes y avanzar hacia las 35 horas por la negociación colectiva, lo que responde en parte a esas objeciones, aunque no concreta los plazos.",
     "sobre": [
      "psoe-emp-03",
      "psoe-emp-04"
@@ -1273,7 +2088,8 @@
     "fuente": {
      "nombre": "Fedea, «Cómo mejorar el Proyecto de Ley sobre Reducción de Jornada» (Lahera y Conde-Ruiz, 2025)",
      "url": "https://fedea.net/como-mejorar-el-proyecto-de-ley-sobre-reduccion-de-jornada-registro-horario-y-desconexion-digital/"
-    }
+    },
+    "revisado": "2026-11-21"
    }
   ],
   "cultural": [
@@ -1290,15 +2106,15 @@
    },
    {
     "titulo": "Asimetría territorial e igualdad entre ciudadanos",
-    "texto": "Los críticos del nuevo modelo y del avance hacia un modelo federal sostienen que acuerdos negociados con socios concretos rompen la igualdad entre territorios. Fedea calcula que Cataluña sería la comunidad más beneficiada, con 507 € por habitante ajustado, mientras Cantabria, La Rioja, Extremadura y Castilla y León no ganarían nada.",
+    "texto": "Los críticos del nuevo modelo de financiación sostienen que acuerdos negociados con socios concretos rompen la igualdad entre territorios. Fedea calcula que Cataluña sería la comunidad más beneficiada, con 507 € por habitante ajustado, mientras Cantabria, La Rioja, Extremadura y Castilla y León no ganarían nada.",
     "sobre": [
-     "psoe-ter-01",
-     "psoe-ter-02"
+     "psoe-ter-01"
     ],
     "fuente": {
      "nombre": "Fedea, «La propuesta del Gobierno para la reforma de la financiación autonómica» (A. de la Fuente, 2026)",
      "url": "https://fedea.net/la-propuesta-del-gobierno-para-la-reforma-de-la-financiacion-autonomica/"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Aborto en la Constitución",
@@ -1310,7 +2126,7 @@
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-21",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
@@ -1320,5 +2136,12 @@
   "nombre": "Civio, candidaturas proclamadas al 29N (BOE 3/11/2026)",
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
+ },
+ "programa_2026": {
+  "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+  "fecha_publicacion": "2026-11-15",
+  "paginas": 114,
+  "incorporado": "2026-11-21",
+  "copia_leida": "https://lafuerzadelagente.es/programa/PROGRAMA_PSOE_29N26.pdf (copia en la web de campaña del PSOE; el PDF de psoe.es no es accesible para WebFetch)"
  }
 }

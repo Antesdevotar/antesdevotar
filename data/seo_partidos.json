@@ -792,7 +792,7 @@
     ]
   },
   "podemos": {
-    "resumen": "Podemos es un partido de izquierda. Se presenta el 29N en 41 circunscripciones. Irene Montero es la candidata. No consta programa 2026 publicado; las propuestas proceden de sus declaraciones.",
+    "resumen": "Podemos es un partido de izquierda. Se presenta el 29N en 41 circunscripciones. Irene Montero es la candidata. Tiene programa 2026 publicado.",
     "faq": [
       {
         "q": "¿Se presenta Podemos a las elecciones del 29N?",
@@ -808,19 +808,19 @@
       },
       {
         "q": "¿Ha publicado Podemos su programa electoral 2026?",
-        "a": "No consta. A fecha de la última revisión de esta ficha, Podemos no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de sus declaraciones."
+        "a": "Sí. Es su programa «Así de básico: paz, casa y trabajo», de 141 páginas, publicado el 17-11-2026."
       },
       {
         "q": "¿Qué propone Podemos sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda (declaraciones): Bajar por ley un 40% los alquileres en contratos renovados o prorrogados y fijar los nuevos en el 60% del índice de referencia. Prohibir los pisos turísticos y sancionar el fraude del alquiler de temporada."
+        "a": "Entre sus propuestas sobre vivienda (programa 2026): Reducción extraordinaria del 40% del alquiler por ley, con un suelo del 60% del precio medio de la zona. Contratos de alquiler indefinidos por defecto."
       },
       {
         "q": "¿Qué propone Podemos sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades. Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2026): Extender el Impuesto a las Grandes Fortunas a todos los obligados del Impuesto sobre el Patrimonio y fijar un tipo efectivo mínimo del 19% en el Impuesto de Sociedades. Impuesto permanente a la banca de al menos el 50% de sus beneficios extraordinarios y recuperar los beneficios extra de eléctricas y petroleras."
       },
       {
         "q": "¿Qué propone Podemos sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración (declaraciones): Regularizar a quienes viven y trabajan en España y conceder la nacionalidad por carta de naturaleza con derecho a voto. Derogar la Ley de Extranjería y cerrar los Centros de Internamiento de Extranjeros."
+        "a": "Entre sus propuestas sobre inmigración (programa 2026): Oponerse al Pacto de Migración y Asilo, abolir Frontex y crear un sistema público europeo de búsqueda y salvamento marítimo. Vías legales y seguras de entrada, con visado de búsqueda de empleo y mayor flexibilidad en reagrupación y arraigo."
       }
     ]
   },
@@ -891,7 +891,7 @@
     ]
   },
   "psoe": {
-    "resumen": "El PSOE es un partido de centroizquierda socialdemócrata. Se presenta el 29N en todas las circunscripciones. Pedro Sánchez es el candidato. No consta programa 2026 publicado; las propuestas proceden de su programa de 2023 y sus actuaciones.",
+    "resumen": "El PSOE es un partido de centroizquierda socialdemócrata. Se presenta el 29N en todas las circunscripciones. Pedro Sánchez es el candidato. Tiene programa 2026 publicado.",
     "faq": [
       {
         "q": "¿Se presenta el PSOE a las elecciones del 29N?",
@@ -907,19 +907,19 @@
       },
       {
         "q": "¿Ha publicado el PSOE su programa electoral 2026?",
-        "a": "No consta. A fecha de la última revisión de esta ficha, el PSOE no ha publicado programa electoral para el 29N; las propuestas recogidas proceden de su programa de 2023 y sus actuaciones."
+        "a": "Sí. Es su programa «La fuerza de seguir avanzando», de 114 páginas y 500 medidas, presentado el 15-11-2026."
       },
       {
         "q": "¿Qué propone el PSOE sobre vivienda?",
-        "a": "Entre sus propuestas sobre vivienda (actuaciones): Programa TU CASA: préstamos ICO al 0% de hasta el 20% del precio (máx. 50.000 €) para la primera vivienda, con 10.000 M€ y carencia hasta el fin de la hipoteca. Prórroga extraordinaria de hasta dos años de los contratos de alquiler que venzan antes de finales de 2028, para inquilinos al corriente de pago."
+        "a": "Entre sus propuestas sobre vivienda (programa 2026): Reformar la Constitución para que la vivienda sea un derecho fundamental exigible ante los poderes públicos. Movilizar cada año el 1% del PIB para el acceso a la vivienda, con evaluación periódica de objetivos y aportación de las administraciones y del ICO."
       },
       {
         "q": "¿Qué propone el PSOE sobre economía e impuestos?",
-        "a": "Entre sus propuestas sobre economía e impuestos (declaraciones): Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales. Obligar por ley a las grandes empresas a repartir parte de sus beneficios con sus plantillas."
+        "a": "Entre sus propuestas sobre economía e impuestos (programa 2026): Crear el Fondo España Crece para movilizar 120.000 M€ y sostener la modernización más allá de los fondos europeos. Aprobar una Ley de Industria y Autonomía Estratégica y apoyar la industria limpia con nuevos concursos de acceso a red para renovables, hidrógeno, almacenamiento y economía circular."
       },
       {
         "q": "¿Qué propone el PSOE sobre inmigración?",
-        "a": "Entre sus propuestas sobre inmigración (actuaciones): Mantener la regularización extraordinaria de inmigrantes en situación irregular, con 1.174.978 solicitudes hasta junio de 2026. Reparto obligatorio entre comunidades de los menores migrantes no acompañados."
+        "a": "Entre sus propuestas sobre inmigración (programa 2026): Desplegar el Plan de Integración y Ciudadanía 2026-2030 con las administraciones y los agentes sociales, con 500 M€ iniciales. Ampliar las vías legales y seguras de protección, con reasentamiento y visados humanitarios, y reforzar la acogida pública y el asilo con financiación estable."
       }
     ]
   },

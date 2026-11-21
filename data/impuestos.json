@@ -586,43 +586,53 @@
   "podemos": [
    {
     "cat": "irpf",
+    "ref": "podemos-eco-07",
+    "texto": "Nuevos tramos del IRPF: 23% entre 60.000 y 99.000 euros, hasta el 28,5% a partir de 500.000 euros."
+   },
+   {
+    "cat": "irpf",
     "ref": "podemos-eco-03",
-    "texto": "Igualar la tributación en el IRPF de las rentas del capital y del trabajo."
+    "texto": "Equiparar en una legislatura los tipos del IRPF del capital y del trabajo."
+   },
+   {
+    "cat": "irpf",
+    "ref": "podemos-eco-10",
+    "texto": "Derogar la Ley Beckham, que permite seis años de tributación reducida."
    },
    {
     "cat": "patrimonio",
     "ref": "podemos-eco-01",
-    "texto": "Impuesto a los grandes patrimonios y tipo mínimo efectivo en el Impuesto de Sociedades."
-   },
-   {
-    "cat": "vivienda",
-    "ref": "podemos-viv-06",
-    "texto": "Impuesto de 20 puntos sobre la venta de viviendas compradas en los dos años anteriores."
+    "texto": "Extender el Impuesto a las Grandes Fortunas a todos los obligados del Impuesto sobre el Patrimonio y fijar un tipo efectivo mínimo del 19% en el Impuesto de Sociedades."
    },
    {
     "cat": "vivienda",
     "ref": "podemos-viv-07",
-    "texto": "Impuesto a las viviendas vacías y número máximo de viviendas por propietario."
+    "texto": "Impuesto estatal a las viviendas vacías igual al IBI con recargo y tramos del IBI según el número de viviendas del propietario."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "podemos-viv-06",
+    "texto": "Gravamen sobre las ganancias por la venta de inmuebles adquiridos en los dos ejercicios fiscales anteriores."
    },
    {
     "cat": "otros",
     "ref": "podemos-eco-02",
-    "texto": "Gravamen del 50% sobre los beneficios extraordinarios de las empresas del IBEX y tributos adicionales a banca y energéticas."
+    "texto": "Impuesto permanente a la banca de al menos el 50% de sus beneficios extraordinarios y recuperar los beneficios extra de eléctricas y petroleras."
    },
    {
     "cat": "otros",
     "ref": "podemos-eco-04",
-    "texto": "Impuestos al lujo (jets privados, yates, coches de alta cilindrada) y más personal en la Agencia Tributaria; no subir impuestos a trabajadores, autónomos ni pymes."
+    "texto": "Recargos sobre la matriculación y el uso de jets privados, grandes barcos de recreo y coches de alta cilindrada que usen combustibles fósiles."
+   },
+   {
+    "cat": "otros",
+    "ref": "podemos-eco-11",
+    "texto": "Aumentar los efectivos de la Agencia Tributaria hasta la media europea."
    },
    {
     "cat": "otros",
     "ref": "podemos-edu-04",
-    "texto": "Escuela pública laica, fin del Concordato y de los beneficios fiscales de la Iglesia."
-   },
-   {
-    "cat": "otros",
-    "ref": "podemos-ter-02",
-    "texto": "Reconocer una «ultraperiferia demográfica interior» con fiscalidad propia para zonas despobladas."
+    "texto": "Denunciar el Concordato con la Santa Sede, eliminar la exención del IBI de la Iglesia católica y suprimir la asignatura de religión."
    }
   ],
   "pp": [
@@ -751,13 +761,33 @@
   "psoe": [
    {
     "cat": "irpf",
-    "ref": "psoe-eco-01",
-    "texto": "Tipo del 50% en el IRPF para rentas superiores a 300.000 € anuales."
+    "ref": "psoe-eco-10",
+    "texto": "Mantener los dos primeros tramos de las rentas del capital (19% hasta 6.000 € y 21% hasta 50.000 €) y subir los superiores de forma progresiva hasta el 35% por encima de 300.000 €."
+   },
+   {
+    "cat": "irpf",
+    "ref": "psoe-eco-12",
+    "texto": "Crear un mecanismo que active una deducción estatal en el IRPF cuando suban los precios, progresiva y favorable a rentas medias y bajas."
    },
    {
     "cat": "irpf",
     "ref": "psoe-dem-02",
-    "texto": "Aumentar en el IRPF los incentivos por hijo y por dependencia."
+    "texto": "Convertir el mínimo por descendientes del IRPF en deducción reembolsable, que alcanzaría a unos 2 millones de hogares de rentas bajas y medias."
+   },
+   {
+    "cat": "sociedades",
+    "ref": "psoe-eco-11",
+    "texto": "Ley de Salarios Justos: más impuesto de sociedades a las cotizadas cuya ratio entre el mayor sueldo directivo y el salario mediano supere 100 a 1, con un tramo superior por encima de 200 a 1."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "psoe-dem-05",
+    "texto": "Prestación estatal por crianza para hogares con menores, con diseño redistributivo y más protección a familias de renta baja, financiada con nuevos impuestos a grandes fortunas y rentas del capital."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "psoe-pen-07",
+    "texto": "Completar durante la próxima legislatura la cuota de solidaridad y acordar en el Pacto de Toledo nuevas fuentes de financiación de la Seguridad Social."
    },
    {
     "cat": "vivienda",
@@ -781,18 +811,13 @@
    },
    {
     "cat": "vivienda",
-    "ref": "psoe-viv-14",
-    "texto": "Cuenta de ahorro con ventajas fiscales para la primera vivienda de jóvenes de hasta 39 años, con hasta 30.000 € libres de tributación."
+    "ref": "psoe-viv-18",
+    "texto": "Gravar los solares residenciales ociosos para movilizar suelo para vivienda."
    },
    {
-    "cat": "otros",
-    "ref": "psoe-eco-03",
-    "texto": "Reducir el déficit estructural y combatir el fraude y la economía sumergida sin subir los impuestos con carácter general."
-   },
-   {
-    "cat": "otros",
-    "ref": "psoe-eco-04",
-    "texto": "Pacto de Estado contra el Fraude Fiscal y mejor fiscalidad para autónomos y pymes."
+    "cat": "vivienda",
+    "ref": "psoe-viv-19",
+    "texto": "Crear un impuesto progresivo sobre el patrimonio inmobiliario de grandes propietarios y fondos especulativos que no destinen las viviendas a alquiler asequible."
    },
    {
     "cat": "otros",
