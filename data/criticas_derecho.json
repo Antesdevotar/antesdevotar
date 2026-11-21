@@ -293,7 +293,7 @@
    ]
   },
   "sumar": {
-   "valoracion": "Preocupaciones puntuales en independencia judicial y del Ministerio Fiscal: la instrucción por fiscales sin un fiscal general autónomo, y un modelo de CGPJ por debajo del estándar europeo.",
+   "valoracion": "Preocupaciones puntuales en independencia judicial: elegir el CGPJ por mayoría absoluta cuando no haya acuerdo en dos meses lo dejaría en manos de la mayoría de gobierno, por debajo del estándar europeo.",
    "criticas": [
     {
      "titulo": "Instrucción penal por fiscales sin autonomía reforzada",
@@ -306,20 +306,23 @@
      "fuente": {
       "nombre": "Informe sobre el Estado de Derecho 2026 (Moncloa.com)",
       "url": "https://www.moncloa.com/2026/07/19/informe-estado-derecho-2026-bruselas-espana-3402351/"
-     }
+     },
+     "estado": "obsoleta",
+     "revisado": "2026-11-21"
     },
     {
-     "titulo": "CGPJ con elección parlamentaria de vocales judiciales",
-     "texto": "Proponer que «al menos 10 de 20» vocales sean candidatos avalados por jueces, con elección final parlamentaria, no alcanza el estándar europeo. La Comisión de Venecia exige que la mayoría de los vocales judiciales los elijan los propios jueces, y considera insuficiente que el Parlamento elija a partir de una lista de jueces. El cese automático al caducar el mandato, en cambio, ayudaría a evitar bloqueos.",
+     "titulo": "CGPJ elegido por mayoría absoluta si no hay acuerdo",
+     "texto": "Bajar a mayoría absoluta, en segunda votación, la elección de los vocales cuando no haya acuerdo en dos meses evitaría los bloqueos, pero dejaría la composición del CGPJ en manos de la mayoría de gobierno. La Comisión de Venecia pide que la mayoría de los vocales judiciales los elijan los propios jueces.",
      "gravedad": "media",
-     "criterio": "Art. 122.3 CE; CDL-AD(2025)038; Informe sobre el Estado de Derecho 2026",
+     "criterio": "Art. 122.3 CE; CDL-AD(2025)038; GRECO; Informe sobre el Estado de Derecho 2026",
      "sobre": [
       "sumar-ins-03"
      ],
      "fuente": {
       "nombre": "Comisión de Venecia, CDL-AD(2025)038",
       "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2025-038-e"
-     }
+     },
+     "revisado": "2026-11-21"
     }
    ],
    "avales": []

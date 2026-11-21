@@ -250,7 +250,7 @@
       "nombre": "Convalidación de los decretos de vivienda, Congreso, octubre de 2026 (Diario de Avisos)",
       "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/"
      },
-     "nota": "Propone un precio de referencia ligado al 30% de la renta. Votó a favor de los decretos de 2026."
+     "nota": "Propone limitar el alquiler en zonas tensionadas al menor entre el 25% de la renta media del hogar y el índice de referencia. Votó a favor de los decretos de 2026."
     },
     "upc": {
      "valor": 1,
@@ -719,7 +719,7 @@
       "sumar-viv-02"
      ],
      "fuente": null,
-     "nota": "Propone prohibir a empresas y fondos comprar vivienda que no sea para uso residencial."
+     "nota": "Propone prohibir la compra de vivienda residencial a empresas con ánimo de lucro, salvo para residencia o alquiler asequible."
     },
     "upc": {
      "valor": null,
@@ -942,7 +942,7 @@
       "sumar-emp-02"
      ],
      "fuente": null,
-     "nota": "Impulsó la ley de 37,5 horas y propone avanzar a 32."
+     "nota": "Impulsó la ley de 37,5 horas y propone llegar a 32 horas sin reducción salarial."
     },
     "upc": {
      "valor": null,
@@ -1158,13 +1158,13 @@
      "nota": "Propone IRPF del 0% por debajo de 35.000 € al año."
     },
     "sumar": {
-     "valor": -1,
+     "valor": 0,
      "ref": [
-      "sumar-eco-04",
-      "sumar-eco-05"
+      "sumar-eco-17",
+      "sumar-eco-04"
      ],
      "fuente": null,
-     "nota": "Propone subir el tipo máximo al 52% y un mínimo del 30% a rentas del ahorro altas."
+     "nota": "Propone bajar el IRPF de las rentas del trabajo hasta 27.000 € y subir el tipo marginal hasta el 52% desde 300.000 €."
     },
     "upc": {
      "valor": null,
@@ -1379,10 +1379,11 @@
     "sumar": {
      "valor": 1,
      "ref": [
-      "sumar-eco-01"
+      "sumar-eco-01",
+      "sumar-eco-13"
      ],
      "fuente": null,
-     "nota": "Propone un impuesto permanente a grandes fortunas de al menos el 4%."
+     "nota": "Propone un tipo mínimo del 2% para patrimonios de más de 1 millón de euros y una tasa del 3% sobre los de más de 50 millones."
     },
     "upc": {
      "valor": null,
@@ -1606,10 +1607,11 @@
     "sumar": {
      "valor": -1,
      "ref": [
+      "sumar-eco-14",
       "sumar-eco-07"
      ],
      "fuente": null,
-     "nota": "Propone un impuesto estatal sobre herencias de más de 1 millón de euros."
+     "nota": "Propone un impuesto estatal sobre las herencias de más de 1 millón de euros por beneficiario."
     },
     "upc": {
      "valor": null,
@@ -2474,7 +2476,7 @@
       "sumar-inm-02"
      ],
      "fuente": null,
-     "nota": "Impulsó la regularización de 2026 y propone un mecanismo permanente."
+     "nota": "Impulsó la regularización de 2026 y propone un procedimiento permanente de regularización."
     },
     "upc": {
      "valor": null,
@@ -3113,12 +3115,12 @@
      "nota": "Sin posición documentada"
     },
     "sumar": {
-     "valor": 0,
+     "valor": 1,
      "ref": [
       "sumar-ter-03"
      ],
      "fuente": null,
-     "nota": "Propone para Cataluña un acuerdo pactado que se someta a votación de los catalanes."
+     "nota": "Propone incluir el «derecho a decidir» mediante referéndum."
     },
     "upc": {
      "valor": null,
@@ -3340,7 +3342,7 @@
       "sumar-ter-01"
      ],
      "fuente": null,
-     "nota": "Defiende un Estado plurinacional y un nuevo pacto territorial."
+     "nota": "Propone avanzar hacia un Estado republicano federal y plurinacional."
     },
     "upc": {
      "valor": null,
@@ -3777,7 +3779,7 @@
       "nombre": "Proposición de Vox para que los jueces elijan a los vocales judiciales del CGPJ, Congreso, 27-2-2024: 170 a favor, 176 en contra (El Observador/EFE)",
       "url": "https://www.elobservador.com.uy/espana/el-congreso-rechaza-que-los-jueces-puedan-elegir-la-mayoria-de-los-vocales-del-poder-judicial-2024227194732"
      },
-     "nota": "Votó en contra y defendió la elección parlamentaria (27-2-2024); propone que parte de los candidatos estén avalados por jueces."
+     "nota": "Votó en contra y defendió la elección parlamentaria (27-2-2024); propone elegir el CGPJ por mayoría absoluta si no hay acuerdo en dos meses."
     },
     "upc": {
      "valor": null,
@@ -4435,13 +4437,14 @@
     "sumar": {
      "valor": 1,
      "ref": [
+      "sumar-ins-05",
       "sumar-ins-01"
      ],
      "fuente": {
       "nombre": "Toma en consideración de la reforma de la Ley de Seguridad Ciudadana, Congreso, 29-10-2024 (Onda Vasca)",
       "url": "https://www.ondavasca.com/la-reforma-de-la-ley-mordaza-da-el-primer-paso-en-el-congreso/"
      },
-     "nota": "Propone reformarla y prohibir las pelotas de goma."
+     "nota": "Propone derogarla por completo; votó a favor de tramitar la reforma."
     },
     "upc": {
      "valor": null,
@@ -4656,7 +4659,7 @@
      "nota": "Sin posición documentada"
     },
     "sumar": {
-     "valor": -1,
+     "valor": 0,
      "ref": [
       "sumar-seg-01"
      ],
@@ -4664,7 +4667,7 @@
       "nombre": "Reacciones de los socios del Gobierno al gasto militar del 2,1%, 23-6-2025 (RTVC)",
       "url": "https://rtvc.es/socios-sanchez-asumen-gasto-militar-evitar-5-23-junio-2025/"
      },
-     "nota": "Rechaza aumentar el gasto militar."
+     "nota": "Rechaza el objetivo del 5% del PIB de la OTAN; su programa no fija otro nivel de gasto."
     },
     "upc": {
      "valor": null,
@@ -5529,7 +5532,7 @@
       "nombre": "PNL del PP contra el calendario de cierre nuclear, Congreso, febrero de 2025: 171 a favor, 164 en contra, 14 abstenciones (Energías Renovables)",
       "url": "https://www.energias-renovables.com/panorama/psoe-y-sumar-podr-an-haber-evitado-20251113"
      },
-     "nota": "Propone cerrarlas todas en 2035; votó en contra."
+     "nota": "Propone cerrar Almaraz I y II en 2027-2028; votó en contra."
     },
     "upc": {
      "valor": null,
@@ -5768,7 +5771,7 @@
       "sumar-ene-04"
      ],
      "fuente": null,
-     "nota": "Propone crearla con las hidroeléctricas cuyas concesiones venzan."
+     "nota": "Propone crear una comercializadora pública de referencia y recuperar la titularidad pública de las redes de distribución eléctrica."
     },
     "upc": {
      "valor": null,

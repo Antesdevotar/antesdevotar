@@ -8,8 +8,18 @@
  "color": "#E34234",
  "web": "https://frenteamplio.info",
  "escanos_2023": 31,
- "resumen": "Propone crear un impuesto permanente a las grandes fortunas, invertir el 1 % del PIB en dos millones de viviendas públicas de alquiler y priorizar la gestión pública directa del SNS. Fuente: programa 2023 y actuaciones.",
+ "resumen": "Propone fijar un tipo mínimo del 20% en Sociedades a los grandes grupos, destinar el 1% del PIB anual a vivienda pública e invertir el 3,5% del PIB anual en transición ecológica. Fuente: programa 2026.",
  "fuentes_programa": [
+  {
+   "titulo": "Programa electoral del Frente Amplio para el 29N (PDF, más de 1.000 medidas)",
+   "url": "https://frenteamplio.info/programa/",
+   "fecha": "2026-11-16"
+  },
+  {
+   "titulo": "Copia del programa del Frente Amplio publicada por Demócrata (PDF; es la copia leída)",
+   "url": "https://www.democrata.es/uploads/s1/35/42/91/4/programafrenteamplio.pdf",
+   "fecha": "2026-11-16"
+  },
   {
    "titulo": "Programa electoral de Sumar, generales 2023",
    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
@@ -21,79 +31,674 @@
    "fecha": "2026-10"
   }
  ],
- "programa_2026_publicado": false,
+ "programa_2026_publicado": true,
  "propuestas": [
   {
-   "id": "sumar-eco-01",
-   "area": "economia",
-   "texto": "Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos.",
+   "id": "sumar-viv-01",
+   "area": "vivienda",
+   "texto": "Asignación permanente del 1% del PIB anual (unos 17.000 M€) al parque público de vivienda, hasta 1,5 millones de viviendas en 12 años.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Invertir el 1% del PIB durante diez años para crear dos millones de viviendas públicas de alquiler asequible."
+  },
+  {
+   "id": "sumar-viv-09",
+   "area": "vivienda",
+   "texto": "Expropiación por fases de tenedores corporativos: más de 1.000 viviendas en la primera fase, más de 700 en la segunda y más de 50 inmuebles en la tercera.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 13",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-02",
+   "area": "vivienda",
+   "texto": "Prohibir la compra de vivienda residencial por personas jurídicas con ánimo de lucro, salvo para residencia o alquiler asequible.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Propuesta de Sumar sobre compra de vivienda",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-05"
+   }
+  },
+  {
+   "id": "sumar-viv-10",
+   "area": "vivienda",
+   "texto": "Extinguir en tres años las licencias de pisos turísticos y alquileres de temporada fraudulentos en zonas tensionadas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-05",
+   "area": "vivienda",
+   "texto": "Pisos turísticos con IVA general del 21% y sin deducciones en Sociedades e IRPF; eliminar la bonificación del 40% del alquiler no asequible en Sociedades.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 14, 49",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Recargo en el Impuesto de Sociedades a los fondos que alquilen por encima del precio de referencia o destinen viviendas a uso turístico."
+  },
+  {
+   "id": "sumar-viv-04",
+   "area": "vivienda",
+   "texto": "Limitar el alquiler en zonas tensionadas al menor entre el 25% de la renta neta media del hogar de la sección censal y el límite del índice SERPAVI.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 16",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Fijar en zonas tensionadas un precio de referencia del alquiler equivalente al 30% de la renta de los hogares que alquilan."
+  },
+  {
+   "id": "sumar-viv-03",
+   "area": "vivienda",
+   "texto": "Prorrogar los contratos de alquiler hasta 2028, renovación automática y suspender los desahucios de hogares vulnerables hasta 2030 (decretos de octubre de 2026).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Decretos de vivienda del Gobierno",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-06",
+   "area": "vivienda",
+   "texto": "Obligar a los grandes tenedores a ofrecer un contrato de alquiler social de al menos 7 años antes de un desahucio.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Alquiler social obligatorio para los grandes tenedores y límites al alquiler turístico."
+  },
+  {
+   "id": "sumar-viv-11",
+   "area": "vivienda",
+   "texto": "Escudo hipotecario: deducción de hasta 300 € al mes para hogares con ingresos inferiores a 3 IPREM cuya cuota supere el 40% de sus ingresos netos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-08",
+   "area": "vivienda",
+   "texto": "Hipoteca pública a tipo fijo de oferta obligatoria en todas las entidades bancarias y regulación de la dación en pago.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 18",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 4-5",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Portabilidad obligatoria de las hipotecas de tipo variable a tipo fijo."
+  },
+  {
+   "id": "sumar-viv-07",
+   "area": "vivienda",
+   "texto": "Rehabilitar 2,5 millones de viviendas de familias vulnerables en 10 años (250.000 al año), con subsidio del 80% al 95% del coste.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 19",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Rehabilitar 500.000 viviendas al año para reducir a la mitad su demanda energética."
+  },
+  {
+   "id": "sumar-viv-12",
+   "area": "vivienda",
+   "texto": "Derogar de forma inmediata el régimen fiscal especial de SOCIMI y EDAV, con tipo mínimo real del 20%.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-14",
+   "area": "vivienda",
+   "texto": "Recargo del 100% en la compra de vivienda no habitual por no residentes y extracomunitarios.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 21",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-viv-13",
+   "area": "vivienda",
+   "texto": "Reformar el artículo 47 de la Constitución para que el derecho a la vivienda sea fundamental, con recurso de amparo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 22",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-dem-01",
+   "area": "demografia",
+   "texto": "Prestación universal por crianza de 200 € al mes por menor de 18 años, implantada en tres fases durante la legislatura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-edu-04",
+   "area": "educacion",
+   "texto": "Comedor escolar gratuito y universal en Infantil y Primaria de la red pública y reducción de precios universitarios hacia la gratuidad.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 25, 37",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-igu-05",
+   "area": "igualdad",
+   "texto": "Herencia universal de 20.000 € a los 23 años.",
    "origen": "programa-2023",
    "fuente": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": true
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
-   "id": "sumar-eco-02",
-   "area": "economia",
-   "texto": "Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones.",
-   "origen": "programa-2023",
+   "id": "sumar-pen-04",
+   "area": "pensiones",
+   "texto": "Elevar la inversión en dependencia del 0,8% al 1,7% del PIB en 2030.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
+    "nombre": "Programa electoral 29N, p. 27",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Que el Estado financie hasta el 50% del sistema de dependencia."
+  },
+  {
+   "id": "sumar-igu-01",
+   "area": "igualdad",
+   "texto": "Permiso por nacimiento de 19 semanas por progenitor y 32 en familias monoparentales, retribuido al 100% (RDL 9/2025).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Real Decreto-ley 9/2025",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2025-07"
    },
    "destacada": false
   },
   {
-   "id": "sumar-eco-03",
-   "area": "economia",
-   "texto": "Mantener los gravámenes extraordinarios a energéticas y entidades financieras.",
-   "origen": "programa-2023",
+   "id": "sumar-edu-03",
+   "area": "educacion",
+   "texto": "Integrar plenamente el primer ciclo de Educación Infantil en el sistema educativo, dentro de la gratuidad de 0 años a la universidad.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 29",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5-6",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Educación infantil de 0 a 3 años pública y gratuita, con cobertura del 90%."
+  },
+  {
+   "id": "sumar-dem-02",
+   "area": "demografia",
+   "texto": "Permiso retribuido de 10 días hábiles por fallecimiento de familiares hasta segundo grado y de hasta 15 días para acompañar a un familiar en cuidados paliativos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 29",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5, 19",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Permiso retribuido de 5 días para el cuidado de familiares y permiso para acompañar a los hijos al médico."
+  },
+  {
+   "id": "sumar-san-02",
+   "area": "sanidad",
+   "texto": "Gasto sanitario público del 8% del PIB estatal, comprometido desde los Presupuestos Generales del Estado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Aumentar el gasto sanitario público medio punto del PIB cada año."
+  },
+  {
+   "id": "sumar-san-01",
+   "area": "sanidad",
+   "texto": "Ley de Gestión Pública e Integridad del SNS: derogar la Ley 15/1997 y priorizar la gestión pública directa (aprobada por el Consejo de Ministros el 12-5-2026; decayó).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Anteproyecto de Ley de Gestión Pública del SNS",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-05"
+   },
+   "destacada": true
+  },
+  {
+   "id": "sumar-san-07",
+   "area": "sanidad",
+   "texto": "Destinar el 25% del presupuesto sanitario a Atención Primaria.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 30",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-san-03",
+   "area": "sanidad",
+   "texto": "Ampliar la cartera pública: bucodental para al menos el 50% de la población, gafas y lentillas gratuitas (Plan Veo) y audífonos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 31",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Incluir en la sanidad pública la salud bucodental, la óptica, las audioprótesis, la psicoterapia y la fisioterapia."
+  },
+  {
+   "id": "sumar-igu-02",
+   "area": "igualdad",
+   "texto": "Reformar el artículo 43 de la Constitución para incluir el derecho al aborto.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 32",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Garantizar el aborto en la sanidad pública y la reproducción asistida pública hasta los 45 años."
+  },
+  {
+   "id": "sumar-san-04",
+   "area": "sanidad",
+   "texto": "Aprobar el Real Decreto de listas de espera impulsado en la legislatura.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ley de listas de espera con tiempos máximos garantizados."
+  },
+  {
+   "id": "sumar-san-05",
+   "area": "sanidad",
+   "texto": "Crear una empresa farmacéutica de participación 100% pública.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 33",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-san-06",
+   "area": "sanidad",
+   "texto": "Limitar las guardias médicas a 17 horas en el Estatuto Marco.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-edu-02",
+   "area": "educacion",
+   "texto": "Elevar el gasto educativo público al 7% del PIB en 2030.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Elevar el gasto educativo al 5% del PIB y después al 7%."
+  },
+  {
+   "id": "sumar-edu-01",
+   "area": "educacion",
+   "texto": "Máximo de 20 alumnos por aula en Infantil, Primaria y ESO y ratios menores en 0-3 años (proposición de ley de 2025, decaída).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Proposición de ley de ratios",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2025-12"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-edu-06",
+   "area": "educacion",
+   "texto": "Ratios máximas de alumnos por aula: 15 en Primaria y FP, 20 en Secundaria y 23 en Bachillerato.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 35",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-cul-02",
+   "area": "cultura",
+   "texto": "Desarrollar el Estatuto del Artista con tratamiento propio en fiscalidad, cotización y prestaciones de la Seguridad Social.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 38",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 22",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Desarrollar el Estatuto del Artista, con compensación de ingresos irregulares entre varios años."
+  },
+  {
+   "id": "sumar-igu-03",
+   "area": "igualdad",
+   "texto": "Aprobar una Ley Integral para la Prevención, Persecución y Erradicación de la Trata de Seres Humanos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 43",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-edu-05",
+   "area": "educacion",
+   "texto": "Limitar el acceso de los menores de 16 años a las redes sociales (ley de entornos digitales, no aprobada).",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-10"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-eco-02",
+   "area": "economia",
+   "texto": "Tipo mínimo efectivo del 20% sobre el resultado contable ajustado de los grandes grupos en el Impuesto de Sociedades y fin del régimen de consolidación fiscal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+  },
+  {
+   "id": "sumar-eco-03",
+   "area": "economia",
+   "texto": "Mantener de forma estructural el gravamen específico sobre las entidades bancarias y subir el impuesto sobre depósitos bancarios del 0,03% al 1%.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Mantener los gravámenes extraordinarios a energéticas y entidades financieras."
+  },
+  {
+   "id": "sumar-eco-12",
+   "area": "economia",
+   "texto": "Restablecer el gravamen especial del 1,2% sobre la cifra de negocios de las grandes energéticas, con deducciones por activos renovables.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 49",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Acto de arranque de Frente Amplio, 17-10-2026 (El Salto)",
+    "url": "https://www.elsaltodiario.com/elecciones/ada-colau-arranque-frente-amplio-alguien-no-se-quiere-sentar-una-mesa-no-se-le-puede-obligar",
+    "fecha": "2026-10"
+   }
+  },
+  {
+   "id": "sumar-eco-06",
+   "area": "economia",
+   "texto": "Derogar el régimen fiscal especial de las SOCIMI y fijar un tope a la concentración de capital de un accionista en las SICAV.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 20, 49",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Eliminar el tipo reducido del 1% de las SICAV y el 0% de las SOCIMI."
+  },
+  {
+   "id": "sumar-eco-01",
+   "area": "economia",
+   "texto": "Reformar el Impuesto sobre las Grandes Fortunas: tipo mínimo del 2% para patrimonios netos de más de 1 millón de euros y mínimo exento de 700.000 €.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos."
+  },
+  {
+   "id": "sumar-eco-13",
+   "area": "economia",
+   "texto": "Tasa Zucman: 3% anual sobre el patrimonio neto individual superior a 50 millones de euros, sin exención para la empresa familiar.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-eco-14",
+   "area": "economia",
+   "texto": "Impuesto estatal sobre grandes herencias de más de 1 millón de euros netos por beneficiario, con tipo marginal del 34%.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 50-51",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
    "id": "sumar-eco-04",
    "area": "economia",
-   "texto": "Nuevos tramos de IRPF desde 120.000 € y elevar el tipo marginal máximo del 45% al 52% a partir de 300.000 €.",
-   "origen": "programa-2023",
+   "texto": "Ampliar los tramos del IRPF desde 120.000 € anuales y elevar el tipo marginal hasta el 52% desde 300.000 €.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-eco-05",
-   "area": "economia",
-   "texto": "Tipo mínimo del 30% para las rentas del ahorro superiores a 120.000 €.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-eco-06",
-   "area": "economia",
-   "texto": "Eliminar el tipo reducido del 1% de las SICAV y el 0% de las SOCIMI.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   }
   },
   {
    "id": "sumar-eco-07",
@@ -108,50 +713,44 @@
    "destacada": false
   },
   {
-   "id": "sumar-eco-11",
+   "id": "sumar-eco-17",
    "area": "economia",
-   "texto": "Crear un Banco de Inversión para la Nueva Economía (BINE) inspirado en el alemán KfW.",
-   "origen": "programa-2023",
+   "texto": "Bajar el IRPF de las rentas del trabajo hasta 27.000 € y que quien cobre el SMI no pague IRPF.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 8",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-eco-12",
+   "id": "sumar-eco-05",
    "area": "economia",
-   "texto": "Reforzar la fiscalidad sobre las compañías energéticas (anunciado por Ernest Urtasun en la presentación de Frente Amplio).",
-   "origen": "declaracion",
+   "texto": "Acercar la tributación del capital (19-30%) a la de las rentas del trabajo (19-47%).",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Acto de arranque de Frente Amplio, 17-10-2026 (El Salto)",
-    "url": "https://www.elsaltodiario.com/elecciones/ada-colau-arranque-frente-amplio-alguien-no-se-quiere-sentar-una-mesa-no-se-le-puede-obligar",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 51",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
-   "destacada": false
-  },
-  {
-   "id": "sumar-emp-01",
-   "area": "empleo",
-   "texto": "Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto rechazado por el Congreso el 10-9-2025).",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Proyecto de ley de reducción de jornada",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2025-09"
-   },
-   "destacada": true
-  },
-  {
-   "id": "sumar-emp-02",
-   "area": "empleo",
-   "texto": "Avanzar después hacia la semana de 32 horas mediante el diálogo social.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 2, 19",
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 12",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Tipo mínimo del 30% para las rentas del ahorro superiores a 120.000 €."
+  },
+  {
+   "id": "sumar-eco-15",
+   "area": "economia",
+   "texto": "Impuesto a las transacciones financieras: 0,1% en renta fija, 0,2% en acciones y 0,3% en derivados.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 52",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
@@ -168,6 +767,36 @@
    "destacada": true
   },
   {
+   "id": "sumar-emp-10",
+   "area": "empleo",
+   "texto": "Fijar por ley el SMI en el 60% del salario medio neto y prohibir que se absorba o compense con complementos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 57",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-emp-05",
+   "area": "empleo",
+   "texto": "Reformar la indemnización por despido improcedente para que repare el daño real causado.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 58",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 22",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Readmisión o indemnización adicional en los despidos improcedentes."
+  },
+  {
    "id": "sumar-emp-04",
    "area": "empleo",
    "texto": "Registro horario digital obligatorio.",
@@ -180,26 +809,32 @@
    "destacada": false
   },
   {
-   "id": "sumar-emp-05",
+   "id": "sumar-emp-06",
    "area": "empleo",
-   "texto": "Readmisión o indemnización adicional en los despidos improcedentes.",
-   "origen": "programa-2023",
+   "texto": "Recuperar la autorización administrativa previa para los despidos colectivos.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 59",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 22",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Prohibir los despidos colectivos en empresas que deslocalicen su actividad fuera de la UE."
   },
   {
-   "id": "sumar-emp-06",
+   "id": "sumar-emp-12",
    "area": "empleo",
-   "texto": "Prohibir los despidos colectivos en empresas que deslocalicen su actividad fuera de la UE.",
-   "origen": "programa-2023",
+   "texto": "Subir la prestación contributiva por desempleo del 70% al 80% durante los primeros seis meses y los topes un 25%.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 22",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 59",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
@@ -213,127 +848,72 @@
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
-   "id": "sumar-emp-09",
+   "id": "sumar-emp-02",
    "area": "empleo",
-   "texto": "Cotización fija bonificada para autónomos con ingresos inferiores al SMI y compensación de pérdidas sin límite temporal.",
-   "origen": "programa-2023",
+   "texto": "Reducir la jornada máxima hasta 32 horas semanales sin reducción salarial, con 37,5 horas en 2026 y 35 horas en el sector público.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 24",
+    "nombre": "Programa electoral 29N, p. 61",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": true,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 2, 19",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
-   },
-   "destacada": false
+   }
   },
   {
-   "id": "sumar-viv-01",
-   "area": "vivienda",
-   "texto": "Invertir el 1% del PIB durante diez años para crear dos millones de viviendas públicas de alquiler asequible.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "sumar-viv-02",
-   "area": "vivienda",
-   "texto": "Prohibir la compra de vivienda por empresas y fondos de inversión que no sea para uso residencial y derogar el régimen de las SOCIMI.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Propuesta de Sumar sobre compra de vivienda",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-05"
-   },
-   "destacada": true
-  },
-  {
-   "id": "sumar-viv-03",
-   "area": "vivienda",
-   "texto": "Prorrogar los contratos de alquiler hasta 2028, renovación automática y suspender los desahucios de hogares vulnerables hasta 2030 (decretos de octubre de 2026).",
+   "id": "sumar-emp-01",
+   "area": "empleo",
+   "texto": "Reducir la jornada máxima legal a 37,5 horas semanales sin rebaja salarial (proyecto rechazado por el Congreso el 10-9-2025).",
    "origen": "accion",
    "fuente": {
-    "nombre": "Decretos de vivienda del Gobierno",
+    "nombre": "Proyecto de ley de reducción de jornada",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-10"
+    "fecha": "2025-09"
    },
-   "destacada": false
-  },
-  {
-   "id": "sumar-viv-04",
-   "area": "vivienda",
-   "texto": "Fijar en zonas tensionadas un precio de referencia del alquiler equivalente al 30% de la renta de los hogares que alquilan.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-viv-05",
-   "area": "vivienda",
-   "texto": "Recargo en el Impuesto de Sociedades a los fondos que alquilen por encima del precio de referencia o destinen viviendas a uso turístico.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-viv-06",
-   "area": "vivienda",
-   "texto": "Alquiler social obligatorio para los grandes tenedores y límites al alquiler turístico.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-viv-07",
-   "area": "vivienda",
-   "texto": "Rehabilitar 500.000 viviendas al año para reducir a la mitad su demanda energética.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-viv-08",
-   "area": "vivienda",
-   "texto": "Portabilidad obligatoria de las hipotecas de tipo variable a tipo fijo.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 4-5",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
+   "destacada": true
   },
   {
    "id": "sumar-pen-01",
    "area": "pensiones",
-   "texto": "Revalorizar por ley las pensiones con el IPC y subir las mínimas y no contributivas por encima de la inflación hasta el umbral de pobreza.",
-   "origen": "programa-2023",
+   "texto": "Revalorizar las pensiones por mandato constitucional, con actualización automática según el IPC.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-pen-03",
+   "area": "pensiones",
+   "texto": "Reforzar la protección constitucional de las pensiones mediante reforma constitucional por el procedimiento ordinario.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 63",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
-   "destacada": false
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
   },
   {
    "id": "sumar-pen-02",
@@ -348,184 +928,356 @@
    "destacada": false
   },
   {
-   "id": "sumar-pen-03",
+   "id": "sumar-pen-05",
    "area": "pensiones",
-   "texto": "Reforma constitucional que blinde el sistema público de Seguridad Social.",
-   "origen": "programa-2023",
+   "texto": "Devolver la edad de jubilación a los 65 años.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-pen-04",
-   "area": "pensiones",
-   "texto": "Que el Estado financie hasta el 50% del sistema de dependencia.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-san-01",
-   "area": "sanidad",
-   "texto": "Ley de Gestión Pública e Integridad del SNS: derogar la Ley 15/1997 y priorizar la gestión pública directa (aprobada por el Consejo de Ministros el 12-5-2026; decayó).",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Anteproyecto de Ley de Gestión Pública del SNS",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-05"
+    "nombre": "Programa electoral 29N, p. 64",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": true
   },
   {
-   "id": "sumar-san-02",
-   "area": "sanidad",
-   "texto": "Aumentar el gasto sanitario público medio punto del PIB cada año.",
-   "origen": "programa-2023",
+   "id": "sumar-pen-06",
+   "area": "pensiones",
+   "texto": "Jubilación a los 60 años en construcción, limpieza, ayuda a domicilio, camareras de piso y pesca.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 64",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-san-03",
-   "area": "sanidad",
-   "texto": "Incluir en la sanidad pública la salud bucodental, la óptica, las audioprótesis, la psicoterapia y la fisioterapia.",
-   "origen": "programa-2023",
+   "id": "sumar-ene-07",
+   "area": "energia",
+   "texto": "Inversión pública del 3,5% del PIB anual en transición ecológica justa.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 67",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-san-04",
-   "area": "sanidad",
-   "texto": "Ley de listas de espera con tiempos máximos garantizados.",
-   "origen": "programa-2023",
+   "id": "sumar-ene-02",
+   "area": "energia",
+   "texto": "Reducir las emisiones frente a 1990 un 38% en 2035 y un 85% en 2040, con neutralidad climática en 2050; generación renovable del 81% en 2030, 90% en 2035 y 100% en 2040.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 67",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Reducir las emisiones un 55% en 2030, 90% de electricidad renovable en 2030 y emisiones netas nulas en 2040."
   },
   {
-   "id": "sumar-san-05",
-   "area": "sanidad",
-   "texto": "Crear una empresa farmacéutica pública.",
-   "origen": "programa-2023",
+   "id": "sumar-rur-01",
+   "area": "rural",
+   "texto": "Ofrecer al menos el 20% del capital de las instalaciones renovables de más de 5 MW a vecinos, ayuntamientos o comunidades energéticas.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "nombre": "Programa electoral 29N, p. 68",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Que las renovables generen beneficios para los territorios donde se instalan, con cuotas en subastas para entidades locales y cooperativas."
   },
   {
-   "id": "sumar-san-06",
-   "area": "sanidad",
-   "texto": "Limitar las guardias médicas a 17 horas en el Estatuto Marco.",
-   "origen": "accion",
+   "id": "sumar-ene-05",
+   "area": "energia",
+   "texto": "Reformar el sistema marginalista de precios del mercado eléctrico mayorista.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 69",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 8",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Reformar el mercado eléctrico mayorista y separar la distribución de la generación y la comercialización."
+  },
+  {
+   "id": "sumar-ene-06",
+   "area": "energia",
+   "texto": "Plan de Tejados Solares: antes de 2030, autoconsumo compartido financiado por el Estado en todas las comunidades de vecinos con tejado útil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 69",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6-7",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-ene-04",
+   "area": "energia",
+   "texto": "Crear una comercializadora pública de referencia y recuperar la titularidad pública de las redes de distribución eléctrica.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 70",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Crear una empresa pública de energía con las centrales hidroeléctricas cuyas concesiones venzan."
+  },
+  {
+   "id": "sumar-ene-01",
+   "area": "energia",
+   "texto": "Cierre de las centrales de Almaraz I y II en 2027-2028, sin beneficios fiscales.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 71",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "cambio": "Antes: Cerrar todas las centrales nucleares en 2035 y moratoria a nuevas iniciativas nucleares."
   },
   {
-   "id": "sumar-edu-01",
-   "area": "educacion",
-   "texto": "Máximo de 20 alumnos por aula en Infantil, Primaria y ESO y ratios menores en 0-3 años (proposición de ley de 2025, decaída).",
-   "origen": "accion",
+   "id": "sumar-ene-08",
+   "area": "energia",
+   "texto": "Tres horas diarias de luz gratuita en la franja solar para todos los hogares.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Proposición de ley de ratios",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2025-12"
+    "nombre": "Programa electoral 29N, p. 71",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-edu-02",
-   "area": "educacion",
-   "texto": "Elevar el gasto educativo al 5% del PIB y después al 7%.",
-   "origen": "programa-2023",
+   "id": "sumar-ene-09",
+   "area": "energia",
+   "texto": "Abono de Cercanías de 20 € al mes (10 € para menores de 26 años y gratuito para menores de 16).",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 72",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-edu-03",
-   "area": "educacion",
-   "texto": "Educación infantil de 0 a 3 años pública y gratuita, con cobertura del 90%.",
-   "origen": "programa-2023",
+   "id": "sumar-ene-03",
+   "area": "energia",
+   "texto": "Prohibir los vuelos domésticos que tengan alternativa competitiva en tren de 2,5 horas.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5-6",
+    "nombre": "Programa electoral 29N, p. 75",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 7",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Que no circulen vehículos de combustión en 2040 y sustituir por tren los vuelos cortos."
   },
   {
-   "id": "sumar-edu-04",
-   "area": "educacion",
-   "texto": "Comedores escolares gratuitos y rebaja de las tasas universitarias hasta la gratuidad.",
-   "origen": "programa-2023",
+   "id": "sumar-rur-03",
+   "area": "rural",
+   "texto": "Proteger el 30% del territorio terrestre y el 30% del Mediterráneo.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 78",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-tec-01",
+   "area": "tecnologia",
+   "texto": "Inversión en I+D+i del 3% del PIB en 2030 y del 4% en la década siguiente.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 89",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Elevar la inversión en I+D+i hasta el 2,1% del PIB."
+  },
+  {
+   "id": "sumar-eco-11",
+   "area": "economia",
+   "texto": "Crear un Banco Público de Inversión y una Banca Pública Estatal integrada por el ICO y el Banco Postal de Correos.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 90, 93",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 8",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Crear un Banco de Inversión para la Nueva Economía (BINE) inspirado en el alemán KfW."
+  },
+  {
+   "id": "sumar-emp-09",
+   "area": "empleo",
+   "texto": "Cotización fija bonificada para autónomos con ingresos reales inferiores al SMI anual, sin pérdida de derechos de protección.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 104",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 24",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Cotización fija bonificada para autónomos con ingresos inferiores al SMI y compensación de pérdidas sin límite temporal."
+  },
+  {
+   "id": "sumar-rur-02",
+   "area": "rural",
+   "texto": "Bonificaciones en las cotizaciones empresariales en territorios de baja densidad y servicios públicos básicos a menos de 30 minutos del medio rural.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 110",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 17, 24",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Ayudas a autónomos en zonas en riesgo de despoblación y medidas contra la brecha digital rural."
+  },
+  {
+   "id": "sumar-ter-05",
+   "area": "territorio",
+   "texto": "Destinar al menos un 2,3% del PIB adicional cada año al sistema de financiación autonómica, unos 38.000 millones de euros.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 118",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-edu-05",
-   "area": "educacion",
-   "texto": "Limitar el acceso de los menores de 16 años a las redes sociales (ley de entornos digitales, no aprobada).",
-   "origen": "accion",
+   "id": "sumar-ter-02",
+   "area": "territorio",
+   "texto": "Fijar un mínimo común de tributación en Patrimonio y Sucesiones en todo el territorio.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 119",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2026-10"
    },
-   "destacada": false
+   "cambio": "Antes: Reformar la financiación autonómica con un suelo fiscal común que evite la competencia fiscal a la baja entre comunidades."
   },
   {
-   "id": "sumar-deu-01",
-   "area": "deuda",
-   "texto": "Reformar las reglas fiscales europeas y la Ley de Estabilidad Presupuestaria para superar los límites del 3% de déficit y el 60% de deuda.",
-   "origen": "programa-2023",
+   "id": "sumar-emp-11",
+   "area": "empleo",
+   "texto": "Reparto obligatorio del 10% del beneficio a la plantilla en empresas de 50 o más trabajadores, y consejos de administración con un tercio de representantes de la plantilla en las de 50 a 1.000.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 14-15",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 134",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-deu-02",
-   "area": "deuda",
-   "texto": "Crear una capacidad fiscal europea permanente (fondo tipo SURE y agencia de inversión con deuda común).",
-   "origen": "programa-2023",
+   "id": "sumar-igu-04",
+   "area": "igualdad",
+   "texto": "Completar la transposición de la directiva europea de transparencia retributiva, con evaluaciones salariales conjuntas si la brecha supera el 5% sin justificación.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 15",
+    "nombre": "Programa electoral 29N, p. 146",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6, 21",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Registro retributivo y transparencia salarial para cerrar la brecha de género."
+  },
+  {
+   "id": "sumar-inm-02",
+   "area": "inmigracion",
+   "texto": "Establecer un procedimiento de regularización estable, permanente y reglado de personas migrantes.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 149",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Mecanismo permanente de regularización y ley integral contra el racismo."
   },
   {
    "id": "sumar-inm-01",
@@ -540,42 +1292,6 @@
    "destacada": true
   },
   {
-   "id": "sumar-inm-02",
-   "area": "inmigracion",
-   "texto": "Mecanismo permanente de regularización y ley integral contra el racismo.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-inm-03",
-   "area": "inmigracion",
-   "texto": "Cerrar los Centros de Internamiento de Extranjeros y tipificar como delito las devoluciones sumarias.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-inm-04",
-   "area": "inmigracion",
-   "texto": "Permitir solicitar asilo en embajadas y consulados.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
    "id": "sumar-inm-05",
    "area": "inmigracion",
    "texto": "Reparto obligatorio entre comunidades de los menores migrantes no acompañados.",
@@ -588,122 +1304,304 @@
    "destacada": false
   },
   {
-   "id": "sumar-ene-01",
-   "area": "energia",
-   "texto": "Cerrar todas las centrales nucleares en 2035 y moratoria a nuevas iniciativas nucleares.",
-   "origen": "declaracion",
+   "id": "sumar-inm-03",
+   "area": "inmigracion",
+   "texto": "Cerrar los Centros de Internamiento de Extranjeros y derogar el «rechazo en frontera».",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 150",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ene-02",
-   "area": "energia",
-   "texto": "Reducir las emisiones un 55% en 2030, 90% de electricidad renovable en 2030 y emisiones netas nulas en 2040.",
-   "origen": "programa-2023",
-   "fuente": {
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
    },
-   "destacada": true
+   "cambio": "Antes: Cerrar los Centros de Internamiento de Extranjeros y tipificar como delito las devoluciones sumarias."
   },
   {
-   "id": "sumar-ene-03",
-   "area": "energia",
-   "texto": "Que no circulen vehículos de combustión en 2040 y sustituir por tren los vuelos cortos.",
-   "origen": "programa-2023",
+   "id": "sumar-inm-06",
+   "area": "inmigracion",
+   "texto": "Garantizar cita en Extranjería en un máximo de siete días naturales.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 7",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 150",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-ene-04",
-   "area": "energia",
-   "texto": "Crear una empresa pública de energía con las centrales hidroeléctricas cuyas concesiones venzan.",
-   "origen": "programa-2023",
+   "id": "sumar-inm-04",
+   "area": "inmigracion",
+   "texto": "Permitir solicitar protección internacional en embajadas y consulados.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "nombre": "Programa electoral 29N, p. 151",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-ins-04",
+   "area": "instituciones",
+   "texto": "Recuperar plenamente la jurisdicción universal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 156",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Nueva ley de indultos, supresión de la justicia militar y recuperación de la justicia universal."
+  },
+  {
+   "id": "sumar-seg-01",
+   "area": "seguridad",
+   "texto": "Rechazar el objetivo del 5% del PIB en gasto militar dentro de la OTAN.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 156",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2026-10"
+   },
+   "cambio": "Antes: Rechazar el aumento del gasto militar hacia el 2% del PIB y el objetivo del 5% de la OTAN."
+  },
+  {
+   "id": "sumar-ext-01",
+   "area": "exterior",
+   "texto": "Embargo de armas a Israel (RDL 10/2025) y ley para eliminar sus excepciones.",
+   "origen": "accion",
+   "fuente": {
+    "nombre": "Real Decreto-ley 10/2025",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2025-10"
    },
    "destacada": false
   },
   {
-   "id": "sumar-ene-05",
-   "area": "energia",
-   "texto": "Reformar el mercado eléctrico mayorista y separar la distribución de la generación y la comercialización.",
-   "origen": "programa-2023",
+   "id": "sumar-ext-05",
+   "area": "exterior",
+   "texto": "Suspender efectivamente el Acuerdo de Asociación UE-Israel y lograr que los Estados miembros reconozcan al Estado de Palestina.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 8",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 157",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
-   "id": "sumar-ene-06",
-   "area": "energia",
-   "texto": "Ley de Tejados Solares e impulso del autoconsumo y las comunidades energéticas.",
-   "origen": "programa-2023",
+   "id": "sumar-ext-02",
+   "area": "exterior",
+   "texto": "Retirar el apoyo del Gobierno al plan de autonomía marroquí y defender un referéndum de autodeterminación del Sáhara Occidental supervisado por la ONU, con opción de independencia.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6-7",
+    "nombre": "Programa electoral 29N, p. 158",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Revertir el cambio de posición de 2022 sobre el Sáhara Occidental."
+  },
+  {
+   "id": "sumar-ext-04",
+   "area": "exterior",
+   "texto": "Subir la ayuda oficial al desarrollo del 0,27% al 0,7% de la Renta Nacional Bruta.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 159",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Destinar el 0,7% de la renta nacional a cooperación en 2030 y firmar el Tratado de Prohibición de Armas Nucleares."
+  },
+  {
+   "id": "sumar-deu-01",
+   "area": "deuda",
+   "texto": "Superar de forma definitiva el Pacto de Estabilidad y Crecimiento y eliminar la austeridad como herramienta de ajuste.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 161",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 14-15",
+    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-ext-03",
+   "area": "exterior",
+   "texto": "Abandonar la unanimidad en política exterior y de seguridad común para derechos humanos, paz y medidas humanitarias, manteniéndola en seguridad y defensa.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 161",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-deu-02",
+   "area": "deuda",
+   "texto": "Financiar el presupuesto de la UE con nuevos recursos propios, como la fiscalidad de empresas digitales y criptomonedas.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 162",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 15",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Crear una capacidad fiscal europea permanente (fondo tipo SURE y agencia de inversión con deuda común)."
   },
   {
    "id": "sumar-ter-01",
    "area": "territorio",
-   "texto": "Reconocer España como Estado plurinacional y abrir un nuevo pacto territorial.",
-   "origen": "declaracion",
+   "texto": "Avanzar hacia un Estado republicano federal y plurinacional, con pacto territorial y nuevo modelo de financiación autonómica.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 168",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2026-10"
-   },
-   "destacada": false
+   }
   },
   {
-   "id": "sumar-ter-02",
-   "area": "territorio",
-   "texto": "Reformar la financiación autonómica con un suelo fiscal común que evite la competencia fiscal a la baja entre comunidades.",
-   "origen": "declaracion",
+   "id": "sumar-deu-03",
+   "area": "deuda",
+   "texto": "Modificar el artículo 135 de la Constitución: no aplicar sendas de estabilidad si hay riesgo para la estabilidad social o si el paro o la pobreza superan la media de los cinco países de la UE con menor tasa.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-10"
+    "nombre": "Programa electoral 29N, p. 168",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
   {
    "id": "sumar-ter-03",
    "area": "territorio",
-   "texto": "Para Cataluña, mesa de diálogo y un acuerdo que se someta a votación de la ciudadanía catalana.",
-   "origen": "programa-2023",
+   "texto": "Reconocer la realidad plurinacional y plurilingüe de España e incluir el «derecho a decidir» mediante referéndum.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 168",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "cambio": "Antes: Para Cataluña, mesa de diálogo y un acuerdo que se someta a votación de la ciudadanía catalana."
   },
   {
    "id": "sumar-ter-04",
    "area": "territorio",
-   "texto": "Conferencia de Presidentes al menos una vez al año y reforma del Consejo de Política Fiscal y Financiera.",
-   "origen": "programa-2023",
+   "texto": "Reformar la conferencia de presidentes y las conferencias sectoriales.",
+   "origen": "programa-2026",
    "fuente": {
+    "nombre": "Programa electoral 29N, p. 168",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
     "nombre": "Programa Sumar 2023 «Un programa para ti», p. 14",
     "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
     "fecha": "2023-07"
+   },
+   "cambio": "Antes: Conferencia de Presidentes al menos una vez al año y reforma del Consejo de Política Fiscal y Financiera."
+  },
+  {
+   "id": "sumar-cul-01",
+   "area": "cultura",
+   "texto": "Aprobar una ley del plurilingüismo.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 168",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Uso efectivo de las lenguas cooficiales en la Administración General del Estado y en la UE."
+  },
+  {
+   "id": "sumar-ins-05",
+   "area": "instituciones",
+   "texto": "Derogar por completo la Ley Mordaza.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 169",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false
+  },
+  {
+   "id": "sumar-ins-06",
+   "area": "instituciones",
+   "texto": "Derogar los delitos de ofensa a los sentimientos religiosos, injurias a la Corona, a las instituciones, a los Ejércitos y al Estado, y enaltecimiento del terrorismo del Código Penal.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 169-170",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   },
@@ -720,6 +1618,41 @@
    "destacada": false
   },
   {
+   "id": "sumar-seg-02",
+   "area": "seguridad",
+   "texto": "Prohibir los controles de identidad por perfil racial y desmilitarizar la Guardia Civil.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 172",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   }
+  },
+  {
+   "id": "sumar-ins-03",
+   "area": "instituciones",
+   "texto": "Reformar la LOPJ para que ningún partido bloquee la renovación del CGPJ: elección por mayoría absoluta en segunda votación si no hay acuerdo en dos meses.",
+   "origen": "programa-2026",
+   "fuente": {
+    "nombre": "Programa electoral 29N, p. 175",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
+   },
+   "destacada": false,
+   "fuente_anterior": {
+    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
+    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
+    "fecha": "2023-07"
+   },
+   "cambio": "Antes: Que al menos 10 de los 20 vocales del CGPJ sean candidatos avalados por jueces y cese automático al caducar el mandato."
+  },
+  {
    "id": "sumar-ins-02",
    "area": "instituciones",
    "texto": "Atribuir la instrucción penal a los fiscales, con un juez de garantías.",
@@ -729,257 +1662,19 @@
     "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
     "fecha": "2023-07"
    },
-   "destacada": false
+   "destacada": false,
+   "estado": "no-reiterada",
+   "revisado": "2026-11-21"
   },
   {
-   "id": "sumar-ins-03",
+   "id": "sumar-ins-08",
    "area": "instituciones",
-   "texto": "Que al menos 10 de los 20 vocales del CGPJ sean candidatos avalados por jueces y cese automático al caducar el mandato.",
-   "origen": "programa-2023",
+   "texto": "Eliminar toda financiación pública a las confesiones religiosas y revisar los Acuerdos de 1979 con la Santa Sede.",
+   "origen": "programa-2026",
    "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ins-04",
-   "area": "instituciones",
-   "texto": "Nueva ley de indultos, supresión de la justicia militar y recuperación de la justicia universal.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-igu-01",
-   "area": "igualdad",
-   "texto": "Permiso por nacimiento de 19 semanas por progenitor y 32 en familias monoparentales, retribuido al 100% (RDL 9/2025).",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Real Decreto-ley 9/2025",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2025-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-igu-02",
-   "area": "igualdad",
-   "texto": "Garantizar el aborto en la sanidad pública y la reproducción asistida pública hasta los 45 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-igu-03",
-   "area": "igualdad",
-   "texto": "Ley integral contra la trata de seres humanos.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-igu-04",
-   "area": "igualdad",
-   "texto": "Registro retributivo y transparencia salarial para cerrar la brecha de género.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 6, 21",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-igu-05",
-   "area": "igualdad",
-   "texto": "Herencia universal de 20.000 € a los 23 años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 11",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-seg-01",
-   "area": "seguridad",
-   "texto": "Rechazar el aumento del gasto militar hacia el 2% del PIB y el objetivo del 5% de la OTAN.",
-   "origen": "declaracion",
-   "fuente": {
-    "nombre": "Resumen de posiciones de Sumar / Frente Amplio para el 29N (PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2026-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-seg-02",
-   "area": "seguridad",
-   "texto": "Prohibir los controles policiales por perfil racial y desmilitarizar la Guardia Civil.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ext-01",
-   "area": "exterior",
-   "texto": "Embargo de armas a Israel (RDL 10/2025) y ley para eliminar sus excepciones.",
-   "origen": "accion",
-   "fuente": {
-    "nombre": "Real Decreto-ley 10/2025",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2025-10"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ext-02",
-   "area": "exterior",
-   "texto": "Revertir el cambio de posición de 2022 sobre el Sáhara Occidental.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ext-03",
-   "area": "exterior",
-   "texto": "Suprimir la unanimidad en las decisiones de la UE y avanzar en autonomía estratégica europea.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-ext-04",
-   "area": "exterior",
-   "texto": "Destinar el 0,7% de la renta nacional a cooperación en 2030 y firmar el Tratado de Prohibición de Armas Nucleares.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-rur-01",
-   "area": "rural",
-   "texto": "Que las renovables generen beneficios para los territorios donde se instalan, con cuotas en subastas para entidades locales y cooperativas.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-rur-02",
-   "area": "rural",
-   "texto": "Ayudas a autónomos en zonas en riesgo de despoblación y medidas contra la brecha digital rural.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 17, 24",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-rur-03",
-   "area": "rural",
-   "texto": "Proteger el 30% de la superficie terrestre y marina en 2030.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-cul-01",
-   "area": "cultura",
-   "texto": "Uso efectivo de las lenguas cooficiales en la Administración General del Estado y en la UE.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-cul-02",
-   "area": "cultura",
-   "texto": "Desarrollar el Estatuto del Artista, con compensación de ingresos irregulares entre varios años.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 22",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-tec-01",
-   "area": "tecnologia",
-   "texto": "Elevar la inversión en I+D+i hasta el 2,1% del PIB.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 9",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
-   },
-   "destacada": false
-  },
-  {
-   "id": "sumar-dem-01",
-   "area": "demografia",
-   "texto": "Prestación universal de 200 € al mes por hijo hasta los 18 años, sin requisito de renta.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 (resumen recogido por PoliticaElectoral.com)",
-    "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar",
-    "fecha": "2023-07"
-   },
-   "destacada": true
-  },
-  {
-   "id": "sumar-dem-02",
-   "area": "demografia",
-   "texto": "Permiso retribuido de 5 días para el cuidado de familiares y permiso para acompañar a los hijos al médico.",
-   "origen": "programa-2023",
-   "fuente": {
-    "nombre": "Programa Sumar 2023 «Un programa para ti», p. 5, 19",
-    "url": "https://theobjective.com/wp-content/uploads/2023/07/un_programa_para_ti.pdf",
-    "fecha": "2023-07"
+    "nombre": "Programa electoral 29N, p. 177",
+    "url": "https://frenteamplio.info/programa/",
+    "fecha": "2026-11-16"
    },
    "destacada": false
   }
@@ -987,8 +1682,8 @@
  "criticas": {
   "economica": [
    {
-    "titulo": "Jornada de 37,5 horas sin ganancias de productividad",
-    "texto": "Reducir la jornada por ley sin rebajar el salario eleva el coste laboral por hora, con más impacto en pymes y en sectores intensivos en mano de obra como hostelería o comercio; su efecto sobre el empleo depende de que la productividad acompañe. Las organizaciones empresariales se opusieron y el proyecto no logró mayoría en el Congreso.",
+    "titulo": "Jornada de 32 horas sin ganancias de productividad",
+    "texto": "Reducir la jornada por ley hasta 32 horas sin rebajar el salario eleva el coste laboral por hora, con más impacto en pymes y en sectores intensivos en mano de obra como hostelería o comercio; su efecto sobre el empleo depende de que la productividad acompañe. Las organizaciones empresariales se opusieron a la primera fase, de 37,5 horas, y el proyecto no logró mayoría en el Congreso.",
     "sobre": [
      "sumar-emp-01",
      "sumar-emp-02"
@@ -996,61 +1691,65 @@
     "fuente": {
      "nombre": "Debate parlamentario del proyecto de ley de reducción de jornada (PoliticaElectoral.com)",
      "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/sumar"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Restricciones al alquiler y caída de la oferta",
-    "texto": "Estudios sobre el control de rentas, como el de Diamond, McQuade y Qian para San Francisco, muestran que protege a los inquilinos actuales pero reduce la oferta de alquiler y puede encarecer el resto del mercado. Prohibir la compra de vivienda a empresas y fondos y prorrogar contratos de forma obligatoria puede frenar la inversión en vivienda nueva para alquiler.",
+    "texto": "Estudios sobre el control de rentas, como el de Diamond, McQuade y Qian para San Francisco, muestran que protege a los inquilinos actuales pero reduce la oferta de alquiler y puede encarecer el resto del mercado. Limitar el alquiler en zonas tensionadas al menor entre el 25% de la renta media del hogar y el índice de referencia, prohibir la compra de vivienda a empresas con ánimo de lucro salvo para alquiler asequible y prorrogar contratos de forma obligatoria puede frenar la inversión en vivienda nueva para alquiler.",
     "sobre": [
      "sumar-viv-02",
      "sumar-viv-03",
-     "sumar-viv-04",
-     "sumar-viv-05"
+     "sumar-viv-04"
     ],
     "fuente": {
      "nombre": "Diamond, McQuade y Qian, 'The Effects of Rent Control Expansion', American Economic Review (2019)",
      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181289"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Más gasto estructural con deuda cercana al 100% del PIB",
-    "texto": "Las propuestas de gasto (1% del PIB anual en vivienda, +0,5 puntos de PIB al año en sanidad, educación al 5-7%, prestación universal por hijo, herencia universal) suman compromisos permanentes de decenas de miles de millones. La AIReF y la Comisión Europea piden a España una senda de ajuste sostenida, y Sumar plantea relajar las reglas fiscales en lugar de detallar la financiación completa.",
+    "texto": "Las propuestas de gasto (1% del PIB anual en vivienda, gasto sanitario del 8% del PIB, educación al 7% del PIB en 2030, prestación universal de 200 € al mes por menor) suman compromisos permanentes de decenas de miles de millones. La AIReF y la Comisión Europea piden a España una senda de ajuste sostenida, y el Frente Amplio plantea superar el Pacto de Estabilidad y eliminar la austeridad como herramienta de ajuste en lugar de detallar la financiación completa.",
     "sobre": [
      "sumar-viv-01",
      "sumar-san-02",
      "sumar-edu-02",
      "sumar-dem-01",
-     "sumar-igu-05",
      "sumar-deu-01"
     ],
     "fuente": {
      "nombre": "AIReF, informes de seguimiento de la senda fiscal",
      "url": "https://www.airef.es"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Impuestos al patrimonio y movilidad del capital",
-    "texto": "La literatura comparada (OCDE, 2018) indica que los impuestos sobre el patrimonio recaudan poco y favorecen la planificación fiscal y la deslocalización de grandes patrimonios; la OCDE recomienda priorizar la tributación de las ganancias de capital y de las herencias bien diseñada. Un tipo marginal del 52% situaría a España entre los IRPF más altos de la OCDE.",
+    "texto": "La literatura comparada (OCDE, 2018) indica que los impuestos sobre el patrimonio recaudan poco y favorecen la planificación fiscal y la deslocalización de grandes patrimonios; la OCDE recomienda priorizar la tributación de las ganancias de capital y de las herencias bien diseñada. Un tipo mínimo del 2% desde 1 millón de euros y una tasa del 3% anual sobre los patrimonios de más de 50 millones, sin exención para la empresa familiar, acentuarían ese riesgo. Un tipo marginal del 52% situaría a España entre los IRPF más altos de la OCDE.",
     "sobre": [
      "sumar-eco-01",
+     "sumar-eco-13",
      "sumar-eco-04",
      "sumar-eco-05"
     ],
     "fuente": {
      "nombre": "OCDE, The Role and Design of Net Wealth Taxes in the OECD (2018)",
      "url": "https://www.oecd.org/tax/the-role-and-design-of-net-wealth-taxes-in-the-oecd-9789264290303-en.htm"
-    }
+    },
+    "revisado": "2026-11-21"
    },
    {
-    "titulo": "Cierre nuclear en 2035 y seguridad de suministro",
-    "texto": "Las nucleares aportan en torno a una quinta parte de la electricidad en España. Cerrarlas en 2035 obliga a sustituir esa producción estable con almacenamiento y redes que aún no están desplegadas; tras el apagón de abril de 2025 cobró peso el debate sobre la generación síncrona y la estabilidad del sistema.",
+    "titulo": "Cierre de Almaraz en 2027-2028 y seguridad de suministro",
+    "texto": "Cerrar Almaraz en 2027-2028, antes de 2030, la fecha hasta la que ya está autorizada, obliga a sustituir esa producción estable con almacenamiento y redes que aún no están desplegadas; tras el apagón de abril de 2025 cobró peso el debate sobre la generación síncrona y la estabilidad del sistema.",
     "sobre": [
      "sumar-ene-01"
     ],
     "fuente": {
      "nombre": "Red Eléctrica, Informe del Sistema Eléctrico",
      "url": "https://www.ree.es/es/datos/publicaciones/informe-anual-sistema"
-    }
+    },
+    "revisado": "2026-11-21"
    }
   ],
   "social": [
@@ -1063,11 +1762,12 @@
    },
    {
     "titulo": "Regularización sin medidas de integración laboral",
-    "texto": "La regularización de 2005 aumentó la afiliación y la recaudación, pero sus efectos dependen de que vaya acompañada de integración laboral y control del empleo irregular. Sus críticos sostienen que un mecanismo permanente de regularización puede atraer más inmigración irregular.",
+    "texto": "La regularización de 2005 aumentó la afiliación y la recaudación, pero sus efectos dependen de que vaya acompañada de integración laboral y control del empleo irregular. Sus críticos sostienen que un procedimiento permanente de regularización puede atraer más inmigración irregular.",
     "sobre": [
      "sumar-inm-01",
      "sumar-inm-02"
-    ]
+    ],
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Prestación universal por hijo poco focalizada",
@@ -1085,20 +1785,23 @@
     "texto": "La herencia universal de 20.000 € a los 23 años supondría un gasto de varios miles de millones anuales sin condicionar su uso, y académicos han cuestionado si su efecto sobre la igualdad de oportunidades supera al de invertir lo mismo en educación temprana o vivienda.",
     "sobre": [
      "sumar-igu-05"
-    ]
+    ],
+    "estado": "obsoleta",
+    "revisado": "2026-11-21"
    }
   ],
   "cultural": [
    {
-    "titulo": "Plurinacionalidad y consulta en Cataluña",
-    "texto": "Reconocer España como Estado plurinacional y someter un acuerdo a votación solo de la ciudadanía catalana exige, según la doctrina del Tribunal Constitucional (STC 103/2008 y 42/2014), reformar la Constitución, porque la soberanía reside en el conjunto del pueblo español.",
+    "titulo": "Estado federal plurinacional y «derecho a decidir»",
+    "texto": "Reconocer España como Estado plurinacional e incluir un «derecho a decidir» mediante referéndum exige, según la doctrina del Tribunal Constitucional (STC 103/2008 y 42/2014), reformar la Constitución, porque la soberanía reside en el conjunto del pueblo español. Pasar a un Estado republicano requeriría además el procedimiento agravado del art. 168.",
     "sobre": [
      "sumar-ter-01",
      "sumar-ter-03"
     ],
     "fuente": {
-     "nombre": "Tribunal Constitucional, SSTC 103/2008 y 42/2014"
-    }
+     "nombre": "Tribunal Constitucional, SSTC 103/2008 y 42/2014; Constitución Española, art. 168"
+    },
+    "revisado": "2026-11-21"
    },
    {
     "titulo": "Desmilitarizar la Guardia Civil y limitar medios policiales",
@@ -1109,20 +1812,21 @@
     ]
    },
    {
-    "titulo": "Oposición al gasto en defensa ante los compromisos con la OTAN",
-    "texto": "España ha estado entre los países de la OTAN con menor gasto en defensa en relación con su PIB. Rechazar el aumento choca con los compromisos asumidos por el propio Gobierno de coalición y con lo que piden los socios europeos tras la invasión de Ucrania.",
+    "titulo": "Rechazo del objetivo de gasto en defensa de la OTAN",
+    "texto": "España ha estado entre los países de la OTAN con menor gasto en defensa en relación con su PIB. Rechazar el objetivo del 5% del PIB acordado por los aliados en 2025 la aleja de lo que piden sus socios europeos tras la invasión de Ucrania, aunque el propio Gobierno obtuvo una excepción a ese objetivo.",
     "sobre": [
      "sumar-seg-01"
     ],
     "fuente": {
      "nombre": "OTAN, Defence Expenditure of NATO Countries",
      "url": "https://www.nato.int/cps/en/natohq/topics_49198.htm"
-    }
+    },
+    "revisado": "2026-11-21"
    }
   ]
  },
  "mentiras": [],
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-21",
  "concurre": true,
  "estado_candidatura": "Proclamada",
  "circunscripciones": [
@@ -1133,5 +1837,12 @@
   "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/11/03/candidaturas-proclamadas/",
   "fecha": "2026-11-03"
  },
- "candidatura_nota": "Todas salvo Ceuta, Melilla y Teruel. Con nombres propios según el territorio: Comuns-Front Ampli, Compromís-Front Valencià, CHA-Frente Amplio, Ara Més-Front Ampli, Unidad del Pueblo Canario y otros."
+ "candidatura_nota": "Todas salvo Ceuta, Melilla y Teruel. Con nombres propios según el territorio: Comuns-Front Ampli, Compromís-Front Valencià, CHA-Frente Amplio, Ara Més-Front Ampli, Unidad del Pueblo Canario y otros.",
+ "programa_2026": {
+  "url": "https://frenteamplio.info/programa/",
+  "fecha_publicacion": "2026-11-16",
+  "paginas": "hasta p. 177 (151 según Demócrata)",
+  "incorporado": "2026-11-21",
+  "copia_leida": "https://www.democrata.es/uploads/s1/35/42/91/4/programafrenteamplio.pdf"
+ }
 }

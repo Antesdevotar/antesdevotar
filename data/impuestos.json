@@ -913,17 +913,37 @@
    {
     "cat": "irpf",
     "ref": "sumar-eco-04",
-    "texto": "Nuevos tramos de IRPF desde 120.000 € y elevar el tipo marginal máximo del 45% al 52% a partir de 300.000 €."
+    "texto": "Ampliar los tramos del IRPF desde 120.000 € anuales y elevar el tipo marginal hasta el 52% desde 300.000 €."
+   },
+   {
+    "cat": "irpf",
+    "ref": "sumar-eco-17",
+    "texto": "Bajar el IRPF de las rentas del trabajo hasta 27.000 € y que quien cobre el SMI no pague IRPF."
+   },
+   {
+    "cat": "irpf",
+    "ref": "sumar-eco-05",
+    "texto": "Acercar la tributación del capital (19-30%) a la de las rentas del trabajo (19-47%)."
    },
    {
     "cat": "sociedades",
     "ref": "sumar-eco-02",
-    "texto": "Tipo mínimo efectivo del 15% en el Impuesto de Sociedades, con independencia de las deducciones."
+    "texto": "Tipo mínimo efectivo del 20% sobre el resultado contable ajustado de los grandes grupos en el Impuesto de Sociedades y fin del régimen de consolidación fiscal."
    },
    {
     "cat": "patrimonio",
     "ref": "sumar-eco-01",
-    "texto": "Impuesto permanente a las grandes fortunas, con un tipo de al menos el 4% para los patrimonios más altos."
+    "texto": "Reformar el Impuesto sobre las Grandes Fortunas: tipo mínimo del 2% para patrimonios netos de más de 1 millón de euros y mínimo exento de 700.000 €."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "sumar-eco-13",
+    "texto": "Tasa Zucman: 3% anual sobre el patrimonio neto individual superior a 50 millones de euros, sin exención para la empresa familiar."
+   },
+   {
+    "cat": "patrimonio",
+    "ref": "sumar-eco-14",
+    "texto": "Impuesto estatal sobre grandes herencias de más de 1 millón de euros netos por beneficiario, con tipo marginal del 34%."
    },
    {
     "cat": "patrimonio",
@@ -931,24 +951,64 @@
     "texto": "Impuesto estatal sobre herencias y donaciones superiores a 1 millón de euros (proposición de ley de Sumar e IU, mayo de 2026)."
    },
    {
+    "cat": "patrimonio",
+    "ref": "sumar-ter-02",
+    "texto": "Fijar un mínimo común de tributación en Patrimonio y Sucesiones en todo el territorio."
+   },
+   {
     "cat": "autonomos",
     "ref": "sumar-emp-09",
-    "texto": "Cotización fija bonificada para autónomos con ingresos inferiores al SMI y compensación de pérdidas sin límite temporal."
+    "texto": "Cotización fija bonificada para autónomos con ingresos reales inferiores al SMI anual, sin pérdida de derechos de protección."
+   },
+   {
+    "cat": "autonomos",
+    "ref": "sumar-rur-02",
+    "texto": "Bonificaciones en las cotizaciones empresariales en territorios de baja densidad y servicios públicos básicos a menos de 30 minutos del medio rural."
    },
    {
     "cat": "vivienda",
     "ref": "sumar-viv-05",
-    "texto": "Recargo en el Impuesto de Sociedades a los fondos que alquilen por encima del precio de referencia o destinen viviendas a uso turístico."
+    "texto": "Pisos turísticos con IVA general del 21% y sin deducciones en Sociedades e IRPF; eliminar la bonificación del 40% del alquiler no asequible en Sociedades."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "sumar-viv-12",
+    "texto": "Derogar de forma inmediata el régimen fiscal especial de SOCIMI y EDAV, con tipo mínimo real del 20%."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "sumar-viv-14",
+    "texto": "Recargo del 100% en la compra de vivienda no habitual por no residentes y extracomunitarios."
+   },
+   {
+    "cat": "vivienda",
+    "ref": "sumar-viv-11",
+    "texto": "Escudo hipotecario: deducción de hasta 300 € al mes para hogares con ingresos inferiores a 3 IPREM cuya cuota supere el 40% de sus ingresos netos."
+   },
+   {
+    "cat": "otros",
+    "ref": "sumar-eco-03",
+    "texto": "Mantener de forma estructural el gravamen específico sobre las entidades bancarias y subir el impuesto sobre depósitos bancarios del 0,03% al 1%."
    },
    {
     "cat": "otros",
     "ref": "sumar-eco-12",
-    "texto": "Reforzar la fiscalidad sobre las compañías energéticas (anunciado por Ernest Urtasun en la presentación de Frente Amplio)."
+    "texto": "Restablecer el gravamen especial del 1,2% sobre la cifra de negocios de las grandes energéticas, con deducciones por activos renovables."
    },
    {
     "cat": "otros",
-    "ref": "sumar-ter-02",
-    "texto": "Reformar la financiación autonómica con un suelo fiscal común que evite la competencia fiscal a la baja entre comunidades."
+    "ref": "sumar-eco-06",
+    "texto": "Derogar el régimen fiscal especial de las SOCIMI y fijar un tope a la concentración de capital de un accionista en las SICAV."
+   },
+   {
+    "cat": "otros",
+    "ref": "sumar-eco-15",
+    "texto": "Impuesto a las transacciones financieras: 0,1% en renta fija, 0,2% en acciones y 0,3% en derivados."
+   },
+   {
+    "cat": "otros",
+    "ref": "sumar-deu-02",
+    "texto": "Financiar el presupuesto de la UE con nuevos recursos propios, como la fiscalidad de empresas digitales y criptomonedas."
    }
   ],
   "upc": [
